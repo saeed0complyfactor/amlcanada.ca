@@ -1,0 +1,10 @@
+# Website-only repository: everything is ignored except what the site needs.
+/*
+!/site/
+!/build.py
+!/legal.py
+!/.github/
+!/README.md
+!/CREDITS.md
+!/.gitignore
+__pycache__/
