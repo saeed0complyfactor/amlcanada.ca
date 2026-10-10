@@ -22,6 +22,10 @@
 - [FINTRAC reporting for MSBs: which report, and when](https://amlcanada.ca/fintrac-reporting-requirements.html): Suspicious transactions, large cash, international transfers and virtual currency: what each FINTRAC report covers and how long you have.
 - [What is the RPAA, and do you need to register?](https://amlcanada.ca/rpaa-registration-guide.html): The Retail Payment Activities Act brought payment service providers under Bank of Canada supervision. Who's covered, what registration involves and what comes after.
 - [Registering a crypto business with FINTRAC](https://amlcanada.ca/crypto-registration-canada.html): Virtual currency dealers register as money services businesses. What that means for crypto exchanges and dealers, at home and abroad.
+- [The two-year effectiveness review: a checklist](https://amlcanada.ca/fintrac-effectiveness-review-checklist.html): What FINTRAC requires from your review, what to test, and how to report it, in a checklist you can work through.
+- [Preparing for a FINTRAC examination](https://amlcanada.ca/fintrac-examination-preparation.html): FINTRAC has been in touch, or soon will be. How examinations work, what's requested, and what to do first.
+- [Buying an MSB in Canada: what to check](https://amlcanada.ca/buying-an-msb-canada.html): Acquiring a company that's already registered with FINTRAC can be a fast route into Canada. What to check before, and what to do after.
+- [Outsourced or in-house compliance officer?](https://amlcanada.ca/outsourced-vs-in-house-compliance-officer.html): Every business FINTRAC regulates needs a compliance officer. Whether to hire, appoint from within or outsource, and what FINTRAC expects either way.
 
 ## About
 
@@ -37,5 +41,9 @@
 - Email: info@amlcanada.ca
 - Phone: +1 807-806-0444
 - Address: Suite 211, 320 Matheson Blvd West, Mississauga, ON L5R 3R1, Canada
+
+## Full content
+
+- [All service pages and guides as plain text](https://amlcanada.ca/llms-full.txt)
 
 The information on this site is general and is not legal advice.

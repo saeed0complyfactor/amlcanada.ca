@@ -54,7 +54,7 @@ GUIDES["how-to-register-msb-canada.html"] = dict(
           ("How long is MSB registration valid?", "Two years. Changes to your registration information must be reported within 30 days.")],
     sources=[("FINTRAC, Register your MSB or FMSB", F_REG), ("Money services businesses", F_MSB), ("Update, renew or cancel your registration", F_UPD),
              ("Compliance program requirements", F_G4), ("Revenu Québec, Money-services business licence", RQ_MSB)],
-    related=["msb-registration-cost-canada.html", "foreign-msb-registration-canada.html", "fintrac-reporting-requirements.html"],
+    related=["msb-registration-cost-canada.html", "foreign-msb-registration-canada.html", "buying-an-msb-canada.html"],
 )
 
 # ------------------------------------------------------------------ 2. cost
@@ -98,7 +98,7 @@ GUIDES["msb-registration-cost-canada.html"] = dict(
           ("Does Quebec charge for an MSB licence?", "Yes. Quebec licenses money-services businesses separately through Revenu Québec, which sets its own fees.")],
     sources=[("FINTRAC, Register your MSB or FMSB", F_REG), ("Update, renew or cancel your registration", F_UPD), ("Compliance program requirements", F_G4),
              ("Revenu Québec, Money-services business licence", RQ_MSB)],
-    related=["how-to-register-msb-canada.html", "foreign-msb-registration-canada.html", "rpaa-registration-guide.html"],
+    related=["how-to-register-msb-canada.html", "buying-an-msb-canada.html", "outsourced-vs-in-house-compliance-officer.html"],
 )
 
 # ------------------------------------------------------------------ 3. foreign MSB
@@ -106,6 +106,7 @@ GUIDES["foreign-msb-registration-canada.html"] = dict(
     title="Foreign MSB Registration in Canada (FMSB) | AML Canada",
     desc="When a business outside Canada must register with FINTRAC as a foreign money services business, what 'directing and providing' means, and what FMSBs need in Canada.",
     crumb="Foreign MSB registration",
+    also=["canadian-address.html"],
     h1="Foreign MSB registration in Canada",
     lede="No office in Canada doesn't mean no obligations. When a foreign business must register with FINTRAC, and what it needs once it does.",
     label="Guide · Foreign MSB",
@@ -129,7 +130,7 @@ GUIDES["foreign-msb-registration-canada.html"] = dict(
           ("Does a foreign MSB need a Canadian address?", "FINTRAC requires a representative for service who lives in Canada. A Canadian business address is a separate thing that many foreign MSBs also want for banking, partners and customers."),
           ("Can a foreign MSB outsource its compliance officer?", "Many do. The foreign business stays responsible for its obligations, but an experienced compliance officer in Canada can carry the day-to-day work.")],
     sources=[("FINTRAC, Money services businesses", F_MSB), ("Register your MSB or FMSB", F_REG), ("Travel rule", F_TRAVEL), ("Update, renew or cancel your registration", F_UPD)],
-    related=["how-to-register-msb-canada.html", "crypto-registration-canada.html", "msb-registration-cost-canada.html"],
+    related=["how-to-register-msb-canada.html", "crypto-registration-canada.html", "outsourced-vs-in-house-compliance-officer.html"],
 )
 
 # ------------------------------------------------------------------ 4. reporting
@@ -137,6 +138,7 @@ GUIDES["fintrac-reporting-requirements.html"] = dict(
     title="FINTRAC Reporting for MSBs: STR, LCTR, EFTR, LVCTR | AML Canada",
     desc="Which reports a money services business must file with FINTRAC, when each applies, the $10,000 threshold, the 24-hour rule and the deadline for each report.",
     crumb="FINTRAC reporting",
+    also=["compliance-programs.html", "training.html"],
     h1="FINTRAC reporting for MSBs: which report, and when",
     lede="Suspicious transactions, large cash, international transfers and virtual currency: what each FINTRAC report covers and how long you have.",
     label="Guide · Reporting",
@@ -170,7 +172,7 @@ GUIDES["fintrac-reporting-requirements.html"] = dict(
           ("When is an STR due?", "As soon as practicable, which FINTRAC describes as between immediately and as soon as possible.")],
     sources=[("FINTRAC, Reporting suspicious transactions", F_STR), ("Reporting large cash transactions", F_LCTR), ("Reporting electronic funds transfers", F_EFT),
              ("Reporting large virtual currency transactions", F_LVCTR), ("The 24-hour rule", F_24), ("Travel rule", F_TRAVEL), ("Record keeping for MSBs", F_REC_MSB)],
-    related=["crypto-registration-canada.html", "how-to-register-msb-canada.html", "foreign-msb-registration-canada.html"],
+    related=["crypto-registration-canada.html", "fintrac-examination-preparation.html", "outsourced-vs-in-house-compliance-officer.html"],
 )
 
 # ------------------------------------------------------------------ 5. RPAA
@@ -182,6 +184,7 @@ GUIDES["rpaa-registration-guide.html"] = dict(
     lede="The Retail Payment Activities Act brought payment service providers under Bank of Canada supervision. Who's covered, what registration involves and what comes after.",
     label="Guide · RPAA",
     service="rpaa-registration.html",
+    also=["rpaa-compliance-program.html"],
     takeaways=["PSPs performing payment functions for end users in Canada register with the Bank.",
                "The Bank charges a one-time application fee, currently CA$2,500.",
                "Applications get a national security review by the Department of Finance.",
@@ -220,6 +223,7 @@ GUIDES["crypto-registration-canada.html"] = dict(
     title="Crypto Business Registration in Canada (FINTRAC) | AML Canada",
     desc="How crypto exchanges and virtual currency dealers register with FINTRAC as MSBs, and what follows: LVCTRs, the travel rule, record keeping and provincial rules.",
     crumb="Crypto registration",
+    also=["compliance-programs.html"],
     h1="Registering a crypto business with FINTRAC",
     lede="Virtual currency dealers register as money services businesses. What that means for crypto exchanges and dealers, at home and abroad.",
     label="Guide · Virtual currency",
@@ -242,4 +246,191 @@ GUIDES["crypto-registration-canada.html"] = dict(
     sources=[("FINTRAC, Money services businesses", F_MSB), ("Reporting large virtual currency transactions", F_LVCTR), ("Travel rule", F_TRAVEL),
              ("Record keeping for MSBs", F_REC_MSB), ("Revenu Québec, Money-services business licence", RQ_MSB)],
     related=["fintrac-reporting-requirements.html", "foreign-msb-registration-canada.html", "how-to-register-msb-canada.html"],
+)
+
+F_CAM = "https://fintrac-canafe.canada.ca/guidance-directives/exam-examen/cam/cams-eng"
+F_EXAM = "https://fintrac-canafe.canada.ca/guidance-directives/exam-examen/05-2005/4-eng"
+F_AMP = "https://fintrac-canafe.canada.ca/pen/2-eng"
+F_AMP_LIST = "https://fintrac-canafe.canada.ca/pen/4-eng"
+F_RBA = "https://fintrac-canafe.canada.ca/guidance-directives/compliance-conformite/rba/rba-eng"
+
+# ------------------------------------------------------------------ 7. effectiveness review checklist
+GUIDES["fintrac-effectiveness-review-checklist.html"] = dict(
+    title="FINTRAC Two-Year Effectiveness Review Checklist | AML Canada",
+    desc="A practical checklist for the two-year AML effectiveness review FINTRAC requires: what to test, who can do it, the 30-day report to a senior officer and common gaps.",
+    crumb="Effectiveness review checklist",
+    also=["compliance-programs.html"],
+    h1="The two-year effectiveness review: a checklist",
+    lede="What FINTRAC requires from your review, what to test, and how to report it, in a checklist you can work through.",
+    label="Guide · Effectiveness review",
+    service="effectiveness-reviews.html",
+    takeaways=["Review every part of your compliance program at least every two years.",
+               "An internal or external auditor does it, or you, if you have no auditor.",
+               "Report the findings in writing to a senior officer within 30 days.",
+               "Test what actually happens, not just whether documents exist."],
+    sections=[
+        ("requirement", "What FINTRAC requires", """          <p>Every business FINTRAC regulates must institute and document a plan to review the effectiveness of its compliance program, and carry out the review at least every two years. The plan must include all the elements of the program: policies and procedures, risk assessment and training.</p>
+          <p>The review is done by an internal or external auditor or, if you don't have an auditor, by yourself. FINTRAC's best-practice advice is that whoever does it shouldn't be directly involved in the compliance program activities being reviewed, so the review stays impartial.</p>"""),
+        ("checklist", "The checklist", """          <h3>Policies and procedures</h3>
+          <ul>
+            <li>Are they written, current, and approved by a senior officer (if you're an entity)?</li>
+            <li>Do they reflect the services you actually offer today, including anything launched since the last review?</li>
+            <li>Do they cover identification, beneficial ownership, politically exposed persons, third-party determination, ongoing monitoring, record keeping, reporting, ministerial directives and the travel rule where it applies?</li>
+          </ul>
+          <h3>Risk assessment</h3>
+          <ul>
+            <li>Does it cover your clients and business relationships, products, services and delivery channels, geography, and new developments and technologies?</li>
+            <li>Has it been updated for new products, markets or agents?</li>
+            <li>Do your controls follow from it, with enhanced measures for high risk?</li>
+          </ul>
+          <h3>Training</h3>
+          <ul>
+            <li>Is there a written, ongoing training program and plan?</li>
+            <li>Did the people who need training, including agents, actually receive it, and are there records?</li>
+            <li>Does the content match your risks and your staff's roles?</li>
+          </ul>
+          <h3>The program in practice</h3>
+          <ul>
+            <li>Sample client files: was identity verified the way your procedures say?</li>
+            <li>Sample transactions: were reportable transactions reported on time, including under the 24-hour rule?</li>
+            <li>Review unusual-activity decisions: were STR decisions documented either way?</li>
+            <li>Check that records can be produced, and are kept for the required period.</li>
+            <li>Check that findings from the last review were actually fixed.</li>
+          </ul>"""),
+        ("report", "Report to a senior officer within 30 days", """          <p>No later than 30 days after the review, report in writing to a senior officer: the findings of the review, the updates made to your policies and procedures during the reporting period, and the status of putting those updates in place. Keep the report; it's one of the first things an examiner may ask for.</p>"""),
+        ("common-gaps", "Common gaps", """          <ul>
+            <li>A review that checks documents exist but never tests whether they're followed.</li>
+            <li>The same review copied from the previous cycle.</li>
+            <li>A risk assessment that hasn't changed since launch, though the business has.</li>
+            <li>Findings from the last review still open.</li>
+            <li>No written report to a senior officer, or one sent late.</li>
+          </ul>"""),
+    ],
+    faqs=[("How often is an AML effectiveness review required?", "At least every two years."),
+          ("Who can do the effectiveness review?", "An internal or external auditor, or yourself if you don't have an auditor. FINTRAC suggests it shouldn't be someone directly involved in the activities being reviewed."),
+          ("What happens after the review?", "Report the findings in writing to a senior officer within 30 days, along with the updates made to policies and procedures and how far they've been put in place.")],
+    sources=[("FINTRAC, Compliance program requirements", F_G4), ("Risk assessment guidance", F_RBA), ("The 24-hour rule", F_24)],
+    related=["fintrac-examination-preparation.html", "fintrac-reporting-requirements.html", "outsourced-vs-in-house-compliance-officer.html"],
+)
+
+# ------------------------------------------------------------------ 8. examination preparation
+GUIDES["fintrac-examination-preparation.html"] = dict(
+    title="Preparing for a FINTRAC Examination: What to Expect | AML Canada",
+    desc="How FINTRAC examinations work, from the notification letter to the findings letter, what FINTRAC asks for, and how to prepare your program, records and team.",
+    crumb="FINTRAC examination",
+    h1="Preparing for a FINTRAC examination",
+    lede="FINTRAC has been in touch, or soon will be. How examinations work, what's requested, and what to do first.",
+    label="Guide · Examination",
+    service="effectiveness-reviews.html",
+    takeaways=["The examination starts on the date of FINTRAC's notification call.",
+               "The notification letter requests your program documents and records.",
+               "Reports filed after the notification date count as late.",
+               "Findings can lead to follow-up or an administrative monetary penalty."],
+    sections=[
+        ("how-it-works", "How a FINTRAC examination works", """          <p>FINTRAC's assessment manual describes three phases: planning and scoping, examination and assessment, and drawing conclusions and closing out. Examinations can be done remotely (a desk examination) or at your place of business (an on-site examination).</p>
+          <p>It usually starts with a call to your compliance officer, confirmed in a notification letter. The letter is FINTRAC's formal request for information: your compliance program documents and, where relevant, lists of transactions and records. FINTRAC treats the notification call as the start of the examination.</p>"""),
+        ("timing", "Why the notification date matters", """          <p>Anything not reported or corrected before the notification date can count against you. A report filed after that date, for example, is treated as not having been filed when it was required. The time to fix your reporting is before FINTRAC calls, which is why a regular <a href="fintrac-effectiveness-review-checklist.html">effectiveness review</a> matters.</p>"""),
+        ("first-steps", "What to do first", """          <ol>
+            <li><strong>Read the letter carefully</strong> and note every deadline. Missing them is itself a risk.</li>
+            <li><strong>Gather your compliance program</strong>: policies and procedures, risk assessment, training program and records, and your last effectiveness review and its report to a senior officer.</li>
+            <li><strong>Pull the records requested</strong>, completely and in the format asked for.</li>
+            <li><strong>Brief the people involved</strong>, especially your compliance officer and anyone FINTRAC may interview.</li>
+            <li><strong>Be accurate.</strong> Don't create documents after the fact to fill gaps; explain what exists and what you're fixing.</li>
+          </ol>"""),
+        ("after", "After the examination", """          <p>FINTRAC may send a findings letter to your compliance officer, covering the findings discussed at the exit meeting and listing deficient records. The outcome can be no further action, follow-up, a recommended enforcement action, or a notice of violation with a penalty. If an action plan is requested, it's typically due within 30 calendar days.</p>
+          <p>Administrative monetary penalties aren't automatic. FINTRAC considers the nature and extent of the problem, its root cause, mitigating and aggravating factors, and your compliance history. If you receive a notice of violation, you can make written representations within 30 days. FINTRAC publishes certain penalties on its website.</p>"""),
+        ("prepare", "Preparing before FINTRAC calls", """          <ul>
+            <li>Keep your program current and approved by a senior officer.</li>
+            <li>Make sure every reportable transaction has been reported, and late reports are dealt with.</li>
+            <li>Keep training records and your last effectiveness review ready to send.</li>
+            <li>Close the findings from your last review or examination.</li>
+          </ul>
+          <p>An <a href="outsourced-compliance-officer.html">outsourced compliance officer</a> can keep this in order between examinations.</p>"""),
+    ],
+    faqs=[("How much notice does FINTRAC give before an examination?", "FINTRAC's guidance says the notification letter usually arrives 30 to 45 days before the examination date, sometimes longer for larger businesses."),
+          ("Can FINTRAC examinations be done remotely?", "Yes. Examinations can be desk examinations done remotely, or on-site at your place of business."),
+          ("Does every deficiency lead to a penalty?", "No. FINTRAC says penalties aren't an automatic response. It considers the nature, extent and root cause of the problem and your compliance history.")],
+    sources=[("FINTRAC assessment manual", F_CAM), ("FINTRAC examinations: what to expect", F_EXAM), ("Administrative monetary penalties policy", F_AMP), ("Public notices of penalties", F_AMP_LIST)],
+    related=["fintrac-effectiveness-review-checklist.html", "fintrac-reporting-requirements.html", "outsourced-vs-in-house-compliance-officer.html"],
+)
+
+# ------------------------------------------------------------------ 9. buying an MSB
+GUIDES["buying-an-msb-canada.html"] = dict(
+    title="Buying an MSB in Canada: What to Check | AML Canada",
+    desc="Buying a FINTRAC-registered money services business in Canada: due diligence, FINTRAC updates within 30 days, criminal record checks for new owners, and what comes after.",
+    crumb="Buying an MSB",
+    h1="Buying an MSB in Canada: what to check",
+    lede="Acquiring a company that's already registered with FINTRAC can be a fast route into Canada. What to check before, and what to do after.",
+    label="Guide · Acquisition",
+    service="msb-for-sale.html",
+    takeaways=["Check the registration is active and covers the services you need.",
+               "Tell FINTRAC about changes, like new owners and directors, within 30 days.",
+               "New directors and 20%+ owners need criminal record checks.",
+               "The compliance obligations come with the company."],
+    sections=[
+        ("why", "Why buy instead of register?", """          <p>Some businesses prefer to acquire a Canadian company that's already registered with FINTRAC as a money services business, rather than <a href="how-to-register-msb-canada.html">registering a new one</a>. It means starting from an established entity with a registration history. It costs more up front, and the due diligence matters as much as the price.</p>"""),
+        ("due-diligence", "What to check before you buy", """          <ul>
+            <li><strong>Registration status:</strong> active, not expired or revoked, and listed on FINTRAC's public MSB registry.</li>
+            <li><strong>Registered services:</strong> do they match what you plan to offer? Adding services later means updating the registration.</li>
+            <li><strong>Renewal date:</strong> registration lasts two years. Know when it's next due.</li>
+            <li><strong>Compliance history:</strong> past examinations, findings, and any published penalties.</li>
+            <li><strong>Corporate records:</strong> ownership history, directors, and that the company is in good standing.</li>
+            <li><strong>Provincial rules:</strong> Quebec, for example, licenses money-services businesses separately.</li>
+          </ul>"""),
+        ("after-purchase", "After the purchase: updating FINTRAC", """          <p>A registered MSB must tell FINTRAC within 30 days when its registration information changes. A change of ownership usually means several changes at once: owners, directors, senior management, and often the compliance officer and address.</p>
+          <p>FINTRAC requires criminal record checks for the chief executive officer, the president, directors and anyone owning or controlling 20% or more. Plan for these for the new people, especially if they live outside Canada, since checks must be dated within six months and translated if needed.</p>"""),
+        ("obligations", "The obligations come with the company", """          <p>The business still needs a compliance program that reflects its new owners, services and risks, a compliance officer with real authority, reporting to FINTRAC, record keeping, and renewal every two years. FINTRAC registration also doesn't guarantee banking or payment partners, which make their own decisions.</p>"""),
+    ],
+    faqs=[("Can you buy a FINTRAC-registered MSB?", "Yes. You can acquire a company that's already registered. Changes to its registration information, such as new owners and directors, must be reported to FINTRAC within 30 days."),
+          ("How much does a registered MSB cost?", "It varies by company. Our registered MSBs for acquisition start from €28,000."),
+          ("Do new owners need criminal record checks?", "FINTRAC requires criminal record checks for directors and anyone owning or controlling 20% or more, so plan for them as part of the purchase.")],
+    sources=[("FINTRAC, Register your MSB or FMSB", F_REG), ("Update, renew or cancel your registration", F_UPD), ("Money services businesses", F_MSB), ("Revenu Québec, Money-services business licence", RQ_MSB)],
+    related=["how-to-register-msb-canada.html", "msb-registration-cost-canada.html", "foreign-msb-registration-canada.html"],
+)
+
+# ------------------------------------------------------------------ 10. outsourced vs in-house
+GUIDES["outsourced-vs-in-house-compliance-officer.html"] = dict(
+    title="Outsourced vs In-House Compliance Officer (Canada) | AML Canada",
+    desc="Should your MSB or fintech appoint an in-house AML compliance officer or outsource the role? What FINTRAC expects of the role, and how to choose.",
+    crumb="Outsourced vs in-house",
+    also=["training.html"],
+    h1="Outsourced or in-house compliance officer?",
+    lede="Every business FINTRAC regulates needs a compliance officer. Whether to hire, appoint from within or outsource, and what FINTRAC expects either way.",
+    label="Guide · Compliance officer",
+    service="outsourced-compliance-officer.html",
+    takeaways=["Every reporting entity must appoint a compliance officer.",
+               "The officer needs authority and access to resources and decision-makers.",
+               "Small businesses can appoint the owner or operator.",
+               "Your business stays responsible, however the role is filled."],
+    sections=[
+        ("requirement", "What FINTRAC expects of a compliance officer", """          <p>Appointing a compliance officer is the first of the five parts of a compliance program. The person must have the necessary authority and access to resources to implement an effective program, and FINTRAC's best practice is that they can communicate directly with the people who make decisions about the business.</p>
+          <p>Who it should be depends on size. In a small business, it can be the owner or operator. In a large business, FINTRAC expects someone from a senior level with direct access to senior management and the board.</p>"""),
+        ("options", "Your three options", """          <h3>1. Appoint the owner or an existing manager</h3>
+          <p>Common in small businesses. It works when that person has the time and the knowledge. The risk is that compliance competes with everything else they do.</p>
+          <h3>2. Hire an in-house compliance officer</h3>
+          <p>Right for larger or fast-growing businesses with steady volumes. You get full-time attention, at the cost of a senior salary and the challenge of finding someone experienced with Canadian requirements.</p>
+          <h3>3. Use an outsourced compliance officer</h3>
+          <p>An experienced compliance professional carries the day-to-day work, or supports the person you appoint, for the hours you need. However it's arranged, your business remains responsible for its obligations, and the arrangement should be set out in writing so it's clear who decides and signs off on what.</p>"""),
+        ("compare", "Side by side", """          <div class="table-wrap"><table>
+            <thead><tr><th scope="col"></th><th scope="col">In-house hire</th><th scope="col">Outsourced</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Cost</th><td>A full-time senior salary</td><td>The hours you need; with us, US$1,500 per 10 hours</td></tr>
+              <tr><th scope="row">Experience</th><td>Depends on who you can hire</td><td>Someone who works with FINTRAC requirements every day</td></tr>
+              <tr><th scope="row">Scaling</th><td>Hire more people</td><td>Add hours as volumes grow</td></tr>
+              <tr><th scope="row">Best for</th><td>Large, steady operations</td><td>New, growing and foreign businesses</td></tr>
+            </tbody>
+          </table></div>"""),
+        ("what-they-do", "What the work involves", """          <p>Whichever option you choose, the work is the same: second-line review of customer onboarding, advice on cases and products, <a href="fintrac-reporting-requirements.html">reporting to FINTRAC</a> on time, keeping policies and the risk assessment current, client risk ratings, training, and preparing for the <a href="fintrac-effectiveness-review-checklist.html">effectiveness review</a> and any <a href="fintrac-examination-preparation.html">examination</a>.</p>"""),
+        ("choose", "How to choose", """          <ul>
+            <li>If no one in the business has AML experience, outsourcing gets you expertise straight away.</li>
+            <li>If you're based outside Canada, a compliance officer who works with Canadian requirements daily closes a big gap.</li>
+            <li>If volumes are high and steady, an in-house hire, supported by outside reviews, may make sense.</li>
+            <li>Many businesses start outsourced and move in-house as they grow.</li>
+          </ul>"""),
+    ],
+    faqs=[("Does every MSB need a compliance officer?", "Yes. Appointing a compliance officer is a required part of every reporting entity's compliance program."),
+          ("Can a small business owner be the compliance officer?", "Yes. FINTRAC's guidance says that in a small business the owner or operator can be the compliance officer."),
+          ("How much does an outsourced compliance officer cost?", "With us, US$1,500 per block of 10 hours, scaled to your workload.")],
+    sources=[("FINTRAC, Compliance program requirements", F_G4)],
+    related=["fintrac-reporting-requirements.html", "fintrac-effectiveness-review-checklist.html", "fintrac-examination-preparation.html"],
 )

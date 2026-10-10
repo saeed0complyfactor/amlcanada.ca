@@ -567,7 +567,7 @@ def deep_page(file):
             + guide(d["guide"], d["sources"])
             + who_for(d["for_title"], d["for_items"], d["arts"])
             + faq_block(d["faqs"], f'{d["name"]}: questions')
-            + (guide_cards(gs, "Guides on this") if (gs := [f for f, g in GUIDES.items() if g["service"] == file]) else "")
+            + (guide_cards(gs, "Guides on this") if (gs := [f for f, g in GUIDES.items() if file in (g["service"], *g.get("also", ()))][:3]) else "")
             + related(d["related"])
             + close_and_footer(need=d["need"]))
 
@@ -896,7 +896,7 @@ PAGES["guides.html"] = (
          "guides.html")
     + nav("guides.html") + '  <main id="main">\n'
     + page_hero([], "Guides", ("Guides to FINTRAC and RPAA compliance.",
-                "Plain-English answers to the questions we hear most, checked against FINTRAC and the Bank of Canada."), "Guides · 6", actions=False)
+                "Plain-English answers to the questions we hear most, checked against FINTRAC and the Bank of Canada."), f"Guides · {len(GUIDES)}", actions=False)
     + guide_cards(list(GUIDES), "All guides").replace('class="guides-more"', 'class="guides-more guides-index" id="start"', 1)
     + close_and_footer()
 )
@@ -1136,8 +1136,54 @@ def llms():
 - Phone: {PHONE_DISPLAY}
 - Address: {", ".join(ADDRESS_LINES)}
 
+## Full content
+
+- [All service pages and guides as plain text]({SITE}llms-full.txt)
+
 The information on this site is general and is not legal advice.
 """
+
+
+
+# ---------------------------------------------------------------- llms-full.txt (plain text for AI assistants)
+INDEXNOW_KEY = "5f3c9a1e7b2d4c8a9e6f0b1d2c3a4e5f"
+
+
+def md(html):
+    """Very small HTML-to-Markdown pass for the long-form content."""
+    t = html
+    t = re.sub(r"<h3[^>]*>(.*?)</h3>", r"\n### \1\n", t, flags=re.S)
+    t = re.sub(r"<tr[^>]*>(.*?)</tr>", lambda m: "| " + " | ".join(
+        re.sub(r"<[^>]+>", "", c).strip() for c in re.findall(r"<t[hd][^>]*>(.*?)</t[hd]>", m.group(1), re.S)) + " |\n", t, flags=re.S)
+    t = re.sub(r"<li[^>]*>(.*?)</li>", r"- \1\n", t, flags=re.S)
+    t = re.sub(r'<a href="([^"]+)"[^>]*>(.*?)</a>',
+               lambda m: f"[{m.group(2)}]({m.group(1) if m.group(1).startswith('http') else SITE + m.group(1)})", t, flags=re.S)
+    t = re.sub(r"</p>", "\n\n", t)
+    t = re.sub(r"<(strong|b)>(.*?)</\1>", r"**\2**", t, flags=re.S)
+    t = re.sub(r"<[^>]+>", "", t)
+    t = re.sub(r"[ \t]+", " ", t)
+    t = re.sub(r"\n[ \t]+", "\n", t)
+    return re.sub(r"\n{3,}", "\n\n", t).strip()
+
+
+def llms_full():
+    out = [f"# AML Canada: full content\n\n> {SITE} AML and regulatory compliance services in Canada, operated by {OPERATOR}, "
+           "a private consultancy not affiliated with FINTRAC or the Bank of Canada. General information, not legal advice. "
+           f"Contact: {EMAIL}, {PHONE_DISPLAY}. Fees in USD unless stated.\n"]
+    for f, d in DEEP.items():
+        fee = d["fee"]
+        out.append(f"\n---\n\n## {d['name']}\n\nURL: {SITE}{f}\n\n{d['lede']}\n\n**Fee:** {fee['amount']} ({fee['unit']}). {fee['note']}\n\n**Included:**\n"
+                   + "\n".join(f"- {i}" for i in fee["items"]) + "\n\n"
+                   + "\n\n".join(f"### {h}\n\n{md(x)}" for _, h, x in d["guide"])
+                   + "\n\n### Questions\n\n" + "\n\n".join(f"**{q}** {a}" for q, a in d["faqs"])
+                   + "\n\nSources: " + "; ".join(f"[{t}]({u})" for t, u in d["sources"]) + f". Checked {CHECKED}.\n")
+    for f, g in GUIDES.items():
+        out.append(f"\n---\n\n## Guide: {g['h1']}\n\nURL: {SITE}{f}\n\n{g['lede']}\n\n**Key points:**\n"
+                   + "\n".join(f"- {t}" for t in g["takeaways"]) + "\n\n"
+                   + "\n\n".join(f"### {h}\n\n{md(x)}" for _, h, x in g["sections"])
+                   + "\n\n### Questions\n\n" + "\n\n".join(f"**{q}** {a}" for q, a in g["faqs"])
+                   + "\n\nSources: " + "; ".join(f"[{t}]({u})" for t, u in g["sources"]) + f". Checked {CHECKED}.\n")
+    return "".join(out)
 
 
 def main():
@@ -1166,6 +1212,8 @@ def main():
                   {"src": "/icon-512.png", "sizes": "512x512", "type": "image/png"}]}, indent=2) + "\n", encoding="utf-8")
     (OUT / "sitemap.xml").write_text(sitemap(), encoding="utf-8")
     (OUT / "llms.txt").write_text(llms(), encoding="utf-8")
+    (OUT / "llms-full.txt").write_text(llms_full(), encoding="utf-8")
+    (OUT / f"{INDEXNOW_KEY}.txt").write_text(INDEXNOW_KEY, encoding="utf-8")
     print("wrote 404.html, robots.txt, sitemap.xml, llms.txt")
     cfg = OUT / "site-config.js"
     if not cfg.exists():
