@@ -98,8 +98,8 @@ def jsonld(path):
         graph = [{
             "@type": "Organization", "@id": ORG_ID, "name": "AML Canada", "legalName": OPERATOR,
             "url": SITE,
-            "logo": {"@type": "ImageObject", "@id": SITE + "#logo", "url": SITE + "favicon.svg", "contentUrl": SITE + "favicon.svg"},
-            "image": SITE + "favicon.svg",
+            "logo": {"@type": "ImageObject", "@id": SITE + "#logo", "url": SITE + "icon-512.png", "contentUrl": SITE + "icon-512.png", "width": 512, "height": 512},
+            "image": SITE + "og-default.png",
             "description": "AML and regulatory compliance services in Canada: FINTRAC registration, compliance programs, effectiveness reviews and training.",
             "email": EMAIL, "telephone": PHONE_TEL, "address": POSTAL,
             "areaServed": {"@type": "Country", "name": "Canada"},
@@ -149,8 +149,11 @@ SOCIAL = """  <meta property="og:image" content="https://amlcanada.ca/og-default
   <meta property="og:image:alt" content="AML Canada: AML compliance for businesses FINTRAC regulates">
   <meta name="twitter:card" content="summary_large_image">"""
 ICON_LINKS = """  <link rel="icon" href="favicon.ico" sizes="48x48">
+  <link rel="icon" href="icon-96.png" type="image/png" sizes="96x96">
+  <link rel="icon" href="icon-192.png" type="image/png" sizes="192x192">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="apple-touch-icon.png">"""
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">"""
 
 
 def head(title, desc, path, robots=""):
@@ -1156,6 +1159,11 @@ def main():
     (OUT / "404.html").write_text(page_404(), encoding="utf-8")
     (OUT / "robots.txt").write_text(ROBOTS, encoding="utf-8")
     (OUT / "CNAME").write_text("amlcanada.ca\n", encoding="utf-8")
+    (OUT / "site.webmanifest").write_text(json.dumps({
+        "name": "AML Canada", "short_name": "AML Canada", "start_url": "/", "display": "standalone",
+        "background_color": "#06080C", "theme_color": "#06080C",
+        "icons": [{"src": "/icon-192.png", "sizes": "192x192", "type": "image/png"},
+                  {"src": "/icon-512.png", "sizes": "512x512", "type": "image/png"}]}, indent=2) + "\n", encoding="utf-8")
     (OUT / "sitemap.xml").write_text(sitemap(), encoding="utf-8")
     (OUT / "llms.txt").write_text(llms(), encoding="utf-8")
     print("wrote 404.html, robots.txt, sitemap.xml, llms.txt")
