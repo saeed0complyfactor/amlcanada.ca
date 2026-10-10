@@ -1,6 +1,10 @@
 # Website-only repository: everything is ignored except what the site needs.
 /*
 !/site/
+!/site-v3/
+!/build_v3.py
+!/content_v3.py
+!/guides_v3.py
 !/build.py
 !/legal.py
 !/.github/
@@ -8,3 +12,6 @@
 !/CREDITS.md
 !/.gitignore
 __pycache__/
+# design-system working files stay local
+/site-v3/DESIGN.md
+/site-v3/design.json

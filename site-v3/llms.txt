@@ -1,0 +1,41 @@
+# AML Canada
+
+> AML and regulatory compliance services in Canada. AML Canada helps money services businesses, virtual currency dealers, payment service providers and fintechs register with FINTRAC and the Bank of Canada (RPAA), build compliance programs under the PCMLTFA, run their compliance function with an outsourced compliance officer, prepare for examinations and train their staff. Operated by ComplyFactor Limited, a private consultancy not affiliated with FINTRAC or the Bank of Canada.
+
+## Services
+
+- [Outsourced compliance officer](https://amlcanada.ca/outsourced-compliance-officer.html): An outsourced Canadian AML compliance officer (MLRO): onboarding reviews, FINTRAC reporting, policies and risk assessments. US$1,500 per 10 hours.
+- [MSB registration](https://amlcanada.ca/msb-registration.html): FINTRAC registration for money services businesses, foreign MSBs and virtual currency (crypto) dealers. Fixed fee US$3,500, prepared and submitted with you.
+- [Compliance programs](https://amlcanada.ca/compliance-programs.html): PCMLTFA compliance program documents for FINTRAC-regulated businesses: policies and procedures, risk assessment, training and review plans. Fixed fee US$3,500.
+- [Canadian address](https://amlcanada.ca/canadian-address.html): A FINTRAC-compliant Canadian business address for foreign MSBs and companies entering Canada, for your registration and setup. US$200 per month.
+- [MSB for sale](https://amlcanada.ca/msb-for-sale.html): Buy a Canadian company already registered with FINTRAC as a money services business. Acquisitions from €28,000, with FINTRAC updates handled with you.
+- [RPAA registration](https://amlcanada.ca/rpaa-registration.html): Register as a payment service provider (PSP) with the Bank of Canada under the RPAA. Fixed fee US$3,500, plus the Bank's CA$2,500 application fee.
+- [RPAA compliance program](https://amlcanada.ca/rpaa-compliance-program.html): RPAA frameworks for PSPs: governance, risk registers, incident response, third parties, safeguarding, cyber and continuity, annual reports. Fixed fee US$3,500.
+- [Effectiveness reviews](https://amlcanada.ca/effectiveness-reviews.html): The two-year AML effectiveness review FINTRAC requires: your policies, risk assessment and training tested in practice, with written findings and exam preparation.
+- [Training](https://amlcanada.ca/training.html): Scenario-based anti-money laundering training for MSB front-line staff, compliance teams and senior management, built to meet FINTRAC's training requirement.
+
+## Guides
+
+- [How to register an MSB in Canada](https://amlcanada.ca/how-to-register-msb-canada.html): A step-by-step guide to registering a money services business with FINTRAC, from checking whether you need to, to staying registered.
+- [How much does MSB registration cost in Canada?](https://amlcanada.ca/msb-registration-cost-canada.html): FINTRAC charges nothing to register. The real costs are elsewhere. Here's what to budget for, and what our fixed fees cover.
+- [Foreign MSB registration in Canada](https://amlcanada.ca/foreign-msb-registration-canada.html): No office in Canada doesn't mean no obligations. When a foreign business must register with FINTRAC, and what it needs once it does.
+- [FINTRAC reporting for MSBs: which report, and when](https://amlcanada.ca/fintrac-reporting-requirements.html): Suspicious transactions, large cash, international transfers and virtual currency: what each FINTRAC report covers and how long you have.
+- [What is the RPAA, and do you need to register?](https://amlcanada.ca/rpaa-registration-guide.html): The Retail Payment Activities Act brought payment service providers under Bank of Canada supervision. Who's covered, what registration involves and what comes after.
+- [Registering a crypto business with FINTRAC](https://amlcanada.ca/crypto-registration-canada.html): Virtual currency dealers register as money services businesses. What that means for crypto exchanges and dealers, at home and abroad.
+
+## About
+
+- [All services](https://amlcanada.ca/services.html)
+- [Pricing](https://amlcanada.ca/pricing.html): FINTRAC MSB registration US$3,500; PCMLTFA compliance program (14 documents) US$3,500; outsourced compliance officer US$1,500 per 10 hours; RPAA registration US$3,500 plus the Bank of Canada's CA$2,500 application fee; RPAA compliance program US$3,500; Canadian address US$200 per month; registered MSBs for sale from EUR 28,000.
+- [Who we help](https://amlcanada.ca/who-we-help.html): money services businesses, virtual currency dealers, foreign MSBs, fintechs and compliance officers.
+- [How we work](https://amlcanada.ca/how-we-work.html)
+- [About AML Canada](https://amlcanada.ca/about.html)
+- [Book a consultation](https://amlcanada.ca/contact.html)
+
+## Contact
+
+- Email: info@amlcanada.ca
+- Phone: +1 807-806-0444
+- Address: Suite 211, 320 Matheson Blvd West, Mississauga, ON L5R 3R1, Canada
+
+The information on this site is general and is not legal advice.
