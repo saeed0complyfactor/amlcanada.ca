@@ -127,7 +127,7 @@ def jsonld(path):
             trail += [("Guides", SITE + "guides.html"), (g["crumb"], url)]
             graph.append({"@type": "Article", "@id": url + "#article", "headline": g["h1"], "description": g["desc"],
                           "url": url, "mainEntityOfPage": url, "image": SITE + "og-default.png", "inLanguage": "en-CA",
-                          "datePublished": PUBLISHED, "dateModified": LASTMOD,
+                          "datePublished": g.get("date", PUBLISHED), "dateModified": max(g.get("date", PUBLISHED), LASTMOD),
                           "author": {"@id": ORG_ID}, "publisher": {"@id": ORG_ID},
                           "about": {"@id": SITE + g["service"] + "#service"} if g["service"] in SCHEMA_SERVICES else None})
             if graph[-1]["about"] is None:
@@ -870,9 +870,16 @@ def guide_cards(files, title="More guides"):
 """
 
 
+def nice_date(iso):
+    y, m, d = iso.split("-")
+    months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+    return f"{int(d)} {months[int(m) - 1]} {y}"
+
+
 def guide_page(file):
     g = GUIDES[file]
-    meta = f'Guide · Updated {UPDATED} · {read_minutes(g)} min read · AML Canada'
+    kind = "Update" if g.get("kind") == "update" else "Guide"
+    meta = f'{kind} · {"Published " + nice_date(g["date"]) if g.get("date") else "Updated " + UPDATED} · {read_minutes(g)} min read · AML Canada'
     hero = page_hero([("guides.html", "Guides")], g["crumb"], (g["h1"], g["lede"]), g["label"], actions=False)
     hero = hero.replace('<p class="page-lede">', f'<p class="guide-meta">{meta}</p>\n        <p class="page-lede">', 1)
     return (head(g["title"], g["desc"], file) + nav(file) + '  <main id="main">\n'
@@ -897,7 +904,11 @@ PAGES["guides.html"] = (
     + nav("guides.html") + '  <main id="main">\n'
     + page_hero([], "Guides", ("Guides to FINTRAC and RPAA compliance.",
                 "Plain-English answers to the questions we hear most, checked against FINTRAC and the Bank of Canada."), f"Guides · {len(GUIDES)}", actions=False)
-    + guide_cards(list(GUIDES), "All guides").replace('class="guides-more"', 'class="guides-more guides-index" id="start"', 1)
+    + (guide_cards(sorted((f for f, g in GUIDES.items() if g.get("kind") == "update"), key=lambda f: GUIDES[f]["date"], reverse=True)[:9],
+                   "Latest updates").replace('class="guides-more"', 'class="guides-more guides-index" id="start"', 1)
+       if any(g.get("kind") == "update" for g in GUIDES.values()) else "")
+    + guide_cards([f for f, g in GUIDES.items() if g.get("kind") != "update"], "All guides").replace(
+        'class="guides-more"', 'class="guides-more guides-index" id="start"' if not any(g.get("kind") == "update" for g in GUIDES.values()) else 'class="guides-more"', 1)
     + close_and_footer()
 )
 

@@ -434,3 +434,11 @@ GUIDES["outsourced-vs-in-house-compliance-officer.html"] = dict(
     sources=[("FINTRAC, Compliance program requirements", F_G4)],
     related=["fintrac-reporting-requirements.html", "fintrac-effectiveness-review-checklist.html", "fintrac-examination-preparation.html"],
 )
+
+
+# Dated posts (Latest updates) render with the same template; newest first.
+from posts_v3 import POSTS  # noqa: E402
+
+for _k, _v in POSTS.items():
+    _v.setdefault("kind", "update")
+GUIDES = {**POSTS, **GUIDES}
