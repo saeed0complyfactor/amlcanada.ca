@@ -31,14 +31,14 @@ POSTAL = {"@type": "PostalAddress", "streetAddress": "320 Matheson Blvd West, Su
 SERVICES = [
     ("outsourced-compliance-officer.html", "Outsourced compliance officer", "scan", "A Canadian AML compliance officer (MLRO): onboarding reviews, FINTRAC reporting, policies and risk assessments.", "US$1,500 / 10 hours"),
     ("msb-registration.html", "MSB registration", "register", "FINTRAC registration for money services businesses, foreign MSBs and virtual currency dealers.", "US$3,500"),
-    ("compliance-programs.html", "Compliance programs", "programme", "14 PCMLTFA compliance program documents, written for how you operate.", "US$3,500"),
+    ("compliance-programs.html", "Compliance programs", "programme", "14 PCMLTFA compliance program documents, based on your business.", "US$3,500"),
     ("rpaa-registration.html", "RPAA registration", "register", "Payment service provider registration with the Bank of Canada under the RPAA.", "US$3,500 + Bank fee"),
     ("rpaa-compliance-program.html", "RPAA compliance program", "programme", "Governance, risk, incident response, safeguarding and continuity frameworks for PSPs.", "US$3,500"),
     ("msb-for-sale.html", "MSB for sale", "one", "A Canadian company already registered with FINTRAC as a money services business.", "From €28,000"),
     ("incorporation-canada.html", "Company incorporation", "one", "A Canadian company, federal or Ontario, usually incorporated within a few hours to 24 hours.", "US$1,500"),
-    ("canadian-address.html", "Canadian address", "address", "A FINTRAC-compliant Canadian business address for foreign MSBs and companies entering Canada.", "US$200 / month"),
+    ("canadian-address.html", "Canadian address", "address", "A Canadian business address for foreign MSBs and companies entering Canada.", "US$200 / month"),
     ("effectiveness-reviews.html", "Effectiveness reviews", "review", "The two-year review FINTRAC requires, and preparation for an examination.", "Scoped"),
-    ("training.html", "Training", "training", "Scenario-based AML training for front-line staff, compliance teams and management.", "Scoped"),
+    ("training.html", "Training", "training", "AML training for front-line staff, compliance teams and management.", "Scoped"),
 ]
 SERVICE = {s[0]: s for s in SERVICES}
 PICK = {f: DEEP[f]["need"] for f, *_ in SERVICES}
@@ -157,6 +157,9 @@ ICON_LINKS = """  <link rel="icon" href="favicon.ico" sizes="48x48">
   <link rel="manifest" href="site.webmanifest">"""
 
 
+OG_ARTICLE = f'\n  <meta property="article:modified_time" content="{LASTMOD}">'
+
+
 def head(title, desc, path, robots=""):
     return f"""<!doctype html>
 <html lang="en-CA">
@@ -168,7 +171,7 @@ def head(title, desc, path, robots=""):
   <link rel="canonical" href="https://amlcanada.ca/{path}">{robots}
   <meta property="og:title" content="{escape(title)}">
   <meta property="og:description" content="{escape(desc)}">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="{'article' if path in GUIDES else 'website'}">{OG_ARTICLE if path in GUIDES else ''}
   <meta property="og:url" content="https://amlcanada.ca/{path}">
   <meta property="og:site_name" content="AML Canada">
   <meta property="og:locale" content="en_CA">
@@ -405,7 +408,7 @@ def page_hero(crumbs, title, lede, label, flag=False, actions=True, need="", pri
 """
 
 
-def close_and_footer(close_title="See what moves. Report what&nbsp;matters.", need=""):
+def close_and_footer(close_title="Tell us what you need help&nbsp;with.", need=""):
     return f"""    <section class="close" data-theme="dark" aria-labelledby="close-title">
       <canvas class="close-canvas" aria-hidden="true" data-close-canvas></canvas>
       <div class="wrap close-inner">
@@ -464,7 +467,7 @@ def what_we_do(items, title="What we do"):
       <div class="wrap">
         <div class="work-head">
           <h2 id="work-title">{title}</h2>
-          <p>Agreed with you in a written scope before anything starts.</p>
+          <p>Set out in a written scope that you agree first.</p>
         </div>
         <ol class="work-list">
 {rows}
@@ -559,6 +562,14 @@ def guide(sections, sources):
 """
 
 
+def faq_schema(faqs):
+    data = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+        {"@type": "Question", "name": re.sub(r"<[^>]+>", "", q),
+         "acceptedAnswer": {"@type": "Answer", "text": re.sub(r"<[^>]+>", "", a)}} for q, a in faqs]}
+    out = json.dumps(data, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
+    return f'\n    <script type="application/ld+json">{out}</script>'
+
+
 def faq_block(faqs, title="Questions"):
     items = "\n".join(f'            <details><summary>{q}<svg aria-hidden="true"><use href="#i-plus"/></svg></summary><p>{a}</p></details>'
                       for q, a in faqs)
@@ -572,7 +583,7 @@ def faq_block(faqs, title="Questions"):
 {items}
         </div>
       </div>
-    </section>
+    </section>{faq_schema(faqs)}
 """
 
 
@@ -616,7 +627,7 @@ PAGES["services.html"] = (
                 f"{len(SERVICES)} services for money services businesses, payment service providers and fintechs, most at a fixed fee."), f"Services · {len(SERVICES)}")
     + intro("From your first registration to your next examination, we help you meet your obligations and show that you have.",
             ["Most services have a fixed fee, shown below and on our <a href=\"pricing.html\">pricing page</a>. Effectiveness reviews and training are scoped to your business.",
-             "Start with the one you need most. Add the rest when your business, your products or your obligations change."])
+             "Most clients start with the one they need most and add others later."])
     + f"""    <section class="svc-list" data-theme="light" aria-labelledby="svc-title">
       <div class="wrap">
         <h2 id="svc-title" class="sr">All services</h2>
@@ -628,9 +639,9 @@ PAGES["services.html"] = (
 """
     + clients_block()
     + what_we_do([("Consultation", "A conversation about your business, your timeline and what's required of you."),
-                  ("Written scope", "What you're getting, set out before anything starts."),
+                  ("Written scope", "What you're getting and what it costs, in writing."),
                   ("Delivery", "We do the work with you and explain the decisions along the way."),
-                  ("Ongoing support", "Help as your business, your products or your obligations change.")], "How the work runs")
+                  ("Ongoing support", "Updates to your program when you launch a product, enter a market or change how you operate.")], "How the work runs")
     + close_and_footer()
 )
 
@@ -641,7 +652,7 @@ price_rows = "\n".join(
               <td class="pr-amount">{DEEP[h]["fee"]["amount"]}</td>
               <td>{DEEP[h]["fee"]["unit"]}</td>
               <td>{d}</td>
-              <td>{DEEP[h].get("timing", "—")}</td>
+              <td>{DEEP[h].get("timing", "Scoped to your business")}</td>
             </tr>""" for h, t, a, d, pr in SERVICES
 )
 PAGES["pricing.html"] = (
@@ -649,7 +660,7 @@ PAGES["pricing.html"] = (
          "Fixed fees: incorporation US$1,500, FINTRAC MSB registration US$3,500, PCMLTFA program US$3,500, RPAA registration US$3,500, compliance officer US$1,500/10h.",
          "pricing.html")
     + nav("pricing.html") + '  <main id="main">\n'
-    + page_hero([], "Pricing", ("Clear fees, agreed before anything starts.",
+    + page_hero([], "Pricing", ("Clear fees, agreed in writing.",
                 "Most of our services have a fixed fee. Here's what each one costs and what it covers."), "Fees · Fixed")
     + f"""    <section class="pricing" id="start" data-theme="light" aria-labelledby="pricing-title">
       <div class="wrap">
@@ -669,7 +680,7 @@ PAGES["pricing.html"] = (
         <ul class="price-notes">
           <li><strong>FINTRAC</strong> doesn't charge a fee to register a money services business.</li>
           <li><strong>Incorporation</strong> government fees are separate: currently CA$200 federally online, or CA$300 in Ontario online.</li>
-          <li><strong>The Bank of Canada</strong> charges RPAA applicants a one-time, non-refundable application fee, currently CA$2,500 and adjusted each year, paid directly to the Bank. Registered PSPs also pay the Bank annual assessment fees.</li>
+          <li><strong>The Bank of Canada</strong> charges RPAA applicants a one-time, non-refundable application fee, paid directly to the Bank. It was CA$2,500 when introduced in November 2024 and is indexed to inflation each January, so we confirm the current amount before you apply. The Bank will also charge registered PSPs annual assessment fees once its cost-recovery regulations are final.</li>
           <li><strong>Every engagement</strong> starts with a consultation and a written scope, so you know the fee before any work begins.</li>
         </ul>
       </div>
@@ -679,10 +690,10 @@ PAGES["pricing.html"] = (
         ("How much does FINTRAC MSB registration cost?", "FINTRAC charges no registration fee. Our fee to prepare and support your registration is a fixed US$3,500."),
         ("How much does an AML compliance program cost?", "A fixed US$3,500 for 14 PCMLTFA compliance program documents."),
         ("How much does an outsourced compliance officer cost?", "US$1,500 per block of 10 hours, with hours that scale as your business grows."),
-        ("How much does RPAA registration cost?", "Our fee is a fixed US$3,500, plus the Bank of Canada's one-time application fee, currently CA$2,500, paid to the Bank. The RPAA compliance program is a further US$3,500."),
+        ("How much does RPAA registration cost?", "Our fee is a fixed US$3,500, plus the Bank of Canada's one-time application fee (CA$2,500 when introduced, indexed to inflation each year), paid to the Bank. The RPAA compliance program is a further US$3,500."),
         ("How much does a registered MSB cost to buy?", "Acquisitions start from €28,000, depending on the company."),
         ("How much does it cost to incorporate a company in Canada?", "Our fee is a fixed US$1,500, usually done within a few hours to 24 hours. Government filing fees are separate."),
-        ("How long do registrations take?", "In our experience, FINTRAC MSB registration takes about 1 week to 7 months, and Bank of Canada RPAA registration about 2 to 8 months. Incorporation usually takes a few hours to 24 hours."),
+        ("How long do registrations take?", "FINTRAC says most complete MSB applications are processed within three months. In our experience, it has taken about 1 week to 7 months, and Bank of Canada RPAA registration about 2 to 8 months. Incorporation usually takes a few hours to 24 hours."),
         ("Why are fees in US dollars?", "Our fees are quoted in US dollars, except MSB acquisitions, which are in euros. The Bank of Canada's own fee is in Canadian dollars."),
     ], "Pricing questions")
     + close_and_footer()
@@ -725,8 +736,8 @@ STEPS = [
      ["Your business model and the services you offer", "Your deadlines, such as a launch or an examination", "What you already have in place"]),
     ("Scope", "We write down what we'll do.", "What we'll do, what we need from you, and when. Nothing starts until you've agreed it.",
      ["The work, in plain language", "What we need from you, and when", "Timeline and milestones"]),
-    ("Delivery", "We do the work with you.", "Not around you. We explain decisions along the way so your team can stand behind them.",
-     ["Regular check-ins", "Drafts you can comment on", "Decisions explained, not just made"]),
+    ("Delivery", "We do the work with you.", "We explain each decision as we go, so your team can stand behind it.",
+     ["Regular check-ins", "Drafts you can comment on", "The reasons behind each decision, in writing"]),
     ("Ongoing support", "We stay for what comes next.", "Your obligations change as your business does: the next product, the next market or the next review.",
      ["Updates when your business changes", "Help with questions from FINTRAC", "Your next effectiveness review"]),
 ]
@@ -749,7 +760,7 @@ PAGES["how-we-work.html"] = (
     + page_hero([], "How we work", ("Every engagement starts with a conversation and a written scope.",
                 "Compliance work goes better when you know what's happening and why."), "Scope · Agreed")
     + intro("We keep engagements simple: a conversation, a written scope, the work itself, and support afterwards.",
-            ["Each step is set out below. Scroll to move through them, or pick one."])
+            ["You agree the scope and the fee before any work begins."])
     + f"""    <section class="gates gates-steps" id="steps" data-theme="dark" data-gates aria-labelledby="gates-title">
       <div class="gates-pin">
         <div class="wrap gates-inner">
@@ -774,7 +785,7 @@ PAGES["how-we-work.html"] = (
 # About
 BELIEFS = [
     ("Clear answers", "People come to us under pressure. We tell you plainly what applies to you and what happens next."),
-    ("Specific, not generic", "Programs written for your business, not templates with your name on them."),
+    ("Specific to you", "We write each program around how your business works."),
     ("Accuracy first", "We check every regulatory statement before we rely on it."),
     ("One next step", "Every conversation ends with a clear next step."),
 ]
@@ -792,7 +803,7 @@ PAGES["about.html"] = (
                 "AML and anti-terrorist financing compliance for businesses regulated by FINTRAC."), "AML Canada")
     + intro("AML Canada helps businesses register with FINTRAC, build compliance programs that work, prepare for examinations and train their people.",
             ["AML Canada is operated by ComplyFactor Limited. We provide anti-money laundering (AML) and anti-terrorist financing compliance services to businesses regulated by FINTRAC, Canada's financial intelligence unit, and to payment service providers supervised by the Bank of Canada under the RPAA. We're a private consultancy, not part of or affiliated with FINTRAC, the Bank of Canada or the Government of Canada.",
-             "The businesses we work with carry real obligations, and most of them are busy running everything else. We exist to make those obligations clear and manageable, from the first registration to the next review."])
+             "Most of our clients are busy running their business. We explain what they have to do and help them do it, from the first registration to the next review."])
     + f"""    <section class="beliefs" data-theme="dark" aria-labelledby="beliefs-title">
       <div class="wrap">
         <h2 id="beliefs-title">What we believe</h2>
@@ -817,9 +828,9 @@ PAGES["contact.html"] = (
           <h2 id="consult-title">What happens next</h2>
           <ol class="steps">
             <li><span class="step-name">Consultation</span><span>How FINTRAC's requirements apply to your business, what your program needs and what you already have.</span></li>
-            <li><span class="step-name">Written scope</span><span>The work, who does which part, and a timeline agreed before anything starts.</span></li>
+            <li><span class="step-name">Written scope</span><span>The work, who does which part, and a timeline you agree to.</span></li>
             <li><span class="step-name">Delivery</span><span>We do the work with you and explain decisions along the way.</span></li>
-            <li><span class="step-name">Ongoing support</span><span>Help as your business, your products or your obligations change.</span></li>
+            <li><span class="step-name">Ongoing support</span><span>Updates when your business, products or obligations change.</span></li>
           </ol>
           <div class="direct">
             <p class="direct-h">Or reach us directly</p>
@@ -842,7 +853,7 @@ PAGES["contact.html"] = (
 # ---------------------------------------------------------------- guides (articles)
 def read_minutes(g):
     words = len(re.sub(r"<[^>]+>", " ", " ".join(h for _, _, h in g["sections"])).split())
-    return max(3, round(words / 220))
+    return max(1, round(words / 220))
 
 
 def takeaways_box(items):
@@ -914,9 +925,9 @@ def guide_page(file):
             + takeaways_box(g["takeaways"])
             + guide(g["sections"], g["sources"])
             + service_cta(g["service"])
-            + faq_block(g["faqs"], "Questions")
+            + faq_block(g["faqs"], f'{g["crumb"]}: common questions')
             + guide_cards(g["related"])
-            + close_and_footer())
+            + close_and_footer(need=DEEP[g["service"]]["need"] if g["service"] in DEEP else ""))
 
 
 for _f in GUIDES:
@@ -1260,7 +1271,8 @@ def main():
     home = replace_block(home, "fonts", FONTS)
     home = replace_block(home, "icons", ICON_LINKS)
     home = replace_block(home, "social", SOCIAL)
-    home = replace_block(home, "schema", jsonld("index.html").lstrip("\n"))
+    home_faqs = re.findall(r"<details><summary>(.*?)<svg.*?</summary><p>(.*?)</p></details>", home, re.S)
+    home = replace_block(home, "schema", jsonld("index.html").lstrip("\n") + (faq_schema(home_faqs) if home_faqs else ""))
     home = replace_block(home, "nav", nav("index.html"))
     home = replace_block(home, "form", FORM)
     home = replace_block(home, "footer", footer())

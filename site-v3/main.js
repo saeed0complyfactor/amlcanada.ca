@@ -986,7 +986,7 @@
   if (checker && gapList && scoreEl) {
     const ITEMS = [
       { id: "reg", text: "FINTRAC registration", fix: "MSB registration" },
-      { id: "address", text: "A Canadian business address", fix: "Canadian address" },
+      { id: "address", text: "A representative for service in Canada", fix: "MSB registration" },
       { id: "officer", text: "A named compliance officer", fix: "Compliance programs" },
       { id: "policies", text: "Written policies and procedures", fix: "Compliance programs" },
       { id: "risk", text: "A documented risk assessment", fix: "Compliance programs" },
@@ -1072,7 +1072,6 @@
     const g = gapState;
     const ids = g.gaps.map((x) => x.id);
     const need = ids.includes("reg") ? "register"
-      : ids.includes("address") ? "address"
       : ids.some((x) => ["officer", "policies", "risk"].includes(x)) ? "programme"
       : ids.includes("review") ? "review"
       : ids.includes("training") ? "training" : "unsure";

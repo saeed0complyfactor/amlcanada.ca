@@ -10,7 +10,7 @@ URL: https://amlcanada.ca/outsourced-compliance-officer.html
 
 An outsourced AML compliance officer, or MLRO, for businesses FINTRAC regulates. US$1,500 per 10 hours, scaled as you grow.
 
-**Fee:** US$1,500 (per 10 hours · scalable). How your hours are used each month is set out in your written scope before work starts.
+**Fee:** US$1,500 (per 10 hours · scalable). How your hours are used each month is set out in your written scope.
 
 **Included:**
 - All AML and compliance obligations under your program
@@ -24,15 +24,15 @@ An outsourced AML compliance officer, or MLRO, for businesses FINTRAC regulates.
 
 ### What an outsourced compliance officer does
 
-Under the PCMLTFA, a business that FINTRAC regulates must appoint a compliance officer who is responsible for implementing its compliance program. FINTRAC's guidance expects that person to have the authority, and the access to resources and senior management, needed to do the job.
+Under the PCMLTFA, a business that FINTRAC regulates must appoint a compliance officer who is responsible for implementing its compliance program. FINTRAC's guidance says that person needs the authority and the access to resources to do the job. For a larger business, FINTRAC's guidance suggests someone from a senior level with direct access to senior management and the board.
 
-An outsourced compliance officer fills that role, or supports the person who holds it, from outside the business. It's common for money services businesses, virtual currency dealers, payment companies and foreign businesses entering Canada, which need experienced compliance judgment but not a full-time senior hire.
+An outsourced compliance officer fills that role, or supports the person who holds it, from outside the business. FINTRAC's guidance doesn't specifically address external appointments, so we document the compliance officer's authority, access to senior management and sign-off responsibilities in writing. The arrangement is common for money services businesses, virtual currency dealers, payment companies and foreign businesses entering Canada, which need experienced compliance judgment without a full-time senior hire.
 
-The work is practical and ongoing. Customers are onboarded every day, transactions need watching, reports have deadlines measured in days, and the rules and your business both change. We do that work with your team, inside your systems, so your program works in practice and not only on paper.
+The work is ongoing. Customers are onboarded every day, transactions need watching, reports have deadlines measured in days, and the rules and your business both change. We do that work with your team, inside your systems.
 
 ### What's included
 
-The scope covers your AML and compliance obligations as a whole. These are the parts most clients use their hours on.
+The scope covers your AML and compliance obligations as a whole. This is the work most often involved.
 
 ### Second-line customer onboarding review
 
@@ -44,21 +44,21 @@ Questions don't wait for a review cycle. A new product, a new market, a new agen
 
 ### Regulatory reporting
 
-We prepare and file the reports your business has to make to FINTRAC, including suspicious transaction reports, electronic funds transfer reports, large virtual currency transaction reports and large cash transaction reports. Each one has its own threshold and deadline:
+We prepare and file the reports your business has to make to FINTRAC, including suspicious transaction reports, electronic funds transfer reports, large virtual currency transaction reports, large cash transaction reports and listed person or entity property reports. Each one has its own threshold and deadline:
 
 | Report | When it applies | Deadline |
 
-| Suspicious transaction report (STR) | Reasonable grounds to suspect a transaction is related to money laundering or terrorist financing. No minimum amount. | As soon as practicable |
+| Suspicious transaction report (STR) | Reasonable grounds to suspect a transaction is related to money laundering, terrorist financing or, since August 19, 2024, sanctions evasion. No minimum amount. | As soon as practicable |
 
-| Large cash transaction report (LCTR) | Cash of $10,000 or more, in one transaction or several within 24 hours. | 15 calendar days |
+| Large cash transaction report (LCTR) | Cash of $10,000 or more, in one transaction or in two or more that the 24-hour rule requires you to add together. | 15 calendar days |
 
-| Electronic funds transfer report (EFTR) | International electronic funds transfers of $10,000 or more, in one transfer or several within 24 hours. | 5 working days |
+| Electronic funds transfer report (EFTR) | International electronic funds transfers of $10,000 or more, in one transfer or in two or more that the 24-hour rule requires you to add together. | 5 working days |
 
-| Large virtual currency transaction report (LVCTR) | Virtual currency worth $10,000 or more, in one transaction or several within 24 hours. | 5 working days |
+| Large virtual currency transaction report (LVCTR) | Virtual currency worth $10,000 or more, in one transaction or in two or more that the 24-hour rule requires you to add together. | 5 working days |
 
-| Terrorist property and listed person reports | Property you know or believe is owned or controlled by a terrorist, terrorist group or listed person. | Immediately |
+| Listed person or entity property report | Property you know or believe is owned or controlled by a terrorist group or a listed person or entity. Since October 1, 2025, this includes persons listed under the Special Economic Measures Act and the Sergei Magnitsky Law. Called the terrorist property report until March 2, 2025. You must also disclose the property to the RCMP and CSIS without delay. | Immediately |
 
-Amounts are in Canadian dollars. Under FINTRAC's 24-hour rule, several smaller transactions can together reach the $10,000 threshold and become reportable.
+Amounts are in Canadian dollars. Under FINTRAC's 24-hour rule, two or more transactions that total $10,000 or more within a static 24-hour window are reported together when you know they were conducted by or on behalf of the same person or entity, or are for the same beneficiary.
 
 ### Policy maintenance
 
@@ -66,11 +66,11 @@ Your compliance policies and procedures have to be kept up to date. We update th
 
 ### Business risk assessment
 
-Your program rests on a documented assessment of your money laundering and terrorist financing risks: your clients and business relationships, your products, services and delivery channels, where you operate, and new technologies. We write it, keep it current and make sure your controls follow from it.
+Your program rests on a documented assessment of your money laundering, terrorist financing and sanctions evasion risks: your clients and business relationships, your products, services and delivery channels, where you operate, and new technologies. We write it, keep it current and check that your controls follow from it.
 
 ### Client risk assessments
 
-Every client gets a risk rating that drives how closely you monitor them. We set the methodology, review ratings and make sure high-risk clients get the enhanced measures they need.
+Every client gets a risk rating that drives how closely you monitor them. We set the methodology, review ratings and apply enhanced measures to high-risk clients.
 
 ### How the engagement runs
 
@@ -88,11 +88,11 @@ Every client gets a risk rating that drives how closely you monitor them. We set
 
 It depends on how many customers you onboard, how many alerts and reports you generate, how many products and markets you serve, and whether you deal in cash or virtual currency. A business preparing to launch needs far fewer hours than one onboarding hundreds of customers a month.
 
-We estimate a starting number of hours with you in the consultation, then adjust once real volumes are clear. Hours are bought in blocks of 10, so the cost follows your workload rather than a fixed salary.
+We estimate a starting number of hours with you in the consultation, then adjust once your volumes are clear. Hours are bought in blocks of 10, so the cost follows your workload.
 
 ### Your responsibilities, and ours
 
-Outsourcing the work doesn't outsource the obligation. Your business remains the reporting entity, and your senior management stays accountable for the program. We make that workable: decisions are documented, escalations reach the right people, and you always know what was done in your name.
+Your business remains the reporting entity even when we do the work, and your senior management stays accountable for the program. We document decisions, send escalations to the right people and keep you informed of what was done in your name.
 
 - You provide access, information and timely decisions.
 
@@ -106,19 +106,19 @@ The titles differ by country. In the UK and Europe the role is usually called th
 
 ### Questions
 
-**Can a business outsource its compliance officer in Canada?** Many businesses use an outside compliance officer, or outside support for the person they appoint. However it's arranged, your business stays responsible for its obligations, and the compliance officer needs the authority and access to senior management to do the job. We set the arrangement out in writing so it's clear who does what.
+**Can a business outsource its compliance officer in Canada?** Many businesses use an outside compliance officer, or outside support for the person they appoint. FINTRAC's guidance doesn't specifically address external appointments. Your business stays responsible for its obligations, and the compliance officer needs the authority and access to senior management to do the job, so we set out authority, access and sign-off in writing.
 
 **What does an outsourced compliance officer cost?** US$1,500 for each block of 10 hours. You choose how many blocks you need, and you can add more as your business grows.
 
 **What is an MLRO in Canada?** MLRO means money laundering reporting officer, a title used mainly in the UK and Europe. The Canadian equivalent under the PCMLTFA is the compliance officer.
 
-**Which FINTRAC reports do you handle?** Suspicious transaction reports, electronic funds transfer reports, large virtual currency transaction reports, large cash transaction reports, and terrorist property and listed person reports, whichever apply to your business.
+**Which FINTRAC reports do you handle?** Suspicious transaction reports, electronic funds transfer reports, large virtual currency transaction reports, large cash transaction reports, and listed person or entity property reports, whichever apply to your business.
 
-**Do you work with foreign money services businesses?** Yes. Many of our clients are based outside Canada and serve people in Canada.
+**Do you work with foreign money services businesses?** Yes. We work with businesses based outside Canada that serve people in Canada.
 
 **Can we start small?** Yes. Start with the hours you need now, and add blocks of 10 hours when your volumes grow.
 
-Sources: [FINTRAC, Compliance program requirements](https://fintrac-canafe.canada.ca/guidance-directives/compliance-conformite/Guide4/4-eng); [Reporting suspicious transactions](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/str-dod/str-dod-eng); [Reporting electronic funds transfers](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/eft-dt/eft-dt-eng); [Reporting large virtual currency transactions](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/lvctr/lvctr-eng); [Reporting large cash transactions](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/lctr-doie/lctr-doie-eng); [The 24-hour rule](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/24hour/1-eng). Checked 11 October 2026.
+Sources: [FINTRAC, Compliance program requirements](https://fintrac-canafe.canada.ca/guidance-directives/compliance-conformite/Guide4/4-eng); [Reporting suspicious transactions](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/str-dod/str-dod-eng); [Reporting suspected sanctions evasion](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/sanctions/sanctions-eng); [Reporting listed person or entity property](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/Guide5/5-eng); [Reporting electronic funds transfers](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/eft-dt/eft-dt-eng); [Reporting large virtual currency transactions](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/lvctr/lvctr-eng); [Reporting large cash transactions](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/lctr-doie/lctr-doie-eng); [The 24-hour rule](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/24hour/1-eng). Checked 11 October 2026.
 
 ---
 
@@ -133,102 +133,70 @@ For money services businesses, foreign MSBs and virtual currency dealers. Fixed 
 **Included:**
 - Assessment of which of your activities are money services
 - Registration information gathered and checked with you
-- Ownership, corporate and criminal record check requirements coordinated
-- Submission, and FINTRAC's follow-up questions
-- Foreign MSB requirements, including your representative in Canada
+- Ownership, corporate and criminal record check requirements coordinated, including certified translations
+- Submission, and answers to FINTRAC's follow-up questions
+- Foreign MSB requirements, including your representative for service in Canada
 - Coordination with your compliance program
 
-### Who has to register as an MSB
+### Who has to register
 
-A business with a place of business in Canada must register with FINTRAC before it operates as a money services business. FINTRAC's guidance lists these activities:
+A business with a place of business in Canada must register with FINTRAC before it operates as a money services business, for example by dealing in foreign exchange, remitting or transmitting funds, or dealing in virtual currency. Registering or being licensed with a province doesn't replace FINTRAC registration. Whether your own activities are covered depends on how your business works, which is the first thing we confirm with you.
 
-- foreign exchange dealing;
+An MSB that holds funds for its users or transfers funds at their request may also need to register with the Bank of Canada under the Retail Payment Activities Act. We cover that in [RPAA registration](https://amlcanada.ca/rpaa-registration.html).
 
-- remitting or transmitting funds;
-
-- issuing or redeeming money orders, traveller's cheques or similar negotiable instruments;
-
-- dealing in virtual currency;
-
-- crowdfunding platform services;
-
-- armoured car services;
-
-- cheque cashing;
-
-- acquirer services for private automated banking machines.
-
-Registering or being licensed with a province or territory doesn't replace FINTRAC registration. Whether your own activities are covered depends on how your business works, which is the first thing we confirm with you.
+Our guide on [how to register an MSB in Canada](https://amlcanada.ca/how-to-register-msb-canada.html) lists every money service and walks through each step of the application.
 
 ### Foreign MSB registration
 
-A foreign money services business (FMSB) has no place of business in Canada but directs and provides money services to people or entities in Canada. It must register with FINTRAC before it starts. FINTRAC treats a business as directing services at Canada if, for example, its marketing targets people in Canada, it uses a .ca domain, or it's listed in a Canadian business directory.
+A foreign MSB has no place of business in Canada but directs and provides money services to people or entities in Canada. It registers with FINTRAC before it starts and names a representative for service who resides in Canada; our [foreign MSB guide](https://amlcanada.ca/foreign-msb-registration-canada.html) covers the details.
 
-A foreign MSB must name a representative for service who lives in Canada. The foreign business itself, not the representative, stays responsible for meeting its obligations.
+### What the application involves
 
-### What FINTRAC asks for
+FINTRAC asks for details of the business, its owners, senior management and compliance officer, its bank accounts, locations and agents, and its expected transaction volumes, with documents showing who owns and controls it. Criminal record checks are needed for the chief executive officer, the president, the directors and anyone who owns or controls 20% or more. A document that isn't in English or French needs a translation attested by a certified translator (PCMLTFA s.11.12(1.1)).
 
-- details of your business, including incorporation, ownership and senior management;
-
-- your bank account information;
-
-- your compliance officer;
-
-- how many employees you have, and every location you operate from;
-
-- estimated annual transaction totals for each money service you offer;
-
-- any agents or mandataries that provide services on your behalf;
-
-- for a foreign MSB, your representative for service in Canada;
-
-- documents confirming the business exists and how it's owned and controlled, such as a certificate of incorporation;
-
-- criminal record checks.
-
-Criminal record checks are needed for the chief executive officer, the president, directors, and anyone who owns or controls 20% or more of the business, directly or indirectly. They must come from a competent authority in the person's country of residence, be dated no more than six months before you submit them, and be translated if they aren't in English or French. Gathering these from several countries is often what takes longest, so we start early.
+If FINTRAC asks for clarification, the answer is due within 30 days of the request, or FINTRAC can deny the application (PCMLTFA s.11.14). Registered businesses face the same 30-day limit, with revocation as the consequence (s.11.17).
 
 ### How registration works with us
 
 - **Assessment.** Which of your services are money services, whether you're an MSB or a foreign MSB, and what follows from that.
 
-- **Preparation.** A checklist of everything FINTRAC needs, and help gathering and checking it.
+- **Preparation.** A checklist of everything FINTRAC needs, and help gathering and checking it. Criminal record checks from several countries often take longest, so we start them first.
 
 - **Submission.** Your registration, submitted to FINTRAC with your approval.
 
-- **Follow-up.** Answers to FINTRAC's questions until your registration is decided.
+- **Follow-up.** Answers to FINTRAC's questions, within its deadlines, until your registration is decided.
 
-- **Compliance program.** Built alongside your registration, not after it, so you're ready to operate.
+- **Compliance program.** Prepared at the same time as your registration, so you can operate once you're registered.
 
 ### How long registration takes
 
-In our experience, FINTRAC approval takes anywhere from about 1 week to 7 months. Some of our clients have been registered in about a week. The biggest factors are how complete and consistent the application is, how quickly criminal record checks arrive, and FINTRAC's workload at the time. A thorough application avoids the follow-up questions that slow things down.
+FINTRAC says most complete applications are processed within three months. In our experience it has ranged from about 1 week to 7 months. The main factors are how complete and consistent the application is, how quickly criminal record checks arrive, and FINTRAC's workload at the time.
 
 ### After you register
 
-Registration is valid for two years and has to be renewed before it expires. Between renewals, you must tell FINTRAC within 30 days when your registration information changes, such as a new address, new owners or directors, or a change to the services you offer.
+Registration is valid for two years and has to be renewed before it expires. Changes to your registration information must be reported to FINTRAC within 30 days.
 
-Registration is the start, not the finish. A registered MSB also needs a working compliance program, client identification, record keeping, and reporting to FINTRAC. Records generally have to be kept for at least five years.
+After registration, an MSB also needs a compliance program, client identification, record keeping and reporting to FINTRAC. Since October 1, 2025, an MSB must also check that its agents and mandataries are eligible, including by reviewing criminal record checks, before engaging them.
 
 ### Virtual currency dealers
 
-Dealing in virtual currency is a money service, so crypto exchanges and dealers register with FINTRAC as MSBs, including foreign ones that serve people in Canada. Once registered, they have additional obligations, such as reporting virtual currency transactions of $10,000 or more within five working days. Provincial securities rules can also apply to some crypto trading platforms; we'll tell you if that's something you need separate advice on.
+Dealing in virtual currency is a money service, so crypto exchanges and dealers register with FINTRAC as MSBs, including foreign ones that serve people in Canada. Registered dealers also report virtual currency transactions of $10,000 or more within five working days. Provincial securities rules can also apply to some crypto trading platforms; we'll tell you if that's something you need separate advice on.
 
 ### Questions
 
 **How much does MSB registration cost?** FINTRAC doesn't charge a registration fee. Our fee to prepare and support your registration is a fixed US$3,500.
 
-**How long does FINTRAC registration take?** In our experience, FINTRAC approval takes anywhere from about 1 week to 7 months. Some of our clients have been registered in about a week. It depends mostly on how complete the application is, how quickly criminal record checks arrive, and FINTRAC's workload.
+**How long does FINTRAC registration take?** FINTRAC says most complete applications are processed within three months. In our experience it has ranged from about 1 week to 7 months, depending mostly on how complete the application is, how quickly criminal record checks arrive, and FINTRAC's workload.
 
-**Can a company outside Canada register as an MSB?** Yes. A foreign business that directs and provides money services to people in Canada registers as a foreign MSB and must name a representative for service who lives in Canada.
+**Can a company outside Canada register as an MSB?** Yes. A foreign business that directs and provides money services to people in Canada registers as a foreign MSB and must name a representative for service who resides in Canada.
 
-**Do I need a compliance program before I register?** You need one to operate. FINTRAC asks for your compliance officer when you register, and your obligations start as soon as you begin. We build your program alongside your registration. Program documents are a separate fixed fee of US$3,500.
+**Do I need a compliance program before I register?** You need one to operate. FINTRAC asks for your compliance officer when you register, and your obligations start as soon as you begin. We prepare your program at the same time as your registration. Program documents are a separate fixed fee of US$3,500.
 
 **How often do I renew?** Every two years. Changes to your registration information have to be reported within 30 days.
 
 **Do crypto businesses register with FINTRAC?** Yes. Dealing in virtual currency is a money service, so crypto dealers and exchanges register as MSBs.
 
-Sources: [FINTRAC, Money services businesses](https://fintrac-canafe.canada.ca/msb-esm/msb-eng); [Register your MSB or FMSB](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/reg-ins-eng); [Update, renew or cancel your registration](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/respond-eng); [Reporting large virtual currency transactions](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/lvctr/lvctr-eng). Checked 11 October 2026.
+Sources: [FINTRAC, Money services businesses](https://fintrac-canafe.canada.ca/msb-esm/msb-eng); [Register your MSB or FMSB](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/reg-ins-eng); [Update, renew or cancel your registration](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/respond-eng); [Reporting large virtual currency transactions](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/lvctr/lvctr-eng); [PCMLTFA, sections 11.1 to 11.17](https://laws-lois.justice.gc.ca/eng/acts/P-24.501/); [Bank of Canada, Retail payments](https://www.bankofcanada.ca/regulatory-oversight/retail-payments/). Checked 11 October 2026.
 
 ---
 
@@ -258,7 +226,7 @@ FINTRAC and PCMLTFA compliance program documents for the businesses FINTRAC regu
 
 ### The 14 documents you receive
 
-Your fixed fee covers a complete set of PCMLTFA compliance program documents, written for your business:
+Your fixed fee covers a complete set of PCMLTFA compliance program documents for your business:
 
 - AML/ATF Compliance Policy
 
@@ -298,9 +266,9 @@ FINTRAC's guidance sets out five required elements:
 
 - **Written policies and procedures**, kept up to date and, for an entity, approved by a senior officer.
 
-- **A risk assessment** of the business's money laundering and terrorist financing risks, documented.
+- **A risk assessment** of the business's money laundering, terrorist financing and sanctions evasion risks, documented.
 
-- **A written, ongoing compliance training program**, with a plan for delivering it.
+- **A written, ongoing compliance training program**, with a plan for delivering it, if you have employees, agents or others authorized to act for you.
 
 - **A review of effectiveness** of the policies and procedures, risk assessment and training program, at least every two years.
 
@@ -326,11 +294,11 @@ The exact list depends on the kind of business you are and the services you offe
 
 ### Your risk assessment
 
-The risk assessment is the foundation of everything else. It looks at your clients and business relationships, your products, services and delivery channels, the places you operate in and deal with, new developments and technologies, and anything else relevant to your business. Your controls should follow from it: higher risk, closer attention.
+The rest of your program depends on the risk assessment. It looks at your money laundering, terrorist financing and sanctions evasion risks: your clients and business relationships, your products, services and delivery channels, the places you operate in and deal with, new developments and technologies, and the risks for your sector set out in Canada's latest National Risk Assessment of Money Laundering and Terrorist Financing. Higher-risk clients and products get closer controls.
 
 ### If your bank or payment partner has asked for your program
 
-Banks and payment partners usually want to see that your program exists, fits your business, has a named compliance officer, and is actually followed. If you've been asked and don't have one, or aren't sure yours will stand up, book a consultation. We'll tell you what's missing and how quickly it can be put right.
+Banks and payment partners usually want to see that your program exists, fits your business, has a named compliance officer, and is followed day to day. If you've been asked and don't have one, or aren't sure yours will stand up, book a consultation. We'll tell you what's missing and how quickly it can be put right.
 
 ### Keeping it current
 
@@ -338,11 +306,11 @@ A program written once and left on a shelf goes out of date as your business and
 
 ### Questions
 
-**What does an AML compliance program include in Canada?** Five parts: a compliance officer, written policies and procedures, a risk assessment, an ongoing training program and plan, and an effectiveness review at least every two years.
+**What does an AML compliance program include in Canada?** Five parts: a compliance officer, written policies and procedures, a risk assessment, an ongoing training program and plan if you have employees, agents or others acting for you, and an effectiveness review at least every two years.
 
 **How much does a compliance program cost?** A fixed US$3,500 for 14 PCMLTFA compliance program documents, from the AML/ATF Compliance Policy to the Fraud Risk Management Policy.
 
-**Do you use templates?** We use a proven structure, but the content is written for your products, customers and team. A program that doesn't describe how you actually work won't hold up in an examination.
+**Do you use templates?** We use a consistent structure, and the content is written for your products, customers and team. A program that doesn't describe how your business works won't hold up in an examination.
 
 **Does the fee include the effectiveness review?** No. The program includes a plan for your review. The review itself is a separate, scoped piece of work.
 
@@ -350,39 +318,43 @@ A program written once and left on a shelf goes out of date as your business and
 
 **Our bank has asked for our AML program. What now?** Book a consultation. We'll look at what you have, tell you what's missing and agree a written scope to close the gaps.
 
-Sources: [FINTRAC, Compliance program requirements](https://fintrac-canafe.canada.ca/guidance-directives/compliance-conformite/Guide4/4-eng); [Money services businesses](https://fintrac-canafe.canada.ca/msb-esm/msb-eng); [The 24-hour rule](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/24hour/1-eng). Checked 11 October 2026.
+Sources: [FINTRAC, Compliance program requirements](https://fintrac-canafe.canada.ca/guidance-directives/compliance-conformite/Guide4/4-eng); [Changes to the PCMLTFA and regulations](https://fintrac-canafe.canada.ca/businesses-entreprises/changes-changements-eng); [Money services businesses](https://fintrac-canafe.canada.ca/msb-esm/msb-eng); [The 24-hour rule](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/24hour/1-eng). Checked 11 October 2026.
 
 ---
 
-## Canadian address
+## Canadian business address
 
 URL: https://amlcanada.ca/canadian-address.html
 
-A FINTRAC-compliant Canadian address for foreign MSBs and companies entering Canada. US$200 per month.
+A Canadian business address for your setup, banking and partners, for foreign MSBs and companies entering Canada. US$200 per month.
 
 **Fee:** US$200 (per month). Often combined with MSB registration and an outsourced compliance officer.
 
 **Included:**
 - A Canadian business address
-- FINTRAC-compliant, for your registration
+- For your setup, banking and partners
 - Scope, including mail handling, confirmed in writing
-- Coordinated with your MSB registration
+- Checked against your FINTRAC registration before you use it
 
 ### Why a Canadian address helps
 
-FINTRAC's registration asks for the locations you operate from, and Canadian banks, payment partners and customers look for a Canadian presence. A Canadian business address gives your setup a stable Canadian base from the start.
+Canadian banks, payment partners and customers often look for a Canadian presence, and a Canadian business address gives your setup a stable base. For a Canadian-based MSB, FINTRAC registration asks for every location you operate from.
 
-### An address isn't the same as a representative for service
+### How the address fits your FINTRAC registration
 
-A foreign MSB registering with FINTRAC must also name a representative for service: a person who lives in Canada and can accept notices on its behalf. That's a separate requirement from your address. If you need help with it, raise it in your consultation and we'll explain the options.
+A foreign MSB registers with FINTRAC through a representative for service: a person who resides in Canada and accepts FINTRAC's notices on the business's behalf. That's a separate requirement from your business address.
+
+If you're a foreign MSB, a physical location in Canada can change your status to a domestic MSB. We'll confirm how the address fits your registration before you use it.
 
 ### How it works
 
 - **Consultation.** Your plans for Canada and how you'll use the address.
 
-- **Written scope.** What's included, confirmed before anything starts.
+- **Written scope.** What's included, including mail handling.
 
-- **Start.** Your address is ready to use on your registration and with your partners.
+- **Registration check.** How the address fits your FINTRAC registration, if you have one or are applying.
+
+- **Start.** Your address is ready to use with your banks and partners.
 
 - **Monthly.** US$200 per month while you use it.
 
@@ -390,11 +362,11 @@ A foreign MSB registering with FINTRAC must also name a representative for servi
 
 **How much is a Canadian business address?** US$200 per month.
 
-**Can I use the address on my FINTRAC registration?** Yes. The address is FINTRAC-compliant, and we coordinate it with your MSB registration.
+**Can I use the address on my FINTRAC registration?** It depends on how you're registered. A foreign MSB registers with a representative for service who resides in Canada, and a physical location in Canada can change a foreign MSB into a domestic MSB. We confirm how the address fits your registration before you use it.
 
-**Is the address my representative for service?** No. A foreign MSB's representative for service is a person living in Canada, which is a separate requirement. Ask us about it in your consultation.
+**Is the address my representative for service?** No. A foreign MSB's representative for service is a person who resides in Canada, which is a separate requirement. Ask us about it in your consultation.
 
-**What happens to mail sent to the address?** How mail is handled is confirmed in your written scope before anything starts.
+**What happens to mail sent to the address?** How mail is handled is set out in your written scope.
 
 Sources: [FINTRAC, Register your MSB or FMSB](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/reg-ins-eng); [Money services businesses](https://fintrac-canafe.canada.ca/msb-esm/msb-eng). Checked 11 October 2026.
 
@@ -411,6 +383,7 @@ Acquire a Canadian company already registered with FINTRAC as a money services b
 **Included:**
 - A Canadian company registered with FINTRAC as an MSB
 - Company records and registration history reviewed with you
+- Eligibility of the new owners and directors checked
 - Support through the change of ownership
 - Updates to FINTRAC within 30 days, including new owners and directors
 - Guidance on what the new owners need to provide
@@ -421,9 +394,11 @@ Acquire a Canadian company already registered with FINTRAC as a money services b
 
 - **Matching.** A company registered for the money services you need.
 
-- **Due diligence.** Corporate records, registration status and history, reviewed before you commit.
+- **Due diligence.** Corporate records, registration status and history, and the eligibility of the new owners and directors, reviewed before you commit.
 
-- **Change of ownership.** The transfer of the company to you.
+- **Bank of Canada.** If the company is also registered under the Retail Payment Activities Act, re-registration before the purchase closes.
+
+- **Change of ownership.** The transfer of the company's shares to you.
 
 - **FINTRAC updates.** Changes to the registration information, such as owners, directors and compliance officer, reported within 30 days.
 
@@ -435,9 +410,19 @@ Acquire a Canadian company already registered with FINTRAC as a money services b
 
 - the company's corporate records, ownership history and any past compliance issues;
 
-- that the new owners and directors can provide what FINTRAC asks for, including criminal record checks for directors and anyone owning or controlling 20% or more;
+- that the new owners and directors are eligible. Under PCMLTFA s.11.11, a business can't be registered if, for example, a director, the chief executive officer, the president or a 20% owner has certain criminal convictions, or if a FINTRAC penalty remains unpaid;
+
+- that the chief executive officer, the president, the directors and anyone owning or controlling 20% or more can provide criminal record checks, with a certified translation for any that aren't in English or French;
+
+- whether the company is also registered with the Bank of Canada as a payment service provider;
 
 - whether provincial requirements apply where you'll operate. Quebec, for example, licenses money services businesses separately.
+
+Our guide to [buying an MSB in Canada](https://amlcanada.ca/buying-an-msb-canada.html) has the full due-diligence checklist.
+
+### If the company is also registered with the Bank of Canada
+
+Some MSBs are also registered with the Bank of Canada as payment service providers under the Retail Payment Activities Act. Buying control of such a company is an acquisition of control, so the company must apply again and be re-registered by the Bank before the purchase closes (RPAA s.24). The changes are then reported to FINTRAC within 30 days.
 
 ### After the purchase
 
@@ -451,7 +436,7 @@ The obligations come with the company. The business needs a compliance officer a
 
 | Starting point | A new or existing company of yours | A company already registered |
 
-| Main wait | Preparing the application and FINTRAC's review | Due diligence and the change of ownership |
+| Main wait | Preparing the application and FINTRAC's review | Due diligence, the change of ownership and any Bank of Canada re-registration |
 
 | Afterwards | The same obligations: compliance program, reporting, record keeping and renewal |
 
@@ -459,15 +444,17 @@ The obligations come with the company. The business needs a compliance officer a
 
 **How much does a registered MSB cost?** Acquisitions start from €28,000. The price depends on the company, the services it's registered for and its history.
 
-**Does the FINTRAC registration stay with the company?** The registration belongs to the registered business. When you buy the company, FINTRAC must be told about changes to its registration information, such as new owners and directors, within 30 days.
+**Does the FINTRAC registration stay with the company?** The registration belongs to the registered business, so the purchase is of the company's shares; a new entity would need its own registration. After the purchase, FINTRAC must be told about changes to the registration information, such as new owners and directors, within 30 days.
 
-**Do the new owners need criminal record checks?** FINTRAC asks for criminal record checks for directors and anyone owning or controlling 20% or more of the business, so plan for them as part of the purchase.
+**Do the new owners need criminal record checks?** FINTRAC asks for criminal record checks for the chief executive officer, the president, the directors and anyone owning or controlling 20% or more of the business. Any check that isn't in English or French needs a translation attested by a certified translator.
+
+**What if the company is registered with the Bank of Canada too?** Then it must apply again and be re-registered by the Bank before the purchase closes. We check this during due diligence.
 
 **Does it come with a bank account?** FINTRAC registration doesn't guarantee banking or payment partners. We discuss what each company has in place before you commit.
 
 **Can a buyer outside Canada acquire an MSB?** Yes. Foreign buyers can acquire a registered Canadian company, subject to the same FINTRAC requirements.
 
-Sources: [FINTRAC, Register your MSB or FMSB](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/reg-ins-eng); [Update, renew or cancel your registration](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/respond-eng); [Money services businesses](https://fintrac-canafe.canada.ca/msb-esm/msb-eng). Checked 11 October 2026.
+Sources: [FINTRAC, Register your MSB or FMSB](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/reg-ins-eng); [Update, renew or cancel your registration](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/respond-eng); [Money services businesses](https://fintrac-canafe.canada.ca/msb-esm/msb-eng); [PCMLTFA, section 11.11](https://laws-lois.justice.gc.ca/eng/acts/P-24.501/); [Bank of Canada, Acquisitions of control and prescribed changes](https://www.bankofcanada.ca/2024/08/acquisitions-of-control-and-prescribed-changes/). Checked 11 October 2026.
 
 ---
 
@@ -477,36 +464,28 @@ URL: https://amlcanada.ca/rpaa-registration.html
 
 Retail Payment Activities Act (RPAA) registration for payment service providers. Fixed fee US$3,500, plus the Bank's application fee.
 
-**Fee:** US$3,500 (fixed fee · plus CA$2,500 Bank of Canada fee). The Bank's application fee is non-refundable, set by the Bank and adjusted each calendar year. RPAA compliance program documents are a separate fixed fee of US$3,500.
+**Fee:** US$3,500 (fixed fee · plus the Bank of Canada application fee). The Bank's application fee is non-refundable and paid to the Bank. It was CA$2,500 when introduced in November 2024 and is indexed to inflation each January under the Retail Payment Activities Regulations; we confirm the current amount before you apply. RPAA compliance program documents are a separate fixed fee of US$3,500.
 
 **Included:**
 - Assessment of whether the RPAA applies to your activities
 - Registration application prepared with you
 - Your payment activities, agents, mandataries and third parties described
-- Support through the Bank's questions and national security review
+- Support through the Bank's questions and any national security review
 - Coordination with your FINTRAC registration, where you need both
 
-### Who has to register under the RPAA
+### Does the RPAA apply to you?
 
-The RPAA applies to payment service providers that perform one or more payment functions for end users, as a service or business activity:
+The Act covers businesses that perform payment functions for end users as a service or business activity, such as holding accounts or funds for end users, initiating, authorizing or transmitting electronic funds transfers, and providing clearing or settlement services. A PSP with a place of business in Canada is covered. A PSP outside Canada is covered when it directs retail payment activities at people or entities in Canada and performs them for end users in Canada (RPAA s.5).
 
-- providing or maintaining an account held for end users;
-
-- holding funds on behalf of end users;
-
-- initiating an electronic funds transfer at an end user's request;
-
-- authorizing an electronic funds transfer, or transmitting, receiving or facilitating an instruction for one;
-
-- providing clearing or settlement services.
-
-It covers PSPs with a place of business in Canada, and PSPs outside Canada that perform retail payment activities for end users in Canada. Some institutions, such as banks, are excluded, and some activities fall outside the Act, so the first step is confirming that it applies to you.
+Banks and some other institutions are excluded, and some activities fall outside the Act, so we confirm where you stand before preparing anything. Our [RPAA guide](https://amlcanada.ca/rpaa-registration-guide.html) explains the Act in more detail.
 
 ### What it costs
 
-Our fee for preparing and supporting your registration is a fixed US$3,500. Separately, the Bank of Canada charges every applicant a one-time, non-refundable registration application fee. It was set at CA$2,500 from November 1, 2024 and is adjusted each calendar year in line with inflation, so we confirm the current amount when you apply. Once registered, PSPs also pay the Bank annual assessment fees to cover the cost of supervision.
+Our fee is a fixed US$3,500. The Bank's one-time, non-refundable application fee was CA$2,500 when it was introduced in November 2024 and is indexed to inflation each January, so we confirm the current amount before you apply.
 
-### How registration works
+The Bank also plans to charge registered PSPs annual assessment fees to recover its supervision costs. It isn't charging them yet and will start once the cost-recovery regulations are finalized.
+
+### How we handle your application
 
 - **Assessment.** Which of your activities are retail payment activities, and whether you need FINTRAC registration as well.
 
@@ -514,43 +493,35 @@ Our fee for preparing and supporting your registration is a fixed US$3,500. Sepa
 
 - **Application.** Submitted to the Bank of Canada, with the application fee.
 
-- **Review.** The Bank shares applications with the Department of Finance for national security screening and with FINTRAC. We help you answer questions along the way.
+- **Review.** The Bank shares applications with the Department of Finance and FINTRAC, and the Minister of Finance can order a national security review. We help you answer questions along the way.
 
-- **Decision.** The Bank publishes registration decisions as screenings are completed.
+- **Decision.** Once registered, your business is listed in the Bank's public registry of PSPs.
 
-In our experience, the whole process generally takes about 2 to 8 months.
+In our experience the process often takes 2 to 8 months, though that isn't guaranteed. A new PSP can't start retail payment activities until the Bank registers it, so we plan the timeline with you from the start.
 
-### What the Bank expects once you're registered
+### After registration
 
-Since September 8, 2025, registered PSPs must have a risk management and incident response framework and, if they hold end-user funds, a safeguarding framework. They must also:
-
-- notify the Bank without delay of incidents with a material impact on end users, other PSPs or certain clearing and settlement systems;
-
-- give the Bank notice at least five business days before a significant change or new activity;
-
-- file an annual report no later than March 31 of the following year.
-
-Our RPAA compliance program covers these frameworks for a fixed US$3,500.
+Registered PSPs need a risk management and incident response framework and, if they hold end-user funds, a safeguarding framework. They also report incidents, changes and an annual report to the Bank. Our [RPAA compliance program](https://amlcanada.ca/rpaa-compliance-program.html) sets these up for a fixed US$3,500.
 
 ### RPAA and FINTRAC: do you need both?
 
-Often, yes. Many payment businesses that register with the Bank of Canada also provide money services, such as remitting or transmitting funds, that require FINTRAC registration as an MSB. The two regimes cover different things: the RPAA deals with operational risk and safeguarding funds, and FINTRAC with money laundering and terrorist financing. We can handle both registrations together.
+Often, yes. A payment business that remits or transmits funds usually needs FINTRAC registration as an MSB as well. The Bank's regime deals with operational risk and the safety of users' funds, and FINTRAC's with money laundering, terrorist financing and sanctions evasion. We can prepare both registrations together.
 
 ### Questions
 
-**How much does RPAA registration cost?** Our fee is a fixed US$3,500. The Bank of Canada also charges a one-time, non-refundable application fee, currently CA$2,500, which you pay to the Bank.
+**How much does RPAA registration cost?** Our fee is a fixed US$3,500. The Bank of Canada also charges a one-time, non-refundable application fee, which was CA$2,500 when introduced in November 2024 and is indexed to inflation each January. We confirm the current amount before you apply.
 
 **Is the Bank of Canada fee included in your price?** No. The application fee is paid directly to the Bank and isn't part of our US$3,500.
 
-**Do foreign payment service providers have to register?** Yes, if they perform retail payment activities for end users in Canada.
+**Do foreign payment service providers have to register?** Yes, if they direct retail payment activities at people or entities in Canada and perform them for end users in Canada.
 
 **Do I also need to register with FINTRAC?** Often. If you also provide money services, such as remitting or transmitting funds, you need FINTRAC registration as an MSB too.
 
-**How long does RPAA registration take?** In our experience, Bank of Canada registration generally takes about 2 to 8 months, including the national security review.
+**How long does RPAA registration take?** In our experience it often takes 2 to 8 months, including any national security review. That isn't guaranteed, and a new PSP can't start retail payment activities until it's registered.
 
-**What happens after registration?** You need risk management, incident response and, if you hold end-user funds, safeguarding frameworks, plus annual reports and change notices. Our RPAA compliance program covers these.
+**What happens after registration?** You need risk management, incident response and, if you hold end-user funds, safeguarding frameworks, plus incident notices, change notices and annual reports. Our RPAA compliance program covers these.
 
-Sources: [Bank of Canada, Retail payments supervision](https://www.bankofcanada.ca/core-functions/retail-payments-supervision/); [Supervisory framework](https://www.bankofcanada.ca/core-functions/retail-payments-supervision/supervisory-framework/); [Registration](https://www.bankofcanada.ca/core-functions/retail-payments-supervision/registration/); [Registration application fee](https://www.bankofcanada.ca/2024/10/registration-application-fee/). Checked 11 October 2026.
+Sources: [Bank of Canada, Retail payments](https://www.bankofcanada.ca/regulatory-oversight/retail-payments/); [Supervisory framework](https://www.bankofcanada.ca/regulatory-oversight/retail-payments/supervisory-framework/); [Frequently asked questions about retail payments supervision](https://www.bankofcanada.ca/2026/08/frequently-asked-questions-about-retail-payments-supervision/); [Registration application fee](https://www.bankofcanada.ca/2024/10/registration-application-fee/); [Criteria for registering PSPs](https://www.bankofcanada.ca/2026/06/criteria-for-registering-payment-service-providers/); [Registry of payment service providers](https://www.bankofcanada.ca/regulatory-oversight/retail-payments/psp-registry/). Checked 11 October 2026.
 
 ---
 
@@ -581,7 +552,7 @@ The Bank expects PSPs to identify their operational risks, protect against them,
 
 ### Incident response
 
-When something goes wrong, your team needs to know what to do. The framework covers how incidents are identified, escalated, contained and recovered from, and how you notify the Bank without delay when an incident has a material impact on end users, other PSPs or certain clearing and settlement systems.
+When something goes wrong, your team needs to know what to do. The framework covers how incidents are identified, escalated, contained and recovered from. When you determine that an incident has a material impact, you notify the Bank and any affected end users, PSPs and clearing houses without delay, and no later than 48 hours after that determination.
 
 ### Third parties and agents
 
@@ -597,19 +568,21 @@ Protecting the integrity, confidentiality and availability of your systems and d
 
 ### Annual report and change notices
 
-PSPs file an annual report with the Bank no later than March 31 of the following year, covering their registration information, operational risk management, incident response and safeguarding. They also give the Bank notice at least five business days before a significant change or new activity. The framework sets out how you track, prepare and approve both.
+PSPs file an annual report with the Bank no later than March 31 of the following year. The Bank lists its contents as up-to-date information on risk management and incident response, safeguarding of end-user funds where that applies, and certain financial and activity metrics.
+
+Changes to registration information are generally notified within 30 days after they happen, and certain changes at least 30 or 60 days before they take effect (Retail Payment Activities Regulations, ss.35 and 36). A significant change or new activity needs notice at least five business days before. An acquisition of control needs a new application, approved by the Bank before the acquisition closes (RPAA s.24). The framework sets out how you track, prepare and approve each of these.
 
 ### Questions
 
-**What does the RPAA require from payment service providers?** Risk management and incident response frameworks, safeguarding of end-user funds where you hold them, incident notices to the Bank, notice before significant changes or new activities, and an annual report by March 31.
+**What does the RPAA require from payment service providers?** Risk management and incident response frameworks, safeguarding of end-user funds where you hold them, incident notices within 48 hours of determining an incident is material, change notices, and an annual report by March 31.
 
 **How much does an RPAA compliance program cost?** A fixed US$3,500 for the program documents covering all seven areas.
 
-**Is this the same as our FINTRAC AML program?** No. The RPAA program covers operational risk and safeguarding under the Bank of Canada. A FINTRAC compliance program covers money laundering and terrorist financing. Many payment businesses need both.
+**Is this the same as our FINTRAC AML program?** No. The RPAA program covers operational risk and safeguarding under the Bank of Canada. A FINTRAC compliance program covers money laundering, terrorist financing and sanctions evasion. Many payment businesses need both.
 
 **Do you help us put the frameworks in place?** Yes. We write them around how you operate and walk your team through them. Ongoing support can be covered by outsourced compliance officer hours.
 
-Sources: [Bank of Canada, Supervisory framework](https://www.bankofcanada.ca/core-functions/retail-payments-supervision/supervisory-framework/); [Retail payments supervision](https://www.bankofcanada.ca/core-functions/retail-payments-supervision/). Checked 11 October 2026.
+Sources: [Bank of Canada, Supervisory framework](https://www.bankofcanada.ca/regulatory-oversight/retail-payments/supervisory-framework/); [Retail payments](https://www.bankofcanada.ca/regulatory-oversight/retail-payments/); [Reminder: PSP reporting obligations under the RPAA](https://www.bankofcanada.ca/2026/06/reminder-psp-reporting-obligations-under-rpaa/); [Acquisitions of control and prescribed changes](https://www.bankofcanada.ca/2024/08/acquisitions-of-control-and-prescribed-changes/); [Retail Payment Activities Regulations](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2023-229/). Checked 11 October 2026.
 
 ---
 
@@ -629,7 +602,7 @@ The two-year effectiveness review FINTRAC requires, and preparation for a FINTRA
 
 ### How often is an effectiveness review required?
 
-At least every two years. FINTRAC requires every reporting entity to review the effectiveness of its compliance program, covering its policies and procedures, risk assessment and training program, at a minimum once every two years. The review tests whether the program works, not only whether the documents exist.
+At least every two years. FINTRAC requires every reporting entity to review the effectiveness of its compliance program, covering its policies and procedures, risk assessment and training program, at a minimum once every two years. The review looks at how the program runs day to day as well as what the documents say.
 
 ### Who can carry out the review
 
@@ -639,11 +612,11 @@ FINTRAC's guidance says the review is carried out by an internal or external aud
 
 - whether your policies and procedures reflect current requirements and your current business;
 
-- whether your risk assessment covers your clients, products, channels and geography, and whether your controls follow from it;
+- whether your risk assessment covers your clients, products, channels and geography, including sanctions evasion risk, and whether your controls follow from it;
 
 - whether training happened, reached the right people and matches your risks;
 
-- samples of client files, monitoring and reports to FINTRAC, to see the program working in practice.
+- samples of client files, monitoring and reports to FINTRAC, to see how the program runs.
 
 ### Effectiveness review or FINTRAC examination?
 
@@ -672,22 +645,18 @@ Anti-money laundering training for front-line staff, compliance teams and senior
 **Fee:** Scoped (quoted after your consultation). Depends on the number of people, roles and sessions.
 
 **Included:**
-- Scenario-based training for your business
+- Training built around your business
 - Training for each role: front line, compliance and management
 - A written training program and plan
 - Training records
 
 ### Is AML training required in Canada?
 
-Yes. A written, ongoing compliance training program, with a plan for delivering it, is one of the five required elements of a compliance program for businesses regulated by FINTRAC. Training should fit your business and your risks, and reach the people who need it, including employees and agents who deal with clients or transactions.
+Yes, if you have employees, agents or others authorized to act on your behalf. In that case a written, ongoing compliance training program, with a plan for delivering it, is one of the required elements of a compliance program for businesses regulated by FINTRAC. Training should fit your business and your risks, and reach the people who deal with clients or transactions. A sole proprietor with no employees, agents or others authorized to act for them doesn't need a training program.
 
 ### Training for each role
 
-- **Front-line staff:** recognizing unusual activity, identifying clients properly and knowing when and how to escalate.
-
-- **Compliance teams:** reviews, reporting, the 24-hour rule and deadlines, and documenting decisions.
-
-- **Senior management:** their responsibilities for the program and how to oversee it.
+Front-line staff learn to recognize unusual activity, identify clients and know when and how to escalate. Compliance teams cover reviews, reporting, the 24-hour rule and deadlines, and how to document decisions. Senior management covers their responsibilities for the program and how to oversee it.
 
 ### Training records
 
@@ -695,7 +664,7 @@ Being able to show who was trained, on what and when is part of showing your pro
 
 ### Questions
 
-**Is AML training mandatory in Canada?** Yes. An ongoing compliance training program is a required part of a compliance program for businesses FINTRAC regulates.
+**Is AML training mandatory in Canada?** Yes, if you have employees, agents or others authorized to act for you. A sole proprietor with no employees, agents or others acting for them doesn't need a training program.
 
 **Who needs AML training?** Anyone whose work touches your compliance obligations, typically front-line staff, agents, compliance teams and senior management.
 
@@ -709,9 +678,9 @@ Sources: [FINTRAC, Compliance program requirements](https://fintrac-canafe.canad
 
 URL: https://amlcanada.ca/incorporation-canada.html
 
-Federal or Ontario incorporation, usually done within a few hours to 24 hours. Fixed fee US$1,500.
+Federal or Ontario incorporation, usually done within 24 hours. Fixed fee US$1,500.
 
-**Fee:** US$1,500 (fixed fee · plus government filing fees). Government filing fees are separate: currently CA$200 federally online (CA$100 more for 4-hour express service) or CA$300 online in Ontario. A name search report may also apply if you choose a named rather than a numbered company.
+**Fee:** US$1,500 (fixed fee · plus government filing fees). Government filing fees are separate: currently CA$200 federally online (CA$100 more for 4-hour express service) or CA$300 online in Ontario. A named Ontario company also needs an Ontario-biased Nuans name search report.
 
 **Included:**
 - Advice on federal or provincial incorporation
@@ -719,7 +688,7 @@ Federal or Ontario incorporation, usually done within a few hours to 24 hours. F
 - Articles of incorporation filed
 - Registered office address and first directors
 - Set up ready for FINTRAC or RPAA registration
-- Usually complete within a few hours to 24 hours
+- Usually complete within 24 hours
 
 ### Federal or provincial?
 
@@ -727,19 +696,23 @@ You can incorporate federally, under the Canada Business Corporations Act (CBCA)
 
 ### Directors and residency
 
-Federal corporations must have at least 25% resident Canadian directors; if the company has fewer than four directors, at least one must be a resident Canadian. A resident Canadian includes a Canadian citizen ordinarily resident in Canada and a permanent resident. Ontario doesn't require resident Canadian directors, which can matter for founders based outside Canada. Some regulated sectors have stricter rules.
+Federal corporations must have at least 25% resident Canadian directors; if the company has fewer than four directors, at least one must be a resident Canadian. Under CBCA s.2, a resident Canadian includes a Canadian citizen ordinarily resident in Canada and a permanent resident ordinarily resident in Canada, with limited exceptions. Ontario doesn't require resident Canadian directors, which can matter for founders based outside Canada. Some regulated sectors have stricter rules.
 
 ### How long it takes
 
-Once we have your details and documents, incorporation usually takes a few hours to 24 hours. Corporations Canada processes online incorporations in about a day, with a 4-hour express option for an extra government fee, and Ontario incorporates immediately online.
+Once we have your details and documents, incorporation usually takes a few hours and is usually done within 24 hours; it isn't guaranteed. Corporations Canada processes online incorporations in about a day, with a 4-hour express option for an extra government fee, and Ontario incorporates immediately online.
 
 ### What it costs
 
-Our fee is a fixed US$1,500. Government fees are paid separately to the government: currently CA$200 for federal online incorporation (CA$100 more for 4-hour express) or CA$300 for Ontario online incorporation. If you choose a named company rather than a numbered one, a name search report is usually needed too.
+Our fee is a fixed US$1,500. Government fees are paid separately to the government: currently CA$200 for federal online incorporation (CA$100 more for 4-hour express) or CA$300 for Ontario online incorporation.
+
+For a federal online incorporation, the name search is built into the application, so a word name doesn't need a separate Nuans report. A named Ontario company needs an Ontario-biased Nuans name search report; a numbered company doesn't.
 
 ### After incorporation
 
 - Keep corporate records, including a register of individuals with significant control.
+
+- For a federal corporation, file information about individuals with significant control with Corporations Canada at incorporation, every year with the annual return, and within 15 days of a change to the register. This has applied since January 22, 2024.
 
 - File an annual return each year (federal online annual return: CA$12).
 
@@ -751,13 +724,13 @@ Our fee is a fixed US$1,500. Government fees are paid separately to the governme
 
 **How much does it cost to incorporate a company in Canada?** Our fee is a fixed US$1,500. Government filing fees are separate: currently CA$200 federally online or CA$300 in Ontario online.
 
-**How long does incorporation take?** Usually a few hours to 24 hours once we have your details and documents.
+**How long does incorporation take?** Usually within 24 hours once we have your details and documents, often a few hours. It isn't guaranteed.
 
 **Can a non-resident incorporate in Canada?** Yes. Federal companies need at least 25% resident Canadian directors (at least one if there are fewer than four). Ontario doesn't require resident Canadian directors.
 
 **Should we incorporate before registering as an MSB?** Usually, yes. The company is what registers with FINTRAC, so incorporating first means the registration can start straight away.
 
-Sources: [Corporations Canada, Services, fees and processing times](https://ised-isde.canada.ca/site/corporations-canada/en/services-fees-and-processing-times); [Directors and officers](https://ised-isde.canada.ca/site/corporations-canada/en/business-corporations/directors-and-officers); [Next steps after incorporating](https://ised-isde.canada.ca/site/corporations-canada/en/business-corporations/next-steps-following-incorporation-your-business); [Ontario, Incorporating a business corporation](https://www.ontario.ca/page/incorporating-business-corporation); [Ontario fees and timing](https://www.ontario.ca/page/cost-time-required-to-register-change-search-for-business-name-corporation-not-for-profit). Checked 11 October 2026.
+Sources: [Corporations Canada, Services, fees and processing times](https://ised-isde.canada.ca/site/corporations-canada/en/services-fees-and-processing-times); [Directors and officers](https://ised-isde.canada.ca/site/corporations-canada/en/business-corporations/directors-and-officers); [Next steps after incorporating](https://ised-isde.canada.ca/site/corporations-canada/en/business-corporations/next-steps-following-incorporation-your-business); [Individuals with significant control: file your information](https://ised-isde.canada.ca/site/corporations-canada/en/individuals-significant-control/individuals-significant-control-file-your-information); [Naming a corporation](https://ised-isde.canada.ca/site/corporations-canada/en/naming-corporation/naming-corporation-how-get-name); [Canada Business Corporations Act](https://laws-lois.justice.gc.ca/eng/acts/C-44/); [Ontario, Register your business online](https://www.ontario.ca/page/business/start/register-your-business-online); [Ontario fees and timing](https://www.ontario.ca/page/cost-time-required-to-register-change-search-for-business-name-corporation-not-for-profit). Checked 11 October 2026.
 
 ---
 
@@ -765,13 +738,13 @@ Sources: [Corporations Canada, Services, fees and processing times](https://ised
 
 URL: https://amlcanada.ca/how-to-register-msb-canada.html
 
-A step-by-step guide to registering a money services business with FINTRAC, from checking whether you need to, to staying registered.
+A money services business must register with FINTRAC before it starts operating, and renew every two years. FINTRAC doesn't charge a fee, and it says the majority of complete applications are processed within three months.
 
 **Key points:**
 - Register with FINTRAC before you start operating. FINTRAC doesn't charge a fee.
 - Criminal record checks are needed for the CEO, president, directors and 20%+ owners.
+- Answer FINTRAC's clarification requests within 30 days.
 - Registration lasts two years. Report changes within 30 days.
-- You also need a compliance program, reporting and record keeping from day one.
 
 ### Step 1: Check whether you need to register
 
@@ -795,11 +768,9 @@ In Canada, a money services business (MSB) is a business that provides certain m
 
 If you have no place of business in Canada but you direct and provide these services to people or entities in Canada, you're a foreign MSB, and you must register too. Our [foreign MSB guide](https://amlcanada.ca/foreign-msb-registration-canada.html) covers that case.
 
-Registering or being licensed with a province doesn't replace FINTRAC registration. Quebec, for example, has its own licence for money-services businesses, issued by Revenu Québec, which sits on top of FINTRAC registration.
+Registering or being licensed with a province doesn't replace FINTRAC registration. Quebec has its own licence for money-services businesses, issued by Revenu Québec, which is needed in addition to FINTRAC registration.
 
-### Is there an "MSB licence" in Canada?
-
-People often search for an "MSB licence". At the federal level, what Canada requires is **registration with FINTRAC** under the Proceeds of Crime (Money Laundering) and Terrorist Financing Act (PCMLTFA). Quebec is the main exception: it licenses money-services businesses separately. Elsewhere, when someone says "MSB licence Canada", they almost always mean FINTRAC registration.
+If your business holds funds for users or transfers funds electronically for them, check the Retail Payment Activities Act as well. Many payment businesses need to register with the Bank of Canada as payment service providers, separately from FINTRAC. Our [RPAA guide](https://amlcanada.ca/rpaa-registration-guide.html) explains who is covered.
 
 ### Step 2: Gather what FINTRAC asks for
 
@@ -823,31 +794,37 @@ FINTRAC's registration asks for:
 
 - criminal record checks.
 
+If you use agents or mandataries, you must also check that they're eligible before you engage them, including reviewing their criminal record checks. This has applied since October 1, 2025. For agents engaged before that date, MSBs have until October 1, 2027, according to [FINTRAC](https://fintrac-canafe.canada.ca/msb-esm/msb-eng).
+
 ### Step 3: Order criminal record checks early
 
 FINTRAC needs criminal record checks for the chief executive officer, the president, the directors, and anyone who owns or controls 20% or more of the business, directly or indirectly. A sole proprietor provides one for themselves.
 
-Each check must come from a competent authority in the person's country of residence, be dated no more than six months before you submit it, and be translated if it isn't in English or French. When owners and directors live in different countries, this is often the step that takes longest, so start it first.
+Each check must come from a competent authority in the person's country of residence and be issued no more than six months before you apply. If a check isn't in English or French, it needs a translation attested by a certified translator, as [FINTRAC's registration page](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/reg-ins-eng) sets out. When owners and directors live in different countries, this is often the step that takes longest, so start it first.
 
 ### Step 4: Submit and answer FINTRAC's questions
 
-Once everything is gathered and checked, you submit your registration to FINTRAC. FINTRAC may come back with questions or ask for more information before it decides. Complete, consistent information is the best way to avoid back-and-forth: the transaction estimates, locations, ownership and documents should all tell the same story.
+Once everything is gathered and checked, you submit your registration to FINTRAC. FINTRAC may send clarification requests before it decides. You have 30 days to answer each one, and if you don't, FINTRAC may deny the application ([PCMLTFA section 11.14](https://laws-lois.justice.gc.ca/eng/acts/P-24.501/FullText.html)). Once you're registered, the same 30-day rule applies, and FINTRAC may revoke a registration if a request goes unanswered.
 
-In our experience, approval takes anywhere from about 1 week to 7 months. Some of our clients have been registered in about a week; the biggest factors are how complete the application is and FINTRAC's workload.
+Complete, consistent information is the best way to avoid back-and-forth. The transaction estimates, locations, ownership and documents should all tell the same story.
+
+[FINTRAC says](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/reg-ins-eng) the majority of complete applications are processed within three months, and more complex ones can take longer. In our experience it has ranged from about a week to seven months, depending mostly on how complete the application is and on FINTRAC's workload. Our [MSB registration service](https://amlcanada.ca/msb-registration.html) covers preparing and submitting the application.
 
 ### Step 5: Have your compliance program ready
 
-Registration lets you operate; it doesn't make you compliant. From the day you start, you need a compliance program with five parts: a compliance officer, written policies and procedures, a risk assessment, an ongoing training program, and an effectiveness review at least every two years. You also need to identify clients, keep records, generally for at least five years, and report to FINTRAC.
+Registration allows you to operate. Your obligations under the law start at the same time. From the day you start, you need a compliance program with five elements: a compliance officer, written policies and procedures, a risk assessment, an ongoing training program, and an effectiveness review at least every two years. You also need to identify clients, keep records, generally for at least five years, and report to FINTRAC.
 
-Building the program alongside the registration, rather than after it, means you're ready to operate as soon as you're registered.
+It helps to build the program while the registration is in progress, so it's in place when you're registered. Our [compliance program documents](https://amlcanada.ca/compliance-programs.html) are written for this.
 
 ### Step 6: Stay registered
 
-MSB registration is valid for two years and must be renewed before it expires. Between renewals, tell FINTRAC within 30 days when your registration information changes: a new address, new owners or directors, a new compliance officer, or a change in the services you offer.
+MSB registration is valid for two years and must be renewed before it expires. Between renewals, tell FINTRAC within 30 days when your registration information changes: a new address, new owners or directors, a new compliance officer, or a change in the services you offer. FINTRAC explains how on its [update and renewal page](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/respond-eng).
 
 ### Questions
 
-**Does FINTRAC charge to register an MSB?** No. FINTRAC doesn't charge a registration fee. Your costs are your own time, criminal record checks, any translations, and professional help if you use it.
+**Does FINTRAC charge to register an MSB?** No. FINTRAC doesn't charge a registration fee. Your costs are your own time, criminal record checks, any certified translations, and professional help if you use it.
+
+**Is there an MSB licence in Canada?** At the federal level, Canada requires registration with FINTRAC under the Proceeds of Crime (Money Laundering) and Terrorist Financing Act. When people search for an MSB licence in Canada, they usually mean FINTRAC registration. Quebec is the exception: Revenu Québec issues a separate licence for money-services businesses.
 
 **Can I register an MSB without a Canadian office?** Yes, as a foreign MSB, if you direct and provide money services to people in Canada. You'll need a representative for service who lives in Canada.
 
@@ -855,9 +832,9 @@ MSB registration is valid for two years and must be renewed before it expires. B
 
 **How long is MSB registration valid?** Two years. Changes to your registration information must be reported within 30 days.
 
-**How long does FINTRAC take to approve an MSB registration?** In our experience, anywhere from about 1 week to 7 months. Some of our clients have been registered in about a week; it depends mostly on how complete the application is and on FINTRAC's workload.
+**How long does FINTRAC take to approve an MSB registration?** FINTRAC says the majority of complete applications are processed within three months. In our experience it has ranged from about a week to seven months.
 
-Sources: [FINTRAC, Register your MSB or FMSB](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/reg-ins-eng); [Money services businesses](https://fintrac-canafe.canada.ca/msb-esm/msb-eng); [Update, renew or cancel your registration](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/respond-eng); [Compliance program requirements](https://fintrac-canafe.canada.ca/guidance-directives/compliance-conformite/Guide4/4-eng); [Revenu Québec, Money-services business licence](https://www.revenuquebec.ca/en/businesses/sector-specific-measures/money-services-businesses-msbs/money-services-business-licence-application/). Checked 11 October 2026.
+Sources: [FINTRAC, Register your MSB or FMSB](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/reg-ins-eng); [Money services businesses](https://fintrac-canafe.canada.ca/msb-esm/msb-eng); [Update, renew or cancel your registration](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/respond-eng); [Compliance program requirements](https://fintrac-canafe.canada.ca/guidance-directives/compliance-conformite/Guide4/4-eng); [Proceeds of Crime (Money Laundering) and Terrorist Financing Act](https://laws-lois.justice.gc.ca/eng/acts/P-24.501/FullText.html); [Revenu Québec, Money-services business licence](https://www.revenuquebec.ca/en/businesses/sector-specific-measures/money-services-businesses-msbs/money-services-business-licence-application/). Checked 11 October 2026.
 
 ---
 
@@ -865,35 +842,31 @@ Sources: [FINTRAC, Register your MSB or FMSB](https://fintrac-canafe.canada.ca/m
 
 URL: https://amlcanada.ca/msb-registration-cost-canada.html
 
-FINTRAC charges nothing to register. The real costs are elsewhere. Here's what to budget for, and what our fixed fees cover.
+FINTRAC doesn't charge a fee to register a money services business. The costs come from criminal record checks, translations, documents and the compliance program you need to operate.
 
 **Key points:**
 - FINTRAC registration itself is free.
-- Budget for criminal record checks, translations and documents.
-- A compliance program is needed to operate, not just to register.
+- Budget for criminal record checks, certified translations and documents.
+- You need a compliance program in place before you operate.
 - Our fixed fees: US$3,500 registration; US$3,500 program documents.
 
 ### FINTRAC's fee: none
 
-FINTRAC doesn't charge a fee to register a money services business, or to renew. If anyone tells you there's a government fee for FINTRAC MSB registration, ask what it's for.
+[FINTRAC](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/reg-ins-eng) doesn't charge a fee to register a money services business, or to renew. If anyone tells you there's a government fee for FINTRAC MSB registration, ask what it's for.
 
-### The real costs of registering
+### The other costs of registering
 
-- **Criminal record checks** for the CEO, president, directors and anyone owning or controlling 20% or more. Costs vary by country, and checks must be dated within six months of submission.
+Criminal record checks are one of the main outside costs. FINTRAC needs one for the CEO, the president, each director and anyone owning or controlling 20% or more, and each must be issued within six months before you apply. Costs vary by country and by provider.
 
-- **Translations** of any checks or documents that aren't in English or French.
+Any check or document that isn't in English or French needs a translation attested by a certified translator. You'll also need corporate documents showing the business exists and how it's owned and controlled.
 
-- **Corporate documents** showing the business exists and how it's owned and controlled.
+If you don't have a Canadian company yet, there are government incorporation fees, currently CA$200 federally online or CA$300 in Ontario online. Where provincial licensing applies, there are fees for that too: Quebec licenses money-services businesses separately through [Revenu Québec](https://www.revenuquebec.ca/en/businesses/sector-specific-measures/money-services-businesses-msbs/money-services-business-licence-application/), which sets its own fees.
 
-- **Time**: gathering, checking and answering FINTRAC's questions.
-
-- **A Canadian company**, if you don't have one yet. Government incorporation fees are currently CA$200 federally online or CA$300 in Ontario online.
-
-- **Provincial licensing** where it applies. Quebec licenses money-services businesses separately through Revenu Québec, with its own fees.
+Then there's time: gathering and checking everything, and answering FINTRAC's clarification requests within 30 days. Our [step-by-step registration guide](https://amlcanada.ca/how-to-register-msb-canada.html) shows where the time goes.
 
 ### What it costs to operate once registered
 
-Registration is the entry ticket. To operate, an MSB needs a compliance program (compliance officer, policies and procedures, risk assessment, training and a two-year effectiveness review), and it has to report to FINTRAC and keep records. Those are ongoing costs, whether you staff them in-house or outsource them.
+To operate, an MSB needs a compliance program: a compliance officer, policies and procedures, a risk assessment, training and an effectiveness review at least every two years. It also has to report to FINTRAC and keep records. These are ongoing costs, whether you staff them in-house or outsource them. Our [compliance program documents](https://amlcanada.ca/compliance-programs.html) cover the written part at a fixed fee.
 
 ### What professional help costs with us
 
@@ -915,13 +888,13 @@ All fees are on our [pricing page](https://amlcanada.ca/pricing.html). Every eng
 
 ### Registering vs buying a registered MSB
 
-Some businesses buy a company that's already registered instead of registering a new one. It costs more up front, and it still needs due diligence, updates to FINTRAC within 30 days of changes like new owners and directors, and a compliance program that fits the new owners. See [MSB for sale](https://amlcanada.ca/msb-for-sale.html).
+Some businesses buy a company that's already registered instead of registering a new one. It costs more up front. It still needs due diligence, updates to FINTRAC within 30 days of changes like new owners and directors, criminal record checks for the new people, and a compliance program that fits the new owners. Our guide to [buying an MSB](https://amlcanada.ca/buying-an-msb-canada.html) covers what to check.
 
 ### Questions
 
 **Is FINTRAC MSB registration free?** Yes. FINTRAC doesn't charge to register or renew.
 
-**How much does it cost to set up an MSB in Canada?** Registration is free, but budget for criminal record checks, translations, documents and a compliance program. Our fixed fees are US$3,500 for registration and US$3,500 for compliance program documents.
+**How much does it cost to set up an MSB in Canada?** Registration is free, but budget for criminal record checks, certified translations, documents and a compliance program. Our fixed fees are US$3,500 for registration and US$3,500 for compliance program documents.
 
 **Does Quebec charge for an MSB licence?** Yes. Quebec licenses money-services businesses separately through Revenu Québec, which sets its own fees.
 
@@ -933,7 +906,7 @@ Sources: [FINTRAC, Register your MSB or FMSB](https://fintrac-canafe.canada.ca/m
 
 URL: https://amlcanada.ca/foreign-msb-registration-canada.html
 
-No office in Canada doesn't mean no obligations. When a foreign business must register with FINTRAC, and what it needs once it does.
+A business with no office in Canada may still have to register with FINTRAC. It does if it directs and provides money services to people or entities in Canada.
 
 **Key points:**
 - Foreign MSBs that direct and provide services to Canada must register first.
@@ -961,7 +934,7 @@ A foreign money services business (FMSB) has no place of business in Canada but 
 
 - acquirer services for private automated banking machines.
 
-A foreign MSB must register with FINTRAC before it starts providing these services to Canada.
+A foreign MSB must register with FINTRAC before it starts providing these services to Canada. A business with a place of business in Canada, such as a physical location, is a domestic MSB under [FINTRAC's definitions](https://fintrac-canafe.canada.ca/msb-esm/msb-eng), and registers as one. Our [guide to registering an MSB](https://amlcanada.ca/how-to-register-msb-canada.html) covers the steps for both.
 
 ### What counts as directing services at Canada
 
@@ -969,29 +942,33 @@ FINTRAC looks at whether your business targets people in Canada. Examples it giv
 
 ### Your representative for service in Canada
 
-A foreign MSB must name a representative for service who lives in Canada and can accept notices on its behalf. The representative doesn't take over your obligations: the foreign business itself stays responsible for complying with Canada's anti-money laundering law.
+A foreign MSB must name a representative for service who resides in Canada and is authorized to accept notices from FINTRAC on its behalf. The representative doesn't take over your obligations. The foreign business itself stays responsible for complying with Canada's anti-money laundering law.
 
-A representative for service is a person, and it's a separate requirement from having a Canadian business address. Many foreign MSBs want both. We offer a [FINTRAC-compliant Canadian address](https://amlcanada.ca/canadian-address.html); ask us about the representative requirement in your consultation.
+If the representative's name or address for service changes, you must tell FINTRAC within 30 days. If you don't, FINTRAC must deny the application or revoke the registration ([PCMLTFA subsection 11.13(2)](https://laws-lois.justice.gc.ca/eng/acts/P-24.501/FullText.html)).
+
+The representative is a person. Having a Canadian business address is a separate matter from the representative requirement. Some foreign MSBs want one for banking, partners or customers. We offer a [Canadian business address](https://amlcanada.ca/canadian-address.html), and you can ask us about the representative requirement in your consultation.
 
 ### Obligations once registered
 
-Foreign MSBs carry substantially the same obligations as Canadian ones: a compliance program, client identification, record keeping, reporting to FINTRAC, the travel rule for funds and virtual currency transfers, and renewing their registration every two years, with changes reported within 30 days.
+Foreign MSBs carry substantially the same obligations as Canadian ones: a compliance program, client identification, record keeping, reporting to FINTRAC, the travel rule for funds and virtual currency transfers, and renewing their registration every two years, with changes reported within 30 days. Our [FINTRAC reporting guide](https://amlcanada.ca/fintrac-reporting-requirements.html) sets out which reports apply.
 
-Many foreign MSBs don't have an experienced compliance person in Canada. An [outsourced compliance officer](https://amlcanada.ca/outsourced-compliance-officer.html) who works with FINTRAC's requirements every day can fill that gap.
+Many foreign MSBs don't have an experienced compliance person in Canada. Some appoint an [outsourced compliance officer](https://amlcanada.ca/outsourced-compliance-officer.html) who works with FINTRAC's requirements.
 
 ### Criminal record checks from abroad
 
-FINTRAC needs criminal record checks for the CEO, president, directors and anyone owning or controlling 20% or more, issued in each person's country of residence, dated within six months, and translated if needed. For international ownership, this is usually the longest step.
+FINTRAC needs criminal record checks for the CEO, president, directors and anyone owning or controlling 20% or more, issued in each person's country of residence within six months before you apply. Checks that aren't in English or French need a translation attested by a certified translator. For international ownership, this is usually the longest step.
 
 ### Questions
 
 **Do foreign companies need to register with FINTRAC?** Yes, if they direct and provide money services to people or entities in Canada. They register as foreign MSBs before they start.
 
-**Does a foreign MSB need a Canadian address?** FINTRAC requires a representative for service who lives in Canada. A Canadian business address is a separate thing that many foreign MSBs also want for banking, partners and customers.
+**Does a foreign MSB need a Canadian address?** FINTRAC requires a representative for service who resides in Canada. A Canadian business address is a separate thing that some foreign MSBs also want for banking, partners and customers.
+
+**What if our representative for service changes?** Tell FINTRAC within 30 days. If the new name or address isn't provided in time, FINTRAC must deny the application or revoke the registration.
 
 **Can a foreign MSB outsource its compliance officer?** Many do. The foreign business stays responsible for its obligations, but an experienced compliance officer in Canada can carry the day-to-day work.
 
-Sources: [FINTRAC, Money services businesses](https://fintrac-canafe.canada.ca/msb-esm/msb-eng); [Register your MSB or FMSB](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/reg-ins-eng); [Travel rule](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/travel-acheminement/1-eng); [Update, renew or cancel your registration](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/respond-eng). Checked 11 October 2026.
+Sources: [FINTRAC, Money services businesses](https://fintrac-canafe.canada.ca/msb-esm/msb-eng); [Register your MSB or FMSB](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/reg-ins-eng); [Travel rule](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/travel-acheminement/1-eng); [Update, renew or cancel your registration](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/respond-eng); [Proceeds of Crime (Money Laundering) and Terrorist Financing Act](https://laws-lois.justice.gc.ca/eng/acts/P-24.501/FullText.html). Checked 11 October 2026.
 
 ---
 
@@ -999,59 +976,65 @@ Sources: [FINTRAC, Money services businesses](https://fintrac-canafe.canada.ca/m
 
 URL: https://amlcanada.ca/fintrac-reporting-requirements.html
 
-Suspicious transactions, large cash, international transfers and virtual currency: what each FINTRAC report covers and how long you have.
+Money services businesses report suspicious transactions, large cash, international transfers, large virtual currency receipts and listed person property to FINTRAC. Each report has its own trigger and deadline.
 
 **Key points:**
 - STRs have no minimum amount and are due as soon as practicable.
 - LCTR, EFTR and LVCTR apply at $10,000 or more.
-- The 24-hour rule adds up smaller transactions.
-- Deadlines run from 5 working days to 15 calendar days.
+- The 24-hour rule adds up transactions you know are linked.
+- Threshold reports are due within 5 working days to 15 calendar days.
 
 ### The reports at a glance
 
 | Report | When it applies | Deadline |
 
-| Suspicious transaction report (STR) | Reasonable grounds to suspect a transaction is related to money laundering or terrorist financing. No minimum amount. | As soon as practicable |
+| Suspicious transaction report (STR) | Reasonable grounds to suspect a transaction is related to money laundering, terrorist financing or, since August 19, 2024, sanctions evasion. No minimum amount. | As soon as practicable |
 
-| Large cash transaction report (LCTR) | Cash of $10,000 or more, in one transaction or several within 24 hours. | 15 calendar days |
+| Large cash transaction report (LCTR) | Cash of $10,000 or more, in one transaction or in two or more that the 24-hour rule requires you to add together. | 15 calendar days |
 
-| Electronic funds transfer report (EFTR) | International electronic funds transfers of $10,000 or more, in one transfer or several within 24 hours. | 5 working days |
+| Electronic funds transfer report (EFTR) | International electronic funds transfers of $10,000 or more, in one transfer or in two or more that the 24-hour rule requires you to add together. | 5 working days |
 
-| Large virtual currency transaction report (LVCTR) | Virtual currency worth $10,000 or more, in one transaction or several within 24 hours. | 5 working days |
+| Large virtual currency transaction report (LVCTR) | Virtual currency worth $10,000 or more, in one transaction or in two or more that the 24-hour rule requires you to add together. | 5 working days |
 
-| Terrorist property and listed person reports | Property you know or believe is owned or controlled by a terrorist, terrorist group or listed person. | Immediately |
+| Listed person or entity property report | Property you know or believe is owned or controlled by a terrorist group or a listed person or entity. Since October 1, 2025, this includes persons listed under the Special Economic Measures Act and the Sergei Magnitsky Law. Called the terrorist property report until March 2, 2025. You must also disclose the property to the RCMP and CSIS without delay. | Immediately |
 
 Amounts are in Canadian dollars, or the equivalent in another currency or in virtual currency.
 
 ### Suspicious transaction reports (STR)
 
-You must report a transaction, or an attempted one, when you have reasonable grounds to suspect it's related to money laundering or terrorist financing. There's no minimum amount. FINTRAC expects the report "as soon as practicable": somewhere between immediately and as soon as possible, with completing the STR taking priority over other tasks.
+You must report a transaction, or an attempted one, when you have reasonable grounds to suspect it's related to money laundering, terrorist financing or, since August 19, 2024, a sanctions evasion offence ([PCMLTFA section 7](https://laws-lois.justice.gc.ca/eng/acts/P-24.501/FullText.html)). A sanctions evasion offence means breaching a sanctions restriction under the United Nations Act, the Special Economic Measures Act or the Justice for Victims of Corrupt Foreign Officials Act. [FINTRAC's sanctions evasion guidance](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/sanctions/sanctions-eng) explains how to flag these reports, and its [August 2024 notice](https://fintrac-canafe.canada.ca/notices-avis/avs/2024-08-02-eng) announced the change.
+
+There's no minimum amount. FINTRAC expects the report "as soon as practicable": somewhere between immediately and as soon as possible, with completing the STR taking priority over other tasks.
 
 Good STRs explain why: what you saw, the indicators, and how the facts fit together. A transaction can need both an STR and another report, for example a suspicious large cash deposit.
 
 ### Large cash transaction reports (LCTR)
 
-When you receive $10,000 or more in cash, in one transaction or several within 24 hours, you report it within 15 calendar days.
+When you receive $10,000 or more in cash, in one transaction or in several that the 24-hour rule adds together, you report it within 15 calendar days. See [FINTRAC's LCTR guidance](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/lctr-doie/lctr-doie-eng).
 
 ### Electronic funds transfer reports (EFTR)
 
-International electronic funds transfers of $10,000 or more, sent or finally received, in one transfer or several within 24 hours, are reported within 5 working days.
+International electronic funds transfers of $10,000 or more, sent or finally received, in one transfer or in several that the 24-hour rule adds together, are reported within 5 working days.
 
 ### Large virtual currency transaction reports (LVCTR)
 
-When you receive virtual currency worth $10,000 or more, in one transaction or several within 24 hours, you report it within 5 working days after the day you receive it. A working day is Monday to Friday, excluding public holidays.
+When you receive virtual currency worth $10,000 or more, in one transaction or in several that the 24-hour rule adds together, you report it within 5 working days after the day you receive it. A working day is Monday to Friday, excluding public holidays.
 
 ### The 24-hour rule
 
-The 24-hour rule stops threshold reporting being avoided by splitting transactions. When several transactions of the same type, each below $10,000, total $10,000 or more within 24 hours and are conducted by or on behalf of the same person or entity, or for the same beneficiary, they're treated as one and reported. Your systems need to add them up.
+The 24-hour rule stops threshold reporting being avoided by splitting transactions. When you know that two or more transactions of the same type, totalling $10,000 or more within a 24-hour window, were conducted by the same person or entity, on behalf of the same person or entity, or for the same beneficiary, you report them together. The individual transactions can be any amount.
 
-### Terrorist property and listed person reports
+FINTRAC uses a static 24-hour window: you set fixed 24-hour periods, for example 9 a.m. one day to 8:59 a.m. the next. If a client gives you $6,000 in cash at 10 a.m. and another $5,000 at 3 p.m. in the same window, you file one LCTR for $11,000. Your systems need to add these up. [FINTRAC's 24-hour rule guidance](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/24hour/1-eng) has more examples.
 
-If you know or believe property in your possession or control is owned or controlled by a terrorist, a terrorist group or a listed person, you must report it to FINTRAC immediately, and you can't deal with that property.
+### Listed person or entity property reports
+
+If you know or believe property in your possession or control is owned or controlled by a listed person or entity, you must file a Listed Person or Entity Property Report with FINTRAC immediately, and you can't deal with that property. This report replaced the terrorist property report on March 2, 2025. Since October 1, 2025, it also covers persons and entities listed under the Special Economic Measures Act and the Justice for Victims of Corrupt Foreign Officials Act.
+
+Separately from the FINTRAC report, the law requires you to disclose the property without delay to the Commissioner of the RCMP and the Director of CSIS. See [FINTRAC's listed person property guidance](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/Guide5/5-eng).
 
 ### The travel rule
 
-When MSBs send electronic funds or virtual currency transfers, the information about who requested the transfer and the beneficiary must travel with it: names, addresses and account or reference numbers. Received travel-rule information can't be stripped out. It's not a separate report, but it supports your record keeping and reporting.
+When MSBs send electronic funds or virtual currency transfers, the information about who requested the transfer and the beneficiary must travel with it: names, addresses and account or reference numbers. Received travel-rule information can't be stripped out. The travel rule doesn't involve filing a report. It supports your record keeping and reporting.
 
 ### Getting reporting right
 
@@ -1063,11 +1046,11 @@ When MSBs send electronic funds or virtual currency transfers, the information a
 
 - Keep the records behind every report, generally for at least five years.
 
-Reporting is one of the main things an [outsourced compliance officer](https://amlcanada.ca/outsourced-compliance-officer.html) takes off your plate.
+Your [policies and procedures](https://amlcanada.ca/compliance-programs.html) should set out how each of these is done, and staff who handle transactions need [training](https://amlcanada.ca/training.html) on them. An [outsourced compliance officer](https://amlcanada.ca/outsourced-compliance-officer.html) can handle this reporting.
 
 ### Questions
 
-**What is the FINTRAC reporting threshold?** $10,000 for large cash, international electronic funds transfer and large virtual currency transaction reports, including smaller transactions that add up to $10,000 within 24 hours. Suspicious transaction reports have no threshold.
+**What is the FINTRAC reporting threshold?** $10,000 for large cash, international electronic funds transfer and large virtual currency transaction reports, including linked transactions that add up to $10,000 within 24 hours. Suspicious transaction reports have no threshold.
 
 **How long do I have to file an EFTR?** 5 working days.
 
@@ -1075,77 +1058,85 @@ Reporting is one of the main things an [outsourced compliance officer](https://a
 
 **When is an STR due?** As soon as practicable, which FINTRAC describes as between immediately and as soon as possible.
 
-Sources: [FINTRAC, Reporting suspicious transactions](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/str-dod/str-dod-eng); [Reporting large cash transactions](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/lctr-doie/lctr-doie-eng); [Reporting electronic funds transfers](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/eft-dt/eft-dt-eng); [Reporting large virtual currency transactions](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/lvctr/lvctr-eng); [The 24-hour rule](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/24hour/1-eng); [Travel rule](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/travel-acheminement/1-eng); [Record keeping for MSBs](https://fintrac-canafe.canada.ca/guidance-directives/recordkeeping-document/record/msb-eng). Checked 11 October 2026.
+**Do I report suspected sanctions evasion to FINTRAC?** Yes. Since August 19, 2024, suspicious transaction reports also cover transactions you have reasonable grounds to suspect are related to a sanctions evasion offence.
+
+Sources: [FINTRAC, Reporting suspicious transactions](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/str-dod/str-dod-eng); [Report suspected sanctions evasion](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/sanctions/sanctions-eng); [FINTRAC notice, August 2, 2024](https://fintrac-canafe.canada.ca/notices-avis/avs/2024-08-02-eng); [Reporting large cash transactions](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/lctr-doie/lctr-doie-eng); [Reporting electronic funds transfers](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/eft-dt/eft-dt-eng); [Reporting large virtual currency transactions](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/lvctr/lvctr-eng); [The 24-hour rule](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/24hour/1-eng); [Reporting listed person or entity property](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/Guide5/5-eng); [Travel rule](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/travel-acheminement/1-eng); [Record keeping for MSBs](https://fintrac-canafe.canada.ca/guidance-directives/recordkeeping-document/record/msb-eng); [Proceeds of Crime (Money Laundering) and Terrorist Financing Act](https://laws-lois.justice.gc.ca/eng/acts/P-24.501/FullText.html). Checked 11 October 2026.
 
 ---
 
-## Guide: What is the RPAA, and do you need to register?
+## Guide: What is the RPAA?
 
 URL: https://amlcanada.ca/rpaa-registration-guide.html
 
-The Retail Payment Activities Act brought payment service providers under Bank of Canada supervision. Who's covered, what registration involves and what comes after.
+The Retail Payment Activities Act is the federal law under which the Bank of Canada supervises payment service providers. It sets rules on operational risk, incidents and the safeguarding of users' funds.
 
 **Key points:**
-- PSPs performing payment functions for end users in Canada register with the Bank.
-- The Bank charges a one-time application fee, currently CA$2,500.
-- Applications get a national security review by the Department of Finance.
-- Frameworks for risk, incidents and safeguarding have applied since Sept 8, 2025.
+- The RPAA applies to payment service providers performing retail payment activities.
+- Foreign PSPs are covered when they direct activities at Canada and serve end users here.
+- Banks, credit unions and some other institutions are excluded.
+- The RPAA sits alongside FINTRAC rules, and many businesses need both.
 
 ### What the RPAA is
 
-The Retail Payment Activities Act (RPAA) is the federal law that brought payment service providers (PSPs), such as payment processors, digital wallets and money transfer apps, under supervision by the Bank of Canada. It focuses on operational risk, incident response and safeguarding the funds PSPs hold for their users.
+The [Retail Payment Activities Act](https://laws-lois.justice.gc.ca/eng/acts/R-7.36/FullText.html) (RPAA) brought payment service providers (PSPs) under federal supervision for the first time. Payment processors, digital wallets and money transfer apps are typical examples. The Bank of Canada supervises them, with a focus on three things: managing operational risk, responding to incidents, and protecting the funds PSPs hold for their users.
 
-### Who has to register
+The Act defines a PSP as an individual or entity that performs payment functions as a service or business activity that isn't incidental to another service or business activity. A retail payment activity is a payment function performed in relation to an electronic funds transfer in Canadian or another currency.
 
-A PSP is covered when it performs one or more payment functions for end users, as a service or business activity:
+### The five payment functions
 
-- providing or maintaining an account held for end users;
+The Act lists five payment functions. A PSP performs one or more of them for end users:
 
-- holding funds on behalf of end users;
+- keeping an account for one or more end users that's used for electronic funds transfers;
 
-- initiating an electronic funds transfer at an end user's request;
+- holding funds for an end user until they're withdrawn or sent to someone else;
 
-- authorizing an electronic funds transfer, or transmitting, receiving or facilitating an instruction for one;
+- starting an electronic funds transfer when an end user asks for it;
 
-- providing clearing or settlement services.
+- authorizing an electronic funds transfer, or transmitting, receiving or facilitating the instruction for one;
 
-That covers PSPs with a place of business in Canada, and PSPs outside Canada that perform retail payment activities for end users in Canada. Some institutions, such as banks, are excluded, and some activities fall outside the Act.
+- clearing or settlement services.
 
-### What registration costs
+### Who the Act covers
 
-The Bank of Canada charges every applicant a one-time, non-refundable application fee. It was set at CA$2,500 from November 1, 2024 and is adjusted every calendar year in line with inflation. Registered PSPs also pay the Bank annual assessment fees to cover the cost of supervision. Our fee to prepare and support your registration is a fixed US$3,500.
+The RPAA applies to retail payment activities performed by a PSP with a place of business in Canada. It also applies to a PSP outside Canada that directs retail payment activities at individuals or entities in Canada and performs them for end users in Canada (RPAA section 5).
 
-### How the Bank reviews applications
+A new PSP must register with the Bank before it performs any retail payment activities, according to the [Bank's registration criteria](https://www.bankofcanada.ca/2026/06/criteria-for-registering-payment-service-providers/). Registered PSPs are listed on the Bank's public registry.
 
-The Bank shares applications with the Department of Finance for national security screening, and with FINTRAC. The Bank must refuse or revoke a registration if the Minister of Finance directs it to for national security reasons. Registration decisions are published as screenings are completed.
+### What's excluded
 
-### What's required after registration
+Sections 6 to 10 of the Act set out exclusions. Some institutions are outside the RPAA, including banks, authorized foreign banks, provincially regulated credit unions and caisses populaires, insurance companies, federal trust and loan companies, and provincially regulated trust companies.
 
-Since September 8, 2025, PSPs must have:
+Some activities are excluded too, including payments made with closed-loop instruments such as gift cards that can be used only with the issuing merchant or a group of merchants, cash withdrawals at ATMs, and certain securities and financial contract transactions. An agent of a registered PSP that is acting within its authority and is on the PSP's list of agents isn't separately covered.
 
-- a risk management and incident response framework, covering identification, protection, detection, response and recovery, with defined roles, adequate resources, periodic testing, and the risks from third parties, agents and mandataries;
+### Registration, review and fees
 
-- if they hold end-user funds, safeguarding: a trust account, or a segregated account with insurance or a guarantee, plus a written framework for users' access to funds and for insolvency.
+The Bank charges a one-time, non-refundable application fee. It was CA$2,500 when registration opened in November 2024, and it's set by [regulation](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2023-229/FullText.html) and adjusted for inflation each January. We confirm the current amount before you apply. The Bank plans to charge registered PSPs annual assessment fees to recover the cost of supervision, but it hasn't started yet. Its [FAQ](https://www.bankofcanada.ca/2026/08/frequently-asked-questions-about-retail-payments-supervision/) says it will begin charging them in due course, once the fee formula is finalized.
 
-PSPs must also notify the Bank without delay of incidents with a material impact, give notice at least five business days before a significant change or new activity, and file an annual report no later than March 31 of the following year. Our [RPAA compliance program](https://amlcanada.ca/rpaa-compliance-program.html) covers these.
+Application information is shared with the Department of Finance and with FINTRAC. If the Minister of Finance considers it necessary for national security reasons, the Minister can order a full review of an application, and the Bank can't register the applicant while that review is under way. Our [RPAA registration service](https://amlcanada.ca/rpaa-registration.html) covers the application itself.
+
+### Ongoing obligations
+
+Since September 8, 2025, PSPs must have a risk management and incident response framework, and those that hold end-user funds must safeguard them, either in a trust account or in a segregated account with insurance or a guarantee.
+
+When a PSP becomes aware of an incident with a material impact, it must notify the Bank and the affected end users, PSPs or clearing houses without delay (RPAA section 18). The Bank's [reporting reminder](https://www.bankofcanada.ca/2026/06/reminder-psp-reporting-obligations-under-rpaa/) says the initial notice to the Bank is due no later than 48 hours after the PSP determines the incident is material. PSPs also give notice at least five business days before a significant change or new activity, and file an annual report by March 31. Our [RPAA compliance program](https://amlcanada.ca/rpaa-compliance-program.html) covers these frameworks.
 
 ### RPAA and FINTRAC
 
-The two regimes sit side by side. The RPAA covers operational risk and safeguarding under the Bank of Canada; FINTRAC covers money laundering and terrorist financing. A payment business that also remits or transmits funds usually needs to [register with FINTRAC as an MSB](https://amlcanada.ca/msb-registration.html) too.
+The two regimes sit side by side. The RPAA deals with operational risk and safeguarding under the Bank of Canada. FINTRAC deals with money laundering, terrorist financing and sanctions evasion under the PCMLTFA. A payment business that also remits or transmits funds usually needs to [register with FINTRAC as an MSB](https://amlcanada.ca/how-to-register-msb-canada.html) as well as with the Bank.
 
 ### Questions
 
 **What does RPAA stand for?** The Retail Payment Activities Act, the law under which the Bank of Canada supervises payment service providers.
 
-**How much is the Bank of Canada's RPAA fee?** A one-time, non-refundable application fee, set at CA$2,500 from November 1, 2024 and adjusted each year for inflation. Annual assessment fees apply once registered.
+**How much is the Bank of Canada's RPAA fee?** A one-time, non-refundable application fee. It was CA$2,500 when introduced in November 2024 and is adjusted for inflation each January, so we confirm the current amount before you apply. Annual assessment fees aren't charged yet.
 
-**Do foreign PSPs have to register under the RPAA?** Yes, if they perform retail payment activities for end users in Canada.
+**Do foreign PSPs have to register under the RPAA?** Yes, if they direct retail payment activities at individuals or entities in Canada and perform them for end users in Canada.
 
-**When is the RPAA annual report due?** No later than March 31 of the year after the reporting year.
+**When does a PSP have to notify the Bank of an incident?** Without delay, and no later than 48 hours after it determines that the incident has a material impact. Affected end users, PSPs and clearing houses must also be notified.
 
 **How long does RPAA registration take?** In our experience, generally about 2 to 8 months, including the national security review.
 
-Sources: [Bank of Canada, Retail payments supervision](https://www.bankofcanada.ca/core-functions/retail-payments-supervision/); [Supervisory framework](https://www.bankofcanada.ca/core-functions/retail-payments-supervision/supervisory-framework/); [Registration](https://www.bankofcanada.ca/core-functions/retail-payments-supervision/registration/); [Registration application fee](https://www.bankofcanada.ca/2024/10/registration-application-fee/). Checked 11 October 2026.
+Sources: [Retail Payment Activities Act](https://laws-lois.justice.gc.ca/eng/acts/R-7.36/FullText.html); [Retail Payment Activities Regulations](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2023-229/FullText.html); [Bank of Canada, Retail payments supervision](https://www.bankofcanada.ca/regulatory-oversight/retail-payments/); [Supervisory framework](https://www.bankofcanada.ca/regulatory-oversight/retail-payments/supervisory-framework/); [Retail payments supervision FAQ](https://www.bankofcanada.ca/2026/08/frequently-asked-questions-about-retail-payments-supervision/); [Registration application fee](https://www.bankofcanada.ca/2024/10/registration-application-fee/); [Criteria for registering PSPs](https://www.bankofcanada.ca/2026/06/criteria-for-registering-payment-service-providers/); [PSP reporting obligations](https://www.bankofcanada.ca/2026/06/reminder-psp-reporting-obligations-under-rpaa/). Checked 11 October 2026.
 
 ---
 
@@ -1153,21 +1144,21 @@ Sources: [Bank of Canada, Retail payments supervision](https://www.bankofcanada.
 
 URL: https://amlcanada.ca/crypto-registration-canada.html
 
-Virtual currency dealers register as money services businesses. What that means for crypto exchanges and dealers, at home and abroad.
+Crypto exchanges and virtual currency dealers register with FINTRAC as money services businesses, whether they're based in Canada or serve Canadians from abroad.
 
 **Key points:**
 - Dealing in virtual currency is a money service: register with FINTRAC first.
 - Foreign crypto businesses serving Canada register as foreign MSBs.
 - Report virtual currency receipts of $10,000+ within 5 working days.
-- The travel rule applies to virtual currency transfers.
+- Trading platforms also deal with provincial securities regulators.
 
 ### Crypto businesses register as MSBs
 
-Dealing in virtual currency is one of the money services FINTRAC lists, so crypto exchanges and virtual currency dealers register with FINTRAC as money services businesses before they start. A crypto business outside Canada that directs and provides these services to people in Canada registers as a foreign MSB. The [registration steps](https://amlcanada.ca/how-to-register-msb-canada.html) are the same as for any MSB.
+Dealing in virtual currency is one of the money services FINTRAC lists, so crypto exchanges and virtual currency dealers register with FINTRAC as money services businesses before they start. A crypto business outside Canada that directs and provides these services to people in Canada registers as a [foreign MSB](https://amlcanada.ca/foreign-msb-registration-canada.html). The [registration steps](https://amlcanada.ca/how-to-register-msb-canada.html) are the same as for any MSB.
 
 ### Large virtual currency transaction reports
 
-When you receive virtual currency worth $10,000 or more, in one transaction or several within 24 hours, you file a large virtual currency transaction report (LVCTR) within 5 working days after the day you receive it. Suspicious transaction reports apply too, with no minimum amount. See our [FINTRAC reporting guide](https://amlcanada.ca/fintrac-reporting-requirements.html).
+When you receive virtual currency worth $10,000 or more, you file a large virtual currency transaction report (LVCTR) within 5 working days after the day you receive it. Under the 24-hour rule, this includes several receipts within a 24-hour window that total $10,000 or more, when you know they were made by or for the same person or entity, or for the same beneficiary. See [FINTRAC's LVCTR guidance](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/lvctr/lvctr-eng). Suspicious transaction reports apply too, with no minimum amount. Our [FINTRAC reporting guide](https://amlcanada.ca/fintrac-reporting-requirements.html) covers both.
 
 ### The travel rule for virtual currency
 
@@ -1179,7 +1170,17 @@ For virtual currency transfers of $1,000 or more, MSBs keep detailed records, in
 
 ### Provincial rules
 
-FINTRAC registration is federal. Crypto trading platforms can also fall under provincial securities rules, and Quebec licenses money-services businesses, including some crypto activities, through Revenu Québec. We'll tell you when you need separate advice on those.
+FINTRAC registration is federal. Crypto trading platforms are also regulated by provincial securities regulators. A platform operating in Canada is expected to register with them or, while it seeks registration, file a pre-registration undertaking, under [CSA Staff Notice 21-332](https://www.osc.ca/en/securities-law/instruments-rules-policies/2/21-332/csa-staff-notice-21-332-crypto-asset-trading-platforms-pre-registration-undertakings-changes). Platforms that let clients trade stablecoins, which securities regulators call value-referenced crypto assets, are expected to follow the terms in [CSA Staff Notice 21-333](https://www.osc.ca/en/securities-law/instruments-rules-policies/2/21-333/csa-staff-notice-21-333-crypto-asset-trading-platforms-terms-and-conditions-trading-value).
+
+Quebec also licenses money-services businesses through Revenu Québec. We'll tell you when you need separate advice on these rules.
+
+### Changes in 2025 and 2026
+
+Since October 1, 2025, regulations strengthening the MSB registration framework have been in force, including obligations when MSBs engage agents or mandataries.
+
+Bill C-12, which received Royal Assent on March 26, 2026, raised the maximum administrative monetary penalty for violations after that date to $4 million per violation for a person and $20 million for an entity. It also requires compliance agreements after penalties, adds compliance orders, and requires compliance programs to be reasonably designed, risk-based and effective. FINTRAC lists these on its [changes page](https://fintrac-canafe.canada.ca/businesses-entreprises/changes-changements-eng).
+
+The Budget 2025 Implementation Act, which also received Royal Assent on March 26, 2026, created the Stablecoin Act. It isn't in force yet. Under the [federal stablecoin framework](https://www.canada.ca/en/department-finance/programs/financial-sector-policy/canadas-stablecoin-framework.html), stablecoin issuers will register with the Bank of Canada, which will supervise them, and FINTRAC says they will also register with it as MSBs dealing in virtual currency.
 
 ### Your compliance program
 
@@ -1187,13 +1188,15 @@ A crypto MSB needs the same five-part compliance program as any MSB, written for
 
 ### Questions
 
-**Do crypto exchanges need to register in Canada?** Yes. Dealing in virtual currency is a money service, so crypto exchanges and dealers register with FINTRAC as MSBs.
+**Do crypto exchanges need to register in Canada?** Yes. Dealing in virtual currency is a money service, so crypto exchanges and dealers register with FINTRAC as MSBs. Trading platforms also deal with provincial securities regulators.
 
-**What is an LVCTR?** A large virtual currency transaction report, filed when you receive virtual currency worth $10,000 or more, within 5 working days.
+**What is an LVCTR?** A large virtual currency transaction report, filed within 5 working days when you receive virtual currency worth $10,000 or more, including linked receipts that the 24-hour rule adds together.
 
 **Does the travel rule apply to crypto in Canada?** Yes. MSBs must include requester and beneficiary information when they send virtual currency transfers, and take reasonable measures to check it's included when they receive them.
 
-Sources: [FINTRAC, Money services businesses](https://fintrac-canafe.canada.ca/msb-esm/msb-eng); [Reporting large virtual currency transactions](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/lvctr/lvctr-eng); [Travel rule](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/travel-acheminement/1-eng); [Record keeping for MSBs](https://fintrac-canafe.canada.ca/guidance-directives/recordkeeping-document/record/msb-eng); [Revenu Québec, Money-services business licence](https://www.revenuquebec.ca/en/businesses/sector-specific-measures/money-services-businesses-msbs/money-services-business-licence-application/). Checked 11 October 2026.
+**Is the Stablecoin Act in force?** Not yet. It received Royal Assent on March 26, 2026, and will come into force once its regulations are made.
+
+Sources: [FINTRAC, Money services businesses](https://fintrac-canafe.canada.ca/msb-esm/msb-eng); [Reporting large virtual currency transactions](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/lvctr/lvctr-eng); [The 24-hour rule](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/24hour/1-eng); [Travel rule](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/travel-acheminement/1-eng); [Record keeping for MSBs](https://fintrac-canafe.canada.ca/guidance-directives/recordkeeping-document/record/msb-eng); [FINTRAC, Changes to legislation and regulations](https://fintrac-canafe.canada.ca/businesses-entreprises/changes-changements-eng); [Administrative monetary penalties: changes](https://fintrac-canafe.canada.ca/pen/3-eng); [Department of Finance, Canada's stablecoin framework](https://www.canada.ca/en/department-finance/programs/financial-sector-policy/canadas-stablecoin-framework.html); [CSA Staff Notice 21-332](https://www.osc.ca/en/securities-law/instruments-rules-policies/2/21-332/csa-staff-notice-21-332-crypto-asset-trading-platforms-pre-registration-undertakings-changes); [CSA Staff Notice 21-333](https://www.osc.ca/en/securities-law/instruments-rules-policies/2/21-333/csa-staff-notice-21-333-crypto-asset-trading-platforms-terms-and-conditions-trading-value); [Revenu Québec, Money-services business licence](https://www.revenuquebec.ca/en/businesses/sector-specific-measures/money-services-businesses-msbs/money-services-business-licence-application/). Checked 11 October 2026.
 
 ---
 
@@ -1201,19 +1204,19 @@ Sources: [FINTRAC, Money services businesses](https://fintrac-canafe.canada.ca/m
 
 URL: https://amlcanada.ca/fintrac-effectiveness-review-checklist.html
 
-What FINTRAC requires from your review, what to test, and how to report it, in a checklist you can work through.
+FINTRAC requires every reporting entity to review its compliance program at least every two years. The review should test how the program works in practice as well as what's written down.
 
 **Key points:**
 - Review every part of your compliance program at least every two years.
 - An internal or external auditor does it, or you, if you have no auditor.
-- Report the findings in writing to a senior officer within 30 days.
-- Test what actually happens, not just whether documents exist.
+- If you're an entity, report the findings to a senior officer within 30 days.
+- Test whether procedures are followed, as well as whether documents exist.
 
 ### What FINTRAC requires
 
-Every business FINTRAC regulates must institute and document a plan to review the effectiveness of its compliance program, and carry out the review at least every two years. The plan must include all the elements of the program: policies and procedures, risk assessment and training.
+Every business FINTRAC regulates must institute and document a plan to review the effectiveness of its compliance program, and carry out the review at least every two years. The plan must include all the elements of the program: policies and procedures, risk assessment and training. The requirements are in [FINTRAC's compliance program guidance](https://fintrac-canafe.canada.ca/guidance-directives/compliance-conformite/Guide4/4-eng).
 
-The review is done by an internal or external auditor or, if you don't have an auditor, by yourself. FINTRAC's best-practice advice is that whoever does it shouldn't be directly involved in the compliance program activities being reviewed, so the review stays impartial.
+The review is done by an internal or external auditor or, if you don't have an auditor, by yourself. FINTRAC's best-practice advice is that whoever does it shouldn't be directly involved in the compliance program activities being reviewed, so the review stays impartial. Some businesses use an [external effectiveness review](https://amlcanada.ca/effectiveness-reviews.html) for that reason.
 
 ### The checklist
 
@@ -1221,13 +1224,17 @@ The review is done by an internal or external auditor or, if you don't have an a
 
 - Are they written, current, and approved by a senior officer (if you're an entity)?
 
-- Do they reflect the services you actually offer today, including anything launched since the last review?
+- Do they reflect the services you offer today, including anything launched since the last review?
 
 - Do they cover identification, beneficial ownership, politically exposed persons, third-party determination, ongoing monitoring, record keeping, reporting, ministerial directives and the travel rule where it applies?
 
 ### Risk assessment
 
 - Does it cover your clients and business relationships, products, services and delivery channels, geography, and new developments and technologies?
+
+- Does it assess sanctions evasion risk alongside money laundering and terrorist financing risk?
+
+- Does it take account of the risks the latest National Risk Assessment identifies for your sector?
 
 - Has it been updated for new products, markets or agents?
 
@@ -1237,7 +1244,7 @@ The review is done by an internal or external auditor or, if you don't have an a
 
 - Is there a written, ongoing training program and plan?
 
-- Did the people who need training, including agents, actually receive it, and are there records?
+- Did the people who need training, including agents, receive it, and are there records?
 
 - Does the content match your risks and your staff's roles?
 
@@ -1251,11 +1258,13 @@ The review is done by an internal or external auditor or, if you don't have an a
 
 - Check that records can be produced, and are kept for the required period.
 
-- Check that findings from the last review were actually fixed.
+- Check that findings from the last review were fixed.
 
-### Report to a senior officer within 30 days
+If your policies or risk assessment need rewriting after the review, our [compliance program documents](https://amlcanada.ca/compliance-programs.html) can replace them.
 
-No later than 30 days after the review, report in writing to a senior officer: the findings of the review, the updates made to your policies and procedures during the reporting period, and the status of putting those updates in place. Keep the report; it's one of the first things an examiner may ask for.
+### Reporting the results
+
+If you're an entity, you must report in writing to a senior officer no later than 30 days after the review is completed. The report covers the findings of the review, the updates made to your policies and procedures during the reporting period, and the status of putting those updates in place. Keep the report. It's one of the first things an examiner may ask for, as our [examination guide](https://amlcanada.ca/fintrac-examination-preparation.html) explains.
 
 ### Common gaps
 
@@ -1264,6 +1273,8 @@ No later than 30 days after the review, report in writing to a senior officer: t
 - The same review copied from the previous cycle.
 
 - A risk assessment that hasn't changed since launch, though the business has.
+
+- No assessment of sanctions evasion risk.
 
 - Findings from the last review still open.
 
@@ -1275,9 +1286,9 @@ No later than 30 days after the review, report in writing to a senior officer: t
 
 **Who can do the effectiveness review?** An internal or external auditor, or yourself if you don't have an auditor. FINTRAC suggests it shouldn't be someone directly involved in the activities being reviewed.
 
-**What happens after the review?** Report the findings in writing to a senior officer within 30 days, along with the updates made to policies and procedures and how far they've been put in place.
+**What happens after the review?** If you're an entity, report the findings in writing to a senior officer within 30 days, along with the updates made to policies and procedures and how far they've been put in place.
 
-Sources: [FINTRAC, Compliance program requirements](https://fintrac-canafe.canada.ca/guidance-directives/compliance-conformite/Guide4/4-eng); [Risk assessment guidance](https://fintrac-canafe.canada.ca/guidance-directives/compliance-conformite/rba/rba-eng); [The 24-hour rule](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/24hour/1-eng). Checked 11 October 2026.
+Sources: [FINTRAC, Compliance program requirements](https://fintrac-canafe.canada.ca/guidance-directives/compliance-conformite/Guide4/4-eng); [Risk assessment guidance](https://fintrac-canafe.canada.ca/guidance-directives/compliance-conformite/rba/rba-eng); [The 24-hour rule](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/24hour/1-eng); [Report suspected sanctions evasion](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/sanctions/sanctions-eng). Checked 11 October 2026.
 
 ---
 
@@ -1285,41 +1296,49 @@ Sources: [FINTRAC, Compliance program requirements](https://fintrac-canafe.canad
 
 URL: https://amlcanada.ca/fintrac-examination-preparation.html
 
-FINTRAC has been in touch, or soon will be. How examinations work, what's requested, and what to do first.
+A FINTRAC examination usually starts with a call to your compliance officer and a letter asking for documents. Examinations can be done remotely or on site, and findings can lead to follow-up or a penalty.
 
 **Key points:**
-- The examination starts on the date of FINTRAC's notification call.
+- The examination starts on the date FINTRAC notifies you.
 - The notification letter requests your program documents and records.
-- Reports filed after the notification date count as late.
-- Findings can lead to follow-up or an administrative monetary penalty.
+- Reports filed after the notification date are treated as not reported.
+- Penalties for violations after March 26, 2026 can be much higher.
 
 ### How a FINTRAC examination works
 
-FINTRAC's assessment manual describes three phases: planning and scoping, examination and assessment, and drawing conclusions and closing out. Examinations can be done remotely (a desk examination) or at your place of business (an on-site examination).
+[FINTRAC's assessment manual](https://fintrac-canafe.canada.ca/guidance-directives/exam-examen/cam/cams-eng) describes three phases: planning and scoping, examination and assessment, and drawing conclusions and closing out. Examinations can be done remotely (a desk examination) or at your place of business (an on-site examination).
 
-It usually starts with a call to your compliance officer, confirmed in a notification letter. The letter is FINTRAC's formal request for information: your compliance program documents and, where relevant, lists of transactions and records. FINTRAC treats the notification call as the start of the examination.
+It usually starts with a call to your compliance officer, confirmed in a notification letter. The letter is FINTRAC's formal request for information: your compliance program documents and, where relevant, lists of transactions and records. FINTRAC treats the date it notifies you as the start of the examination.
 
 ### Why the notification date matters
 
-Anything not reported or corrected before the notification date can count against you. A report filed after that date, for example, is treated as not having been filed when it was required. The time to fix your reporting is before FINTRAC calls, which is why a regular [effectiveness review](https://amlcanada.ca/fintrac-effectiveness-review-checklist.html) matters.
+A reportable transaction that hasn't been reported by the start of the examination is treated as not reported, and can lead to a finding of failure to submit a report, according to [FINTRAC's examination guidance](https://fintrac-canafe.canada.ca/guidance-directives/exam-examen/05-2005/4-eng). Filing it after you've been notified doesn't change that. FINTRAC also says it won't generally accept certain documents or records once an examination has started.
+
+Fix late or missing reports before FINTRAC calls. A regular [effectiveness review](https://amlcanada.ca/fintrac-effectiveness-review-checklist.html) helps you find them.
 
 ### What to do first
 
-- **Read the letter carefully** and note every deadline. Missing them is itself a risk.
+- Read the letter carefully and note every deadline. Missing one is itself a risk.
 
-- **Gather your compliance program**: policies and procedures, risk assessment, training program and records, and your last effectiveness review and its report to a senior officer.
+- Gather your compliance program: policies and procedures, risk assessment, training program and records, and your last effectiveness review and its report to a senior officer.
 
-- **Pull the records requested**, completely and in the format asked for.
+- Pull the records requested, completely and in the format asked for.
 
-- **Brief the people involved**, especially your compliance officer and anyone FINTRAC may interview.
+- Brief the people involved, especially your compliance officer and anyone FINTRAC may interview.
 
-- **Be accurate.** Don't create documents after the fact to fill gaps; explain what exists and what you're fixing.
+- Be accurate. Don't create documents after the fact to fill gaps; explain what exists and what you're fixing.
 
 ### After the examination
 
 FINTRAC may send a findings letter to your compliance officer, covering the findings discussed at the exit meeting and listing deficient records. The outcome can be no further action, follow-up, a recommended enforcement action, or a notice of violation with a penalty. If an action plan is requested, it's typically due within 30 calendar days.
 
-Administrative monetary penalties aren't automatic. FINTRAC considers the nature and extent of the problem, its root cause, mitigating and aggravating factors, and your compliance history. If you receive a notice of violation, you can make written representations within 30 days. FINTRAC publishes certain penalties on its website.
+Administrative monetary penalties aren't automatic. FINTRAC considers the nature and extent of the problem, its root cause, mitigating and aggravating factors, and your compliance history. If you receive a notice of violation, you can make written representations within 30 days. When a penalty is imposed, FINTRAC must make public the name of the person or entity, the nature of the violation and the amount ([PCMLTFA section 73.22](https://laws-lois.justice.gc.ca/eng/acts/P-24.501/FullText.html)). Past notices are on FINTRAC's [public list of penalties](https://fintrac-canafe.canada.ca/pen/4-eng).
+
+### Changes under Bill C-12
+
+Bill C-12, the Strengthening Canada's Immigration System and Borders Act, received Royal Assent on March 26, 2026. For violations that happen after that date, the maximum penalty is $4 million per violation for a person and $20 million for an entity. A business that receives a penalty must also enter into a compliance agreement with FINTRAC. If it refuses or doesn't comply, FINTRAC's Director must make a compliance order, which is made public.
+
+The amendments also require compliance programs to be reasonably designed, risk-based and effective. Violations that happened entirely before March 26, 2026 stay under the earlier penalty policy. FINTRAC explains the transition on its [penalty changes page](https://fintrac-canafe.canada.ca/pen/3-eng).
 
 ### Preparing before FINTRAC calls
 
@@ -1331,17 +1350,19 @@ Administrative monetary penalties aren't automatic. FINTRAC considers the nature
 
 - Close the findings from your last review or examination.
 
-An [outsourced compliance officer](https://amlcanada.ca/outsourced-compliance-officer.html) can keep this in order between examinations.
+An [outsourced compliance officer](https://amlcanada.ca/outsourced-compliance-officer.html) can help keep these up to date, and an [effectiveness review](https://amlcanada.ca/effectiveness-reviews.html) tests them before FINTRAC does.
 
 ### Questions
 
-**How much notice does FINTRAC give before an examination?** FINTRAC's guidance says the notification letter usually arrives 30 to 45 days before the examination date, sometimes longer for larger businesses.
+**How much notice does FINTRAC give before an examination?** FINTRAC's assessment manual says the notification letter usually arrives 30 to 45 days before the examination date, sometimes longer for larger businesses.
 
 **Can FINTRAC examinations be done remotely?** Yes. Examinations can be desk examinations done remotely, or on-site at your place of business.
 
 **Does every deficiency lead to a penalty?** No. FINTRAC says penalties aren't an automatic response. It considers the nature, extent and root cause of the problem and your compliance history.
 
-Sources: [FINTRAC assessment manual](https://fintrac-canafe.canada.ca/guidance-directives/exam-examen/cam/cams-eng); [FINTRAC examinations: what to expect](https://fintrac-canafe.canada.ca/guidance-directives/exam-examen/05-2005/4-eng); [Administrative monetary penalties policy](https://fintrac-canafe.canada.ca/pen/2-eng); [Public notices of penalties](https://fintrac-canafe.canada.ca/pen/4-eng). Checked 11 October 2026.
+**What are the maximum FINTRAC penalties now?** For violations after March 26, 2026, up to $4 million per violation for a person and $20 million for an entity, under amendments made by Bill C-12.
+
+Sources: [FINTRAC assessment manual](https://fintrac-canafe.canada.ca/guidance-directives/exam-examen/cam/cams-eng); [FINTRAC examinations: what to expect](https://fintrac-canafe.canada.ca/guidance-directives/exam-examen/05-2005/4-eng); [Administrative monetary penalties policy](https://fintrac-canafe.canada.ca/pen/2-eng); [Administrative monetary penalties: changes](https://fintrac-canafe.canada.ca/pen/3-eng); [Public notices of penalties](https://fintrac-canafe.canada.ca/pen/4-eng); [FINTRAC, Changes to legislation and regulations](https://fintrac-canafe.canada.ca/businesses-entreprises/changes-changements-eng); [Proceeds of Crime (Money Laundering) and Terrorist Financing Act](https://laws-lois.justice.gc.ca/eng/acts/P-24.501/FullText.html). Checked 11 October 2026.
 
 ---
 
@@ -1349,51 +1370,93 @@ Sources: [FINTRAC assessment manual](https://fintrac-canafe.canada.ca/guidance-d
 
 URL: https://amlcanada.ca/buying-an-msb-canada.html
 
-Acquiring a company that's already registered with FINTRAC can be a fast route into Canada. What to check before, and what to do after.
+Buying a company that's already registered with FINTRAC as a money services business needs the same care as any acquisition, plus checks specific to FINTRAC and, for payment businesses, the Bank of Canada.
 
 **Key points:**
-- Check the registration is active and covers the services you need.
+- Check the registration on FINTRAC's public registry before you agree a price.
+- New owners and managers must not be ineligible under the PCMLTFA.
 - Tell FINTRAC about changes, like new owners and directors, within 30 days.
-- New directors and 20%+ owners need criminal record checks.
-- The compliance obligations come with the company.
+- A PSP registered under the RPAA must re-register before control changes.
 
-### Why buy instead of register?
+### Why some businesses buy
 
-Some businesses prefer to acquire a Canadian company that's already registered with FINTRAC as a money services business, rather than [registering a new one](https://amlcanada.ca/how-to-register-msb-canada.html). It means starting from an established entity with a registration history. It costs more up front, and the due diligence matters as much as the price.
+Some businesses acquire a Canadian company that's already registered with FINTRAC as a money services business, instead of [registering a new one](https://amlcanada.ca/how-to-register-msb-canada.html). They start from an established entity with a registration history. It costs more up front, and the due diligence matters as much as the price.
 
-### What to check before you buy
+AML Canada sells registered MSBs. Our current companies are listed on [MSB for sale](https://amlcanada.ca/msb-for-sale.html). The checks below apply whichever seller you buy from.
 
-- **Registration status:** active, not expired or revoked, and listed on FINTRAC's public MSB registry.
+### Check the public registry
 
-- **Registered services:** do they match what you plan to offer? Adding services later means updating the registration.
+Start with [FINTRAC's MSB registry](https://fintrac-canafe.canada.ca/msb-esm/reg-eng). Search by name or registration number and confirm the status is Registered. The other statuses are Revoked, Expired and Ceased. The listing also shows the services the business is registered for, its addresses, and its registration and expiry dates.
 
-- **Renewal date:** registration lasts two years. Know when it's next due.
+Compare the listed services with what you plan to offer. Adding services later means updating the registration. Note the expiry date too: registration lasts two years and must be renewed before it expires. A Registered listing means the business met the legal requirements to register. FINTRAC says it isn't an endorsement.
 
-- **Compliance history:** past examinations, findings, and any published penalties.
+### Check that the new owners are eligible
 
-- **Corporate records:** ownership history, directors, and that the company is in good standing.
+Section 11.11 of the [PCMLTFA](https://laws-lois.justice.gc.ca/eng/acts/P-24.501/FullText.html) makes some persons and entities ineligible to register. They include:
 
-- **Provincial rules:** Quebec, for example, licenses money-services businesses separately.
+- persons and entities subject to sanctions under the United Nations Act, the Special Economic Measures Act or the Justice for Victims of Corrupt Foreign Officials Act, or listed under the Criminal Code;
 
-### After the purchase: updating FINTRAC
+- persons and entities convicted of money laundering, terrorist financing or PCMLTFA offences, or of certain other Criminal Code, drug, customs and tax offences;
+
+- corporations whose director, CEO, president or 20%+ owner has been convicted on indictment of an offence under the PCMLTFA or its predecessor Act;
+
+- since Bill C-12, persons and entities that still haven't paid a FINTRAC penalty, with interest, 30 days after all proceedings on the violation have ended.
+
+If a registered business becomes ineligible, its registration is revoked from that day. If a change of ownership makes the business ineligible, for example under the corporation rule above, the registration you're paying for ends. FINTRAC also needs criminal record checks for the CEO, the president, each director and anyone owning or controlling 20% or more, so plan for these for the incoming people, especially if they live outside Canada.
+
+### Shares or assets
+
+As general information, FINTRAC registration belongs to the registered person or entity. In a share purchase, the company keeps its registration and reports the changes to FINTRAC. If you buy the business's assets into a new or different company, that company needs its own registration before it provides money services.
+
+A share purchase also brings the company's history with it: past transactions, records, any examination findings and any unpaid penalties. Ask your lawyer about warranties and indemnities that cover this.
+
+### What else to check before you buy
+
+- Past FINTRAC examinations, findings letters and action plans, and any published penalties.
+
+- The compliance program, the last two effectiveness reviews and their reports to a senior officer.
+
+- Whether reports were filed on time, and whether records exist for the past five years.
+
+- Corporate records: ownership history, directors, and that the company is in good standing.
+
+- Bank accounts and payment partners, and whether they will continue after the change of control.
+
+### Red flags
+
+- A registry status other than Registered, or an expiry date that has already passed.
+
+- A seller who won't share FINTRAC correspondence or examination results.
+
+- Registered services or transaction estimates that don't match what the business has done.
+
+- No compliance program, or one that was never put into practice.
+
+- Owners or directors who may fall within the ineligibility rules.
+
+### Bank of Canada and Quebec
+
+If the company is also registered with the Bank of Canada as a payment service provider, a planned acquisition of control triggers RPAA section 24. The PSP must submit a new application and be registered again before the acquisition closes. The new application gives the Minister of Finance the chance to carry out a national security review. The [Bank's guidance on acquisitions](https://www.bankofcanada.ca/2024/08/acquisitions-of-control-and-prescribed-changes/) asks PSPs to allow time for both reviews before closing.
+
+In Quebec, money-services businesses also need a licence from [Revenu Québec](https://www.revenuquebec.ca/en/businesses/sector-specific-measures/money-services-businesses-msbs/money-services-business-licence-application/). Revenu Québec decides on a licence only after it receives security clearance reports from the Sûreté du Québec on the business and its associated persons, including directors, officers and anyone who directly or indirectly owns or controls it. New reports are required when a change is likely to affect the licence.
+
+### After the purchase
 
 A registered MSB must tell FINTRAC within 30 days when its registration information changes. A change of ownership usually means several changes at once: owners, directors, senior management, and often the compliance officer and address.
 
-FINTRAC requires criminal record checks for the chief executive officer, the president, directors and anyone owning or controlling 20% or more. Plan for these for the new people, especially if they live outside Canada, since checks must be dated within six months and translated if needed.
-
-### The obligations come with the company
-
-The business still needs a compliance program that reflects its new owners, services and risks, a compliance officer with real authority, reporting to FINTRAC, record keeping, and renewal every two years. FINTRAC registration also doesn't guarantee banking or payment partners, which make their own decisions.
+The business still needs a compliance program that reflects its new owners, services and risks, a compliance officer with the authority to do the job, reporting to FINTRAC, record keeping, and renewal every two years. Our [compliance program documents](https://amlcanada.ca/compliance-programs.html) can be rewritten for the new owners. FINTRAC registration also doesn't guarantee banking or payment partners, which make their own decisions.
 
 ### Questions
 
 **Can you buy a FINTRAC-registered MSB?** Yes. You can acquire a company that's already registered. Changes to its registration information, such as new owners and directors, must be reported to FINTRAC within 30 days.
 
-**How much does a registered MSB cost?** It varies by company. Our registered MSBs for acquisition start from €28,000.
+**Does the registration transfer if I buy the assets?** As general information, registration belongs to the registered entity. In a share purchase the company keeps it. A new or different company that buys the assets needs its own registration.
 
-**Do new owners need criminal record checks?** FINTRAC requires criminal record checks for directors and anyone owning or controlling 20% or more, so plan for them as part of the purchase.
+**How much does a registered MSB cost?** It varies by company. AML Canada's registered MSBs for acquisition start from €28,000.
 
-Sources: [FINTRAC, Register your MSB or FMSB](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/reg-ins-eng); [Update, renew or cancel your registration](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/respond-eng); [Money services businesses](https://fintrac-canafe.canada.ca/msb-esm/msb-eng); [Revenu Québec, Money-services business licence](https://www.revenuquebec.ca/en/businesses/sector-specific-measures/money-services-businesses-msbs/money-services-business-licence-application/). Checked 11 October 2026.
+**Do new owners need criminal record checks?** Yes. FINTRAC requires criminal record checks for the CEO, the president, each director and anyone owning or controlling 20% or more, so plan for them as part of the purchase.
+
+Sources: [FINTRAC, MSB registry](https://fintrac-canafe.canada.ca/msb-esm/reg-eng); [Register your MSB or FMSB](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/reg-ins-eng); [Update, renew or cancel your registration](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/respond-eng); [Money services businesses](https://fintrac-canafe.canada.ca/msb-esm/msb-eng); [Proceeds of Crime (Money Laundering) and Terrorist Financing Act](https://laws-lois.justice.gc.ca/eng/acts/P-24.501/FullText.html); [Bank of Canada, Acquisitions of control](https://www.bankofcanada.ca/2024/08/acquisitions-of-control-and-prescribed-changes/); [Revenu Québec, Money-services business licence](https://www.revenuquebec.ca/en/businesses/sector-specific-measures/money-services-businesses-msbs/money-services-business-licence-application/). Checked 11 October 2026.
 
 ---
 
@@ -1401,7 +1464,7 @@ Sources: [FINTRAC, Register your MSB or FMSB](https://fintrac-canafe.canada.ca/m
 
 URL: https://amlcanada.ca/outsourced-vs-in-house-compliance-officer.html
 
-Every business FINTRAC regulates needs a compliance officer. Whether to hire, appoint from within or outsource, and what FINTRAC expects either way.
+Every business FINTRAC regulates needs a compliance officer. You can appoint the owner or a manager, hire someone, or outsource the role, and FINTRAC's expectations are the same in each case.
 
 **Key points:**
 - Every reporting entity must appoint a compliance officer.
@@ -1411,9 +1474,9 @@ Every business FINTRAC regulates needs a compliance officer. Whether to hire, ap
 
 ### What FINTRAC expects of a compliance officer
 
-Appointing a compliance officer is the first of the five parts of a compliance program. The person must have the necessary authority and access to resources to implement an effective program, and FINTRAC's best practice is that they can communicate directly with the people who make decisions about the business.
+Appointing a compliance officer is the first required element of a compliance program. The person must have the necessary authority and access to resources to implement an effective program, and FINTRAC's best practice is that they can communicate directly with the people who make decisions about the business.
 
-Who it should be depends on size. In a small business, it can be the owner or operator. In a large business, FINTRAC expects someone from a senior level with direct access to senior management and the board.
+Who it should be depends on size. In a small business, it can be the owner or operator. For a larger business, [FINTRAC's guidance](https://fintrac-canafe.canada.ca/guidance-directives/compliance-conformite/Guide4/4-eng) suggests someone from a senior level with direct access to senior management, and says that as a best practice the officer shouldn't be directly involved in receiving, transferring or paying funds.
 
 ### Your three options
 
@@ -1423,37 +1486,43 @@ Common in small businesses. It works when that person has the time and the knowl
 
 ### 2. Hire an in-house compliance officer
 
-Right for larger or fast-growing businesses with steady volumes. You get full-time attention, at the cost of a senior salary and the challenge of finding someone experienced with Canadian requirements.
+Suits larger or fast-growing businesses with steady volumes. You get full-time attention and someone who knows the business from the inside. The costs are a senior salary and the challenge of finding someone experienced with Canadian requirements.
 
 ### 3. Use an outsourced compliance officer
 
-An experienced compliance professional carries the day-to-day work, or supports the person you appoint, for the hours you need. However it's arranged, your business remains responsible for its obligations, and the arrangement should be set out in writing so it's clear who decides and signs off on what.
+An experienced compliance professional carries the day-to-day work, or supports the person you appoint, for the hours you need. They aren't in the business every day, so they rely on the information and access you give them. However it's arranged, your business remains responsible for its obligations, and the arrangement should be set out in writing so it's clear who decides and signs off on what.
 
 ### Side by side
 
 | | In-house hire | Outsourced |
 
-| Cost | A full-time senior salary | The hours you need; with us, US$1,500 per 10 hours |
+| Cost | A full-time salary and benefits, whatever the workload | The hours you use; with us, US$1,500 per 10 hours |
 
-| Experience | Depends on who you can hire | Someone who works with FINTRAC requirements every day |
+| Presence | In the business every day | Works to an agreed scope and schedule |
+
+| Knowledge of your business | Builds over time from the inside | Depends on what you share and how often |
+
+| Canadian AML experience | Depends on who you can hire | Usually works across several FINTRAC-regulated clients |
 
 | Scaling | Hire more people | Add hours as volumes grow |
 
-| Best for | Large, steady operations | New, growing and foreign businesses |
+| Often suits | Larger businesses with steady volumes | Smaller, new or foreign businesses, or support for an internal officer |
 
 ### What the work involves
 
-Whichever option you choose, the work is the same: second-line review of customer onboarding, advice on cases and products, [reporting to FINTRAC](https://amlcanada.ca/fintrac-reporting-requirements.html) on time, keeping policies and the risk assessment current, client risk ratings, training, and preparing for the [effectiveness review](https://amlcanada.ca/fintrac-effectiveness-review-checklist.html) and any [examination](https://amlcanada.ca/fintrac-examination-preparation.html).
+Whichever option you choose, the work is the same: second-line review of customer onboarding, advice on cases and products, [reporting to FINTRAC](https://amlcanada.ca/fintrac-reporting-requirements.html) on time, keeping policies and the risk assessment current, client risk ratings, [training](https://amlcanada.ca/training.html), and preparing for the [effectiveness review](https://amlcanada.ca/fintrac-effectiveness-review-checklist.html) and any [examination](https://amlcanada.ca/fintrac-examination-preparation.html).
 
 ### How to choose
 
-- If no one in the business has AML experience, outsourcing gets you expertise straight away.
+- If no one in the business has AML experience, an outsourced officer can bring it in while you build your own knowledge.
 
-- If you're based outside Canada, a compliance officer who works with Canadian requirements daily closes a big gap.
+- If you're based outside Canada, consider whether anyone on your team knows Canadian requirements well enough to run the program.
 
 - If volumes are high and steady, an in-house hire, supported by outside reviews, may make sense.
 
-- Many businesses start outsourced and move in-house as they grow.
+- Some businesses start outsourced and move in-house as they grow.
+
+Our [outsourced compliance officer service](https://amlcanada.ca/outsourced-compliance-officer.html) sets out how the arrangement works with us.
 
 ### Questions
 
