@@ -300,3 +300,5 @@
   .gcta-card { padding-right: 28px; padding-bottom: 96px; }
   .gcta-go { top: auto; bottom: 28px; translate: none; left: 28px; right: auto; }
 }
+.price-timing-note { margin-top: 20px; max-width: 80ch; font-size: 14.5px; color: var(--ink-3); }
+@media (max-width: 680px) { .price-table td:nth-child(5) { grid-column: 1 / -1; font-size: 14px; color: var(--ink-3); } .price-table td:nth-child(5)::before { content: "Typical timing: "; } }

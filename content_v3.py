@@ -149,6 +149,7 @@ DEEP["msb-registration.html"] = dict(
     title="FINTRAC MSB Registration in Canada | AML Canada",
     desc="FINTRAC registration for money services businesses, foreign MSBs and virtual currency (crypto) dealers. Fixed fee US$3,500, prepared and submitted with you.",
     service_type="FINTRAC money services business registration",
+    timing="About 1 week to 7 months",
     offers=[("3500", "USD", "FINTRAC MSB registration, fixed fee")],
     h1="MSB registration with FINTRAC, prepared properly.",
     lede="For money services businesses, foreign MSBs and virtual currency dealers. Fixed fee US$3,500.",
@@ -161,8 +162,8 @@ DEEP["msb-registration.html"] = dict(
             "Our fee is a fixed US$3,500. FINTRAC itself doesn't charge to register."]),
     facts=[("FINTRAC fee", "None", "FINTRAC doesn't charge to register"),
            ("When", "Before you operate", "registration comes first"),
-           ("Valid for", "2 years", "then renewed"),
-           ("Changes", "30 days", "to tell FINTRAC")],
+           ("Typical approval", "1 week–7 months", "depending on completeness and FINTRAC's workload"),
+           ("Valid for", "2 years", "then renewed")],
     fee=dict(amount="US$3,500", unit="fixed fee · one time",
              note="Covers your registration. Compliance program documents are a separate fixed fee of US$3,500.",
              items=["Assessment of which of your activities are money services",
@@ -196,6 +197,7 @@ DEEP["msb-registration.html"] = dict(
             <li><strong>Follow-up.</strong> Answers to FINTRAC's questions until your registration is decided.</li>
             <li><strong>Compliance program.</strong> Built alongside your registration, not after it, so you're ready to operate.</li>
           </ol>"""),
+        ("how-long", "How long registration takes", """          <p>In our experience, FINTRAC approval takes anywhere from about 1 week to 7 months. Some of our clients have been registered in about a week. The biggest factors are how complete and consistent the application is, how quickly criminal record checks arrive, and FINTRAC's workload at the time. A thorough application avoids the follow-up questions that slow things down.</p>"""),
         ("after", "After you register", """          <p>Registration is valid for two years and has to be renewed before it expires. Between renewals, you must tell FINTRAC within 30 days when your registration information changes, such as a new address, new owners or directors, or a change to the services you offer.</p>
           <p>Registration is the start, not the finish. A registered MSB also needs a working compliance program, client identification, record keeping, and reporting to FINTRAC. Records generally have to be kept for at least five years.</p>"""),
         ("crypto", "Virtual currency dealers", """          <p>Dealing in virtual currency is a money service, so crypto exchanges and dealers register with FINTRAC as MSBs, including foreign ones that serve people in Canada. Once registered, they have additional obligations, such as reporting virtual currency transactions of $10,000 or more within five working days. Provincial securities rules can also apply to some crypto trading platforms; we'll tell you if that's something you need separate advice on.</p>"""),
@@ -208,7 +210,7 @@ DEEP["msb-registration.html"] = dict(
                ("Foreign money services businesses", "Businesses outside Canada serving people in Canada.")],
     arts=["one", "many", "address"],
     faqs=[("How much does MSB registration cost?", "FINTRAC doesn't charge a registration fee. Our fee to prepare and support your registration is a fixed US$3,500."),
-          ("How long does FINTRAC registration take?", "It depends on how complete your application is, how quickly criminal record checks arrive, and FINTRAC's review and any follow-up questions. Thorough preparation avoids the delays that come from incomplete applications."),
+          ("How long does FINTRAC registration take?", "In our experience, FINTRAC approval takes anywhere from about 1 week to 7 months. Some of our clients have been registered in about a week. It depends mostly on how complete the application is, how quickly criminal record checks arrive, and FINTRAC's workload."),
           ("Can a company outside Canada register as an MSB?", "Yes. A foreign business that directs and provides money services to people in Canada registers as a foreign MSB and must name a representative for service who lives in Canada."),
           ("Do I need a compliance program before I register?", "You need one to operate. FINTRAC asks for your compliance officer when you register, and your obligations start as soon as you begin. We build your program alongside your registration. Program documents are a separate fixed fee of US$3,500."),
           ("How often do I renew?", "Every two years. Changes to your registration information have to be reported within 30 days."),
@@ -403,6 +405,7 @@ DEEP["rpaa-registration.html"] = dict(
     title="RPAA PSP Registration with the Bank of Canada | AML Canada",
     desc="Register as a payment service provider (PSP) with the Bank of Canada under the RPAA. Fixed fee US$3,500, plus the Bank's CA$2,500 application fee.",
     service_type="Bank of Canada RPAA payment service provider registration",
+    timing="About 2 to 8 months",
     offers=[("3500", "USD", "RPAA PSP registration with the Bank of Canada, fixed fee (excludes the Bank's application fee)")],
     h1="PSP registration with the Bank of Canada.",
     lede="Retail Payment Activities Act (RPAA) registration for payment service providers. Fixed fee US$3,500, plus the Bank's application fee.",
@@ -415,7 +418,7 @@ DEEP["rpaa-registration.html"] = dict(
             "Our fee is a fixed US$3,500. The Bank of Canada also charges a one-time application fee, currently CA$2,500, which you pay to the Bank."]),
     facts=[("Our fee", "US$3,500", "fixed, one time"),
            ("Bank of Canada fee", "CA$2,500", "one time, paid to the Bank"),
-           ("Review", "National security", "by the Department of Finance"),
+           ("Typical timing", "2–8 months", "including national security review"),
            ("Annual report", "By March 31", "for the previous year")],
     fee=dict(amount="US$3,500", unit="fixed fee · plus CA$2,500 Bank of Canada fee",
              note="The Bank's application fee is non-refundable, set by the Bank and adjusted each calendar year. RPAA compliance program documents are a separate fixed fee of US$3,500.",
@@ -441,7 +444,8 @@ DEEP["rpaa-registration.html"] = dict(
             <li><strong>Application.</strong> Submitted to the Bank of Canada, with the application fee.</li>
             <li><strong>Review.</strong> The Bank shares applications with the Department of Finance for national security screening and with FINTRAC. We help you answer questions along the way.</li>
             <li><strong>Decision.</strong> The Bank publishes registration decisions as screenings are completed.</li>
-          </ol>"""),
+          </ol>
+          <p>In our experience, the whole process generally takes about 2 to 8 months.</p>"""),
         ("after", "What the Bank expects once you're registered", """          <p>Since September 8, 2025, registered PSPs must have a risk management and incident response framework and, if they hold end-user funds, a safeguarding framework. They must also:</p>
           <ul>
             <li>notify the Bank without delay of incidents with a material impact on end users, other PSPs or certain clearing and settlement systems;</li>
@@ -461,6 +465,7 @@ DEEP["rpaa-registration.html"] = dict(
           ("Is the Bank of Canada fee included in your price?", "No. The application fee is paid directly to the Bank and isn't part of our US$3,500."),
           ("Do foreign payment service providers have to register?", "Yes, if they perform retail payment activities for end users in Canada."),
           ("Do I also need to register with FINTRAC?", "Often. If you also provide money services, such as remitting or transmitting funds, you need FINTRAC registration as an MSB too."),
+          ("How long does RPAA registration take?", "In our experience, Bank of Canada registration generally takes about 2 to 8 months, including the national security review."),
           ("What happens after registration?", "You need risk management, incident response and, if you hold end-user funds, safeguarding frameworks, plus annual reports and change notices. Our RPAA compliance program covers these.")],
     related=["rpaa-compliance-program.html", "msb-registration.html", "outsourced-compliance-officer.html"],
 )
@@ -618,3 +623,63 @@ F_TRAVEL = "https://fintrac-canafe.canada.ca/guidance-directives/transaction-ope
 F_REC_MSB = "https://fintrac-canafe.canada.ca/guidance-directives/recordkeeping-document/record/msb-eng"
 RQ_MSB = "https://www.revenuquebec.ca/en/businesses/sector-specific-measures/money-services-businesses-msbs/money-services-business-licence-application/"
 
+
+# ------------------------------------------------------------------ company incorporation
+CC_FEES = "https://ised-isde.canada.ca/site/corporations-canada/en/services-fees-and-processing-times"
+CC_DIR = "https://ised-isde.canada.ca/site/corporations-canada/en/business-corporations/directors-and-officers"
+CC_NEXT = "https://ised-isde.canada.ca/site/corporations-canada/en/business-corporations/next-steps-following-incorporation-your-business"
+ON_INC = "https://www.ontario.ca/page/incorporating-business-corporation"
+ON_FEES = "https://www.ontario.ca/page/cost-time-required-to-register-change-search-for-business-name-corporation-not-for-profit"
+
+DEEP["incorporation-canada.html"] = dict(
+    name="Company incorporation",
+    title="Incorporate a Company in Canada in 24 Hours | AML Canada",
+    desc="Incorporate a Canadian company, federally or in Ontario, usually within a few hours to 24 hours. Fixed fee US$1,500, ready for FINTRAC or RPAA registration.",
+    service_type="Canadian company incorporation",
+    offers=[("1500", "USD", "Canadian company incorporation, fixed fee (government filing fees separate)")],
+    timing="A few hours to 24 hours",
+    h1="Incorporate your Canadian company, fast.",
+    lede="Federal or Ontario incorporation, usually done within a few hours to 24 hours. Fixed fee US$1,500.",
+    hero_price="Fixed fee · US$1,500",
+    label="Company · Incorporated",
+    need="incorporate",
+    intro=("A Canadian company is usually the first step before registering with FINTRAC as a money services business or with the Bank of Canada as a payment service provider.",
+           ["We incorporate your company federally or in a province such as Ontario, choosing with you what fits your plans, and set it up so it's ready for the registrations that come next.",
+            "Once we have your details, incorporation usually takes a few hours to 24 hours. Our fee is a fixed US$1,500; government filing fees are separate and paid to the government."]),
+    facts=[("Our fee", "US$1,500", "fixed"),
+           ("Typical timing", "Hours to 24h", "once we have your details"),
+           ("Federal filing fee", "CA$200", "online, paid to Corporations Canada"),
+           ("Ontario filing fee", "CA$300", "online, paid to Ontario")],
+    fee=dict(amount="US$1,500", unit="fixed fee · plus government filing fees",
+             note="Government filing fees are separate: currently CA$200 federally online (CA$100 more for 4-hour express service) or CA$300 online in Ontario. A name search report may also apply if you choose a named rather than a numbered company.",
+             items=["Advice on federal or provincial incorporation",
+                    "Company name or numbered company",
+                    "Articles of incorporation filed",
+                    "Registered office address and first directors",
+                    "Set up ready for FINTRAC or RPAA registration",
+                    "Usually complete within a few hours to 24 hours"]),
+    guide=[
+        ("federal-or-provincial", "Federal or provincial?", """          <p>You can incorporate federally, under the Canada Business Corporations Act (CBCA) through Corporations Canada, or in a province or territory, such as Ontario under its Business Corporations Act. A federal company can use its name across Canada, though it still registers in the provinces where it does business. A provincial company is often simpler if you'll operate mainly in one province. We help you choose before anything is filed.</p>"""),
+        ("directors", "Directors and residency", """          <p>Federal corporations must have at least 25% resident Canadian directors; if the company has fewer than four directors, at least one must be a resident Canadian. A resident Canadian includes a Canadian citizen ordinarily resident in Canada and a permanent resident. Ontario doesn't require resident Canadian directors, which can matter for founders based outside Canada. Some regulated sectors have stricter rules.</p>"""),
+        ("timing", "How long it takes", """          <p>Once we have your details and documents, incorporation usually takes a few hours to 24 hours. Corporations Canada processes online incorporations in about a day, with a 4-hour express option for an extra government fee, and Ontario incorporates immediately online.</p>"""),
+        ("fees", "What it costs", """          <p>Our fee is a fixed US$1,500. Government fees are paid separately to the government: currently CA$200 for federal online incorporation (CA$100 more for 4-hour express) or CA$300 for Ontario online incorporation. If you choose a named company rather than a numbered one, a name search report is usually needed too.</p>"""),
+        ("after", "After incorporation", """          <ul>
+            <li>Keep corporate records, including a register of individuals with significant control.</li>
+            <li>File an annual return each year (federal online annual return: CA$12).</li>
+            <li>Register for tax accounts, and in each province where you carry on business.</li>
+            <li>Register with <a href="msb-registration.html">FINTRAC as an MSB</a> or with the <a href="rpaa-registration.html">Bank of Canada under the RPAA</a> before you start offering those services.</li>
+          </ul>"""),
+    ],
+    sources=[("Corporations Canada, Services, fees and processing times", CC_FEES), ("Directors and officers", CC_DIR),
+             ("Next steps after incorporating", CC_NEXT), ("Ontario, Incorporating a business corporation", ON_INC), ("Ontario fees and timing", ON_FEES)],
+    for_title="Who it's for",
+    for_items=[("Foreign businesses entering Canada", "A Canadian company to hold your registration and contracts."),
+               ("New MSBs and payment companies", "The company that will register with FINTRAC or the Bank of Canada."),
+               ("Founders on a deadline", "Incorporated within a day, so the next steps can start.")],
+    arts=["one", "address", "register"],
+    faqs=[("How much does it cost to incorporate a company in Canada?", "Our fee is a fixed US$1,500. Government filing fees are separate: currently CA$200 federally online or CA$300 in Ontario online."),
+          ("How long does incorporation take?", "Usually a few hours to 24 hours once we have your details and documents."),
+          ("Can a non-resident incorporate in Canada?", "Yes. Federal companies need at least 25% resident Canadian directors (at least one if there are fewer than four). Ontario doesn't require resident Canadian directors."),
+          ("Should we incorporate before registering as an MSB?", "Usually, yes. The company is what registers with FINTRAC, so incorporating first means the registration can start straight away.")],
+    related=["msb-registration.html", "canadian-address.html", "rpaa-registration.html"],
+)

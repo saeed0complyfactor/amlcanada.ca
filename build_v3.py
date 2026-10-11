@@ -35,6 +35,7 @@ SERVICES = [
     ("rpaa-registration.html", "RPAA registration", "register", "Payment service provider registration with the Bank of Canada under the RPAA.", "US$3,500 + Bank fee"),
     ("rpaa-compliance-program.html", "RPAA compliance program", "programme", "Governance, risk, incident response, safeguarding and continuity frameworks for PSPs.", "US$3,500"),
     ("msb-for-sale.html", "MSB for sale", "one", "A Canadian company already registered with FINTRAC as a money services business.", "From €28,000"),
+    ("incorporation-canada.html", "Company incorporation", "one", "A Canadian company, federal or Ontario, usually incorporated within a few hours to 24 hours.", "US$1,500"),
     ("canadian-address.html", "Canadian address", "address", "A FINTRAC-compliant Canadian business address for foreign MSBs and companies entering Canada.", "US$200 / month"),
     ("effectiveness-reviews.html", "Effectiveness reviews", "review", "The two-year review FINTRAC requires, and preparation for an examination.", "Scoped"),
     ("training.html", "Training", "training", "Scenario-based AML training for front-line staff, compliance teams and management.", "Scoped"),
@@ -49,8 +50,8 @@ AUD = [
      ["msb-registration.html", "compliance-programs.html", "outsourced-compliance-officer.html"]),
     ("psp", "Payment service providers", "Payment processors, wallets and other PSPs that register with the Bank of Canada under the RPAA, and often with FINTRAC too.",
      ["rpaa-registration.html", "rpaa-compliance-program.html", "msb-registration.html"]),
-    ("foreign", "Foreign businesses entering Canada", "Companies outside Canada that serve customers in Canada and need registration, a Canadian address, a compliance officer, or a registered company to acquire.",
-     ["canadian-address.html", "msb-registration.html", "msb-for-sale.html", "outsourced-compliance-officer.html"]),
+    ("foreign", "Foreign businesses entering Canada", "Companies outside Canada that serve customers in Canada and need a Canadian company, registration, a Canadian address, a compliance officer, or a registered company to acquire.",
+     ["incorporation-canada.html", "canadian-address.html", "msb-registration.html", "msb-for-sale.html", "outsourced-compliance-officer.html"]),
     ("fintech", "Payment and fintech companies", "Start-ups and growing companies that need to understand their obligations and meet them as they scale.",
      ["compliance-programs.html", "rpaa-registration.html", "training.html"]),
     ("officers", "Compliance officers", "Compliance officers at reporting entities who need a second pair of hands, a review, or training for their teams.",
@@ -296,6 +297,7 @@ FORM = f"""        <form class="form" novalidate data-consult>
             <legend class="field-label">I need help with</legend>
             <div class="chips" data-need>
               <label class="chip"><input type="radio" name="need" value="officer"><span>A compliance officer</span></label>
+              <label class="chip"><input type="radio" name="need" value="incorporate"><span>Incorporating a company</span></label>
               <label class="chip"><input type="radio" name="need" value="register"><span>Registering an MSB</span></label>
               <label class="chip"><input type="radio" name="need" value="address"><span>Setting up from abroad</span></label>
               <label class="chip"><input type="radio" name="need" value="programme"><span>A compliance program</span></label>
@@ -611,7 +613,7 @@ PAGES["services.html"] = (
          "services.html")
     + nav("services.html") + '  <main id="main">\n'
     + page_hero([], "Services", ("FINTRAC and Bank of Canada compliance, from registration to review.",
-                "Nine services for money services businesses, payment service providers and fintechs, most at a fixed fee."), "Services · 9")
+                f"{len(SERVICES)} services for money services businesses, payment service providers and fintechs, most at a fixed fee."), f"Services · {len(SERVICES)}")
     + intro("From your first registration to your next examination, we help you meet your obligations and show that you have.",
             ["Most services have a fixed fee, shown below and on our <a href=\"pricing.html\">pricing page</a>. Effectiveness reviews and training are scoped to your business.",
              "Start with the one you need most. Add the rest when your business, your products or your obligations change."])
@@ -639,11 +641,12 @@ price_rows = "\n".join(
               <td class="pr-amount">{DEEP[h]["fee"]["amount"]}</td>
               <td>{DEEP[h]["fee"]["unit"]}</td>
               <td>{d}</td>
+              <td>{DEEP[h].get("timing", "—")}</td>
             </tr>""" for h, t, a, d, pr in SERVICES
 )
 PAGES["pricing.html"] = (
     head("AML Compliance Pricing: FINTRAC & RPAA Fees | AML Canada",
-         "Fixed fees: FINTRAC MSB registration US$3,500, PCMLTFA compliance program US$3,500, RPAA registration US$3,500, outsourced compliance officer US$1,500 per 10 hours.",
+         "Fixed fees: incorporation US$1,500, FINTRAC MSB registration US$3,500, PCMLTFA program US$3,500, RPAA registration US$3,500, compliance officer US$1,500/10h.",
          "pricing.html")
     + nav("pricing.html") + '  <main id="main">\n'
     + page_hero([], "Pricing", ("Clear fees, agreed before anything starts.",
@@ -656,14 +659,16 @@ PAGES["pricing.html"] = (
         </div>
         <div class="table-wrap">
           <table class="price-table">
-            <thead><tr><th scope="col">Service</th><th scope="col">Fee</th><th scope="col">Basis</th><th scope="col">What it covers</th></tr></thead>
+            <thead><tr><th scope="col">Service</th><th scope="col">Fee</th><th scope="col">Basis</th><th scope="col">What it covers</th><th scope="col">Typical timing</th></tr></thead>
             <tbody>
 {price_rows}
             </tbody>
           </table>
         </div>
+        <p class="price-timing-note">Timings are general guides from our experience, not guarantees. Registration decisions are made by FINTRAC and the Bank of Canada and depend on how complete an application is and on their workload.</p>
         <ul class="price-notes">
           <li><strong>FINTRAC</strong> doesn't charge a fee to register a money services business.</li>
+          <li><strong>Incorporation</strong> government fees are separate: currently CA$200 federally online, or CA$300 in Ontario online.</li>
           <li><strong>The Bank of Canada</strong> charges RPAA applicants a one-time, non-refundable application fee, currently CA$2,500 and adjusted each year, paid directly to the Bank. Registered PSPs also pay the Bank annual assessment fees.</li>
           <li><strong>Every engagement</strong> starts with a consultation and a written scope, so you know the fee before any work begins.</li>
         </ul>
@@ -676,6 +681,8 @@ PAGES["pricing.html"] = (
         ("How much does an outsourced compliance officer cost?", "US$1,500 per block of 10 hours, with hours that scale as your business grows."),
         ("How much does RPAA registration cost?", "Our fee is a fixed US$3,500, plus the Bank of Canada's one-time application fee, currently CA$2,500, paid to the Bank. The RPAA compliance program is a further US$3,500."),
         ("How much does a registered MSB cost to buy?", "Acquisitions start from €28,000, depending on the company."),
+        ("How much does it cost to incorporate a company in Canada?", "Our fee is a fixed US$1,500, usually done within a few hours to 24 hours. Government filing fees are separate."),
+        ("How long do registrations take?", "In our experience, FINTRAC MSB registration takes about 1 week to 7 months, and Bank of Canada RPAA registration about 2 to 8 months. Incorporation usually takes a few hours to 24 hours."),
         ("Why are fees in US dollars?", "Our fees are quoted in US dollars, except MSB acquisitions, which are in euros. The Bank of Canada's own fee is in Canadian dollars."),
     ], "Pricing questions")
     + close_and_footer()
@@ -1155,7 +1162,7 @@ def llms():
 ## About
 
 - [All services]({SITE}services.html)
-- [Pricing]({SITE}pricing.html): FINTRAC MSB registration US$3,500; PCMLTFA compliance program (14 documents) US$3,500; outsourced compliance officer US$1,500 per 10 hours; RPAA registration US$3,500 plus the Bank of Canada's CA$2,500 application fee; RPAA compliance program US$3,500; Canadian address US$200 per month; registered MSBs for sale from EUR 28,000.
+- [Pricing]({SITE}pricing.html): Canadian company incorporation US$1,500 (usually a few hours to 24 hours); FINTRAC MSB registration US$3,500 (approval typically 1 week to 7 months); PCMLTFA compliance program (14 documents) US$3,500; outsourced compliance officer US$1,500 per 10 hours; RPAA registration US$3,500 plus the Bank of Canada's CA$2,500 application fee (typically 2 to 8 months); RPAA compliance program US$3,500; Canadian address US$200 per month; registered MSBs for sale from EUR 28,000.
 - [Who we help]({SITE}who-we-help.html): money services businesses, virtual currency dealers, foreign MSBs, fintechs and compliance officers.
 - [How we work]({SITE}how-we-work.html)
 - [About AML Canada]({SITE}about.html)

@@ -13,7 +13,7 @@ GUIDES = {}
 # ------------------------------------------------------------------ 1. how to register an MSB
 GUIDES["how-to-register-msb-canada.html"] = dict(
     title="How to Register an MSB in Canada: FINTRAC Guide | AML Canada",
-    desc="How to register a money services business (MSB) with FINTRAC, step by step: who must register, what FINTRAC asks for, criminal record checks, renewal and what comes after.",
+    desc="How to register an MSB with FINTRAC, step by step: who must register, what FINTRAC asks for, criminal record checks, approval times and renewal.",
     crumb="How to register an MSB",
     h1="How to register an MSB in Canada",
     lede="A step-by-step guide to registering a money services business with FINTRAC, from checking whether you need to, to staying registered.",
@@ -43,7 +43,8 @@ GUIDES["how-to-register-msb-canada.html"] = dict(
           </ul>"""),
         ("criminal-record-checks", "Step 3: Order criminal record checks early", """          <p>FINTRAC needs criminal record checks for the chief executive officer, the president, the directors, and anyone who owns or controls 20% or more of the business, directly or indirectly. A sole proprietor provides one for themselves.</p>
           <p>Each check must come from a competent authority in the person's country of residence, be dated no more than six months before you submit it, and be translated if it isn't in English or French. When owners and directors live in different countries, this is often the step that takes longest, so start it first.</p>"""),
-        ("submit", "Step 4: Submit and answer FINTRAC's questions", """          <p>Once everything is gathered and checked, you submit your registration to FINTRAC. FINTRAC may come back with questions or ask for more information before it decides. Complete, consistent information is the best way to avoid back-and-forth: the transaction estimates, locations, ownership and documents should all tell the same story.</p>"""),
+        ("submit", "Step 4: Submit and answer FINTRAC's questions", """          <p>Once everything is gathered and checked, you submit your registration to FINTRAC. FINTRAC may come back with questions or ask for more information before it decides. Complete, consistent information is the best way to avoid back-and-forth: the transaction estimates, locations, ownership and documents should all tell the same story.</p>
+          <p>In our experience, approval takes anywhere from about 1 week to 7 months. Some of our clients have been registered in about a week; the biggest factors are how complete the application is and FINTRAC's workload.</p>"""),
         ("program", "Step 5: Have your compliance program ready", """          <p>Registration lets you operate; it doesn't make you compliant. From the day you start, you need a compliance program with five parts: a compliance officer, written policies and procedures, a risk assessment, an ongoing training program, and an effectiveness review at least every two years. You also need to identify clients, keep records, generally for at least five years, and report to FINTRAC.</p>
           <p>Building the program alongside the registration, rather than after it, means you're ready to operate as soon as you're registered.</p>"""),
         ("stay-registered", "Step 6: Stay registered", """          <p>MSB registration is valid for two years and must be renewed before it expires. Between renewals, tell FINTRAC within 30 days when your registration information changes: a new address, new owners or directors, a new compliance officer, or a change in the services you offer.</p>"""),
@@ -51,7 +52,8 @@ GUIDES["how-to-register-msb-canada.html"] = dict(
     faqs=[("Does FINTRAC charge to register an MSB?", "No. FINTRAC doesn't charge a registration fee. Your costs are your own time, criminal record checks, any translations, and professional help if you use it."),
           ("Can I register an MSB without a Canadian office?", "Yes, as a foreign MSB, if you direct and provide money services to people in Canada. You'll need a representative for service who lives in Canada."),
           ("Do I need a compliance program before registering?", "You need it in place to operate, and FINTRAC asks for your compliance officer when you register. It makes sense to build both together."),
-          ("How long is MSB registration valid?", "Two years. Changes to your registration information must be reported within 30 days.")],
+          ("How long is MSB registration valid?", "Two years. Changes to your registration information must be reported within 30 days."),
+          ("How long does FINTRAC take to approve an MSB registration?", "In our experience, anywhere from about 1 week to 7 months. Some of our clients have been registered in about a week; it depends mostly on how complete the application is and on FINTRAC's workload.")],
     sources=[("FINTRAC, Register your MSB or FMSB", F_REG), ("Money services businesses", F_MSB), ("Update, renew or cancel your registration", F_UPD),
              ("Compliance program requirements", F_G4), ("Revenu Québec, Money-services business licence", RQ_MSB)],
     related=["msb-registration-cost-canada.html", "foreign-msb-registration-canada.html", "buying-an-msb-canada.html"],
@@ -77,12 +79,14 @@ GUIDES["msb-registration-cost-canada.html"] = dict(
             <li><strong>Translations</strong> of any checks or documents that aren't in English or French.</li>
             <li><strong>Corporate documents</strong> showing the business exists and how it's owned and controlled.</li>
             <li><strong>Time</strong>: gathering, checking and answering FINTRAC's questions.</li>
+            <li><strong>A Canadian company</strong>, if you don't have one yet. Government incorporation fees are currently CA$200 federally online or CA$300 in Ontario online.</li>
             <li><strong>Provincial licensing</strong> where it applies. Quebec licenses money-services businesses separately through Revenu Québec, with its own fees.</li>
           </ul>"""),
         ("operating-costs", "What it costs to operate once registered", """          <p>Registration is the entry ticket. To operate, an MSB needs a compliance program (compliance officer, policies and procedures, risk assessment, training and a two-year effectiveness review), and it has to report to FINTRAC and keep records. Those are ongoing costs, whether you staff them in-house or outsource them.</p>"""),
         ("our-fees", "What professional help costs with us", """          <div class="table-wrap"><table>
             <thead><tr><th scope="col">Service</th><th scope="col">Fee</th></tr></thead>
             <tbody>
+              <tr><th scope="row"><a href="incorporation-canada.html">Canadian company incorporation</a></th><td>US$1,500, fixed (government fees separate)</td></tr>
               <tr><th scope="row"><a href="msb-registration.html">FINTRAC MSB registration</a></th><td>US$3,500, fixed</td></tr>
               <tr><th scope="row"><a href="compliance-programs.html">PCMLTFA compliance program (14 documents)</a></th><td>US$3,500, fixed</td></tr>
               <tr><th scope="row"><a href="outsourced-compliance-officer.html">Outsourced compliance officer</a></th><td>US$1,500 per 10 hours</td></tr>
@@ -104,7 +108,7 @@ GUIDES["msb-registration-cost-canada.html"] = dict(
 # ------------------------------------------------------------------ 3. foreign MSB
 GUIDES["foreign-msb-registration-canada.html"] = dict(
     title="Foreign MSB Registration in Canada (FMSB) | AML Canada",
-    desc="When a business outside Canada must register with FINTRAC as a foreign money services business, what 'directing and providing' means, and what FMSBs need in Canada.",
+    desc="When a business outside Canada must register with FINTRAC as a foreign MSB, what 'directing and providing' means, and what FMSBs need in Canada.",
     crumb="Foreign MSB registration",
     also=["canadian-address.html"],
     h1="Foreign MSB registration in Canada",
@@ -178,7 +182,7 @@ GUIDES["fintrac-reporting-requirements.html"] = dict(
 # ------------------------------------------------------------------ 5. RPAA
 GUIDES["rpaa-registration-guide.html"] = dict(
     title="What Is the RPAA? PSP Registration Guide | AML Canada",
-    desc="The Retail Payment Activities Act explained: which payment service providers must register with the Bank of Canada, the fee, the review, and the frameworks required after.",
+    desc="The RPAA explained: which payment service providers must register with the Bank of Canada, the fee, how long it takes and what's required after.",
     crumb="RPAA explained",
     h1="What is the RPAA, and do you need to register?",
     lede="The Retail Payment Activities Act brought payment service providers under Bank of Canada supervision. Who's covered, what registration involves and what comes after.",
@@ -213,7 +217,8 @@ GUIDES["rpaa-registration-guide.html"] = dict(
     faqs=[("What does RPAA stand for?", "The Retail Payment Activities Act, the law under which the Bank of Canada supervises payment service providers."),
           ("How much is the Bank of Canada's RPAA fee?", "A one-time, non-refundable application fee, set at CA$2,500 from November 1, 2024 and adjusted each year for inflation. Annual assessment fees apply once registered."),
           ("Do foreign PSPs have to register under the RPAA?", "Yes, if they perform retail payment activities for end users in Canada."),
-          ("When is the RPAA annual report due?", "No later than March 31 of the year after the reporting year.")],
+          ("When is the RPAA annual report due?", "No later than March 31 of the year after the reporting year."),
+          ("How long does RPAA registration take?", "In our experience, generally about 2 to 8 months, including the national security review.")],
     sources=[("Bank of Canada, Retail payments supervision", B_RPS), ("Supervisory framework", B_FW), ("Registration", B_REG), ("Registration application fee", B_FEE)],
     related=["how-to-register-msb-canada.html", "fintrac-reporting-requirements.html", "msb-registration-cost-canada.html"],
 )

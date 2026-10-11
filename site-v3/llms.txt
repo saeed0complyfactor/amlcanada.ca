@@ -13,6 +13,7 @@
 - [RPAA compliance program](https://amlcanada.ca/rpaa-compliance-program.html): RPAA frameworks for PSPs: governance, risk registers, incident response, third parties, safeguarding, cyber and continuity, annual reports. Fixed fee US$3,500.
 - [Effectiveness reviews](https://amlcanada.ca/effectiveness-reviews.html): The two-year AML effectiveness review FINTRAC requires: your policies, risk assessment and training tested in practice, with written findings and exam preparation.
 - [Training](https://amlcanada.ca/training.html): Scenario-based anti-money laundering training for MSB front-line staff, compliance teams and senior management, built to meet FINTRAC's training requirement.
+- [Company incorporation](https://amlcanada.ca/incorporation-canada.html): Incorporate a Canadian company, federally or in Ontario, usually within a few hours to 24 hours. Fixed fee US$1,500, ready for FINTRAC or RPAA registration.
 
 ## Guides
 
@@ -30,7 +31,7 @@
 ## About
 
 - [All services](https://amlcanada.ca/services.html)
-- [Pricing](https://amlcanada.ca/pricing.html): FINTRAC MSB registration US$3,500; PCMLTFA compliance program (14 documents) US$3,500; outsourced compliance officer US$1,500 per 10 hours; RPAA registration US$3,500 plus the Bank of Canada's CA$2,500 application fee; RPAA compliance program US$3,500; Canadian address US$200 per month; registered MSBs for sale from EUR 28,000.
+- [Pricing](https://amlcanada.ca/pricing.html): Canadian company incorporation US$1,500 (usually a few hours to 24 hours); FINTRAC MSB registration US$3,500 (approval typically 1 week to 7 months); PCMLTFA compliance program (14 documents) US$3,500; outsourced compliance officer US$1,500 per 10 hours; RPAA registration US$3,500 plus the Bank of Canada's CA$2,500 application fee (typically 2 to 8 months); RPAA compliance program US$3,500; Canadian address US$200 per month; registered MSBs for sale from EUR 28,000.
 - [Who we help](https://amlcanada.ca/who-we-help.html): money services businesses, virtual currency dealers, foreign MSBs, fintechs and compliance officers.
 - [How we work](https://amlcanada.ca/how-we-work.html)
 - [About AML Canada](https://amlcanada.ca/about.html)

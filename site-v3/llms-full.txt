@@ -200,6 +200,10 @@ Criminal record checks are needed for the chief executive officer, the president
 
 - **Compliance program.** Built alongside your registration, not after it, so you're ready to operate.
 
+### How long registration takes
+
+In our experience, FINTRAC approval takes anywhere from about 1 week to 7 months. Some of our clients have been registered in about a week. The biggest factors are how complete and consistent the application is, how quickly criminal record checks arrive, and FINTRAC's workload at the time. A thorough application avoids the follow-up questions that slow things down.
+
 ### After you register
 
 Registration is valid for two years and has to be renewed before it expires. Between renewals, you must tell FINTRAC within 30 days when your registration information changes, such as a new address, new owners or directors, or a change to the services you offer.
@@ -214,7 +218,7 @@ Dealing in virtual currency is a money service, so crypto exchanges and dealers 
 
 **How much does MSB registration cost?** FINTRAC doesn't charge a registration fee. Our fee to prepare and support your registration is a fixed US$3,500.
 
-**How long does FINTRAC registration take?** It depends on how complete your application is, how quickly criminal record checks arrive, and FINTRAC's review and any follow-up questions. Thorough preparation avoids the delays that come from incomplete applications.
+**How long does FINTRAC registration take?** In our experience, FINTRAC approval takes anywhere from about 1 week to 7 months. Some of our clients have been registered in about a week. It depends mostly on how complete the application is, how quickly criminal record checks arrive, and FINTRAC's workload.
 
 **Can a company outside Canada register as an MSB?** Yes. A foreign business that directs and provides money services to people in Canada registers as a foreign MSB and must name a representative for service who lives in Canada.
 
@@ -514,6 +518,8 @@ Our fee for preparing and supporting your registration is a fixed US$3,500. Sepa
 
 - **Decision.** The Bank publishes registration decisions as screenings are completed.
 
+In our experience, the whole process generally takes about 2 to 8 months.
+
 ### What the Bank expects once you're registered
 
 Since September 8, 2025, registered PSPs must have a risk management and incident response framework and, if they hold end-user funds, a safeguarding framework. They must also:
@@ -539,6 +545,8 @@ Often, yes. Many payment businesses that register with the Bank of Canada also p
 **Do foreign payment service providers have to register?** Yes, if they perform retail payment activities for end users in Canada.
 
 **Do I also need to register with FINTRAC?** Often. If you also provide money services, such as remitting or transmitting funds, you need FINTRAC registration as an MSB too.
+
+**How long does RPAA registration take?** In our experience, Bank of Canada registration generally takes about 2 to 8 months, including the national security review.
 
 **What happens after registration?** You need risk management, incident response and, if you hold end-user funds, safeguarding frameworks, plus annual reports and change notices. Our RPAA compliance program covers these.
 
@@ -697,6 +705,62 @@ Sources: [FINTRAC, Compliance program requirements](https://fintrac-canafe.canad
 
 ---
 
+## Company incorporation
+
+URL: https://amlcanada.ca/incorporation-canada.html
+
+Federal or Ontario incorporation, usually done within a few hours to 24 hours. Fixed fee US$1,500.
+
+**Fee:** US$1,500 (fixed fee · plus government filing fees). Government filing fees are separate: currently CA$200 federally online (CA$100 more for 4-hour express service) or CA$300 online in Ontario. A name search report may also apply if you choose a named rather than a numbered company.
+
+**Included:**
+- Advice on federal or provincial incorporation
+- Company name or numbered company
+- Articles of incorporation filed
+- Registered office address and first directors
+- Set up ready for FINTRAC or RPAA registration
+- Usually complete within a few hours to 24 hours
+
+### Federal or provincial?
+
+You can incorporate federally, under the Canada Business Corporations Act (CBCA) through Corporations Canada, or in a province or territory, such as Ontario under its Business Corporations Act. A federal company can use its name across Canada, though it still registers in the provinces where it does business. A provincial company is often simpler if you'll operate mainly in one province. We help you choose before anything is filed.
+
+### Directors and residency
+
+Federal corporations must have at least 25% resident Canadian directors; if the company has fewer than four directors, at least one must be a resident Canadian. A resident Canadian includes a Canadian citizen ordinarily resident in Canada and a permanent resident. Ontario doesn't require resident Canadian directors, which can matter for founders based outside Canada. Some regulated sectors have stricter rules.
+
+### How long it takes
+
+Once we have your details and documents, incorporation usually takes a few hours to 24 hours. Corporations Canada processes online incorporations in about a day, with a 4-hour express option for an extra government fee, and Ontario incorporates immediately online.
+
+### What it costs
+
+Our fee is a fixed US$1,500. Government fees are paid separately to the government: currently CA$200 for federal online incorporation (CA$100 more for 4-hour express) or CA$300 for Ontario online incorporation. If you choose a named company rather than a numbered one, a name search report is usually needed too.
+
+### After incorporation
+
+- Keep corporate records, including a register of individuals with significant control.
+
+- File an annual return each year (federal online annual return: CA$12).
+
+- Register for tax accounts, and in each province where you carry on business.
+
+- Register with [FINTRAC as an MSB](https://amlcanada.ca/msb-registration.html) or with the [Bank of Canada under the RPAA](https://amlcanada.ca/rpaa-registration.html) before you start offering those services.
+
+### Questions
+
+**How much does it cost to incorporate a company in Canada?** Our fee is a fixed US$1,500. Government filing fees are separate: currently CA$200 federally online or CA$300 in Ontario online.
+
+**How long does incorporation take?** Usually a few hours to 24 hours once we have your details and documents.
+
+**Can a non-resident incorporate in Canada?** Yes. Federal companies need at least 25% resident Canadian directors (at least one if there are fewer than four). Ontario doesn't require resident Canadian directors.
+
+**Should we incorporate before registering as an MSB?** Usually, yes. The company is what registers with FINTRAC, so incorporating first means the registration can start straight away.
+
+Sources: [Corporations Canada, Services, fees and processing times](https://ised-isde.canada.ca/site/corporations-canada/en/services-fees-and-processing-times); [Directors and officers](https://ised-isde.canada.ca/site/corporations-canada/en/business-corporations/directors-and-officers); [Next steps after incorporating](https://ised-isde.canada.ca/site/corporations-canada/en/business-corporations/next-steps-following-incorporation-your-business); [Ontario, Incorporating a business corporation](https://www.ontario.ca/page/incorporating-business-corporation); [Ontario fees and timing](https://www.ontario.ca/page/cost-time-required-to-register-change-search-for-business-name-corporation-not-for-profit). Checked 11 October 2026.
+
+---
+
 ## Guide: How to register an MSB in Canada
 
 URL: https://amlcanada.ca/how-to-register-msb-canada.html
@@ -769,6 +833,8 @@ Each check must come from a competent authority in the person's country of resid
 
 Once everything is gathered and checked, you submit your registration to FINTRAC. FINTRAC may come back with questions or ask for more information before it decides. Complete, consistent information is the best way to avoid back-and-forth: the transaction estimates, locations, ownership and documents should all tell the same story.
 
+In our experience, approval takes anywhere from about 1 week to 7 months. Some of our clients have been registered in about a week; the biggest factors are how complete the application is and FINTRAC's workload.
+
 ### Step 5: Have your compliance program ready
 
 Registration lets you operate; it doesn't make you compliant. From the day you start, you need a compliance program with five parts: a compliance officer, written policies and procedures, a risk assessment, an ongoing training program, and an effectiveness review at least every two years. You also need to identify clients, keep records, generally for at least five years, and report to FINTRAC.
@@ -788,6 +854,8 @@ MSB registration is valid for two years and must be renewed before it expires. B
 **Do I need a compliance program before registering?** You need it in place to operate, and FINTRAC asks for your compliance officer when you register. It makes sense to build both together.
 
 **How long is MSB registration valid?** Two years. Changes to your registration information must be reported within 30 days.
+
+**How long does FINTRAC take to approve an MSB registration?** In our experience, anywhere from about 1 week to 7 months. Some of our clients have been registered in about a week; it depends mostly on how complete the application is and on FINTRAC's workload.
 
 Sources: [FINTRAC, Register your MSB or FMSB](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/reg-ins-eng); [Money services businesses](https://fintrac-canafe.canada.ca/msb-esm/msb-eng); [Update, renew or cancel your registration](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/respond-eng); [Compliance program requirements](https://fintrac-canafe.canada.ca/guidance-directives/compliance-conformite/Guide4/4-eng); [Revenu Québec, Money-services business licence](https://www.revenuquebec.ca/en/businesses/sector-specific-measures/money-services-businesses-msbs/money-services-business-licence-application/). Checked 11 October 2026.
 
@@ -819,6 +887,8 @@ FINTRAC doesn't charge a fee to register a money services business, or to renew.
 
 - **Time**: gathering, checking and answering FINTRAC's questions.
 
+- **A Canadian company**, if you don't have one yet. Government incorporation fees are currently CA$200 federally online or CA$300 in Ontario online.
+
 - **Provincial licensing** where it applies. Quebec licenses money-services businesses separately through Revenu Québec, with its own fees.
 
 ### What it costs to operate once registered
@@ -828,6 +898,8 @@ Registration is the entry ticket. To operate, an MSB needs a compliance program 
 ### What professional help costs with us
 
 | Service | Fee |
+
+| Canadian company incorporation | US$1,500, fixed (government fees separate) |
 
 | FINTRAC MSB registration | US$3,500, fixed |
 
@@ -1070,6 +1142,8 @@ The two regimes sit side by side. The RPAA covers operational risk and safeguard
 **Do foreign PSPs have to register under the RPAA?** Yes, if they perform retail payment activities for end users in Canada.
 
 **When is the RPAA annual report due?** No later than March 31 of the year after the reporting year.
+
+**How long does RPAA registration take?** In our experience, generally about 2 to 8 months, including the national security review.
 
 Sources: [Bank of Canada, Retail payments supervision](https://www.bankofcanada.ca/core-functions/retail-payments-supervision/); [Supervisory framework](https://www.bankofcanada.ca/core-functions/retail-payments-supervision/supervisory-framework/); [Registration](https://www.bankofcanada.ca/core-functions/retail-payments-supervision/registration/); [Registration application fee](https://www.bankofcanada.ca/2024/10/registration-application-fee/). Checked 11 October 2026.
 
