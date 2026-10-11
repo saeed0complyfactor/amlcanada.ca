@@ -983,61 +983,88 @@ def UL(*items):
     return "          <ul>" + "".join(f"<li>{x}</li>" for x in items) + "</ul>"
 
 
+def _site_switch(name):
+    """Read a value from site-v3/site-config.js so the privacy text matches what actually loads."""
+    try:
+        m = re.search(name + r'\s*:\s*"([^"]*)"', (OUT / "site-config.js").read_text(encoding="utf-8"))
+        return bool(m and m.group(1).strip())
+    except OSError:
+        return False
+
+
+GA_ON, CF_ON = _site_switch("gaId"), _site_switch("cfBeacon")
+POSTAL_LINE = ", ".join(ADDRESS_LINES)
+
+if GA_ON or CF_ON:
+    _analytics = []
+    if CF_ON:
+        _analytics.append("<strong>Cloudflare Web Analytics</strong> counts visits without cookies and without tracking you across sites.")
+    if GA_ON:
+        _analytics.append("<strong>Google Analytics</strong> (through the Google tag) uses cookies to measure how the site is used. It loads only after you choose \"Accept\" in the cookie banner. If you decline, or don't choose, it stays off. You can change your choice at any time with \"Cookie choices\" in the footer. Your choice is stored in your browser so we don't ask on every page.")
+    COOKIES_TEXT = P(*_analytics)
+    USAGE_ITEM = "<strong>Usage information.</strong> Pages visited, referring site, approximate location and device type, collected as described under Cookies and analytics."
+else:
+    COOKIES_TEXT = P(
+        "This site doesn't use analytics tools, advertising cookies or tracking pixels, and it doesn't set cookies.",
+        "If we add analytics, we'll update this policy first. Any tool that uses cookies will load only after you accept it in a cookie banner.")
+    USAGE_ITEM = "<strong>Technical information.</strong> Like any website, our hosting provider processes your IP address, browser type and the pages you request so it can deliver the site and keep it secure."
+
 PRIVACY = [
     ("who", "Who we are", P(
-        f"AML Canada (amlcanada.ca) is operated by {OPERATOR} (“we”, “us”). This policy explains what personal information we collect through this website, why, and the choices you have.",
-        f"We handle personal information in line with Canada’s <em>Personal Information Protection and Electronic Documents Act</em> (PIPEDA). Questions go to our privacy contact at <a href=\"mailto:{PRIVACY_EMAIL}\">{PRIVACY_EMAIL}</a>.")),
+        f"AML Canada (amlcanada.ca) is operated by {OPERATOR} (\"we\", \"us\"). This policy explains what personal information we collect through this website, why, and the choices you have.",
+        "We handle personal information in line with Canada's <em>Personal Information Protection and Electronic Documents Act</em> (PIPEDA) and, for people in Quebec, the <em>Act respecting the protection of personal information in the private sector</em>.")),
+    ("officer", "Privacy officer", P(
+        f"Our Privacy Officer is responsible for how we handle personal information and for this policy. You can reach them at <a href=\"mailto:{PRIVACY_EMAIL}\">{PRIVACY_EMAIL}</a> or by mail at: Privacy Officer, {OPERATOR}, {POSTAL_LINE}.")),
     ("collect", "What we collect", P("We collect only what this site needs:") + "\n" + UL(
-        "<strong>Consultation requests.</strong> Your name, work email, company, the help you’re looking for and anything you choose to tell us in the message.",
-        "<strong>Gap check answers.</strong> The gap check runs in your browser. Your answers aren’t sent to us unless you carry them into a consultation request, where they appear in the message for you to review before sending.",
-        "<strong>Usage information.</strong> Pages visited, referring site, approximate location and device type, collected as described under Cookies and analytics.",
+        "<strong>Consultation requests.</strong> Your name, work email, company, the help you're looking for and anything you choose to tell us in the message.",
+        "<strong>Gap check answers.</strong> The gap check runs in your browser. Your answers aren't sent to us unless you carry them into a consultation request, where they appear in the message for you to review before sending.",
+        USAGE_ITEM,
         "<strong>Emails you send us.</strong> If you write to us, we keep the correspondence.")),
     ("use", "How we use it", UL(
         "To reply to your request and arrange a consultation.",
         "To provide services you engage us for, under a separate written agreement.",
-        "To understand how the site is used and improve it.",
-        "To keep the site secure and prevent abuse, such as spam form submissions.") + "\n" + P(
-        "We don’t sell personal information, and we don’t use your consultation details for marketing without your consent.")),
-    ("cookies", "Cookies and analytics", P(
-        "<strong>Cloudflare Web Analytics</strong> measures visits without cookies and without tracking you across sites.",
-        "<strong>Google Analytics</strong> (through the Google tag) uses cookies to measure how the site is used. It loads only after you choose “Accept” in the cookie banner. If you decline, or don’t choose, it stays off. You can change your choice at any time with “Cookie choices” in the footer.",
-        "The site also stores your cookie choice in your browser so we don’t ask again on every page.")),
+        "To keep the site secure and prevent abuse, such as spam form submissions.",
+        *(["To understand how the site is used and improve it."] if (GA_ON or CF_ON) else [])) + "\n" + P(
+        "We don't sell personal information, and we don't use your consultation details for marketing without your consent.")),
+    ("cookies", "Cookies and analytics", COOKIES_TEXT),
     ("share", "Who we share it with", P("We share personal information only with service providers that help us run this site and respond to you, and only as much as they need:") + "\n" + UL(
+        "<strong>GitHub</strong> (GitHub Pages), which hosts this website.",
         "<strong>Web3Forms</strong>, which delivers consultation form submissions to our inbox.",
-        "<strong>Cloudflare</strong>, for website delivery, security and cookieless analytics.",
-        "<strong>Google</strong>, for analytics, only if you accept analytics cookies.",
+        *(["<strong>Cloudflare</strong>, for cookieless visit counts."] if CF_ON else []),
+        *(["<strong>Google</strong>, for analytics, only if you accept analytics cookies."] if GA_ON else []),
         "Our email provider, for correspondence.") + "\n" + P(
         "Some of these providers process information outside Canada, including in the United States, where it may be accessible to authorities under local law. We may also disclose information where the law requires it.")),
     ("keep", "How long we keep it", P(
-        "We keep consultation requests and correspondence for as long as we need them to respond and, if you become a client, for the period our engagement and legal obligations require. Analytics data is kept according to the retention settings of the analytics tools, which we keep to the shortest practical period.")),
+        "We keep consultation requests and correspondence for as long as we need them to respond and, if you become a client, for the period our engagement and legal obligations require. When we no longer need personal information, we delete it or make it anonymous.")),
     ("safe", "How we protect it", P(
-        "We use reasonable physical, organizational and technical safeguards, and limit access to people who need it. No method of transmission over the internet is completely secure, so please don’t send sensitive personal information, such as identity documents, through the website form.")),
+        "We use reasonable physical, organizational and technical safeguards, and limit access to people who need it. No method of transmission over the internet is completely secure, so please don't send sensitive personal information, such as identity documents, through the website form.",
+        "If a breach of security safeguards involving your personal information creates a real risk of significant harm, we'll notify you and the regulators as the law requires.")),
     ("rights", "Your choices and rights", P(
-        f"You can ask to see the personal information we hold about you, ask us to correct it, or withdraw your consent to our use of it (subject to legal or contractual limits). Write to <a href=\"mailto:{PRIVACY_EMAIL}\">{PRIVACY_EMAIL}</a>. We’ll respond within 30 days.",
-        "If you’re not satisfied with our response, you can contact the <a href=\"https://www.priv.gc.ca/\" rel=\"noopener\">Office of the Privacy Commissioner of Canada</a>.")),
+        f"You can ask to see the personal information we hold about you, ask us to correct it, or withdraw your consent to our use of it (subject to legal or contractual limits). If you're in Quebec, you can also ask for your information in a structured, commonly used technological format. Write to <a href=\"mailto:{PRIVACY_EMAIL}\">{PRIVACY_EMAIL}</a>. We'll respond within 30 days.",
+        "If you're not satisfied with our response, you can contact the <a href=\"https://www.priv.gc.ca/\" rel=\"noopener\">Office of the Privacy Commissioner of Canada</a> or, in Quebec, the <a href=\"https://www.cai.gouv.qc.ca/\" rel=\"noopener\">Commission d'accès à l'information</a>.")),
     ("changes", "Changes to this policy", P(
-        "We’ll update this page when our practices change and show the date of the latest update at the top.")),
+        "We'll update this page when our practices change and show the date of the latest update at the top.")),
 ]
 
 TERMS = [
     ("about", "About these terms", P(
-        f"These terms apply to your use of amlcanada.ca. The site is operated by {OPERATOR} under the name AML Canada. By using the site you agree to these terms. If you don’t agree, please don’t use it.")),
+        f"These terms apply to your use of amlcanada.ca. The site is operated by {OPERATOR} under the name AML Canada. By using the site you agree to these terms. If you don't agree, please don't use it.")),
     ("advice", "General information, not advice", P(
-        "Everything on this site, including the gap check, regulatory summaries and figures, is general information. It isn’t legal, regulatory or compliance advice, and it may not reflect the latest requirements that apply to your business.",
-        "Your obligations depend on your activities and circumstances. Don’t act, or decide not to act, on the basis of this site without advice on your specific situation. The gap check is a self-assessment aid, not a compliance assessment.")),
+        "Everything on this site, including the gap check, regulatory summaries and figures, is general information. It isn't legal, regulatory or compliance advice, and it may not reflect the latest requirements that apply to your business.",
+        "Your obligations depend on your activities and circumstances. Don't act, or decide not to act, on the basis of this site without advice on your specific situation. The gap check is a self-assessment aid, not a compliance assessment.")),
     ("engagement", "No client relationship", P(
-        "Using this site, sending a consultation request or emailing us doesn’t create a client relationship. A client relationship begins only when we both sign a written engagement setting out the scope of work.")),
+        "Using this site, sending a consultation request or emailing us doesn't create a client relationship. A client relationship begins only when we both sign a written engagement setting out the scope of work.")),
     ("use", "Using the site", P("You agree not to:") + "\n" + UL(
         "use the site for anything unlawful or fraudulent;",
         "send spam, malware or anything that interferes with the site;",
         "try to gain unauthorized access to the site or the systems behind it;",
-        "copy or reuse the site’s content for commercial purposes without our written permission.")),
+        "copy or reuse the site's content for commercial purposes without our written permission.")),
     ("ip", "Our content", P(
         f"The text, design, graphics and code on this site belong to {OPERATOR} or its licensors and are protected by copyright and other laws. You may view and print pages for your own reference.")),
     ("links", "Links to other sites", P(
-        "We link to other websites, such as FINTRAC and the Office of the Privacy Commissioner, for convenience. We don’t control them and aren’t responsible for their content.")),
+        "We link to other websites, such as FINTRAC and the Office of the Privacy Commissioner, for convenience. We don't control them and aren't responsible for their content.")),
     ("liability", "Limitation of liability", P(
-        f"We work to keep the site accurate and available, but we provide it “as is” without warranties of any kind. To the extent the law allows, {OPERATOR} isn’t liable for any loss arising from your use of the site or reliance on its content. Nothing in these terms limits liability that can’t be limited by law.")),
+        f"We work to keep the site accurate and available, but we provide it \"as is\" without warranties of any kind. To the extent the law allows, {OPERATOR} isn't liable for any loss arising from your use of the site or reliance on its content. Nothing in these terms limits liability that can't be limited by law.")),
     ("law", "Governing law", P(
         "These terms are governed by the laws of the Province of Ontario and the federal laws of Canada that apply there. The courts of Ontario have exclusive jurisdiction over any dispute about them.")),
     ("changes", "Changes and contact", P(
