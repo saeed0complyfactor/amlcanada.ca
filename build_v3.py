@@ -18,7 +18,7 @@ OUT = Path(__file__).parent / "site-v3"
 
 OPERATOR = "ComplyFactor Limited"
 EMAIL = "info@amlcanada.ca"
-PRIVACY_EMAIL = "privacy@amlcanada.ca"
+PRIVACY_EMAIL = EMAIL  # one public address for everything
 UPDATED = "11 October 2026"
 LASTMOD = "2026-10-11"
 PHONE_DISPLAY = "+1 807-806-0444"
