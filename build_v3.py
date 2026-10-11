@@ -210,6 +210,24 @@ def mega_group(key, label, items, current_set):
         </li>"""
 
 
+# ---------------------------------------------------------------- clients (shown with their consent)
+CLIENTS = [("relm", "Relm", 147, 60, 40), ("radom", "Radom", 120, 32, 30), ("mosta", "Mosta", 125, 30, 28), ("hercle", "Hercle", 92, 21, 30)]
+
+
+def clients_block():
+    logos = "\n".join(f'          <li><img src="clients/{f}.svg" alt="{n}" width="{round(w * h2 / h)}" height="{h2}" loading="lazy" decoding="async"></li>'
+                      for f, n, w, h, h2 in CLIENTS)
+    return f"""    <section class="clients" data-theme="light" aria-labelledby="clients-title">
+      <div class="wrap clients-inner">
+        <h2 class="clients-h" id="clients-title">Clients served by our team</h2>
+        <ul class="clients-row">
+{logos}
+        </ul>
+      </div>
+    </section>
+"""
+
+
 def nav(current):
     svc_items = [("services.html", "All services", "FINTRAC and Bank of Canada registration, compliance programs, outsourced compliance officers, reviews and training.")] + \
                 [(h, t, d) for h, t, _, d, _ in SERVICES]
@@ -606,6 +624,7 @@ PAGES["services.html"] = (
       </div>
     </section>
 """
+    + clients_block()
     + what_we_do([("Consultation", "A conversation about your business, your timeline and what's required of you."),
                   ("Written scope", "What you're getting, set out before anything starts."),
                   ("Delivery", "We do the work with you and explain the decisions along the way."),
@@ -806,6 +825,7 @@ PAGES["contact.html"] = (
     + """      </div>
     </section>
 """
+    + clients_block()
     + close_and_footer()
 )
 
@@ -1210,6 +1230,7 @@ def main():
     home = replace_block(home, "nav", nav("index.html"))
     home = replace_block(home, "form", FORM)
     home = replace_block(home, "footer", footer())
+    home = replace_block(home, "clients", clients_block())
     (OUT / "index.html").write_text(home, encoding="utf-8")
     print("synced index.html")
     (OUT / "favicon.svg").write_text(FAVICON, encoding="utf-8")

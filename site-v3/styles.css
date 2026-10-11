@@ -730,3 +730,16 @@ details p { padding: 0 48px 26px 0; max-width: 62ch; color: var(--ink-2); }
 .services-head { display: flex; justify-content: space-between; align-items: flex-end; gap: 16px 32px; flex-wrap: wrap; }
 .services-head p { color: var(--ink-2); }
 .services-head p a, details p a { color: var(--ink); text-underline-offset: 3px; }
+
+/* Clients served by our team (logos shown with consent) */
+.clients { background: var(--paper); padding: clamp(40px, 5vw, 64px) 0; border-top: 1px solid var(--line); }
+.clients-inner { display: flex; align-items: center; justify-content: space-between; gap: 24px 48px; flex-wrap: wrap; }
+.clients-h { font: 400 12px/1.4 var(--mono); letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-3); max-width: 16ch; }
+.clients-row { display: flex; align-items: center; flex-wrap: wrap; gap: 28px clamp(32px, 5vw, 72px); }
+.clients-row img { display: block; width: auto; filter: grayscale(1) brightness(0); opacity: 0.62; transition: opacity 0.3s var(--ease); }
+.clients-row li:hover img { opacity: 0.9; }
+@media (max-width: 680px) {
+  .clients-inner { flex-direction: column; align-items: flex-start; }
+  .clients-row { gap: 24px 36px; }
+  .clients-row img { transform: scale(0.88); transform-origin: left center; }
+}
