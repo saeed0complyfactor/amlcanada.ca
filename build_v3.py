@@ -620,7 +620,7 @@ svc_cards = "\n".join(
 )
 PAGES["services.html"] = (
     head("AML & FINTRAC Compliance Services in Canada | AML Canada",
-         "FINTRAC MSB registration, PCMLTFA compliance programs, outsourced compliance officers, Bank of Canada RPAA registration, MSBs for sale and more, with clear fees.",
+         "FINTRAC MSB registration, PCMLTFA compliance programs, outsourced compliance officers, Bank of Canada RPAA registration and MSBs for sale, with clear fees.",
          "services.html")
     + nav("services.html") + '  <main id="main">\n'
     + page_hero([], "Services", ("FINTRAC and Bank of Canada compliance, from registration to review.",

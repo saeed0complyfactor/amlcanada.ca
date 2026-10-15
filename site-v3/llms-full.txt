@@ -118,6 +118,8 @@ The titles differ by country. In the UK and Europe the role is usually called th
 
 **Can we start small?** Yes. Start with the hours you need now, and add blocks of 10 hours when your volumes grow.
 
+**Is a fractional compliance officer the same as an outsourced one?** In practice, yes. "Fractional" usually means a part-time compliance officer from outside your business who is paid for the hours used. Our service works that way: you buy blocks of 10 hours for US$1,500 and add more as your volumes grow.
+
 Sources: [FINTRAC, Compliance program requirements](https://fintrac-canafe.canada.ca/guidance-directives/compliance-conformite/Guide4/4-eng); [Reporting suspicious transactions](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/str-dod/str-dod-eng); [Reporting suspected sanctions evasion](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/sanctions/sanctions-eng); [Reporting listed person or entity property](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/Guide5/5-eng); [Reporting electronic funds transfers](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/eft-dt/eft-dt-eng); [Reporting large virtual currency transactions](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/lvctr/lvctr-eng); [Reporting large cash transactions](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/lctr-doie/lctr-doie-eng); [The 24-hour rule](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/24hour/1-eng). Checked 11 October 2026.
 
 ---
@@ -776,7 +778,7 @@ If your business holds funds for users or transfers funds electronically for the
 
 FINTRAC's registration asks for:
 
-- details of the business, including incorporation, ownership and senior management;
+- details of the business, including its [incorporation](https://amlcanada.ca/incorporation-canada.html), ownership and senior management;
 
 - bank account information;
 
@@ -1242,7 +1244,7 @@ The review is done by an internal or external auditor or, if you don't have an a
 
 ### Training
 
-- Is there a written, ongoing training program and plan?
+- Is there a written, [ongoing training program](https://amlcanada.ca/training.html) and plan?
 
 - Did the people who need training, including agents, receive it, and are there records?
 

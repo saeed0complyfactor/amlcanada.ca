@@ -149,7 +149,8 @@ DEEP["outsourced-compliance-officer.html"] = dict(
           ("What is an MLRO in Canada?", "MLRO means money laundering reporting officer, a title used mainly in the UK and Europe. The Canadian equivalent under the PCMLTFA is the compliance officer."),
           ("Which FINTRAC reports do you handle?", "Suspicious transaction reports, electronic funds transfer reports, large virtual currency transaction reports, large cash transaction reports, and listed person or entity property reports, whichever apply to your business."),
           ("Do you work with foreign money services businesses?", "Yes. We work with businesses based outside Canada that serve people in Canada."),
-          ("Can we start small?", "Yes. Start with the hours you need now, and add blocks of 10 hours when your volumes grow.")],
+          ("Can we start small?", "Yes. Start with the hours you need now, and add blocks of 10 hours when your volumes grow."),
+          ("Is a fractional compliance officer the same as an outsourced one?", "In practice, yes. \"Fractional\" usually means a part-time compliance officer from outside your business who is paid for the hours used. Our service works that way: you buy blocks of 10 hours for US$1,500 and add more as your volumes grow.")],
     related=["compliance-programs.html", "msb-registration.html", "effectiveness-reviews.html"],
 )
 
@@ -221,7 +222,7 @@ DEEP["msb-registration.html"] = dict(
 # ------------------------------------------------------------------ compliance program
 DEEP["compliance-programs.html"] = dict(
     name="Compliance programs",
-    title="FINTRAC AML Compliance Program (PCMLTFA) | AML Canada",
+    title="AML Compliance Program in Canada (FINTRAC, PCMLTFA) | AML Canada",
     desc="PCMLTFA compliance program documents for FINTRAC-regulated businesses: policies and procedures, risk assessment, training and review plans. Fixed fee US$3,500.",
     service_type="PCMLTFA AML compliance program documents",
     offers=[("3500", "USD", "FINTRAC PCMLTFA compliance program documents, fixed fee")],
@@ -290,7 +291,7 @@ DEEP["compliance-programs.html"] = dict(
 DEEP["canadian-address.html"] = dict(
     name="Canadian business address",
     title="Canadian Business Address for Foreign Companies | AML Canada",
-    desc="A Canadian business address for foreign MSBs and companies entering Canada, for your setup, banking and partners. US$200 per month.",
+    desc="A Canadian business address for foreign MSBs and companies entering Canada, for your setup, banking and partners. US$200 per month, terms agreed in writing.",
     service_type="Canadian business address",
     offers=[("200", "USD", "Canadian business address, per month")],
     h1="A Canadian business address for your setup in Canada.",
@@ -527,7 +528,7 @@ DEEP["rpaa-compliance-program.html"] = dict(
 DEEP["effectiveness-reviews.html"] = dict(
     name="Effectiveness reviews",
     title="FINTRAC Effectiveness Review (Two-Year) | AML Canada",
-    desc="The AML effectiveness review FINTRAC requires every two years: your policies, risk assessment and training tested, with written findings.",
+    desc="The AML effectiveness review FINTRAC requires at least every two years: your policies, risk assessment and training tested, with written findings.",
     service_type="Compliance program effectiveness review",
     offers=[],
     h1="Find the gaps before an examiner does.",

@@ -56,7 +56,7 @@ GUIDES["how-to-register-msb-canada.html"] = dict(
           <p>If your business holds funds for users or transfers funds electronically for them, check the Retail Payment Activities Act as well. Many payment businesses need to register with the Bank of Canada as payment service providers, separately from FINTRAC. Our <a href="rpaa-registration-guide.html">RPAA guide</a> explains who is covered.</p>"""),
         ("gather", "Step 2: Gather what FINTRAC asks for", f"""          <p>FINTRAC's registration asks for:</p>
           <ul>
-            <li>details of the business, including incorporation, ownership and senior management;</li>
+            <li>details of the business, including its <a href="incorporation-canada.html">incorporation</a>, ownership and senior management;</li>
             <li>bank account information;</li>
             <li>your compliance officer;</li>
             <li>how many employees you have, and every location you operate from;</li>
@@ -329,7 +329,7 @@ GUIDES["fintrac-effectiveness-review-checklist.html"] = dict(
           </ul>
           <h3>Training</h3>
           <ul>
-            <li>Is there a written, ongoing training program and plan?</li>
+            <li>Is there a written, <a href="training.html">ongoing training program</a> and plan?</li>
             <li>Did the people who need training, including agents, receive it, and are there records?</li>
             <li>Does the content match your risks and your staff's roles?</li>
           </ul>
