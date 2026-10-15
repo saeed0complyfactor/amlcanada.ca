@@ -1535,3 +1535,103 @@ Our [outsourced compliance officer service](https://amlcanada.ca/outsourced-comp
 **How much does an outsourced compliance officer cost?** With us, US$1,500 per block of 10 hours, scaled to your workload.
 
 Sources: [FINTRAC, Compliance program requirements](https://fintrac-canafe.canada.ca/guidance-directives/compliance-conformite/Guide4/4-eng). Checked 11 October 2026.
+
+---
+
+## Guide: The first 90 days of AML compliance after FINTRAC registration
+
+URL: https://amlcanada.ca/first-90-days-aml-compliance-canada.html
+
+Once a money services business in Canada is registered with FINTRAC, its obligations apply from the day it starts operating. This guide sets out a practical order for the first three months and the legal deadlines to put in your diary.
+
+**Key points:**
+- Your compliance program must be in place from the day you operate.
+- Request access to FINTRAC's reporting system before your first report is due.
+- Train the people who deal with clients, and check agents before you engage them.
+- Report changes to your registration to FINTRAC within 30 days.
+
+### Day one: what applies straight away
+
+Registration lets a money services business (MSB) operate, and its obligations under the Proceeds of Crime (Money Laundering) and Terrorist Financing Act apply from the same day. [FINTRAC lists them](https://fintrac-canafe.canada.ca/msb-esm/msb-eng): a compliance program, verifying the identity of clients for certain activities and transactions, keeping records, reporting to FINTRAC, ministerial directives, and the travel rule for electronic funds and virtual currency transfers.
+
+Nothing in the law happens at 90 days. It's a planning window that gives you time to get the basics working and then test them. The legal deadlines that do apply are listed at the end of this guide. If you haven't registered yet, start with our guide on [how to register an MSB](https://amlcanada.ca/how-to-register-msb-canada.html).
+
+### Week 1: confirm the compliance program matches the business
+
+Your compliance program has five parts, set out in [FINTRAC's compliance program guidance](https://fintrac-canafe.canada.ca/guidance-directives/compliance-conformite/Guide4/4-eng):
+
+- a compliance officer responsible for implementing the program;
+
+- written policies and procedures, kept up to date and, if your business is an entity such as a corporation, approved by a senior officer;
+
+- a documented risk assessment;
+
+- a written, ongoing compliance training program and plan;
+
+- a plan for an effectiveness review at least every two years.
+
+Registration can take months, and products, payment partners or countries can change in that time. In the first week, check that each part describes the business you're running now. If the risk assessment covers services you don't offer, or misses ones you do, update it. FINTRAC requires you to assess the risks of new developments or technologies before you introduce them, so the same check applies to anything you add later.
+
+Check too that your compliance officer has the authority and the access to senior management to do the job. Our [compliance program documents](https://amlcanada.ca/compliance-programs.html) are written to be in place before you operate.
+
+### Weeks 1 and 2: get set up to report
+
+Some FINTRAC reports have short deadlines. Suspicious transaction reports are due as soon as practicable. Electronic funds transfer reports and large virtual currency transaction reports are due within 5 working days, and large cash transaction reports within 15 calendar days. Our [FINTRAC reporting guide](https://amlcanada.ca/fintrac-reporting-requirements.html) explains which reports apply to which services and how the 24-hour rule adds transactions together.
+
+To file through the [FINTRAC Web Reporting System](https://fintrac-canafe.canada.ca/reporting-declaration/info/f2r-eng), you first ask FINTRAC for access by email at F2R@fintrac-canafe.gc.ca. Your reporting entity administrator then creates contacts and attests to their identity before they can complete or submit reports. Request access early, so it isn't the thing that holds up your first report. FINTRAC points businesses with high reporting volumes to its [API report submission](https://fintrac-canafe.canada.ca/reporting-declaration/info/api/api-eng) option instead.
+
+Then test that your systems flag each report you need: a transfer or cash amount at the threshold, linked transactions under the 24-hour rule, and the way staff escalate unusual activity to the compliance officer. An [outsourced compliance officer](https://amlcanada.ca/outsourced-compliance-officer.html) can prepare and file these reports with you.
+
+### First month: train your people and check your agents
+
+If you have employees, agents, mandataries or other people authorized to act for you, FINTRAC requires a written, ongoing compliance training program and a documented plan for delivering it. Start with the people who have contact with clients, such as front-line staff and agents, and those who handle funds or virtual currency. Keep a record of who was trained, when and on what. Our [AML training](https://amlcanada.ca/training.html) is built to meet FINTRAC's training requirement.
+
+If you use agents or mandataries, [FINTRAC](https://fintrac-canafe.canada.ca/msb-esm/msb-eng) requires you to verify that they're eligible before you engage them, and again within 30 days after the second anniversary of the most recent verification. You must not engage an agent who isn't eligible, and you must stop engaging one who becomes ineligible.
+
+### Months 2 and 3: test what you built
+
+Once clients and transactions are coming in, check that the program works in practice. An internal check at this stage lets you fix problems before they repeat in more files.
+
+- Sample client files. Was identity verified the way your procedures say, and does each client have a recorded risk rating?
+
+- Compare the transactions that met a reporting threshold with the reports you filed, and check the filing dates against the deadlines.
+
+- Pull a sample of records as if FINTRAC had asked for them. FINTRAC's [record keeping guidance](https://fintrac-canafe.canada.ca/guidance-directives/recordkeeping-document/record/msb-eng) says records must be kept for at least five years and in a way that lets you provide them within 30 days of a request.
+
+- Check that your procedures apply the [ministerial directives](https://fintrac-canafe.canada.ca/obligations/directives-eng) in force, which require countermeasures for transactions with the jurisdictions they name. They currently cover Russia, Iran and North Korea (DPRK).
+
+- Update your risk assessment before you launch a new product, delivery channel or market.
+
+Write down what you found and what you changed. That record shows how the program has been kept up to date, and it feeds into your first [two-year effectiveness review](https://amlcanada.ca/fintrac-effectiveness-review-checklist.html).
+
+### Deadlines to put in your diary
+
+| Obligation | Deadline |
+
+| Changes to your registration information | Tell FINTRAC within 30 days |
+
+| Registration renewal | Before it expires (registration is valid for two years) |
+
+| Effectiveness review | At least every two years; for an entity, report the results in writing to a senior officer within 30 days of finishing |
+
+| Agent eligibility check | Again within 30 days after the second anniversary of the last check |
+
+| Records requested by FINTRAC | Provide them within 30 days of the request |
+
+| Stopping MSB services | Cancel your registration within 30 days |
+
+FINTRAC's [update and renewal page](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/respond-eng) says most complete applications are processed within three months of receipt, so start your renewal well before the expiry date.
+
+### Questions
+
+**Is there a FINTRAC deadline 90 days after registration?** No. Ninety days is a planning window. The deadlines that apply include 30 days to report changes to your registration, the deadline for each FINTRAC report, and renewing your registration before it expires after two years.
+
+**When do my FINTRAC obligations start?** When you start operating as a money services business. Your compliance program, client identification, record keeping and reporting obligations all apply from that day.
+
+**How do I get access to file reports with FINTRAC?** Email FINTRAC at F2R@fintrac-canafe.gc.ca to request access to the FINTRAC Web Reporting System. Your reporting entity administrator then sets up the people who will prepare and submit reports.
+
+**Who needs AML training in a new MSB?** If you have employees, agents, mandataries or others authorized to act for you, you need a written, ongoing compliance training program and a documented plan. Start with the people who deal with clients or handle funds or virtual currency.
+
+**How long does an MSB keep records?** At least five years. When the period starts depends on the type of record, and records must be kept so they can be provided to FINTRAC within 30 days of a request.
+
+Sources: [FINTRAC, Compliance program requirements](https://fintrac-canafe.canada.ca/guidance-directives/compliance-conformite/Guide4/4-eng); [Money services businesses](https://fintrac-canafe.canada.ca/msb-esm/msb-eng); [Update, renew or cancel your registration](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/respond-eng); [FINTRAC Web Reporting System](https://fintrac-canafe.canada.ca/reporting-declaration/info/f2r-eng); [FINTRAC API report submission](https://fintrac-canafe.canada.ca/reporting-declaration/info/api/api-eng); [Ministerial directives](https://fintrac-canafe.canada.ca/obligations/directives-eng); [Record keeping for MSBs](https://fintrac-canafe.canada.ca/guidance-directives/recordkeeping-document/record/msb-eng); [Reporting suspicious transactions](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/str-dod/str-dod-eng); [Reporting electronic funds transfers](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/eft-dt/eft-dt-eng); [Reporting large virtual currency transactions](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/lvctr/lvctr-eng); [Reporting large cash transactions](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/lctr-doie/lctr-doie-eng). Checked 11 October 2026.

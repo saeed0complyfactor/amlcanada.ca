@@ -21,6 +21,10 @@ F_CAM = "https://fintrac-canafe.canada.ca/guidance-directives/exam-examen/cam/ca
 F_EXAM = "https://fintrac-canafe.canada.ca/guidance-directives/exam-examen/05-2005/4-eng"
 F_AMP = "https://fintrac-canafe.canada.ca/pen/2-eng"
 F_AMP_LIST = "https://fintrac-canafe.canada.ca/pen/4-eng"
+# Checked 16 October 2026.
+F_F2R = "https://fintrac-canafe.canada.ca/reporting-declaration/info/f2r-eng"
+F_API = "https://fintrac-canafe.canada.ca/reporting-declaration/info/api/api-eng"
+F_DIR = "https://fintrac-canafe.canada.ca/obligations/directives-eng"
 F_RBA = "https://fintrac-canafe.canada.ca/guidance-directives/compliance-conformite/rba/rba-eng"
 B_FAQ = "https://www.bankofcanada.ca/2026/08/frequently-asked-questions-about-retail-payments-supervision/"
 B_CRIT = "https://www.bankofcanada.ca/2026/06/criteria-for-registering-payment-service-providers/"
@@ -511,6 +515,73 @@ GUIDES["outsourced-vs-in-house-compliance-officer.html"] = dict(
           ("How much does an outsourced compliance officer cost?", "With us, US$1,500 per block of 10 hours, scaled to your workload.")],
     sources=[("FINTRAC, Compliance program requirements", F_G4)],
     related=["fintrac-reporting-requirements.html", "fintrac-effectiveness-review-checklist.html", "fintrac-examination-preparation.html"],
+)
+
+# ------------------------------------------------------------------ 11. first 90 days after registration
+GUIDES["first-90-days-aml-compliance-canada.html"] = dict(
+    title="First 90 Days of AML Compliance After MSB Registration | AML Canada",
+    desc="What a newly registered MSB in Canada should do in its first 90 days: compliance program checks, FINTRAC reporting access, training, agents and deadlines.",
+    crumb="First 90 days",
+    h1="The first 90 days of AML compliance after FINTRAC registration",
+    lede="Once a money services business in Canada is registered with FINTRAC, its obligations apply from the day it starts operating. This guide sets out a practical order for the first three months and the legal deadlines to put in your diary.",
+    label="Guide · After registration",
+    service="outsourced-compliance-officer.html",
+    also=["compliance-programs.html", "training.html"],
+    date="2026-10-16",
+    takeaways=["Your compliance program must be in place from the day you operate.",
+               "Request access to FINTRAC's reporting system before your first report is due.",
+               "Train the people who deal with clients, and check agents before you engage them.",
+               "Report changes to your registration to FINTRAC within 30 days."],
+    sections=[
+        ("day-one", "Day one: what applies straight away", f"""          <p>Registration lets a money services business (MSB) operate, and its obligations under the Proceeds of Crime (Money Laundering) and Terrorist Financing Act apply from the same day. <a href="{F_MSB}" rel="noopener">FINTRAC lists them</a>: a compliance program, verifying the identity of clients for certain activities and transactions, keeping records, reporting to FINTRAC, ministerial directives, and the travel rule for electronic funds and virtual currency transfers.</p>
+          <p>Nothing in the law happens at 90 days. It's a planning window that gives you time to get the basics working and then test them. The legal deadlines that do apply are listed at the end of this guide. If you haven't registered yet, start with our guide on <a href="how-to-register-msb-canada.html">how to register an MSB</a>.</p>"""),
+        ("week-one", "Week 1: confirm the compliance program matches the business", f"""          <p>Your compliance program has five parts, set out in <a href="{F_G4}" rel="noopener">FINTRAC's compliance program guidance</a>:</p>
+          <ul>
+            <li>a compliance officer responsible for implementing the program;</li>
+            <li>written policies and procedures, kept up to date and, if your business is an entity such as a corporation, approved by a senior officer;</li>
+            <li>a documented risk assessment;</li>
+            <li>a written, ongoing compliance training program and plan;</li>
+            <li>a plan for an effectiveness review at least every two years.</li>
+          </ul>
+          <p>Registration can take months, and products, payment partners or countries can change in that time. In the first week, check that each part describes the business you're running now. If the risk assessment covers services you don't offer, or misses ones you do, update it. FINTRAC requires you to assess the risks of new developments or technologies before you introduce them, so the same check applies to anything you add later.</p>
+          <p>Check too that your compliance officer has the authority and the access to senior management to do the job. Our <a href="compliance-programs.html">compliance program documents</a> are written to be in place before you operate.</p>"""),
+        ("reporting", "Weeks 1 and 2: get set up to report", f"""          <p>Some FINTRAC reports have short deadlines. Suspicious transaction reports are due as soon as practicable. Electronic funds transfer reports and large virtual currency transaction reports are due within 5 working days, and large cash transaction reports within 15 calendar days. Our <a href="fintrac-reporting-requirements.html">FINTRAC reporting guide</a> explains which reports apply to which services and how the 24-hour rule adds transactions together.</p>
+          <p>To file through the <a href="{F_F2R}" rel="noopener">FINTRAC Web Reporting System</a>, you first ask FINTRAC for access by email at F2R@fintrac-canafe.gc.ca. Your reporting entity administrator then creates contacts and attests to their identity before they can complete or submit reports. Request access early, so it isn't the thing that holds up your first report. FINTRAC points businesses with high reporting volumes to its <a href="{F_API}" rel="noopener">API report submission</a> option instead.</p>
+          <p>Then test that your systems flag each report you need: a transfer or cash amount at the threshold, linked transactions under the 24-hour rule, and the way staff escalate unusual activity to the compliance officer. An <a href="outsourced-compliance-officer.html">outsourced compliance officer</a> can prepare and file these reports with you.</p>"""),
+        ("first-month", "First month: train your people and check your agents", f"""          <p>If you have employees, agents, mandataries or other people authorized to act for you, FINTRAC requires a written, ongoing compliance training program and a documented plan for delivering it. Start with the people who have contact with clients, such as front-line staff and agents, and those who handle funds or virtual currency. Keep a record of who was trained, when and on what. Our <a href="training.html">AML training</a> is built to meet FINTRAC's training requirement.</p>
+          <p>If you use agents or mandataries, <a href="{F_MSB}" rel="noopener">FINTRAC</a> requires you to verify that they're eligible before you engage them, and again within 30 days after the second anniversary of the most recent verification. You must not engage an agent who isn't eligible, and you must stop engaging one who becomes ineligible.</p>"""),
+        ("months-two-three", "Months 2 and 3: test what you built", f"""          <p>Once clients and transactions are coming in, check that the program works in practice. An internal check at this stage lets you fix problems before they repeat in more files.</p>
+          <ul>
+            <li>Sample client files. Was identity verified the way your procedures say, and does each client have a recorded risk rating?</li>
+            <li>Compare the transactions that met a reporting threshold with the reports you filed, and check the filing dates against the deadlines.</li>
+            <li>Pull a sample of records as if FINTRAC had asked for them. FINTRAC's <a href="{F_REC_MSB}" rel="noopener">record keeping guidance</a> says records must be kept for at least five years and in a way that lets you provide them within 30 days of a request.</li>
+            <li>Check that your procedures apply the <a href="{F_DIR}" rel="noopener">ministerial directives</a> in force, which require countermeasures for transactions with the jurisdictions they name. They currently cover Russia, Iran and North Korea (DPRK).</li>
+            <li>Update your risk assessment before you launch a new product, delivery channel or market.</li>
+          </ul>
+          <p>Write down what you found and what you changed. That record shows how the program has been kept up to date, and it feeds into your first <a href="fintrac-effectiveness-review-checklist.html">two-year effectiveness review</a>.</p>"""),
+        ("deadlines", "Deadlines to put in your diary", f"""          <div class="table-wrap"><table>
+            <thead><tr><th scope="col">Obligation</th><th scope="col">Deadline</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Changes to your registration information</th><td>Tell FINTRAC within 30 days</td></tr>
+              <tr><th scope="row">Registration renewal</th><td>Before it expires (registration is valid for two years)</td></tr>
+              <tr><th scope="row">Effectiveness review</th><td>At least every two years; for an entity, report the results in writing to a senior officer within 30 days of finishing</td></tr>
+              <tr><th scope="row">Agent eligibility check</th><td>Again within 30 days after the second anniversary of the last check</td></tr>
+              <tr><th scope="row">Records requested by FINTRAC</th><td>Provide them within 30 days of the request</td></tr>
+              <tr><th scope="row">Stopping MSB services</th><td>Cancel your registration within 30 days</td></tr>
+            </tbody>
+          </table></div>
+          <p>FINTRAC's <a href="{F_UPD}" rel="noopener">update and renewal page</a> says most complete applications are processed within three months of receipt, so start your renewal well before the expiry date.</p>"""),
+    ],
+    faqs=[("Is there a FINTRAC deadline 90 days after registration?", "No. Ninety days is a planning window. The deadlines that apply include 30 days to report changes to your registration, the deadline for each FINTRAC report, and renewing your registration before it expires after two years."),
+          ("When do my FINTRAC obligations start?", "When you start operating as a money services business. Your compliance program, client identification, record keeping and reporting obligations all apply from that day."),
+          ("How do I get access to file reports with FINTRAC?", "Email FINTRAC at F2R@fintrac-canafe.gc.ca to request access to the FINTRAC Web Reporting System. Your reporting entity administrator then sets up the people who will prepare and submit reports."),
+          ("Who needs AML training in a new MSB?", "If you have employees, agents, mandataries or others authorized to act for you, you need a written, ongoing compliance training program and a documented plan. Start with the people who deal with clients or handle funds or virtual currency."),
+          ("How long does an MSB keep records?", "At least five years. When the period starts depends on the type of record, and records must be kept so they can be provided to FINTRAC within 30 days of a request.")],
+    sources=[("FINTRAC, Compliance program requirements", F_G4), ("Money services businesses", F_MSB), ("Update, renew or cancel your registration", F_UPD),
+             ("FINTRAC Web Reporting System", F_F2R), ("FINTRAC API report submission", F_API), ("Ministerial directives", F_DIR),
+             ("Record keeping for MSBs", F_REC_MSB), ("Reporting suspicious transactions", F_STR), ("Reporting electronic funds transfers", F_EFT),
+             ("Reporting large virtual currency transactions", F_LVCTR), ("Reporting large cash transactions", F_LCTR)],
+    related=["how-to-register-msb-canada.html", "fintrac-reporting-requirements.html", "fintrac-effectiveness-review-checklist.html"],
 )
 
 
