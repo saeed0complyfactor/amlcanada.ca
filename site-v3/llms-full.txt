@@ -274,6 +274,8 @@ FINTRAC's guidance sets out five required elements:
 
 - **A review of effectiveness** of the policies and procedures, risk assessment and training program, at least every two years.
 
+Our guide to [FINTRAC compliance program requirements](https://amlcanada.ca/fintrac-compliance-program-requirements.html) explains what FINTRAC expects in each part.
+
 ### What your policies and procedures cover
 
 - knowing your client: verifying identity, beneficial ownership, and politically exposed persons and heads of international organizations;
@@ -562,7 +564,7 @@ Many PSPs depend on processors, banks, cloud providers and others, and some act 
 
 ### Safeguarding end-user funds
 
-If you hold end-user funds, you must safeguard them, either in a trust account, or in a segregated account protected by insurance or a guarantee. Your written safeguarding framework explains how end users get timely access to their funds and how funds would be paid out if your business became insolvent.
+If you hold end-user funds, you must safeguard them, either in a trust account, or in a segregated account protected by insurance or a guarantee. Your written safeguarding framework explains how end users get timely access to their funds and how funds would be paid out if your business became insolvent. Our guide to [RPAA safeguarding of end-user funds](https://amlcanada.ca/rpaa-safeguarding-end-user-funds.html) covers the requirements in detail.
 
 ### Cyber, IT and continuity
 
@@ -1118,7 +1120,7 @@ Application information is shared with the Department of Finance and with FINTRA
 
 ### Ongoing obligations
 
-Since September 8, 2025, PSPs must have a risk management and incident response framework, and those that hold end-user funds must safeguard them, either in a trust account or in a segregated account with insurance or a guarantee.
+Since September 8, 2025, PSPs must have a risk management and incident response framework, and those that hold end-user funds must [safeguard them](https://amlcanada.ca/rpaa-safeguarding-end-user-funds.html), either in a trust account or in a segregated account with insurance or a guarantee.
 
 When a PSP becomes aware of an incident with a material impact, it must notify the Bank and the affected end users, PSPs or clearing houses without delay (RPAA section 18). The Bank's [reporting reminder](https://www.bankofcanada.ca/2026/06/reminder-psp-reporting-obligations-under-rpaa/) says the initial notice to the Bank is due no later than 48 hours after the PSP determines the incident is material. PSPs also give notice at least five business days before a significant change or new activity, and file an annual report by March 31. Our [RPAA compliance program](https://amlcanada.ca/rpaa-compliance-program.html) covers these frameworks.
 
@@ -1558,7 +1560,7 @@ Nothing in the law happens at 90 days. It's a planning window that gives you tim
 
 ### Week 1: confirm the compliance program matches the business
 
-Your compliance program has five parts, set out in [FINTRAC's compliance program guidance](https://fintrac-canafe.canada.ca/guidance-directives/compliance-conformite/Guide4/4-eng):
+Your compliance program has five parts, set out in [FINTRAC's compliance program guidance](https://fintrac-canafe.canada.ca/guidance-directives/compliance-conformite/Guide4/4-eng) and explained in our [guide to the requirements](https://amlcanada.ca/fintrac-compliance-program-requirements.html):
 
 - a compliance officer responsible for implementing the program;
 
@@ -1635,3 +1637,231 @@ FINTRAC's [update and renewal page](https://fintrac-canafe.canada.ca/msb-esm/reg
 **How long does an MSB keep records?** At least five years. When the period starts depends on the type of record, and records must be kept so they can be provided to FINTRAC within 30 days of a request.
 
 Sources: [FINTRAC, Compliance program requirements](https://fintrac-canafe.canada.ca/guidance-directives/compliance-conformite/Guide4/4-eng); [Money services businesses](https://fintrac-canafe.canada.ca/msb-esm/msb-eng); [Update, renew or cancel your registration](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/respond-eng); [FINTRAC Web Reporting System](https://fintrac-canafe.canada.ca/reporting-declaration/info/f2r-eng); [FINTRAC API report submission](https://fintrac-canafe.canada.ca/reporting-declaration/info/api/api-eng); [Ministerial directives](https://fintrac-canafe.canada.ca/obligations/directives-eng); [Record keeping for MSBs](https://fintrac-canafe.canada.ca/guidance-directives/recordkeeping-document/record/msb-eng); [Reporting suspicious transactions](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/str-dod/str-dod-eng); [Reporting electronic funds transfers](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/eft-dt/eft-dt-eng); [Reporting large virtual currency transactions](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/lvctr/lvctr-eng); [Reporting large cash transactions](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/lctr-doie/lctr-doie-eng). Checked 11 October 2026.
+
+---
+
+## Guide: FINTRAC compliance program requirements
+
+URL: https://amlcanada.ca/fintrac-compliance-program-requirements.html
+
+Every business FINTRAC regulates must establish and implement a compliance program. It has five parts: a compliance officer, written policies and procedures, a risk assessment, an ongoing training program and plan, and a review of the program at least every two years.
+
+**Key points:**
+- All reporting entities need a compliance program, including MSBs and virtual currency dealers.
+- Policies and procedures must be written, kept up to date and, for an entity, approved by a senior officer.
+- Assess the risks of a new development or new technology before you introduce it.
+- Test the program at least every two years. If your business is an entity, report the results in writing to a senior officer within 30 days.
+
+### What a FINTRAC compliance program is
+
+A compliance program, sometimes called an AML/ATF program, is the set of people, documents and processes a reporting entity uses to meet its obligations under the Proceeds of Crime (Money Laundering) and Terrorist Financing Act (PCMLTFA). [FINTRAC's compliance program guidance](https://fintrac-canafe.canada.ca/guidance-directives/compliance-conformite/Guide4/4-eng) says it forms the basis for meeting all of your reporting, record keeping, client identification and other know-your-client requirements. Every reporting entity must have one, whatever its size.
+
+FINTRAC's guidance cites subsection 9.6(1) of the PCMLTFA and section 156 of the [Proceeds of Crime (Money Laundering) and Terrorist Financing Regulations](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-184/FullText.html) as the legal basis.
+
+| Part | What the rules require |
+
+| Compliance officer | Appoint a person responsible for implementing the program |
+
+| Policies and procedures | Written, kept up to date and, for an entity, approved by a senior officer |
+
+| Risk assessment | Assess and document your money laundering, terrorist financing and sanctions evasion risks |
+
+| Training program and plan | If others act for you, a written, ongoing training program and a documented plan to deliver it |
+
+| Two-year effectiveness review | A documented plan, and a review that tests the program at least every two years |
+
+### 1. Appoint a compliance officer
+
+In a small business, the compliance officer can be the owner, the operator or a senior manager. For a larger business, FINTRAC's example is someone at a senior level with direct access to senior management and the board of directors. As a best practice, the compliance officer of a larger business shouldn't be directly involved in receiving, transferring or paying out funds.
+
+FINTRAC says the officer needs the authority and resources to implement the program, knowledge of how your business works, knowledge of the money laundering, terrorist financing and sanctions evasion risks in your sector, and an understanding of your sector's requirements under the PCMLTFA. They can delegate tasks, but they stay responsible for implementing the program, and your business stays responsible for meeting the requirements.
+
+FINTRAC's guidance says the compliance officer can be you or another individual. If you're weighing an [outsourced compliance officer](https://amlcanada.ca/outsourced-compliance-officer.html) against an internal appointment, our guide to [outsourced vs in-house compliance officers](https://amlcanada.ca/outsourced-vs-in-house-compliance-officer.html) compares the two options.
+
+### 2. Write policies and procedures
+
+Your policies and procedures must be written, kept up to date when the law or your own processes change, and approved by a senior officer if your business is an entity such as a corporation. Make them available to everyone authorized to act for you, including employees, agents and anyone else who deals with clients or transactions.
+
+FINTRAC expects them to cover, as they apply to you:
+
+- the compliance program itself;
+
+- know your client, including identity verification, politically exposed persons, heads of international organizations and their family members and close associates, beneficial ownership and third party determination;
+
+- business relationships and ongoing monitoring;
+
+- record keeping;
+
+- transaction reporting;
+
+- the travel rule for electronic funds and virtual currency transfers;
+
+- ministerial directives.
+
+For each obligation, describe when it's triggered, what must be reported or recorded, the steps you take and the deadlines. Where the law asks for "reasonable measures", write down the steps you'll take. If an industry association gave you a generic set of policies, FINTRAC says you must tailor them to your business.
+
+### 3. Assess your risks
+
+You must assess and document your money laundering, terrorist financing and sanctions evasion risks in the course of your activities. FINTRAC lists the factors to consider:
+
+- your clients, business relationships and any correspondent banking relationships, including their activity patterns and locations;
+
+- your products, services and delivery channels;
+
+- the places where you carry out your activities;
+
+- new developments or technologies, assessed before you introduce them;
+
+- if you are a financial entity, life insurance company or securities dealer, the risks from the activities of your affiliates;
+
+- the risks for your sector in the latest National Risk Assessment of Money Laundering and Terrorist Financing in Canada;
+
+- any other relevant factor, such as employee turnover.
+
+An MSB that plans to add virtual currency services, for example, must assess the risks of that new service before it launches.
+
+### Enhanced measures for high risk
+
+Where you consider a risk high, you must take enhanced measures and set them out in written policies and procedures. They include extra steps to verify identity, updating client information and monitoring business relationships at a frequency that matches the risk. FINTRAC's examples include getting more information on the client, on their source of funds or source of wealth, or on the reasons for a transaction. FINTRAC's [risk assessment guidance](https://fintrac-canafe.canada.ca/guidance-directives/compliance-conformite/rba/rba-eng) explains how to build the assessment.
+
+### 4. Train the people who act for you
+
+If you have employees, agents, mandataries or others authorized to act for you, you need a written, ongoing compliance training program and a documented plan for delivering it. The training should cover your obligations under the PCMLTFA, background on money laundering and terrorist financing, how your business could be used for them, your own policies and procedures, and each person's role when something looks suspicious.
+
+The plan should say who gets trained, which topics and materials you use, how you deliver the training and how often. FINTRAC says recipients should include anyone who deals with clients, is involved in client transactions or handles cash, funds or virtual currency for you, and those who implement or oversee the program, such as the compliance officer, senior management, IT staff and internal auditors. Keep a record of each session, with the date, the attendees and the topics. A sole proprietor with no employees, agents or other authorized persons doesn't need a training program or plan. Our [AML training](https://amlcanada.ca/training.html) is built around these requirements.
+
+### 5. Review the program every two years
+
+An effectiveness review tests whether your policies and procedures, risk assessment, and training program and plan work in practice. You must start each review no later than 24 months from the start of the previous one, and finish the previous review before you start the next. The review must be carried out, and its results documented, by an internal or external auditor, or by you if you have no auditor. Whoever does it should know your requirements under the PCMLTFA. As a best practice, the reviewer shouldn't be directly involved in your compliance program activities.
+
+You also need a documented plan for the review that covers every part of the program. It should set out the scope, the reasons for the areas you focus on, the period reviewed, your evaluation methods and sample sizes. The review itself should record when it was done, the period covered, who did it, the test results and the conclusions, including any deficiencies, recommendations and action plans. If your business is an entity, you must report the findings, any other updates to your policies and procedures and the status of those updates, in writing to a senior officer within 30 days of finishing the review. Our [effectiveness review checklist](https://amlcanada.ca/fintrac-effectiveness-review-checklist.html) sets out what to test, and an external [effectiveness review](https://amlcanada.ca/effectiveness-reviews.html) gives you an independent view.
+
+### A quick self-check
+
+These questions follow FINTRAC's guidance. If you answer no to any of them, that part of your program needs work.
+
+- Has your compliance officer been appointed, and do they have the authority and resources to do the job?
+
+- Are your policies and procedures written, kept up to date, approved by a senior officer if your business is an entity, and tailored to your business?
+
+- Do they cover the travel rule and the ministerial directives in force?
+
+- Does your risk assessment describe the products, channels and countries you deal with today?
+
+- Can you show training records for everyone FINTRAC says should be trained, including senior management and the compliance officer?
+
+- Do you know when your next effectiveness review must start?
+
+If you're about to register, our [compliance program documents](https://amlcanada.ca/compliance-programs.html) are written to be in place before you start operating. If you've just registered, see what to do in your [first 90 days](https://amlcanada.ca/first-90-days-aml-compliance-canada.html).
+
+### Questions
+
+**Who needs a FINTRAC compliance program?** Every reporting entity under the PCMLTFA must establish and implement one, whatever its size. That includes money services businesses, foreign MSBs and virtual currency dealers.
+
+**Can I use a compliance program template?** You can start from one, but FINTRAC says generic policies and procedures must be tailored to your business. The level of detail depends on your size, structure, complexity and exposure to money laundering, terrorist financing and sanctions evasion risks.
+
+**Who approves the compliance policies and procedures?** If your business is an entity, such as a corporation, a senior officer must approve them. They must also be kept up to date when the law or your processes change.
+
+**Does a sole proprietor need a training program?** No, if you have no employees, agents, mandataries or other people authorized to act for you. You still need the other parts of the program.
+
+**How often must the compliance program be reviewed?** At least every two years. Each review must start no later than 24 months from the start of the previous one, and an entity must report the results in writing to a senior officer within 30 days of finishing.
+
+Sources: [FINTRAC, Compliance program requirements](https://fintrac-canafe.canada.ca/guidance-directives/compliance-conformite/Guide4/4-eng); [FINTRAC, Risk assessment guidance](https://fintrac-canafe.canada.ca/guidance-directives/compliance-conformite/rba/rba-eng); [Proceeds of Crime (Money Laundering) and Terrorist Financing Act](https://laws-lois.justice.gc.ca/eng/acts/P-24.501/FullText.html); [Proceeds of Crime (Money Laundering) and Terrorist Financing Regulations](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-184/FullText.html); [Ministerial directives](https://fintrac-canafe.canada.ca/obligations/directives-eng); [Travel rule guidance](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/travel-acheminement/1-eng). Checked 16 October 2026.
+
+---
+
+## Guide: RPAA safeguarding of end-user funds
+
+URL: https://amlcanada.ca/rpaa-safeguarding-end-user-funds.html
+
+Since September 8, 2025, a payment service provider that holds funds for its users must safeguard them, either in trust in a trust account or in a segregated account backed by insurance or a guarantee. It also needs a written safeguarding framework and an independent review at least every three years.
+
+**Key points:**
+- Safeguarding applies only to end-user funds a PSP holds at rest.
+- Place held funds in a safeguarding account on receipt. Unavoidable processing constraints allow until the next business day.
+- Use a trust account, or a segregated account with insurance or a guarantee, or a mix of both.
+- Keep a daily ledger, approve the framework every year and have it reviewed independently every three years.
+
+### Who must safeguard end-user funds
+
+One of the payment functions in the Retail Payment Activities Act (RPAA) is holding funds on behalf of an end user until they're withdrawn by the end user or transferred to another person or entity. A payment service provider (PSP) that performs it must safeguard those funds. The [Bank of Canada's supervisory framework](https://www.bankofcanada.ca/regulatory-oversight/retail-payments/supervisory-framework/) says the requirement came into force on September 8, 2025.
+
+It only covers funds that are held. The Bank's [safeguarding summary](https://www.bankofcanada.ca/wp-content/uploads/2025/02/Safeguarding-of-end-user-funds-At-a-glance.pdf) explains the difference:
+
+- You hold funds when they sit at rest in an account you own, available for a later withdrawal or transfer, and you owe them to the end user.
+
+- Funds are at rest while you have no instruction to transfer them immediately.
+
+- You stop holding funds when you receive an instruction for immediate withdrawal or transfer, or when a future-dated transfer date arrives.
+
+- Funds you receive together with an instruction to transfer them immediately aren't held.
+
+For example, if a user tops up a wallet with you and leaves the balance there for a later payment, you're holding those funds from the moment they reach your account. If a user sends funds with an instruction to pay a recipient straight away, those funds aren't held.
+
+The Bank's [safeguarding guideline](https://www.bankofcanada.ca/wp-content/uploads/2024/02/safeguarding-end-user-funds.pdf) adds some specific cases. Funds a merchant processor reserves specifically to cover chargebacks or fraud aren't held, and neither are your own funds advanced to a merchant before a card transaction settles. If you have a place of business in Canada, the requirement covers funds you hold for end users anywhere. If you don't, it covers only funds you hold for end users in Canada.
+
+There's one exception. A PSP that is itself a member of a provincial deposit insurance program doesn't need to safeguard end-user funds it holds as deposits insured under that program. It doesn't apply just because the credit union or other institution holding your account is a member. If you're not sure whether your business holds funds at all, our [guide to who the RPAA covers](https://amlcanada.ca/rpaa-registration-guide.html) explains registration.
+
+### Segregate funds in a safeguarding account
+
+The Bank gives safeguarding two objectives: end users should have reliable access to their funds without delay, and their funds should be protected against loss if the PSP becomes insolvent.
+
+You must keep end-user funds apart from all other funds, including your own, in an account that isn't used for any other purpose. The Bank calls it the safeguarding account. It must be provided by a Canadian financial institution of the kinds the RPAA lists, or by a foreign institution prudentially regulated to standards comparable to Canadian ones. The Bank also expects a written acknowledgement from the account provider that it has no interest in, recourse to or right against the funds for any sum owed to it.
+
+The Bank's [guideline](https://www.bankofcanada.ca/wp-content/uploads/2024/02/safeguarding-end-user-funds.pdf) expects funds to go into the safeguarding account on receipt. If processing constraints you can't avoid make that impossible, they must be in the account by the end of the next business day at the latest. In that case you must not use the funds for anything else, be able to explain the delay to the Bank, track the funds and tell end users when their funds might not be protected straight away. The Bank treats funds not safeguarded on receipt as a shortfall, so keep a record of them and report them in your annual report.
+
+### Trust account, insurance or guarantee
+
+Subsection 20(1) of the [RPAA](https://laws-lois.justice.gc.ca/eng/acts/R-7.36/FullText.html) sets out the ways to protect the funds. You can combine them, for example by holding part of the funds in trust and covering the rest with insurance, or by using more than one provider.
+
+| Aspect | In trust in a trust account | Segregated account with insurance or a guarantee |
+
+| How it protects funds | Funds are held in trust for end users | Coverage must equal or exceed the amount in the safeguarding account |
+
+| What the Bank expects | Legal advice that a valid express trust exists, and an agreement with the account provider saying the funds are held in trust | A provider prescribed by the regulations and not affiliated with you, with terms that keep the proceeds out of your estate, payable to end users as soon as feasible and in force after your insolvency |
+
+| Points to watch | Quebec arrangements follow the Civil Code; get advice before paying expenses out of the trust account | Monitor coverage so it never falls below the funds held; notify the Bank at least 30 days before a policy or guarantee is cancelled or ends |
+
+### The written safeguarding framework
+
+A PSP that holds end-user funds must establish, implement and maintain a written framework. The Bank's [safeguarding guideline](https://www.bankofcanada.ca/wp-content/uploads/2024/02/safeguarding-end-user-funds.pdf) sets out what it must contain at a minimum:
+
+- A ledger that records the funds you hold for each end user, with their name and contact details, and whether the funds are in the safeguarding account. It must be updated each day.
+
+- Your approach to meeting withdrawal and transfer requests. Funds can be held in cash or in secure and liquid assets, meaning assets that can be turned into cash quickly with little or no loss of value. The Bank's list includes guaranteed investment certificates, government securities and promissory notes rated at least A-, and commercial paper and corporate bonds rated at least AA-. It excludes residential mortgage-backed securities and common shares.
+
+- Procedures for returning funds to each end user if you become insolvent, written so that an insolvency professional could follow them using your records.
+
+- An analysis of the legal and operational risks that could stop the framework working, and how you reduce them.
+
+- A review at least once a year, after any change to how you safeguard funds, and after any change likely to have a material effect on it.
+
+Unless the PSP is an individual, the framework must name a senior officer responsible for overseeing safeguarding and for compliance with the requirements. The senior officer, and your board of directors if you have one, must approve the framework at least once a year. The senior officer also approves it after each material change.
+
+### Shortfalls and the three-year independent review
+
+Under the [Retail Payment Activities Regulations](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2023-229/FullText.html), you must take ongoing measures to find any shortfall, where the funds in trust or covered by insurance or a guarantee add up to less than the funds you hold. Fix a shortfall in a timely manner, investigate its root cause immediately and, as soon as feasible, take measures to stop it happening again. The Bank suggests checking for shortfalls daily as a best practice.
+
+At least once every three years, an independent review must check whether you comply with the safeguarding requirements. The reviewer can be inside or outside your business, but must be suitably skilled and must have had no role in setting up or running the framework or in finding shortfalls. Report the gaps it finds, and what you did about them, to your senior officer.
+
+### Using another PSP's account
+
+The Bank expects you to have a direct relationship with your safeguarding account provider. If you rely on another, unaffiliated PSP for access to an account at a financial institution, the Bank treats that as an indirect arrangement. It won't accept one as compliant unless you can show you've dealt with the trust law, Quebec Civil Code and insolvency problems it creates.
+
+### Where safeguarding shows up in your reporting
+
+Your annual report to the Bank includes information on your safeguarding practices if you hold end-user funds. It must also list each shortfall you found, with the amount, the root cause and the measures you took to prevent it recurring. A change expected to materially affect how you safeguard funds is a significant change, and you must notify the Bank at least five business days before you make it, according to its [supervisory framework](https://www.bankofcanada.ca/regulatory-oversight/retail-payments/supervisory-framework/). Our [RPAA compliance program](https://amlcanada.ca/rpaa-compliance-program.html) sets up the safeguarding framework with your risk management and incident response frameworks, and PSPs that still need to register can start with our [RPAA registration](https://amlcanada.ca/rpaa-registration.html) service.
+
+### Questions
+
+**Does every PSP have to safeguard funds under the RPAA?** No. Only PSPs that hold end-user funds at rest, available for later withdrawal or transfer. Funds received with an instruction to transfer them immediately aren't held.
+
+**Can a PSP use both a trust account and insurance?** Yes. The Bank says you can safeguard part of the funds in trust and protect the rest with insurance or a guarantee, and you can use more than one provider.
+
+**How quickly must funds go into the safeguarding account?** On receipt. If processing constraints you can't avoid make that impossible, by the end of the next business day at the latest, and you must tell end users when that can happen.
+
+**How often is the safeguarding framework reviewed?** You review it at least once a year and after any change to how you safeguard funds, and your senior officer, and your board if you have one, approve it at least once a year. An independent review of your compliance is also needed at least once every three years.
+
+**Is RPAA safeguarding the same as FINTRAC compliance?** No. Safeguarding is a Bank of Canada requirement under the RPAA. FINTRAC is a separate regulator, and the Bank's registration application asks for any registrations for retail payment activities you hold with FINTRAC.
+
+Sources: [Bank of Canada, Supervisory framework](https://www.bankofcanada.ca/regulatory-oversight/retail-payments/supervisory-framework/); [Bank of Canada, Guideline on safeguarding end-user funds (December 2024)](https://www.bankofcanada.ca/wp-content/uploads/2024/02/safeguarding-end-user-funds.pdf); [Bank of Canada, Safeguarding of end-user funds: At a glance](https://www.bankofcanada.ca/wp-content/uploads/2025/02/Safeguarding-of-end-user-funds-At-a-glance.pdf); [Bank of Canada, FAQ on safeguarding end-user funds](https://www.bankofcanada.ca/2026/08/frequently-asked-questions-about-retail-payments-supervision/#safeguarding); [Retail Payment Activities Act](https://laws-lois.justice.gc.ca/eng/acts/R-7.36/FullText.html); [Retail Payment Activities Regulations](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2023-229/FullText.html). Checked 16 October 2026.

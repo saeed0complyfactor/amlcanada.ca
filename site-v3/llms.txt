@@ -28,6 +28,8 @@
 - [Buying an MSB in Canada: what to check](https://amlcanada.ca/buying-an-msb-canada.html): Buying a company that's already registered with FINTRAC as a money services business needs the same care as any acquisition, plus checks specific to FINTRAC and, for payment businesses, the Bank of Canada.
 - [Outsourced or in-house compliance officer?](https://amlcanada.ca/outsourced-vs-in-house-compliance-officer.html): Every business FINTRAC regulates needs a compliance officer. You can appoint the owner or a manager, hire someone, or outsource the role, and FINTRAC's expectations are the same in each case.
 - [The first 90 days of AML compliance after FINTRAC registration](https://amlcanada.ca/first-90-days-aml-compliance-canada.html): Once a money services business in Canada is registered with FINTRAC, its obligations apply from the day it starts operating. This guide sets out a practical order for the first three months and the legal deadlines to put in your diary.
+- [FINTRAC compliance program requirements](https://amlcanada.ca/fintrac-compliance-program-requirements.html): Every business FINTRAC regulates must establish and implement a compliance program. It has five parts: a compliance officer, written policies and procedures, a risk assessment, an ongoing training program and plan, and a review of the program at least every two years.
+- [RPAA safeguarding of end-user funds](https://amlcanada.ca/rpaa-safeguarding-end-user-funds.html): Since September 8, 2025, a payment service provider that holds funds for its users must safeguard them, either in trust in a trust account or in a segregated account backed by insurance or a guarantee. It also needs a written safeguarding framework and an independent review at least every three years.
 
 ## About
 

@@ -157,7 +157,10 @@ ICON_LINKS = """  <link rel="icon" href="favicon.ico" sizes="48x48">
   <link rel="manifest" href="site.webmanifest">"""
 
 
-OG_ARTICLE = f'\n  <meta property="article:modified_time" content="{LASTMOD}">'
+def og_article(path):
+    """article:modified_time for a guide: its own date when that is newer than the site-wide LASTMOD."""
+    modified = max(GUIDES[path].get("date", PUBLISHED), LASTMOD)
+    return f'\n  <meta property="article:modified_time" content="{modified}">'
 
 
 def head(title, desc, path, robots=""):
@@ -171,7 +174,7 @@ def head(title, desc, path, robots=""):
   <link rel="canonical" href="https://amlcanada.ca/{path}">{robots}
   <meta property="og:title" content="{escape(title)}">
   <meta property="og:description" content="{escape(desc)}">
-  <meta property="og:type" content="{'article' if path in GUIDES else 'website'}">{OG_ARTICLE if path in GUIDES else ''}
+  <meta property="og:type" content="{'article' if path in GUIDES else 'website'}">{og_article(path) if path in GUIDES else ''}
   <meta property="og:url" content="https://amlcanada.ca/{path}">
   <meta property="og:site_name" content="AML Canada">
   <meta property="og:locale" content="en_CA">
@@ -538,7 +541,7 @@ def facts_strip(facts):
 """
 
 
-def guide(sections, sources):
+def guide(sections, sources, checked=CHECKED):
     toc = "\n".join(f'            <li><a href="#{sid}">{h}</a></li>' for sid, h, _ in sections)
     body = "\n".join(f"""          <section id="{sid}" class="legal-sec guide-sec">
             <h2>{h}</h2>
@@ -555,7 +558,7 @@ def guide(sections, sources):
         </nav>
         <article class="legal-body guide-body">
 {body}
-          <p class="sources">Sources: {src}. Checked {CHECKED}. General information, not legal advice.</p>
+          <p class="sources">Sources: {src}. Checked {checked}. General information, not legal advice.</p>
         </article>
       </div>
     </section>
@@ -923,7 +926,7 @@ def guide_page(file):
     return (head(g["title"], g["desc"], file) + nav(file) + '  <main id="main">\n'
             + hero
             + takeaways_box(g["takeaways"])
-            + guide(g["sections"], g["sources"])
+            + guide(g["sections"], g["sources"], g.get("checked", CHECKED))
             + service_cta(g["service"])
             + faq_block(g["faqs"], f'{g["crumb"]}: common questions')
             + guide_cards(g["related"])
@@ -1175,7 +1178,7 @@ Sitemap: https://amlcanada.ca/sitemap.xml
 
 
 def sitemap():
-    urls = "\n".join(f"  <url><loc>{SITE}{u}</loc><lastmod>{LASTMOD}</lastmod></url>" for u in INDEXED)
+    urls = "\n".join(f"  <url><loc>{SITE}{u}</loc><lastmod>{max(GUIDES[u].get('date', PUBLISHED), LASTMOD) if u in GUIDES else LASTMOD}</lastmod></url>" for u in INDEXED)
     return f'''<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 {urls}
@@ -1258,7 +1261,7 @@ def llms_full():
                    + "\n".join(f"- {t}" for t in g["takeaways"]) + "\n\n"
                    + "\n\n".join(f"### {h}\n\n{md(x)}" for _, h, x in g["sections"])
                    + "\n\n### Questions\n\n" + "\n\n".join(f"**{q}** {a}" for q, a in g["faqs"])
-                   + "\n\nSources: " + "; ".join(f"[{t}]({u})" for t, u in g["sources"]) + f". Checked {CHECKED}.\n")
+                   + "\n\nSources: " + "; ".join(f"[{t}]({u})" for t, u in g["sources"]) + f". Checked {g.get('checked', CHECKED)}.\n")
     return "".join(out)
 
 
