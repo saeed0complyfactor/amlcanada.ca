@@ -76,6 +76,7 @@ DEEP["outsourced-compliance-officer.html"] = dict(
     desc="An outsourced Canadian AML compliance officer (MLRO): onboarding reviews, FINTRAC reporting, policies and risk assessments. US$1,500 per 10 hours.",
     service_type="Outsourced AML compliance officer (MLRO)",
     offers=[("1500", "USD", "Block of 10 hours of outsourced compliance officer time")],
+    kicker="Outsourced AML compliance officer (MLRO) in Canada",
     h1="A Canadian compliance officer, without the full-time hire.",
     lede="An outsourced AML compliance officer, or MLRO, for businesses FINTRAC regulates. US$1,500 per 10 hours, scaled as you grow.",
     hero_price="US$1,500 · 10 hours",
@@ -345,6 +346,7 @@ DEEP["msb-for-sale.html"] = dict(
     desc="Buy a Canadian company already registered with FINTRAC as a money services business. Acquisitions from €28,000, with FINTRAC updates handled with you.",
     service_type="Acquisition of a FINTRAC-registered money services business",
     offers=[("28000", "EUR", "Registered Canadian MSB for acquisition, starting price")],
+    kicker="Registered MSB for sale in Canada",
     h1="A registered Canadian MSB, ready to take over.",
     lede="Acquire a Canadian company already registered with FINTRAC as a money services business. From €28,000.",
     hero_price="From €28,000",
@@ -421,7 +423,7 @@ DEEP["rpaa-registration.html"] = dict(
     service_type="Bank of Canada RPAA payment service provider registration",
     timing="Often 2 to 8 months (not guaranteed)",
     offers=[("3500", "USD", "RPAA PSP registration with the Bank of Canada, fixed fee (excludes the Bank's application fee)")],
-    h1="PSP registration with the Bank of Canada.",
+    h1="RPAA registration with the Bank of Canada.",
     lede="Retail Payment Activities Act (RPAA) registration for payment service providers. Fixed fee US$3,500, plus the Bank's application fee.",
     hero_price="Fixed fee · US$3,500",
     label="PSP · RPAA · Registered",
@@ -442,7 +444,7 @@ DEEP["rpaa-registration.html"] = dict(
                     "Support through the Bank's questions and any national security review",
                     "Coordination with your FINTRAC registration, where you need both"]),
     guide=[
-        ("who", "Does the RPAA apply to you?", """          <p>The Act covers businesses that perform payment functions for end users as a service or business activity, such as holding accounts or funds for end users, initiating, authorizing or transmitting electronic funds transfers, and providing clearing or settlement services. A PSP with a place of business in Canada is covered. A PSP outside Canada is covered when it directs retail payment activities at people or entities in Canada and performs them for end users in Canada (RPAA s.5).</p>
+        ("who", "Does the RPAA apply to you?", """          <p>The Act covers businesses that perform payment functions for end users as a service or business activity, such as holding accounts or funds for end users, initiating, authorizing or transmitting electronic funds transfers, and providing clearing or settlement services. A PSP with a place of business in Canada is covered. A PSP outside Canada is covered when it directs retail payment activities at people or entities in Canada and performs them for end users in Canada (RPAA s.5). Foreign firms often need FINTRAC registration as well; see our <a href="foreign-msb-registration-canada.html">foreign MSB registration guide</a>.</p>
           <p>Banks and some other institutions are excluded, and some activities fall outside the Act, so we confirm where you stand before preparing anything. Our <a href="rpaa-registration-guide.html">RPAA guide</a> explains the Act in more detail.</p>"""),
         ("fees", "What it costs", """          <p>Our fee is a fixed US$3,500. The Bank's one-time, non-refundable application fee was CA$2,500 when it was introduced in November 2024 and is indexed to inflation each January, so we confirm the current amount before you apply.</p>
           <p>The Bank also plans to charge registered PSPs annual assessment fees to recover its supervision costs. It isn't charging them yet and will start once the cost-recovery regulations are finalized.</p>"""),
@@ -480,6 +482,7 @@ DEEP["rpaa-compliance-program.html"] = dict(
     desc="RPAA frameworks for PSPs: governance, risk registers, incident response, third parties, safeguarding, cyber and continuity, annual reports. Fixed fee US$3,500.",
     service_type="RPAA compliance program and frameworks for payment service providers",
     offers=[("3500", "USD", "Compliance program for payment service providers, built to the Bank of Canada's RPAA requirements, fixed fee")],
+    kicker="RPAA compliance program for payment service providers",
     h1="RPAA frameworks built around your payment flows.",
     lede="Risk management, incident response and safeguarding frameworks for payment service providers. Fixed fee US$3,500.",
     hero_price="Fixed fee · US$3,500",
@@ -528,10 +531,12 @@ DEEP["rpaa-compliance-program.html"] = dict(
 # ------------------------------------------------------------------ effectiveness reviews (scoped)
 DEEP["effectiveness-reviews.html"] = dict(
     name="Effectiveness reviews",
-    title="FINTRAC Effectiveness Review (Two-Year) | AML Canada",
-    desc="The AML effectiveness review FINTRAC requires at least every two years: your policies, risk assessment and training tested, with written findings.",
+    modified="2026-10-18",
+    title="FINTRAC Effectiveness Review & AML Audit (Two-Year) | AML Canada",
+    desc="The FINTRAC two-year effectiveness review, often called an AML audit: your policies, risk assessment and training tested, with written findings.",
     service_type="Compliance program effectiveness review",
     offers=[],
+    kicker="FINTRAC two-year effectiveness review and AML audit",
     h1="Find the gaps before an examiner does.",
     lede="The two-year effectiveness review FINTRAC requires, and preparation for a FINTRAC examination.",
     hero_price="Scoped to your business",
@@ -552,14 +557,39 @@ DEEP["effectiveness-reviews.html"] = dict(
                     "Written findings and recommendations, in order of priority",
                     "Help preparing records and your team for an examination"]),
     guide=[
-        ("how-often", "How often is an effectiveness review required?", """          <p>At least every two years. FINTRAC requires every reporting entity to review the effectiveness of its compliance program, covering its policies and procedures, risk assessment and training program, at a minimum once every two years. The review looks at how the program runs day to day as well as what the documents say.</p>"""),
-        ("who-reviews", "Who can carry out the review", """          <p>FINTRAC's guidance says the review is carried out by an internal or external auditor or, if the business has no auditor, by the business itself. Whoever does it should know the requirements of the PCMLTFA and its regulations. An external review gives you independence and a fresh view.</p>"""),
-        ("tests", "What a review tests", """          <ul>
-            <li>whether your policies and procedures reflect current requirements and your current business;</li>
-            <li>whether your risk assessment covers your clients, products, channels and geography, including sanctions evasion risk, and whether your controls follow from it;</li>
-            <li>whether training happened, reached the right people and matches your risks;</li>
-            <li>samples of client files, monitoring and reports to FINTRAC, to see how the program runs.</li>
+        ("audit", "Effectiveness review or AML audit?", """          <p>They are usually the same thing. Businesses and banks often call it an AML audit or an independent AML review. FINTRAC's term is the <strong>two-year effectiveness review</strong>: an evaluation that tests whether your compliance program works, and whether it has gaps or weaknesses that could stop you detecting and preventing money laundering, terrorist financing and sanctions evasion.</p>"""),
+        ("how-often", "How often is an effectiveness review required?", """          <p>At least every two years. FINTRAC requires every reporting entity to review the effectiveness of its compliance program, covering its policies and procedures, risk assessment and ongoing training program and plan, at a minimum once every two years. The review looks at how the program runs day to day as well as what the documents say.</p>
+          <p>The timing rule is stricter than many people expect. FINTRAC's guidance says you must start each review no later than 24 months from the <em>start</em> of your previous review, and you must have completed the previous review before you start the next one.</p>"""),
+        ("plan", "The review plan you need to document", """          <p>FINTRAC requires you to institute and document a plan for the review, not just carry it out. The plan must include every element of your compliance program, and FINTRAC expects it to set out:</p>
+          <ul>
+            <li>the scope of the review, and the reasons behind the areas you focus on;</li>
+            <li>the time period the review covers;</li>
+            <li>the evaluation methods you expect to use, such as staff interviews, record sampling and document review;</li>
+            <li>the sample sizes.</li>
+          </ul>
+          <p>How deep the review goes on each element can vary with the complexity of your business, your transaction volumes, the findings of earlier reviews and your current money laundering, terrorist financing and sanctions evasion risks.</p>"""),
+        ("who-reviews", "Who can carry out the review", """          <p>FINTRAC's guidance says the review is carried out, and its results documented, by an internal or external auditor or, if the business has no auditor, by the business itself. Whoever does it should know the requirements of the PCMLTFA and its regulations. As a best practice, FINTRAC says the reviewer should not be someone directly involved in your compliance program, so the review stays impartial. An external review gives you that independence. Whoever carries it out, making sure it happens on time remains your responsibility.</p>"""),
+        ("tests", "What a review tests", """          <p>A review checks whether what your team does matches what your documents say, and whether you meet the PCMLTFA. The examples in FINTRAC's guidance include:</p>
+          <ul>
+            <li>interviews with staff who handle transactions, to test their knowledge of your policies on client identification, record keeping and reporting;</li>
+            <li>a sample of client records, to see whether identification procedures were followed and the risk assessment was applied;</li>
+            <li>whether ongoing monitoring happens as often as each client's risk level requires, and whether high-risk clients received enhanced measures;</li>
+            <li>a review of transactions, to see whether suspicious transactions were reported to FINTRAC;</li>
+            <li>whether large cash transactions and electronic funds transfers were reported accurately and on time;</li>
+            <li>agreements with agents or mandataries, and a sample of the information they used to verify identity;</li>
+            <li>whether your risk assessment reflects your current operations, including clients, products, delivery channels, new technology and geography;</li>
+            <li>whether your policies and procedures are up to date with current law and your business practices.</li>
           </ul>"""),
+        ("report", "Documenting the results and reporting to a senior officer", """          <p>FINTRAC says the review should record the date it was done, the period it covered, who performed it, the results of the tests, and the conclusions, including any deficiencies, recommendations and action plans.</p>
+          <p>If you are an entity, you must also report in writing to a senior officer within 30 days of completing the review. The report covers the review's findings, any updates made to your policies and procedures during the period that were not made because of the review, and the status of implementing those updates.</p>"""),
+        ("how-we-run-it", "How we run a review", """          <ol>
+            <li><strong>Scoping call.</strong> We learn your products, clients, volumes and earlier findings, and agree the scope in writing.</li>
+            <li><strong>Written review plan.</strong> Scope, rationale, review period, methods and sample sizes, as FINTRAC expects.</li>
+            <li><strong>Document review.</strong> Your policies and procedures, risk assessment, and training program and plan.</li>
+            <li><strong>Interviews and sampling.</strong> We talk to the people who do the work and test samples of client files, monitoring and reports.</li>
+            <li><strong>Findings.</strong> A written report with deficiencies, recommendations and an action plan, in order of priority, ready for the 30-day report to your senior officer.</li>
+          </ol>
+          <p>Our <a href="fintrac-effectiveness-review-checklist.html">effectiveness review checklist</a> lists what to gather before a review starts.</p>"""),
         ("vs-exam", "Effectiveness review or FINTRAC examination?", """          <p>An effectiveness review is your own check of your program. A FINTRAC examination is FINTRAC's assessment of your compliance. A recent, honest review, with its findings being fixed, is one of the best ways to prepare for an examination.</p>"""),
     ],
     sources=[("FINTRAC, Compliance program requirements", F_G4)],
@@ -568,7 +598,9 @@ DEEP["effectiveness-reviews.html"] = dict(
                ("Businesses expecting an examination", "Getting ready before FINTRAC arrives."),
                ("New compliance officers", "Taking stock of a program they've inherited.")],
     arts=["review", "scan", "programme"],
-    faqs=[("How often is an AML effectiveness review required in Canada?", "At least every two years, covering your policies and procedures, risk assessment and training program."),
+    faqs=[("Is an AML audit the same as a FINTRAC effectiveness review?", "Usually, yes. AML audit is the common name; FINTRAC calls it the two-year effectiveness review. It tests your policies and procedures, risk assessment, and training program and plan."),
+          ("How often is an AML effectiveness review required in Canada?", "At least every two years. Each review must start no later than 24 months from the start of the previous one, and the previous review must be finished first."),
+          ("Who receives the results?", "If you are an entity, you must report the findings in writing to a senior officer within 30 days of completing the review."),
           ("Can we do the review ourselves?", "FINTRAC's guidance allows a self-review if you have no internal or external auditor, provided whoever does it knows the requirements. An external review adds independence."),
           ("What do we receive?", "Written findings and recommendations, in order of priority, so you know what to fix first."),
           ("FINTRAC has contacted us about an examination. Where do we start?", "Book a consultation. We review your program and records with you and help you prepare to show how it works.")],

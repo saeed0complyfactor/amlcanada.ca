@@ -743,3 +743,6 @@ details p { padding: 0 48px 26px 0; max-width: 62ch; color: var(--ink-2); }
   .clients-row { gap: 24px 36px; }
   .clients-row img { transform: scale(0.88); transform-origin: left center; }
 }
+
+/* Keyword H1 shown as a small kicker above the display tagline */
+.beat h1.hero-kicker, .page-hero h1.hero-kicker { font: 500 clamp(13px, 1.05vw, 15px)/1.45 var(--mono); letter-spacing: 0.06em; text-transform: uppercase; color: var(--amber); max-width: 46ch; margin: 0 0 18px; text-shadow: 0 1px 14px rgba(0, 0, 0, 0.75); }

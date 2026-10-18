@@ -11,7 +11,7 @@
 - [MSB for sale](https://amlcanada.ca/msb-for-sale.html): Buy a Canadian company already registered with FINTRAC as a money services business. Acquisitions from €28,000, with FINTRAC updates handled with you.
 - [RPAA registration](https://amlcanada.ca/rpaa-registration.html): Register as a payment service provider (PSP) with the Bank of Canada under the RPAA. Fixed fee US$3,500, plus the Bank's own application fee.
 - [RPAA compliance program](https://amlcanada.ca/rpaa-compliance-program.html): RPAA frameworks for PSPs: governance, risk registers, incident response, third parties, safeguarding, cyber and continuity, annual reports. Fixed fee US$3,500.
-- [Effectiveness reviews](https://amlcanada.ca/effectiveness-reviews.html): The AML effectiveness review FINTRAC requires at least every two years: your policies, risk assessment and training tested, with written findings.
+- [Effectiveness reviews](https://amlcanada.ca/effectiveness-reviews.html): The FINTRAC two-year effectiveness review, often called an AML audit: your policies, risk assessment and training tested, with written findings.
 - [Training](https://amlcanada.ca/training.html): Anti-money laundering training for MSB front-line staff, compliance teams and senior management, built to meet FINTRAC's training requirement.
 - [Company incorporation](https://amlcanada.ca/incorporation-canada.html): Incorporate a Canadian company, federally or in Ontario, usually within 24 hours. Fixed fee US$1,500, ready for FINTRAC or RPAA registration.
 

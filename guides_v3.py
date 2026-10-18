@@ -141,22 +141,36 @@ GUIDES["msb-registration-cost-canada.html"] = dict(
 # ------------------------------------------------------------------ 3. foreign MSB
 GUIDES["foreign-msb-registration-canada.html"] = dict(
     title="Foreign MSB Registration in Canada (FMSB) | AML Canada",
-    desc="When a business outside Canada must register with FINTRAC as a foreign MSB, what 'directing and providing' means, and what FMSBs need in Canada.",
+    desc="When a business outside Canada, including EU, UK and UAE payment firms, must register with FINTRAC as a foreign MSB, and when RPAA registration applies too.",
     crumb="Foreign MSB registration",
-    also=["canadian-address.html"],
+    modified="2026-10-18",
+    checked="18 October 2026",
+    also=["canadian-address.html", "rpaa-registration.html"],
     h1="Foreign MSB registration in Canada",
     lede="A business with no office in Canada may still have to register with FINTRAC. It does if it directs and provides money services to people or entities in Canada.",
     label="Guide · Foreign MSB",
     service="msb-registration.html",
-    takeaways=["Foreign MSBs that direct and provide services to Canada must register first.",
+    takeaways=["A licence from your home country doesn't cover serving people in Canada.",
+               "Foreign MSBs that direct and provide services to Canada must register first.",
                "Marketing to Canadians, a .ca domain or Canadian listings can count.",
                "You need a representative for service who lives in Canada.",
-               "The foreign business stays responsible for its obligations."],
+               "Foreign payment service providers may need Bank of Canada RPAA registration too."],
     sections=[
         ("what-is", "What is a foreign MSB?", f"""          <p>A foreign money services business (FMSB) has no place of business in Canada but directs and provides money services to people or entities in Canada. The money services are the same ones that apply to Canadian MSBs:</p>
           {MSB_ACTIVITIES}
           <p>A foreign MSB must register with FINTRAC before it starts providing these services to Canada. A business with a place of business in Canada, such as a physical location, is a domestic MSB under <a href="{F_MSB}" rel="noopener">FINTRAC's definitions</a>, and registers as one. Our <a href="how-to-register-msb-canada.html">guide to registering an MSB</a> covers the steps for both.</p>"""),
         ("directing", "What counts as directing services at Canada", """          <p>FINTRAC looks at whether your business targets people in Canada. Examples it gives include marketing aimed at people in Canada, operating a .ca domain name, and being listed in a Canadian business directory. If your website, ads or partnerships are built to attract Canadian customers, assume you're in scope and get it confirmed.</p>"""),
+        ("home-licence", "Licensed in the EU, UK or UAE? That doesn't cover Canada", """          <p>Payment and e-money firms licensed in Lithuania, Cyprus or elsewhere in the EU, firms authorized in the UK, and firms licensed in the UAE often look at Canada next. Their existing licence or registration doesn't carry over. Whether you must register with FINTRAC depends on what you do for people in Canada: if you direct and provide money services to people or entities in Canada, you register as a foreign MSB, whatever licences you hold elsewhere.</p>
+          <p>Your home-country AML program is a useful starting point, but it won't map onto Canadian requirements on its own. FINTRAC's reporting types, thresholds, record-keeping rules and the <a href="how-to-register-msb-canada.html">registration process</a> are Canadian. Plan to adapt your policies and procedures, risk assessment and training to the PCMLTFA before you start serving Canadian clients.</p>"""),
+        ("psp", "Payment service providers: RPAA registration too", f"""          <p>FINTRAC registration isn't the only federal regime. The Retail Payment Activities Act (RPAA), supervised by the Bank of Canada, covers payment service providers that perform payment functions for end users, such as holding funds, initiating or transmitting electronic funds transfers, or providing clearing and settlement. A PSP outside Canada is covered when it directs retail payment activities at people or entities in Canada and performs them for end users in Canada (RPAA s.5).</p>
+          <p>A foreign payment firm can therefore need both: foreign MSB registration with FINTRAC and PSP registration with the Bank of Canada. Our <a href="rpaa-registration-guide.html">guide to the RPAA</a> explains who it applies to, and our <a href="rpaa-registration.html">RPAA registration service</a> covers the application. See the <a href="{B_RPS}" rel="noopener">Bank of Canada's retail payments supervision pages</a> for the source.</p>"""),
+        ("route", "Register as a foreign MSB, or set up in Canada?", """          <p>The route follows where your business will operate:</p>
+          <ul>
+            <li><strong>No place of business in Canada.</strong> You serve Canadian clients from abroad and register with FINTRAC as a foreign MSB, with a representative for service in Canada.</li>
+            <li><strong>A place of business in Canada.</strong> If you'll have a physical location in Canada, you're a domestic MSB under FINTRAC's definitions. Most firms in this position <a href="incorporation-canada.html">incorporate a Canadian company</a> and register it.</li>
+            <li><strong>Acquiring a registered company.</strong> Some buyers take over a Canadian company that is already registered with FINTRAC. That is a corporate acquisition, and the target needs proper due diligence. See our guide to <a href="buying-an-msb-canada.html">buying an MSB in Canada</a>.</li>
+          </ul>
+          <p>Choosing the wrong route is expensive to unwind, so confirm it before you file. We can help in a <a href="contact.html">consultation</a>.</p>"""),
         ("representative", "Your representative for service in Canada", f"""          <p>A foreign MSB must name a representative for service who resides in Canada and is authorized to accept notices from FINTRAC on its behalf. The representative doesn't take over your obligations. The foreign business itself stays responsible for complying with Canada's anti-money laundering law.</p>
           <p>If the representative's name or address for service changes, you must tell FINTRAC within 30 days. If you don't, FINTRAC must deny the application or revoke the registration (<a href="{L_PCMLTFA}" rel="noopener">PCMLTFA subsection 11.13(2)</a>).</p>
           <p>The representative is a person. Having a Canadian business address is a separate matter from the representative requirement. Some foreign MSBs want one for banking, partners or customers. We offer a <a href="canadian-address.html">Canadian business address</a>, and you can ask us about the representative requirement in your consultation.</p>"""),
@@ -165,12 +179,15 @@ GUIDES["foreign-msb-registration-canada.html"] = dict(
         ("checks", "Criminal record checks from abroad", """          <p>FINTRAC needs criminal record checks for the CEO, president, directors and anyone owning or controlling 20% or more, issued in each person's country of residence within six months before you apply. Checks that aren't in English or French need a translation attested by a certified translator. For international ownership, this is usually the longest step.</p>"""),
     ],
     faqs=[("Do foreign companies need to register with FINTRAC?", "Yes, if they direct and provide money services to people or entities in Canada. They register as foreign MSBs before they start."),
+          ("Does an EU, UK or UAE licence let us serve Canadian clients?", "No. Registration with FINTRAC depends on what you do for people in Canada, not on licences held elsewhere. If you direct and provide money services to people in Canada, you register as a foreign MSB."),
+          ("Do foreign payment companies also need Bank of Canada registration?", "Often, yes. A payment service provider outside Canada is covered by the RPAA when it directs retail payment activities at people or entities in Canada and performs them for end users in Canada. Many need both FINTRAC and Bank of Canada registration."),
           ("Does a foreign MSB need a Canadian address?", "FINTRAC requires a representative for service who resides in Canada. A Canadian business address is a separate thing that some foreign MSBs also want for banking, partners and customers."),
           ("What if our representative for service changes?", "Tell FINTRAC within 30 days. If the new name or address isn't provided in time, FINTRAC must deny the application or revoke the registration."),
           ("Can a foreign MSB outsource its compliance officer?", "Many do. The foreign business stays responsible for its obligations, but an experienced compliance officer in Canada can carry the day-to-day work.")],
     sources=[("FINTRAC, Money services businesses", F_MSB), ("Register your MSB or FMSB", F_REG), ("Travel rule", F_TRAVEL), ("Update, renew or cancel your registration", F_UPD),
+             ("Bank of Canada, Retail payments supervision", B_RPS),
              ("Proceeds of Crime (Money Laundering) and Terrorist Financing Act", L_PCMLTFA)],
-    related=["how-to-register-msb-canada.html", "crypto-registration-canada.html", "outsourced-vs-in-house-compliance-officer.html"],
+    related=["how-to-register-msb-canada.html", "rpaa-registration-guide.html", "buying-an-msb-canada.html"],
 )
 
 # ------------------------------------------------------------------ 4. reporting

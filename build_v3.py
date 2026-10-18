@@ -128,7 +128,7 @@ def jsonld(path):
             trail += [("Guides", SITE + "guides.html"), (g["crumb"], url)]
             graph.append({"@type": "Article", "@id": url + "#article", "headline": g["h1"], "description": g["desc"],
                           "url": url, "mainEntityOfPage": url, "image": SITE + "og-default.png", "inLanguage": "en-CA",
-                          "datePublished": g.get("date", PUBLISHED), "dateModified": max(g.get("date", PUBLISHED), LASTMOD),
+                          "datePublished": g.get("date", PUBLISHED), "dateModified": max(g.get("modified", g.get("date", PUBLISHED)), LASTMOD),
                           "author": {"@id": ORG_ID}, "publisher": {"@id": ORG_ID},
                           "about": {"@id": SITE + g["service"] + "#service"} if g["service"] in SCHEMA_SERVICES else None})
             if graph[-1]["about"] is None:
@@ -159,7 +159,7 @@ ICON_LINKS = """  <link rel="icon" href="favicon.ico" sizes="48x48">
 
 def og_article(path):
     """article:modified_time for a guide: its own date when that is newer than the site-wide LASTMOD."""
-    modified = max(GUIDES[path].get("date", PUBLISHED), LASTMOD)
+    modified = max(GUIDES[path].get("modified", GUIDES[path].get("date", PUBLISHED)), LASTMOD)
     return f'\n  <meta property="article:modified_time" content="{modified}">'
 
 
@@ -391,20 +391,23 @@ def footer():
 """
 
 
-def page_hero(crumbs, title, lede, label, flag=False, actions=True, need="", price=""):
+def page_hero(crumbs, title, lede, label, flag=False, actions=True, need="", price="", kicker=""):
     crumb_html = "".join(f'<a href="{h}">{t}</a><span aria-hidden="true">/</span>' for h, t in crumbs)
     act = f"""
           <div class="hero-actions">
             <a class="btn btn-amber" href="contact.html{'?need=' + need if need else ''}">Book a consultation {arrow()}</a>
             <a class="link-dark" href="#start">Read on</a>{f'{chr(10)}            <span class="hero-price">{price}</span>' if price else ""}
           </div>""" if actions else ""
+    # With a kicker, the keyword phrase is the H1 and the display tagline becomes a styled paragraph.
+    head_html = (f'<h1 id="page-title" class="hero-kicker">{kicker}</h1>\n        <p class="page-headline">{lede[0]}</p>'
+                 if kicker else f'<h1 id="page-title">{lede[0]}</h1>')
     return f"""    <section class="page-hero" data-theme="dark" aria-labelledby="page-title">
       <canvas class="page-canvas" aria-hidden="true" data-page-canvas data-label="{escape(label)}"{' data-flag' if flag else ''}></canvas>
       <div class="page-boxes" aria-hidden="true" data-page-boxes></div>
       <div class="page-shade" aria-hidden="true"></div>
       <div class="wrap page-hero-inner">
         <nav class="crumbs" aria-label="Breadcrumb"><a href="./">Home</a><span aria-hidden="true">/</span>{crumb_html}<span aria-current="page">{escape(title)}</span></nav>
-        <h1 id="page-title">{lede[0]}</h1>
+        {head_html}
         <p class="page-lede">{lede[1]}</p>{act}
       </div>
     </section>
@@ -594,7 +597,7 @@ def deep_page(file):
     d = DEEP[file]
     return (head(d["title"], d["desc"], file) + nav(file) + '  <main id="main">\n'
             + page_hero([("services.html", "Services")], d["name"], (d["h1"], d["lede"]), d["label"], d.get("flag", False),
-                        need=d["need"], price=d["hero_price"])
+                        need=d["need"], price=d["hero_price"], kicker=d.get("kicker", ""))
             + intro(*d["intro"])
             + fee_band(d["fee"], d["need"])
             + facts_strip(d["facts"])
@@ -920,7 +923,7 @@ def nice_date(iso):
 def guide_page(file):
     g = GUIDES[file]
     kind = "Update" if g.get("kind") == "update" else "Guide"
-    meta = f'{kind} · {"Published " + nice_date(g["date"]) if g.get("date") else "Updated " + UPDATED} · {read_minutes(g)} min read · AML Canada'
+    meta = f'{kind} · {"Published " + nice_date(g["date"]) if g.get("date") else "Updated " + (nice_date(g["modified"]) if g.get("modified") else UPDATED)} · {read_minutes(g)} min read · AML Canada'
     hero = page_hero([("guides.html", "Guides")], g["crumb"], (g["h1"], g["lede"]), g["label"], actions=False)
     hero = hero.replace('<p class="page-lede">', f'<p class="guide-meta">{meta}</p>\n        <p class="page-lede">', 1)
     return (head(g["title"], g["desc"], file) + nav(file) + '  <main id="main">\n'
@@ -1178,7 +1181,7 @@ Sitemap: https://amlcanada.ca/sitemap.xml
 
 
 def sitemap():
-    urls = "\n".join(f"  <url><loc>{SITE}{u}</loc><lastmod>{max(GUIDES[u].get('date', PUBLISHED), LASTMOD) if u in GUIDES else LASTMOD}</lastmod></url>" for u in INDEXED)
+    urls = "\n".join(f"  <url><loc>{SITE}{u}</loc><lastmod>{max(GUIDES[u].get('modified', GUIDES[u].get('date', PUBLISHED)), LASTMOD) if u in GUIDES else max(DEEP[u].get('modified', LASTMOD), LASTMOD) if u in DEEP else LASTMOD}</lastmod></url>" for u in INDEXED)
     return f'''<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 {urls}
