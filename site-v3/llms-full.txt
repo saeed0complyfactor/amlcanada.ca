@@ -792,6 +792,114 @@ Sources: [Corporations Canada, Services, fees and processing times](https://ised
 
 ---
 
+## Apostille & notarization
+
+URL: https://amlcanada.ca/apostille-notarization-canada.html
+
+We coordinate notarization by a licensed Ontario partner notary and the apostille, for corporate documents going to foreign banks, payment partners and regulators.
+
+**Fee:** Quote (per document set · plus government fees). Depends on how many documents you need, whether each needs notarization and which authority issues the apostille. Government fees are separate: in Ontario, CA$16 per notarized document and CA$32 per Ontario government document. Global Affairs Canada charges no fee.
+
+**Included:**
+- A check of what the receiving bank, partner or regulator has asked for
+- Review of each document and how it must be prepared
+- Notarization by our licensed Ontario partner notary, where needed
+- Submission to the correct competent authority
+- Apostilled documents couriered back to you
+- Updates until your documents are back
+
+### What an apostille is
+
+Authentication confirms that the signature and seal of a public official on a document are genuine, so the document can be recognized in another country. An apostille is a type of authentication certificate accepted by every country that is a member of the Apostille Convention, according to the [Global Affairs Canada glossary](https://international.canada.ca/en/global-affairs/services/document-authentication/glossary). Global Affairs Canada issues it as a separate page that it securely attaches to your document.
+
+An apostille confirms where a document came from. It doesn't confirm what the document says. Ontario's [Official Documents Services](https://www.ontario.ca/page/authenticate-document-use-outside-canada) checks signatures and seals against its records and doesn't validate the contents.
+
+### Canada and the Apostille Convention
+
+Canada acceded to the Hague Apostille Convention on May 12, 2023, and the Convention entered into force for Canada on **January 11, 2024**, according to the [Hague Conference status table](https://www.hcch.net/en/instruments/conventions/status-table/?cid=41). The table listed 130 contracting parties when we checked it. For documents going to a member country, the apostille replaces legalization at that country's embassy or consulate.
+
+Whether a document needs authentication at all is set by the law of the destination country. Canadian law doesn't require it, so start with the receiving bank, partner or regulator.
+
+### Who issues the apostille
+
+Canada has six authorities that issue apostilles. The [Global Affairs Canada requirements](https://international.canada.ca/en/global-affairs/services/document-authentication/requirements) set out who handles what:
+
+- **Global Affairs Canada**: documents issued by the Government of Canada, such as Corporations Canada documents, and documents issued or notarized in Manitoba, New Brunswick, Newfoundland and Labrador, the Northwest Territories, Nova Scotia, Nunavut, Prince Edward Island or Yukon.
+
+- **Alberta, British Columbia, Ontario, Quebec and Saskatchewan**: documents issued in their own province.
+
+A document notarized in Alberta, Ontario or Saskatchewan goes to that province, wherever it was originally issued. British Columbia and Quebec authenticate a notarized document only if the original was issued in their province. In practice, a copy of a federal certificate notarized by an Ontario notary goes to Ontario's Official Documents Services, not to Global Affairs Canada.
+
+### When a document must be notarized first
+
+Some government documents can be apostilled directly. Most private and corporate records can't. The Global Affairs Canada [document eligibility tool](https://apostille-gac.powerappsportals.com/en/search-document/) says:
+
+- a Corporations Canada certificate of incorporation with an original signature or seal doesn't need notarizing, but one without an original signature or seal does;
+
+- certificates of compliance and existence, articles of incorporation, business registration documents, corporate bylaws and other business or corporate records must be notarized;
+
+- powers of attorney, as private legal documents, must be notarized.
+
+Ontario's [Official Documents Services](https://www.ontario.ca/page/authenticate-document-use-outside-canada) accepts business registry documents issued since 1991 by the Business and Personal Property Branch or the Ontario Business Registry without notarization. It won't accept documents commissioned by a commissioner for taking affidavits, or electronic copies.
+
+In Ontario, a notary must be physically present with the person when notarizing. The [Ministry of the Attorney General](https://www.ontario.ca/page/information-notaries-public-ontario) says remote notarization isn't permitted under the Notaries Act, and Official Documents Services won't authenticate or apostille documents notarized remotely. Our partner notary works in person.
+
+### Countries that are not part of the Convention
+
+For a country outside the Convention, the document may need to be legalized at that country's embassy, high commission or consulate after it has been authenticated in Canada, according to [Global Affairs Canada](https://international.canada.ca/en/global-affairs/services/document-authentication/requirements). Ontario issues a certificate of authentication instead of an apostille for those countries. Global Affairs Canada also notes that some countries accept only its own authentication, so check with the destination country's mission before choosing a route.
+
+### Government fees and processing times
+
+These are the fees and times each authority published when we checked on October 21, 2026. They change, so we confirm them again before we submit.
+
+| Authority | Government fee | Published processing time |
+
+| Global Affairs Canada | Free | Processing requests received 25 business days earlier, plus mailing time. No expedited service. |
+
+| Ontario | CA$16 per notarized document; CA$32 per Ontario government document | Mail-in within 15 business days; about 30 minutes in person if the documents are complete |
+
+| British Columbia | CA$20 per document | 2 to 4 weeks, not including mail time |
+
+| Alberta | CA$25 per document | At least 7 to 10 business days |
+
+| Saskatchewan | CA$50 per certificate, signatory or package | Typically 4 to 7 business days, not including mail time |
+
+| Quebec | CA$66.50 per document | Varies with volume; Quebec posts the date of the requests it is processing |
+
+Government fees are paid on top of our quote. We don't promise a turnaround, because each authority sets its own processing times.
+
+### How we handle your documents
+
+- **Consultation.** Which documents you need, which country they're going to and what the receiving party has asked for.
+
+- **Document check.** We confirm whether each document can be apostilled directly or needs notarization first, and which authority issues it. If you need a fresh certificate of status or certified copies, we tell you what to order.
+
+- **Notarization.** Our licensed Ontario partner notary notarizes the documents that need it, in person.
+
+- **Apostille submission.** We submit each document to the correct competent authority with the government fee.
+
+- **Return.** Once the apostilles are issued, we courier the documents back to you.
+
+Our guides explain [how to get an apostille in Canada](https://amlcanada.ca/apostille-canada-guide.html) and [which corporate documents foreign banks and regulators ask for](https://amlcanada.ca/apostille-corporate-documents-canada.html).
+
+### Questions
+
+**What is an apostille?** A certificate that confirms the signature and seal of the official on a Canadian public document are genuine, so the document is accepted in other countries that belong to the Apostille Convention. It doesn't confirm the document's contents.
+
+**When did Canada join the Apostille Convention?** Canada acceded on May 12, 2023, and the Convention entered into force for Canada on January 11, 2024.
+
+**Can a Corporations Canada certificate be apostilled without notarization?** A certificate of incorporation with an original signature or seal can go to Global Affairs Canada directly. Global Affairs Canada says other business and corporate records, including certificates of compliance and existence and articles, must be notarized.
+
+**Is AML Canada a notary?** No. We coordinate the process. Notarization is done by a licensed notary public in Ontario who we work with.
+
+**Can documents be notarized remotely?** No. Ontario's Notaries Act doesn't permit remote notarization, and Ontario won't apostille a document notarized remotely.
+
+**How much does an apostille cost?** Our fee is quoted per document set. Government fees are separate: Global Affairs Canada charges nothing, and Ontario charges CA$16 per notarized document and CA$32 per Ontario government document.
+
+Sources: [Global Affairs Canada, Authentication of documents](https://international.canada.ca/en/global-affairs/services/document-authentication); [Requirements](https://international.canada.ca/en/global-affairs/services/document-authentication/requirements); [Frequently asked questions](https://international.canada.ca/en/global-affairs/services/document-authentication/faq); [Glossary](https://international.canada.ca/en/global-affairs/services/document-authentication/glossary); [Global Affairs Canada, document eligibility tool](https://apostille-gac.powerappsportals.com/en/search-document/); [HCCH, Apostille Convention status table](https://www.hcch.net/en/instruments/conventions/status-table/?cid=41); [Ontario, Authenticate a document for use outside Canada](https://www.ontario.ca/page/authenticate-document-use-outside-canada); [Ontario, Information for notaries public](https://www.ontario.ca/page/information-notaries-public-ontario); [British Columbia, Document authentication fee](https://www2.gov.bc.ca/gov/content/governments/government-id/guide-to-the-authentication-of-documents/fees); [Alberta, Documents for other jurisdictions or countries](https://www.alberta.ca/document-authentication-other-jurisdictions-countries); [Saskatchewan, Authenticating notarized documents](https://www.saskatchewan.ca/government/notarized-documents-legislation-maps/authenticating-notarized-documents); [Quebec, About apostille](https://www.quebec.ca/en/justice-and-civil-status/services/apostille/about); [Quebec, Applying for an apostille](https://www.quebec.ca/en/justice-and-civil-status/services/apostille/applying). Checked 11 October 2026.
+
+---
+
 ## Guide: How to register an MSB in Canada
 
 URL: https://amlcanada.ca/how-to-register-msb-canada.html
@@ -1948,3 +2056,1053 @@ Your annual report to the Bank includes information on your safeguarding practic
 **Is RPAA safeguarding the same as FINTRAC compliance?** No. Safeguarding is a Bank of Canada requirement under the RPAA. FINTRAC is a separate regulator, and the Bank's registration application asks for any registrations for retail payment activities you hold with FINTRAC.
 
 Sources: [Bank of Canada, Supervisory framework](https://www.bankofcanada.ca/regulatory-oversight/retail-payments/supervisory-framework/); [Bank of Canada, Guideline on safeguarding end-user funds (December 2024)](https://www.bankofcanada.ca/wp-content/uploads/2024/02/safeguarding-end-user-funds.pdf); [Bank of Canada, Safeguarding of end-user funds: At a glance](https://www.bankofcanada.ca/wp-content/uploads/2025/02/Safeguarding-of-end-user-funds-At-a-glance.pdf); [Bank of Canada, FAQ on safeguarding end-user funds](https://www.bankofcanada.ca/2026/08/frequently-asked-questions-about-retail-payments-supervision/#safeguarding); [Retail Payment Activities Act](https://laws-lois.justice.gc.ca/eng/acts/R-7.36/FullText.html); [Retail Payment Activities Regulations](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2023-229/FullText.html). Checked 16 October 2026.
+
+---
+
+## Guide: Can you use a virtual office for FINTRAC MSB registration?
+
+URL: https://amlcanada.ca/virtual-office-msb-registration.html
+
+FINTRAC's published guidance doesn't say whether a virtual office is acceptable. It does say what counts as a place of business in Canada, what the registration asks about your addresses, and that FINTRAC can check the information you give it.
+
+**Key points:**
+- FINTRAC's guidance doesn't address virtual offices, so no address type is pre-approved or ruled out.
+- A physical location, Canadian incorporation, or staff, agents or branches in Canada make you a domestic MSB.
+- Your place of business address is published on FINTRAC's public MSB registry.
+- A foreign MSB needs a representative for service who resides in Canada. An address can't fill that role.
+
+### The short answer
+
+We checked FINTRAC's pages on registering, on who is a money services business (MSB), on updating a registration and on the public registry. None of them mentions virtual offices, mail-forwarding addresses or shared workspaces. FINTRAC doesn't publish a list of acceptable address types, and it doesn't certify addresses.
+
+So the useful question is narrower: does the address you give FINTRAC describe how your business really operates? The rest of this guide sets out what the law and [FINTRAC's registration page](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/reg-ins-eng) ask for, so you can answer that before you file. If you haven't started the application yet, our guide on [how to register an MSB](https://amlcanada.ca/how-to-register-msb-canada.html) covers the full process.
+
+### Your address decides which kind of MSB you are
+
+The Proceeds of Crime (Money Laundering) and Terrorist Financing Act draws one line. A business with a place of business in Canada that provides money services is an MSB under paragraph 5(h). A business without one, that directs money services at people in Canada and provides them to clients here, is a foreign MSB under paragraph 5(h.1).
+
+[FINTRAC's MSB page](https://fintrac-canafe.canada.ca/msb-esm/msb-eng) says you have a place of business in Canada if any of these apply:
+
+- you are incorporated in Canada;
+
+- you have a physical location in Canada; or
+
+- you have employees, agents or branches in Canada.
+
+Two things follow. A company incorporated in Canada is a domestic MSB wherever its staff work. And a foreign business that sets up a physical location here stops being a foreign MSB. FINTRAC's guidance doesn't say whether a rented address with no staff on site counts as a physical location. If you're a foreign business, settle that point before you list a Canadian address anywhere. Our [foreign MSB guide](https://amlcanada.ca/foreign-msb-registration-canada.html) explains the foreign route in full.
+
+### What the registration asks about addresses
+
+Schedule 1 to the [Registration Regulations](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2007-121/FullText.html) lists the information an application must contain. The address-related items are:
+
+| Item | Public identifying information? |
+
+| Address of place of business | Yes |
+
+| Mailing address of the place of business, if different | No |
+
+| Telephone number and website | Yes |
+
+| Whether any money service is provided in a dwelling-house | No |
+
+| Address and telephone number of every agent, mandatary and branch | Yes |
+
+| For a foreign MSB, contact details of the representative for service in Canada | No |
+
+The Regulations make the information in Parts A and C of Schedule 1 public. That includes the place of business address, telephone number, website and the agent and branch details. [FINTRAC's registry](https://fintrac-canafe.canada.ca/msb-esm/reg-eng) shows a business address and website for each listing. FINTRAC's registration page also asks for "detailed information about every location". If you're a corporation, your certificate of incorporation or equivalent record must show the corporation's name, address and directors, so that address should match what you file.
+
+### FINTRAC can check what you tell it
+
+Subsection 54.1(4) of the [Act](https://laws-lois.justice.gc.ca/eng/acts/P-24.501/FullText.html) lets FINTRAC verify the information in any registration application. [FINTRAC says](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/respond-eng) it sends a clarification request when information is inconsistent or can't be adequately verified, usually by email to the contact person or the representative for service. You have 30 days to answer. If you don't, FINTRAC may deny the application, or revoke the registration if you're already registered.
+
+Consistency matters more than the type of address. Your incorporation records, bank account details, website, contact details and the address you list should tell the same story. Once you're registered, a change of address must be reported to FINTRAC within 30 days. Our guide to [denied, revoked and expired registrations](https://amlcanada.ca/msb-registration-refused-revoked.html) covers what happens when these steps are missed.
+
+### Foreign MSBs: the representative for service
+
+A foreign MSB must name a representative for service. Under paragraph 11.12(1)(c.1) of the Act, that's a person who resides in Canada and is authorized to accept notices from FINTRAC on the business's behalf. FINTRAC needs their name, address for service and contact details.
+
+The representative is an individual, so a business address can't serve as one. The representative also doesn't take on your obligations. [FINTRAC states](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/reg-ins-eng) that the foreign MSB, and not its representative, is responsible for meeting the requirements of the Act.
+
+If the representative's name or address for service changes and you don't tell FINTRAC within 30 days, FINTRAC must deny your application or revoke your registration (subsection 11.13(2)). Here the Act gives FINTRAC no discretion.
+
+### Make sure someone reads the mail
+
+The [Administrative Monetary Penalties Regulations](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2007-292/FullText.html) say how FINTRAC can serve documents such as a notice of violation. For an entity, that includes leaving the document at its head office or place of business with a person who appears to be in charge, or sending it by registered mail or courier to the head office or place of business. A document sent by registered mail or courier is deemed served on the tenth day after the date on the postal or courier receipt.
+
+Deadlines in the Act run from service. A notice of violation, for example, gives you 30 days to pay or make representations. If mail sent to your listed address isn't collected and read, those days can pass before anyone in the business knows. Whatever address you use, decide in writing who checks the mail and how quickly it reaches your compliance officer.
+
+### Before you list an address
+
+- Confirm whether you're a domestic or foreign MSB, using FINTRAC's place of business criteria.
+
+- Make sure the address matches your incorporation records, bank details and website.
+
+- Remember the place of business address will be public on the registry.
+
+- If services are provided from a home, say so: the form asks.
+
+- For a foreign MSB, appoint a representative for service who resides in Canada, and diarize the 30-day rule for changes.
+
+- Set up mail handling so FINTRAC notices reach your compliance officer quickly.
+
+We offer a [Canadian business address](https://amlcanada.ca/canadian-address.html) for US$200 per month. Before you use it, we check with you how it fits your FINTRAC registration, and the scope, including mail handling, is agreed in writing. Our [MSB registration service](https://amlcanada.ca/msb-registration.html) covers the application itself.
+
+### Questions
+
+**Does FINTRAC accept a virtual office for MSB registration?** FINTRAC's published guidance doesn't address virtual offices. It asks for the address of your place of business, can verify what you provide and sends clarification requests when information is inconsistent or can't be verified. The address should reflect how your business actually operates.
+
+**Is my MSB's address made public?** Yes. The place of business address is part of the identifying information FINTRAC publishes on its MSB registry, along with agent and branch details.
+
+**Can a Canadian business address act as a foreign MSB's representative for service?** No. The representative for service is a person who resides in Canada and is authorized to accept FINTRAC's notices. A business address is a separate thing.
+
+**Does a Canadian address turn a foreign MSB into a domestic MSB?** FINTRAC says a physical location in Canada is a place of business, and a business with a place of business in Canada is a domestic MSB. FINTRAC doesn't say whether an address without staff counts, so get this confirmed before you list one.
+
+**Can I register an MSB that operates from home?** The registration asks whether any money service is provided in a dwelling-house, so it's something you disclose. Your address must still match your other records.
+
+Sources: [FINTRAC, Register your MSB or FMSB](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/reg-ins-eng); [FINTRAC, Money services businesses](https://fintrac-canafe.canada.ca/msb-esm/msb-eng); [FINTRAC, Answer clarification requests, update, renew or cancel your registration](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/respond-eng); [FINTRAC, Money Services Business Registry](https://fintrac-canafe.canada.ca/msb-esm/reg-eng); [Proceeds of Crime (Money Laundering) and Terrorist Financing Act](https://laws-lois.justice.gc.ca/eng/acts/P-24.501/FullText.html); [Proceeds of Crime (Money Laundering) and Terrorist Financing Registration Regulations](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2007-121/FullText.html); [Proceeds of Crime (Money Laundering) and Terrorist Financing Administrative Monetary Penalties Regulations](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2007-292/FullText.html). Checked 21 October 2026.
+
+---
+
+## Guide: MSB registration denied, revoked or expired: what happens and what to do
+
+URL: https://amlcanada.ca/msb-registration-refused-revoked.html
+
+FINTRAC can deny an MSB application or revoke a registration for a short list of reasons set out in the Act. A registration that isn't renewed expires. Each outcome has its own deadlines, and operating without a valid registration is an offence.
+
+**Key points:**
+- Ineligibility revokes a registration automatically, from the day it arises.
+- Unanswered 30-day clarification requests can lead to denial or revocation.
+- You have 30 days to ask FINTRAC's Director to review a denial or revocation.
+- Renew before expiry: a renewal submitted in time keeps you Registered while it's processed.
+
+### The four statuses on FINTRAC's registry
+
+[FINTRAC's MSB registry](https://fintrac-canafe.canada.ca/msb-esm/reg-eng) shows one of four statuses for every business:
+
+| Status | FINTRAC's meaning |
+
+| Registered | Currently registered with FINTRAC |
+
+| Revoked | No longer registered for not answering a clarification request, not providing assistance to FINTRAC, or being found ineligible |
+
+| Expired | Didn't renew its registration after two years |
+
+| Ceased | Told FINTRAC it no longer offers the services |
+
+FINTRAC updates the registry monthly, and a downloadable version is available. It also keeps a separate [list of businesses with revoked registrations](https://fintrac-canafe.canada.ca/msb-esm/revoked-revoquee-eng). Search by name and registration number, and check the expiry date as well as the status.
+
+### Why an application is denied
+
+The [Act](https://laws-lois.justice.gc.ca/eng/acts/P-24.501/FullText.html) gives three grounds:
+
+- **Ineligibility.** FINTRAC must deny an applicant listed in subsection 11.11(1) (section 11.16).
+
+- **Unanswered clarification requests.** FINTRAC may deny an application if the applicant doesn't provide requested clarifications within 30 days (section 11.14).
+
+- **A foreign MSB's representative for service.** If the representative's name or address for service changes and FINTRAC isn't told within 30 days, FINTRAC must deny the application (subsection 11.13(2)).
+
+The ineligible group includes people and entities subject to certain sanctions, listed terrorist entities, and those convicted of money laundering, terrorist financing and a range of other offences, including human smuggling and trafficking offences under sections 117 and 118 of the Immigration and Refugee Protection Act. Since the Bill C-12 amendments of March 26, 2026, it also includes anyone who still hasn't paid a FINTRAC penalty, with interest, 30 days after all proceedings on the violation have ended. Under the [Registration Regulations](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2007-121/FullText.html), a corporation or other entity is also ineligible if its CEO, president, a director or a 20% owner falls into most of these groups. [FINTRAC's eligibility page](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/no-eng) lists the offences in plain language.
+
+### Why a registration is revoked
+
+- **Ineligibility.** If a registered business becomes ineligible, its registration is revoked as of the day that happens (subsection 11.11(2)). FINTRAC then sends written notice without delay. No decision by FINTRAC is needed for the revocation to take effect.
+
+- **Clarification requests.** A registered business must answer FINTRAC's clarification requests within 30 days, or FINTRAC may revoke (section 11.17).
+
+- **Not assisting FINTRAC.** FINTRAC may revoke if a business doesn't give an examiner reasonable assistance, or doesn't provide documents required by a notice served during an examination (section 11.171).
+
+- **A foreign MSB's representative for service.** The same 30-day rule as for applications applies, and revocation is mandatory.
+
+Every decision to deny or revoke must be in writing, with reasons (section 11.18).
+
+### Asking for a review, then appealing
+
+Within 30 days after you receive a denial or revocation, you can apply in writing to FINTRAC's Director for a review and include supporting information (section 11.3). The Director either confirms the decision or substitutes their own, and serves notice with reasons.
+
+If you disagree with the Director's decision, you can appeal to the Federal Court within 30 days after it's served, or within a longer period the Court allows. If the Director doesn't decide within 90 days after receiving your application for review, you can appeal within 30 days after that 90-day period ends (section 11.4).
+
+[FINTRAC's reviews and appeals page](https://fintrac-canafe.canada.ca/raa-rea/1-eng) says applications go to its Review and Appeals Unit by mail, or electronically after you email rev-app@fintrac-canafe.gc.ca for a secure link. If a lawyer applies for you, include a letter of authorization. This is general information, and a lawyer can advise on your own case.
+
+### Expiry and renewal
+
+Registration must be renewed every two years (section 11.19). [FINTRAC says](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/respond-eng) it's your responsibility to renew on time, and that most complete applications are processed within three months.
+
+Timing matters because of how the registry treats renewals. If you submit a renewal before the expiry date, you stay Registered until FINTRAC processes it, even if the expiry date passes. If you don't submit one before the expiry date, your registration is treated as Expired.
+
+Virtual currency dealers and foreign MSBs have a specific deadline for their first renewal under section 6.1 of the Registration Regulations. For a corporation, it's the last day of the month of the first anniversary of incorporation that falls after the second anniversary of initial registration. Check the expiry date on your registry listing rather than counting from memory.
+
+### Changes and stopping services
+
+Tell FINTRAC about any change to your registration information, or newly obtained information that should have been in the application, within 30 days of becoming aware of it (subsection 11.13(1)). If you stop offering the services you're registered for, notify FINTRAC within 30 days using its cessation form (section 11.2). FINTRAC says failing to do either may lead to penalties or criminal charges.
+
+### Operating without a valid registration
+
+Section 77.4 of the Act makes it an offence for a business that must register to knowingly engage in an activity it isn't registered for. As the Act reads today, the maximum is a fine of $2,500,000, up to two years less a day in prison, or both, on summary conviction, and a fine of $5,000,000, up to five years in prison, or both, on indictment. Officers and directors who directed, authorized or took part in an offence can also be found guilty (section 78).
+
+The same failures can be handled as administrative violations instead. Under the [penalty regulations](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2007-292/FullText.html), failing to register, to report changes, to answer clarification requests, to renew or to notify cessation are all serious violations. For violations on or after March 26, 2026, a serious violation can carry up to $4,000,000. FINTRAC can't pursue both a penalty and a prosecution for the same act. Our guide to [FINTRAC penalties](https://amlcanada.ca/fintrac-penalties-amps.html) explains the process.
+
+There are practical effects too. FINTRAC notes that financial entities must make sure the foreign MSBs they open accounts for are registered with FINTRAC.
+
+### Applying again
+
+The registration sections of the Act don't set a waiting period before a new application. Any ineligibility has to be resolved first, such as an unpaid penalty. The application asks whether you've applied before, so be open about the earlier outcome and what has changed.
+
+Fresh criminal record checks will be needed, issued no more than six months before you apply. Answer every clarification request well within 30 days. Our [MSB registration service](https://amlcanada.ca/msb-registration.html) prepares and submits applications, and our [registration guide](https://amlcanada.ca/how-to-register-msb-canada.html) sets out each step. Some businesses look at [buying a registered MSB](https://amlcanada.ca/buying-an-msb-canada.html) instead, which brings its own checks. If the address on file is part of the problem, see our guide on [virtual offices and MSB registration](https://amlcanada.ca/virtual-office-msb-registration.html).
+
+### Questions
+
+**What happens if my MSB registration expires?** If you didn't submit a renewal before the expiry date, the registry shows the business as Expired and it isn't registered. Providing money services while unregistered can lead to a penalty or prosecution.
+
+**Can I keep operating while my renewal is processed?** Yes, if you submitted the renewal before the expiry date. FINTRAC says the business stays Registered until the renewal is processed.
+
+**How do I challenge a FINTRAC revocation?** Apply in writing to FINTRAC's Director for a review within 30 days of receiving the decision. If you disagree with the Director's decision, you can appeal to the Federal Court within 30 days after it's served.
+
+**Can a business with a revoked registration apply again?** The Act doesn't set a waiting period, but the reason for revocation must be resolved first. An ineligible applicant must be refused.
+
+**How do I check if an MSB is registered?** Search FINTRAC's Money Services Business Registry by name or registration number and check the status and expiry date. FINTRAC says registration isn't an endorsement or a licence.
+
+Sources: [FINTRAC, Answer clarification requests, update, renew or cancel your registration](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/respond-eng); [FINTRAC, Money Services Business Registry](https://fintrac-canafe.canada.ca/msb-esm/reg-eng); [FINTRAC, Money services businesses with revoked registration](https://fintrac-canafe.canada.ca/msb-esm/revoked-revoquee-eng); [FINTRAC, Who is not eligible to register](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/no-eng); [FINTRAC, Reviews and appeals](https://fintrac-canafe.canada.ca/raa-rea/1-eng); [FINTRAC, Register your MSB or FMSB](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/reg-ins-eng); [Proceeds of Crime (Money Laundering) and Terrorist Financing Act](https://laws-lois.justice.gc.ca/eng/acts/P-24.501/FullText.html); [Proceeds of Crime (Money Laundering) and Terrorist Financing Registration Regulations](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2007-121/FullText.html); [Proceeds of Crime (Money Laundering) and Terrorist Financing Administrative Monetary Penalties Regulations](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2007-292/FullText.html). Checked 21 October 2026.
+
+---
+
+## Guide: FINTRAC administrative monetary penalties (AMPs) explained
+
+URL: https://amlcanada.ca/fintrac-penalties-amps.html
+
+FINTRAC can impose administrative monetary penalties for breaches of the anti-money laundering law. Amendments in force since March 26, 2026 raised the maximum amounts up to 40 times and added compliance agreements and compliance orders.
+
+**Key points:**
+- For violations on or after March 26, 2026, the cap is $4 million per violation for a person and $20 million for an entity.
+- Each violation is classed as minor, serious or very serious, and the class sets the range.
+- You have 30 days to pay or make representations, and paying means accepting the violation.
+- Imposed penalties are made public, and a compliance agreement now follows every prescribed violation.
+
+### What an AMP is
+
+An administrative monetary penalty (AMP) is a civil penalty for not complying with the Proceeds of Crime (Money Laundering) and Terrorist Financing Act and its regulations. FINTRAC has been able to impose them since December 30, 2008. Under the [Act](https://laws-lois.justice.gc.ca/eng/acts/P-24.501/FullText.html), penalties are meant to encourage compliance rather than to punish (section 73.11). A violation isn't an offence (section 73.23), and due diligence is a defence (section 73.24).
+
+FINTRAC can also refer non-compliance to law enforcement as a criminal offence. It can't do both for the same act or omission (section 73.12). [FINTRAC's policy](https://fintrac-canafe.canada.ca/pen/2-eng) says that after an assessment it may take no further action, follow up, issue a penalty, or disclose information to law enforcement.
+
+### Penalty amounts in force today
+
+The Strengthening Canada's Immigration System and Borders Act (Bill C-12) received Royal Assent on March 26, 2026. It amended the Act and the [Administrative Monetary Penalties Regulations](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2007-292/FullText.html) the same day. The new framework applies to violations committed on or after that day. Violations committed before it stay under the former rules, according to the Act's transitional provisions and [FINTRAC's notice on the changes](https://fintrac-canafe.canada.ca/pen/3-eng).
+
+| Class | Range per violation before March 26, 2026 | Range per violation from March 26, 2026 |
+
+| Minor | $1 to $1,000 | $1 to $40,000 |
+
+| Serious | $1 to $100,000 | $1 to $4,000,000 |
+
+| Very serious | $1 to $100,000 (person); $1 to $500,000 (entity) | $1 to $20,000,000, with a $4,000,000 cap for a person |
+
+Section 73.1 of the Act now caps each prescribed violation at $4,000,000 for a person and $20,000,000 for an entity. The total for all violations on one notice is capped at the greater of $4,000,000 or 3% of a person's gross global income, or the greater of $20,000,000 or 3% of an entity's gross global revenue. For an entity in an affiliated group, the group's revenue is used.
+
+FINTRAC says it scopes each examination so the review period falls entirely under one framework.
+
+### Minor, serious and very serious
+
+The schedule to the penalty regulations classifies each violation. Some examples:
+
+- **Very serious:** failing to report a suspicious transaction; failing to comply with a ministerial directive; failing to keep a compliance program that is reasonably designed, risk-based and effective; and the compliance program elements in section 156 of the Regulations, such as the compliance officer, policies, risk assessment, training and the two-year review.
+
+- **Serious:** MSB registration failures, including not registering, not reporting changes, not answering clarification requests, not renewing and not notifying cessation.
+
+- **Minor:** most record keeping, client identification and threshold reporting items, and the travel rule obligations.
+
+Bill C-12 moved certain compliance program violations from serious to very serious, as [FINTRAC's changes page](https://fintrac-canafe.canada.ca/businesses-entreprises/changes-changements-eng) notes. [FINTRAC publishes harm done guides](https://fintrac-canafe.canada.ca/pen/1-eng) for seven groups of violations: compliance program, threshold reports (large cash, electronic funds transfer and casino disbursement), suspicious transaction reports, know your client, record keeping, MSB registration, and other compliance measures.
+
+### How the amount is set
+
+Section 73.11 of the Act lists the criteria: the non-punitive purpose, the harm done by the violation, and, new since March 26, 2026, the ability of the person or entity to pay. The regulations add the history of compliance. If FINTRAC asks for information on your ability to pay, your later representations can generally rely only on what you gave before its deadline (section 73.111).
+
+FINTRAC's published policy works in two steps. First, it assesses harm: how far the violation interferes with the Act's objectives or FINTRAC's mandate, including resulting harm such as unreported transactions caused by a gap in procedures. For a complete failure to meet a requirement, the base penalty is typically the maximum for that violation. Second, it adjusts for compliance history and the non-punitive purpose. FINTRAC says it's updating this policy, with an updated approach to calculating penalties under the new framework.
+
+### From notice of violation to final decision
+
+- **Notice of violation.** It names the violations, the proposed penalty and how it was calculated. FINTRAC must start proceedings within two years after it becomes aware of the subject matter.
+
+- **Pay, or make representations.** You have 30 days after service, or a longer period FINTRAC specifies. Paying means you're deemed to have committed the violation, and proceedings end.
+
+- **No response.** You're deemed to have committed the violation, and FINTRAC imposes the proposed penalty.
+
+- **Director's decision.** If you make written representations, the Director decides on a balance of probabilities and may impose the proposed penalty, a lesser one or none.
+
+- **Federal Court.** For a serious or very serious violation, or a compliance order violation, you can appeal within 30 days after the decision is served. If no decision comes within 90 days after your representations are complete, you can appeal within the following 30 days.
+
+Decisions on minor violations can't be appealed, unless a series of minor violations on one notice counts as serious. The current regulations set that threshold at $400,000 in total. Penalties not paid on time accrue interest and are a debt to the Crown.
+
+### Compliance agreements and compliance orders
+
+After proceedings on a prescribed violation end, FINTRAC must require a compliance agreement (section 73.16). It sets out the measures you'll take and a deadline. FINTRAC can extend the deadline by up to one year if you're making substantial progress. If you don't sign within six months, you're deemed to have refused.
+
+If you refuse, or miss the deadline, the Director must make a compliance order and make it public (section 73.17). The order requires you to publish the measures you're taking. Breaching it is a compliance order violation, capped at the greater of $5,000,000 or 3% of gross global income for a person, and the greater of $30,000,000 or 3% of gross global revenue for an entity.
+
+### Public naming
+
+When a violation is deemed committed, or the Director decides one was committed, FINTRAC must publish the name of the person or entity, the nature of the violation and the penalty amount, and it may include its reasons (section 73.22). Notices stay on [FINTRAC's public notice page](https://fintrac-canafe.canada.ca/pen/4-eng) for five years. For an MSB, an unpaid penalty also has a registration effect: 30 days after proceedings end, it makes the business ineligible to register, as our guide to [revoked registrations](https://amlcanada.ca/msb-registration-refused-revoked.html) explains.
+
+### Lowering your risk
+
+Most violations trace back to gaps an internal check would find. Test your program with a regular [effectiveness review](https://amlcanada.ca/fintrac-effectiveness-review-checklist.html), fix late or missing reports before FINTRAC calls, and prepare as our [examination guide](https://amlcanada.ca/fintrac-examination-preparation.html) describes. An [outsourced compliance officer](https://amlcanada.ca/outsourced-compliance-officer.html) can keep reporting and records current, and an external [effectiveness review](https://amlcanada.ca/effectiveness-reviews.html) gives an independent view. Payment businesses should also check their [travel rule and directive procedures](https://amlcanada.ca/fintrac-travel-rule-ministerial-directives.html), since breaching a directive is very serious.
+
+### Questions
+
+**What is the maximum FINTRAC penalty now?** For violations on or after March 26, 2026, up to $4 million per violation for a person and $20 million for an entity. The total on one notice can reach the greater of those amounts or 3% of gross global income or revenue.
+
+**Does paying a FINTRAC penalty mean admitting the violation?** Yes. Under the Act, paying the penalty in a notice of violation means you're deemed to have committed the violation, and the proceedings end.
+
+**Can I appeal a FINTRAC penalty?** First make written representations to FINTRAC's Director within 30 days of the notice. You can then appeal the Director's decision to the Federal Court within 30 days for serious, very serious and compliance order violations.
+
+**Will FINTRAC publish my business's name?** Yes, when a violation is deemed committed or the Director decides one was committed. FINTRAC publishes the name, the nature of the violation and the penalty, and notices stay online for five years.
+
+**Does FINTRAC consider whether a business can afford the penalty?** Since March 26, 2026, the Act lists ability to pay as one of the criteria for setting the amount, along with the harm done and the purpose of encouraging compliance.
+
+Sources: [FINTRAC, Administrative monetary penalties: changes following legislative amendments](https://fintrac-canafe.canada.ca/pen/3-eng); [FINTRAC, Administrative monetary penalties policy](https://fintrac-canafe.canada.ca/pen/2-eng); [FINTRAC, Penalties for non-compliance](https://fintrac-canafe.canada.ca/pen/1-eng); [FINTRAC, Public notice of administrative monetary penalties](https://fintrac-canafe.canada.ca/pen/4-eng); [FINTRAC, Reviews and appeals](https://fintrac-canafe.canada.ca/raa-rea/1-eng); [FINTRAC, Modernization and upcoming changes](https://fintrac-canafe.canada.ca/businesses-entreprises/changes-changements-eng); [Proceeds of Crime (Money Laundering) and Terrorist Financing Act](https://laws-lois.justice.gc.ca/eng/acts/P-24.501/FullText.html); [Proceeds of Crime (Money Laundering) and Terrorist Financing Administrative Monetary Penalties Regulations](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2007-292/FullText.html). Checked 21 October 2026.
+
+---
+
+## Guide: The travel rule and ministerial directives: what Canadian MSBs must do
+
+URL: https://amlcanada.ca/fintrac-travel-rule-ministerial-directives.html
+
+Canada's travel rule requires money services businesses to send originator and beneficiary information with funds and virtual currency transfers, and to check it arrives with transfers they receive. Ministerial directives add stricter measures for transactions connected to Russia, Iran and North Korea.
+
+**Key points:**
+- Include names, addresses and account or reference numbers with transfers you send.
+- Take reasonable measures to get missing information, then follow written risk-based procedures.
+- Three ministerial directives are in force: Russia, Iran and North Korea (DPRK).
+- Directive transactions are high risk at any amount, and Iran-connected transactions must all be reported.
+
+### What the travel rule is
+
+The travel rule is the requirement to make sure specific information goes with an electronic funds transfer (EFT) or a virtual currency transfer. It comes from section 9.5 of the [Act](https://laws-lois.justice.gc.ca/eng/acts/P-24.501/FullText.html) and sections 124 and 124.1 of the [Regulations](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-184/FullText.html). [FINTRAC's guidance](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/travel-acheminement/1-eng) applies it to financial entities, money services businesses (MSBs), foreign MSBs and casinos.
+
+Information you receive under the travel rule can't be removed from a transfer. The travel rule isn't a separate record keeping requirement, though following it helps you meet your record keeping and reporting obligations. The EFTs covered are international EFTs, and EFTs within Canada sent as SWIFT MT-103 messages or their equivalent.
+
+### Electronic funds transfers
+
+The rule applies to the EFTs you must keep a record of. For an MSB, section 36 of the Regulations requires records when it initiates an EFT of $1,000 or more, sends an international EFT of $1,000 or more initiated by someone else, or is the final recipient of an international EFT of $1,000 or more. [FINTRAC's record keeping guidance](https://fintrac-canafe.canada.ca/guidance-directives/recordkeeping-document/record/msb-eng) has the detail.
+
+When you initiate an EFT, include:
+
+- the name, address and account number or other reference number, if any, of the person or entity who requested the transfer;
+
+- the beneficiary's name and address; and
+
+- if applicable, the beneficiary's account number or other reference number.
+
+When you receive an EFT, as an intermediary or as the final recipient, take reasonable measures to make sure that information is included. If you pass an EFT on, include the information you received or obtained.
+
+### Virtual currency transfers
+
+MSBs keep records when they transfer $1,000 or more in virtual currency at a client's request, or receive $1,000 or more in virtual currency for remittance to a beneficiary. For those transfers, you must send the name, address and account or other reference number, if any, of both the person who requested the transfer and the beneficiary. For transfers you receive, take reasonable measures to make sure the same information is included. Crypto businesses can read this with our guide to [crypto registration with FINTRAC](https://amlcanada.ca/crypto-registration-canada.html).
+
+### When the information is missing
+
+If a transfer arrives without the required information, you must take reasonable measures to obtain it. FINTRAC describes reasonable measures as steps taken to achieve an outcome even if they don't achieve it, such as asking the client, searching open sources, retrieving information you already hold, or consulting commercially available information.
+
+You also need written, risk-based policies and procedures for what happens when those measures fail. FINTRAC says they must cover when you allow, suspend or reject the transfer, and what follow-up measures you take. Write the steps down in your procedures and keep a record of what you did for each case. If the circumstances give you reasonable grounds to suspect money laundering, terrorist financing or sanctions evasion, the usual [suspicious transaction reporting](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/str-dod/str-dod-eng) duty applies as well.
+
+Under the penalty regulations, the travel rule obligations are minor violations. For violations on or after March 26, 2026, a minor violation can carry up to $40,000 each. Our [guide to FINTRAC penalties](https://amlcanada.ca/fintrac-penalties-amps.html) explains the classes.
+
+### What a ministerial directive is
+
+Part 1.1 of the Act, in force since June 19, 2014, lets the Minister of Finance issue directives requiring reporting entities to apply countermeasures to transactions coming from or going to designated foreign jurisdictions or entities. [FINTRAC's directives page](https://fintrac-canafe.canada.ca/obligations/directives-eng) says FINTRAC informs reporting entities when one is issued, that each directive stays in force until revoked, suspended or amended, and that directives are reviewed at least every three years. Every MSB and foreign MSB must comply (section 11.43).
+
+### The three directives in force
+
+| Directive | In force since | Latest change |
+
+| Russia | February 24, 2024 | FINTRAC guidance updated March 22, 2025 |
+
+| Iran | July 25, 2020 | Directive amended February 15, 2024 and November 15, 2025; guidance updated June 23, 2026 |
+
+| North Korea (DPRK) | December 9, 2017 | FINTRAC guidance updated March 22, 2025 |
+
+For any transaction originating from or bound for one of these countries, whatever the amount, each directive requires you to:
+
+- treat it as high risk;
+
+- verify the identity of any person or entity requesting or benefiting from it;
+
+- apply customer due diligence with particular attention to sanctions evasion risk, including the source of funds or virtual currency, the purpose of the transaction, and the beneficial ownership or control of any entity involved; and
+
+- keep a record of it, even below the usual record keeping thresholds.
+
+The Iran and North Korea directives also require policies and procedures to assess the sanctions evasion risk associated with that country. The Iran directive goes further: every Iran-connected transaction must be reported to FINTRAC. Below-threshold EFTs and virtual currency receipts go on the usual EFT or large virtual currency transaction report, marked "IR2020" in the ministerial directive field. Transfers within Canada go on a suspicious transaction report, also marked "IR2020", with the suspicion and action taken sections left blank.
+
+### Deciding whether a transaction is connected
+
+FINTRAC's guidance gives examples of a connection: an origin or destination address in the country, transactions involving the country's government representatives, and use of the Russian ruble or Iranian rial. For Iran, it also lists funds from the sale of an asset in Iran and online transactions traced to an IP address geolocated in Iran. A transfer routed through a third country is caught when details such as the account or third-party information point back to the country.
+
+A client's passport or nationality alone isn't a connection, and neither is a past history of sending funds there, if nothing else about the transaction points to the country.
+
+### Building it into your program
+
+Your policies and procedures should cover the travel rule and the ministerial directives, as [FINTRAC's compliance program guidance](https://fintrac-canafe.canada.ca/guidance-directives/compliance-conformite/Guide4/4-eng) expects. They should also say how you learn of new directives and how you decide a transaction is connected. Your risk assessment should record your exposure to these countries. Failing to comply with a directive is a very serious violation, and knowingly contravening one can also be prosecuted under section 74 of the Act. FINTRAC also publishes advisories on countries identified by the Financial Action Task Force. The most recent on its [news page](https://fintrac-canafe.canada.ca/new-neuf/1-eng) is dated July 15, 2026.
+
+Our [14-document compliance program](https://amlcanada.ca/compliance-programs.html) includes a Travel Rule Policy and Procedure, and our guide to [compliance program requirements](https://amlcanada.ca/fintrac-compliance-program-requirements.html) covers the rest. An [outsourced compliance officer](https://amlcanada.ca/outsourced-compliance-officer.html) can handle directive reviews and reporting. If you're still registering, check our guide on [addresses and MSB registration](https://amlcanada.ca/virtual-office-msb-registration.html) and what to do if a registration is [denied or revoked](https://amlcanada.ca/msb-registration-refused-revoked.html).
+
+### Questions
+
+**What is the travel rule in Canada?** It requires financial entities, MSBs, foreign MSBs and casinos to include the requester's and beneficiary's names, addresses and account or reference numbers with electronic funds and virtual currency transfers, and to take reasonable measures to check that information arrives with transfers they receive.
+
+**Does the travel rule apply to crypto in Canada?** Yes. MSBs and foreign MSBs must include travel rule information with virtual currency transfers they're required to keep records of, generally $1,000 or more, and take reasonable measures for transfers they receive.
+
+**What should I do if a transfer arrives without originator information?** Take reasonable measures to obtain it, such as asking the client. If that fails, follow your written risk-based procedures on whether to allow, suspend or reject the transfer, and record your follow-up.
+
+**Which countries do FINTRAC ministerial directives cover?** Three directives are in force: Russia (since February 24, 2024), Iran (since July 25, 2020, amended in 2024 and 2025) and North Korea (since December 9, 2017).
+
+**Do MSBs have to report every transaction connected to Iran?** Yes. Under the Iran directive, every transaction originating from or bound for Iran must be reported to FINTRAC, whatever the amount, using the report types FINTRAC's guidance sets out.
+
+Sources: [FINTRAC, Travel rule for electronic funds and virtual currency transfers](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/travel-acheminement/1-eng); [FINTRAC, Ministerial directives and transaction restrictions](https://fintrac-canafe.canada.ca/obligations/directives-eng); [FINTRAC, Guidance on the Ministerial Directive on Russia](https://fintrac-canafe.canada.ca/obligations/dir-rus-eng); [FINTRAC, Guidance on the Ministerial Directive on Iran](https://fintrac-canafe.canada.ca/obligations/dir-iri-eng); [FINTRAC, Guidance on the Ministerial Directive on the DPRK](https://fintrac-canafe.canada.ca/obligations/dir-dprk-eng); [FINTRAC, Record keeping for MSBs](https://fintrac-canafe.canada.ca/guidance-directives/recordkeeping-document/record/msb-eng); [FINTRAC, Compliance program requirements](https://fintrac-canafe.canada.ca/guidance-directives/compliance-conformite/Guide4/4-eng); [FINTRAC news](https://fintrac-canafe.canada.ca/new-neuf/1-eng); [Proceeds of Crime (Money Laundering) and Terrorist Financing Act](https://laws-lois.justice.gc.ca/eng/acts/P-24.501/FullText.html); [Proceeds of Crime (Money Laundering) and Terrorist Financing Regulations](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-184/FullText.html); [Proceeds of Crime (Money Laundering) and Terrorist Financing Administrative Monetary Penalties Regulations](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2007-292/FullText.html). Checked 21 October 2026.
+
+---
+
+## Guide: How to get an apostille in Canada (2026 guide)
+
+URL: https://amlcanada.ca/apostille-canada-guide.html
+
+Since January 11, 2024, Canadian public documents going to Apostille Convention countries get an apostille. Who issues it depends on where the document was issued or notarized: Global Affairs Canada, or one of five provinces.
+
+**Key points:**
+- The Apostille Convention has applied in Canada since January 11, 2024.
+- Alberta, British Columbia, Ontario, Quebec and Saskatchewan apostille their own documents. Global Affairs Canada handles federal documents and the rest of Canada.
+- A document notarized in Alberta, Ontario or Saskatchewan goes to that province, wherever it was issued.
+- Global Affairs Canada charges no fee. Provincial fees run from CA$16 to CA$66.50 per document.
+
+### What an apostille does
+
+An apostille is a certificate that confirms the signature and seal of a public official on a document are genuine. Countries that belong to the Apostille Convention accept it without any further step, according to the [Global Affairs Canada glossary](https://international.canada.ca/en/global-affairs/services/document-authentication/glossary). Before the Convention, a Canadian document usually had to be authenticated in Canada and then legalized by the destination country's embassy or consulate. The apostille replaces that chain with a single certificate.
+
+Canada acceded to the Convention on May 12, 2023, and it entered into force for Canada on January 11, 2024, according to the [Hague Conference status table](https://www.hcch.net/en/instruments/conventions/status-table/?cid=41). An apostille doesn't validate what a document says. It confirms where the document came from.
+
+### Step 1: Confirm what the destination needs
+
+Whether you need an apostille is decided by the law of the country where the document will be used. Canadian law doesn't require it. [Global Affairs Canada](https://international.canada.ca/en/global-affairs/services/document-authentication/faq) and Ontario's Official Documents Services both tell applicants to check with the receiving institution or the destination country's embassy or consulate first. Neither office can advise on what a foreign authority wants.
+
+Ask how recent the document must be, whether a certified copy is acceptable and whether any translation also needs an apostille. Quebec advises applicants to make sure the issue date meets the requesting entity's requirements and to use recent documents where possible.
+
+### Step 2: Find the right authority
+
+Canada has six competent authorities: the federal government and five provinces. The [Global Affairs Canada requirements](https://international.canada.ca/en/global-affairs/services/document-authentication/requirements) split the work like this:
+
+| Where the document comes from | Who issues the apostille |
+
+| Government of Canada (federal documents) | Global Affairs Canada |
+
+| Manitoba, New Brunswick, Newfoundland and Labrador, Northwest Territories, Nova Scotia, Nunavut, Prince Edward Island, Yukon | Global Affairs Canada, for documents issued or notarized there |
+
+| Alberta, Ontario, Saskatchewan | The province, for documents issued there and for any document notarized there |
+
+| British Columbia, Quebec | The province, for documents issued there; a notarized document qualifies only if the original was issued in the province |
+
+Global Affairs Canada's online [eligibility tool](https://apostille-gac.powerappsportals.com/en/search-document/) tells you where to send a given document. Quebec says it doesn't apostille documents issued by a federal authority, a territory or another province. Global Affairs Canada also notes that some countries accept only its authentication, so confirm the destination accepts a provincial apostille.
+
+### Step 3: Notarize the document if needed
+
+Government-issued originals with an original signature or seal can often be apostilled directly. Private documents, and many business records, must be notarized first. Plain photocopies can't be authenticated, but Global Affairs Canada may accept a copy certified by a notary. It also says commissioners for oaths generally aren't authorized to certify copies.
+
+When a notary signs a document for authentication, [Global Affairs Canada](https://international.canada.ca/en/global-affairs/services/document-authentication/requirements) expects the notary to:
+
+- have a valid certificate of appointment;
+
+- sign by hand in ink;
+
+- apply a stamp or seal showing their full name and the province or territory of appointment;
+
+- state the type of notarial act and the date;
+
+- show when their appointment expires, if it does.
+
+Provincial rules add to this. In Ontario the notary must be physically present, and the [Ministry of the Attorney General](https://www.ontario.ca/page/information-notaries-public-ontario) says documents notarized remotely won't be authenticated or apostilled. Ontario also needs the notary's full signature and seal on the same page. Alberta asks for corporate records and powers of attorney to be notarized by an Alberta notary. Quebec requires an official certificate from a lawyer or notary for private documents, with a signature authentication from the Barreau du Québec or the Chambre des notaires du Québec.
+
+### Step 4: Arrange translations
+
+Global Affairs Canada needs a certified translation for any content not in English or French, sent with the original. The translator must belong to a recognized provincial translation association, or a Canadian notary who speaks both languages must attest the translation. Ontario adds that a document in another language must be issued in Canada, notarized by an Ontario notary and accompanied by a translation.
+
+### Step 5: Submit, pay and wait
+
+Global Affairs Canada takes requests through its online portal. You then mail or courier the documents, or drop them at its distribution centre in Ottawa, which offers no in-person service. Include a prepaid return envelope or label if you want tracking. Ontario accepts mail-in requests at its Toronto office and in-person requests in Toronto, Ottawa, Sault Ste. Marie, Windsor and Thunder Bay. Alberta and British Columbia take documents by mail or courier, and Quebec by mail.
+
+| Authority | Fee | Published processing time |
+
+| Global Affairs Canada | Free | Processing requests received 25 business days earlier, plus mailing time; no expedited service |
+
+| Ontario | CA$16 per notarized document; CA$32 per Ontario government document | Mail-in within 15 business days; in person about 30 minutes if complete |
+
+| British Columbia | CA$20 per document | 2 to 4 weeks, not including mail time |
+
+| Alberta | CA$25 per document | At least 7 to 10 business days |
+
+| Saskatchewan | CA$50 per certificate, signatory or package | Typically 4 to 7 business days, not including mail time |
+
+| Quebec | CA$66.50 per document | Varies with volume; on October 9, 2026 Quebec was processing requests received October 8 |
+
+These are the figures each authority published when we checked on October 21, 2026. Global Affairs Canada also says you don't need to hire a third party to submit a request, and that processing times are the same either way.
+
+### After you receive the apostille
+
+Apostilles from Global Affairs Canada don't expire. Before January 11, 2024, Global Affairs Canada authenticated documents with a red stamp, and a red-stamped document can't be used in a Convention country. You need a new request with a clean version of the document. Global Affairs Canada's [verification tool](https://international.canada.ca/en/global-affairs/services/document-authentication/updates) lets a recipient check apostilles it issued and those issued by Alberta, Saskatchewan and British Columbia. Ontario runs its own validity check.
+
+### Countries outside the Convention
+
+For a country that hasn't joined the Convention, the document may need legalization at that country's embassy, high commission or consulate after it's authenticated in Canada. Ontario issues a certificate of authentication for those countries. Alberta and Quebec issue an apostille either way, and both say legalization may still be needed. Global Affairs Canada can forward authenticated documents to an embassy or high commission in Ottawa on request.
+
+If your documents are corporate records for a foreign bank or regulator, our guide to [apostilling Canadian corporate documents](https://amlcanada.ca/apostille-corporate-documents-canada.html) covers which ones need notarizing. Our [apostille and notarization service](https://amlcanada.ca/apostille-notarization-canada.html) coordinates the process for corporate documents, with notarization by a licensed Ontario partner notary.
+
+### Questions
+
+**Who issues apostilles in Canada?** Global Affairs Canada issues them for federal documents and for documents from Manitoba, New Brunswick, Newfoundland and Labrador, Nova Scotia, Prince Edward Island and the three territories. Alberta, British Columbia, Ontario, Quebec and Saskatchewan issue them for their own documents.
+
+**How much does an apostille cost in Canada?** Global Affairs Canada charges no fee. Ontario charges CA$16 per notarized document and CA$32 per Ontario government document, British Columbia CA$20, Alberta CA$25, Saskatchewan CA$50 per certificate, signatory or package, and Quebec CA$66.50 per document.
+
+**How long does an apostille take?** It depends on the authority. On October 21, 2026, Global Affairs Canada was processing requests received 25 business days earlier, plus mailing time. Ontario processes mail-in requests within 15 business days.
+
+**Can I get an apostille on a photocopy?** Not on a plain photocopy. Global Affairs Canada may authenticate a copy certified by a notary, depending on the document.
+
+**Does an apostille work in every country?** Only in countries that belong to the Apostille Convention. Other countries may require legalization at their embassy or consulate after the document is authenticated in Canada.
+
+Sources: [Global Affairs Canada, Authentication of documents](https://international.canada.ca/en/global-affairs/services/document-authentication); [Requirements](https://international.canada.ca/en/global-affairs/services/document-authentication/requirements); [Frequently asked questions](https://international.canada.ca/en/global-affairs/services/document-authentication/faq); [Glossary](https://international.canada.ca/en/global-affairs/services/document-authentication/glossary); [Notices and updates](https://international.canada.ca/en/global-affairs/services/document-authentication/updates); [Document eligibility tool](https://apostille-gac.powerappsportals.com/en/search-document/); [HCCH, Apostille Convention status table](https://www.hcch.net/en/instruments/conventions/status-table/?cid=41); [Ontario, Authenticate a document for use outside Canada](https://www.ontario.ca/page/authenticate-document-use-outside-canada); [Ontario, Information for notaries public](https://www.ontario.ca/page/information-notaries-public-ontario); [British Columbia, Document authentication fee](https://www2.gov.bc.ca/gov/content/governments/government-id/guide-to-the-authentication-of-documents/fees); [Alberta, Documents for other jurisdictions or countries](https://www.alberta.ca/document-authentication-other-jurisdictions-countries); [Saskatchewan, Authenticating notarized documents](https://www.saskatchewan.ca/government/notarized-documents-legislation-maps/authenticating-notarized-documents); [Quebec, About apostille](https://www.quebec.ca/en/justice-and-civil-status/services/apostille/about); [Quebec, Applying for an apostille](https://www.quebec.ca/en/justice-and-civil-status/services/apostille/applying). Checked 21 October 2026.
+
+---
+
+## Guide: Apostilling Canadian corporate documents for foreign banks and regulators
+
+URL: https://amlcanada.ca/apostille-corporate-documents-canada.html
+
+Foreign banks, payment partners and regulators often want Canadian corporate documents with an apostille. Some government certificates can go straight to the authority. Most corporate records must be notarized first.
+
+**Key points:**
+- Get the receiving party's document list in writing before ordering anything.
+- Global Affairs Canada says business and corporate records must be notarized, apart from Corporations Canada certificates of incorporation with an original signature or seal.
+- Ontario apostilles business registry documents issued since 1991 without notarization.
+- A copy notarized in Ontario goes to Ontario's Official Documents Services, even if the original is a federal document.
+
+### Start with the receiving party's list
+
+Each bank, payment partner and regulator sets its own requirements, and the destination country's law decides whether an apostille is needed at all. Global Affairs Canada and Ontario both say they can't advise on what a foreign authority wants. Ask the receiving party to confirm in writing:
+
+- which documents it needs, by name;
+
+- how recent each must be;
+
+- whether it accepts certified or notarized copies;
+
+- whether translations must be apostilled as well;
+
+- whether the country is a member of the Apostille Convention.
+
+Our general guide to [getting an apostille in Canada](https://amlcanada.ca/apostille-canada-guide.html) covers the steps, authorities and fees for any document.
+
+### Federal corporations: Corporations Canada documents
+
+Documents issued by the Government of Canada go to Global Affairs Canada. Its [document eligibility tool](https://apostille-gac.powerappsportals.com/en/search-document/) treats corporate documents differently by type:
+
+- **Certificate of incorporation.** A Corporations Canada certificate with an original signature or seal doesn't need notarizing. One without an original signature or seal must be notarized.
+
+- **Certificates of compliance, existence and amendment, and articles of incorporation.** The tool says business or corporate records must be notarized.
+
+Where notarization is needed, the notary's province decides the route. [Global Affairs Canada](https://international.canada.ca/en/global-affairs/services/document-authentication/requirements) says a document notarized in Alberta, Ontario or Saskatchewan goes to that province, wherever it was issued. A federal certificate copied and notarized by an Ontario notary is apostilled by Ontario's Official Documents Services, at CA$16 per notarized document.
+
+### Ontario corporations: Ontario Business Registry documents
+
+Ontario's [Official Documents Services](https://www.ontario.ca/page/authenticate-document-use-outside-canada) accepts business registry documents issued since 1991 by the Business and Personal Property Branch or the Ontario Business Registry without notarization. Ontario charges CA$32 to authenticate an Ontario government official document.
+
+The [Ontario Business Registry](https://www.ontario.ca/page/cost-time-required-to-register-change-search-for-business-name-corporation-not-for-profit) sells a certificate of status online for CA$26, available immediately, and copies of filed documents for CA$3 each. Ontario's guidance says it checks signatures and seals against its records and needs a hard copy; it won't authenticate electronic copies. Confirm with the eligibility portal that the version you order qualifies.
+
+### Companies registered in other provinces
+
+British Columbia apostilles original documents from B.C. Registries and Online Services, such as a Notice of Articles, incorporation certificate, certificate of good standing and certified true copy. [British Columbia](https://www2.gov.bc.ca/gov/content/governments/government-id/guide-to-the-authentication-of-documents/process/registries-online-docs) requires notarization if the document has no Registrar's signature, or has no raised seal and you can't provide the online receipt. Alberta asks for corporate records to be notarized by an Alberta notary before it issues an apostille. Quebec apostilles documents issued in Quebec, including authentic acts such as notarized documents.
+
+### Minute book extracts, registers and resolutions
+
+Your company's own records, such as register extracts, minute book pages and director or shareholder resolutions, are private documents. Global Affairs Canada's tool says business or corporate records, including corporate bylaws, must be notarized. Corporate powers of attorney fall under private legal documents, which must also be notarized.
+
+Under Ontario's Notaries Act, a notary can witness and attest the signing of a document and certify a true copy, according to the [Ministry of the Attorney General](https://www.ontario.ca/page/information-notaries-public-ontario). The notary must be physically present, as remote notarization isn't permitted, and Ontario won't apostille a remotely notarized document. Ontario also needs the notary's signature and seal on the same page, and a name and seal that match its records.
+
+### Evidence of FINTRAC or Bank of Canada registration
+
+Payment partners often ask an MSB or payment service provider to prove it is registered. FINTRAC's [Money Services Business Registry](https://fintrac-canafe.canada.ca/msb-esm/reg-eng) is public and shows each business's registration number, status and dates. FINTRAC says it doesn't issue licences or certificates of registration. The Bank of Canada keeps a public [registry of payment service providers](https://www.bankofcanada.ca/regulatory-oversight/retail-payments/psp-registry/) and says it doesn't endorse or license them.
+
+Global Affairs Canada's tool says documents from a Government of Canada department or agency that aren't on its list must be notarized. Ask the receiving party what evidence it will accept before anything is prepared. Our guides to [registering an MSB](https://amlcanada.ca/how-to-register-msb-canada.html) and [foreign MSB registration](https://amlcanada.ca/foreign-msb-registration-canada.html) explain the registration itself.
+
+### Translations
+
+Some countries want documents translated into their language. Depending on the recipient, you may need an apostille on the original only, or on both the original and the translation, as [Quebec](https://www.quebec.ca/en/justice-and-civil-status/services/apostille/about) explains. Ask the receiving party which one it needs. For documents going into the Canadian process, Global Affairs Canada needs a certified translation of any content that isn't in English or French.
+
+### Quick reference: where each document goes
+
+This table covers federal and Ontario corporations, and assumes any notarization is done by an Ontario notary, as with our partner notary. Fees are the government fees published on October 21, 2026.
+
+| Document | Notarize first? | Apostille from |
+
+| Corporations Canada certificate of incorporation with an original signature or seal | No | Global Affairs Canada, free |
+
+| Other Corporations Canada documents, such as certificates of compliance, existence or amendment, and articles | Yes | Ontario, CA$16 per notarized document |
+
+| Ontario Business Registry documents issued since 1991, such as a certificate of status | No | Ontario, CA$32 per document |
+
+| Minute book extracts, registers, resolutions and bylaws | Yes | Ontario, CA$16 per notarized document |
+
+| Corporate power of attorney | Yes | Ontario, CA$16 per notarized document |
+
+Global Affairs Canada sends documents notarized in Alberta, Ontario or Saskatchewan to that province, which is why a notarized federal document lands with Ontario in this table. Always run the specific document through the [eligibility tool](https://apostille-gac.powerappsportals.com/en/search-document/) or the province's guidance, because the version you hold matters.
+
+### Common reasons documents come back
+
+The authorities list these reasons on their official pages:
+
+- a plain photocopy, with no original signature or seal;
+
+- an electronic copy (Ontario needs a hard copy, and Global Affairs Canada needs paper);
+
+- a document commissioned by a commissioner for taking affidavits, which Ontario won't authenticate;
+
+- a document notarized remotely, in Ontario;
+
+- a notary's signature and seal on different pages, or a seal that doesn't match the authority's records;
+
+- glued or laminated documents, which Global Affairs Canada can't authenticate;
+
+- a document sent to the wrong competent authority;
+
+- a missing fee or incomplete request form.
+
+Our [apostille and notarization service](https://amlcanada.ca/apostille-notarization-canada.html) checks each corporate document against these rules before it is notarized by our licensed Ontario partner notary and submitted. If you're still setting up, start with [company incorporation](https://amlcanada.ca/incorporation-canada.html).
+
+### Questions
+
+**Can a certificate of status be apostilled without notarization?** In Ontario, yes. Ontario's Official Documents Services accepts business registry documents issued since 1991 without notarization. Global Affairs Canada says federal certificates of compliance and existence must be notarized.
+
+**Do minute book extracts and resolutions need notarizing?** Yes. Global Affairs Canada says business or corporate records must be notarized before authentication.
+
+**Does FINTRAC issue a registration certificate?** No. FINTRAC says it doesn't issue licences or certificates of registration. Registration details appear in its public Money Services Business Registry.
+
+**Where does a notarized copy of a federal certificate go?** If an Ontario notary notarized it, to Ontario's Official Documents Services. Global Affairs Canada says documents notarized in Alberta, Ontario or Saskatchewan go to that province.
+
+**Can corporate documents be notarized remotely in Ontario?** No. Ontario's Notaries Act doesn't permit remote notarization, and Ontario won't apostille documents notarized remotely.
+
+Sources: [Global Affairs Canada, Requirements](https://international.canada.ca/en/global-affairs/services/document-authentication/requirements); [Document eligibility tool](https://apostille-gac.powerappsportals.com/en/search-document/); [Frequently asked questions](https://international.canada.ca/en/global-affairs/services/document-authentication/faq); [Ontario, Authenticate a document for use outside Canada](https://www.ontario.ca/page/authenticate-document-use-outside-canada); [Ontario, Information for notaries public](https://www.ontario.ca/page/information-notaries-public-ontario); [Ontario Business Registry fees](https://www.ontario.ca/page/cost-time-required-to-register-change-search-for-business-name-corporation-not-for-profit); [British Columbia, Registries documents](https://www2.gov.bc.ca/gov/content/governments/government-id/guide-to-the-authentication-of-documents/process/registries-online-docs); [Alberta, Documents for other jurisdictions or countries](https://www.alberta.ca/document-authentication-other-jurisdictions-countries); [Quebec, About apostille](https://www.quebec.ca/en/justice-and-civil-status/services/apostille/about); [FINTRAC, Money Services Business Registry](https://fintrac-canafe.canada.ca/msb-esm/reg-eng); [Bank of Canada, Registry of PSPs](https://www.bankofcanada.ca/regulatory-oversight/retail-payments/psp-registry/). Checked 21 October 2026.
+
+---
+
+## Guide: Who must register as a PSP under the RPAA?
+
+URL: https://amlcanada.ca/who-must-register-psp-rpaa.html
+
+You must register with the Bank of Canada if you perform a payment function as a business in its own right, for electronic transfers in Canadian or foreign currency, with a link to Canada, and no exclusion applies. This guide shows how the Bank applies each part of that test to real business models.
+
+**Key points:**
+- Register if you perform a payment function as a distinct business, for fiat transfers, with a link to Canada, and no exclusion applies.
+- You can be a PSP without holding funds. Storing a customer's details for future transfers can be enough.
+- Payments are incidental only when they exist to support another business. Separate fees, user expectations and payment marketing point the other way.
+- Agents of a registered PSP are covered by it. Third-party providers and agents of excluded banks are not.
+
+### The four-part test
+
+The Bank of Canada's supervisory policy, [Criteria for registering payment service providers](https://www.bankofcanada.ca/2026/06/criteria-for-registering-payment-service-providers/) (last updated June 29, 2026), sets out a four-part test. You must register if all four parts are true:
+
+- You perform at least one of the five payment functions as a service or business activity that isn't incidental to another service or business activity. That makes you a payment service provider (PSP).
+
+- The payment function relates to an electronic funds transfer (EFT) in Canadian dollars, a foreign currency or a unit that meets prescribed criteria. That makes it a retail payment activity. Cash isn't an EFT.
+
+- You have a place of business in Canada, or you direct retail payment activities at people or entities in Canada and perform them for end users here.
+
+- Neither you nor the activity is excluded.
+
+Registration must be in place before you perform any retail payment activities ([RPAA](https://laws-lois.justice.gc.ca/eng/acts/R-7.36/FullText.html) section 23). The Bank's [FAQ](https://www.bankofcanada.ca/2026/08/frequently-asked-questions-about-retail-payments-supervision/) says every PSP in scope must register for itself, regardless of size or revenue.
+
+### How the Bank reads the five payment functions
+
+Section 2 of the Act lists the payment functions. The Bank's policy explains how it reads each one, and some reach further than businesses expect:
+
+- **Providing or maintaining an account.** Storing personal or financial information about an identifiable end user for future EFTs counts. You don't need to hold any funds. Collecting data for a single transaction usually doesn't count.
+
+- **Holding funds.** Funds are held when they're at rest, available for later withdrawal or transfer, and owed to the end user. Funds in transit aren't held. If you do hold funds, our [safeguarding guide](https://amlcanada.ca/rpaa-safeguarding-end-user-funds.html) explains what follows.
+
+- **Initiating an EFT.** You initiate a transfer when you create the first payment instruction by capturing and packaging the payer's or payee's data. This covers push and pull payments.
+
+- **Authorizing or transmitting instructions.** This includes enabling consent, confirming funds are available, and providing the platforms or interfaces that carry payment instructions.
+
+- **Clearing or settlement.** Clearing includes netting and calculating positions before settlement. Settlement includes posting debits and credits. Software used only for a merchant's accounting or reporting usually doesn't count.
+
+An end user is the payer or payee, who may not be your direct customer when several PSPs are involved.
+
+### The incidental test
+
+A business that performs payment functions only to support another business isn't a PSP. The Act builds this into the PSP definition, and section 3 of the [Retail Payment Activities Regulations](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2023-229/FullText.html) excludes an incidental retail payment activity unless the other business itself consists of performing a payment function.
+
+The Bank's policy says payment functions may be incidental if they exist only to support your non-payment services or improve the customer's experience of them. You're more likely to be a PSP if payments are a distinct business, especially when you facilitate payments between other buyers and sellers. The Bank weighs three indicators:
+
+- revenue or commercial advantage, including indirect benefits such as data that could later be monetized;
+
+- whether end users reasonably expect to receive a payment service;
+
+- marketing and branding that promote payments.
+
+The Bank's [merchant scenarios](https://www.bankofcanada.ca/2023/12/case-scenarios-about-merchants-and-the-incidental-payment-function/) show where the line falls. An online boot retailer that stores a customer's name and address to speed up checkout maintains an account, but the function is incidental and it doesn't register. If the same retailer lets unaffiliated merchants accept payments through its app for a fee on each transaction, payments become a business line of their own and the retailer must register. The Bank expects businesses to reassess as they change.
+
+### How the test applies to common business models
+
+The Bank's fictional case scenarios are illustrative and aren't legal advice, but they show how it reasons. A selection:
+
+| Business model | Bank's conclusion | Why |
+
+| Payment gateway that captures card data and relays it to a processor, for a fee per transaction | PSP | It initiates EFTs and transmits instructions. Handling funds isn't required (gateway scenarios) |
+
+| Website builder whose checkout redirects to another provider's page | Not a PSP | No payment function. Adding its own paid gateway would make it a PSP |
+
+| Money transfer operator that sends funds abroad straight away | PSP | It stores customer data, initiates EFTs and transmits instructions (remittance scenarios) |
+
+| Remittance firm that also offers a multi-currency wallet | PSP | It also holds funds, so the safeguarding rules apply |
+
+| Online marketplace that receives sale proceeds in an account it owns or controls | PSP | Even if another PSP handles part of the process. If funds never pass through its account, it generally isn't a PSP (marketplace policy) |
+
+| Exchange dealing only in cryptocurrency | Not a PSP | No transfer in Canadian or foreign currency takes place (crypto scenarios) |
+
+| Crypto exchange that also holds fiat for trading and is subject to securities law | Doesn't need to register | Payments are incidental to trading, and the securities exclusions apply |
+
+| Crypto-backed prepaid card that earns interchange fees | PSP | The card is a separate revenue stream |
+
+| Counter that exchanges currency for cash only | Not a PSP | No EFT is involved |
+
+### Place of business and foreign PSPs
+
+The Bank treats you as having a place of business in Canada if you have a physical location here, including a home office, are incorporated here, or have employees, agents or mandataries here.
+
+A PSP with no place of business in Canada is still covered if it performs retail payment activities for end users in Canada and directs those activities at Canada (RPAA section 5). To locate end users, the Bank looks at factors such as IP address, shipping or service address and whether the product is localized for Canada. Signs of directing activities at Canada include marketing aimed at Canadians, a .ca domain, offering Canadian dollars or Canadian support, and a target market largely in Canada.
+
+Marketing only to test demand doesn't trigger registration, but serving end users here does. In the Bank's [geographic scope scenarios](https://www.bankofcanada.ca/2023/12/case-scenarios-about-geographic-scope/), a foreign payment app that reaches Canadian merchants through an agreement with a Canadian PSP must register, and a foreign app's Canadian subsidiary registers in its own right. A foreign applicant also names an agent or mandatary in Canada authorized to accept notices and orders for it (RPAA paragraph 29(1)(o)).
+
+### Exclusions: the details that decide close cases
+
+Our [RPAA overview](https://amlcanada.ca/rpaa-registration-guide.html) lists the exclusions in sections 6 to 10 of the Act. These points from the Bank's policy settle most close cases:
+
+- **Affiliates of excluded institutions.** Banks, credit unions, insurers and other institutions listed in section 9 are outside the Act. Their affiliates must register unless OSFI or the provincial regulator supervises them on a consolidated basis.
+
+- **Merchant instruments.** Instruments usable only at the issuing merchant or within a specific group of merchants are excluded. Wide-use instruments may not be.
+
+- **Securities transactions.** Payments that give effect to securities transactions are excluded only when performed by an entity regulated, or exempted from regulation, under Canadian securities law. Its other payments may still be in scope.
+
+- **Designated systems.** Payment functions performed using a system designated under the Payment Clearing and Settlement Act are excluded (section 7). Functions you perform outside the system are not.
+
+- **Internal transactions.** Transfers between affiliated entities are excluded only when no other PSP is involved (section 8). Payments to unaffiliated customers don't qualify, even if they move through an internal ledger.
+
+### Agents, mandataries and third-party providers
+
+Section 10 takes an agent or mandatary of a registered PSP outside the Act while it acts within its authority and appears on the list of agents the PSP gave the Bank. The PSP keeps that list up to date and is liable for violations committed by its employees, agents, mandataries and third-party service providers within the scope of their role (section 87).
+
+The Bank's [agent scenarios](https://www.bankofcanada.ca/2023/12/case-scenarios-about-agents-and-mandataries/) draw three lines. A retailer that pays out cash only on behalf of a registered remittance company doesn't register. An agent that also offers payment services to its own customers must register for those services. An agent acting for a bank, which is excluded rather than registered, may have to register itself.
+
+Third-party service providers, which supply a PSP with a payment-related service under contract, aren't excluded. The PSP discloses them and stays responsible for them. Each affiliated PSP in a group also registers separately, even when its parent is registered.
+
+### Before you apply
+
+Run the four parts for each product line and keep a written record. The Bank's [refusal policy](https://www.bankofcanada.ca/2025/08/refusal-or-revocation-of-registration-under-the-rpaa/) lists, among its grounds, that the RPAA doesn't apply to the applicant. Many businesses that register with the Bank also need FINTRAC registration. Our guide to [RPAA vs FINTRAC MSB registration](https://amlcanada.ca/rpaa-vs-fintrac-msb-registration.html) explains how the two fit together, and our [RPAA registration service](https://amlcanada.ca/rpaa-registration.html) starts with this scoping work before preparing the application.
+
+### Questions
+
+**Do I need to register with the Bank of Canada if I don't hold customer funds?** Possibly. Holding funds is only one of the five payment functions. A payment gateway that captures card data and relays it to a processor is a PSP in the Bank's own example, even though it never handles funds.
+
+**Do crypto exchanges need to register under the RPAA?** It depends on the model. In the Bank's examples, an exchange dealing only in cryptocurrency doesn't register, and neither does one whose fiat functions are incidental to trading and covered by the securities exclusions. A crypto-backed prepaid card that earns interchange fees is a PSP.
+
+**Does an online marketplace need to register as a PSP?** Under the Bank's December 2025 policy, a marketplace that receives sale proceeds in an account it owns or controls is a PSP, even if it uses another PSP for part of the process. A marketplace whose funds never pass through its own account generally isn't.
+
+**Do foreign payment companies have to register with the Bank of Canada?** Yes, if they perform retail payment activities for end users in Canada and direct those activities at Canada. Marketing only to test demand doesn't trigger registration, but serving Canadian end users does.
+
+**Is there a minimum size or revenue for RPAA registration?** No. The Bank's FAQ says every PSP in scope must register for itself, regardless of size and whether or not the business generates revenue.
+
+Sources: [Bank of Canada, Criteria for registering payment service providers](https://www.bankofcanada.ca/2026/06/criteria-for-registering-payment-service-providers/); [Bank of Canada, Supervisory policy for online marketplaces](https://www.bankofcanada.ca/2025/12/supervisory-policy-for-online-marketplaces/); [Case scenarios: e-commerce web building tools and payment gateways](https://www.bankofcanada.ca/2024/08/case-scenarios-about-e-commerce-web-building-tools-and-payment-gateways/); [Case scenarios: remittance service providers](https://www.bankofcanada.ca/2024/08/case-scenarios-about-remittance-service-providers/); [Case scenarios: services backed by cryptocurrencies](https://www.bankofcanada.ca/2024/10/case-scenarios-about-providers-of-services-backed-by-cryptocurrencies/); [Case scenarios: merchants and the incidental payment function](https://www.bankofcanada.ca/2023/12/case-scenarios-about-merchants-and-the-incidental-payment-function/); [Case scenarios: agents and mandataries](https://www.bankofcanada.ca/2023/12/case-scenarios-about-agents-and-mandataries/); [Case scenarios: geographic scope](https://www.bankofcanada.ca/2023/12/case-scenarios-about-geographic-scope/); [Refusal or revocation of registration under the RPAA](https://www.bankofcanada.ca/2025/08/refusal-or-revocation-of-registration-under-the-rpaa/); [Retail payments supervision FAQ](https://www.bankofcanada.ca/2026/08/frequently-asked-questions-about-retail-payments-supervision/); [Retail Payment Activities Act](https://laws-lois.justice.gc.ca/eng/acts/R-7.36/FullText.html); [Retail Payment Activities Regulations](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2023-229/FullText.html). Checked 21 October 2026.
+
+---
+
+## Guide: The RPAA annual report for payment service providers
+
+URL: https://amlcanada.ca/rpaa-annual-report.html
+
+Every payment service provider that performs retail payment activities in a calendar year must file an annual report with the Bank of Canada by March 31 of the following year. It covers your risk management and incident response framework, safeguarding, activity metrics and financial results.
+
+**Key points:**
+- File the report in PSP Connect by March 31 for the previous calendar year.
+- Financial metrics use your most recent financial year-end. Everything else uses the calendar year.
+- The form asks for monthly figures on held funds and transfers, so collect them as the year goes.
+- A late report costs $500 a day for up to 30 days, then $15,000 to $1,000,000.
+
+### Who files, and when
+
+Section 21 of the [Retail Payment Activities Act](https://laws-lois.justice.gc.ca/eng/acts/R-7.36/FullText.html) (RPAA) requires a payment service provider (PSP) that performs retail payment activities to submit an annual report to the Bank of Canada. Under section 18 of the [Retail Payment Activities Regulations](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2023-229/FullText.html), a PSP that performs retail payment activities in a calendar year must submit the report for that year no later than March 31 of the following year. The report for 2026 is due by March 31, 2027.
+
+The Bank's [FAQ](https://www.bankofcanada.ca/2026/08/frequently-asked-questions-about-retail-payments-supervision/) says the first annual report covered 2025. The Bank makes the form available in PSP Connect ahead of the deadline and, according to its [step-by-step guide](https://www.bankofcanada.ca/wp-content/uploads/2026/01/How-to-complete-an-annual-report-A-step-by-step-guide.pdf), notifies PSPs when it's ready to complete. If you aren't yet sure whether you're a PSP at all, start with [who must register under the RPAA](https://amlcanada.ca/who-must-register-psp-rpaa.html).
+
+### The reporting period
+
+The reporting year is the calendar year (subsection 19(5) of the regulations). Financial metrics are the exception. The Bank's [annual reporting policy](https://www.bankofcanada.ca/2024/10/annual-reporting/) says you give your most recent figures based on your financial year-end. The guide's example: if your year ends on June 30, you report financial metrics as at June 30, 2026 in the 2026 report, due by March 31, 2027.
+
+Financial metrics are reported in Canadian dollars. If your statements are in another currency, you calculate the Canadian dollar equivalent. You may report unaudited figures if the audit for the year won't be finished before the deadline, or if you don't prepare audited statements for any other purpose.
+
+### What the report contains
+
+Section 19 of the regulations lists the information. In summary:
+
+- **Risk management and incident response framework.** Changes made during the year and plans for maintaining the framework; its objectives, reliability targets and indicators; your operational risks and their causes; how you classified assets and business processes; the controls in place; the resources and roles assigned; how approvals were obtained; training; the reviews, testing and independent reviews carried out; and a description of any incidents.
+
+- **Safeguarding, if you hold end-user funds.** Who provides your safeguarding account and who regulates them; any other PSP through which you use an account; any insurer or guarantor and the terms of cover; how you safeguard funds; your safeguarding framework; each shortfall found during the year with its root cause and the measures taken; and any independent review. Our [safeguarding guide](https://amlcanada.ca/rpaa-safeguarding-end-user-funds.html) covers these requirements.
+
+- **Size and connections.** The maximum value of end-user funds held at any time; for each month, the average end-of-day value of funds held and the number and value of transfers, broken down by currency and for end users in Canada; the number of end users; and the number of other PSPs you served. A PSP without a place of business in Canada reports the Canadian figures.
+
+- **Other information.** Significant changes made, activities started or stopped, changes in your use of third-party providers and agents, your record-keeping practices, and financial metrics including revenues, gross and operating profit or loss, assets, liabilities and equity.
+
+The current form starts by asking you to confirm or update your registration information. It then has six sections: operational risk and incident management, safeguarding, significant changes and incidents, ubiquity and interconnectedness, financial information, and record-keeping. In the incident section you count every incident in the year by type, including those that weren't material enough to report under section 18.
+
+### How it's filed
+
+You file through PSP Connect, under Reporting, then Annual Reporting. You can save your progress and return later, and the Bank sends a confirmation of receipt once you submit. Its policy says the form may change from year to year, with instructions when the questions change, and the Bank may ask for more information after it reviews your answers. Section 61 of the Act prohibits giving the Bank false or misleading information, and that includes the annual report.
+
+### Late or missing reports
+
+Missing the deadline is a violation. For a violation of section 21, the regulations (section 48) set the penalty at $500 for each day it continues, for up to 30 days. After 30 days the range is $15,000 to $1,000,000. The Bank's [June 2026 reminder](https://www.bankofcanada.ca/2026/06/reminder-psp-reporting-obligations-under-rpaa/) says PSPs that don't meet reporting requirements may face enforcement action. On June 12, 2026, the Bank [announced](https://www.bankofcanada.ca/2026/06/bank-canada-begin-publishing-notices-violation-payment-service-providers/) it would start publishing notices of violation and noting them on the PSP's entry in its public registry.
+
+### Other reports during the year
+
+The annual report sits alongside event-driven filings, all made through PSP Connect:
+
+| Report | When it's needed | Timing |
+
+| Incident notice | An incident with a material impact on an end user, another PSP or a designated clearing house (RPAA s.18) | Without delay, and no later than 48 hours after you determine it's material |
+
+| Significant change or new activity | A change that could reasonably be expected to have a material impact on operational risks or safeguarding, or a new retail payment activity (RPAA s.22) | At least five business days before |
+
+| Change to registration information | Changes such as your name, address, structure, agents or third-party providers (RPAA s.59) | Within 30 days after the change |
+
+| Change to prescribed information | Information used for the national security review, such as directors and major shareholders (RPAA s.60) | As soon as feasible, and some changes 30 or 60 days before they take effect |
+
+| Acquisition of control | Someone plans to acquire control of the PSP (RPAA s.24) | A new application, and registration under it, before the acquisition |
+
+One change can trigger more than one filing. The Bank's policy on [reporting changes to registration information](https://www.bankofcanada.ca/2026/06/reporting-changes-to-registration-information/) gives the example of a PSP that starts holding end-user funds and engages a new third-party provider: it files a significant change notice and a change of registration information. Our guide to [RPAA incident reporting](https://amlcanada.ca/rpaa-incident-reporting.html) covers incident notices in detail.
+
+### Preparing through the year
+
+Most of the work is collecting information you already produce, in the form the Bank asks for. A few habits make March easier:
+
+- Record held funds and transfer volumes and values each month, split by currency and between end users in Canada and elsewhere.
+
+- Log every incident, material or not, with its type.
+
+- Keep a shortfall log if you hold end-user funds, with the root cause and fix for each one.
+
+- Date your framework approvals. The regulations require your senior officer and board, if you have one, to approve the risk management and incident response framework at least once a year (section 5).
+
+- Keep the record of each review and test. The regulations also require records sufficient to show you comply (section 40).
+
+Our [RPAA compliance program](https://amlcanada.ca/rpaa-compliance-program.html) includes a framework for the annual report and change notices, and outsourced compliance officer hours can cover preparing the report itself.
+
+### Questions
+
+**When is the RPAA annual report due?** By March 31 of the year after the reporting year. The report for 2026 is due by March 31, 2027.
+
+**What period does the RPAA annual report cover?** The previous calendar year. Financial metrics are the exception: you report them as at your most recent financial year-end.
+
+**Do I have to file if I don't hold end-user funds?** Yes, if you performed retail payment activities during the year. The safeguarding information applies only to PSPs that hold end-user funds.
+
+**What happens if a PSP files its annual report late?** It's a violation. The penalty is $500 a day for up to 30 days, then $15,000 to $1,000,000, and the Bank has said it will publish notices of violation.
+
+**Do the financial figures have to be audited?** No, not in every case. You may report unaudited figures if your audit won't be finished before the deadline or if you don't prepare audited statements for any other purpose.
+
+Sources: [Retail Payment Activities Act](https://laws-lois.justice.gc.ca/eng/acts/R-7.36/FullText.html); [Retail Payment Activities Regulations](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2023-229/FullText.html); [Bank of Canada, Annual reporting (supervisory policy)](https://www.bankofcanada.ca/2024/10/annual-reporting/); [Bank of Canada, How to complete an annual report: A step-by-step guide](https://www.bankofcanada.ca/wp-content/uploads/2026/01/How-to-complete-an-annual-report-A-step-by-step-guide.pdf); [Bank of Canada, Reminder: PSP reporting obligations under the RPAA](https://www.bankofcanada.ca/2026/06/reminder-psp-reporting-obligations-under-rpaa/); [Bank of Canada, Reporting changes to registration information](https://www.bankofcanada.ca/2026/06/reporting-changes-to-registration-information/); [Bank of Canada, Publishing notices of violation](https://www.bankofcanada.ca/2026/06/bank-canada-begin-publishing-notices-violation-payment-service-providers/); [Retail payments supervision FAQ](https://www.bankofcanada.ca/2026/08/frequently-asked-questions-about-retail-payments-supervision/). Checked 21 October 2026.
+
+---
+
+## Guide: RPAA vs FINTRAC MSB registration: do you need both?
+
+URL: https://amlcanada.ca/rpaa-vs-fintrac-msb-registration.html
+
+Payment service providers register with the Bank of Canada under the RPAA. Money services businesses register with FINTRAC under the PCMLTFA. Many payment businesses are both, and the two registrations are linked: the Bank shares your application with FINTRAC and can refuse it based on what FINTRAC reports.
+
+**Key points:**
+- The RPAA deals with operational risk and safeguarding. The PCMLTFA deals with money laundering and terrorist financing.
+- A remittance business is usually both a PSP and an MSB. A crypto-only exchange or a cash currency counter can be an MSB without being a PSP.
+- The Bank sends your application details to FINTRAC, and FINTRAC reports back within 30 days.
+- If you're an MSB, put the FINTRAC registration in place first or alongside the Bank application.
+
+### Two laws, two regulators
+
+The [Retail Payment Activities Act](https://laws-lois.justice.gc.ca/eng/acts/R-7.36/FullText.html) (RPAA) gives the Bank of Canada the job of supervising payment service providers (PSPs) to check they comply with the Act. Its focus is operational risk, incident response and the safeguarding of end users' funds. The [Proceeds of Crime (Money Laundering) and Terrorist Financing Act](https://laws-lois.justice.gc.ca/eng/acts/P-24.501/FullText.html) (PCMLTFA) is Canada's anti-money laundering law, and FINTRAC supervises the businesses it covers, including money services businesses (MSBs).
+
+The tests are different. You're a PSP because of the payment functions you perform. You're an MSB because of the money services you provide. One business can meet both tests, one test or neither. The Bank's own registration guide says applicants must register with FINTRAC if they are considered an MSB.
+
+### Side-by-side comparison
+
+| Aspect | RPAA (PSP) | FINTRAC (MSB) |
+
+| Regulator | Bank of Canada | FINTRAC |
+
+| Law | Retail Payment Activities Act and its regulations | PCMLTFA and its regulations |
+
+| Who | Businesses that perform payment functions for end users as a distinct business, for electronic transfers in Canadian or foreign currency, with a link to Canada. See who must register as a PSP | Businesses providing foreign exchange dealing, remitting or transmitting funds, transporting currency or negotiable instruments, issuing or redeeming money orders and similar instruments, dealing in virtual currencies, acquirer services for private ATMs, or a prescribed service (PCMLTFA 5(h)), including foreign MSBs serving Canada (5(h.1)) |
+
+| Timing | Registered before performing any retail payment activities (s.23) | Registration required (s.11.1), renewed every two years (s.11.19) |
+
+| Fees | One-time, non-refundable application fee, $2,500 from November 1, 2024, indexed each January | See our MSB registration cost guide |
+
+| Main ongoing obligations | Risk management and incident response framework, incident notices, safeguarding if you hold funds, annual report, change notices | Compliance program (s.9.6), suspicious transaction reports (s.7) and the other FINTRAC reports, record keeping (s.6) and identity verification (s.6.1) |
+
+| Penalties | Up to $1,000,000 for a serious violation and $10,000,000 for a very serious one. Late reports and notices: $500 a day for up to 30 days, then $15,000 to $1,000,000 | Up to $40,000 for a minor violation, $4,000,000 for a serious one and $20,000,000 for a very serious one, subject to caps in s.73.1 of the Act. Failing to register is a serious violation |
+
+The RPAA figures come from section 48 of the [Retail Payment Activities Regulations](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2023-229/FullText.html). The FINTRAC ranges come from section 5 of the [PCMLTFA Administrative Monetary Penalties Regulations](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2007-292/FullText.html), as amended in 2026. For an individual, the Act caps a single violation at $4,000,000.
+
+### Which business models need both
+
+The Bank's published case scenarios, read with the MSB services listed in the PCMLTFA, show how common models fall:
+
+- **Money transfer and remittance apps.** The Bank treats a money transfer operator as a PSP, and one that also offers a multi-currency wallet holds funds as well ([remittance scenarios](https://www.bankofcanada.ca/2024/08/case-scenarios-about-remittance-service-providers/)). Remitting or transmitting funds is also an MSB service. Expect to need both.
+
+- **Crypto-backed payment cards.** The Bank's [crypto scenarios](https://www.bankofcanada.ca/2024/10/case-scenarios-about-providers-of-services-backed-by-cryptocurrencies/) treat a crypto-backed prepaid card that earns interchange fees as a PSP. Dealing in virtual currencies is an MSB service. Expect to need both.
+
+- **Crypto-only exchanges.** The Bank says an exchange dealing only in cryptocurrency performs no retail payment activity. Dealing in virtual currencies still makes it an MSB. FINTRAC only. Our [crypto registration guide](https://amlcanada.ca/crypto-registration-canada.html) covers that side.
+
+- **Cash currency exchange counters.** The Bank's example of a business exchanging currency for cash isn't a PSP, because no electronic transfer is involved. Foreign exchange dealing is an MSB service. FINTRAC only.
+
+- **Payment gateways and marketplaces.** These can be PSPs without moving money in the way a remitter does. Whether they're also MSBs depends on what they do with funds, so check the FINTRAC side separately.
+
+### How the Bank and FINTRAC share information
+
+The link between the two registrations is written into both Acts:
+
+- The Bank's application asks whether you're registered with FINTRAC (RPAA paragraph 29(1)(l)). Its [step-by-step guide](https://www.bankofcanada.ca/wp-content/uploads/2024/01/How-to-complete-a-registration-application-a-step-by-step-guide.pdf) asks for your FINTRAC registration number and issue date.
+
+- Once the Bank considers your application complete, it sends FINTRAC your name, address, structure, agents and description of activities (RPAA section 31).
+
+- Within 30 days, FINTRAC must tell the Bank if, in the past five years, you were found guilty of certain PCMLTFA offences or served with a decision or penalty for a serious or very serious violation, or if you aren't registered under the PCMLTFA (PCMLTFA section 53.6).
+
+- After registration, FINTRAC tells the Bank if it revokes your FINTRAC registration or penalizes you for a serious or very serious violation, and it may share other compliance information relevant to the Bank's role (sections 53.6 and 65.03).
+
+On the Bank's side, these are grounds to refuse or revoke. The RPAA lets the Bank refuse an applicant that has such a conviction or penalty, or that isn't registered in accordance with section 11.1 of the PCMLTFA (section 48). The same matters are grounds to revoke an existing registration (section 52). The Bank's [supervisory framework](https://www.bankofcanada.ca/regulatory-oversight/retail-payments/supervisory-framework/) states that it can refuse or revoke registration based on information provided by FINTRAC.
+
+### Order of operations
+
+For a business that needs both, a sensible sequence is:
+
+- **Map your activities against both tests.** List each product and the payment functions and money services it involves.
+
+- **Put your FINTRAC registration in place first, or file both together.** The Bank asks for your FINTRAC number, and FINTRAC reports to the Bank if you aren't registered.
+
+- **Deal with any open FINTRAC issues.** A serious or very serious violation in the past five years is a refusal ground under the RPAA.
+
+- **Prepare the Bank application.** Describe the same business in the same way in both, since the Bank passes your application details to FINTRAC.
+
+- **Keep both registrations current.** Report changes to each regulator on its own timeline, and renew with FINTRAC every two years.
+
+Our [MSB registration](https://amlcanada.ca/msb-registration.html) and [RPAA registration](https://amlcanada.ca/rpaa-registration.html) services can be run together, and our guide to [registering an MSB with FINTRAC](https://amlcanada.ca/how-to-register-msb-canada.html) covers the FINTRAC application step by step.
+
+### Questions
+
+**What is the difference between a PSP and an MSB in Canada?** A payment service provider performs payment functions and registers with the Bank of Canada under the RPAA. A money services business provides money services, such as remitting funds or dealing in virtual currencies, and registers with FINTRAC under the PCMLTFA. One business can be both.
+
+**Does RPAA registration replace FINTRAC registration?** No. They're separate registrations under separate laws. The Bank asks for your FINTRAC registration details in its application.
+
+**Can the Bank of Canada refuse my application because of FINTRAC?** Yes. The RPAA lets the Bank refuse an applicant that isn't registered under section 11.1 of the PCMLTFA, or that has certain PCMLTFA convictions or serious or very serious violations in the past five years.
+
+**Should I register with FINTRAC or the Bank of Canada first?** If you're an MSB, have the FINTRAC registration in place first or file both together, because the Bank asks for your FINTRAC number and FINTRAC reports to the Bank if you aren't registered.
+
+**Does a crypto exchange need both registrations?** Not always. In the Bank's example, an exchange dealing only in cryptocurrency isn't a PSP, but dealing in virtual currencies makes it an MSB. A crypto-backed payment card is a PSP in the Bank's example.
+
+Sources: [Retail Payment Activities Act](https://laws-lois.justice.gc.ca/eng/acts/R-7.36/FullText.html); [Retail Payment Activities Regulations](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2023-229/FullText.html); [Proceeds of Crime (Money Laundering) and Terrorist Financing Act](https://laws-lois.justice.gc.ca/eng/acts/P-24.501/FullText.html); [PCMLTFA Administrative Monetary Penalties Regulations](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2007-292/FullText.html); [Bank of Canada, Supervisory framework](https://www.bankofcanada.ca/regulatory-oversight/retail-payments/supervisory-framework/); [Bank of Canada, How to complete a registration application](https://www.bankofcanada.ca/wp-content/uploads/2024/01/How-to-complete-a-registration-application-a-step-by-step-guide.pdf); [Bank of Canada, Registration application fee](https://www.bankofcanada.ca/2024/10/registration-application-fee/); [Case scenarios: remittance service providers](https://www.bankofcanada.ca/2024/08/case-scenarios-about-remittance-service-providers/); [Case scenarios: services backed by cryptocurrencies](https://www.bankofcanada.ca/2024/10/case-scenarios-about-providers-of-services-backed-by-cryptocurrencies/). Checked 21 October 2026.
+
+---
+
+## Guide: RPAA incident reporting and the 48-hour rule
+
+URL: https://amlcanada.ca/rpaa-incident-reporting.html
+
+When a payment service provider becomes aware of an incident with a material impact, it must notify the Bank of Canada and the affected end users, payment service providers and clearing houses without delay. The Bank expects the first notice no later than 48 hours after the provider decides the incident is material.
+
+**Key points:**
+- Only incidents with a material impact are reported, but every incident must be investigated and documented.
+- The 48 hours run from when you determine an incident is material, not from when it started.
+- File an initial notice and a final notice in PSP Connect, with interim notices as things develop.
+- Notify affected end users directly. A social media post alone isn't enough.
+
+### What the law requires
+
+Section 18 of the [Retail Payment Activities Act](https://laws-lois.justice.gc.ca/eng/acts/R-7.36/FullText.html) (RPAA) says that if a payment service provider (PSP) becomes aware of an incident that has a material impact on an end user, another PSP or a designated clearing house, it must, without delay, notify that individual or entity and the Bank of Canada. The other PSP doesn't have to be one the RPAA applies to. Sections 11 and 12 of the [Retail Payment Activities Regulations](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2023-229/FullText.html) set out the form and content of the notices. The Bank can also order a PSP to give follow-up notices (RPAA section 19).
+
+The Bank explains how it expects PSPs to comply in its [Incident notification guideline](https://www.bankofcanada.ca/wp-content/uploads/2024/02/Incident-notification.pdf) (October 2024) and its [step-by-step guide](https://www.bankofcanada.ca/wp-content/uploads/2025/05/how-complete-incident-step-by-step-guide.pdf) to the notice form (May 2025).
+
+### What counts as an incident
+
+The Act defines an incident as an unplanned event, or series of related events, that results in, or could reasonably be expected to result in, the reduction, deterioration or breakdown of any retail payment activity the PSP performs. The Bank reads this to include any negative impact on the confidentiality, integrity or availability of your retail payment activities, or of the systems, data and information behind them.
+
+Incidents at your agents, mandataries and third-party service providers count, as do incidents they detect. If one of them has a material impact, you report it.
+
+### When an incident has a material impact
+
+Only material incidents are reportable under section 18. The guideline leaves the judgment to you, based on your business model, the services you offer and other relevant factors. It gives examples, which it says aren't exhaustive:
+
+- **Lost funds.** Any amount of an end user's held funds becomes unrecoverably lost or permanently unavailable, for example through theft or a system flaw at the PSP, or because the institution holding the funds fails. Losses caused by the end user's own actions, such as authorized fraud, are not included.
+
+- **Outages.** An outage that materially affects the availability of your retail payment activities, such as one caused by a technology failure, loss of a data centre, hosting or third party, or a cyber attack.
+
+- **Insolvency.** The PSP becomes subject to an insolvency event listed in the regulations.
+
+- **Confidentiality breaches.** Unauthorized access to or disclosure of confidential information that creates a real risk of significant harm, such as financial loss, identity theft, damage to reputation or bodily harm. This covers more than personal information. Weigh how sensitive the information is and how likely it is to be misused.
+
+- **Integrity failures.** A compromised ledger or transaction records, a payee receiving a different amount than the payer sent, funds routed to the wrong account, misdirected instructions, or errors in clearing or settlement.
+
+Incidents that aren't material don't need a section 18 notice. You still have to investigate, respond to and document every incident, and the Bank may ask about them. Your annual report also counts all incidents by type. See our guide to the [RPAA annual report](https://amlcanada.ca/rpaa-annual-report.html).
+
+### The 48-hour clock
+
+The guideline sets the deadline as without delay, but no later than 48 hours after the PSP determines the incident is material. The Bank's [June 2026 reminder](https://www.bankofcanada.ca/2026/06/reminder-psp-reporting-obligations-under-rpaa/) repeats it. If an incident starts out below the threshold and gets worse, the 48 hours run from the point you determine it has become material.
+
+The notice form asks separately when the incident started, when it was detected and when you became aware it was material. Record all three as they happen. Build your escalation process so that someone with authority makes the materiality decision promptly, since the duty is to notify without delay.
+
+### Notifying the Bank: initial, interim and final notices
+
+Notices go to the Bank through PSP Connect, under Reporting, then Incident. The guideline describes three kinds:
+
+- **Initial notice**, within the 48 hours, for every material incident.
+
+- **Interim notices**, when there are significant developments or useful updates. You can file more than one.
+
+- **Final notice**, once the incident is resolved and the root cause is known.
+
+If the incident is resolved and you have everything, including the root cause, within the 48 hours, one notice can serve as both initial and final. If your systems are so degraded that you can't file online, the Bank accepts notices by phone in exceptional circumstances.
+
+Under section 11 of the regulations, the notice must give your name and a contact person, a description of the incident and its material impact, and the measures you've taken. The guideline expects dates and times for start, detection, the materiality decision and resolution; how the incident was detected; which retail payment activities were affected; the actual or estimated impact, such as the number of people affected; the impact on systems and data; and the root cause analysis.
+
+### Notifying end users, other PSPs and clearing houses
+
+Section 12 of the regulations requires you to notify each materially affected individual or entity using the most recent contact information they gave you. If you don't have contact details for everyone affected, you post the notice on your website. The guideline expects these notices within the same 48 hours.
+
+- Email, text message or your app are suitable. A post on social media isn't, although you can use social media as well.
+
+- The notice gives your name, a description of the incident with when it began, its impact on the person notified, and any steps they can take, such as changing a password.
+
+- If an incident at PSP A affects PSP B, A notifies B and its own affected users, and B then notifies its users if the incident is material for them.
+
+- If notifying users within 48 hours could increase the risk of harm or the incident, or isn't feasible, tell the Bank through the incident template. The Bank expects this to be rare.
+
+### Privacy law and clearing house rules
+
+A breach that is reportable under privacy law is still reportable to the Bank under the RPAA. You can send affected people a single notice if it meets the requirements of every law that applies. Members of clearing and settlement systems may also have reporting duties under the system's rules. Meeting one set of obligations doesn't satisfy the other, and all material incidents still go to the Bank.
+
+### After the notice
+
+The Bank can order follow-up notices, setting who receives them, when, and what they say. It can also send an information request. Normally you have 15 days to answer, but for an ongoing incident that could have a significant adverse impact on end users, other PSPs or certain clearing houses, the regulations allow only 24 hours (section 43).
+
+The notices depend on your risk management and incident response framework, which must allocate roles for detecting, responding to and recovering from incidents. Our [RPAA compliance program](https://amlcanada.ca/rpaa-compliance-program.html) includes an incident response framework with escalation steps, a materiality assessment and notice templates. If you hold end-user funds, read it with our [safeguarding guide](https://amlcanada.ca/rpaa-safeguarding-end-user-funds.html), since lost or inaccessible funds are a material incident.
+
+### Questions
+
+**How long does a PSP have to report an incident to the Bank of Canada?** Without delay, and no later than 48 hours after it determines that the incident has a material impact on an end user, another PSP or a designated clearing house.
+
+**Do all incidents have to be reported under the RPAA?** No. Only incidents with a material impact need a section 18 notice. Every incident must still be investigated, responded to and documented, and all incidents are counted in the annual report.
+
+**How do you submit an RPAA incident notice?** Through PSP Connect, using the Bank's incident notice form. You file an initial notice, interim notices as needed, and a final notice once the incident is resolved and the root cause is known.
+
+**Does a PSP have to tell customers about an incident?** Yes, if they're materially affected. Notify them directly using their latest contact details, or post a notice on your website if you don't have contact details for everyone.
+
+**Do incidents at a third-party provider count?** Yes. Incidents that occur at or are detected by your agents, mandataries or third-party service providers are reportable if they have a material impact.
+
+Sources: [Retail Payment Activities Act](https://laws-lois.justice.gc.ca/eng/acts/R-7.36/FullText.html); [Retail Payment Activities Regulations](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2023-229/FullText.html); [Bank of Canada, Incident notification guideline (October 2024)](https://www.bankofcanada.ca/wp-content/uploads/2024/02/Incident-notification.pdf); [Bank of Canada, How to complete an incident notice: A step-by-step guide](https://www.bankofcanada.ca/wp-content/uploads/2025/05/how-complete-incident-step-by-step-guide.pdf); [Bank of Canada, Reminder: PSP reporting obligations under the RPAA](https://www.bankofcanada.ca/2026/06/reminder-psp-reporting-obligations-under-rpaa/). Checked 21 October 2026.

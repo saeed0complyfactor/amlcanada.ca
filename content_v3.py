@@ -723,3 +723,120 @@ DEEP["incorporation-canada.html"] = dict(
           ("Should we incorporate before registering as an MSB?", "Usually, yes. The company is what registers with FINTRAC, so incorporating first means the registration can start straight away.")],
     related=["msb-registration.html", "canadian-address.html", "rpaa-registration.html"],
 )
+
+
+# ------------------------------------------------------------------ apostille & notarization (added 21 October 2026)
+
+# ------------------------------------------------------------------ apostille and notarization (scoped)
+# Owner-confirmed 21 October 2026: corporate documents only; AML Canada coordinates, a licensed
+# Ontario partner notary (unnamed) notarizes; fee quoted per document set; government fees separate;
+# no turnaround promise, no remote notarization, no personal documents, no legal advice.
+# Facts checked 21 October 2026 against the official pages below.
+AP_GAC = "https://international.canada.ca/en/global-affairs/services/document-authentication"
+AP_GAC_REQ = "https://international.canada.ca/en/global-affairs/services/document-authentication/requirements"
+AP_GAC_FAQ = "https://international.canada.ca/en/global-affairs/services/document-authentication/faq"
+AP_GAC_GLOSS = "https://international.canada.ca/en/global-affairs/services/document-authentication/glossary"
+AP_GAC_PORTAL = "https://apostille-gac.powerappsportals.com/en/search-document/"
+AP_GAC_NEWS = "https://www.canada.ca/en/global-affairs/news/2023/12/improving-authentication-services-in-canada.html"
+AP_HCCH = "https://www.hcch.net/en/instruments/conventions/status-table/?cid=41"
+AP_ON = "https://www.ontario.ca/page/authenticate-document-use-outside-canada"
+AP_ON_NOTARY = "https://www.ontario.ca/page/information-notaries-public-ontario"
+AP_BC_FEES = "https://www2.gov.bc.ca/gov/content/governments/government-id/guide-to-the-authentication-of-documents/fees"
+AP_AB = "https://www.alberta.ca/document-authentication-other-jurisdictions-countries"
+AP_SK = "https://www.saskatchewan.ca/government/notarized-documents-legislation-maps/authenticating-notarized-documents"
+AP_QC_ABOUT = "https://www.quebec.ca/en/justice-and-civil-status/services/apostille/about"
+AP_QC_APPLY = "https://www.quebec.ca/en/justice-and-civil-status/services/apostille/applying"
+
+DEEP["apostille-notarization-canada.html"] = dict(
+    checked="21 October 2026",
+    name="Apostille & notarization",
+    modified="2026-10-21",
+    title="Apostille Services Canada for Corporate Documents | AML Canada",
+    desc="Apostille and notarization of Canadian corporate documents for foreign banks, payment partners and regulators, with a licensed Ontario partner notary.",
+    service_type="Apostille and notarization of corporate documents",
+    offers=[],
+    kicker="Apostille and notarization services in Canada for corporate documents",
+    h1="Get your Canadian corporate documents accepted abroad.",
+    lede="We coordinate notarization by a licensed Ontario partner notary and the apostille, for corporate documents going to foreign banks, payment partners and regulators.",
+    hero_price="Quote · per document set",
+    label="Apostille · Corporate documents",
+    need="apostille",
+    intro=("Foreign banks, payment partners and regulators often ask for Canadian corporate documents that carry an apostille.",
+           ["We coordinate the process for corporate documents: certificates of incorporation and status, articles, register and minute book extracts, director and shareholder resolutions, corporate powers of attorney, and evidence of FINTRAC MSB or Bank of Canada RPAA registration. We check what the receiving party has asked for, prepare the document set and send each document to the right authority.",
+            "Notarization is done by a licensed notary public in Ontario who we work with. AML Canada is not a notary, and our staff don't notarize documents. We don't handle personal documents or give legal advice. Our fee is quoted per document set once we know what you need, and government fees are paid separately."]),
+    facts=[("In force", "Jan 11, 2024", "Apostille Convention in Canada"),
+           ("Ontario fee", "CA$16 to CA$32", "per document, paid to Ontario"),
+           ("Federal fee", "Free", "Global Affairs Canada"),
+           ("Our fee", "Quote", "per document set")],
+    fee=dict(amount="Quote", unit="per document set · plus government fees",
+             note="Depends on how many documents you need, whether each needs notarization and which authority issues the apostille. Government fees are separate: in Ontario, CA$16 per notarized document and CA$32 per Ontario government document. Global Affairs Canada charges no fee.",
+             items=["A check of what the receiving bank, partner or regulator has asked for",
+                    "Review of each document and how it must be prepared",
+                    "Notarization by our licensed Ontario partner notary, where needed",
+                    "Submission to the correct competent authority",
+                    "Apostilled documents couriered back to you",
+                    "Updates until your documents are back"]),
+    guide=[
+        ("what", "What an apostille is", f"""          <p>Authentication confirms that the signature and seal of a public official on a document are genuine, so the document can be recognized in another country. An apostille is a type of authentication certificate accepted by every country that is a member of the Apostille Convention, according to the <a href="{AP_GAC_GLOSS}" rel="noopener">Global Affairs Canada glossary</a>. Global Affairs Canada issues it as a separate page that it securely attaches to your document.</p>
+          <p>An apostille confirms where a document came from. It doesn't confirm what the document says. Ontario's <a href="{AP_ON}" rel="noopener">Official Documents Services</a> checks signatures and seals against its records and doesn't validate the contents.</p>"""),
+        ("convention", "Canada and the Apostille Convention", f"""          <p>Canada acceded to the Hague Apostille Convention on May 12, 2023, and the Convention entered into force for Canada on <strong>January 11, 2024</strong>, according to the <a href="{AP_HCCH}" rel="noopener">Hague Conference status table</a>. The table listed 130 contracting parties when we checked it. For documents going to a member country, the apostille replaces legalization at that country's embassy or consulate.</p>
+          <p>Whether a document needs authentication at all is set by the law of the destination country. Canadian law doesn't require it, so start with the receiving bank, partner or regulator.</p>"""),
+        ("who-issues", "Who issues the apostille", f"""          <p>Canada has six authorities that issue apostilles. The <a href="{AP_GAC_REQ}" rel="noopener">Global Affairs Canada requirements</a> set out who handles what:</p>
+          <ul>
+            <li><strong>Global Affairs Canada</strong>: documents issued by the Government of Canada, such as Corporations Canada documents, and documents issued or notarized in Manitoba, New Brunswick, Newfoundland and Labrador, the Northwest Territories, Nova Scotia, Nunavut, Prince Edward Island or Yukon.</li>
+            <li><strong>Alberta, British Columbia, Ontario, Quebec and Saskatchewan</strong>: documents issued in their own province.</li>
+          </ul>
+          <p>A document notarized in Alberta, Ontario or Saskatchewan goes to that province, wherever it was originally issued. British Columbia and Quebec authenticate a notarized document only if the original was issued in their province. In practice, a copy of a federal certificate notarized by an Ontario notary goes to Ontario's Official Documents Services, not to Global Affairs Canada.</p>"""),
+        ("notarize", "When a document must be notarized first", f"""          <p>Some government documents can be apostilled directly. Most private and corporate records can't. The Global Affairs Canada <a href="{AP_GAC_PORTAL}" rel="noopener">document eligibility tool</a> says:</p>
+          <ul>
+            <li>a Corporations Canada certificate of incorporation with an original signature or seal doesn't need notarizing, but one without an original signature or seal does;</li>
+            <li>certificates of compliance and existence, articles of incorporation, business registration documents, corporate bylaws and other business or corporate records must be notarized;</li>
+            <li>powers of attorney, as private legal documents, must be notarized.</li>
+          </ul>
+          <p>Ontario's <a href="{AP_ON}" rel="noopener">Official Documents Services</a> accepts business registry documents issued since 1991 by the Business and Personal Property Branch or the Ontario Business Registry without notarization. It won't accept documents commissioned by a commissioner for taking affidavits, or electronic copies.</p>
+          <p>In Ontario, a notary must be physically present with the person when notarizing. The <a href="{AP_ON_NOTARY}" rel="noopener">Ministry of the Attorney General</a> says remote notarization isn't permitted under the Notaries Act, and Official Documents Services won't authenticate or apostille documents notarized remotely. Our partner notary works in person.</p>"""),
+        ("non-convention", "Countries that are not part of the Convention", f"""          <p>For a country outside the Convention, the document may need to be legalized at that country's embassy, high commission or consulate after it has been authenticated in Canada, according to <a href="{AP_GAC_REQ}" rel="noopener">Global Affairs Canada</a>. Ontario issues a certificate of authentication instead of an apostille for those countries. Global Affairs Canada also notes that some countries accept only its own authentication, so check with the destination country's mission before choosing a route.</p>"""),
+        ("fees-times", "Government fees and processing times", f"""          <p>These are the fees and times each authority published when we checked on October 21, 2026. They change, so we confirm them again before we submit.</p>
+          <div class="table-wrap"><table>
+            <thead><tr><th scope="col">Authority</th><th scope="col">Government fee</th><th scope="col">Published processing time</th></tr></thead>
+            <tbody>
+              <tr><th scope="row"><a href="{AP_GAC}" rel="noopener">Global Affairs Canada</a></th><td>Free</td><td>Processing requests received 25 business days earlier, plus mailing time. No expedited service.</td></tr>
+              <tr><th scope="row"><a href="{AP_ON}" rel="noopener">Ontario</a></th><td>CA$16 per notarized document; CA$32 per Ontario government document</td><td>Mail-in within 15 business days; about 30 minutes in person if the documents are complete</td></tr>
+              <tr><th scope="row"><a href="{AP_BC_FEES}" rel="noopener">British Columbia</a></th><td>CA$20 per document</td><td>2 to 4 weeks, not including mail time</td></tr>
+              <tr><th scope="row"><a href="{AP_AB}" rel="noopener">Alberta</a></th><td>CA$25 per document</td><td>At least 7 to 10 business days</td></tr>
+              <tr><th scope="row"><a href="{AP_SK}" rel="noopener">Saskatchewan</a></th><td>CA$50 per certificate, signatory or package</td><td>Typically 4 to 7 business days, not including mail time</td></tr>
+              <tr><th scope="row"><a href="{AP_QC_APPLY}" rel="noopener">Quebec</a></th><td>CA$66.50 per document</td><td>Varies with volume; Quebec posts the date of the requests it is processing</td></tr>
+            </tbody>
+          </table></div>
+          <p>Government fees are paid on top of our quote. We don't promise a turnaround, because each authority sets its own processing times.</p>"""),
+        ("how", "How we handle your documents", """          <ol>
+            <li><strong>Consultation.</strong> Which documents you need, which country they're going to and what the receiving party has asked for.</li>
+            <li><strong>Document check.</strong> We confirm whether each document can be apostilled directly or needs notarization first, and which authority issues it. If you need a fresh certificate of status or certified copies, we tell you what to order.</li>
+            <li><strong>Notarization.</strong> Our licensed Ontario partner notary notarizes the documents that need it, in person.</li>
+            <li><strong>Apostille submission.</strong> We submit each document to the correct competent authority with the government fee.</li>
+            <li><strong>Return.</strong> Once the apostilles are issued, we courier the documents back to you.</li>
+          </ol>
+          <p>Our guides explain <a href="apostille-canada-guide.html">how to get an apostille in Canada</a> and <a href="apostille-corporate-documents-canada.html">which corporate documents foreign banks and regulators ask for</a>.</p>"""),
+    ],
+    sources=[("Global Affairs Canada, Authentication of documents", AP_GAC), ("Requirements", AP_GAC_REQ),
+             ("Frequently asked questions", AP_GAC_FAQ), ("Glossary", AP_GAC_GLOSS),
+             ("Global Affairs Canada, document eligibility tool", AP_GAC_PORTAL),
+             ("HCCH, Apostille Convention status table", AP_HCCH),
+             ("Ontario, Authenticate a document for use outside Canada", AP_ON),
+             ("Ontario, Information for notaries public", AP_ON_NOTARY),
+             ("British Columbia, Document authentication fee", AP_BC_FEES), ("Alberta, Documents for other jurisdictions or countries", AP_AB),
+             ("Saskatchewan, Authenticating notarized documents", AP_SK), ("Quebec, About apostille", AP_QC_ABOUT),
+             ("Quebec, Applying for an apostille", AP_QC_APPLY)],
+    for_title="Who it's for",
+    for_items=[("Canadian companies opening accounts abroad", "Corporate documents a foreign bank needs to see before it onboards you."),
+               ("MSBs and payment companies", "Registration evidence and corporate records for foreign payment partners."),
+               ("Companies answering a foreign regulator", "Certified, notarized and apostilled records for a licence or filing abroad.")],
+    arts=["one", "register", "review"],
+    faqs=[("What is an apostille?", "A certificate that confirms the signature and seal of the official on a Canadian public document are genuine, so the document is accepted in other countries that belong to the Apostille Convention. It doesn't confirm the document's contents."),
+          ("When did Canada join the Apostille Convention?", "Canada acceded on May 12, 2023, and the Convention entered into force for Canada on January 11, 2024."),
+          ("Can a Corporations Canada certificate be apostilled without notarization?", "A certificate of incorporation with an original signature or seal can go to Global Affairs Canada directly. Global Affairs Canada says other business and corporate records, including certificates of compliance and existence and articles, must be notarized."),
+          ("Is AML Canada a notary?", "No. We coordinate the process. Notarization is done by a licensed notary public in Ontario who we work with."),
+          ("Can documents be notarized remotely?", "No. Ontario's Notaries Act doesn't permit remote notarization, and Ontario won't apostille a document notarized remotely."),
+          ("How much does an apostille cost?", "Our fee is quoted per document set. Government fees are separate: Global Affairs Canada charges nothing, and Ontario charges CA$16 per notarized document and CA$32 per Ontario government document.")],
+    related=["incorporation-canada.html", "msb-registration.html", "canadian-address.html"],
+)
