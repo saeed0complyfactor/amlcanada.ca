@@ -161,7 +161,7 @@
 .legal-sec strong { color: var(--ink); font-weight: 500; }
 .legal-sec a { color: var(--ink); text-underline-offset: 3px; }
 @media (max-width: 820px) {
-  .legal-grid { grid-template-columns: 1fr; }
+  .legal-grid { grid-template-columns: minmax(0, 1fr); }
   .legal-toc { position: static; }
 }
 @media (max-width: 680px) { .legal { border-radius: 22px 22px 0 0; } .legal-hero { padding-top: 128px; } }
