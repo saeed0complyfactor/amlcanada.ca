@@ -146,6 +146,8 @@ A business with a place of business in Canada must register with FINTRAC before 
 
 An MSB that holds funds for its users or transfers funds at their request may also need to register with the Bank of Canada under the Retail Payment Activities Act. We cover that in [RPAA registration](https://amlcanada.ca/rpaa-registration.html).
 
+Prefer a company that's already registered? Compare the two routes on our [buy or register an MSB](https://amlcanada.ca/buy-or-register-msb-canada.html) page.
+
 Our guide on [how to register an MSB in Canada](https://amlcanada.ca/how-to-register-msb-canada.html) lists every money service and walks through each step of the application.
 
 ### Foreign MSB registration
@@ -444,6 +446,8 @@ The obligations come with the company. The business needs a compliance officer a
 
 | Afterwards | The same obligations: compliance program, reporting, record keeping and renewal |
 
+Our [buy or register an MSB](https://amlcanada.ca/buy-or-register-msb-canada.html) page compares the two routes in full.
+
 ### Questions
 
 **How much does a registered MSB cost?** Acquisitions start from €28,000. The price depends on the company, the services it's registered for and its history.
@@ -459,6 +463,120 @@ The obligations come with the company. The business needs a compliance officer a
 **Can a buyer outside Canada acquire an MSB?** Yes. Foreign buyers can acquire a registered Canadian company, subject to the same FINTRAC requirements.
 
 Sources: [FINTRAC, Register your MSB or FMSB](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/reg-ins-eng); [Update, renew or cancel your registration](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/respond-eng); [Money services businesses](https://fintrac-canafe.canada.ca/msb-esm/msb-eng); [PCMLTFA, section 11.11](https://laws-lois.justice.gc.ca/eng/acts/P-24.501/); [Bank of Canada, Acquisitions of control and prescribed changes](https://www.bankofcanada.ca/2024/08/acquisitions-of-control-and-prescribed-changes/). Checked 11 October 2026.
+
+---
+
+## Buy or register an MSB
+
+URL: https://amlcanada.ca/buy-or-register-msb-canada.html
+
+Buy a Canadian company already registered with FINTRAC from €28,000, or register your own for a fixed US$3,500. For crypto, foreign exchange, remittance and payment businesses, in Canada or abroad.
+
+**Fee:** US$3,500 (new registration · fixed fee). Or buy a registered company from €28,000. Compliance program, compliance officer, incorporation and Canadian address are available with either route, at their own fees.
+
+**Included:**
+- Advice on which route fits your services, markets and timeline
+- New route: assessment, application prepared, submitted and followed up with FINTRAC
+- Ready-made route: a company registered for the services you need, reviewed with you before you commit
+- Ownership, director and criminal record check requirements coordinated, including certified translations
+- FINTRAC updates within 30 days after a change of ownership
+- Foreign MSB requirements, including your representative for service in Canada
+
+### The short answer
+
+Registering a new MSB costs our fixed fee of US$3,500, with no FINTRAC fee, and FINTRAC's review has taken from about a week to seven months in our experience. Buying a ready-made MSB starts from €28,000 and skips the new application, but you take on the company's history, so due diligence comes first. Either way, the business needs a compliance officer and a compliance program before it operates.
+
+### Ready-made or new: side by side
+
+| | Register a new MSB | Buy a ready-made MSB |
+
+| Our fee | US$3,500, fixed. FINTRAC charges nothing | From €28,000, depending on the company |
+
+| Company | Yours, new or existing. We can incorporate one for US$1,500 | A Canadian company already registered with FINTRAC |
+
+| Main wait | Preparing the application and FINTRAC's review. FINTRAC says most complete applications are processed within three months | Due diligence, the share transfer and, if the company is also a registered PSP, Bank of Canada re-registration before closing |
+
+| History | A clean start | The company's registration history and records come with it |
+
+| Suits | Founders who want their own structure from day one | Founders who want a company already on the FINTRAC registry |
+
+| Afterwards | The same obligations: compliance program, compliance officer, reporting, record keeping and renewal every two years |
+
+### Buying a ready-made MSB
+
+A FINTRAC registration belongs to the registered business, so you buy the company's shares rather than the registration itself. Before you commit, check that the registration is active and covers the services you plan to offer, when it's next due for renewal, and the company's records and compliance history. You can confirm any company's status on [FINTRAC's public MSB registry](https://fintrac-canafe.canada.ca/msb-esm/reg-eng).
+
+Ask us for the companies currently available. The price depends on the company, the services it's registered for and its history. After the purchase, new owners, directors and the compliance officer are reported to FINTRAC within 30 days. Our guide to [buying an MSB in Canada](https://amlcanada.ca/buying-an-msb-canada.html) has the full due-diligence checklist.
+
+### Registering a new MSB
+
+We work out which of your services are money services, gather and check everything FINTRAC asks for, submit the application with your approval and answer FINTRAC's questions until it's decided. If FINTRAC asks for clarification, the answer is due within 30 days. Criminal record checks from several countries usually take longest, so we start them first. Our guide on [how to register an MSB in Canada](https://amlcanada.ca/how-to-register-msb-canada.html) covers each step.
+
+### Setting up from outside Canada
+
+- **MSB or foreign MSB.** A business with a place of business in Canada registers as an MSB. A business abroad that directs and provides money services to people in Canada registers as a foreign MSB and names a representative for service who resides in Canada. See our [foreign MSB guide](https://amlcanada.ca/foreign-msb-registration-canada.html).
+
+- **Directors.** Ontario corporations don't need resident Canadian directors. Federal corporations need at least 25% resident Canadian directors, or at least one if there are fewer than four.
+
+- **Criminal record checks.** FINTRAC asks for them for the chief executive officer, the president, the directors and anyone owning or controlling 20% or more. Any check that isn't in English or French needs a translation attested by a certified translator.
+
+- **Address and documents.** We provide a [Canadian business address](https://amlcanada.ca/canadian-address.html) and can arrange [notarization and apostilles](https://amlcanada.ca/apostille-notarization-canada.html) for Canadian corporate documents you need abroad.
+
+- **No travel.** Registration is filed online and we work by video call and email, so you don't need to come to Canada.
+
+### Crypto, foreign exchange, remittance and payments
+
+- **Crypto.** Dealing in virtual currency is a money service. Crypto MSBs also report virtual currency receipts of $10,000 or more and follow the travel rule. Trading platforms may also deal with provincial securities regulators. See [crypto registration in Canada](https://amlcanada.ca/crypto-registration-canada.html).
+
+- **Foreign exchange and remittance.** Foreign exchange dealing and remitting or transmitting funds are money services. If you buy a ready-made MSB, choose one registered for these services, or plan the registration update with us.
+
+- **Payments.** A business that holds funds for its users or transfers funds at their request may also need to register with the Bank of Canada under the Retail Payment Activities Act. See [RPAA vs FINTRAC MSB registration](https://amlcanada.ca/rpaa-vs-fintrac-msb-registration.html).
+
+- **Quebec.** Quebec licenses money services businesses separately through Revenu Québec.
+
+### Banking: what to expect
+
+FINTRAC registration doesn't come with a bank account and doesn't guarantee one. Banks and payment partners make their own decisions, and they look closely at your compliance program, your compliance officer and where your customers are. With a ready-made MSB, we tell you what each company has in place before you commit.
+
+### Who this isn't for
+
+- Businesses that need a licence to take deposits or lend. FINTRAC registration isn't a banking licence.
+
+- Anyone hoping a registration alone will open bank accounts or payment rails.
+
+- Owners or directors who can't provide criminal record checks, or who have the convictions that make a business ineligible under PCMLTFA s.11.11.
+
+- Anyone not ready to run a compliance program from the day they operate.
+
+### After you're registered
+
+Registration is valid for two years and must be renewed before it expires, and changes to your registration information are reported within 30 days. From the day you operate you need a compliance officer, a written [compliance program](https://amlcanada.ca/compliance-programs.html), client identification, record keeping and reporting to FINTRAC. We can act as your [outsourced compliance officer](https://amlcanada.ca/outsourced-compliance-officer.html) and prepare your program at the same time as the registration or purchase.
+
+### Questions
+
+**Can a foreigner own an MSB in Canada?** Yes. Owners and directors can live outside Canada. A business abroad that serves people in Canada registers as a foreign MSB and names a representative for service who resides in Canada.
+
+**Do I need a Canadian resident director?** Not for an Ontario corporation. A federal corporation needs at least 25% resident Canadian directors, or at least one if it has fewer than four.
+
+**How much does it cost to buy or register an MSB in Canada?** Registering a new MSB is our fixed fee of US$3,500, and FINTRAC charges nothing. Ready-made MSBs start from €28,000, depending on the company.
+
+**How long does each route take?** FINTRAC says most complete applications are processed within three months. In our experience new registrations have taken from about a week to seven months. A ready-made purchase depends on due diligence, the share transfer and any Bank of Canada re-registration, and we give you a timeline for the specific company.
+
+**Is there a minimum capital requirement for an MSB?** FINTRAC registration has no minimum capital requirement. Banks and payment partners may set their own expectations.
+
+**Is an MSB a licence?** It's a registration with FINTRAC, often called an MSB licence. It's renewed every two years.
+
+**Does the FINTRAC registration transfer with the company?** The registration belongs to the registered business, so buying the company's shares keeps it. New owners, directors and other changes are reported to FINTRAC within 30 days.
+
+**Can I use a ready-made MSB for crypto?** Choose a company registered for dealing in virtual currency, or plan the registration update with us. Crypto trading platforms may also deal with provincial securities regulators.
+
+**Does a ready-made MSB come with a bank account?** FINTRAC registration doesn't guarantee banking. We tell you what each company has in place before you commit.
+
+**Can the whole process be done remotely?** Yes. Registration is filed online and we work by video call and email. You don't need to travel to Canada.
+
+**Do I also need Bank of Canada registration?** If you hold funds for users or transfer funds at their request, you may also need to register as a payment service provider under the RPAA.
+
+Sources: [FINTRAC, Money services businesses](https://fintrac-canafe.canada.ca/msb-esm/msb-eng); [Register your MSB or FMSB](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/reg-ins-eng); [Update, renew or cancel your registration](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/respond-eng); [FINTRAC MSB registry](https://fintrac-canafe.canada.ca/msb-esm/reg-eng); [PCMLTFA](https://laws-lois.justice.gc.ca/eng/acts/P-24.501/); [Bank of Canada, Acquisitions of control and prescribed changes](https://www.bankofcanada.ca/2024/08/acquisitions-of-control-and-prescribed-changes/); [Bank of Canada, Retail payments](https://www.bankofcanada.ca/regulatory-oversight/retail-payments/). Checked 11 October 2026.
 
 ---
 

@@ -163,6 +163,7 @@ DEEP["msb-registration.html"] = dict(
     service_type="FINTRAC money services business registration",
     timing="1 week to 7 months",
     offers=[("3500", "USD", "FINTRAC MSB registration, fixed fee")],
+    kicker="FINTRAC MSB registration in Canada",
     h1="MSB registration with FINTRAC, from first assessment to decision.",
     lede="For money services businesses, foreign MSBs and virtual currency dealers. Fixed fee US$3,500.",
     hero_price="Fixed fee · US$3,500",
@@ -187,6 +188,7 @@ DEEP["msb-registration.html"] = dict(
     guide=[
         ("who-must-register", "Who has to register", """          <p>A business with a place of business in Canada must register with FINTRAC before it operates as a money services business, for example by dealing in foreign exchange, remitting or transmitting funds, or dealing in virtual currency. Registering or being licensed with a province doesn't replace FINTRAC registration. Whether your own activities are covered depends on how your business works, which is the first thing we confirm with you.</p>
           <p>An MSB that holds funds for its users or transfers funds at their request may also need to register with the Bank of Canada under the Retail Payment Activities Act. We cover that in <a href="rpaa-registration.html">RPAA registration</a>.</p>
+          <p>Prefer a company that's already registered? Compare the two routes on our <a href="buy-or-register-msb-canada.html">buy or register an MSB</a> page.</p>
           <p>Our guide on <a href="how-to-register-msb-canada.html">how to register an MSB in Canada</a> lists every money service and walks through each step of the application.</p>"""),
         ("foreign-msb", "Foreign MSB registration", """          <p>A foreign MSB has no place of business in Canada but directs and provides money services to people or entities in Canada. It registers with FINTRAC before it starts and names a representative for service who resides in Canada; our <a href="foreign-msb-registration-canada.html">foreign MSB guide</a> covers the details.</p>"""),
         ("application", "What the application involves", """          <p>FINTRAC asks for details of the business, its owners, senior management and compliance officer, its bank accounts, locations and agents, and its expected transaction volumes, with documents showing who owns and controls it. Criminal record checks are needed for the chief executive officer, the president, the directors and anyone who owns or controls 20% or more. A document that isn't in English or French needs a translation attested by a certified translator (PCMLTFA s.11.12(1.1)).</p>
@@ -397,7 +399,8 @@ DEEP["msb-for-sale.html"] = dict(
               <tr><th scope="row">Main wait</th><td>Preparing the application and FINTRAC's review</td><td>Due diligence, the change of ownership and any Bank of Canada re-registration</td></tr>
               <tr><th scope="row">Afterwards</th><td colspan="2">The same obligations: compliance program, reporting, record keeping and renewal</td></tr>
             </tbody>
-          </table></div>"""),
+          </table></div>
+          <p>Our <a href="buy-or-register-msb-canada.html">buy or register an MSB</a> page compares the two routes in full.</p>"""),
     ],
     sources=[("FINTRAC, Register your MSB or FMSB", F_REG), ("Update, renew or cancel your registration", F_UPD), ("Money services businesses", F_MSB),
              ("PCMLTFA, section 11.11", L_PCMLTFA), ("Bank of Canada, Acquisitions of control and prescribed changes", B_ACQ)],
@@ -413,6 +416,98 @@ DEEP["msb-for-sale.html"] = dict(
           ("Does it come with a bank account?", "FINTRAC registration doesn't guarantee banking or payment partners. We discuss what each company has in place before you commit."),
           ("Can a buyer outside Canada acquire an MSB?", "Yes. Foreign buyers can acquire a registered Canadian company, subject to the same FINTRAC requirements.")],
     related=["msb-registration.html", "outsourced-compliance-officer.html", "canadian-address.html"],
+)
+
+# ------------------------------------------------------------------ buy or register an MSB (hub)
+F_REGISTRY = "https://fintrac-canafe.canada.ca/msb-esm/reg-eng"
+DEEP["buy-or-register-msb-canada.html"] = dict(
+    name="Buy or register an MSB",
+    modified="2026-10-22",
+    title="Buy a Ready-Made MSB or Register a New MSB in Canada | AML Canada",
+    desc="Two ways to a FINTRAC-registered MSB in Canada: buy a ready-made company from €28,000 or register your own for a fixed US$3,500. For founders in Canada and abroad.",
+    service_type="FINTRAC money services business registration or acquisition",
+    timing="1 week to 7 months (new registration)",
+    offers=[("3500", "USD", "New FINTRAC MSB registration, fixed fee"), ("28000", "EUR", "Ready-made FINTRAC-registered Canadian MSB, starting price")],
+    kicker="Buy a ready-made MSB or register a new one in Canada",
+    h1="Two ways to a FINTRAC-registered MSB.",
+    lede="Buy a Canadian company already registered with FINTRAC from €28,000, or register your own for a fixed US$3,500. For crypto, foreign exchange, remittance and payment businesses, in Canada or abroad.",
+    hero_price="From US$3,500 · ready-made from €28,000",
+    label="MSB · Buy or register",
+    need="acquire",
+    intro=("There are two ways to get a money services business (MSB) registered with FINTRAC: register a company of your own, or buy one that's already registered. We do both.",
+           ["<strong>Register a new MSB.</strong> We prepare and submit the FINTRAC registration for your company, new or existing, for a fixed US$3,500. FINTRAC doesn't charge to register. See <a href=\"msb-registration.html\">MSB registration</a>.",
+            "<strong>Buy a ready-made MSB.</strong> You acquire the shares of a Canadian company already registered with FINTRAC, from €28,000, and we report the change of ownership to FINTRAC within 30 days. See <a href=\"msb-for-sale.html\">MSB for sale</a>.",
+            "Both routes cover the same money services, such as foreign exchange dealing, remitting or transmitting funds, and dealing in virtual currency. Both can be handled without travelling to Canada. Most of our MSB clients are outside Canada, in places such as the UAE, India, Cyprus, Germany, Turkey and Ukraine."]),
+    facts=[("New registration", "US$3,500", "fixed fee, no FINTRAC fee"),
+           ("Ready-made MSB", "From €28,000", "depending on the company"),
+           ("FINTRAC review", "1 week to 7 months", "in our experience"),
+           ("Capital", "No minimum", "for FINTRAC registration")],
+    fee=dict(amount="US$3,500", unit="new registration · fixed fee",
+             note="Or buy a registered company from €28,000. Compliance program, compliance officer, incorporation and Canadian address are available with either route, at their own fees.",
+             items=["Advice on which route fits your services, markets and timeline",
+                    "New route: assessment, application prepared, submitted and followed up with FINTRAC",
+                    "Ready-made route: a company registered for the services you need, reviewed with you before you commit",
+                    "Ownership, director and criminal record check requirements coordinated, including certified translations",
+                    "FINTRAC updates within 30 days after a change of ownership",
+                    "Foreign MSB requirements, including your representative for service in Canada"]),
+    guide=[
+        ("answer", "The short answer", """          <p>Registering a new MSB costs our fixed fee of US$3,500, with no FINTRAC fee, and FINTRAC's review has taken from about a week to seven months in our experience. Buying a ready-made MSB starts from €28,000 and skips the new application, but you take on the company's history, so due diligence comes first. Either way, the business needs a compliance officer and a compliance program before it operates.</p>"""),
+        ("compare", "Ready-made or new: side by side", """          <div class="table-wrap"><table>
+            <thead><tr><th scope="col"></th><th scope="col">Register a new MSB</th><th scope="col">Buy a ready-made MSB</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Our fee</th><td>US$3,500, fixed. FINTRAC charges nothing</td><td>From €28,000, depending on the company</td></tr>
+              <tr><th scope="row">Company</th><td>Yours, new or existing. We can <a href="incorporation-canada.html">incorporate one</a> for US$1,500</td><td>A Canadian company already registered with FINTRAC</td></tr>
+              <tr><th scope="row">Main wait</th><td>Preparing the application and FINTRAC's review. FINTRAC says most complete applications are processed within three months</td><td>Due diligence, the share transfer and, if the company is also a registered PSP, Bank of Canada re-registration before closing</td></tr>
+              <tr><th scope="row">History</th><td>A clean start</td><td>The company's registration history and records come with it</td></tr>
+              <tr><th scope="row">Suits</th><td>Founders who want their own structure from day one</td><td>Founders who want a company already on the FINTRAC registry</td></tr>
+              <tr><th scope="row">Afterwards</th><td colspan="2">The same obligations: compliance program, compliance officer, reporting, record keeping and renewal every two years</td></tr>
+            </tbody>
+          </table></div>"""),
+        ("ready-made", "Buying a ready-made MSB", f"""          <p>A FINTRAC registration belongs to the registered business, so you buy the company's shares rather than the registration itself. Before you commit, check that the registration is active and covers the services you plan to offer, when it's next due for renewal, and the company's records and compliance history. You can confirm any company's status on <a href="{F_REGISTRY}" rel="noopener">FINTRAC's public MSB registry</a>.</p>
+          <p>Ask us for the companies currently available. The price depends on the company, the services it's registered for and its history. After the purchase, new owners, directors and the compliance officer are reported to FINTRAC within 30 days. Our guide to <a href="buying-an-msb-canada.html">buying an MSB in Canada</a> has the full due-diligence checklist.</p>"""),
+        ("new", "Registering a new MSB", """          <p>We work out which of your services are money services, gather and check everything FINTRAC asks for, submit the application with your approval and answer FINTRAC's questions until it's decided. If FINTRAC asks for clarification, the answer is due within 30 days. Criminal record checks from several countries usually take longest, so we start them first. Our guide on <a href="how-to-register-msb-canada.html">how to register an MSB in Canada</a> covers each step.</p>"""),
+        ("abroad", "Setting up from outside Canada", """          <ul>
+            <li><strong>MSB or foreign MSB.</strong> A business with a place of business in Canada registers as an MSB. A business abroad that directs and provides money services to people in Canada registers as a foreign MSB and names a representative for service who resides in Canada. See our <a href="foreign-msb-registration-canada.html">foreign MSB guide</a>.</li>
+            <li><strong>Directors.</strong> Ontario corporations don't need resident Canadian directors. Federal corporations need at least 25% resident Canadian directors, or at least one if there are fewer than four.</li>
+            <li><strong>Criminal record checks.</strong> FINTRAC asks for them for the chief executive officer, the president, the directors and anyone owning or controlling 20% or more. Any check that isn't in English or French needs a translation attested by a certified translator.</li>
+            <li><strong>Address and documents.</strong> We provide a <a href="canadian-address.html">Canadian business address</a> and can arrange <a href="apostille-notarization-canada.html">notarization and apostilles</a> for Canadian corporate documents you need abroad.</li>
+            <li><strong>No travel.</strong> Registration is filed online and we work by video call and email, so you don't need to come to Canada.</li>
+          </ul>"""),
+        ("activities", "Crypto, foreign exchange, remittance and payments", """          <ul>
+            <li><strong>Crypto.</strong> Dealing in virtual currency is a money service. Crypto MSBs also report virtual currency receipts of $10,000 or more and follow the travel rule. Trading platforms may also deal with provincial securities regulators. See <a href="crypto-registration-canada.html">crypto registration in Canada</a>.</li>
+            <li><strong>Foreign exchange and remittance.</strong> Foreign exchange dealing and remitting or transmitting funds are money services. If you buy a ready-made MSB, choose one registered for these services, or plan the registration update with us.</li>
+            <li><strong>Payments.</strong> A business that holds funds for its users or transfers funds at their request may also need to register with the Bank of Canada under the Retail Payment Activities Act. See <a href="rpaa-vs-fintrac-msb-registration.html">RPAA vs FINTRAC MSB registration</a>.</li>
+            <li><strong>Quebec.</strong> Quebec licenses money services businesses separately through Revenu Québec.</li>
+          </ul>"""),
+        ("banking", "Banking: what to expect", """          <p>FINTRAC registration doesn't come with a bank account and doesn't guarantee one. Banks and payment partners make their own decisions, and they look closely at your compliance program, your compliance officer and where your customers are. With a ready-made MSB, we tell you what each company has in place before you commit.</p>"""),
+        ("not-for", "Who this isn't for", """          <ul>
+            <li>Businesses that need a licence to take deposits or lend. FINTRAC registration isn't a banking licence.</li>
+            <li>Anyone hoping a registration alone will open bank accounts or payment rails.</li>
+            <li>Owners or directors who can't provide criminal record checks, or who have the convictions that make a business ineligible under PCMLTFA s.11.11.</li>
+            <li>Anyone not ready to run a compliance program from the day they operate.</li>
+          </ul>"""),
+        ("after", "After you're registered", """          <p>Registration is valid for two years and must be renewed before it expires, and changes to your registration information are reported within 30 days. From the day you operate you need a compliance officer, a written <a href="compliance-programs.html">compliance program</a>, client identification, record keeping and reporting to FINTRAC. We can act as your <a href="outsourced-compliance-officer.html">outsourced compliance officer</a> and prepare your program at the same time as the registration or purchase.</p>"""),
+    ],
+    sources=[("FINTRAC, Money services businesses", F_MSB), ("Register your MSB or FMSB", F_REG), ("Update, renew or cancel your registration", F_UPD),
+             ("FINTRAC MSB registry", F_REGISTRY), ("PCMLTFA", L_PCMLTFA), ("Bank of Canada, Acquisitions of control and prescribed changes", B_ACQ),
+             ("Bank of Canada, Retail payments", B_RPS)],
+    for_title="Which route people choose",
+    for_items=[("Foreign payment and crypto businesses", "Often buy a ready-made MSB to start from a company already on the FINTRAC registry."),
+               ("Founders with their own structure", "Usually register a new MSB in a company they own, incorporated in Ontario or federally."),
+               ("Groups adding Canada", "Choose either route, depending on timing and whether they want a company with history.")],
+    arts=["register", "one", "address"],
+    faqs=[("Can a foreigner own an MSB in Canada?", "Yes. Owners and directors can live outside Canada. A business abroad that serves people in Canada registers as a foreign MSB and names a representative for service who resides in Canada."),
+          ("Do I need a Canadian resident director?", "Not for an Ontario corporation. A federal corporation needs at least 25% resident Canadian directors, or at least one if it has fewer than four."),
+          ("How much does it cost to buy or register an MSB in Canada?", "Registering a new MSB is our fixed fee of US$3,500, and FINTRAC charges nothing. Ready-made MSBs start from €28,000, depending on the company."),
+          ("How long does each route take?", "FINTRAC says most complete applications are processed within three months. In our experience new registrations have taken from about a week to seven months. A ready-made purchase depends on due diligence, the share transfer and any Bank of Canada re-registration, and we give you a timeline for the specific company."),
+          ("Is there a minimum capital requirement for an MSB?", "FINTRAC registration has no minimum capital requirement. Banks and payment partners may set their own expectations."),
+          ("Is an MSB a licence?", "It's a registration with FINTRAC, often called an MSB licence. It's renewed every two years."),
+          ("Does the FINTRAC registration transfer with the company?", "The registration belongs to the registered business, so buying the company's shares keeps it. New owners, directors and other changes are reported to FINTRAC within 30 days."),
+          ("Can I use a ready-made MSB for crypto?", "Choose a company registered for dealing in virtual currency, or plan the registration update with us. Crypto trading platforms may also deal with provincial securities regulators."),
+          ("Does a ready-made MSB come with a bank account?", "FINTRAC registration doesn't guarantee banking. We tell you what each company has in place before you commit."),
+          ("Can the whole process be done remotely?", "Yes. Registration is filed online and we work by video call and email. You don't need to travel to Canada."),
+          ("Do I also need Bank of Canada registration?", "If you hold funds for users or transfer funds at their request, you may also need to register as a payment service provider under the RPAA.")],
+    related=["msb-registration.html", "msb-for-sale.html", "outsourced-compliance-officer.html"],
 )
 
 # ------------------------------------------------------------------ RPAA registration

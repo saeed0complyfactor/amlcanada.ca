@@ -31,6 +31,7 @@ POSTAL = {"@type": "PostalAddress", "streetAddress": "320 Matheson Blvd West, Su
 SERVICES = [
     ("outsourced-compliance-officer.html", "Outsourced compliance officer", "scan", "A Canadian AML compliance officer (MLRO): onboarding reviews, FINTRAC reporting, policies and risk assessments.", "US$1,500 / 10 hours"),
     ("msb-registration.html", "MSB registration", "register", "FINTRAC registration for money services businesses, foreign MSBs and virtual currency dealers.", "US$3,500"),
+    ("buy-or-register-msb-canada.html", "Buy or register an MSB", "one", "Two routes to a FINTRAC-registered MSB: buy a ready-made company or register your own.", "From US$3,500"),
     ("compliance-programs.html", "Compliance programs", "programme", "14 PCMLTFA compliance program documents, based on your business.", "US$3,500"),
     ("rpaa-registration.html", "RPAA registration", "register", "Payment service provider registration with the Bank of Canada under the RPAA.", "US$3,500 + Bank fee"),
     ("rpaa-compliance-program.html", "RPAA compliance program", "programme", "Governance, risk, incident response, safeguarding and continuity frameworks for PSPs.", "US$3,500"),
@@ -46,13 +47,13 @@ PICK = {f: DEEP[f]["need"] for f, *_ in SERVICES}
 
 AUD = [
     ("msb", "Money services businesses", "Foreign exchange dealers, money transfer businesses and others that need to register with FINTRAC, stay compliant and report on time.",
-     ["msb-registration.html", "compliance-programs.html", "outsourced-compliance-officer.html", "effectiveness-reviews.html"]),
+     ["buy-or-register-msb-canada.html", "msb-registration.html", "compliance-programs.html", "outsourced-compliance-officer.html", "effectiveness-reviews.html"]),
     ("vc", "Virtual currency dealers", "Crypto exchanges and dealers in virtual currency, which register with FINTRAC as money services businesses and report large virtual currency transactions.",
      ["msb-registration.html", "compliance-programs.html", "outsourced-compliance-officer.html"]),
     ("psp", "Payment service providers", "Payment processors, wallets and other PSPs that register with the Bank of Canada under the RPAA, and often with FINTRAC too.",
      ["rpaa-registration.html", "rpaa-compliance-program.html", "msb-registration.html"]),
     ("foreign", "Foreign businesses entering Canada", "Companies outside Canada that serve customers in Canada and need a Canadian company, registration, a Canadian address, a compliance officer, or a registered company to acquire.",
-     ["incorporation-canada.html", "canadian-address.html", "msb-registration.html", "msb-for-sale.html", "outsourced-compliance-officer.html", "apostille-notarization-canada.html"]),
+     ["buy-or-register-msb-canada.html", "incorporation-canada.html", "canadian-address.html", "msb-registration.html", "msb-for-sale.html", "outsourced-compliance-officer.html", "apostille-notarization-canada.html"]),
     ("fintech", "Payment and fintech companies", "Start-ups and growing companies that need to understand their obligations and meet them as they scale.",
      ["compliance-programs.html", "rpaa-registration.html", "training.html"]),
     ("officers", "Compliance officers", "Compliance officers at reporting entities who need a second pair of hands, a review, or training for their teams.",
