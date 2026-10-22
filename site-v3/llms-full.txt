@@ -1367,7 +1367,7 @@ For virtual currency transfers of $1,000 or more, MSBs keep detailed records, in
 
 FINTRAC registration is federal. Crypto trading platforms are also regulated by provincial securities regulators. A platform operating in Canada is expected to register with them or, while it seeks registration, file a pre-registration undertaking, under [CSA Staff Notice 21-332](https://www.osc.ca/en/securities-law/instruments-rules-policies/2/21-332/csa-staff-notice-21-332-crypto-asset-trading-platforms-pre-registration-undertakings-changes). Platforms that let clients trade stablecoins, which securities regulators call value-referenced crypto assets, are expected to follow the terms in [CSA Staff Notice 21-333](https://www.osc.ca/en/securities-law/instruments-rules-policies/2/21-333/csa-staff-notice-21-333-crypto-asset-trading-platforms-terms-and-conditions-trading-value).
 
-Quebec also licenses money-services businesses through Revenu Québec. We'll tell you when you need separate advice on these rules.
+Quebec also licenses money-services businesses through Revenu Québec. British Columbia has passed its own Money Services Businesses Act, which isn't in force yet; see [Ontario vs B.C. MSB registration](https://amlcanada.ca/ontario-vs-bc-msb-registration.html). We'll tell you when you need separate advice on these rules.
 
 ### Changes in 2025 and 2026
 
@@ -3106,3 +3106,97 @@ The notices depend on your risk management and incident response framework, whic
 **Do incidents at a third-party provider count?** Yes. Incidents that occur at or are detected by your agents, mandataries or third-party service providers are reportable if they have a material impact.
 
 Sources: [Retail Payment Activities Act](https://laws-lois.justice.gc.ca/eng/acts/R-7.36/FullText.html); [Retail Payment Activities Regulations](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2023-229/FullText.html); [Bank of Canada, Incident notification guideline (October 2024)](https://www.bankofcanada.ca/wp-content/uploads/2024/02/Incident-notification.pdf); [Bank of Canada, How to complete an incident notice: A step-by-step guide](https://www.bankofcanada.ca/wp-content/uploads/2025/05/how-complete-incident-step-by-step-guide.pdf); [Bank of Canada, Reminder: PSP reporting obligations under the RPAA](https://www.bankofcanada.ca/2026/06/reminder-psp-reporting-obligations-under-rpaa/). Checked 21 October 2026.
+
+---
+
+## Guide: Ontario vs B.C. MSB registration: which province suits a crypto startup?
+
+URL: https://amlcanada.ca/ontario-vs-bc-msb-registration.html
+
+Today there's no MSB difference between the two provinces. A money services business in Ontario or British Columbia registers with FINTRAC and nobody else, because B.C.'s Money Services Businesses Act has been passed but isn't in force. The difference is coming: B.C. plans to start provincial registration, and Ontario has no equivalent law.
+
+**Key points:**
+- For AML purposes, Ontario and B.C. MSBs both register with FINTRAC only, for now.
+- B.C.'s Money Services Businesses Act received Royal Assent in 2023 and is still not in force. BCFSA's plan targets 2027/28.
+- The B.C. Act names foreign exchange and remittance. Virtual currency isn't named, so regulations will decide whether crypto-only businesses are covered.
+- Securities rules for crypto trading platforms follow your clients, so your head office won't keep you out of another province's rules.
+
+### What applies in each province today
+
+Founders often hear that B.C. already makes crypto businesses register twice, once with FINTRAC and once with the province. It doesn't. As of October 2026, [BC Laws](https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/23019) shows every operative section of the Money Services Businesses Act as not in force. A crypto MSB with its head office in Vancouver deals with the same AML regulator as one in Toronto.
+
+| Question | Ontario | British Columbia |
+
+| AML registration as an MSB | FINTRAC | FINTRAC |
+
+| Provincial MSB law | None | Money Services Businesses Act, SBC 2023, c. 19. Passed, not in force |
+
+| Who would run provincial registration | Not applicable | BC Financial Services Authority (BCFSA) |
+
+| Securities regulator for crypto trading platforms with clients in the province | Ontario Securities Commission (OSC) | British Columbia Securities Commission (BCSC) |
+
+| Expected change | None announced | BCFSA's service plan targets implementation in 2027/28, subject to government direction |
+
+BCFSA and the BCSC are different bodies. BCFSA would administer the new MSB registration. The BCSC is B.C.'s securities regulator and already oversees crypto trading platforms with B.C. clients. For the federal side, see our guide to [crypto registration with FINTRAC](https://amlcanada.ca/crypto-registration-canada.html).
+
+### What B.C.'s Money Services Businesses Act will do
+
+The Act received Royal Assent on May 11, 2023. Section 66 says it comes into force by regulation, and no regulation has done that yet. BCFSA's [2026/27 to 2028/29 service plan](https://bcbudget.gov.bc.ca/2026/sp/pdf/agency/bcfsa.pdf) sets the targets, subject to government direction: finish implementation readiness, including registration, education and compliance components, in 2026/27, then implement the Act in 2027/28.
+
+Once it's in force, the [text of the Act](https://www.bclaws.gov.bc.ca/civix/document/id/bills/billsprevious/4th42nd:gov19-3) says:
+
+- **Registration.** A person must not carry on the business of providing money services unless registered or exempt (section 5). Banks, insurers and some other institutions are exempt (section 6).
+
+- **What counts.** "Money services" means foreign exchange dealing, remitting or transmitting funds by any means, issuing or redeeming money orders, traveller's cheques and similar instruments, and any service added by regulation (section 1).
+
+- **Fitness.** The superintendent can refuse an applicant found unfit, for example one that has been refused registration, or had a registration cancelled, under money services or securities legislation in B.C. or another jurisdiction.
+
+- **Investigations.** During an investigation, the superintendent can inspect and copy records at the business's premises and compel people to answer questions.
+
+- **Penalties.** Administrative penalties of up to $100,000 (section 34). Offences carry fines of up to $200,000, and an individual can also face up to 2 years in prison (section 42).
+
+Fees, capital rules, reporting forms and the full list of covered services will be set by regulations that haven't been published. Anyone quoting B.C. capital or bond requirements today is guessing.
+
+### Will B.C. cover crypto businesses?
+
+Not on the face of the Act. Unlike the federal law, which lists dealing in virtual currencies as a money service, B.C.'s definition doesn't mention virtual currency. It can be added by regulation, so a crypto-only business won't know where it stands until the regulations appear.
+
+Many crypto businesses also do things the Act does name. If you convert client funds between Canadian dollars and other currencies, or send fiat payouts, you may be dealing in foreign exchange or remitting funds. Map each product against the B.C. definition as well as the federal one.
+
+Previous trouble also carries over. Because the fitness test looks at refusals and cancellations under securities legislation in any jurisdiction, a crypto firm's record with securities regulators could affect a future B.C. application.
+
+### Securities rules follow your clients
+
+For crypto trading platforms, picking a head office doesn't decide which securities rules apply. Under [CSA Staff Notice 21-332](https://www.osc.ca/en/securities-law/instruments-rules-policies/2/21-332/csa-staff-notice-21-332-crypto-asset-trading-platforms-pre-registration-undertakings-changes), a platform operating in Canada is expected to register with the securities regulators, or file a pre-registration undertaking while it seeks registration. If your clients live in Ontario and B.C., both provinces' securities laws are relevant, wherever you're incorporated. Platforms that offer stablecoins are expected to follow [CSA Staff Notice 21-333](https://www.osc.ca/en/securities-law/instruments-rules-policies/2/21-333/csa-staff-notice-21-333-crypto-asset-trading-platforms-terms-and-conditions-trading-value).
+
+Firms registering in several provinces don't file a separate application with each. [National Policy 11-204](https://www.osc.ca/en/securities-law/instruments-rules-policies/1/11-204/unofficial-consolidation-national-policy-11-204) sets out a process where one principal regulator coordinates the registration. That's a practical reason to think about where your head office sits, but it doesn't take you outside any province's rules.
+
+### How to choose
+
+Since the AML side is the same today, base the decision on the business. Go through these points:
+
+- **Where are your clients?** Securities rules, and possibly B.C.'s MSB Act, depend on where you do business, not only where you're incorporated.
+
+- **Do you touch fiat?** Foreign exchange and remittance are named in the B.C. Act. A B.C. business doing either should plan for BCFSA registration once the regime starts.
+
+- **Are you crypto-only?** Watch for B.C. regulations that could add virtual currency to the definition.
+
+- **Where are your people, banks and investors?** Talent, banking relationships and investor expectations usually matter more than the regulatory gap, which is zero today.
+
+- **Will you serve Quebec?** Quebec already licenses money-services businesses through Revenu Québec, separately from FINTRAC.
+
+An Ontario base may avoid a second provincial registration later, which matters most for a business doing fiat FX or remittance, though how far the B.C. Act reaches businesses outside the province is still unknown. A B.C. base costs nothing extra today. Either way, the work that decides whether you get and keep a FINTRAC registration is the same: an accurate [MSB application](https://amlcanada.ca/how-to-register-msb-canada.html) and a [compliance program](https://amlcanada.ca/fintrac-compliance-program-requirements.html) written for crypto risks. If you're based abroad, our guide to [foreign MSB registration](https://amlcanada.ca/foreign-msb-registration-canada.html) covers that route.
+
+### Questions
+
+**Do I need a BCFSA MSB licence in B.C. today?** No. B.C.'s Money Services Businesses Act was passed in 2023 but isn't in force, so a B.C. money services business currently registers with FINTRAC only.
+
+**When will B.C.'s MSB registration start?** No date has been set by regulation. BCFSA's 2026/27 to 2028/29 service plan targets implementation in 2027/28, subject to government direction.
+
+**Will B.C.'s MSB Act apply to crypto businesses?** The Act doesn't name virtual currency. It covers foreign exchange dealing, remittance and money orders, plus services added by regulation, so crypto-only businesses depend on future regulations. Crypto firms that also handle fiat FX or remittance may be covered.
+
+**Is Ontario better than B.C. for a crypto startup?** For MSB registration there's no difference today: both are FINTRAC-only. Ontario has no plan for provincial MSB registration, while B.C. does, so a business doing fiat FX or remittance avoids a possible second registration in Ontario.
+
+**If my company is in Ontario, can I ignore B.C. rules?** Not for securities. Crypto trading platforms deal with the securities regulators where their clients are. How far B.C.'s MSB Act will reach outside the province will be clearer once it and its regulations are in force.
+
+Sources: [BC Laws, Money Services Businesses Act, SBC 2023, c. 19](https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/23019); [Bill 19, Money Services Businesses Act, third reading text](https://www.bclaws.gov.bc.ca/civix/document/id/bills/billsprevious/4th42nd:gov19-3); [BCFSA 2026/27 to 2028/29 Service Plan](https://bcbudget.gov.bc.ca/2026/sp/pdf/agency/bcfsa.pdf); [FINTRAC, Money services businesses](https://fintrac-canafe.canada.ca/msb-esm/msb-eng); [CSA Staff Notice 21-332](https://www.osc.ca/en/securities-law/instruments-rules-policies/2/21-332/csa-staff-notice-21-332-crypto-asset-trading-platforms-pre-registration-undertakings-changes); [CSA Staff Notice 21-333](https://www.osc.ca/en/securities-law/instruments-rules-policies/2/21-333/csa-staff-notice-21-333-crypto-asset-trading-platforms-terms-and-conditions-trading-value); [National Policy 11-204, Process for Registration in Multiple Jurisdictions](https://www.osc.ca/en/securities-law/instruments-rules-policies/1/11-204/unofficial-consolidation-national-policy-11-204); [Revenu Québec, Money-services business licence](https://www.revenuquebec.ca/en/businesses/sector-specific-measures/money-services-businesses-msbs/money-services-business-licence-application/). Checked 22 October 2026.
