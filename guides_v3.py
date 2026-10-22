@@ -1612,3 +1612,5 @@ from posts_v3 import POSTS  # noqa: E402
 for _k, _v in POSTS.items():
     _v.setdefault("kind", "update")
 GUIDES = {**POSTS, **GUIDES}
+# Newest first everywhere guides are listed; same-day guides keep newest-added first.
+GUIDES = dict(sorted(GUIDES.items(), key=lambda kv: (kv[1].get("date", PUBLISHED), list(GUIDES).index(kv[0])), reverse=True))
