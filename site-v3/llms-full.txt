@@ -3231,7 +3231,7 @@ Sources: [Retail Payment Activities Act](https://laws-lois.justice.gc.ca/eng/act
 
 URL: https://amlcanada.ca/ontario-vs-bc-msb-registration.html
 
-Today there's no MSB difference between the two provinces. A money services business in Ontario or British Columbia registers with FINTRAC and nobody else, because B.C.'s Money Services Businesses Act has been passed but isn't in force. The difference is coming: B.C. plans to start provincial registration, and Ontario has no equivalent law.
+Today there's no MSB difference between the two provinces. A money services business in Ontario or British Columbia registers with FINTRAC and nobody else, because B.C.'s Money Services Businesses Act has been passed but isn't in force. That should change: B.C. plans to start provincial registration, and Ontario has no equivalent law.
 
 **Key points:**
 - For AML purposes, Ontario and B.C. MSBs both register with FINTRAC only, for now.
@@ -3273,7 +3273,7 @@ Once it's in force, the [text of the Act](https://www.bclaws.gov.bc.ca/civix/doc
 
 - **Penalties.** Administrative penalties of up to $100,000 (section 34). Offences carry fines of up to $200,000, and an individual can also face up to 2 years in prison (section 42).
 
-Fees, capital rules, reporting forms and the full list of covered services will be set by regulations that haven't been published. Anyone quoting B.C. capital or bond requirements today is guessing.
+Fees, capital rules, reporting forms and the full list of covered services will be set by regulations that haven't been published, so there are no B.C. capital or bond requirements to quote yet.
 
 ### Will B.C. cover crypto businesses?
 
@@ -3281,7 +3281,7 @@ Not on the face of the Act. Unlike the federal law, which lists dealing in virtu
 
 Many crypto businesses also do things the Act does name. If you convert client funds between Canadian dollars and other currencies, or send fiat payouts, you may be dealing in foreign exchange or remitting funds. Map each product against the B.C. definition as well as the federal one.
 
-Previous trouble also carries over. Because the fitness test looks at refusals and cancellations under securities legislation in any jurisdiction, a crypto firm's record with securities regulators could affect a future B.C. application.
+A crypto firm's record with securities regulators could also affect a future B.C. application, because the fitness test looks at refusals and cancellations under securities legislation in any jurisdiction.
 
 ### Securities rules follow your clients
 
@@ -3299,7 +3299,7 @@ Since the AML side is the same today, base the decision on the business. Go thro
 
 - **Are you crypto-only?** Watch for B.C. regulations that could add virtual currency to the definition.
 
-- **Where are your people, banks and investors?** Talent, banking relationships and investor expectations usually matter more than the regulatory gap, which is zero today.
+- **Where are your people, banks and investors?** Talent, banking relationships and investor expectations usually matter more, since the regulatory gap is nil today.
 
 - **Will you serve Quebec?** Quebec already licenses money-services businesses through Revenu Québec, separately from FINTRAC.
 
