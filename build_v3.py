@@ -10,7 +10,7 @@ import json
 import re
 from html import escape
 
-from content_v3 import CHECKED, DEEP
+from content_v3 import CHECKED, DEEP, LISTINGS, TELEGRAM, WHATSAPP
 from guides_v3 import GUIDES, PUBLISHED
 from pathlib import Path
 
@@ -85,6 +85,21 @@ FONTS = """  <link rel="preload" href="fonts/geist-latin-wght.woff2" as="font" t
 
 SITE = "https://amlcanada.ca/"
 ORG_ID = SITE + "#organization"
+CF_URL = "https://complyfactor.com"
+REVIEWER_ID = SITE + "about.html#saeed"
+REVIEWER = {"@type": "Person", "@id": REVIEWER_ID, "name": "Muhammad Saeed Abbasi", "url": REVIEWER_ID,
+            "jobTitle": "MLRO and Managing Director",
+            "worksFor": {"@type": "Organization", "name": OPERATOR, "url": CF_URL},
+            "hasCredential": [{"@type": "EducationalOccupationalCredential", "name": n} for n in
+                              ("Certified Anti-Money Laundering Specialist (CAMS)", "ACMA", "CGMA")],
+            "knowsAbout": ["PCMLTFA", "FINTRAC MSB registration", "Retail Payment Activities Act", "AML compliance"]}
+# Pages that carry the visible "Reviewed by" line (and reviewedBy in their schema).
+REVIEWED = {"msb-for-sale.html": "25 October 2026", "buy-or-register-msb-canada.html": "25 October 2026",
+            "sell-your-msb.html": "25 October 2026", "msb-registration.html": "25 October 2026",
+            "buying-an-msb-canada.html": "25 October 2026", "how-to-register-msb-canada.html": "25 October 2026"}
+REVIEWED_ISO = "2026-10-25"
+BYLINE = ('<p class="byline">Reviewed by <a href="about.html#saeed">Muhammad Saeed Abbasi</a>, CAMS, ACMA, CGMA, '
+          'MLRO and Managing Director, ComplyFactor Limited. Last checked {date}.</p>')
 
 # JSON-LD. Organization and WebSite live on the homepage only; every other page
 # points at the organization by @id. Breadcrumb names match the visible crumbs.
@@ -124,6 +139,12 @@ def jsonld(path):
             if offers:
                 svc["offers"] = [{"@type": "Offer", "price": pr, "priceCurrency": cur, "description": od, "url": url}
                                  for pr, cur, od in offers]
+            if path == "msb-for-sale.html":
+                svc.setdefault("offers", []).extend(
+                    {"@type": "Offer", "price": "28000", "priceCurrency": "EUR",
+                     "description": f"FINTRAC-registered {l['province']} MSB, incorporated {l['incorporated']}, starting price",
+                     "availability": "https://schema.org/InStock" if l["status"] == "Available" else "https://schema.org/SoldOut",
+                     "url": f"{url}#{l['slug']}", "seller": {"@id": ORG_ID}} for l in LISTINGS)
             graph.append(svc)
         elif path in GUIDES:
             g = GUIDES[path]
@@ -139,6 +160,12 @@ def jsonld(path):
             trail.append((SCHEMA_CRUMBS[path], url))
         else:
             return ""
+        if path in REVIEWED:
+            graph.append({"@type": "WebPage", "@id": url + "#webpage", "url": url, "isPartOf": {"@id": SITE + "#website"},
+                          "reviewedBy": {"@id": REVIEWER_ID}, "lastReviewed": REVIEWED_ISO, "dateModified": REVIEWED_ISO})
+            graph.append(REVIEWER)
+        elif path == "about.html":
+            graph.append(REVIEWER)
         graph.append({"@type": "BreadcrumbList", "@id": url + "#breadcrumb", "itemListElement": [
             {"@type": "ListItem", "position": i, "name": n, "item": u} for i, (n, u) in enumerate(trail, 1)]})
     data = json.dumps({"@context": "https://schema.org", "@graph": graph}, ensure_ascii=False, separators=(",", ":"))
@@ -311,6 +338,7 @@ FORM = f"""        <form class="form" novalidate data-consult>
               <label class="chip"><input type="radio" name="need" value="programme"><span>A compliance program</span></label>
               <label class="chip"><input type="radio" name="need" value="rpaa"><span>Bank of Canada RPAA</span></label>
               <label class="chip"><input type="radio" name="need" value="acquire"><span>Buying an MSB</span></label>
+              <label class="chip"><input type="radio" name="need" value="sell"><span>Selling an MSB</span></label>
               <label class="chip"><input type="radio" name="need" value="review"><span>A review or examination</span></label>
               <label class="chip"><input type="radio" name="need" value="training"><span>Staff training</span></label>
               <label class="chip"><input type="radio" name="need" value="apostille"><span>Apostille or notarization</span></label>
@@ -371,11 +399,13 @@ def footer():
         <p class="footer-h">Reach us</p>
         <a href="mailto:{EMAIL}">{EMAIL}</a>
         <a href="tel:{PHONE_TEL}">{PHONE_DISPLAY}</a>
+        <a href="https://wa.me/18078060444" rel="noopener">WhatsApp</a>
+        <a href="{TELEGRAM}" rel="noopener">Telegram</a>
         <address>{"<br>".join(ADDRESS_LINES[:2])}</address>
       </div>
     </div>
     <div class="wrap footer-base">
-      <p>© <span data-year>2026</span> {OPERATOR}. AML Canada is operated by {OPERATOR}.</p>
+      <p>© <span data-year>2026</span> {OPERATOR}. AML Canada is operated by <a href="{CF_URL}" rel="noopener">{OPERATOR}</a>.</p>
       <p class="footer-legal"><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><button type="button" class="footer-cookie" data-consent-open hidden>Cookie choices</button></p>
     </div>
     <div class="wrap footer-note"><p>The information on this site is general and is not legal advice.</p></div>
@@ -394,12 +424,17 @@ def footer():
 """
 
 
+def chat_links(cls="chat-links"):
+    return (f'\n            <span class="{cls}"><a href="{WHATSAPP}" rel="noopener" data-src="msb-sale">WhatsApp</a>'
+            f'<a href="{TELEGRAM}" rel="noopener" data-src="msb-sale">Telegram</a></span>')
+
+
 def page_hero(crumbs, title, lede, label, flag=False, actions=True, need="", price="", kicker=""):
     crumb_html = "".join(f'<a href="{h}">{t}</a><span aria-hidden="true">/</span>' for h, t in crumbs)
     act = f"""
           <div class="hero-actions">
             <a class="btn btn-amber" href="contact.html{'?need=' + need if need else ''}">Book a consultation {arrow()}</a>
-            <a class="link-dark" href="#start">Read on</a>{f'{chr(10)}            <span class="hero-price">{price}</span>' if price else ""}
+            <a class="link-dark" href="#start">Read on</a>{f'{chr(10)}            <span class="hero-price">{price}</span>' if price else ""}{chat_links() if need in ("acquire", "sell") else ""}
           </div>""" if actions else ""
     # With a kicker, the keyword phrase is the H1 and the display tagline becomes a styled paragraph.
     head_html = (f'<h1 id="page-title" class="hero-kicker">{kicker}</h1>\n        <p class="page-headline">{lede[0]}</p>'
@@ -596,11 +631,17 @@ def faq_block(faqs, title="Questions"):
 """
 
 
+def with_byline(hero, file):
+    if file not in REVIEWED:
+        return hero
+    return hero.replace('<p class="page-lede">', BYLINE.format(date=REVIEWED[file]) + '\n        <p class="page-lede">', 1)
+
+
 def deep_page(file):
     d = DEEP[file]
     return (head(d["title"], d["desc"], file) + nav(file) + '  <main id="main">\n'
-            + page_hero([("services.html", "Services")], d["name"], (d["h1"], d["lede"]), d["label"], d.get("flag", False),
-                        need=d["need"], price=d["hero_price"], kicker=d.get("kicker", ""))
+            + with_byline(page_hero([("services.html", "Services")], d["name"], (d["h1"], d["lede"]), d["label"], d.get("flag", False),
+                        need=d["need"], price=d["hero_price"], kicker=d.get("kicker", "")), file)
             + intro(*d["intro"])
             + fee_band(d["fee"], d["need"])
             + facts_strip(d["facts"])
@@ -813,7 +854,18 @@ PAGES["about.html"] = (
     + intro("AML Canada helps businesses register with FINTRAC, build compliance programs that work, prepare for examinations and train their people.",
             ["AML Canada is operated by ComplyFactor Limited. We provide anti-money laundering (AML) and anti-terrorist financing compliance services to businesses regulated by FINTRAC, Canada's financial intelligence unit, and to payment service providers supervised by the Bank of Canada under the RPAA. We're a private consultancy, not part of or affiliated with FINTRAC, the Bank of Canada or the Government of Canada.",
              "Most of our clients are busy running their business. We explain what they have to do and help them do it, from the first registration to the next review."])
-    + f"""    <section class="beliefs" data-theme="dark" aria-labelledby="beliefs-title">
+    + f"""    <section class="team" id="team" data-theme="light" aria-labelledby="team-title">
+      <div class="wrap">
+        <h2 id="team-title">Who reviews our work</h2>
+        <article class="person" id="saeed">
+          <h3>Muhammad Saeed Abbasi</h3>
+          <p class="person-role">MLRO and Managing Director, <a href="{CF_URL}" rel="noopener">ComplyFactor Limited</a> · CAMS, ACMA, CGMA</p>
+          <p>Saeed works at MLRO level and reviews AML Canada's registration, acquisition and compliance guidance. His foundation is Canadian AML and payments regulation: the PCMLTFA, FINTRAC registration and reporting, and the Bank of Canada's Retail Payment Activities Act. He also works across the UAE, UK and US regimes, which is useful for the many clients who run Canadian MSBs from abroad.</p>
+          <p>ComplyFactor Limited, which operates AML Canada, has offices in Mississauga (Canada), the UK and Dubai (UAE).</p>
+        </article>
+      </div>
+    </section>
+    <section class="beliefs" data-theme="dark" aria-labelledby="beliefs-title">
       <div class="wrap">
         <h2 id="beliefs-title">What we believe</h2>
         <ol class="belief-grid">
@@ -843,11 +895,11 @@ PAGES["contact.html"] = (
           </ol>
           <div class="direct">
             <p class="direct-h">Or reach us directly</p>
-            <p><a href="mailto:{EMAIL}">{EMAIL}</a><br><a href="tel:{PHONE_TEL}">{PHONE_DISPLAY}</a></p>
+            <p><a href="mailto:{EMAIL}">{EMAIL}</a><br><a href="tel:{PHONE_TEL}">{PHONE_DISPLAY}</a><br><a href="{WA}" rel="noopener">WhatsApp</a> · <a href="{TG}" rel="noopener">Telegram</a></p>
             <address>{ADDR}</address>
           </div>
         </div>
-""".replace("{EMAIL}", EMAIL).replace("{PHONE_TEL}", PHONE_TEL).replace("{PHONE_DISPLAY}", PHONE_DISPLAY).replace("{ADDR}", "<br>".join(ADDRESS_LINES))
+""".replace("{EMAIL}", EMAIL).replace("{PHONE_TEL}", PHONE_TEL).replace("{PHONE_DISPLAY}", PHONE_DISPLAY).replace("{ADDR}", "<br>".join(ADDRESS_LINES)).replace("{WA}", WHATSAPP).replace("{TG}", TELEGRAM)
     + "{{FORM}}"
     + """      </div>
     </section>
@@ -929,6 +981,7 @@ def guide_page(file):
     meta = f'{kind} · {"Published " + nice_date(g["date"]) if g.get("date") else "Updated " + (nice_date(g["modified"]) if g.get("modified") else UPDATED)} · {read_minutes(g)} min read · AML Canada'
     hero = page_hero([("guides.html", "Guides")], g["crumb"], (g["h1"], g["lede"]), g["label"], actions=False)
     hero = hero.replace('<p class="page-lede">', f'<p class="guide-meta">{meta}</p>\n        <p class="page-lede">', 1)
+    hero = with_byline(hero, file)
     return (head(g["title"], g["desc"], file) + nav(file) + '  <main id="main">\n'
             + hero
             + takeaways_box(g["takeaways"])
@@ -1146,7 +1199,7 @@ def page_404():
     return html.replace('canonical" href="https://amlcanada.ca/404.html"', 'canonical" href="https://amlcanada.ca/"')
 
 
-INDEXED = ["", "services.html", *[f for f, *_ in SERVICES], "pricing.html", "guides.html", *GUIDES, "who-we-help.html", "how-we-work.html",
+INDEXED = ["", "services.html", *[f for f, *_ in SERVICES], "sell-your-msb.html", "pricing.html", "guides.html", *GUIDES, "who-we-help.html", "how-we-work.html",
            "about.html", "contact.html", "privacy.html", "terms.html"]
 
 ROBOTS = """# robots.txt for https://amlcanada.ca

@@ -303,3 +303,23 @@
 }
 .price-timing-note { margin-top: 20px; max-width: 80ch; font-size: 14.5px; color: var(--ink-3); }
 @media (max-width: 680px) { .price-table td:nth-child(5) { grid-column: 1 / -1; font-size: 14px; color: var(--ink-3); } .price-table td:nth-child(5)::before { content: "Typical timing: "; } }
+
+/* Reviewer line, chat links, redacted listings, team (2026-10-25) */
+.byline { margin-top: 16px; max-width: 62ch; font-size: 14px; line-height: 1.5; color: var(--on-dark-3); }
+.byline a { color: var(--on-dark-2); text-underline-offset: 3px; }
+.byline a:hover { color: var(--amber); }
+.chat-links { display: inline-flex; gap: 14px; font: 500 12.5px/1 var(--mono); letter-spacing: 0.08em; text-transform: uppercase; }
+.chat-links a { color: var(--on-dark-2); text-decoration: none; }
+.chat-links a:hover { color: var(--amber); }
+.redact { white-space: nowrap; filter: blur(5px); user-select: none; -webkit-user-select: none; pointer-events: none; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+.listing-sub { font: 400 12px/1.4 var(--mono); letter-spacing: 0.05em; text-transform: uppercase; color: var(--ink-3); }
+.listing-status { font: 500 12px/1.4 var(--mono); letter-spacing: 0.05em; text-transform: uppercase; color: var(--ink); }
+.listing-table td a { color: var(--ink); text-underline-offset: 3px; }
+.team { background: var(--paper); padding: 0 0 var(--section); position: relative; z-index: 1; }
+.team h2 { font-size: clamp(28px, 3vw, 40px); line-height: 1.1; }
+.person { margin-top: 28px; max-width: 70ch; display: grid; gap: 12px; color: var(--ink-2); font-size: 17px; line-height: 1.55; }
+.person h3 { font-size: 22px; color: var(--ink); }
+.person-role { font: 400 12.5px/1.5 var(--mono); letter-spacing: 0.05em; text-transform: uppercase; color: var(--ink-3); }
+.person a { color: var(--ink); text-underline-offset: 3px; }
+.listing-table th, .listing-table td { position: relative; }
