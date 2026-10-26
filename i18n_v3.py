@@ -25,6 +25,12 @@ LANGS = {
     "ar": ("ar", "العربية", "AR"),
     "zh-hans": ("zh-Hans", "简体中文", "简"),
     "zh-hant": ("zh-Hant", "繁體中文", "繁"),
+    "es": ("es", "Español", "ES"),
+    "pt-br": ("pt-BR", "Português", "PT"),
+    "it": ("it", "Italiano", "IT"),
+    "pl": ("pl", "Polski", "PL"),
+    "ru": ("ru", "Русский", "RU"),
+    "uk": ("uk", "Українська", "UK"),
 }
 EN = ("en-CA", "English", "EN")
 ENGLISH_ONLY = {"privacy.html", "terms.html", "404.html"}  # legal text stays English (owner's choice)
@@ -35,8 +41,14 @@ NOTE = {  # shown at the end of every translated page
     "ar": ("هذه الصفحة مترجمة من الإنجليزية. في حال وجود أي اختلاف، تسري النسخة الإنجليزية.", "اقرأ بالإنجليزية"),
     "zh-hans": ("本页译自英文。如有出入，以英文版本为准。", "阅读英文版"),
     "zh-hant": ("本頁譯自英文。如有出入，以英文版本為準。", "閱讀英文版"),
+    "es": ("Esta página es una traducción del inglés. En caso de discrepancia, prevalece la versión en inglés.", "Leer en inglés"),
+    "pt-br": ("Esta página foi traduzida do inglês. Em caso de divergência, prevalece a versão em inglês.", "Ler em inglês"),
+    "it": ("Questa pagina è tradotta dall'inglese. In caso di discrepanze, prevale la versione inglese.", "Leggi in inglese"),
+    "pl": ("Ta strona została przetłumaczona z języka angielskiego. W razie rozbieżności rozstrzyga wersja angielska.", "Czytaj po angielsku"),
+    "ru": ("Эта страница переведена с английского. В случае расхождений преимущественную силу имеет английская версия.", "Читать на английском"),
+    "uk": ("Цю сторінку перекладено з англійської. У разі розбіжностей переважну силу має англійська версія.", "Читати англійською"),
 }
-LANG_LABEL = {"fr": "Langue", "de": "Sprache", "ar": "اللغة", "zh-hans": "语言", "zh-hant": "語言", "en": "Language"}
+LANG_LABEL = {"fr": "Langue", "de": "Sprache", "ar": "اللغة", "zh-hans": "语言", "zh-hant": "語言", "es": "Idioma", "pt-br": "Idioma", "it": "Lingua", "pl": "Język", "ru": "Язык", "uk": "Мова", "en": "Language"}
 
 SKIP_TAGS = {"script", "style", "svg", "noscript", "template", "code", "pre"}
 ATTRS = ("alt", "aria-label", "title", "placeholder", "data-title", "data-desc", "data-label")
