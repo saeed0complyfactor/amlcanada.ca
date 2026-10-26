@@ -821,6 +821,27 @@
   });
   document.addEventListener("click", (e) => { if (!e.target.closest(".mega-item")) closeMega(); });
 
+  // Menu labels differ in length by language: drop secondary buttons, then the bar, until the nav fits
+  const pill = $(".nav-pill"), megaEl = $(".mega"), navEnd = $(".nav-end");
+  const fitNav = () => {
+    if (!pill || !megaEl || !navEnd) return;
+    const steps = ["fit-1", "fit-2", "fit-3"];
+    pill.classList.remove(...steps);
+    for (const step of steps) {
+      if (getComputedStyle(megaEl).display === "none") break;
+      const end = navEnd.getBoundingClientRect(), items = $$(".mega-bar > li").map((li) => li.getBoundingClientRect());
+      const clash = document.documentElement.dir === "rtl" ? Math.min(...items.map((r) => r.left)) < end.right + 12 : Math.max(...items.map((r) => r.right)) > end.left - 12;
+      if (!clash) break;
+      pill.classList.add(step);
+    }
+  };
+  fitNav();
+  addEventListener("resize", fitNav);
+  const closeLang = (e) => $$("[data-lang-switch][open]").forEach((d) => (e.key === "Escape" || !d.contains(e.target)) && d.removeAttribute("open"));
+  document.addEventListener("click", closeLang);
+  document.addEventListener("keydown", (e) => e.key === "Escape" && closeLang(e));
+  document.fonts?.ready.then(fitNav);
+
   const menu = $("[data-menu]");
   const opener = $("[data-menu-open]");
   const closeMenu = (restore = true) => {
