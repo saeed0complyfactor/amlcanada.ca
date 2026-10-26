@@ -4,7 +4,7 @@
 
 ## Services
 
-- [Outsourced compliance officer](https://amlcanada.ca/outsourced-compliance-officer.html): An outsourced Canadian AML compliance officer (MLRO): onboarding reviews, FINTRAC reporting, policies and risk assessments. US$1,500 per 10 hours.
+- [Outsourced compliance officer](https://amlcanada.ca/outsourced-compliance-officer.html): An outsourced Canadian AML compliance officer (MLRO): onboarding reviews, FINTRAC reporting, policies and risk assessments. US$1,500 per month for 10 hours.
 - [MSB registration](https://amlcanada.ca/msb-registration.html): FINTRAC registration for money services businesses, foreign MSBs and virtual currency (crypto) dealers. Fixed fee US$3,500, prepared and submitted with you.
 - [Compliance programs](https://amlcanada.ca/compliance-programs.html): PCMLTFA compliance program documents for FINTRAC-regulated businesses: policies and procedures, risk assessment, training and review plans. Fixed fee US$3,500.
 - [Canadian business address](https://amlcanada.ca/canadian-address.html): A Canadian business address for foreign MSBs and companies entering Canada, for your setup, banking and partners. US$200 per month, terms agreed in writing.
@@ -51,7 +51,7 @@
 ## About
 
 - [All services](https://amlcanada.ca/services.html)
-- [Pricing](https://amlcanada.ca/pricing.html): Canadian company incorporation US$1,500 (usually a few hours to 24 hours); FINTRAC MSB registration US$3,500 (approval typically 1 week to 7 months); PCMLTFA compliance program (14 documents) US$3,500; outsourced compliance officer US$1,500 per 10 hours; RPAA registration US$3,500 plus the Bank of Canada's CA$2,500 application fee (typically 2 to 8 months); RPAA compliance program US$3,500; Canadian address US$200 per month; registered MSBs for sale from EUR 28,000.
+- [Pricing](https://amlcanada.ca/pricing.html): Canadian company incorporation US$1,500 (usually a few hours to 24 hours); FINTRAC MSB registration US$3,500 (approval typically 1 week to 7 months); PCMLTFA compliance program (14 documents) US$3,500; outsourced compliance officer US$1,500 per month for 10 hours; RPAA registration US$3,500 plus the Bank of Canada's CA$2,500 application fee (typically 2 to 8 months); RPAA compliance program US$3,500; Canadian address US$200 per month; registered MSBs for sale from EUR 28,000.
 - [Who we help](https://amlcanada.ca/who-we-help.html): money services businesses, virtual currency dealers, foreign MSBs, fintechs and compliance officers.
 - [How we work](https://amlcanada.ca/how-we-work.html)
 - [About AML Canada](https://amlcanada.ca/about.html)

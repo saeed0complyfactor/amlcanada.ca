@@ -8,9 +8,9 @@
 
 URL: https://amlcanada.ca/outsourced-compliance-officer.html
 
-An outsourced AML compliance officer, or MLRO, for businesses FINTRAC regulates. US$1,500 per 10 hours, scaled as you grow.
+An outsourced AML compliance officer, or MLRO, for businesses FINTRAC regulates. US$1,500 per month for 10 hours, scaled as you grow.
 
-**Fee:** US$1,500 (per 10 hours · scalable). How your hours are used each month is set out in your written scope.
+**Fee:** US$1,500 (per month · 10 hours · scalable). How your hours are used each month is set out in your written scope.
 
 **Included:**
 - All AML and compliance obligations under your program
@@ -88,7 +88,7 @@ Every client gets a risk rating that drives how closely you monitor them. We set
 
 It depends on how many customers you onboard, how many alerts and reports you generate, how many products and markets you serve, and whether you deal in cash or virtual currency. A business preparing to launch needs far fewer hours than one onboarding hundreds of customers a month.
 
-We estimate a starting number of hours with you in the consultation, then adjust once your volumes are clear. Hours are bought in blocks of 10, so the cost follows your workload.
+We estimate a starting number of hours with you in the consultation, then adjust once your volumes are clear. The monthly fee covers 10 hours, and you add 10-hour blocks when you need more, so the cost follows your workload.
 
 ### Your responsibilities, and ours
 
@@ -108,7 +108,7 @@ The titles differ by country. In the UK and Europe the role is usually called th
 
 **Can a business outsource its compliance officer in Canada?** Many businesses use an outside compliance officer, or outside support for the person they appoint. FINTRAC's guidance doesn't specifically address external appointments. Your business stays responsible for its obligations, and the compliance officer needs the authority and access to senior management to do the job, so we set out authority, access and sign-off in writing.
 
-**What does an outsourced compliance officer cost?** US$1,500 for each block of 10 hours. You choose how many blocks you need, and you can add more as your business grows.
+**What does an outsourced compliance officer cost?** US$1,500 per month for 10 hours. You can add further 10-hour blocks each month as your business grows.
 
 **What is an MLRO in Canada?** MLRO means money laundering reporting officer, a title used mainly in the UK and Europe. The Canadian equivalent under the PCMLTFA is the compliance officer.
 
@@ -116,9 +116,9 @@ The titles differ by country. In the UK and Europe the role is usually called th
 
 **Do you work with foreign money services businesses?** Yes. We work with businesses based outside Canada that serve people in Canada.
 
-**Can we start small?** Yes. Start with the hours you need now, and add blocks of 10 hours when your volumes grow.
+**Can we start small?** Yes. Start with 10 hours a month, and add further 10-hour blocks when your volumes grow.
 
-**Is a fractional compliance officer the same as an outsourced one?** In practice, yes. "Fractional" usually means a part-time compliance officer from outside your business who is paid for the hours used. Our service works that way: you buy blocks of 10 hours for US$1,500 and add more as your volumes grow.
+**Is a fractional compliance officer the same as an outsourced one?** In practice, yes. "Fractional" usually means a part-time compliance officer from outside your business who is paid for the hours used. Our service works that way: US$1,500 per month for 10 hours, with more hours added as your volumes grow.
 
 Sources: [FINTRAC, Compliance program requirements](https://fintrac-canafe.canada.ca/guidance-directives/compliance-conformite/Guide4/4-eng); [Reporting suspicious transactions](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/str-dod/str-dod-eng); [Reporting suspected sanctions evasion](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/sanctions/sanctions-eng); [Reporting listed person or entity property](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/Guide5/5-eng); [Reporting electronic funds transfers](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/eft-dt/eft-dt-eng); [Reporting large virtual currency transactions](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/lvctr/lvctr-eng); [Reporting large cash transactions](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/lctr-doie/lctr-doie-eng); [The 24-hour rule](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/24hour/1-eng). Checked 11 October 2026.
 
@@ -320,7 +320,7 @@ A program written once and left on a shelf goes out of date as your business and
 
 **Does the fee include the effectiveness review?** No. The program includes a plan for your review. The review itself is a separate, scoped piece of work.
 
-**Can you keep the program up to date afterwards?** Yes, through outsourced compliance officer hours at US$1,500 per 10 hours.
+**Can you keep the program up to date afterwards?** Yes, through outsourced compliance officer hours at US$1,500 per month for 10 hours.
 
 **Our bank has asked for our AML program. What now?** Book a consultation. We'll look at what you have, tell you what's missing and agree a written scope to close the gaps.
 
@@ -2862,7 +2862,7 @@ An experienced compliance professional carries the day-to-day work, or supports 
 
 | | In-house hire | Outsourced |
 
-| Cost | A full-time salary and benefits, whatever the workload | The hours you use; with us, US$1,500 per 10 hours |
+| Cost | A full-time salary and benefits, whatever the workload | The hours you use; with us, US$1,500 per month for 10 hours |
 
 | Presence | In the business every day | Works to an agreed scope and schedule |
 
@@ -2896,7 +2896,7 @@ Our [outsourced compliance officer service](https://amlcanada.ca/outsourced-comp
 
 **Can a small business owner be the compliance officer?** Yes. FINTRAC's guidance says that in a small business the owner or operator can be the compliance officer.
 
-**How much does an outsourced compliance officer cost?** With us, US$1,500 per block of 10 hours, scaled to your workload.
+**How much does an outsourced compliance officer cost?** With us, US$1,500 per month for 10 hours, scaled to your workload.
 
 Sources: [FINTRAC, Compliance program requirements](https://fintrac-canafe.canada.ca/guidance-directives/compliance-conformite/Guide4/4-eng). Checked 11 October 2026.
 
@@ -3543,7 +3543,7 @@ To operate, an MSB needs a compliance program: a compliance officer, policies an
 
 | PCMLTFA compliance program (14 documents) | US$3,500, fixed |
 
-| Outsourced compliance officer | US$1,500 per 10 hours |
+| Outsourced compliance officer | US$1,500 per month for 10 hours |
 
 | Canadian business address | US$200 per month |
 

@@ -130,24 +130,24 @@ DEEP = {}
 DEEP["outsourced-compliance-officer.html"] = dict(
     name="Outsourced compliance officer",
     title="Outsourced AML Compliance Officer (MLRO) Canada | AML Canada",
-    desc="An outsourced Canadian AML compliance officer (MLRO): onboarding reviews, FINTRAC reporting, policies and risk assessments. US$1,500 per 10 hours.",
+    desc="An outsourced Canadian AML compliance officer (MLRO): onboarding reviews, FINTRAC reporting, policies and risk assessments. US$1,500 per month for 10 hours.",
     service_type="Outsourced AML compliance officer (MLRO)",
-    offers=[("1500", "USD", "Block of 10 hours of outsourced compliance officer time")],
+    offers=[("1500", "USD", "Outsourced compliance officer, 10 hours per month")],
     kicker="Outsourced AML compliance officer (MLRO) in Canada",
     h1="A Canadian compliance officer, without the full-time hire.",
-    lede="An outsourced AML compliance officer, or MLRO, for businesses FINTRAC regulates. US$1,500 per 10 hours, scaled as you grow.",
-    hero_price="US$1,500 · 10 hours",
+    lede="An outsourced AML compliance officer, or MLRO, for businesses FINTRAC regulates. US$1,500 per month for 10 hours, scaled as you grow.",
+    hero_price="US$1,500 / month · 10 hours",
     label="Compliance officer · On duty",
     need="officer",
     intro=("Every business FINTRAC regulates has to appoint a compliance officer. For many growing businesses, the right person is experienced, part-time and already working in Canada.",
            ["AML Canada provides an outsourced compliance officer, also known as an MLRO (money laundering reporting officer). We carry the day-to-day anti-money laundering and anti-terrorist financing work for you: second-line review of customer onboarding, advice on difficult cases, regulatory reporting to FINTRAC, and keeping your policies and risk assessments current.",
-            "You buy time in blocks of 10 hours for US$1,500. Start with the hours you need now and add blocks as your customers, products and markets grow.",
+            "The fee is US$1,500 per month for 10 hours. Start with the hours you need now and add further 10-hour blocks to your month as your customers, products and markets grow.",
             "Your business stays responsible for its obligations under the Proceeds of Crime (Money Laundering) and Terrorist Financing Act (PCMLTFA). We do the work behind them on time and keep a record of what was done."]),
-    facts=[("Fee", "US$1,500", "per block of 10 hours"),
-           ("Hours", "Scalable", "add blocks as you grow"),
+    facts=[("Fee", "US$1,500", "per month for 10 hours"),
+           ("Hours", "Scalable", "add 10-hour blocks as you grow"),
            ("Reports", "STR · EFTR · LVCTR", "LCTR and the others that apply to you"),
            ("Based", "In Canada", "working alongside your team")],
-    fee=dict(amount="US$1,500", unit="per 10 hours · scalable",
+    fee=dict(amount="US$1,500", unit="per month · 10 hours · scalable",
              note="How your hours are used each month is set out in your written scope.",
              items=["All AML and compliance obligations under your program",
                     "Second-line review of customer onboarding",
@@ -184,7 +184,7 @@ DEEP["outsourced-compliance-officer.html"] = dict(
             <li><strong>Scaling.</strong> As volumes grow, add blocks of hours, or hand the work to an in-house compliance officer we help you hire and train.</li>
           </ol>"""),
         ("hours", "How many hours you might need", """          <p>It depends on how many customers you onboard, how many alerts and reports you generate, how many products and markets you serve, and whether you deal in cash or virtual currency. A business preparing to launch needs far fewer hours than one onboarding hundreds of customers a month.</p>
-          <p>We estimate a starting number of hours with you in the consultation, then adjust once your volumes are clear. Hours are bought in blocks of 10, so the cost follows your workload.</p>"""),
+          <p>We estimate a starting number of hours with you in the consultation, then adjust once your volumes are clear. The monthly fee covers 10 hours, and you add 10-hour blocks when you need more, so the cost follows your workload.</p>"""),
         ("responsibility", "Your responsibilities, and ours", """          <p>Your business remains the reporting entity even when we do the work, and your senior management stays accountable for the program. We document decisions, send escalations to the right people and keep you informed of what was done in your name.</p>
           <ul>
             <li>You provide access, information and timely decisions.</li>
@@ -203,12 +203,12 @@ DEEP["outsourced-compliance-officer.html"] = dict(
                ("When volumes outgrow your team", "Extra capacity for onboarding reviews, reporting and maintenance.")],
     arts=["scan", "address", "many"],
     faqs=[("Can a business outsource its compliance officer in Canada?", "Many businesses use an outside compliance officer, or outside support for the person they appoint. FINTRAC's guidance doesn't specifically address external appointments. Your business stays responsible for its obligations, and the compliance officer needs the authority and access to senior management to do the job, so we set out authority, access and sign-off in writing."),
-          ("What does an outsourced compliance officer cost?", "US$1,500 for each block of 10 hours. You choose how many blocks you need, and you can add more as your business grows."),
+          ("What does an outsourced compliance officer cost?", "US$1,500 per month for 10 hours. You can add further 10-hour blocks each month as your business grows."),
           ("What is an MLRO in Canada?", "MLRO means money laundering reporting officer, a title used mainly in the UK and Europe. The Canadian equivalent under the PCMLTFA is the compliance officer."),
           ("Which FINTRAC reports do you handle?", "Suspicious transaction reports, electronic funds transfer reports, large virtual currency transaction reports, large cash transaction reports, and listed person or entity property reports, whichever apply to your business."),
           ("Do you work with foreign money services businesses?", "Yes. We work with businesses based outside Canada that serve people in Canada."),
-          ("Can we start small?", "Yes. Start with the hours you need now, and add blocks of 10 hours when your volumes grow."),
-          ("Is a fractional compliance officer the same as an outsourced one?", "In practice, yes. \"Fractional\" usually means a part-time compliance officer from outside your business who is paid for the hours used. Our service works that way: you buy blocks of 10 hours for US$1,500 and add more as your volumes grow.")],
+          ("Can we start small?", "Yes. Start with 10 hours a month, and add further 10-hour blocks when your volumes grow."),
+          ("Is a fractional compliance officer the same as an outsourced one?", "In practice, yes. \"Fractional\" usually means a part-time compliance officer from outside your business who is paid for the hours used. Our service works that way: US$1,500 per month for 10 hours, with more hours added as your volumes grow.")],
     related=["compliance-programs.html", "msb-registration.html", "effectiveness-reviews.html"],
 )
 
@@ -343,7 +343,7 @@ DEEP["compliance-programs.html"] = dict(
           ("How much does a compliance program cost?", "A fixed US$3,500 for 14 PCMLTFA compliance program documents, from the AML/ATF Compliance Policy to the Fraud Risk Management Policy."),
           ("Do you use templates?", "We use a consistent structure, and the content is written for your products, customers and team. A program that doesn't describe how your business works won't hold up in an examination."),
           ("Does the fee include the effectiveness review?", "No. The program includes a plan for your review. The review itself is a separate, scoped piece of work."),
-          ("Can you keep the program up to date afterwards?", "Yes, through outsourced compliance officer hours at US$1,500 per 10 hours."),
+          ("Can you keep the program up to date afterwards?", "Yes, through outsourced compliance officer hours at US$1,500 per month for 10 hours."),
           ("Our bank has asked for our AML program. What now?", "Book a consultation. We'll look at what you have, tell you what's missing and agree a written scope to close the gaps.")],
     related=["outsourced-compliance-officer.html", "effectiveness-reviews.html", "msb-registration.html"],
 )

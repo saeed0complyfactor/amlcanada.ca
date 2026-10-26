@@ -29,7 +29,7 @@ POSTAL = {"@type": "PostalAddress", "streetAddress": "320 Matheson Blvd West, Su
 
 # (file, name, art, short description, price label)
 SERVICES = [
-    ("outsourced-compliance-officer.html", "Outsourced compliance officer", "scan", "A Canadian AML compliance officer (MLRO): onboarding reviews, FINTRAC reporting, policies and risk assessments.", "US$1,500 / 10 hours"),
+    ("outsourced-compliance-officer.html", "Outsourced compliance officer", "scan", "A Canadian AML compliance officer (MLRO): onboarding reviews, FINTRAC reporting, policies and risk assessments.", "US$1,500 / month · 10 hours"),
     ("msb-registration.html", "MSB registration", "register", "FINTRAC registration for money services businesses, foreign MSBs and virtual currency dealers.", "US$3,500"),
     ("buy-or-register-msb-canada.html", "Buy or register an MSB", "one", "Two routes to a FINTRAC-registered MSB: buy a ready-made company or register your own.", "From US$3,500"),
     ("compliance-programs.html", "Compliance programs", "programme", "14 PCMLTFA compliance program documents, based on your business.", "US$3,500"),
@@ -739,7 +739,7 @@ PAGES["pricing.html"] = (
     + faq_block([
         ("How much does FINTRAC MSB registration cost?", "FINTRAC charges no registration fee. Our fee to prepare and support your registration is a fixed US$3,500."),
         ("How much does an AML compliance program cost?", "A fixed US$3,500 for 14 PCMLTFA compliance program documents."),
-        ("How much does an outsourced compliance officer cost?", "US$1,500 per block of 10 hours, with hours that scale as your business grows."),
+        ("How much does an outsourced compliance officer cost?", "US$1,500 per month for 10 hours, with hours that scale as your business grows."),
         ("How much does RPAA registration cost?", "Our fee is a fixed US$3,500, plus the Bank of Canada's one-time application fee (CA$2,500 when introduced, indexed to inflation each year), paid to the Bank. The RPAA compliance program is a further US$3,500."),
         ("How much does a registered MSB cost to buy?", "Acquisitions start from €28,000, depending on the company."),
         ("How much does it cost to incorporate a company in Canada?", "Our fee is a fixed US$1,500, usually done within a few hours to 24 hours. Government filing fees are separate."),
@@ -1262,7 +1262,7 @@ def llms():
 ## About
 
 - [All services]({SITE}services.html)
-- [Pricing]({SITE}pricing.html): Canadian company incorporation US$1,500 (usually a few hours to 24 hours); FINTRAC MSB registration US$3,500 (approval typically 1 week to 7 months); PCMLTFA compliance program (14 documents) US$3,500; outsourced compliance officer US$1,500 per 10 hours; RPAA registration US$3,500 plus the Bank of Canada's CA$2,500 application fee (typically 2 to 8 months); RPAA compliance program US$3,500; Canadian address US$200 per month; registered MSBs for sale from EUR 28,000.
+- [Pricing]({SITE}pricing.html): Canadian company incorporation US$1,500 (usually a few hours to 24 hours); FINTRAC MSB registration US$3,500 (approval typically 1 week to 7 months); PCMLTFA compliance program (14 documents) US$3,500; outsourced compliance officer US$1,500 per month for 10 hours; RPAA registration US$3,500 plus the Bank of Canada's CA$2,500 application fee (typically 2 to 8 months); RPAA compliance program US$3,500; Canadian address US$200 per month; registered MSBs for sale from EUR 28,000.
 - [Who we help]({SITE}who-we-help.html): money services businesses, virtual currency dealers, foreign MSBs, fintechs and compliance officers.
 - [How we work]({SITE}how-we-work.html)
 - [About AML Canada]({SITE}about.html)

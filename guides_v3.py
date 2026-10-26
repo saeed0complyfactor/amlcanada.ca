@@ -129,7 +129,7 @@ GUIDES["msb-registration-cost-canada.html"] = dict(
               <tr><th scope="row"><a href="incorporation-canada.html">Canadian company incorporation</a></th><td>US$1,500, fixed (government fees separate)</td></tr>
               <tr><th scope="row"><a href="msb-registration.html">FINTRAC MSB registration</a></th><td>US$3,500, fixed</td></tr>
               <tr><th scope="row"><a href="compliance-programs.html">PCMLTFA compliance program (14 documents)</a></th><td>US$3,500, fixed</td></tr>
-              <tr><th scope="row"><a href="outsourced-compliance-officer.html">Outsourced compliance officer</a></th><td>US$1,500 per 10 hours</td></tr>
+              <tr><th scope="row"><a href="outsourced-compliance-officer.html">Outsourced compliance officer</a></th><td>US$1,500 per month for 10 hours</td></tr>
               <tr><th scope="row"><a href="canadian-address.html">Canadian business address</a></th><td>US$200 per month</td></tr>
               <tr><th scope="row"><a href="msb-for-sale.html">Registered MSB to acquire</a></th><td>From €28,000</td></tr>
             </tbody>
@@ -531,7 +531,7 @@ GUIDES["outsourced-vs-in-house-compliance-officer.html"] = dict(
         ("compare", "Side by side", """          <div class="table-wrap"><table>
             <thead><tr><th scope="col"></th><th scope="col">In-house hire</th><th scope="col">Outsourced</th></tr></thead>
             <tbody>
-              <tr><th scope="row">Cost</th><td>A full-time salary and benefits, whatever the workload</td><td>The hours you use; with us, US$1,500 per 10 hours</td></tr>
+              <tr><th scope="row">Cost</th><td>A full-time salary and benefits, whatever the workload</td><td>The hours you use; with us, US$1,500 per month for 10 hours</td></tr>
               <tr><th scope="row">Presence</th><td>In the business every day</td><td>Works to an agreed scope and schedule</td></tr>
               <tr><th scope="row">Knowledge of your business</th><td>Builds over time from the inside</td><td>Depends on what you share and how often</td></tr>
               <tr><th scope="row">Canadian AML experience</th><td>Depends on who you can hire</td><td>Usually works across several FINTRAC-regulated clients</td></tr>
@@ -550,7 +550,7 @@ GUIDES["outsourced-vs-in-house-compliance-officer.html"] = dict(
     ],
     faqs=[("Does every MSB need a compliance officer?", "Yes. Appointing a compliance officer is a required part of every reporting entity's compliance program."),
           ("Can a small business owner be the compliance officer?", "Yes. FINTRAC's guidance says that in a small business the owner or operator can be the compliance officer."),
-          ("How much does an outsourced compliance officer cost?", "With us, US$1,500 per block of 10 hours, scaled to your workload.")],
+          ("How much does an outsourced compliance officer cost?", "With us, US$1,500 per month for 10 hours, scaled to your workload.")],
     sources=[("FINTRAC, Compliance program requirements", F_G4)],
     related=["fintrac-reporting-requirements.html", "fintrac-effectiveness-review-checklist.html", "fintrac-examination-preparation.html"],
 )
