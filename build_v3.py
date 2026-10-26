@@ -1355,6 +1355,8 @@ def main():
     (OUT / "llms-full.txt").write_text(llms_full(), encoding="utf-8")
     (OUT / f"{INDEXNOW_KEY}.txt").write_text(INDEXNOW_KEY, encoding="utf-8")
     print("wrote 404.html, robots.txt, sitemap.xml, llms.txt")
+    import i18n_v3  # translated copies, hreflang and the multilingual sitemap; after sitemap.xml is written
+    i18n_v3.run()
     cfg = OUT / "site-config.js"
     if not cfg.exists():
         cfg.write_text(SITE_CONFIG, encoding="utf-8")

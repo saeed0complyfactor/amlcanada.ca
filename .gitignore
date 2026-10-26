@@ -6,6 +6,10 @@
 !/content_v3.py
 !/guides_v3.py
 !/posts_v3.py
+!/i18n_v3.py
+!/i18n/
+/i18n/todo-*.json
+/i18n/parts/
 !/build.py
 !/legal.py
 !/.github/

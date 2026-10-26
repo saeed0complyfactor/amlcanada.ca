@@ -7,6 +7,10 @@
 
   const $ = (s, r = document) => r.querySelector(s);
   const $$ = (s, r = document) => [...r.querySelectorAll(s)];
+  // UI strings for translated pages: window.I18N maps English text to the page's language (injected by i18n_v3.py)
+  const EN = document.documentElement.lang.startsWith("en");
+  const mx = document.documentElement.dir === "rtl" ? (f) => 1 - f : (f) => f; // mirror scene targets so tags avoid right-to-left text
+  const tr = (s, v = {}) => (window.I18N?.[s] || s).replace(/\{(\w+)\}/g, (_, k) => v[k] ?? "");
   const reduceMQ = matchMedia("(prefers-reduced-motion: reduce)");
   const clamp = (v, a, b) => Math.min(b, Math.max(a, v));
   const lerp = (a, b, t) => a + (b - a) * t;
@@ -380,16 +384,16 @@
       camAt();
       const used = [];
       const narrow = W < 700;
-      const b1 = nearestBuilding(narrow ? 0.7 : 0.66, narrow ? 0.26 : 0.27, 2, used); used.push(b1);
-      const b2 = nearestBuilding(narrow ? 0.38 : 0.47, narrow ? 0.42 : 0.47, 2.6, used); used.push(b2);
-      const p1 = narrow ? null : addScripted(0.8, 0.58);
-      const p2 = narrow ? null : addScripted(0.3, 0.22);
+      const b1 = nearestBuilding(mx(narrow ? 0.7 : 0.66), narrow ? 0.26 : 0.27, 2, used); used.push(b1);
+      const b2 = nearestBuilding(mx(narrow ? 0.38 : 0.47), narrow ? 0.42 : 0.47, 2.6, used); used.push(b2);
+      const p1 = narrow ? null : addScripted(mx(0.8), 0.58);
+      const p2 = narrow ? null : addScripted(mx(0.3), 0.22);
       flagStreams(b2);
       targets = [
-        { kind: "b", ref: b1, label: "Client · ID verified", icon: "check" },
-        { kind: "b", ref: b2, label: "4 cash deposits · 24h · $9,600 avg", flag: true, icon: "gap" },
-        { kind: "p", ref: p1, label: "Intl EFT · $14,500 · Reportable", icon: "gap" },
-        { kind: "p", ref: p2, label: "Name screen · Clear", icon: "check" },
+        { kind: "b", ref: b1, label: tr("Client · ID verified"), icon: "check" },
+        { kind: "b", ref: b2, label: tr("4 cash deposits · 24h · $9,600 avg"), flag: true, icon: "gap" },
+        { kind: "p", ref: p1, label: tr("Intl EFT · $14,500 · Reportable"), icon: "gap" },
+        { kind: "p", ref: p2, label: tr("Name screen · Clear"), icon: "check" },
       ].filter((t) => t.ref);
       return targets;
     }
@@ -578,7 +582,7 @@
     const size = () => {
       city.resize();
       const narrow = city.size[0] < 700;
-      const t = city.pickOne(camAt(a), narrow ? 0.62 : 0.7, narrow ? 0.3 : 0.38, label, flag);
+      const t = city.pickOne(camAt(a), mx(narrow ? 0.62 : 0.7), narrow ? 0.3 : 0.38, label, flag);
       layer.innerHTML = "";
       el = null;
       if (t.length) {
@@ -985,13 +989,13 @@
   let gapState = null;
   if (checker && gapList && scoreEl) {
     const ITEMS = [
-      { id: "reg", text: "FINTRAC registration", fix: "MSB registration" },
-      { id: "address", text: "A representative for service in Canada", fix: "MSB registration" },
-      { id: "officer", text: "A named compliance officer", fix: "Compliance programs" },
-      { id: "policies", text: "Written policies and procedures", fix: "Compliance programs" },
-      { id: "risk", text: "A documented risk assessment", fix: "Compliance programs" },
-      { id: "training", text: "An ongoing training program", fix: "Training" },
-      { id: "review", text: "An effectiveness review in the last two years", fix: "Effectiveness reviews" },
+      { id: "reg", text: tr("FINTRAC registration"), fix: tr("MSB registration") },
+      { id: "address", text: tr("A representative for service in Canada"), fix: tr("MSB registration") },
+      { id: "officer", text: tr("A named compliance officer"), fix: tr("Compliance programs") },
+      { id: "policies", text: tr("Written policies and procedures"), fix: tr("Compliance programs") },
+      { id: "risk", text: tr("A documented risk assessment"), fix: tr("Compliance programs") },
+      { id: "training", text: tr("An ongoing training program"), fix: tr("Training") },
+      { id: "review", text: tr("An effectiveness review in the last two years"), fix: tr("Effectiveness reviews") },
     ];
     const lis = {};
     ITEMS.forEach((it) => {
@@ -1041,15 +1045,15 @@
         if (v === null) return;
         total++;
         if (v) have++; else gaps.push(it);
-        const text = it.id === "reg" && reg === "progress" ? "FINTRAC registration, in progress" : it.text;
+        const text = it.id === "reg" && reg === "progress" ? tr("FINTRAC registration, in progress") : it.text;
         li.className = v ? "is-done" : "is-gap";
         li.firstElementChild.firstElementChild.setAttribute("href", v ? "#i-check" : "#i-gap");
         li.children[1].textContent = text;
-        li.children[2].textContent = v ? "In place" : it.fix;
+        li.children[2].textContent = v ? tr("In place") : it.fix;
       });
       setScore(have);
-      ofEl.textContent = `of ${total}`;
-      srEl.textContent = `${have} of ${total} in place.`;
+      ofEl.textContent = tr("of {total}", { total });
+      srEl.textContent = tr("{have} of {total} in place.", { have, total });
       gapState = { activity: fd.get("activity"), base, reg, gaps, have, total };
     };
     checker.addEventListener("change", run);
@@ -1078,8 +1082,8 @@
     setNeed(need);
     const notes = $("[data-notes]");
     const lines = [
-      `From the gap check: ${g.activity}, based ${g.base === "out" ? "outside" : "in"} Canada. ${g.have} of ${g.total} in place.`,
-      g.gaps.length ? `Gaps: ${g.gaps.map((x) => (/^[A-Z]{2}/.test(x.text) ? x.text : x.text.charAt(0).toLowerCase() + x.text.slice(1))).join("; ")}.` : "No gaps flagged. We'd like a second opinion.",
+      tr(g.base === "out" ? "From the gap check: {activity}, based outside Canada. {have} of {total} in place." : "From the gap check: {activity}, based in Canada. {have} of {total} in place.", { activity: g.activity, have: g.have, total: g.total }),
+      g.gaps.length ? tr("Gaps: {list}.", { list: g.gaps.map((x) => (!EN || /^[A-Z]{2}/.test(x.text) ? x.text : x.text.charAt(0).toLowerCase() + x.text.slice(1))).join("; ") }) : tr("No gaps flagged. We'd like a second opinion."),
     ];
     notes.value = lines.join("\n");
     $("#consult").scrollIntoView({ behavior: reduceMQ.matches ? "auto" : "smooth", block: "start" });
@@ -1098,16 +1102,16 @@
       const bad = req.filter((f) => !f.checkValidity());
       if (bad.length) {
         const names = bad.map((f) => $(`label[for="${f.id}"]`, form).textContent.trim().toLowerCase());
-        const list = names.length > 1 ? `${names.slice(0, -1).join(", ")} and ${names.at(-1)}` : names[0];
+        const list = names.length > 1 ? `${names.slice(0, -1).join(", ")} ${tr("and")} ${names.at(-1)}` : names[0];
         const emailBad = bad.some((f) => f.type === "email" && f.value);
-        msg.textContent = emailBad && bad.length === 1 ? "That email address doesn't look complete. Please check it." : `Please add your ${list}.`;
+        msg.textContent = emailBad && bad.length === 1 ? tr("That email address doesn't look complete. Please check it.") : tr("Please add your {list}.", { list });
         msg.classList.add("err");
         bad[0].focus();
         return;
       }
       const label = btn.innerHTML;
       btn.disabled = true;
-      btn.textContent = "Sending…";
+      btn.textContent = tr("Sending…");
       try {
         if (!CFG.web3formsKey) throw new Error("no-endpoint");
         const data = Object.fromEntries(new FormData(form));
@@ -1118,13 +1122,13 @@
         const out = await res.json().catch(() => ({}));
         if (!res.ok || out.success === false) throw new Error("http");
         window.gtag?.("event", "generate_lead", { form: "consultation", need: data.need });
-        msg.textContent = "Thank you. We'll be in touch to find a time.";
+        msg.textContent = tr("Thank you. We'll be in touch to find a time.");
         msg.classList.add("ok");
         form.reset();
       } catch (err) {
         msg.textContent = err.message === "no-endpoint"
-          ? "Online requests aren't switched on yet. Please email info@amlcanada.ca and we'll find a time."
-          : "That didn't go through. Please check your connection and try again.";
+          ? tr("Online requests aren't switched on yet. Please email info@amlcanada.ca and we'll find a time.")
+          : tr("That didn't go through. Please check your connection and try again.");
         msg.classList.add("err");
       } finally {
         btn.disabled = false;
