@@ -1128,6 +1128,388 @@ Sources: [FINTRAC MSB registry](https://fintrac-canafe.canada.ca/msb-esm/reg-eng
 
 ---
 
+## Guide: The RPAA compliance frameworks a PSP needs
+
+URL: https://amlcanada.ca/rpaa-compliance-frameworks.html
+
+Every payment service provider needs a written risk management and incident response framework, and one that holds end-user funds also needs a safeguarding-of-funds framework. Third parties, agents and the senior officer's role are built into those two documents. Record keeping rules cover both, and the annual report, change notices and incident notices draw on them.
+
+**Key points:**
+- Every PSP needs a written risk management and incident response framework under section 17 of the RPAA and section 5 of the regulations.
+- A PSP that holds end-user funds also needs a safeguarding-of-funds framework under section 15 of the regulations.
+- Both frameworks are approved by the senior officer and any board at least once a year, and by the senior officer after each material change.
+- The framework can span several documents or adapt a parent company's, as long as it meets the RPAA, the regulations and the Bank's guideline.
+
+### The frameworks at a glance
+
+The [Retail Payment Activities Act](https://laws-lois.justice.gc.ca/eng/acts/R-7.36/FullText.html) (RPAA) and the [Retail Payment Activities Regulations](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2023-229/FullText.html) require two written frameworks. Every payment service provider (PSP) needs a risk management and incident response framework. A PSP that holds end-user funds also needs a safeguarding-of-funds framework. The Bank of Canada's [supervisory framework](https://www.bankofcanada.ca/regulatory-oversight/retail-payments/supervisory-framework/) says both requirements came into force on September 8, 2025.
+
+| Framework or obligation | Required by | Applies to | Review cycle or retention | Approver |
+
+| Risk management and incident response framework | RPAA s.17(1); Regulations ss.5 to 9 | Every PSP | At least yearly and before any material change | Senior officer yearly and after each material change; board, if any, yearly |
+
+| Independent review of that framework | Regulations s.10 | PSPs with an internal or external auditor | At least every three years | Gaps reported to the senior officer |
+
+| Third-party service provider assessments | Regulations s.5(3) | PSPs receiving services related to a payment function | Yearly, and before signing, renewing, extending or substantially amending a contract | Part of the risk framework |
+
+| Agent and mandatary criteria | Regulations s.5(4) | PSPs that use agents or mandataries | Each agent assessed at least yearly | Part of the risk framework |
+
+| Safeguarding-of-funds framework | RPAA s.20(1); Regulations ss.15 to 17 | PSPs that hold end-user funds | Yearly; after changing the means of safeguarding; after material changes to safeguarding accounts, insurers or guarantors. Independent review every three years | Senior officer yearly and after each material change; board, if any, yearly |
+
+| Records | Regulations ss.40 to 42 | Every PSP | Kept until five years after they stop showing current compliance | Not specified |
+
+### The risk management and incident response framework
+
+Section 17 of the Act requires this framework of every PSP, and the Bank can assess it and list corrective measures. Section 5 of the regulations says it must be in writing and must:
+
+- set objectives for keeping your payment activities available and preserving their integrity and confidentiality, with measurable reliability targets and indicators;
+
+- identify the human and financial resources needed, including skills and training;
+
+- allocate roles for normal operations and for incidents, with someone to challenge and oversee each role;
+
+- identify your assets and business processes and classify them by sensitivity and criticality;
+
+- identify your operational risks and their causes in eleven named areas, including business continuity and resilience, cybersecurity, fraud and third parties;
+
+- describe the controls for those risks and the continuous monitoring that detects incidents and lapses;
+
+- set out an incident response and recovery plan, including manual workarounds if primary systems fail, root cause investigation and a record of each incident.
+
+All of it must be proportionate to the impact a breakdown would have on end users and other PSPs. The Bank's [At a glance summary](https://www.bankofcanada.ca/wp-content/uploads/2025/02/Operational-risk-and-incident-response-At-a-glance.pdf) lists factors to tailor it to, such as your size, technology and risks. Sections 6 and 7 require you to keep it available to everyone with a role in it and to train them. Section 8 requires a review at least once a year and before any material change, with findings sent to the senior officer for approval. Section 9 requires a testing methodology that covers high-likelihood and high-impact risks, with a record of each test. If you have an internal or external auditor, section 10 adds an independent review at least every three years. Our [incident reporting guide](https://amlcanada.ca/rpaa-incident-reporting.html) covers the notices.
+
+### Third-party service providers, agents and mandataries
+
+Under subsection 5(3) of the regulations, you assess each third-party service provider that supports a payment function at least once a year, and before you enter into, renew, extend or substantially amend its contract. The assessment covers how it protects your data, the security of its connections to your systems, how it tells you about changes and breaches, how you monitor it, and its own risk management. Record the dates, scope and findings, and allocate responsibilities, including for data.
+
+Subsection 5(4) requires criteria that agents and mandataries must meet, a ban on using any that don't, and a recorded assessment at least once a year. The Bank's [operational risk guideline](https://www.bankofcanada.ca/wp-content/uploads/2024/02/operational-risk-and-incident-response.pdf) says an affiliate that provides payment-related services under a contract should be treated as a third-party service provider. Its [FAQ](https://www.bankofcanada.ca/2026/08/frequently-asked-questions-about-retail-payments-supervision/) adds that a bank can be one too. Section 87 of the Act makes you liable for violations committed by your third-party service providers, agents and mandataries within the scope of their role.
+
+### The safeguarding-of-funds framework
+
+Only PSPs that hold end-user funds need this framework. Under section 15 of the regulations it must aim for reliable access to funds without delay, and for paying end users as soon as feasible if you become insolvent. It includes a ledger showing each end user's funds at the end of each day, how an insolvency administrator would get access to your records and contact end users, the procedures for returning funds, and an analysis of legal and operational risks. Unless the PSP is an individual, it names a senior officer responsible for safeguarding. Section 17 requires an independent review at least every three years. Our [safeguarding guide](https://amlcanada.ca/rpaa-safeguarding-end-user-funds.html) covers trust accounts, insurance and guarantees.
+
+### Governance: the senior officer and the board
+
+Unless the PSP is an individual, the risk framework must make a senior officer responsible for overseeing compliance with the framework and incident notice rules, and for overseeing material decisions on operational risks and incidents. The [Bank's FAQ](https://www.bankofcanada.ca/2026/08/frequently-asked-questions-about-retail-payments-supervision/) quotes the definition in section 1 of the regulations. A senior officer is:
+
+- a board member who is also a full-time employee;
+
+- the CEO, COO, CFO, president, chief risk officer or another officer the definition lists, or someone performing similar functions; or
+
+- any other officer who reports directly to the board, CEO or COO.
+
+The senior officer doesn't have to be in Canada.
+
+The senior officer receives review findings for approval, the record of each test, the gaps found by an independent review and information about incidents. The senior officer and the board, if you have one, approve each framework at least once a year, and the senior officer approves it again after each material change. The Bank's guideline says every significant change should count as material.
+
+### Record keeping
+
+Section 40 of the regulations requires records sufficient to show that you comply with the Act and regulations, kept in a form the Bank can understand. You keep them until five years after the day they stop showing current compliance. Section 41 requires reasonable measures against loss, falsification and unauthorized access, and section 42 extends both rules to records held by your agents and third-party service providers, which must stay accessible to you.
+
+### Reports and notices tied to the frameworks
+
+Three filings rely on the frameworks:
+
+- The [annual report](https://amlcanada.ca/rpaa-annual-report.html), required by section 21 of the Act and due by March 31 for the previous calendar year (regulations section 18). It asks about your risk framework and, if you hold funds, your safeguarding.
+
+- A significant change or new activity notice, at least five business days ahead (regulations section 20). A change is significant if it could reasonably be expected to have a material impact on operational risks or safeguarding. The notice lists the framework documents you changed and, if you have senior officers, confirms one approved the change. The Bank's [significant change guideline](https://www.bankofcanada.ca/wp-content/uploads/2024/02/Notice-of-significant-change-or-new-activity.pdf) gives examples such as switching from a trust account to insurance. Its paragraph 3.3 adds changes that may qualify depending on your circumstances, such as entering, amending or ending a third-party service provider agreement, or switching cloud providers.
+
+- Incident notices. Section 18 of the Act requires you to notify the Bank and each materially affected end user, PSP or designated clearing house without delay. The Bank's [incident notification guideline](https://www.bankofcanada.ca/wp-content/uploads/2024/02/Incident-notification.pdf) sets the outer limit at 48 hours after you determine the incident is material.
+
+Changes to your list of agents, or to third-party service providers that materially affect your operational risks or safeguarding, are also reported to the Bank within 30 days under section 59 of the Act and section 35 of the regulations.
+
+### Gaps to check
+
+The [Bank's FAQ](https://www.bankofcanada.ca/2026/08/frequently-asked-questions-about-retail-payments-supervision/) allows a framework spread over several documents, or an existing or parent-company framework that meets the requirements. Before the Bank asks for your policies in a desk or on-site assessment, check for these gaps:
+
+- Objectives with no measurable reliability targets or indicators.
+
+- Reviews held once a year but not before material changes.
+
+- Tests with no record of methodology, results or follow-up.
+
+- Third parties assessed only at onboarding, or affiliates and banks left off the list.
+
+- No written criteria for agents, or no annual agent assessment.
+
+- A senior officer who doesn't meet the definition, or approvals with no record.
+
+- A safeguarding framework not reviewed after an account or insurer change.
+
+The schedule to the regulations classifies a breach of section 17(1) of the Act, read with section 5 of the regulations, as a very serious violation. Paragraph 48(1)(b) of the regulations sets the penalty for a very serious violation at up to $10,000,000. Our [RPAA compliance program](https://amlcanada.ca/rpaa-compliance-program.html) (US$3,500) covers each framework on this page, plus the annual report and change notices. If you haven't registered yet, start with [who must register as a PSP](https://amlcanada.ca/who-must-register-psp-rpaa.html) and our [RPAA registration](https://amlcanada.ca/rpaa-registration.html) service.
+
+### Questions
+
+**Does every PSP need a risk management and incident response framework?** Yes. Section 17 of the RPAA requires every payment service provider that performs retail payment activities to have one. Only the safeguarding-of-funds framework is limited to PSPs that hold end-user funds.
+
+**Does the framework have to be one document?** No. The Bank's FAQ says it need not be a single document, provided it meets the guideline. The Bank doesn't plan to publish an example framework.
+
+**Can a PSP use its parent company's framework?** Yes, if it meets the RPAA, the regulations and the Bank's guideline. If adopting it leaves gaps, the guideline says the PSP must change the framework or add supplementary arrangements.
+
+**Who approves the RPAA frameworks?** The senior officer and the board of directors, if there is one, at least once a year. The senior officer also approves each framework after every material change.
+
+**Is an independent review of the risk framework always required?** Only for PSPs that have an internal or external auditor, at least every three years. A PSP that holds end-user funds needs an independent review of safeguarding compliance at least every three years regardless.
+
+Sources: [Retail Payment Activities Act](https://laws-lois.justice.gc.ca/eng/acts/R-7.36/FullText.html); [Retail Payment Activities Regulations](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2023-229/FullText.html); [Bank of Canada, Supervisory framework](https://www.bankofcanada.ca/regulatory-oversight/retail-payments/supervisory-framework/); [Bank of Canada, Operational risk and incident response guideline](https://www.bankofcanada.ca/wp-content/uploads/2024/02/operational-risk-and-incident-response.pdf); [Bank of Canada, Operational risk and incident response: At a glance](https://www.bankofcanada.ca/wp-content/uploads/2025/02/Operational-risk-and-incident-response-At-a-glance.pdf); [Bank of Canada, Notice of significant change or new activity guideline](https://www.bankofcanada.ca/wp-content/uploads/2024/02/Notice-of-significant-change-or-new-activity.pdf); [Bank of Canada, Incident notification guideline](https://www.bankofcanada.ca/wp-content/uploads/2024/02/Incident-notification.pdf); [Bank of Canada, Retail payments supervision FAQ](https://www.bankofcanada.ca/2026/08/frequently-asked-questions-about-retail-payments-supervision/). Checked 27 October 2026.
+
+---
+
+## Guide: FINTRAC revoked your MSB registration: a response plan
+
+URL: https://amlcanada.ca/fintrac-revocation-response-plan.html
+
+A revoked registration means the business can't offer the money services it was registered for. You have 30 days from receiving the decision to ask FINTRAC's Director to review it. Stop the registered services straight away, because the Act doesn't pause a revocation while a review runs.
+
+**Key points:**
+- Becoming ineligible revokes a registration on the day it happens, before any notice arrives.
+- Stop the registered services at every location. The Act doesn't pause a revocation during a review.
+- Apply in writing to FINTRAC's Director within 30 days of receiving the decision.
+- Prevention comes down to 30-day deadlines, two-year renewals, screening owners and directors, and cooperating with examinations.
+
+### The short answer
+
+FINTRAC registers money services businesses (MSBs). It doesn't license them, though many people call the registration an MSB licence. When FINTRAC revokes it, the business is no longer registered, and section 77.4 of the [Proceeds of Crime (Money Laundering) and Terrorist Financing Act](https://laws-lois.justice.gc.ca/eng/acts/P-24.501/FullText.html) makes it an offence to knowingly carry on an activity you aren't registered for.
+
+For registry statuses, denied applications and expiry, see our guide to [denied, revoked and expired registrations](https://amlcanada.ca/msb-registration-refused-revoked.html). This is general information, not legal advice. Talk to a lawyer about your own case.
+
+### What triggers a revocation
+
+The Act gives FINTRAC four routes to revoke an MSB or foreign MSB registration:
+
+| Trigger | Section | FINTRAC's role |
+
+| The business becomes ineligible | 11.11(2) | Revoked automatically as of the day the ineligibility arises. FINTRAC must send written notice once it becomes aware. |
+
+| A clarification request goes unanswered for 30 days | 11.17 | May revoke |
+
+| No reasonable assistance to an examiner, or documents demanded by an examination notice not provided | 11.171 | May revoke |
+
+| A foreign MSB doesn't report a change to its representative for service's name or address within 30 days | 11.13(2) | Must revoke |
+
+Ineligibility covers people and entities under certain sanctions, listed terrorist entities and those convicted of listed offences. Under section 3 of the [Registration Regulations](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2007-121/FullText.html), a corporation is also ineligible if its CEO, president, a director or a 20% owner falls into most of those groups. [FINTRAC's eligibility page](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/no-eng) lists the offences.
+
+Two Acts that received Royal Assent on March 26, 2026 changed the list. Neither change waits for an order in council, so both took effect that day and appear in the consolidated Act. The [Strengthening Canada's Immigration System and Borders Act](https://laws-lois.justice.gc.ca/eng/AnnualStatutes/2026_4/FullText.html) (S.C. 2026, c. 4) rewrote the unpaid-penalty ground. A person or entity that still hasn't paid a FINTRAC penalty and interest 30 days after all proceedings on the violation have ended is ineligible, and so is anyone acting with them to evade payment. The [Budget 2025 Implementation Act, No. 1](https://laws-lois.justice.gc.ca/eng/AnnualStatutes/2026_3/FullText.html) (S.C. 2026, c. 3) reworded the sanctions ground to refer to prohibitions under Part 1 of the Special Economic Measures Act.
+
+Every decision to revoke must be in writing with reasons (section 11.18). FINTRAC says it usually sends clarification requests by email to the contact person or representative for service on file, so an unmonitored inbox can start the 30-day clock without anyone noticing. For a foreign MSB, a notice served on its representative for service counts as served on the business (section 72.1).
+
+### Your response timeline
+
+| When | What to do | Basis |
+
+| The day the notice arrives | Record the date you received it. Stop the registered services at every location, agent and branch. | s. 77.4; review deadline runs from receipt (s. 11.3) |
+
+| First 48 hours | Identify the ground, secure records, brief agents, banks and payment partners, and instruct a lawyer | Our recommendation, not a legal deadline |
+
+| Within 30 days of receipt | Apply in writing to FINTRAC's Director for a review, with supporting information | s. 11.3(1) |
+
+| After the Director decides | Read the notice of decision, its reasons and the notice of your right of appeal | s. 11.3(3) |
+
+| Within 30 days after that decision is served | Appeal to the Federal Court, or within a longer period the Court allows | s. 11.4(1) |
+
+| No decision 90 days after the Director received your application | You may appeal within 30 days after the 90 days end | s. 11.4(2) |
+
+| For at least five years | Keep the records the Regulations require | PCMLTFR s. 148 |
+
+### The first 48 hours
+
+The 48-hour window is our recommendation. The first deadline in the Act is the 30-day review. Treat the business as unregistered from the date in the notice. For an ineligibility revocation, that is the day the ineligibility arose, which may be earlier than the notice. Neither section 11.3 nor section 11.4 says that asking for a review or appealing restores or suspends the registration. If transactions are already in progress, ask your lawyer how to deal with them before you complete any.
+
+Your agents and branches don't register separately because they appear on your list (section 11.12(2)), so the revocation reaches every location that offers services under your registration. Tell them in writing to stop. Banks and payment partners can see the change on FINTRAC's public registry, so tell them directly and give them a contact for questions. A foreign MSB should know that banks and other listed financial entities can't open or maintain an account for a foreign MSB that isn't registered (section 9.31). Customers need a plain notice that services are paused and how to reach you about funds already in progress.
+
+If the business is also a payment service provider registered with the Bank of Canada, section 53.6 requires FINTRAC to tell the Bank about the revocation as soon as feasible, and about any review or appeal and its outcome.
+
+### Records you keep
+
+Revocation doesn't end your record keeping. The [Regulations](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-184/FullText.html) require most records to be kept for at least five years (section 148), and the criminal record documents filed with an application or change notice must be kept for five years after they were submitted (Registration Regulations, section 6.03). Keep your full registration file, every clarification request and reply, and your examination correspondence. Your review request will rely on them.
+
+### What a strong review request contains
+
+The application goes to FINTRAC's Review and Appeals Unit by mail, or through a secure link you get by emailing rev-app@fintrac-canafe.gc.ca. Don't put sensitive information in that first email. [FINTRAC's reviews page](https://fintrac-canafe.canada.ca/raa-rea/1-eng) says the request must be in writing with an explanation and any supporting information, and that a review officer first checks it was filed within 30 days. If a lawyer files it, include a letter of authorization.
+
+The Director can confirm the decision or substitute their own, and must consider any information they deem relevant. Answer the ground FINTRAC actually gave:
+
+- **Unanswered clarification request.** Give the complete answers now, and show when and where the request was sent if it reached an outdated contact.
+
+- **Examination assistance or documents.** Provide the documents the notice demanded, with a log of what you provided earlier and when.
+
+- **Ineligibility.** Show who holds each role and share, with criminal record documents issued by a competent authority. For an unpaid penalty, show payment with interest.
+
+- **Representative for service.** Provide the current name and address for service and the date of the change.
+
+Correct anything else in your registration information that is out of date, and say in the request what you corrected.
+
+### Public registry status and reapplying
+
+[FINTRAC's registry](https://fintrac-canafe.canada.ca/msb-esm/reg-eng) shows the business as Revoked, and the revocation date is part of the identifying information the Registration Regulations make public (section 2). FINTRAC also keeps a separate [list of revoked registrations](https://fintrac-canafe.canada.ca/msb-esm/revoked-revoquee-eng). Its registry page says FINTRAC updates the registry "on a monthly basis". FINTRAC keeps the information submitted for registration for 10 years after a business stops being registered (section 54.1(6)).
+
+The Act sets no waiting period before a new application, but the cause has to be fixed first. The application asks whether you have applied before (Schedule 1, Part B, item 18 of the [Registration Regulations](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2007-121/FullText.html)), and criminal record documents must be issued no more than six months before you submit (section 6.03(1)). Our [registration guide](https://amlcanada.ca/how-to-register-msb-canada.html) covers the full process.
+
+### Prevention checklist
+
+- Renew every two years (section 11.19), before the expiry date. [FINTRAC says](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/respond-eng) a renewal submitted before expiry keeps you Registered while it's processed. Virtual currency dealers and foreign MSBs should check the first-renewal date set by section 6.1 of the Registration Regulations.
+
+- Report changes within 30 days (section 11.13), including contact details and, for a foreign MSB, the representative for service.
+
+- Answer clarification requests within 30 days, and put the contact address FINTRAC has on file on a shared inbox that someone checks daily.
+
+- Give examiners reasonable assistance and meet the deadlines in any document notice (sections 62(2) and 63.1). Our [examination guide](https://amlcanada.ca/fintrac-examination-preparation.html) explains what to prepare.
+
+- Check the CEO, president, directors and anyone holding 20% or more against the ineligibility list and sanctions before appointment and on a schedule. Our guide to [changes of ownership](https://amlcanada.ca/fintrac-msb-change-of-ownership.html) covers new owners.
+
+- Pay or resolve any FINTRAC penalty. An unpaid penalty makes the business ineligible 30 days after proceedings end. See [FINTRAC penalties](https://amlcanada.ca/fintrac-penalties-amps.html).
+
+An [outsourced compliance officer](https://amlcanada.ca/outsourced-compliance-officer.html) can own these deadlines for you, and our [MSB registration service](https://amlcanada.ca/msb-registration.html) handles renewals, change notices and new applications.
+
+### Questions
+
+**Can FINTRAC revoke my MSB licence?** FINTRAC registers MSBs rather than licensing them, and it can revoke a registration. The grounds are ineligibility, an unanswered clarification request, failing to assist an examination or provide demanded documents, and, for a foreign MSB, not reporting a change to its representative for service within 30 days.
+
+**How long do I have to challenge a FINTRAC revocation?** 30 days after you receive the decision to apply in writing to FINTRAC's Director for a review. If you disagree with the Director's decision, you have 30 days after it's served to appeal to the Federal Court, or a longer period the Court allows.
+
+**Can I keep operating while FINTRAC reviews the revocation?** The Act doesn't say a review or appeal restores or suspends the registration, and knowingly carrying on an activity you aren't registered for is an offence under section 77.4 of the Act. Plan on being unregistered and ask a lawyer about your situation.
+
+**Will customers and banks see that my registration was revoked?** Yes. FINTRAC's public registry shows the Revoked status and the revocation date, and FINTRAC also publishes a list of businesses with revoked registrations. FINTRAC says it updates the registry monthly.
+
+**Does FINTRAC tell the Bank of Canada about a revocation?** If the business is a payment service provider registered with the Bank of Canada, the Act requires FINTRAC to notify the Bank as soon as feasible, and to report any review or appeal and its outcome.
+
+Sources: [FINTRAC, Reviews and appeals](https://fintrac-canafe.canada.ca/raa-rea/1-eng); [FINTRAC, Money services businesses with revoked registration](https://fintrac-canafe.canada.ca/msb-esm/revoked-revoquee-eng); [FINTRAC, Money Services Business Registry](https://fintrac-canafe.canada.ca/msb-esm/reg-eng); [FINTRAC, Answer clarification requests, update, renew or cancel your registration](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/respond-eng); [FINTRAC, Who is not eligible to register](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/no-eng); [Proceeds of Crime (Money Laundering) and Terrorist Financing Act](https://laws-lois.justice.gc.ca/eng/acts/P-24.501/FullText.html); [Proceeds of Crime (Money Laundering) and Terrorist Financing Registration Regulations](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2007-121/FullText.html); [Proceeds of Crime (Money Laundering) and Terrorist Financing Regulations](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-184/FullText.html); [Strengthening Canada's Immigration System and Borders Act, S.C. 2026, c. 4](https://laws-lois.justice.gc.ca/eng/AnnualStatutes/2026_4/FullText.html); [Budget 2025 Implementation Act, No. 1, S.C. 2026, c. 3](https://laws-lois.justice.gc.ca/eng/AnnualStatutes/2026_3/FullText.html). Checked 27 October 2026.
+
+---
+
+## Guide: Crypto custody in Canada: the rules and custody models compared
+
+URL: https://amlcanada.ca/crypto-custody-canada.html
+
+Canada has no single crypto custody licence. A platform that holds client crypto is expected to register with securities regulators. Under CSA pre-registration undertakings, which broadly match the terms registered platforms work under, client crypto is held in trust, mostly with an acceptable third-party custodian. Exchanging or transferring crypto for clients means FINTRAC registration. The Bank of Canada comes in where fiat payments are involved and, once the Stablecoin Act is in force, for stablecoin issuers.
+
+**Key points:**
+- A platform that keeps client crypto instead of delivering it is under securities law and is expected to register as an investment dealer.
+- Under CSA pre-registration undertakings and registered platforms' terms, client crypto is held in trust, mostly with an acceptable third-party custodian.
+- Exchanging or transferring crypto for clients is an MSB service, so register with FINTRAC and apply the travel rule.
+- Crypto-only custody is outside the RPAA. A spending card or other fiat payment feature can bring you in.
+
+### Who regulates crypto custody in Canada
+
+The rules that apply turn on who controls the private keys, whether clients can take their crypto away without relying on you, and whether you also move fiat money. Four regimes can overlap:
+
+- Provincial and territorial securities regulators, working together as the Canadian Securities Administrators (CSA), when a platform holds crypto for clients rather than delivering it to them.
+
+- FINTRAC, when you exchange or transfer virtual currency for clients, which makes you a money services business (MSB).
+
+- The Bank of Canada under the Retail Payment Activities Act (RPAA), when you also perform fiat payment functions that aren't incidental to your crypto business.
+
+- The Bank of Canada again for stablecoin issuers, once the Stablecoin Act is in force.
+
+FINTRAC registration, reporting and record keeping for crypto businesses are covered in [registering a crypto business with FINTRAC](https://amlcanada.ca/crypto-registration-canada.html).
+
+### When holding client crypto becomes a securities matter
+
+[CSA Staff Notice 21-327](https://www.osc.ca/en/securities-law/instruments-rules-policies/2/21-327/csa-staff-notice-21-327-guidance-application-securities-legislation-entities-facilitating-trading), published January 16, 2020, sets the test. A platform generally falls outside securities legislation only if the crypto asset isn't a security or derivative and the platform must deliver it immediately, and routinely does. CSA staff generally treat delivery as complete when the user gets ownership, possession and control, can deal with the asset without relying on the platform, and isn't left exposed to the platform's insolvency, fraud, performance or proficiency risk.
+
+If the platform keeps the crypto and moves it to a user-controlled wallet only on request, with the purchase recorded on its own books, securities legislation applies. The notice says "a mere book entry does not constitute delivery."
+
+A custodial platform is therefore expected to register. On August 6, 2024, the CSA and the Canadian Investment Regulatory Organization (CIRO) said they [expect crypto trading platforms](https://www.osc.ca/en/news-events/news/csa-and-ciro-expect-crypto-trading-platforms-prioritize-applications-investment-dealer-registration) to register as investment dealers and become CIRO members. The CSA no longer accepts new pre-registration undertakings, the [Ontario Securities Commission](https://www.osc.ca/en/industry/registration-and-compliance/crypto-businesses) says, so a new platform applies directly to CIRO.
+
+[Joint CSA/IIROC Staff Notice 21-329](https://www.osc.ca/sites/default/files/2021-03/csa_20210329_21-329_compliance-regulatory-requirements.pdf) lists measures platforms with custody must take, including:
+
+- segregating client assets and private keys from their own;
+
+- keeping records that confirm client holdings at all times;
+
+- having policies for cold storage and for creating and storing private keys;
+
+- holding enough financial resources and insurance, or other risk mitigation;
+
+- doing due diligence before retaining a custodian and monitoring it afterwards; and
+
+- getting independent assurance over the custodian's controls, such as a SOC 2 report.
+
+### What an acceptable third-party custodian is
+
+[CSA Staff Notice 21-332](https://www.osc.ca/en/securities-law/instruments-rules-policies/2/21-332/csa-staff-notice-21-332-crypto-asset-trading-platforms-pre-registration-undertakings-changes), published February 22, 2023, tightened the undertakings unregistered platforms gave while seeking registration. Client assets had to be held apart from the platform's own property and in trust for the client. Crypto went into a designated trust account, or an account designated for clients with an "Acceptable Third-party Custodian". The standard undertaking already committed platforms to keep at least 80% of the total value of client crypto with third-party custodians, and never to pledge, re-hypothecate or otherwise use it.
+
+The notice defines an acceptable third-party custodian as an entity that:
+
+- is a Canadian custodian or Canadian financial institution, a custodian qualified under section 6.2 of National Instrument 81-102, a custodian that meets CIRO's definition of an acceptable securities location, or a foreign or other custodian the platform's regulators have approved in writing;
+
+- is functionally independent of the platform, as National Instrument 31-103 uses that term;
+
+- has audited financial statements from the last 12 months with an unqualified opinion, showing what it owes custody clients and the assets it holds against that; and
+
+- has a SOC 2 Type 1 or Type 2 report from the last 12 months, or a comparable report its regulators accept.
+
+The platform also lets CSA staff get client account information straight from the custodian. Registered platforms have further custody terms in their own exemptive relief decisions. If you're looking at a Canadian trust company as custodian, check it against these definitions with your principal regulator before you sign.
+
+### Private keys count as virtual currency under the PCMLTF Regulations
+
+The [PCMLTF Regulations](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-184/FullText.html) define virtual currency to include a private key that gives access to a digital representation of value. FINTRAC's [MSB page](https://fintrac-canafe.canada.ca/msb-esm/msb-eng) says dealing in virtual currency covers exchange services, meaning funds for crypto, crypto for funds or one crypto for another, and transfer services, meaning moving virtual currency at a client's request or receiving it to remit to a beneficiary. A business doing either registers as an MSB, or as a [foreign MSB](https://amlcanada.ca/foreign-msb-registration-canada.html) if it serves Canada from abroad.
+
+FINTRAC doesn't list custody as a separate service, but a custodian that sends crypto out when a client asks is doing what FINTRAC describes as a transfer. When you have to keep a record of a virtual currency transfer, section 124.1 of the Regulations requires you to send the requester and beneficiary information with it and take reasonable measures to check that incoming transfers include it. Our [travel rule guide](https://amlcanada.ca/fintrac-travel-rule-ministerial-directives.html) has the details.
+
+### The RPAA rarely reaches crypto-only custody
+
+The [RPAA](https://laws-lois.justice.gc.ca/eng/acts/R-7.36/FullText.html) covers payment functions for electronic funds transfers in the currency of Canada or another country, or in a unit that meets criteria prescribed by regulation. The [Retail Payment Activities Regulations](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2023-229/FullText.html), current to September 30, 2026, prescribe no such unit. The Bank's [crypto case scenarios](https://www.bankofcanada.ca/2024/10/case-scenarios-about-providers-of-services-backed-by-cryptocurrencies/) from October 2, 2024 show where the line falls:
+
+- An exchange where users keep crypto in its wallets and trade crypto for crypto, with no fiat, isn't a payment service provider (PSP).
+
+- An exchange that pools client fiat for trading is under securities legislation and its payment functions are incidental, so it doesn't register.
+
+- A virtual currency exchange whose prepaid cards let users spend the value of their crypto is a PSP and must register, if it meets the other criteria.
+
+Crypto-only custody stays outside, but a spending card or fiat wallet can bring you in. The [federal stablecoin framework](https://www.canada.ca/en/department-finance/programs/financial-sector-policy/canadas-stablecoin-framework.html) adds that the Bank will supervise PSPs performing payment functions in a fiat-backed stablecoin, once that stablecoin is prescribed in regulation. See [who must register as a PSP](https://amlcanada.ca/who-must-register-psp-rpaa.html).
+
+### Stablecoin reserves and qualified custodians
+
+The [Stablecoin Act](https://laws-lois.justice.gc.ca/eng/acts/S-15.9/FullText.html) received Royal Assent on March 26, 2026 and isn't in force yet. Once it is, an issuer must place its reserve assets with one or more qualified custodians, meaning a financial institution or another person the regulations provide for. The Department of Finance says reserves will be cash or high-quality cash-like assets, segregated from the issuer's and the custodian's own assets, and expects the framework in force in 2027. Until then, [CSA Staff Notice 21-333](https://www.osc.ca/en/securities-law/instruments-rules-policies/2/21-333/csa-staff-notice-21-333-crypto-asset-trading-platforms-terms-and-conditions-trading-value) expects the reserve behind a stablecoin traded on a platform to sit with a qualified custodian, apart from the issuer's assets.
+
+### Crypto custody models compared
+
+| Model | Who holds the keys | Main regulators | Registration triggered | Typical fit |
+
+| Self-custody wallet software | The user alone | FINTRAC, if you add exchange or transfer services | MSB registration only if you exchange or transfer crypto for clients | Wallet apps and tooling |
+
+| Broker with immediate delivery | The client, right after each trade | FINTRAC; securities regulators judge delivery under 21-327 | MSB registration. Securities law generally doesn't apply if every 21-327 delivery condition is met and the asset isn't a security | On-ramps and brokers |
+
+| Platform using a third-party custodian | An acceptable third-party custodian, with the platform's own wallets for the rest | CSA, CIRO, FINTRAC | Investment dealer registration, CIRO membership and MSB registration | Exchanges and trading apps |
+
+| Partnering with a registered platform | The registered platform and its custodians | The partner's regulators; your own role is assessed separately | Depends on your role; ask the securities regulator, and register with FINTRAC if you exchange or transfer crypto | Fintechs adding crypto |
+
+| Custodian serving businesses | The custodian | FINTRAC; platform clients apply the 21-332 criteria | MSB registration if it transfers crypto at clients' request; audit and SOC 2 reports to serve platforms | Custody providers |
+
+| Crypto account with a spending card | The platform or its custodian | CSA, FINTRAC, Bank of Canada | Securities registration and MSB registration, plus PSP registration under the RPAA if it meets the Bank's other criteria | Crypto cards and payment features |
+
+| Stablecoin issuer | Qualified custodians hold the reserve | Bank of Canada once the Act is in force, FINTRAC, CSA for platform trading | Registration with the Bank once in force; MSB registration if it exchanges or transfers virtual currency for clients | Fiat-backed stablecoin issuers |
+
+### Structuring custody lawfully
+
+Securities regulators judge custody by what a product does with client assets, so a product described as non-custodial is still treated as custodial if you keep the keys.
+
+- To stay outside securities registration, deliver crypto to a wallet the client alone controls, immediately and every time, and keep no security interest in it.
+
+- To hold client crypto, register, keep most of it with an acceptable third-party custodian, hold it in trust and apart from your own assets, and never lend or pledge it.
+
+- To offer crypto without running custody, partner with a registered platform and get advice on whether your own role needs registration.
+
+- Under any model, register with FINTRAC before you exchange or transfer crypto, and build travel rule and sanctions screening into the transfer flow.
+
+We handle [FINTRAC MSB registration](https://amlcanada.ca/msb-registration.html), [compliance programs](https://amlcanada.ca/compliance-programs.html) for virtual currency and [outsourced compliance officer](https://amlcanada.ca/outsourced-compliance-officer.html) support. Securities registration and trust questions need securities counsel, and we'll tell you when you reach that point. This guide isn't legal advice.
+
+### Questions
+
+**Do I need to register to hold client crypto in Canada?** Usually with more than one regulator. A platform that keeps client crypto instead of delivering it immediately is subject to securities law and is expected to register as an investment dealer and join CIRO. If you exchange or transfer crypto for clients, you also register with FINTRAC as an MSB.
+
+**What is an acceptable third-party custodian?** Under CSA Staff Notice 21-332, it's a Canadian custodian or financial institution, another qualified custodian, or one your regulators approve in writing. It must be functionally independent of the platform and have audited financial statements and a SOC 2 Type 1 or Type 2 report from the last 12 months.
+
+**Does a non-custodial wallet need FINTRAC registration?** It depends on what the business does. FINTRAC's MSB definition covers exchanging and transferring virtual currency for clients. If users control their own keys and you provide neither service, get a written analysis, or ask FINTRAC, before launch.
+
+**Does the RPAA apply to crypto custody?** Not to crypto-only custody. The Bank of Canada's case scenarios say a crypto-for-crypto exchange that handles no fiat isn't a PSP, while a crypto exchange whose prepaid cards let users spend the value of their crypto is, if it meets the other criteria.
+
+**Is the Stablecoin Act in force?** No. It received Royal Assent on March 26, 2026, and the Department of Finance expects the framework to come into force in 2027. Issuers will then have to hold reserve assets with qualified custodians.
+
+Sources: [CSA Staff Notice 21-327](https://www.osc.ca/sites/default/files/pdfs/irps/csa_20200116_21-327_trading-crypto-assets.pdf); [Joint CSA/IIROC Staff Notice 21-329](https://www.osc.ca/sites/default/files/2021-03/csa_20210329_21-329_compliance-regulatory-requirements.pdf); [CSA Staff Notice 21-332](https://www.osc.ca/en/securities-law/instruments-rules-policies/2/21-332/csa-staff-notice-21-332-crypto-asset-trading-platforms-pre-registration-undertakings-changes); [CSA Staff Notice 21-333](https://www.osc.ca/en/securities-law/instruments-rules-policies/2/21-333/csa-staff-notice-21-333-crypto-asset-trading-platforms-terms-and-conditions-trading-value); [OSC, Crypto businesses](https://www.osc.ca/en/industry/registration-and-compliance/crypto-businesses); [CSA and CIRO, August 6, 2024 news release](https://www.osc.ca/en/news-events/news/csa-and-ciro-expect-crypto-trading-platforms-prioritize-applications-investment-dealer-registration); [FINTRAC, Money services businesses](https://fintrac-canafe.canada.ca/msb-esm/msb-eng); [Proceeds of Crime (Money Laundering) and Terrorist Financing Regulations](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-184/FullText.html); [Retail Payment Activities Act](https://laws-lois.justice.gc.ca/eng/acts/R-7.36/FullText.html); [Retail Payment Activities Regulations](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2023-229/FullText.html); [Bank of Canada, Case scenarios about providers of services backed by cryptocurrencies](https://www.bankofcanada.ca/2024/10/case-scenarios-about-providers-of-services-backed-by-cryptocurrencies/); [Stablecoin Act](https://laws-lois.justice.gc.ca/eng/acts/S-15.9/FullText.html); [Department of Finance, Canada's stablecoin framework](https://www.canada.ca/en/department-finance/programs/financial-sector-policy/canadas-stablecoin-framework.html). Checked 27 October 2026.
+
+---
+
 ## Guide: Ontario vs B.C. MSB registration: which province suits a crypto startup?
 
 URL: https://amlcanada.ca/ontario-vs-bc-msb-registration.html

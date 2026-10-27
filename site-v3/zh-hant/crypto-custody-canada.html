@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>加拿大的加密貨幣託管：規則及託管模式 | AML Canada</title>
+<meta content="誰監管加拿大的加密貨幣託管、何謂可接受第三方託管人，以及各託管模式在私鑰、監管機構及註冊方面的比較。" name="description"/>
+<link href="https://amlcanada.ca/zh-hant/crypto-custody-canada.html" rel="canonical"/>
+<meta content="加拿大的加密貨幣託管：規則及託管模式 | AML Canada" property="og:title"/>
+<meta content="誰監管加拿大的加密貨幣託管、何謂可接受第三方託管人，以及各託管模式在私鑰、監管機構及註冊方面的比較。" property="og:description"/>
+<meta content="article" property="og:type"/>
+<meta content="2026-10-27" property="article:modified_time"/>
+<meta content="https://amlcanada.ca/zh-hant/crypto-custody-canada.html" property="og:url"/>
+<meta content="AML Canada" property="og:site_name"/>
+<meta content="zh_Hant" property="og:locale"/>
+<meta content="https://amlcanada.ca/og-default.png" property="og:image"/>
+<meta content="1200" property="og:image:width"/>
+<meta content="630" property="og:image:height"/>
+<meta content="AML Canada: AML compliance for businesses FINTRAC regulates" property="og:image:alt"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="#06080C" name="theme-color"/>
+<link as="font" crossorigin="" href="../fonts/geist-latin-wght.woff2" rel="preload" type="font/woff2"/>
+<link as="font" crossorigin="" href="../fonts/geist-mono-latin-wght.woff2" rel="preload" type="font/woff2"/>
+<link href="../styles.css" rel="stylesheet"/>
+<link href="../pages.css" rel="stylesheet"/>
+<link href="../favicon.ico" rel="icon" sizes="48x48"/>
+<link href="../icon-96.png" rel="icon" sizes="96x96" type="image/png"/>
+<link href="../icon-192.png" rel="icon" sizes="192x192" type="image/png"/>
+<link href="../favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="../apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="../site.webmanifest" rel="manifest"/>
+<script>document.documentElement.classList.add("js");</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://amlcanada.ca/zh-hant/crypto-custody-canada.html#article","headline":"加拿大的加密貨幣託管：規則及託管模式比較","description":"誰監管加拿大的加密貨幣託管、何謂可接受第三方託管人，以及各託管模式在私鑰、監管機構及註冊方面的比較。","url":"https://amlcanada.ca/zh-hant/crypto-custody-canada.html","mainEntityOfPage":"https://amlcanada.ca/zh-hant/crypto-custody-canada.html","image":"https://amlcanada.ca/og-default.png","inLanguage":"zh-Hant","datePublished":"2026-10-27","dateModified":"2026-10-27","author":{"@id":"https://amlcanada.ca/#organization"},"publisher":{"@id":"https://amlcanada.ca/#organization"},"about":{"@id":"https://amlcanada.ca/zh-hant/msb-registration.html#service"}},{"@type":"BreadcrumbList","@id":"https://amlcanada.ca/zh-hant/crypto-custody-canada.html#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://amlcanada.ca/zh-hant/"},{"@type":"ListItem","position":2,"name":"指南","item":"https://amlcanada.ca/zh-hant/guides.html"},{"@type":"ListItem","position":3,"name":"加密貨幣託管","item":"https://amlcanada.ca/zh-hant/crypto-custody-canada.html"}]}]}</script>
+  <!--i18n:alt-->
+  <link rel="alternate" hreflang="en-CA" href="https://amlcanada.ca/crypto-custody-canada.html">
+  <link rel="alternate" hreflang="fr-CA" href="https://amlcanada.ca/fr/crypto-custody-canada.html">
+  <link rel="alternate" hreflang="de" href="https://amlcanada.ca/de/crypto-custody-canada.html">
+  <link rel="alternate" hreflang="ar" href="https://amlcanada.ca/ar/crypto-custody-canada.html">
+  <link rel="alternate" hreflang="zh-Hans" href="https://amlcanada.ca/zh-hans/crypto-custody-canada.html">
+  <link rel="alternate" hreflang="zh-Hant" href="https://amlcanada.ca/zh-hant/crypto-custody-canada.html">
+  <link rel="alternate" hreflang="es" href="https://amlcanada.ca/es/crypto-custody-canada.html">
+  <link rel="alternate" hreflang="pt-BR" href="https://amlcanada.ca/pt-br/crypto-custody-canada.html">
+  <link rel="alternate" hreflang="it" href="https://amlcanada.ca/it/crypto-custody-canada.html">
+  <link rel="alternate" hreflang="pl" href="https://amlcanada.ca/pl/crypto-custody-canada.html">
+  <link rel="alternate" hreflang="ru" href="https://amlcanada.ca/ru/crypto-custody-canada.html">
+  <link rel="alternate" hreflang="uk" href="https://amlcanada.ca/uk/crypto-custody-canada.html">
+  <link rel="alternate" hreflang="x-default" href="https://amlcanada.ca/crypto-custody-canada.html">
+  <!--/i18n:alt-->
+</head>
+<body>
+<a class="skip" href="#main">跳至內容</a>
+<svg aria-hidden="true" class="sprite" focusable="false">
+<symbol id="i-mark" viewbox="0 0 24 24"><path d="M2 8V2h6M16 2h6v6M22 16v6h-6M8 22H2v-6" fill="none" stroke="currentColor" stroke-width="2"></path><circle cx="12" cy="12" fill="var(--amber)" r="3.2"></circle></symbol>
+<symbol id="i-arrow" viewbox="0 0 16 16"><path d="M2.5 8h10M8.5 3.5 13 8l-4.5 4.5" fill="none" stroke="currentColor" stroke-width="1.5"></path></symbol>
+<symbol id="i-down" viewbox="0 0 16 16"><path d="M8 2.5v10M3.5 8.5 8 13l4.5-4.5" fill="none" stroke="currentColor" stroke-width="1.5"></path></symbol>
+<symbol id="i-check" viewbox="0 0 16 16"><path d="m3 8.5 3.2 3L13 4.5" fill="none" stroke="currentColor" stroke-width="1.6"></path></symbol>
+<symbol id="i-gap" viewbox="0 0 16 16"><circle cx="8" cy="8" fill="none" r="5.5" stroke="currentColor" stroke-width="1.5"></circle><path d="M8 5v3.6" stroke="currentColor" stroke-width="1.5"></path><circle cx="8" cy="11" fill="currentColor" r=".9"></circle></symbol>
+<symbol id="i-plus" viewbox="0 0 16 16"><path d="M8 2.5v11M2.5 8h11" fill="none" stroke="currentColor" stroke-width="1.5"></path></symbol>
+<symbol id="i-menu" viewbox="0 0 20 20"><path d="M2 7h16M2 13h16" fill="none" stroke="currentColor" stroke-width="1.5"></path></symbol>
+<symbol id="i-close" viewbox="0 0 20 20"><path d="m4 4 12 12M16 4 4 16" fill="none" stroke="currentColor" stroke-width="1.5"></path></symbol>
+<symbol id="i-chev" viewbox="0 0 16 16"><path d="m4 6 4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"></path></symbol>
+<symbol id="i-chev-r" viewbox="0 0 16 16"><path d="m6 4 4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.5"></path></symbol>
+<symbol id="i-out" viewbox="0 0 16 16"><path d="M5 11 11 5M6 5h5v5" fill="none" stroke="currentColor" stroke-width="1.6"></path></symbol>
+</svg>
+<header class="nav" data-nav="">
+<div class="nav-pill">
+<a aria-label="AML Canada 首頁" class="brand" href="./">
+<svg aria-hidden="true" class="brand-mark"><use href="#i-mark"></use></svg>
+<span>AML Canada</span>
+</a>
+<nav aria-label="主選單" class="mega" data-mega="">
+<ul class="mega-bar">
+<li class="mega-item">
+<button aria-controls="mega-services" aria-expanded="false" class="mega-trigger" data-mega-trigger="" type="button">服務<svg aria-hidden="true"><use href="#i-chev"></use></svg></button>
+<div class="mega-panel" data-mega-panel="" hidden="" id="mega-services">
+<ul class="mega-list">
+<li><a class="mega-link" data-desc="FINTRAC 及加拿大銀行註冊、合規計劃、外包合規主管、審查及培訓。" data-title="所有服務" href="services.html">所有服務<svg aria-hidden="true"><use href="#i-chev-r"></use></svg></a></li>
+<li><a class="mega-link" data-desc="加拿大反洗錢合規主管（MLRO）：客戶開戶審查、FINTRAC 申報、政策及風險評估。" data-title="外包合規主管" href="outsourced-compliance-officer.html">外包合規主管<svg aria-hidden="true"><use href="#i-chev-r"></use></svg></a></li>
+<li><a class="mega-link" data-desc="為貨幣服務企業、外國 MSB 及虛擬貨幣交易商辦理 FINTRAC 註冊。" data-title="MSB 註冊" href="msb-registration.html">MSB 註冊<svg aria-hidden="true"><use href="#i-chev-r"></use></svg></a></li>
+<li><a class="mega-link" data-desc="取得 FINTRAC 註冊 MSB 的兩種途徑：收購現成公司或自行註冊。" data-title="收購或註冊 MSB" href="buy-or-register-msb-canada.html">收購或註冊 MSB<svg aria-hidden="true"><use href="#i-chev-r"></use></svg></a></li>
+<li><a class="mega-link" data-desc="根據您的業務撰寫的 14 份 PCMLTFA 合規計劃文件。" data-title="合規計劃" href="compliance-programs.html">合規計劃<svg aria-hidden="true"><use href="#i-chev-r"></use></svg></a></li>
+<li><a class="mega-link" data-desc="根據 RPAA 向加拿大銀行辦理支付服務提供者註冊。" data-title="RPAA 註冊" href="rpaa-registration.html">RPAA 註冊<svg aria-hidden="true"><use href="#i-chev-r"></use></svg></a></li>
+<li><a class="mega-link" data-desc="為 PSP 制定的管治、風險、事故應變、資金保障及業務持續框架。" data-title="RPAA 合規計劃" href="rpaa-compliance-program.html">RPAA 合規計劃<svg aria-hidden="true"><use href="#i-chev-r"></use></svg></a></li>
+<li><a class="mega-link" data-desc="已在 FINTRAC 註冊為貨幣服務企業的加拿大公司。" data-title="待售 MSB" href="msb-for-sale.html">待售 MSB<svg aria-hidden="true"><use href="#i-chev-r"></use></svg></a></li>
+<li><a class="mega-link" data-desc="聯邦或安大略省的加拿大公司，通常在數小時至 24 小時內完成註冊成立。" data-title="公司註冊成立" href="incorporation-canada.html">公司註冊成立<svg aria-hidden="true"><use href="#i-chev-r"></use></svg></a></li>
+<li><a class="mega-link" data-desc="透過持牌安大略省公證人合作夥伴，為在海外使用的加拿大公司文件辦理公證及海牙認證。" data-title="海牙認證及公證" href="apostille-notarization-canada.html">海牙認證及公證<svg aria-hidden="true"><use href="#i-chev-r"></use></svg></a></li>
+<li><a class="mega-link" data-desc="為外國 MSB 及進入加拿大的公司提供加拿大營業地址。" data-title="加拿大地址" href="canadian-address.html">加拿大地址<svg aria-hidden="true"><use href="#i-chev-r"></use></svg></a></li>
+<li><a class="mega-link" data-desc="FINTRAC 要求的兩年一次審查，以及合規檢查的準備工作。" data-title="有效性審查" href="effectiveness-reviews.html">有效性審查<svg aria-hidden="true"><use href="#i-chev-r"></use></svg></a></li>
+<li><a class="mega-link" data-desc="為前線員工、合規團隊及管理層提供的反洗錢培訓。" data-title="培訓" href="training.html">培訓<svg aria-hidden="true"><use href="#i-chev-r"></use></svg></a></li>
+</ul>
+<div aria-hidden="true" class="mega-preview">
+<p class="mega-title" data-mega-title="">所有服務</p>
+<p class="mega-desc" data-mega-desc="">FINTRAC 及加拿大銀行註冊、合規計劃、外包合規主管、審查及培訓。</p>
+<a class="mega-more" data-mega-more="" href="services.html" tabindex="-1">閱讀更多<svg><use href="#i-out"></use></svg></a>
+</div>
+</div>
+</li>
+<li class="mega-item">
+<button aria-controls="mega-who" aria-expanded="false" class="mega-trigger" data-mega-trigger="" type="button">服務對象<svg aria-hidden="true"><use href="#i-chev"></use></svg></button>
+<div class="mega-panel" data-mega-panel="" hidden="" id="mega-who">
+<ul class="mega-list">
+<li><a class="mega-link" data-desc="外匯交易商、匯款企業及其他需要向 FINTRAC 註冊、持續合規並按時申報的企業。" data-title="貨幣服務企業" href="who-we-help.html#msb">貨幣服務企業<svg aria-hidden="true"><use href="#i-chev-r"></use></svg></a></li>
+<li><a class="mega-link" data-desc="加密貨幣交易所及虛擬貨幣交易商，須以貨幣服務企業身份向 FINTRAC 註冊，並申報大額虛擬貨幣交易。" data-title="虛擬貨幣交易商" href="who-we-help.html#vc">虛擬貨幣交易商<svg aria-hidden="true"><use href="#i-chev-r"></use></svg></a></li>
+<li><a class="mega-link" data-desc="支付處理商、電子錢包及其他 PSP，須根據 RPAA 向加拿大銀行註冊，而且通常亦須向 FINTRAC 註冊。" data-title="支付服務提供者" href="who-we-help.html#psp">支付服務提供者<svg aria-hidden="true"><use href="#i-chev-r"></use></svg></a></li>
+<li><a class="mega-link" data-desc="位於加拿大境外、服務加拿大客戶的公司，需要加拿大公司、註冊、加拿大地址、合規主管或可供收購的已註冊公司。" data-title="進入加拿大的外國企業" href="who-we-help.html#foreign">進入加拿大的外國企業<svg aria-hidden="true"><use href="#i-chev-r"></use></svg></a></li>
+<li><a class="mega-link" data-desc="需要了解自身義務並在業務擴展時履行義務的初創及成長中企業。" data-title="支付及金融科技公司" href="who-we-help.html#fintech">支付及金融科技公司<svg aria-hidden="true"><use href="#i-chev-r"></use></svg></a></li>
+<li><a class="mega-link" data-desc="申報實體中需要額外人手、審查或團隊培訓的合規主管。" data-title="合規主管" href="who-we-help.html#officers">合規主管<svg aria-hidden="true"><use href="#i-chev-r"></use></svg></a></li>
+</ul>
+<div aria-hidden="true" class="mega-preview">
+<p class="mega-title" data-mega-title="">貨幣服務企業</p>
+<p class="mega-desc" data-mega-desc="">外匯交易商、匯款企業及其他需要向 FINTRAC 註冊、持續合規並按時申報的企業。</p>
+<a class="mega-more" data-mega-more="" href="who-we-help.html#msb" tabindex="-1">閱讀更多<svg><use href="#i-out"></use></svg></a>
+</div>
+</div>
+</li>
+<li><a class="mega-plain" href="how-we-work.html">我們的工作方式</a></li>
+<li><a class="mega-plain" href="pricing.html">收費</a></li>
+<li><a class="mega-plain" href="guides.html">指南</a></li>
+<li><a class="mega-plain" href="about.html">關於我們</a></li>
+</ul>
+</nav>
+<div class="nav-end">
+        <!--i18n:switch--><details class="lang-switch" data-lang-switch><summary aria-label="語言: 繁體中文"><svg aria-hidden="true" viewBox="0 0 16 16"><circle cx="8" cy="8" r="6.2" fill="none" stroke="currentColor" stroke-width="1.3"/><path d="M1.8 8h12.4M8 1.8c2 2 2 10.4 0 12.4M8 1.8c-2 2-2 10.4 0 12.4" fill="none" stroke="currentColor" stroke-width="1.3"/></svg><span>繁</span></summary><ul><li><a href="/crypto-custody-canada.html" hreflang="en-CA" lang="en-CA">English</a></li><li><a href="/fr/crypto-custody-canada.html" hreflang="fr-CA" lang="fr-CA">Français</a></li><li><a href="/de/crypto-custody-canada.html" hreflang="de" lang="de">Deutsch</a></li><li><a href="/ar/crypto-custody-canada.html" hreflang="ar" lang="ar">العربية</a></li><li><a href="/zh-hans/crypto-custody-canada.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li><li><a href="/zh-hant/crypto-custody-canada.html" hreflang="zh-Hant" lang="zh-Hant" aria-current="true">繁體中文</a></li><li><a href="/es/crypto-custody-canada.html" hreflang="es" lang="es">Español</a></li><li><a href="/pt-br/crypto-custody-canada.html" hreflang="pt-BR" lang="pt-BR">Português</a></li><li><a href="/it/crypto-custody-canada.html" hreflang="it" lang="it">Italiano</a></li><li><a href="/pl/crypto-custody-canada.html" hreflang="pl" lang="pl">Polski</a></li><li><a href="/ru/crypto-custody-canada.html" hreflang="ru" lang="ru">Русский</a></li><li><a href="/uk/crypto-custody-canada.html" hreflang="uk" lang="uk">Українська</a></li></ul></details><!--/i18n:switch-->
+<a class="nbtn nbtn-amber" href="contact.html"><span>預約</span><span>諮詢</span></a>
+<a class="nbtn nbtn-white" href="./#checker"><span>差距</span><span>檢查</span></a>
+<a class="nbtn nbtn-grey" href="mailto:info@amlcanada.ca"><span>聯絡</span><span>我們</span></a>
+<button aria-controls="menu" aria-expanded="false" class="nav-menu" data-menu-open="" type="button">
+<svg aria-hidden="true"><use href="#i-menu"></use></svg>
+<span class="sr">選單</span>
+</button>
+</div>
+</div>
+</header>
+<div aria-label="選單" aria-modal="true" class="menu" data-menu="" hidden="" id="menu" role="dialog">
+<div class="menu-top">
+<a class="brand" href="./">
+<svg aria-hidden="true" class="brand-mark"><use href="#i-mark"></use></svg>
+<span>AML Canada</span>
+</a>
+<button class="nav-menu" data-menu-close="" type="button">
+<svg aria-hidden="true"><use href="#i-close"></use></svg>
+<span class="sr">關閉選單</span>
+</button>
+</div>
+<nav aria-label="選單" class="menu-links">
+<a data-menu-link="" href="./">首頁</a>
+<a data-menu-link="" href="services.html">服務</a>
+<a data-menu-link="" href="who-we-help.html">服務對象</a>
+<a data-menu-link="" href="how-we-work.html">我們的工作方式</a>
+<a data-menu-link="" href="pricing.html">收費</a>
+<a data-menu-link="" href="guides.html">指南</a>
+<a data-menu-link="" href="about.html">關於我們</a>
+<a data-menu-link="" href="contact.html">預約諮詢</a>
+</nav>
+<div class="menu-sub">
+<a data-menu-link="" href="outsourced-compliance-officer.html">外包合規主管</a><a data-menu-link="" href="msb-registration.html">MSB 註冊</a><a data-menu-link="" href="buy-or-register-msb-canada.html">收購或註冊 MSB</a><a data-menu-link="" href="compliance-programs.html">合規計劃</a><a data-menu-link="" href="rpaa-registration.html">RPAA 註冊</a><a data-menu-link="" href="rpaa-compliance-program.html">RPAA 合規計劃</a><a data-menu-link="" href="msb-for-sale.html">待售 MSB</a><a data-menu-link="" href="incorporation-canada.html">公司註冊成立</a><a data-menu-link="" href="apostille-notarization-canada.html">海牙認證及公證</a><a data-menu-link="" href="canadian-address.html">加拿大地址</a><a data-menu-link="" href="effectiveness-reviews.html">有效性審查</a><a data-menu-link="" href="training.html">培訓</a>
+</div>
+<!--i18n:switch--><nav class="lang-menu" aria-label="語言"><ul><li><a href="/crypto-custody-canada.html" hreflang="en-CA" lang="en-CA">English</a></li><li><a href="/fr/crypto-custody-canada.html" hreflang="fr-CA" lang="fr-CA">Français</a></li><li><a href="/de/crypto-custody-canada.html" hreflang="de" lang="de">Deutsch</a></li><li><a href="/ar/crypto-custody-canada.html" hreflang="ar" lang="ar">العربية</a></li><li><a href="/zh-hans/crypto-custody-canada.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li><li><a href="/zh-hant/crypto-custody-canada.html" hreflang="zh-Hant" lang="zh-Hant" aria-current="true">繁體中文</a></li><li><a href="/es/crypto-custody-canada.html" hreflang="es" lang="es">Español</a></li><li><a href="/pt-br/crypto-custody-canada.html" hreflang="pt-BR" lang="pt-BR">Português</a></li><li><a href="/it/crypto-custody-canada.html" hreflang="it" lang="it">Italiano</a></li><li><a href="/pl/crypto-custody-canada.html" hreflang="pl" lang="pl">Polski</a></li><li><a href="/ru/crypto-custody-canada.html" hreflang="ru" lang="ru">Русский</a></li><li><a href="/uk/crypto-custody-canada.html" hreflang="uk" lang="uk">Українська</a></li></ul></nav><!--/i18n:switch-->
+    <p class="menu-note"><a href="mailto:info@amlcanada.ca">info@amlcanada.ca</a></p>
+</div>
+<main id="main">
+<section aria-labelledby="page-title" class="page-hero" data-theme="dark">
+<canvas aria-hidden="true" class="page-canvas" data-label="指南 · 加密貨幣" data-page-canvas=""></canvas>
+<div aria-hidden="true" class="page-boxes" data-page-boxes=""></div>
+<div aria-hidden="true" class="page-shade"></div>
+<div class="wrap page-hero-inner">
+<nav aria-label="導覽路徑" class="crumbs"><a href="./">首頁</a><span aria-hidden="true">/</span><a href="guides.html">指南</a><span aria-hidden="true">/</span><span aria-current="page">加密貨幣託管</span></nav>
+<h1 id="page-title">加拿大的加密貨幣託管：規則及託管模式比較</h1>
+<p class="guide-meta">指南 · 2026年10月27日發布 · 閱讀時間 7 分鐘 · AML Canada</p>
+<p class="page-lede">加拿大並無單一的加密貨幣託管牌照。持有客戶加密貨幣的平台應向證券監管機構註冊。根據 CSA 預先註冊承諾（其條款與已註冊平台所遵守的條款大致相同），客戶的加密貨幣須以信託形式持有，且大部分交由可接受第三方託管人保管。為客戶兌換或轉移加密貨幣須向 FINTRAC 註冊。涉及法定貨幣支付時，加拿大銀行便會介入；《穩定幣法》生效後，加拿大銀行亦會監管穩定幣發行人。</p>
+</div>
+</section>
+<section aria-labelledby="tk-title" class="takeaways" data-theme="light" id="start">
+<div class="wrap">
+<div class="tk-card">
+<h2 class="fee-label" id="tk-title">重點</h2>
+<ul class="tk-list">
+<li>保留客戶加密貨幣而非將其交付的平台受證券法規管，並應註冊為投資交易商。</li>
+<li>根據 CSA 預先註冊承諾及已註冊平台的條款，客戶的加密貨幣須以信託形式持有，且大部分交由可接受第三方託管人保管。</li>
+<li>為客戶兌換或轉移加密貨幣屬於 MSB 服務，因此須向 FINTRAC 註冊並執行旅行規則。</li>
+<li>純加密貨幣託管不屬 RPAA 範圍。消費卡或其他法定貨幣支付功能則可能令您納入其規管。</li>
+</ul>
+</div>
+</div>
+</section>
+<section aria-label="指南" class="guide" data-theme="light">
+<div class="wrap legal-grid">
+<nav aria-label="本頁內容" class="legal-toc">
+<p class="legal-toc-h">本頁內容</p>
+<ol>
+<li><a href="#who">誰監管加拿大的加密貨幣託管</a></li>
+<li><a href="#securities">持有客戶加密貨幣何時成為證券事宜</a></li>
+<li><a href="#acceptable">何謂可接受第三方託管人</a></li>
+<li><a href="#fintrac">根據《PCMLTF 規例》，私鑰屬於虛擬貨幣</a></li>
+<li><a href="#rpaa">RPAA 甚少涵蓋純加密貨幣託管</a></li>
+<li><a href="#stablecoins">穩定幣儲備及合資格託管人</a></li>
+<li><a href="#models">加密貨幣託管模式比較</a></li>
+<li><a href="#structure">合法安排託管架構</a></li>
+</ol>
+</nav>
+<article class="legal-body guide-body">
+<section class="legal-sec guide-sec" id="who">
+<h2>誰監管加拿大的加密貨幣託管</h2>
+<p>適用的規則取決於誰控制私鑰、客戶能否在不依賴您的情況下取走其加密貨幣，以及您是否同時轉移法定貨幣。以下四個制度可能互相重疊：</p>
+<ul>
+<li>省及地區證券監管機構（以加拿大證券管理局（CSA）的名義合作）：當平台為客戶持有加密貨幣而非將其交付予客戶時。</li>
+<li>FINTRAC：當您為客戶兌換或轉移虛擬貨幣時，這使您成為貨幣服務企業（MSB）。</li>
+<li>加拿大銀行（根據《零售支付活動法》（RPAA））：當您同時執行並非附帶於加密貨幣業務的法定貨幣支付功能時。</li>
+<li>《穩定幣法》生效後，加拿大銀行亦會監管穩定幣發行人。</li>
+</ul>
+<p>加密貨幣企業的 FINTRAC 註冊、申報及記錄保存要求，請參閱<a href="crypto-registration-canada.html">向 FINTRAC 註冊加密貨幣企業</a>。</p>
+</section>
+<section class="legal-sec guide-sec" id="securities">
+<h2>持有客戶加密貨幣何時成為證券事宜</h2>
+<p><a href="https://www.osc.ca/en/securities-law/instruments-rules-policies/2/21-327/csa-staff-notice-21-327-guidance-application-securities-legislation-entities-facilitating-trading" rel="noopener">CSA 職員通知 21-327</a>於2020年1月16日發布，訂明了相關測試。一般而言，只有在加密資產並非證券或衍生工具，而平台必須立即交付該資產並在日常實際如此交付時，平台才不受證券法例規管。CSA 職員一般認為，當用戶取得擁有權、管有權及控制權，能在不依賴平台的情況下處理該資產，且不會承受平台的無力償債、欺詐、履約或能力風險時，交付即告完成。</p>
+<p>如平台保留加密貨幣，只在用戶要求時才將其轉移至用戶控制的錢包，並僅在自身帳簿上記錄該購買，則證券法例適用。該通知指出：「僅作帳面記錄並不構成交付。」</p>
+<p>因此，託管平台應當註冊。2024年8月6日，CSA 及加拿大投資監管組織（CIRO）表示，他們<a href="https://www.osc.ca/en/news-events/news/csa-and-ciro-expect-crypto-trading-platforms-prioritize-applications-investment-dealer-registration" rel="noopener">期望加密貨幣交易平台</a>註冊為投資交易商並成為 CIRO 成員。<a href="https://www.osc.ca/en/industry/registration-and-compliance/crypto-businesses" rel="noopener">安大略省證券委員會</a>表示，CSA 已不再接受新的預先註冊承諾，因此新平台須直接向 CIRO 申請。</p>
+<p><a href="https://www.osc.ca/sites/default/files/2021-03/csa_20210329_21-329_compliance-regulatory-requirements.pdf" rel="noopener">CSA/IIROC 聯合職員通知 21-329</a>列出提供託管的平台必須採取的措施，包括：</p>
+<ul>
+<li>將客戶資產及私鑰與平台本身的資產及私鑰分隔；</li>
+<li>保存可隨時確認客戶持倉的紀錄；</li>
+<li>制定冷儲存以及私鑰產生和儲存的政策；</li>
+<li>持有足夠的財務資源及保險，或其他風險緩解措施；</li>
+<li>在委聘託管人前進行盡職審查，並於其後持續監察；及</li>
+<li>就託管人的控制措施取得獨立鑒證，例如 SOC 2 報告。</li>
+</ul>
+</section>
+<section class="legal-sec guide-sec" id="acceptable">
+<h2>何謂可接受第三方託管人</h2>
+<p><a href="https://www.osc.ca/en/securities-law/instruments-rules-policies/2/21-332/csa-staff-notice-21-332-crypto-asset-trading-platforms-pre-registration-undertakings-changes" rel="noopener">CSA 職員通知 21-332</a>於2023年2月22日發布，收緊了未註冊平台在尋求註冊期間所作的承諾。客戶資產必須與平台本身的財產分開持有，並以信託形式為客戶持有。加密貨幣須存放於指定的信託帳戶，或存放於「可接受第三方託管人」（Acceptable Third-party Custodian）處為客戶指定的帳戶。標準承諾早已要求平台將客戶加密貨幣總值的最少80%交由第三方託管人保管，且永不將其質押、再質押或以其他方式使用。</p>
+<p>該通知將可接受第三方託管人界定為符合以下條件的實體：</p>
+<ul>
+<li>屬加拿大託管人或加拿大金融機構、根據《國家文書81-102》第6.2條合資格的託管人、符合 CIRO 對「可接受證券存放地點」定義的託管人，或平台的監管機構已書面批准的外國或其他託管人；</li>
+<li>在職能上獨立於平台（按《國家文書31-103》對該詞的用法）；</li>
+<li>具備過去12個月內經審計且附無保留意見的財務報表，顯示其對託管客戶的負債及其就此持有的資產；及</li>
+<li>具備過去12個月內的 SOC 2 Type 1 或 Type 2 報告，或其監管機構接受的同類報告。</li>
+</ul>
+<p>平台亦須讓 CSA 職員可直接從託管人取得客戶帳戶資料。已註冊平台在其各自的豁免寬免決定中另有託管條款。如您考慮以加拿大信託公司作為託管人，請在簽約前與您的主要監管機構按上述定義核查該公司。</p>
+</section>
+<section class="legal-sec guide-sec" id="fintrac">
+<h2>根據《PCMLTF 規例》，私鑰屬於虛擬貨幣</h2>
+<p><a href="https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-184/FullText.html" rel="noopener">《PCMLTF 規例》</a>將虛擬貨幣界定為包括可存取數碼價值表示形式的私鑰。FINTRAC 的<a href="https://fintrac-canafe.canada.ca/msb-esm/msb-eng" rel="noopener">MSB 頁面</a>指出，虛擬貨幣交易涵蓋兌換服務（即以資金換取加密貨幣、以加密貨幣換取資金，或以一種加密貨幣換取另一種）以及轉移服務（即應客戶要求轉移虛擬貨幣，或收取虛擬貨幣以匯給受益人）。從事其中任何一項的企業須註冊為 MSB；如從海外服務加拿大，則須註冊為<a href="foreign-msb-registration-canada.html">外國 MSB</a>。</p>
+<p>FINTRAC 並未將託管列為獨立服務，但應客戶要求將加密貨幣轉出的託管人，正在進行 FINTRAC 所描述的轉移。當您須就虛擬貨幣轉移保存紀錄時，《規例》第124.1條規定您須隨轉移一併發送請求人及受益人資料，並採取合理措施核實收到的轉移是否包含這些資料。詳情請參閱我們的<a href="fintrac-travel-rule-ministerial-directives.html">旅行規則指南</a>。</p>
+</section>
+<section class="legal-sec guide-sec" id="rpaa">
+<h2>RPAA 甚少涵蓋純加密貨幣託管</h2>
+<p><a href="https://laws-lois.justice.gc.ca/eng/acts/R-7.36/FullText.html" rel="noopener">RPAA</a> 涵蓋以加拿大貨幣或其他國家貨幣，或以符合規例訂明準則的單位進行電子資金轉帳的支付功能。<a href="https://laws-lois.justice.gc.ca/eng/regulations/SOR-2023-229/FullText.html" rel="noopener">《零售支付活動規例》</a>（現行至2026年9月30日）並未訂明任何此類單位。加拿大銀行於2024年10月2日發布的<a href="https://www.bankofcanada.ca/2024/10/case-scenarios-about-providers-of-services-backed-by-cryptocurrencies/" rel="noopener">加密貨幣案例情境</a>顯示了界線所在：</p>
+<ul>
+<li>用戶將加密貨幣存放於其錢包內、以加密貨幣交易加密貨幣且不涉及法定貨幣的交易所，並非支付服務提供者（PSP）。</li>
+<li>匯集客戶法定貨幣進行交易的交易所受證券法例規管，其支付功能屬附帶性質，因此毋須註冊。</li>
+<li>虛擬貨幣交易所如透過預付卡讓用戶消費其加密貨幣的價值，即屬 PSP，若符合其他準則便必須註冊。</li>
+</ul>
+<p>純加密貨幣託管不在範圍之內，但消費卡或法定貨幣錢包可能令您納入規管。<a href="https://www.canada.ca/en/department-finance/programs/financial-sector-policy/canadas-stablecoin-framework.html" rel="noopener">聯邦穩定幣框架</a>補充指出，一旦以法定貨幣支持的穩定幣在規例中獲訂明，加拿大銀行將監管以該穩定幣執行支付功能的 PSP。請參閱<a href="who-must-register-psp-rpaa.html">誰必須註冊為 PSP</a>。</p>
+</section>
+<section class="legal-sec guide-sec" id="stablecoins">
+<h2>穩定幣儲備及合資格託管人</h2>
+<p><a href="https://laws-lois.justice.gc.ca/eng/acts/S-15.9/FullText.html" rel="noopener">《穩定幣法》</a>已於2026年3月26日獲御准，但尚未生效。生效後，發行人必須將其儲備資產存放於一名或多名合資格託管人，即金融機構或規例所訂明的其他人士。財政部表示，儲備將為現金或高質素類現金資產，並與發行人及託管人本身的資產分隔，並預期該框架於2027年生效。在此之前，<a href="https://www.osc.ca/en/securities-law/instruments-rules-policies/2/21-333/csa-staff-notice-21-333-crypto-asset-trading-platforms-terms-and-conditions-trading-value" rel="noopener">CSA 職員通知 21-333</a>期望在平台上交易的穩定幣，其背後的儲備存放於合資格託管人，並與發行人的資產分開。</p>
+</section>
+<section class="legal-sec guide-sec" id="models">
+<h2>加密貨幣託管模式比較</h2>
+<div class="table-wrap"><table>
+<thead><tr><th scope="col">模式</th><th scope="col">誰持有私鑰</th><th scope="col">主要監管機構</th><th scope="col">觸發的註冊</th><th scope="col">典型適用對象</th></tr></thead>
+<tbody>
+<tr><th scope="row">自託管錢包軟件</th><td>僅限用戶本人</td><td>FINTRAC（如您增設兌換或轉移服務）</td><td>僅在您為客戶兌換或轉移加密貨幣時才須作 MSB 註冊</td><td>錢包應用程式及工具</td></tr>
+<tr><th scope="row">即時交付的經紀商</th><td>客戶（每次交易後即時取得）</td><td>FINTRAC；證券監管機構根據 21-327 判斷交付是否完成</td><td>MSB 註冊。如符合 21-327 的每項交付條件且資產並非證券，證券法一般不適用</td><td>入金渠道及經紀商</td></tr>
+<tr><th scope="row">使用第三方託管人的平台</th><td>可接受第三方託管人，其餘由平台本身的錢包持有</td><td>CSA、CIRO、FINTRAC</td><td>投資交易商註冊、CIRO 成員資格及 MSB 註冊</td><td>交易所及交易應用程式</td></tr>
+<tr><th scope="row">與已註冊平台合作</th><td>已註冊平台及其託管人</td><td>合作夥伴的監管機構；您本身的角色另行評估</td><td>視乎您的角色而定；請向證券監管機構查詢，如您兌換或轉移加密貨幣，則須向 FINTRAC 註冊</td><td>增設加密貨幣業務的金融科技公司</td></tr>
+<tr><th scope="row">服務企業客戶的託管人</th><td>託管人</td><td>FINTRAC；平台客戶應用 21-332 的準則</td><td>如應客戶要求轉移加密貨幣，須作 MSB 註冊；須具備審計及 SOC 2 報告以服務平台</td><td>託管服務提供者</td></tr>
+<tr><th scope="row">附消費卡的加密貨幣帳戶</th><td>平台或其託管人</td><td>CSA、FINTRAC、加拿大銀行</td><td>證券註冊及 MSB 註冊；如符合加拿大銀行的其他準則，另須根據 RPAA 作 PSP 註冊</td><td>加密貨幣卡及支付功能</td></tr>
+<tr><th scope="row">穩定幣發行人</th><td>由合資格託管人持有儲備</td><td>《穩定幣法》生效後為加拿大銀行；FINTRAC；平台交易方面為 CSA</td><td>生效後向加拿大銀行註冊；如為客戶兌換或轉移虛擬貨幣，須作 MSB 註冊</td><td>以法定貨幣支持的穩定幣發行人</td></tr>
+</tbody>
+</table></div>
+</section>
+<section class="legal-sec guide-sec" id="structure">
+<h2>合法安排託管架構</h2>
+<p>證券監管機構按產品如何處理客戶資產來判斷是否屬託管，因此即使產品被描述為非託管，只要您保管私鑰，仍會被視為託管。</p>
+<ul>
+<li>如要避免須作證券註冊，請每次都即時將加密貨幣交付至僅由客戶控制的錢包，且不保留任何擔保權益。</li>
+<li>如要持有客戶加密貨幣，請辦理註冊，將大部分加密貨幣交由可接受第三方託管人保管，以信託形式持有並與您本身的資產分開，且永不借出或質押。</li>
+<li>如要提供加密貨幣服務而不自行託管，請與已註冊平台合作，並就您本身的角色是否需要註冊尋求意見。</li>
+<li>無論採用哪種模式，都須在兌換或轉移加密貨幣前向 FINTRAC 註冊，並在轉移流程中納入旅行規則及制裁篩查。</li>
+</ul>
+<p>我們提供<a href="msb-registration.html">FINTRAC MSB 註冊</a>、虛擬貨幣<a href="compliance-programs.html">合規計劃</a>及<a href="outsourced-compliance-officer.html">外判合規主管</a>支援。證券註冊及信託問題須由證券律師處理，到了這一步我們會告知您。本指南並非法律意見。</p>
+</section>
+<p class="sources">資料來源：<a href="https://www.osc.ca/sites/default/files/pdfs/irps/csa_20200116_21-327_trading-crypto-assets.pdf" rel="noopener">CSA 職員通知 21-327</a>；<a href="https://www.osc.ca/sites/default/files/2021-03/csa_20210329_21-329_compliance-regulatory-requirements.pdf" rel="noopener">CSA/IIROC 聯合職員通知 21-329</a>；<a href="https://www.osc.ca/en/securities-law/instruments-rules-policies/2/21-332/csa-staff-notice-21-332-crypto-asset-trading-platforms-pre-registration-undertakings-changes" rel="noopener">CSA 職員通知 21-332</a>；<a href="https://www.osc.ca/en/securities-law/instruments-rules-policies/2/21-333/csa-staff-notice-21-333-crypto-asset-trading-platforms-terms-and-conditions-trading-value" rel="noopener">CSA 職員通知 21-333</a>；<a href="https://www.osc.ca/en/industry/registration-and-compliance/crypto-businesses" rel="noopener">OSC，加密貨幣企業</a>；<a href="https://www.osc.ca/en/news-events/news/csa-and-ciro-expect-crypto-trading-platforms-prioritize-applications-investment-dealer-registration" rel="noopener">CSA 及 CIRO，2024年8月6日新聞稿</a>；<a href="https://fintrac-canafe.canada.ca/msb-esm/msb-eng" rel="noopener">FINTRAC，貨幣服務企業</a>；<a href="https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-184/FullText.html" rel="noopener">《犯罪收益（洗錢）及恐怖主義融資規例》</a>；<a href="https://laws-lois.justice.gc.ca/eng/acts/R-7.36/FullText.html" rel="noopener">《零售支付活動法》</a>；<a href="https://laws-lois.justice.gc.ca/eng/regulations/SOR-2023-229/FullText.html" rel="noopener">《零售支付活動規例》</a>；<a href="https://www.bankofcanada.ca/2024/10/case-scenarios-about-providers-of-services-backed-by-cryptocurrencies/" rel="noopener">加拿大銀行，有關以加密貨幣支持的服務提供者的案例情境</a>；<a href="https://laws-lois.justice.gc.ca/eng/acts/S-15.9/FullText.html" rel="noopener">《穩定幣法》</a>；<a href="https://www.canada.ca/en/department-finance/programs/financial-sector-policy/canadas-stablecoin-framework.html" rel="noopener">財政部，加拿大穩定幣框架</a>。查核日期：2026年10月27日。一般資訊，並非法律意見。</p>
+</article>
+</div>
+</section>
+<section aria-label="相關服務" class="gcta" data-theme="light">
+<div class="wrap">
+<a class="gcta-card" data-theme="dark" href="msb-registration.html">
+<span class="fee-label">需要協助嗎？</span>
+<span class="gcta-name">MSB 註冊</span>
+<span class="gcta-desc">為貨幣服務企業、外國 MSB 及虛擬貨幣交易商辦理 FINTRAC 註冊。</span>
+<span class="gcta-price">3,500美元</span>
+<span aria-hidden="true" class="gcta-go"><svg aria-hidden="true"><use href="#i-arrow"></use></svg></span>
+</a>
+</div>
+</section>
+<section aria-labelledby="faq-title" class="faq faq-inner" data-theme="light">
+<div class="wrap faq-grid">
+<div class="faq-head">
+<h2 id="faq-title">加密貨幣託管：常見問題</h2>
+<p>仍不確定？<a href="contact.html">預約諮詢</a>或電郵至 <a href="mailto:info@amlcanada.ca">info@amlcanada.ca</a>。</p>
+</div>
+<div class="faq-panel">
+<details><summary>在加拿大持有客戶加密貨幣需要註冊嗎？<svg aria-hidden="true"><use href="#i-plus"></use></svg></summary><p>通常需要向多於一個監管機構註冊。保留客戶加密貨幣而非即時交付的平台受證券法規管，並應註冊為投資交易商及加入 CIRO。如您為客戶兌換或轉移加密貨幣，亦須以 MSB 身份向 FINTRAC 註冊。</p></details>
+<details><summary>何謂可接受第三方託管人？<svg aria-hidden="true"><use href="#i-plus"></use></svg></summary><p>根據 CSA 職員通知 21-332，可接受第三方託管人是指加拿大託管人或金融機構、其他合資格託管人，或您的監管機構書面批准的託管人。它必須在職能上獨立於平台，並具備過去12個月內經審計的財務報表及 SOC 2 Type 1 或 Type 2 報告。</p></details>
+<details><summary>非託管錢包需要向 FINTRAC 註冊嗎？<svg aria-hidden="true"><use href="#i-plus"></use></svg></summary><p>這取決於企業的業務。FINTRAC 對 MSB 的定義涵蓋為客戶兌換及轉移虛擬貨幣。如用戶自行控制私鑰，而您並無提供上述任何一項服務，請在推出前取得書面分析，或向 FINTRAC 查詢。</p></details>
+<details><summary>RPAA 是否適用於加密貨幣託管？<svg aria-hidden="true"><use href="#i-plus"></use></svg></summary><p>不適用於純加密貨幣託管。加拿大銀行的案例情境指出，不處理法定貨幣、只以加密貨幣交易加密貨幣的交易所並非 PSP；而透過預付卡讓用戶消費其加密貨幣價值的加密貨幣交易所，若符合其他準則，則屬 PSP。</p></details>
+<details><summary>《穩定幣法》已生效嗎？<svg aria-hidden="true"><use href="#i-plus"></use></svg></summary><p>尚未生效。該法於2026年3月26日獲御准，財政部預期該框架於2027年生效。屆時，發行人須將儲備資產存放於合資格託管人。</p></details>
+</div>
+</div>
+</section>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"在加拿大持有客戶加密貨幣需要註冊嗎？","acceptedAnswer":{"@type":"Answer","text":"通常需要向多於一個監管機構註冊。保留客戶加密貨幣而非即時交付的平台受證券法規管，並應註冊為投資交易商及加入 CIRO。如您為客戶兌換或轉移加密貨幣，亦須以 MSB 身份向 FINTRAC 註冊。"}},{"@type":"Question","name":"何謂可接受第三方託管人？","acceptedAnswer":{"@type":"Answer","text":"根據 CSA 職員通知 21-332，可接受第三方託管人是指加拿大託管人或金融機構、其他合資格託管人，或您的監管機構書面批准的託管人。它必須在職能上獨立於平台，並具備過去12個月內經審計的財務報表及 SOC 2 Type 1 或 Type 2 報告。"}},{"@type":"Question","name":"非託管錢包需要向 FINTRAC 註冊嗎？","acceptedAnswer":{"@type":"Answer","text":"這取決於企業的業務。FINTRAC 對 MSB 的定義涵蓋為客戶兌換及轉移虛擬貨幣。如用戶自行控制私鑰，而您並無提供上述任何一項服務，請在推出前取得書面分析，或向 FINTRAC 查詢。"}},{"@type":"Question","name":"RPAA 是否適用於加密貨幣託管？","acceptedAnswer":{"@type":"Answer","text":"不適用於純加密貨幣託管。加拿大銀行的案例情境指出，不處理法定貨幣、只以加密貨幣交易加密貨幣的交易所並非 PSP；而透過預付卡讓用戶消費其加密貨幣價值的加密貨幣交易所，若符合其他準則，則屬 PSP。"}},{"@type":"Question","name":"《穩定幣法》已生效嗎？","acceptedAnswer":{"@type":"Answer","text":"尚未生效。該法於2026年3月26日獲御准，財政部預期該框架於2027年生效。屆時，發行人須將儲備資產存放於合資格託管人。"}}]}</script>
+<section aria-labelledby="gm-title" class="guides-more" data-theme="light">
+<div class="wrap">
+<h2 id="gm-title">更多指南</h2>
+<div class="gcard-grid">
+<a class="gcard" data-reveal="" href="crypto-registration-canada.html">
+<span class="gcard-tag">虛擬貨幣</span>
+<h3>向 FINTRAC 註冊加密貨幣企業</h3>
+<p>加密貨幣交易所及虛擬貨幣交易商，無論設於加拿大還是從海外服務加拿大人，都須以貨幣服務企業身份向 FINTRAC 註冊。</p>
+<span class="link-ink">閱讀指南 <svg aria-hidden="true"><use href="#i-arrow"></use></svg></span>
+</a>
+<a class="gcard" data-reveal="" href="fintrac-travel-rule-ministerial-directives.html">
+<span class="gcard-tag">FINTRAC</span>
+<h3>旅行規則及部長指令：加拿大 MSB 必須做什麼</h3>
+<p>加拿大的旅行規則要求貨幣服務企業在資金及虛擬貨幣轉帳時附上匯款人及受益人資料，並查核所收到的轉帳是否附有這些資料。部長指令對與俄羅斯、伊朗及北韓有關的交易訂明了更嚴格的措施。</p>
+<span class="link-ink">閱讀指南 <svg aria-hidden="true"><use href="#i-arrow"></use></svg></span>
+</a>
+<a class="gcard" data-reveal="" href="who-must-register-psp-rpaa.html">
+<span class="gcard-tag">RPAA</span>
+<h3>誰必須根據 RPAA 註冊為 PSP？</h3>
+<p>如您以獨立業務形式為以加元或外幣進行的電子轉帳執行支付功能，並與加拿大有聯繫，而且不適用任何豁免，您就必須向加拿大銀行註冊。本指南說明加拿大銀行如何將這項測試的每個部分應用於實際業務模式。</p>
+<span class="link-ink">閱讀指南 <svg aria-hidden="true"><use href="#i-arrow"></use></svg></span>
+</a>
+</div>
+</div>
+</section>
+<section aria-labelledby="close-title" class="close" data-theme="dark">
+<canvas aria-hidden="true" class="close-canvas" data-close-canvas=""></canvas>
+<div class="wrap close-inner">
+<h2 id="close-title">告訴我們您需要什麼協助。</h2>
+<a class="btn btn-amber" href="contact.html?need=register">預約諮詢 <svg aria-hidden="true"><use href="#i-arrow"></use></svg></a>
+</div>
+</section>
+<p class="i18n-note wrap">本頁譯自英文。如有出入，以英文版本為準。 <a href="https://amlcanada.ca/crypto-custody-canada.html" hreflang="en-CA" lang="en-CA">閱讀英文版</a></p></main>
+<footer class="footer" data-theme="dark">
+<div class="wrap footer-grid">
+<div class="footer-brand">
+<a class="brand" href="./">
+<svg aria-hidden="true" class="brand-mark"><use href="#i-mark"></use></svg>
+<span>AML Canada</span>
+</a>
+<p>加拿大反洗錢及監管合規服務。私營顧問公司，與 FINTRAC 或加拿大銀行並無關聯。</p>
+</div>
+<nav aria-label="服務" class="footer-col">
+<p class="footer-h">服務</p>
+<a href="outsourced-compliance-officer.html">外包合規主管</a>
+<a href="msb-registration.html">MSB 註冊</a>
+<a href="buy-or-register-msb-canada.html">收購或註冊 MSB</a>
+<a href="compliance-programs.html">合規計劃</a>
+<a href="rpaa-registration.html">RPAA 註冊</a>
+<a href="rpaa-compliance-program.html">RPAA 合規計劃</a>
+<a href="msb-for-sale.html">待售 MSB</a>
+<a href="incorporation-canada.html">公司註冊成立</a>
+<a href="apostille-notarization-canada.html">海牙認證及公證</a>
+<a href="canadian-address.html">加拿大地址</a>
+<a href="effectiveness-reviews.html">有效性審查</a>
+<a href="training.html">培訓</a>
+</nav>
+<nav aria-label="公司" class="footer-col">
+<p class="footer-h">公司</p>
+<a href="who-we-help.html">服務對象</a>
+<a href="how-we-work.html">我們的工作方式</a>
+<a href="pricing.html">收費</a>
+<a href="guides.html">指南</a>
+<a href="about.html">關於我們</a>
+<a href="contact.html">預約諮詢</a>
+</nav>
+<div class="footer-col">
+<p class="footer-h">聯絡方式</p>
+<a href="mailto:info@amlcanada.ca">info@amlcanada.ca</a>
+<a href="tel:+18078060444">+1 807-806-0444</a>
+<a href="https://wa.me/18078060444" rel="noopener">WhatsApp</a>
+<a href="https://t.me/sabbasi_1" rel="noopener">Telegram</a>
+<address>Suite 211, 320 Matheson Blvd West<br/>Mississauga, ON L5R 3R1</address>
+</div>
+</div>
+<div class="wrap footer-base">
+<p>© <span data-year="">2026</span> ComplyFactor Limited。AML Canada 由 <a href="https://complyfactor.com" rel="noopener">ComplyFactor Limited</a> 營運。</p>
+<p class="footer-legal"><a href="../privacy.html">隱私</a><a href="../terms.html">條款</a><button class="footer-cookie" data-consent-open="" hidden="" type="button">Cookie 選擇</button></p>
+</div>
+<div class="wrap footer-note"><p>本網站的資訊屬一般性質，並不構成法律意見。</p></div>
+</footer>
+<div aria-label="Cookie 選擇" class="consent" data-consent="" hidden="" role="region">
+<p>我們希望使用 Google Analytics Cookie 了解本網站的使用情況。只有在您接受後才會載入。<a href="../privacy.html#cookies">我們如何使用資料</a></p>
+<div class="consent-actions">
+<button class="nbtn nbtn-grey" data-consent-no="" type="button"><span>拒絕</span></button>
+<button class="nbtn nbtn-amber" data-consent-yes="" type="button"><span>接受</span></button>
+</div>
+</div>
+<script defer="" src="../site-config.js"></script>
+<script>window.I18N={"Client · ID verified": "客戶 · 身分已核實", "4 cash deposits · 24h · $9,600 avg": "4筆現金存款 · 24小時 · 平均9,600元", "Intl EFT · $14,500 · Reportable": "國際電子資金轉帳 · 14,500元 · 須報告", "Name screen · Clear": "名單篩查 · 無吻合", "FINTRAC registration": "FINTRAC 註冊", "MSB registration": "MSB 註冊", "A representative for service in Canada": "一名在加拿大的送達代表", "A named compliance officer": "一名指定的合規主管", "Compliance programs": "合規計劃", "Written policies and procedures": "書面政策及程序", "A documented risk assessment": "一份有文件記錄的風險評估", "An ongoing training program": "一套持續進行的培訓計劃", "Training": "培訓", "An effectiveness review in the last two years": "過去兩年內進行的有效性審查", "Effectiveness reviews": "有效性審查", "FINTRAC registration, in progress": "FINTRAC 註冊，辦理中", "In place": "已到位", "of {total}": "／{total}", "{have} of {total} in place.": "已具備 {have}／{total} 項。", "Gaps: {list}.": "缺口：{list}。", "No gaps flagged. We'd like a second opinion.": "未發現缺口。我們希望聽取第二意見。", "and": "及", "That email address doesn't look complete. Please check it.": "該電郵地址看來不完整。請檢查。", "Please add your {list}.": "請填寫您的{list}。", "Sending…": "正在傳送…", "Thank you. We'll be in touch to find a time.": "謝謝。我們會與您聯絡安排時間。", "Online requests aren't switched on yet. Please email info@amlcanada.ca and we'll find a time.": "網上申請尚未開放。請電郵 info@amlcanada.ca，我們會與您安排時間。", "That didn't go through. Please check your connection and try again.": "未能傳送。請檢查您的網絡連線，然後再試一次。"}</script><script defer="" src="../main.js"></script>
+</body>
+</html>

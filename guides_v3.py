@@ -1616,6 +1616,305 @@ GUIDES["ontario-vs-bc-msb-registration.html"] = dict(
 )
 
 
+# ------------------------------------------------------------------ crypto custody
+# Official sources checked 27 October 2026. Reuses CSA_21_332, CSA_21_333, FIN_STABLE, L_PCMLTFR, L_RPAA,
+# RP_CS_CRYPTO and F_MSB, all defined or imported above in guides_v3.py.
+CU_21_327 = ("https://www.osc.ca/en/securities-law/instruments-rules-policies/2/21-327/"
+             "csa-staff-notice-21-327-guidance-application-securities-legislation-entities-facilitating-trading")
+CU_21_327_PDF = "https://www.osc.ca/sites/default/files/pdfs/irps/csa_20200116_21-327_trading-crypto-assets.pdf"
+CU_21_329 = "https://www.osc.ca/sites/default/files/2021-03/csa_20210329_21-329_compliance-regulatory-requirements.pdf"
+CU_OSC_CRYPTO = "https://www.osc.ca/en/industry/registration-and-compliance/crypto-businesses"
+CU_CSA_CIRO = ("https://www.osc.ca/en/news-events/news/"
+               "csa-and-ciro-expect-crypto-trading-platforms-prioritize-applications-investment-dealer-registration")
+CU_STABLE_ACT = "https://laws-lois.justice.gc.ca/eng/acts/S-15.9/FullText.html"
+CU_RPAR = "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2023-229/FullText.html"
+
+GUIDES["crypto-custody-canada.html"] = dict(
+    checked="27 October 2026",
+    title="Crypto Custody in Canada: Rules and Custody Models | AML Canada",
+    desc="Who regulates crypto custody in Canada, what an acceptable third-party custodian is, and how the custody models compare on keys, regulators and registration.",
+    crumb="Crypto custody",
+    h1="Crypto custody in Canada: the rules and custody models compared",
+    lede="Canada has no single crypto custody licence. A platform that holds client crypto is expected to register with securities regulators. Under CSA pre-registration undertakings, which broadly match the terms registered platforms work under, client crypto is held in trust, mostly with an acceptable third-party custodian. Exchanging or transferring crypto for clients means FINTRAC registration. The Bank of Canada comes in where fiat payments are involved and, once the Stablecoin Act is in force, for stablecoin issuers.",
+    label="Guide · Crypto",
+    service="msb-registration.html",
+    also=["compliance-programs.html", "outsourced-compliance-officer.html"],
+    date="2026-10-27",
+    takeaways=["A platform that keeps client crypto instead of delivering it is under securities law and is expected to register as an investment dealer.",
+               "Under CSA pre-registration undertakings and registered platforms' terms, client crypto is held in trust, mostly with an acceptable third-party custodian.",
+               "Exchanging or transferring crypto for clients is an MSB service, so register with FINTRAC and apply the travel rule.",
+               "Crypto-only custody is outside the RPAA. A spending card or other fiat payment feature can bring you in."],
+    sections=[
+        ("who", "Who regulates crypto custody in Canada", """          <p>The rules that apply turn on who controls the private keys, whether clients can take their crypto away without relying on you, and whether you also move fiat money. Four regimes can overlap:</p>
+          <ul>
+            <li>Provincial and territorial securities regulators, working together as the Canadian Securities Administrators (CSA), when a platform holds crypto for clients rather than delivering it to them.</li>
+            <li>FINTRAC, when you exchange or transfer virtual currency for clients, which makes you a money services business (MSB).</li>
+            <li>The Bank of Canada under the Retail Payment Activities Act (RPAA), when you also perform fiat payment functions that aren't incidental to your crypto business.</li>
+            <li>The Bank of Canada again for stablecoin issuers, once the Stablecoin Act is in force.</li>
+          </ul>
+          <p>FINTRAC registration, reporting and record keeping for crypto businesses are covered in <a href="crypto-registration-canada.html">registering a crypto business with FINTRAC</a>.</p>"""),
+        ("securities", "When holding client crypto becomes a securities matter", f"""          <p><a href="{CU_21_327}" rel="noopener">CSA Staff Notice 21-327</a>, published January 16, 2020, sets the test. A platform generally falls outside securities legislation only if the crypto asset isn't a security or derivative and the platform must deliver it immediately, and routinely does. CSA staff generally treat delivery as complete when the user gets ownership, possession and control, can deal with the asset without relying on the platform, and isn't left exposed to the platform's insolvency, fraud, performance or proficiency risk.</p>
+          <p>If the platform keeps the crypto and moves it to a user-controlled wallet only on request, with the purchase recorded on its own books, securities legislation applies. The notice says "a mere book entry does not constitute delivery."</p>
+          <p>A custodial platform is therefore expected to register. On August 6, 2024, the CSA and the Canadian Investment Regulatory Organization (CIRO) said they <a href="{CU_CSA_CIRO}" rel="noopener">expect crypto trading platforms</a> to register as investment dealers and become CIRO members. The CSA no longer accepts new pre-registration undertakings, the <a href="{CU_OSC_CRYPTO}" rel="noopener">Ontario Securities Commission</a> says, so a new platform applies directly to CIRO.</p>
+          <p><a href="{CU_21_329}" rel="noopener">Joint CSA/IIROC Staff Notice 21-329</a> lists measures platforms with custody must take, including:</p>
+          <ul>
+            <li>segregating client assets and private keys from their own;</li>
+            <li>keeping records that confirm client holdings at all times;</li>
+            <li>having policies for cold storage and for creating and storing private keys;</li>
+            <li>holding enough financial resources and insurance, or other risk mitigation;</li>
+            <li>doing due diligence before retaining a custodian and monitoring it afterwards; and</li>
+            <li>getting independent assurance over the custodian's controls, such as a SOC 2 report.</li>
+          </ul>"""),
+        ("acceptable", "What an acceptable third-party custodian is", f"""          <p><a href="{CSA_21_332}" rel="noopener">CSA Staff Notice 21-332</a>, published February 22, 2023, tightened the undertakings unregistered platforms gave while seeking registration. Client assets had to be held apart from the platform's own property and in trust for the client. Crypto went into a designated trust account, or an account designated for clients with an "Acceptable Third-party Custodian". The standard undertaking already committed platforms to keep at least 80% of the total value of client crypto with third-party custodians, and never to pledge, re-hypothecate or otherwise use it.</p>
+          <p>The notice defines an acceptable third-party custodian as an entity that:</p>
+          <ul>
+            <li>is a Canadian custodian or Canadian financial institution, a custodian qualified under section 6.2 of National Instrument 81-102, a custodian that meets CIRO's definition of an acceptable securities location, or a foreign or other custodian the platform's regulators have approved in writing;</li>
+            <li>is functionally independent of the platform, as National Instrument 31-103 uses that term;</li>
+            <li>has audited financial statements from the last 12 months with an unqualified opinion, showing what it owes custody clients and the assets it holds against that; and</li>
+            <li>has a SOC 2 Type 1 or Type 2 report from the last 12 months, or a comparable report its regulators accept.</li>
+          </ul>
+          <p>The platform also lets CSA staff get client account information straight from the custodian. Registered platforms have further custody terms in their own exemptive relief decisions. If you're looking at a Canadian trust company as custodian, check it against these definitions with your principal regulator before you sign.</p>"""),
+        ("fintrac", "Private keys count as virtual currency under the PCMLTF Regulations", f"""          <p>The <a href="{L_PCMLTFR}" rel="noopener">PCMLTF Regulations</a> define virtual currency to include a private key that gives access to a digital representation of value. FINTRAC's <a href="{F_MSB}" rel="noopener">MSB page</a> says dealing in virtual currency covers exchange services, meaning funds for crypto, crypto for funds or one crypto for another, and transfer services, meaning moving virtual currency at a client's request or receiving it to remit to a beneficiary. A business doing either registers as an MSB, or as a <a href="foreign-msb-registration-canada.html">foreign MSB</a> if it serves Canada from abroad.</p>
+          <p>FINTRAC doesn't list custody as a separate service, but a custodian that sends crypto out when a client asks is doing what FINTRAC describes as a transfer. When you have to keep a record of a virtual currency transfer, section 124.1 of the Regulations requires you to send the requester and beneficiary information with it and take reasonable measures to check that incoming transfers include it. Our <a href="fintrac-travel-rule-ministerial-directives.html">travel rule guide</a> has the details.</p>"""),
+        ("rpaa", "The RPAA rarely reaches crypto-only custody", f"""          <p>The <a href="{L_RPAA}" rel="noopener">RPAA</a> covers payment functions for electronic funds transfers in the currency of Canada or another country, or in a unit that meets criteria prescribed by regulation. The <a href="{CU_RPAR}" rel="noopener">Retail Payment Activities Regulations</a>, current to September 30, 2026, prescribe no such unit. The Bank's <a href="{RP_CS_CRYPTO}" rel="noopener">crypto case scenarios</a> from October 2, 2024 show where the line falls:</p>
+          <ul>
+            <li>An exchange where users keep crypto in its wallets and trade crypto for crypto, with no fiat, isn't a payment service provider (PSP).</li>
+            <li>An exchange that pools client fiat for trading is under securities legislation and its payment functions are incidental, so it doesn't register.</li>
+            <li>A virtual currency exchange whose prepaid cards let users spend the value of their crypto is a PSP and must register, if it meets the other criteria.</li>
+          </ul>
+          <p>Crypto-only custody stays outside, but a spending card or fiat wallet can bring you in. The <a href="{FIN_STABLE}" rel="noopener">federal stablecoin framework</a> adds that the Bank will supervise PSPs performing payment functions in a fiat-backed stablecoin, once that stablecoin is prescribed in regulation. See <a href="who-must-register-psp-rpaa.html">who must register as a PSP</a>.</p>"""),
+        ("stablecoins", "Stablecoin reserves and qualified custodians", f"""          <p>The <a href="{CU_STABLE_ACT}" rel="noopener">Stablecoin Act</a> received Royal Assent on March 26, 2026 and isn't in force yet. Once it is, an issuer must place its reserve assets with one or more qualified custodians, meaning a financial institution or another person the regulations provide for. The Department of Finance says reserves will be cash or high-quality cash-like assets, segregated from the issuer's and the custodian's own assets, and expects the framework in force in 2027. Until then, <a href="{CSA_21_333}" rel="noopener">CSA Staff Notice 21-333</a> expects the reserve behind a stablecoin traded on a platform to sit with a qualified custodian, apart from the issuer's assets.</p>"""),
+        ("models", "Crypto custody models compared", """          <div class="table-wrap"><table>
+            <thead><tr><th scope="col">Model</th><th scope="col">Who holds the keys</th><th scope="col">Main regulators</th><th scope="col">Registration triggered</th><th scope="col">Typical fit</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Self-custody wallet software</th><td>The user alone</td><td>FINTRAC, if you add exchange or transfer services</td><td>MSB registration only if you exchange or transfer crypto for clients</td><td>Wallet apps and tooling</td></tr>
+              <tr><th scope="row">Broker with immediate delivery</th><td>The client, right after each trade</td><td>FINTRAC; securities regulators judge delivery under 21-327</td><td>MSB registration. Securities law generally doesn't apply if every 21-327 delivery condition is met and the asset isn't a security</td><td>On-ramps and brokers</td></tr>
+              <tr><th scope="row">Platform using a third-party custodian</th><td>An acceptable third-party custodian, with the platform's own wallets for the rest</td><td>CSA, CIRO, FINTRAC</td><td>Investment dealer registration, CIRO membership and MSB registration</td><td>Exchanges and trading apps</td></tr>
+              <tr><th scope="row">Partnering with a registered platform</th><td>The registered platform and its custodians</td><td>The partner's regulators; your own role is assessed separately</td><td>Depends on your role; ask the securities regulator, and register with FINTRAC if you exchange or transfer crypto</td><td>Fintechs adding crypto</td></tr>
+              <tr><th scope="row">Custodian serving businesses</th><td>The custodian</td><td>FINTRAC; platform clients apply the 21-332 criteria</td><td>MSB registration if it transfers crypto at clients' request; audit and SOC 2 reports to serve platforms</td><td>Custody providers</td></tr>
+              <tr><th scope="row">Crypto account with a spending card</th><td>The platform or its custodian</td><td>CSA, FINTRAC, Bank of Canada</td><td>Securities registration and MSB registration, plus PSP registration under the RPAA if it meets the Bank's other criteria</td><td>Crypto cards and payment features</td></tr>
+              <tr><th scope="row">Stablecoin issuer</th><td>Qualified custodians hold the reserve</td><td>Bank of Canada once the Act is in force, FINTRAC, CSA for platform trading</td><td>Registration with the Bank once in force; MSB registration if it exchanges or transfers virtual currency for clients</td><td>Fiat-backed stablecoin issuers</td></tr>
+            </tbody>
+          </table></div>"""),
+        ("structure", "Structuring custody lawfully", """          <p>Securities regulators judge custody by what a product does with client assets, so a product described as non-custodial is still treated as custodial if you keep the keys.</p>
+          <ul>
+            <li>To stay outside securities registration, deliver crypto to a wallet the client alone controls, immediately and every time, and keep no security interest in it.</li>
+            <li>To hold client crypto, register, keep most of it with an acceptable third-party custodian, hold it in trust and apart from your own assets, and never lend or pledge it.</li>
+            <li>To offer crypto without running custody, partner with a registered platform and get advice on whether your own role needs registration.</li>
+            <li>Under any model, register with FINTRAC before you exchange or transfer crypto, and build travel rule and sanctions screening into the transfer flow.</li>
+          </ul>
+          <p>We handle <a href="msb-registration.html">FINTRAC MSB registration</a>, <a href="compliance-programs.html">compliance programs</a> for virtual currency and <a href="outsourced-compliance-officer.html">outsourced compliance officer</a> support. Securities registration and trust questions need securities counsel, and we'll tell you when you reach that point. This guide isn't legal advice.</p>"""),
+    ],
+    faqs=[("Do I need to register to hold client crypto in Canada?", "Usually with more than one regulator. A platform that keeps client crypto instead of delivering it immediately is subject to securities law and is expected to register as an investment dealer and join CIRO. If you exchange or transfer crypto for clients, you also register with FINTRAC as an MSB."),
+          ("What is an acceptable third-party custodian?", "Under CSA Staff Notice 21-332, it's a Canadian custodian or financial institution, another qualified custodian, or one your regulators approve in writing. It must be functionally independent of the platform and have audited financial statements and a SOC 2 Type 1 or Type 2 report from the last 12 months."),
+          ("Does a non-custodial wallet need FINTRAC registration?", "It depends on what the business does. FINTRAC's MSB definition covers exchanging and transferring virtual currency for clients. If users control their own keys and you provide neither service, get a written analysis, or ask FINTRAC, before launch."),
+          ("Does the RPAA apply to crypto custody?", "Not to crypto-only custody. The Bank of Canada's case scenarios say a crypto-for-crypto exchange that handles no fiat isn't a PSP, while a crypto exchange whose prepaid cards let users spend the value of their crypto is, if it meets the other criteria."),
+          ("Is the Stablecoin Act in force?", "No. It received Royal Assent on March 26, 2026, and the Department of Finance expects the framework to come into force in 2027. Issuers will then have to hold reserve assets with qualified custodians.")],
+    sources=[("CSA Staff Notice 21-327", CU_21_327_PDF), ("Joint CSA/IIROC Staff Notice 21-329", CU_21_329),
+             ("CSA Staff Notice 21-332", CSA_21_332), ("CSA Staff Notice 21-333", CSA_21_333),
+             ("OSC, Crypto businesses", CU_OSC_CRYPTO), ("CSA and CIRO, August 6, 2024 news release", CU_CSA_CIRO),
+             ("FINTRAC, Money services businesses", F_MSB), ("Proceeds of Crime (Money Laundering) and Terrorist Financing Regulations", L_PCMLTFR),
+             ("Retail Payment Activities Act", L_RPAA), ("Retail Payment Activities Regulations", CU_RPAR),
+             ("Bank of Canada, Case scenarios about providers of services backed by cryptocurrencies", RP_CS_CRYPTO),
+             ("Stablecoin Act", CU_STABLE_ACT), ("Department of Finance, Canada's stablecoin framework", FIN_STABLE),],
+    related=["crypto-registration-canada.html", "fintrac-travel-rule-ministerial-directives.html", "who-must-register-psp-rpaa.html"],
+)
+
+
+# ------------------------------------------------------------------ 28. FINTRAC revocation response plan (2026-10-27)
+# Official sources read 27 October 2026: Justice Laws (PCMLTFA and Registration Regulations current to 2026-09-30,
+# PCMLTFR, S.C. 2026, c. 3 and c. 4) and fintrac-canafe.canada.ca (pages answered directly that day).
+# Reuses constants defined earlier in guides_v3.py: F_UPD, F_MSB_REGISTRY, L_PCMLTFA, L_PCMLTFR, MS_REGR,
+# MS_REVOKED, MS_REVIEW, MS_NOELIG.
+RV_C4 = "https://laws-lois.justice.gc.ca/eng/AnnualStatutes/2026_4/FullText.html"
+RV_C3 = "https://laws-lois.justice.gc.ca/eng/AnnualStatutes/2026_3/FullText.html"
+GUIDES["fintrac-revocation-response-plan.html"] = dict(
+    checked="27 October 2026",
+    title="FINTRAC Revoked Your MSB Registration? Response Plan | AML Canada",
+    desc="FINTRAC revoked your MSB registration? What triggers it, the 30-day review and Federal Court deadlines, who to tell, and a checklist to stop it happening.",
+    crumb="Revocation response plan",
+    h1="FINTRAC revoked your MSB registration: a response plan",
+    lede="A revoked registration means the business can't offer the money services it was registered for. You have 30 days from receiving the decision to ask FINTRAC's Director to review it. Stop the registered services straight away, because the Act doesn't pause a revocation while a review runs.",
+    label="Guide · FINTRAC",
+    service="msb-registration.html",
+    also=["outsourced-compliance-officer.html"],
+    date="2026-10-27",
+    takeaways=["Becoming ineligible revokes a registration on the day it happens, before any notice arrives.",
+               "Stop the registered services at every location. The Act doesn't pause a revocation during a review.",
+               "Apply in writing to FINTRAC's Director within 30 days of receiving the decision.",
+               "Prevention comes down to 30-day deadlines, two-year renewals, screening owners and directors, and cooperating with examinations."],
+    sections=[
+        ("answer", "The short answer", f"""          <p>FINTRAC registers money services businesses (MSBs). It doesn't license them, though many people call the registration an MSB licence. When FINTRAC revokes it, the business is no longer registered, and section 77.4 of the <a href="{L_PCMLTFA}" rel="noopener">Proceeds of Crime (Money Laundering) and Terrorist Financing Act</a> makes it an offence to knowingly carry on an activity you aren't registered for.</p>
+          <p>For registry statuses, denied applications and expiry, see our guide to <a href="msb-registration-refused-revoked.html">denied, revoked and expired registrations</a>. This is general information, not legal advice. Talk to a lawyer about your own case.</p>"""),
+        ("triggers", "What triggers a revocation", f"""          <p>The Act gives FINTRAC four routes to revoke an MSB or foreign MSB registration:</p>
+          <div class="table-wrap"><table>
+            <thead><tr><th scope="col">Trigger</th><th scope="col">Section</th><th scope="col">FINTRAC's role</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">The business becomes ineligible</th><td>11.11(2)</td><td>Revoked automatically as of the day the ineligibility arises. FINTRAC must send written notice once it becomes aware.</td></tr>
+              <tr><th scope="row">A clarification request goes unanswered for 30 days</th><td>11.17</td><td>May revoke</td></tr>
+              <tr><th scope="row">No reasonable assistance to an examiner, or documents demanded by an examination notice not provided</th><td>11.171</td><td>May revoke</td></tr>
+              <tr><th scope="row">A foreign MSB doesn't report a change to its representative for service's name or address within 30 days</th><td>11.13(2)</td><td>Must revoke</td></tr>
+            </tbody>
+          </table></div>
+          <p>Ineligibility covers people and entities under certain sanctions, listed terrorist entities and those convicted of listed offences. Under section 3 of the <a href="{MS_REGR}" rel="noopener">Registration Regulations</a>, a corporation is also ineligible if its CEO, president, a director or a 20% owner falls into most of those groups. <a href="{MS_NOELIG}" rel="noopener">FINTRAC's eligibility page</a> lists the offences.</p>
+          <p>Two Acts that received Royal Assent on March 26, 2026 changed the list. Neither change waits for an order in council, so both took effect that day and appear in the consolidated Act. The <a href="{RV_C4}" rel="noopener">Strengthening Canada's Immigration System and Borders Act</a> (S.C. 2026, c. 4) rewrote the unpaid-penalty ground. A person or entity that still hasn't paid a FINTRAC penalty and interest 30 days after all proceedings on the violation have ended is ineligible, and so is anyone acting with them to evade payment. The <a href="{RV_C3}" rel="noopener">Budget 2025 Implementation Act, No. 1</a> (S.C. 2026, c. 3) reworded the sanctions ground to refer to prohibitions under Part 1 of the Special Economic Measures Act.</p>
+          <p>Every decision to revoke must be in writing with reasons (section 11.18). FINTRAC says it usually sends clarification requests by email to the contact person or representative for service on file, so an unmonitored inbox can start the 30-day clock without anyone noticing. For a foreign MSB, a notice served on its representative for service counts as served on the business (section 72.1).</p>"""),
+        ("timeline", "Your response timeline", f"""          <div class="table-wrap"><table>
+            <thead><tr><th scope="col">When</th><th scope="col">What to do</th><th scope="col">Basis</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">The day the notice arrives</th><td>Record the date you received it. Stop the registered services at every location, agent and branch.</td><td>s. 77.4; review deadline runs from receipt (s. 11.3)</td></tr>
+              <tr><th scope="row">First 48 hours</th><td>Identify the ground, secure records, brief agents, banks and payment partners, and instruct a lawyer</td><td>Our recommendation, not a legal deadline</td></tr>
+              <tr><th scope="row">Within 30 days of receipt</th><td>Apply in writing to FINTRAC's Director for a review, with supporting information</td><td>s. 11.3(1)</td></tr>
+              <tr><th scope="row">After the Director decides</th><td>Read the notice of decision, its reasons and the notice of your right of appeal</td><td>s. 11.3(3)</td></tr>
+              <tr><th scope="row">Within 30 days after that decision is served</th><td>Appeal to the Federal Court, or within a longer period the Court allows</td><td>s. 11.4(1)</td></tr>
+              <tr><th scope="row">No decision 90 days after the Director received your application</th><td>You may appeal within 30 days after the 90 days end</td><td>s. 11.4(2)</td></tr>
+              <tr><th scope="row">For at least five years</th><td>Keep the records the Regulations require</td><td>PCMLTFR s. 148</td></tr>
+            </tbody>
+          </table></div>
+          <h3>The first 48 hours</h3>
+          <p>The 48-hour window is our recommendation. The first deadline in the Act is the 30-day review. Treat the business as unregistered from the date in the notice. For an ineligibility revocation, that is the day the ineligibility arose, which may be earlier than the notice. Neither section 11.3 nor section 11.4 says that asking for a review or appealing restores or suspends the registration. If transactions are already in progress, ask your lawyer how to deal with them before you complete any.</p>
+          <p>Your agents and branches don't register separately because they appear on your list (section 11.12(2)), so the revocation reaches every location that offers services under your registration. Tell them in writing to stop. Banks and payment partners can see the change on FINTRAC's public registry, so tell them directly and give them a contact for questions. A foreign MSB should know that banks and other listed financial entities can't open or maintain an account for a foreign MSB that isn't registered (section 9.31). Customers need a plain notice that services are paused and how to reach you about funds already in progress.</p>
+          <p>If the business is also a payment service provider registered with the Bank of Canada, section 53.6 requires FINTRAC to tell the Bank about the revocation as soon as feasible, and about any review or appeal and its outcome.</p>
+          <h3>Records you keep</h3>
+          <p>Revocation doesn't end your record keeping. The <a href="{L_PCMLTFR}" rel="noopener">Regulations</a> require most records to be kept for at least five years (section 148), and the criminal record documents filed with an application or change notice must be kept for five years after they were submitted (Registration Regulations, section 6.03). Keep your full registration file, every clarification request and reply, and your examination correspondence. Your review request will rely on them.</p>"""),
+        ("review", "What a strong review request contains", f"""          <p>The application goes to FINTRAC's Review and Appeals Unit by mail, or through a secure link you get by emailing rev-app@fintrac-canafe.gc.ca. Don't put sensitive information in that first email. <a href="{MS_REVIEW}" rel="noopener">FINTRAC's reviews page</a> says the request must be in writing with an explanation and any supporting information, and that a review officer first checks it was filed within 30 days. If a lawyer files it, include a letter of authorization.</p>
+          <p>The Director can confirm the decision or substitute their own, and must consider any information they deem relevant. Answer the ground FINTRAC actually gave:</p>
+          <ul>
+            <li><strong>Unanswered clarification request.</strong> Give the complete answers now, and show when and where the request was sent if it reached an outdated contact.</li>
+            <li><strong>Examination assistance or documents.</strong> Provide the documents the notice demanded, with a log of what you provided earlier and when.</li>
+            <li><strong>Ineligibility.</strong> Show who holds each role and share, with criminal record documents issued by a competent authority. For an unpaid penalty, show payment with interest.</li>
+            <li><strong>Representative for service.</strong> Provide the current name and address for service and the date of the change.</li>
+          </ul>
+          <p>Correct anything else in your registration information that is out of date, and say in the request what you corrected.</p>"""),
+        ("registry", "Public registry status and reapplying", f"""          <p><a href="{F_MSB_REGISTRY}" rel="noopener">FINTRAC's registry</a> shows the business as Revoked, and the revocation date is part of the identifying information the Registration Regulations make public (section 2). FINTRAC also keeps a separate <a href="{MS_REVOKED}" rel="noopener">list of revoked registrations</a>. Its registry page says FINTRAC updates the registry "on a monthly basis". FINTRAC keeps the information submitted for registration for 10 years after a business stops being registered (section 54.1(6)).</p>
+          <p>The Act sets no waiting period before a new application, but the cause has to be fixed first. The application asks whether you have applied before (Schedule 1, Part B, item 18 of the <a href="{MS_REGR}" rel="noopener">Registration Regulations</a>), and criminal record documents must be issued no more than six months before you submit (section 6.03(1)). Our <a href="how-to-register-msb-canada.html">registration guide</a> covers the full process.</p>"""),
+        ("prevention", "Prevention checklist", f"""          <ul>
+            <li>Renew every two years (section 11.19), before the expiry date. <a href="{F_UPD}" rel="noopener">FINTRAC says</a> a renewal submitted before expiry keeps you Registered while it's processed. Virtual currency dealers and foreign MSBs should check the first-renewal date set by section 6.1 of the Registration Regulations.</li>
+            <li>Report changes within 30 days (section 11.13), including contact details and, for a foreign MSB, the representative for service.</li>
+            <li>Answer clarification requests within 30 days, and put the contact address FINTRAC has on file on a shared inbox that someone checks daily.</li>
+            <li>Give examiners reasonable assistance and meet the deadlines in any document notice (sections 62(2) and 63.1). Our <a href="fintrac-examination-preparation.html">examination guide</a> explains what to prepare.</li>
+            <li>Check the CEO, president, directors and anyone holding 20% or more against the ineligibility list and sanctions before appointment and on a schedule. Our guide to <a href="fintrac-msb-change-of-ownership.html">changes of ownership</a> covers new owners.</li>
+            <li>Pay or resolve any FINTRAC penalty. An unpaid penalty makes the business ineligible 30 days after proceedings end. See <a href="fintrac-penalties-amps.html">FINTRAC penalties</a>.</li>
+          </ul>
+          <p>An <a href="outsourced-compliance-officer.html">outsourced compliance officer</a> can own these deadlines for you, and our <a href="msb-registration.html">MSB registration service</a> handles renewals, change notices and new applications.</p>"""),
+    ],
+    faqs=[("Can FINTRAC revoke my MSB licence?", "FINTRAC registers MSBs rather than licensing them, and it can revoke a registration. The grounds are ineligibility, an unanswered clarification request, failing to assist an examination or provide demanded documents, and, for a foreign MSB, not reporting a change to its representative for service within 30 days."),
+          ("How long do I have to challenge a FINTRAC revocation?", "30 days after you receive the decision to apply in writing to FINTRAC's Director for a review. If you disagree with the Director's decision, you have 30 days after it's served to appeal to the Federal Court, or a longer period the Court allows."),
+          ("Can I keep operating while FINTRAC reviews the revocation?", "The Act doesn't say a review or appeal restores or suspends the registration, and knowingly carrying on an activity you aren't registered for is an offence under section 77.4 of the Act. Plan on being unregistered and ask a lawyer about your situation."),
+          ("Will customers and banks see that my registration was revoked?", "Yes. FINTRAC's public registry shows the Revoked status and the revocation date, and FINTRAC also publishes a list of businesses with revoked registrations. FINTRAC says it updates the registry monthly."),
+          ("Does FINTRAC tell the Bank of Canada about a revocation?", "If the business is a payment service provider registered with the Bank of Canada, the Act requires FINTRAC to notify the Bank as soon as feasible, and to report any review or appeal and its outcome.")],
+    sources=[("FINTRAC, Reviews and appeals", MS_REVIEW), ("FINTRAC, Money services businesses with revoked registration", MS_REVOKED),
+             ("FINTRAC, Money Services Business Registry", F_MSB_REGISTRY),
+             ("FINTRAC, Answer clarification requests, update, renew or cancel your registration", F_UPD),
+             ("FINTRAC, Who is not eligible to register", MS_NOELIG),
+             ("Proceeds of Crime (Money Laundering) and Terrorist Financing Act", L_PCMLTFA),
+             ("Proceeds of Crime (Money Laundering) and Terrorist Financing Registration Regulations", MS_REGR),
+             ("Proceeds of Crime (Money Laundering) and Terrorist Financing Regulations", L_PCMLTFR),
+             ("Strengthening Canada's Immigration System and Borders Act, S.C. 2026, c. 4", RV_C4),
+             ("Budget 2025 Implementation Act, No. 1, S.C. 2026, c. 3", RV_C3)],
+    related=["msb-registration-refused-revoked.html", "fintrac-examination-preparation.html", "fintrac-msb-change-of-ownership.html"],
+)
+
+
+# ------------------------------------------------------------------ RPAA 5. compliance frameworks (hub)
+# Official sources read 27 October 2026. Justice Laws texts: Act current to 2026-09-30 (last amended
+# 2026-03-26); Regulations current to 2026-09-30 (last amended 2025-09-08). Bank of Canada pages and PDFs
+# fetched the same day. Prefix FW_ avoids clashes with names above.
+FW_ACT = "https://laws-lois.justice.gc.ca/eng/acts/R-7.36/FullText.html"
+FW_REGS = "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2023-229/FullText.html"
+FW_SUP = "https://www.bankofcanada.ca/regulatory-oversight/retail-payments/supervisory-framework/"
+FW_FAQ = "https://www.bankofcanada.ca/2026/08/frequently-asked-questions-about-retail-payments-supervision/"
+FW_ORIR = "https://www.bankofcanada.ca/wp-content/uploads/2024/02/operational-risk-and-incident-response.pdf"
+FW_ORIR_GLANCE = ("https://www.bankofcanada.ca/wp-content/uploads/2025/02/"
+                  "Operational-risk-and-incident-response-At-a-glance.pdf")
+FW_SIGCHG = "https://www.bankofcanada.ca/wp-content/uploads/2024/02/Notice-of-significant-change-or-new-activity.pdf"
+FW_INC = "https://www.bankofcanada.ca/wp-content/uploads/2024/02/Incident-notification.pdf"
+
+GUIDES["rpaa-compliance-frameworks.html"] = dict(
+    checked="27 October 2026",
+    title="RPAA Compliance Frameworks: What a PSP Needs | AML Canada",
+    desc="The RPAA frameworks a payment service provider needs: risk management and incident response, safeguarding, third parties, governance, records and reports.",
+    crumb="RPAA compliance frameworks",
+    h1="The RPAA compliance frameworks a PSP needs",
+    lede="Every payment service provider needs a written risk management and incident response framework, and one that holds end-user funds also needs a safeguarding-of-funds framework. Third parties, agents and the senior officer's role are built into those two documents. Record keeping rules cover both, and the annual report, change notices and incident notices draw on them.",
+    label="Guide · RPAA",
+    service="rpaa-compliance-program.html",
+    also=["rpaa-registration.html"],
+    date="2026-10-27",
+    takeaways=["Every PSP needs a written risk management and incident response framework under section 17 of the RPAA and section 5 of the regulations.",
+               "A PSP that holds end-user funds also needs a safeguarding-of-funds framework under section 15 of the regulations.",
+               "Both frameworks are approved by the senior officer and any board at least once a year, and by the senior officer after each material change.",
+               "The framework can span several documents or adapt a parent company's, as long as it meets the RPAA, the regulations and the Bank's guideline."],
+    sections=[
+        ("answer", "The frameworks at a glance", f"""          <p>The <a href="{FW_ACT}" rel="noopener">Retail Payment Activities Act</a> (RPAA) and the <a href="{FW_REGS}" rel="noopener">Retail Payment Activities Regulations</a> require two written frameworks. Every payment service provider (PSP) needs a risk management and incident response framework. A PSP that holds end-user funds also needs a safeguarding-of-funds framework. The Bank of Canada's <a href="{FW_SUP}" rel="noopener">supervisory framework</a> says both requirements came into force on September 8, 2025.</p>
+          <div class="table-wrap"><table>
+            <thead><tr><th scope="col">Framework or obligation</th><th scope="col">Required by</th><th scope="col">Applies to</th><th scope="col">Review cycle or retention</th><th scope="col">Approver</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Risk management and incident response framework</th><td>RPAA s.17(1); Regulations ss.5 to 9</td><td>Every PSP</td><td>At least yearly and before any material change</td><td>Senior officer yearly and after each material change; board, if any, yearly</td></tr>
+              <tr><th scope="row">Independent review of that framework</th><td>Regulations s.10</td><td>PSPs with an internal or external auditor</td><td>At least every three years</td><td>Gaps reported to the senior officer</td></tr>
+              <tr><th scope="row">Third-party service provider assessments</th><td>Regulations s.5(3)</td><td>PSPs receiving services related to a payment function</td><td>Yearly, and before signing, renewing, extending or substantially amending a contract</td><td>Part of the risk framework</td></tr>
+              <tr><th scope="row">Agent and mandatary criteria</th><td>Regulations s.5(4)</td><td>PSPs that use agents or mandataries</td><td>Each agent assessed at least yearly</td><td>Part of the risk framework</td></tr>
+              <tr><th scope="row">Safeguarding-of-funds framework</th><td>RPAA s.20(1); Regulations ss.15 to 17</td><td>PSPs that hold end-user funds</td><td>Yearly; after changing the means of safeguarding; after material changes to safeguarding accounts, insurers or guarantors. Independent review every three years</td><td>Senior officer yearly and after each material change; board, if any, yearly</td></tr>
+              <tr><th scope="row">Records</th><td>Regulations ss.40 to 42</td><td>Every PSP</td><td>Kept until five years after they stop showing current compliance</td><td>Not specified</td></tr>
+            </tbody>
+          </table></div>"""),
+        ("risk", "The risk management and incident response framework", f"""          <p>Section 17 of the Act requires this framework of every PSP, and the Bank can assess it and list corrective measures. Section 5 of the regulations says it must be in writing and must:</p>
+          <ul>
+            <li>set objectives for keeping your payment activities available and preserving their integrity and confidentiality, with measurable reliability targets and indicators;</li>
+            <li>identify the human and financial resources needed, including skills and training;</li>
+            <li>allocate roles for normal operations and for incidents, with someone to challenge and oversee each role;</li>
+            <li>identify your assets and business processes and classify them by sensitivity and criticality;</li>
+            <li>identify your operational risks and their causes in eleven named areas, including business continuity and resilience, cybersecurity, fraud and third parties;</li>
+            <li>describe the controls for those risks and the continuous monitoring that detects incidents and lapses;</li>
+            <li>set out an incident response and recovery plan, including manual workarounds if primary systems fail, root cause investigation and a record of each incident.</li>
+          </ul>
+          <p>All of it must be proportionate to the impact a breakdown would have on end users and other PSPs. The Bank's <a href="{FW_ORIR_GLANCE}" rel="noopener">At a glance summary</a> lists factors to tailor it to, such as your size, technology and risks. Sections 6 and 7 require you to keep it available to everyone with a role in it and to train them. Section 8 requires a review at least once a year and before any material change, with findings sent to the senior officer for approval. Section 9 requires a testing methodology that covers high-likelihood and high-impact risks, with a record of each test. If you have an internal or external auditor, section 10 adds an independent review at least every three years. Our <a href="rpaa-incident-reporting.html">incident reporting guide</a> covers the notices.</p>"""),
+        ("third-parties", "Third-party service providers, agents and mandataries", f"""          <p>Under subsection 5(3) of the regulations, you assess each third-party service provider that supports a payment function at least once a year, and before you enter into, renew, extend or substantially amend its contract. The assessment covers how it protects your data, the security of its connections to your systems, how it tells you about changes and breaches, how you monitor it, and its own risk management. Record the dates, scope and findings, and allocate responsibilities, including for data.</p>
+          <p>Subsection 5(4) requires criteria that agents and mandataries must meet, a ban on using any that don't, and a recorded assessment at least once a year. The Bank's <a href="{FW_ORIR}" rel="noopener">operational risk guideline</a> says an affiliate that provides payment-related services under a contract should be treated as a third-party service provider. Its <a href="{FW_FAQ}" rel="noopener">FAQ</a> adds that a bank can be one too. Section 87 of the Act makes you liable for violations committed by your third-party service providers, agents and mandataries within the scope of their role.</p>"""),
+        ("safeguarding", "The safeguarding-of-funds framework", f"""          <p>Only PSPs that hold end-user funds need this framework. Under section 15 of the regulations it must aim for reliable access to funds without delay, and for paying end users as soon as feasible if you become insolvent. It includes a ledger showing each end user's funds at the end of each day, how an insolvency administrator would get access to your records and contact end users, the procedures for returning funds, and an analysis of legal and operational risks. Unless the PSP is an individual, it names a senior officer responsible for safeguarding. Section 17 requires an independent review at least every three years. Our <a href="rpaa-safeguarding-end-user-funds.html">safeguarding guide</a> covers trust accounts, insurance and guarantees.</p>"""),
+        ("governance", "Governance: the senior officer and the board", f"""          <p>Unless the PSP is an individual, the risk framework must make a senior officer responsible for overseeing compliance with the framework and incident notice rules, and for overseeing material decisions on operational risks and incidents. The <a href="{FW_FAQ}" rel="noopener">Bank's FAQ</a> quotes the definition in section 1 of the regulations. A senior officer is:</p>
+          <ul>
+            <li>a board member who is also a full-time employee;</li>
+            <li>the CEO, COO, CFO, president, chief risk officer or another officer the definition lists, or someone performing similar functions; or</li>
+            <li>any other officer who reports directly to the board, CEO or COO.</li>
+          </ul>
+          <p>The senior officer doesn't have to be in Canada.</p>
+          <p>The senior officer receives review findings for approval, the record of each test, the gaps found by an independent review and information about incidents. The senior officer and the board, if you have one, approve each framework at least once a year, and the senior officer approves it again after each material change. The Bank's guideline says every significant change should count as material.</p>"""),
+        ("records", "Record keeping", f"""          <p>Section 40 of the regulations requires records sufficient to show that you comply with the Act and regulations, kept in a form the Bank can understand. You keep them until five years after the day they stop showing current compliance. Section 41 requires reasonable measures against loss, falsification and unauthorized access, and section 42 extends both rules to records held by your agents and third-party service providers, which must stay accessible to you.</p>"""),
+        ("reporting", "Reports and notices tied to the frameworks", f"""          <p>Three filings rely on the frameworks:</p>
+          <ul>
+            <li>The <a href="rpaa-annual-report.html">annual report</a>, required by section 21 of the Act and due by March 31 for the previous calendar year (regulations section 18). It asks about your risk framework and, if you hold funds, your safeguarding.</li>
+            <li>A significant change or new activity notice, at least five business days ahead (regulations section 20). A change is significant if it could reasonably be expected to have a material impact on operational risks or safeguarding. The notice lists the framework documents you changed and, if you have senior officers, confirms one approved the change. The Bank's <a href="{FW_SIGCHG}" rel="noopener">significant change guideline</a> gives examples such as switching from a trust account to insurance. Its paragraph 3.3 adds changes that may qualify depending on your circumstances, such as entering, amending or ending a third-party service provider agreement, or switching cloud providers.</li>
+            <li>Incident notices. Section 18 of the Act requires you to notify the Bank and each materially affected end user, PSP or designated clearing house without delay. The Bank's <a href="{FW_INC}" rel="noopener">incident notification guideline</a> sets the outer limit at 48 hours after you determine the incident is material.</li>
+          </ul>
+          <p>Changes to your list of agents, or to third-party service providers that materially affect your operational risks or safeguarding, are also reported to the Bank within 30 days under section 59 of the Act and section 35 of the regulations.</p>"""),
+        ("gaps", "Gaps to check", f"""          <p>The <a href="{FW_FAQ}" rel="noopener">Bank's FAQ</a> allows a framework spread over several documents, or an existing or parent-company framework that meets the requirements. Before the Bank asks for your policies in a desk or on-site assessment, check for these gaps:</p>
+          <ul>
+            <li>Objectives with no measurable reliability targets or indicators.</li>
+            <li>Reviews held once a year but not before material changes.</li>
+            <li>Tests with no record of methodology, results or follow-up.</li>
+            <li>Third parties assessed only at onboarding, or affiliates and banks left off the list.</li>
+            <li>No written criteria for agents, or no annual agent assessment.</li>
+            <li>A senior officer who doesn't meet the definition, or approvals with no record.</li>
+            <li>A safeguarding framework not reviewed after an account or insurer change.</li>
+          </ul>
+          <p>The schedule to the regulations classifies a breach of section 17(1) of the Act, read with section 5 of the regulations, as a very serious violation. Paragraph 48(1)(b) of the regulations sets the penalty for a very serious violation at up to $10,000,000. Our <a href="rpaa-compliance-program.html">RPAA compliance program</a> (US$3,500) covers each framework on this page, plus the annual report and change notices. If you haven't registered yet, start with <a href="who-must-register-psp-rpaa.html">who must register as a PSP</a> and our <a href="rpaa-registration.html">RPAA registration</a> service.</p>"""),
+    ],
+    faqs=[("Does every PSP need a risk management and incident response framework?", "Yes. Section 17 of the RPAA requires every payment service provider that performs retail payment activities to have one. Only the safeguarding-of-funds framework is limited to PSPs that hold end-user funds."),
+          ("Does the framework have to be one document?", "No. The Bank's FAQ says it need not be a single document, provided it meets the guideline. The Bank doesn't plan to publish an example framework."),
+          ("Can a PSP use its parent company's framework?", "Yes, if it meets the RPAA, the regulations and the Bank's guideline. If adopting it leaves gaps, the guideline says the PSP must change the framework or add supplementary arrangements."),
+          ("Who approves the RPAA frameworks?", "The senior officer and the board of directors, if there is one, at least once a year. The senior officer also approves each framework after every material change."),
+          ("Is an independent review of the risk framework always required?", "Only for PSPs that have an internal or external auditor, at least every three years. A PSP that holds end-user funds needs an independent review of safeguarding compliance at least every three years regardless.")],
+    sources=[("Retail Payment Activities Act", FW_ACT), ("Retail Payment Activities Regulations", FW_REGS),
+             ("Bank of Canada, Supervisory framework", FW_SUP), ("Bank of Canada, Operational risk and incident response guideline", FW_ORIR),
+             ("Bank of Canada, Operational risk and incident response: At a glance", FW_ORIR_GLANCE),
+             ("Bank of Canada, Notice of significant change or new activity guideline", FW_SIGCHG),
+             ("Bank of Canada, Incident notification guideline", FW_INC),
+             ("Bank of Canada, Retail payments supervision FAQ", FW_FAQ)],
+    related=["rpaa-safeguarding-end-user-funds.html", "rpaa-incident-reporting.html", "rpaa-annual-report.html"],
+)
+
+
 # Dated posts (Latest updates) render with the same template; newest first.
 from posts_v3 import POSTS  # noqa: E402
 
