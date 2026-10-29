@@ -115,7 +115,7 @@ def jsonld(path):
     if path in ("", "index.html"):
         graph = [{
             "@type": "Organization", "@id": ORG_ID, "name": "AML Canada", "legalName": OPERATOR,
-            "url": SITE,
+            "url": SITE, "sameAs": [LINKEDIN],
             "logo": {"@type": "ImageObject", "@id": SITE + "#logo", "url": SITE + "icon-512.png", "contentUrl": SITE + "icon-512.png", "width": 512, "height": 512},
             "image": SITE + "og-default.png",
             "description": "AML and regulatory compliance services in Canada: FINTRAC registration, compliance programs, effectiveness reviews and training.",
@@ -371,6 +371,9 @@ FORM = f"""        <form class="form" novalidate data-consult>
 
 
 # ---------------------------------------------------------------- footer
+LINKEDIN = "https://www.linkedin.com/company/amlcanada/"
+
+
 def footer():
     svc = "\n".join(f'        <a href="{h}">{t}</a>' for h, t, *_ in SERVICES)
     return f"""  <footer class="footer" data-theme="dark">
@@ -401,6 +404,7 @@ def footer():
         <a href="tel:{PHONE_TEL}">{PHONE_DISPLAY}</a>
         <a href="https://wa.me/18078060444" rel="noopener">WhatsApp</a>
         <a href="{TELEGRAM}" rel="noopener">Telegram</a>
+        <a href="{LINKEDIN}" rel="noopener">LinkedIn</a>
         <address>{"<br>".join(ADDRESS_LINES[:2])}</address>
       </div>
     </div>
