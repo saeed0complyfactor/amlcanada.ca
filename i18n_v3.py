@@ -191,6 +191,8 @@ def translate_page(page, lang, tm):
         raw = json.dumps(data, ensure_ascii=False, separators=(",", ":"))
         for p in pages():  # page URLs (not #organization / #website) point at this language
             raw = re.sub(rf'"{re.escape(url("en", p))}(#(?!organization|website|logo)[^"]*)?"', lambda m: f'"{url(lang, p)}{m.group(1) or ""}"', raw)
+        # Google reads the site name from the root homepage only, so Organization/WebSite keep the root url in every language
+        raw = raw.replace(f'"url":"{url(lang, "index.html")}"', f'"url":"{SITE}"')
         raw = raw.replace('"inLanguage":"en-CA"', f'"inLanguage":"{LANGS[lang][0]}"')
         s.string = raw
     soup.html["lang"] = LANGS[lang][0]

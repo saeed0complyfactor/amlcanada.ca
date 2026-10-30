@@ -123,7 +123,7 @@ def jsonld(path):
             "areaServed": {"@type": "Country", "name": "Canada"},
             "contactPoint": {"@type": "ContactPoint", "contactType": "customer service", "email": EMAIL, "telephone": PHONE_TEL, "areaServed": "CA"},
         }, {
-            "@type": "WebSite", "@id": SITE + "#website", "url": SITE, "name": "AML Canada",
+            "@type": "WebSite", "@id": SITE + "#website", "url": SITE, "name": "AML Canada", "alternateName": ["AMLCanada"],
             "inLanguage": "en-CA", "publisher": {"@id": ORG_ID},
         }]
     else:
