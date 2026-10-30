@@ -1128,6 +1128,124 @@ Sources: [FINTRAC MSB registry](https://fintrac-canafe.canada.ca/msb-esm/reg-eng
 
 ---
 
+## Guide: FINTRAC penalizes Necosmart $693,742.50: what virtual currency MSBs can learn
+
+URL: https://amlcanada.ca/fintrac-penalty-necosmart-virtual-currency-msb.html
+
+FINTRAC imposed a $693,742.50 administrative monetary penalty on 13010431 Canada Inc., also operating as Necosmart, a money services business in Edmonton, Alberta, for 5 violations found during a compliance examination. Two of the violations involve controls the business had written down but did not carry out.
+
+**Key points:**
+- Necosmart failed to submit 4 suspicious transaction reports. In 3 of them it had spotted some indicators but did not take further measures, such as a holistic review.
+- FINTRAC found that enhanced due diligence steps and risk mitigation measures in its documents were not carried out in practice.
+- Its policies and procedures were incomplete and not tailored to how the business operated.
+- FINTRAC counted 94 record keeping deficiencies in its virtual currency exchange transaction tickets.
+
+### What FINTRAC found
+
+FINTRAC published the [public notice](https://fintrac-canafe.canada.ca/pen/amps/pen-2026-05-14-eng) on May 14, 2026. It says FINTRAC imposed a penalty of $693,742.50 on 13010431 Canada Inc., also operating as Necosmart, a money services business in Edmonton, Alberta, on March 27, 2026, for 5 violations found during a compliance examination. The [news release](https://fintrac-canafe.canada.ca/new-neuf/nr/2026-05-14-eng) refers to the business's virtual currency exchange transaction tickets, so the lessons are most relevant to MSBs that deal in virtual currency.
+
+| # | Violation | Provision | Class |
+
+| 1 | Failure to submit 4 suspicious transaction reports | Act, section 7 | Very serious |
+
+| 2 | Written compliance policies and procedures inadequate, incomplete and not tailored to operations | Act, subsection 9.6(1); Regulations, paragraph 156(1)(b) | Serious |
+
+| 3 | Enhanced measures for high-risk clients not adequately developed and applied | Act, subsection 9.6(3); Regulations, section 157 | Serious |
+
+| 4 | Risk assessment did not adequately assess and document inherent risks | Act, subsection 9.6(2); Regulations, paragraph 156(1)(c) | Serious |
+
+| 5 | Prescribed records not kept: 94 deficiencies in virtual currency exchange transaction tickets | Act, section 6; Regulations, paragraph 36(j) | Minor |
+
+The notice does not break the total down by violation. It also does not say whether the penalty has been paid or appealed.
+
+### Spotting a red flag starts the review
+
+FINTRAC found that Necosmart failed to submit 4 suspicious transaction reports despite indicators of potential money laundering or terrorist financing. The indicators listed in the notice include:
+
+- activity inconsistent with the client's financial standing, usual pattern or occupation (the notice gives student and unemployed as examples)
+
+- transactions of an atypical size or type for the client
+
+- an unknown source of funds for large virtual currency purchases
+
+- transactions that were unnecessarily complex for their stated purpose
+
+- inconsistent identification documents or identifiers
+
+- activity involving locations of concern
+
+In 3 of the 4 cases, Necosmart had identified some of these indicators. According to FINTRAC, it then failed to take additional measures, including a holistic review of the activity, to decide whether the reasonable grounds to suspect threshold had been reached.
+
+FINTRAC's [suspicious transaction report guidance](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/str-dod/str-dod-eng) says indicators can bring suspicious activity to light, and that your holistic assessment of facts, context and indicators is what lets you decide whether you have reasonable grounds to suspect. Once you reach that threshold, you must submit the report as soon as practicable. There is no dollar threshold. FINTRAC also publishes [indicators for virtual currency transactions](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/indicators-indicateurs/vc_mltf-eng), including an unknown source of funds used to buy large amounts of virtual currency.
+
+Each alert that names an indicator should lead to a documented follow-up: what you checked, what you concluded and why. When the answer is yes, the report goes to FINTRAC. Our guide to [FINTRAC reporting requirements](https://amlcanada.ca/fintrac-reporting-requirements.html) covers the timing for each report type. If no one on staff owns this review, an [outsourced compliance officer](https://amlcanada.ca/outsourced-compliance-officer.html) can take it on.
+
+### Written controls have to happen in practice
+
+Two of the violations concern measures that were documented and then not performed. On enhanced measures, FINTRAC gave three examples:
+
+- Necosmart's mandatory enhanced due diligence for higher-risk clients included confirming the address with proof from the last three months. This was not evidenced in the client files FINTRAC reviewed.
+
+- Its enhanced due diligence reviews were meant to cover the client's previous 3 to 6 months of transactions. FINTRAC found it reviewed only the previous month.
+
+- Measures it had documented, such as scanning crypto wallets, were not being carried out.
+
+On the risk assessment, FINTRAC found that Necosmart did not adequately assess all inherent risks, such as those tied to high-risk jurisdictions and occupations, and that certain documented mitigating measures were not carried out.
+
+[FINTRAC's compliance program guidance](https://fintrac-canafe.canada.ca/guidance-directives/compliance-conformite/Guide4/4-eng) says your written enhanced measures must include the extra steps you will take to verify identity, keep client and beneficial ownership information updated, and conduct ongoing monitoring at a frequency suited to the risk. Your risk assessment must consider your clients and their activity patterns and locations, your products, services and delivery channels, and where you operate.
+
+One simple test is to take each enhanced measure in your manual and pull a high-risk client file that shows it was done. If a step is not realistic for your team, update the procedure and the risk assessment together, check that the remaining measures still address the risk, and have the change approved. Our [compliance program service](https://amlcanada.ca/compliance-programs.html) writes procedures around the steps your staff will carry out.
+
+### Policies have to fit the business you run
+
+FINTRAC found that Necosmart's policies and procedures were inadequate, incomplete and not tailored to its operations in practice. It named deficiencies in five areas: suspicious transaction reporting, client identification and know your client processes, ongoing monitoring of business relationships, third party determination, and record keeping.
+
+The Regulations require written compliance policies and procedures that are kept up to date and, for an entity, approved by a senior officer. A manual written for a different business model may not cover what a virtual currency business needs, such as how wallets are screened, how exchange tickets are recorded and how alerts are escalated. Our guide to [FINTRAC compliance program requirements](https://amlcanada.ca/fintrac-compliance-program-requirements.html) walks through each element.
+
+### Virtual currency exchange tickets need every field
+
+FINTRAC reviewed Necosmart's virtual currency exchange transaction tickets for the examination period and found 94 record keeping deficiencies. The news release describes this as a failure to keep a record of sufficient occupation and transactional information.
+
+FINTRAC's [MSB record keeping guidance](https://fintrac-canafe.canada.ca/guidance-directives/recordkeeping-document/record/msb-eng) says you must keep a ticket for every virtual currency exchange transaction, whatever the amount. Each ticket includes the date. For transactions equivalent to $1,000 or more, it also includes the requester's name and address and, for a person, their date of birth and occupation. Every ticket records the amounts and types of funds and virtual currencies involved, the payment method, the exchange rates used and their source, details of every account involved, reference numbers, transaction identifiers such as a hash, and every sending and receiving address. You keep these records for at least five years.
+
+The guidance also asks for descriptive occupation entries, such as "retail clothing store manager" instead of "manager". A vague occupation field makes it harder to judge whether activity fits the client, and activity inconsistent with occupation was one of the indicators in Necosmart's unreported cases.
+
+### A self-check for virtual currency MSBs
+
+- Every alert that names an indicator has a dated written review and a decision.
+
+- Suspicious transaction reports go to FINTRAC as soon as practicable once the threshold is reached.
+
+- Each enhanced due diligence step in the manual appears in a sample of high-risk client files.
+
+- The risk assessment covers high-risk jurisdictions and occupations, and every mitigating measure it lists is in use.
+
+- Policies describe the business as it runs today and carry a senior officer's approval.
+
+- A sample of exchange tickets has every required field, including occupation, transaction hash and wallet addresses.
+
+An independent [effectiveness review](https://amlcanada.ca/effectiveness-reviews.html) runs tests like these against real files. Our [examination preparation guide](https://amlcanada.ca/fintrac-examination-preparation.html) explains what examiners usually ask for.
+
+### Where this penalty fits
+
+The penalty was imposed on March 27, 2026, the day after amendments raising FINTRAC's maximum penalties came into force. FINTRAC's [notice on the changes](https://fintrac-canafe.canada.ca/pen/3-eng) says the regime that applies depends on the examination period and the date each violation occurred, and that the former policy and amounts continue for violations that occurred entirely before March 26, 2026. The Necosmart notice does not state the examination period.
+
+Our guide to [FINTRAC penalties](https://amlcanada.ca/fintrac-penalties-amps.html) explains the violation classes, the amounts and the appeal process. This post is general information, not legal advice.
+
+### Questions
+
+**How much was the Necosmart FINTRAC penalty?** FINTRAC imposed $693,742.50 on 13010431 Canada Inc., also operating as Necosmart, on March 27, 2026, for 5 violations found during a compliance examination. FINTRAC published the notice on May 14, 2026.
+
+**Which of Necosmart's violations was the most serious?** The most serious was the failure to submit suspicious transaction reports under section 7 of the Act, which FINTRAC's notice says the regulations classify as very serious. Three violations were serious and the record keeping violation was minor.
+
+**Is spotting a red flag enough to file a suspicious transaction report?** An indicator on its own does not settle it. FINTRAC expects a holistic assessment of the facts, context and indicators to decide whether you have reasonable grounds to suspect. Once you do, you must submit the report as soon as practicable, and there is no dollar threshold.
+
+**What is a virtual currency exchange transaction ticket?** It is a record an MSB must keep for every virtual currency exchange transaction, whatever the amount. It covers the date, the funds and virtual currencies involved, exchange rates, transaction identifiers and sending and receiving addresses, plus client details such as occupation for transactions of $1,000 or more.
+
+Sources: [FINTRAC, Administrative monetary penalty on 13010431 Canada Inc.](https://fintrac-canafe.canada.ca/pen/amps/pen-2026-05-14-eng); [FINTRAC, News release: FINTRAC imposes an administrative monetary penalty on 13010431 Canada Inc.](https://fintrac-canafe.canada.ca/new-neuf/nr/2026-05-14-eng); [FINTRAC, Reporting suspicious transactions to FINTRAC](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/str-dod/str-dod-eng); [FINTRAC, Money laundering and terrorist financing indicators: virtual currency transactions](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/indicators-indicateurs/vc_mltf-eng); [FINTRAC, Compliance program requirements](https://fintrac-canafe.canada.ca/guidance-directives/compliance-conformite/Guide4/4-eng); [FINTRAC, Record keeping requirements for money services businesses](https://fintrac-canafe.canada.ca/guidance-directives/recordkeeping-document/record/msb-eng); [FINTRAC, Administrative monetary penalties: changes following legislative amendments](https://fintrac-canafe.canada.ca/pen/3-eng); [Proceeds of Crime (Money Laundering) and Terrorist Financing Act](https://laws-lois.justice.gc.ca/eng/acts/P-24.501/FullText.html); [Proceeds of Crime (Money Laundering) and Terrorist Financing Regulations](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-184/FullText.html). Checked 30 October 2026.
+
+---
+
 ## Guide: The RPAA compliance frameworks a PSP needs
 
 URL: https://amlcanada.ca/rpaa-compliance-frameworks.html
