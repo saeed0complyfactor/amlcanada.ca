@@ -2072,4 +2072,631 @@ GUIDES["fintrac-msb-change-of-ownership.html"] = dict(
 )
 
 
+
+# ------------------------------------------------------------------ Bank of Canada supervision update guides (checked 3 November 2026)
+
+# ------------------------------------------------------------------ psp-connect-guide.html (2026-11-03)
+# ------------------------------------------------------------------ RPAA: PSP Connect guide (checked 3 November 2026)
+# Appended to guides_v3.py. Reuses RP_* and B_ACQ defined above; new sources use the PC2_ prefix.
+PC2_PORTAL = "https://rps.bankofcanada.ca/"
+PC2_USERS = "https://rps.bankofcanada.ca/PSPConnectAuthorizedUserAccess.pdf"
+PC2_TOU = "https://rps.bankofcanada.ca/TermsofUseandDisclaimers.pdf"
+PC2_SC_GUIDE = ("https://www.bankofcanada.ca/wp-content/uploads/2025/05/"
+                "how-complete-notice-significant-change-new-activity-a-step-by-step-guide.pdf")
+PC2_AMEND = "https://www.bankofcanada.ca/2024/10/amendments-to-registration-applications/"
+PC2_REVIEW = "https://www.bankofcanada.ca/2025/01/reviews-and-appeals/"
+PC2_INQ = "https://www.bankofcanada.ca/about/contact-information/general-inquiries/"
+
+GUIDES["psp-connect-guide.html"] = dict(
+    checked="3 November 2026",
+    title="PSP Connect Guide: Users, Filings and Help | AML Canada",
+    desc="PSP Connect guide for PSPs: who can access it, how to change the primary contact, what you file there and when, and when to call the Service Desk.",
+    crumb="PSP Connect guide",
+    h1="PSP Connect: a practical guide for payment service providers",
+    lede="PSP Connect is the Bank of Canada's online portal where payment service providers register, file their RPAA reports and notices, and receive messages from supervisors. As of 3 November 2026, this guide explains who can use your account, how messages and the primary contact work, what you file there and by when, and where to go when the portal misbehaves.",
+    label="Guide · RPAA",
+    service="rpaa-compliance-program.html",
+    date="2026-11-03",
+    takeaways=["The regulations require the application, annual report, incident notices, significant change notices and registration information changes to go through PSP Connect.",
+               "Organization administrators add and remove users. Bank staff said a PSP can have more than one, and the primary contact is changed through the Service Desk.",
+               "Every authorized user can see the account's messages, but automated messages still go to the primary contact, so keep that person current.",
+               "Use the Service Desk for technical problems and your usual regulatory channel for policy questions, and check the sign-in banner first."],
+    sections=[
+        ("what", "What is PSP Connect used for?", f"""          <p>PSP Connect is the electronic system the Bank of Canada provides for payment service providers (PSPs) to apply for registration and meet their reporting duties under the <a href="{RP_ACT}" rel="noopener">Retail Payment Activities Act</a> (RPAA). It sits at <a href="{PC2_PORTAL}" rel="noopener">rps.bankofcanada.ca</a>, and the Bank's <a href="{RP_FW}" rel="noopener">supervisory framework</a> describes it as the PSP's main channel for communicating with the Bank.</p>
+          <p>The <a href="{RP_REGS}" rel="noopener">Retail Payment Activities Regulations</a> (RPAR) require these filings to go through the electronic system the Bank provides:</p>
+          <ul>
+            <li>the registration application (RPAR s. 24(1));</li>
+            <li>incident notices to the Bank (RPAR s. 11(1));</li>
+            <li>the annual report (RPAR s. 18(2));</li>
+            <li>notices of significant change or new activity (RPAR s. 20(1)(b));</li>
+            <li>notices of change in registration information (RPAR s. 35(b)).</li>
+          </ul>
+          <p>The Bank's <a href="{RP_REMIND}" rel="noopener">June 29, 2026 reminder</a> repeats that all reports and notifications go through the portal.</p>"""),
+        ("access", "Who can access a PSP Connect account?", f"""          <p>Any individual the PSP authorizes can use its account, including employees and third-party contractors, once they register and accept the terms of use. The person who creates the account is treated as the organization's administrator, according to the Bank's <a href="{RP_REG_GUIDE}" rel="noopener">registration step-by-step guide</a>, and other people are added from "User Profile" under "My account".</p>
+          <p>The Bank's <a href="{PC2_USERS}" rel="noopener">authorized user access bulletin</a> (November 2024) sets out five roles:</p>
+          <ul>
+            <li><strong>Org admin.</strong> Can do everything in the account and can add a user in any role.</li>
+            <li><strong>Registration.</strong> Submits the application, changes application or registration information, and requests a Governor's review of a refusal or revocation.</li>
+            <li><strong>Risk.</strong> Submits annual reports, incident notices and significant change notices, and handles assessment communications.</li>
+            <li><strong>Enforcement.</strong> Requests a Governor's review of a notice of violation or notice of default and reports progress under a compliance agreement.</li>
+            <li><strong>Authorized payment.</strong> Submits payment details for an administrative monetary penalty and signs up for pre-authorized debit.</li>
+          </ul>
+          <p>Bank staff said at the Bank's 2 November 2026 supervision update that adding and removing users is handled by the PSP's own organization administrator, and that a PSP can have more than one. The <a href="{PC2_TOU}" rel="noopener">PSP Connect terms of use</a> require you to deactivate a user who is no longer authorized. They also make the PSP responsible for what its users do in the account.</p>"""),
+        ("contact", "Who is the primary contact, and how do you change it?", f"""          <p>The primary contact is the person who receives the Bank's automated messages from PSP Connect. Bank staff said at the 2 November 2026 session that you change the primary contact by contacting the Service Desk, adding that "it's a quick change on our end."</p>
+          <p>Email delivery also matters for enforcement notices. Section 51 of the RPAR lets the Bank serve a notice under Part 5 of the Act, such as a notice of violation, through its electronic system. It posts the notice there and emails the PSP's last known email address. The notice is deemed served on the day that email is delivered. Review requests are due within 30 days, so a mailbox nobody reads can eat into that window.</p>
+          <p>Change the primary contact as soon as that person leaves or changes role, and add the sender named in the registration guide, rps-spd@em5388.rps-spd.bank-banque-canada.ca, to your approved senders. Incident notices have their own contact: the <a href="{RP_INC_GUIDE}" rel="noopener">incident notice guide</a> says each one names a primary contact picked from your PSP Connect contacts, and only an administrator can add new contact details.</p>"""),
+        ("messages", "Who can see messages in the Message Centre?", f"""          <p>All authorized users on a PSP's account can see its portal messages, and any of them can reply through the Message Centre. The Bank's November 2024 bulletin already said every authorized user can view all information in the account, including communications from the Bank. At the 2 November 2026 session, Bank staff described broader access to portal messages as a recent change.</p>
+          <p>Staff noted one exception: the portal's automated notifications reach the primary contact alone. During an assessment, staff said, follow-up questions may come as written messages in the Message Centre, and reminders about the annual report also arrive as portal messages.</p>
+          <p>The bulletin says users act in the account without notifying the other users on it. Decide in writing who answers Bank messages and who covers when that person is away.</p>"""),
+        ("filings", "What do you file in PSP Connect, and when is it due?", f"""          <p>In PSP Connect you file the registration application, registration information changes, significant change notices, incident notices, the annual report and prescribed review requests, and a billing section is on the way. As of 3 November 2026, the Bank's guides, policies and the regulations give each one its own menu path, deadline and user role:</p>
+          <div class="table-wrap"><table>
+            <thead><tr><th scope="col">Task</th><th scope="col">Where in PSP Connect</th><th scope="col">Deadline</th><th scope="col">Role</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Registration application</th><td>Registration application form; "Registration Details" after you submit</td><td>Registered before you perform retail payment activities (RPAA s. 23)</td><td>Registration</td></tr>
+              <tr><th scope="row">Amend a pending application</th><td>Registration Application, then "Submit an amendment" (<a href="{PC2_AMEND}" rel="noopener">amendments policy</a>)</td><td>As changes occur; answer a Bank information request within 30 days</td><td>Registration</td></tr>
+              <tr><th scope="row">Re-registration for an acquisition of control</th><td>The "re-register" option (<a href="{B_ACQ}" rel="noopener">acquisitions policy</a>)</td><td>New application under RPAA s. 24, and registered under it before the deal closes (Bank policy)</td><td>Registration</td></tr>
+              <tr><th scope="row">Registration information change</th><td>Registration information change report; also shown at the start of the annual report</td><td>Within 30 days after the change (RPAR s. 35(a)); some prescribed changes 30 or 60 days before (<a href="{RP_CHG}" rel="noopener">Bank policy</a>)</td><td>Registration</td></tr>
+              <tr><th scope="row">Significant change or new activity</th><td>Reporting, then Significant Change (<a href="{PC2_SC_GUIDE}" rel="noopener">step-by-step guide</a>)</td><td>At least five business days before (RPAR s. 20(1)(a))</td><td>Risk</td></tr>
+              <tr><th scope="row">Incident notice</th><td>Reporting, then Incident; "View Details" for interim and final notices</td><td>Without delay, and no later than 48 hours after you determine it's material</td><td>Risk</td></tr>
+              <tr><th scope="row">Annual report</th><td>Reporting, then Annual Reporting (<a href="{RP_AR_GUIDE}" rel="noopener">step-by-step guide</a>)</td><td>March 31 for the previous calendar year (RPAR s. 18(1)); the 2026 report is due March 31, 2027</td><td>Risk</td></tr>
+              <tr><th scope="row">Prescribed review request</th><td>Review forms in PSP Connect (<a href="{PC2_REVIEW}" rel="noopener">reviews and appeals policy</a>)</td><td>Within 30 days after you are notified or served (RPAR s. 31(1) for a refusal, s. 33(1) for an intent to revoke)</td><td>Registration for refusal or revocation; Enforcement for a notice of violation or default</td></tr>
+              <tr><th scope="row">Billing and invoices</th><td>A billing section is being added (session remark)</td><td>None yet. Justice Laws shows Part 6 of the RPAA, on assessment fees, as not in force</td><td>Not yet published</td></tr>
+            </tbody>
+          </table></div>
+          <p>For billing, Bank staff said at the session that PSP Connect will show each PSP its invoice and payment status, that invoices will be due within 30 days, and that overdue notices will be sent through the portal every two weeks. None of that has been published by the Bank as of 3 November 2026. The details of each filing are in our guides to the <a href="rpaa-annual-report.html">RPAA annual report</a> and <a href="rpaa-incident-reporting.html">RPAA incident reporting</a>.</p>"""),
+        ("help", "When should you contact the Service Desk instead of your supervisors?", f"""          <p>Contact the Service Desk when the portal itself isn't working, and use your usual regulatory channel when your question is about the rules. That is how Bank staff divided the two at the 2 November 2026 session. They said the Service Desk's details and business hours are on the PSP Connect sign-in page. Policy or guidance questions should keep going to your usual Bank contact.</p>
+          <ul>
+            <li><strong>Service Desk:</strong> sign-in or access problems, error messages, forms that won't submit or save, and changing the primary contact.</li>
+            <li><strong>Your organization administrator:</strong> adding a user, removing one or changing someone's role.</li>
+            <li><strong>Regulatory channels:</strong> whether a change is significant, what a guideline means, or how to answer a request for information.</li>
+          </ul>
+          <p>The Bank's <a href="{PC2_INQ}" rel="noopener">general inquiries page</a> has an online form for technical issues with PSP Connect, and the terms of use direct questions about the portal to rps-compliance@bank-banque-canada.ca. Every user can also write through "Contact us" inside the portal. If a portal problem threatens a deadline, keep the ticket number and screenshots, because the deadline in the regulations still applies.</p>"""),
+        ("issues", "What known PSP Connect issues should you watch for?", """          <p>Bank staff said at the 2 November 2026 session that the bug blocking registration information change submissions is fixed, and that a fix for cloning previously submitted information is coming. For anything else, check the announcement banner, which appears when you sign in. It carries planned downtime, known issues and workarounds, and if something isn't working, "it's worth checking the announcement banner."</p>
+          <p>Staff said the submission bug had affected some PSPs for a few months. The form now shows the specific changes you're making before you submit, instead of your whole registration record. Cloning, which copies in everything you submitted before, doesn't yet work for all PSPs.</p>
+          <p>Staff added that the metrics screens for the next annual report are being reworked to cut manual entry, and that internal processes were streamlined after a support backlog earlier in 2026. As of 3 November 2026, none of these items appears in a published Bank notice. Until the cloning fix lands, check every pre-filled field against your own records before you submit a change.</p>"""),
+        ("setup", "How should a PSP set up PSP Connect before the 2027 annual report?", """          <p>Fix access problems now, before the March 31, 2027 deadline:</p>
+          <ul>
+            <li>Name at least two organization administrators, so one absence doesn't lock you out of user changes.</li>
+            <li>Give each person only the role they need, using the five roles in the Bank's bulletin.</li>
+            <li>Confirm the primary contact is a current employee who reads Bank messages, and ask the Service Desk to change it if not.</li>
+            <li>Make sure whoever will prepare the annual report has the Risk role well before the form opens.</li>
+            <li>Add a step to your offboarding process to deactivate portal users on their last day.</li>
+            <li>Put every deadline from the table above into one compliance calendar, with an owner for each.</li>
+          </ul>
+          <p>If you haven't registered yet, our <a href="rpaa-registration-guide.html">RPAA registration guide</a> covers the application itself. Our <a href="rpaa-compliance-program.html">RPAA compliance program</a> includes a reporting calendar and change-notice procedures that map to these filings.</p>"""),
+    ],
+    faqs=[("How do I add a user to PSP Connect?", "An organization administrator adds the user from \"User Profile\" under \"My account\". The Bank's November 2024 access bulletin says an Org Admin can add an authorized user in any role, and the new user must register and accept the terms of use."),
+          ("Can a PSP have more than one PSP Connect administrator?", "Yes. Bank staff said at the 2 November 2026 supervision update that a PSP can have more than one organization administrator."),
+          ("How do I change the primary contact in PSP Connect?", "Contact the PSP Connect Service Desk. Bank staff said at the 2 November 2026 session that the Service Desk makes this change, and that automated messages from the portal go only to the primary contact until it's updated."),
+          ("Who do I contact about a PSP Connect technical problem?", "The Service Desk, whose details and hours are on the PSP Connect sign-in page, according to Bank staff. Policy questions go through your usual regulatory channel instead."),
+          ("Can a consultant file in PSP Connect for my company?", "A consultant can be an authorized user, but the account must be the PSP's own. The Bank's FAQ says PSPs create their own account and can list consultants in Delegate Profiles, and the terms of use make the PSP responsible for what its users do.")],
+    sources=[("Bank of Canada, PSP Connect authorized user access (November 2024)", PC2_USERS), ("Bank of Canada, PSP Connect terms of use and disclaimers", PC2_TOU),
+             ("Bank of Canada, How to complete a registration application: A step-by-step guide", RP_REG_GUIDE),
+             ("Bank of Canada, How to complete an annual report: A step-by-step guide", RP_AR_GUIDE),
+             ("Bank of Canada, How to complete an incident notice: A step-by-step guide", RP_INC_GUIDE),
+             ("Bank of Canada, How to complete a notice of significant change or new activity: A step-by-step guide", PC2_SC_GUIDE),
+             ("Bank of Canada, Amendments to registration applications", PC2_AMEND), ("Bank of Canada, Acquisitions of control and prescribed changes", B_ACQ),
+             ("Bank of Canada, Reporting changes to registration information", RP_CHG), ("Bank of Canada, Reviews and appeals", PC2_REVIEW),
+             ("Bank of Canada, Reminder: PSP reporting obligations under the RPAA", RP_REMIND), ("Bank of Canada, Supervisory framework", RP_FW),
+             ("Bank of Canada, General inquiries", PC2_INQ), ("Retail payments supervision FAQ", RP_FAQ),
+             ("Retail Payment Activities Act", RP_ACT), ("Retail Payment Activities Regulations", RP_REGS)],
+    related=["rpaa-annual-report.html", "rpaa-incident-reporting.html", "rpaa-registration-guide.html"],
+)
+
+
+# ------------------------------------------------------------------ rpaa-safeguarding-legal-opinion-trust-account.html (2026-11-03)
+# ------------------------------------------------------------------ RPAA trust account legal opinion (BoC session 2 Nov 2026)
+# Official sources checked 3 November 2026: Bank of Canada FAQ (page dated August 14, 2026), safeguarding
+# self-assessment tool (version October 2026), safeguarding guideline (December 2024), RPAA and RPAR on Justice Laws.
+LO3_FAQ = "https://www.bankofcanada.ca/2026/08/frequently-asked-questions-about-retail-payments-supervision/"
+LO3_SAT = "https://www.bankofcanada.ca/wp-content/uploads/2026/10/safeguarding-end-user-funds_self-assessment-tool.pdf"
+LO3_SG = "https://www.bankofcanada.ca/wp-content/uploads/2024/02/safeguarding-end-user-funds.pdf"
+LO3_RPAA = "https://laws-lois.justice.gc.ca/eng/acts/R-7.36/FullText.html"
+LO3_RPAR = "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2023-229/FullText.html"
+
+GUIDES["rpaa-safeguarding-legal-opinion-trust-account.html"] = dict(
+    checked="3 November 2026",
+    title="RPAA Trust Account Legal Opinion: What the Bank Asks | AML Canada",
+    desc="The RPAA trust account legal opinion: when the Bank of Canada asks for it, what it must cover, and what a PSP should prepare before it briefs a lawyer.",
+    crumb="Trust account legal opinion",
+    h1="The RPAA trust account legal opinion: what the Bank of Canada asks for",
+    lede="The RPAA trust account legal opinion is a written opinion the Bank of Canada asks for when it assesses a payment service provider (PSP) that holds end-user funds in trust. As of 3 November 2026, the Bank's FAQ and self-assessment tool say it must show a valid express trust under common law or the Civil Code of Québec, set out the risks to that trust, and deal with any interest, dividends or capital gains the PSP receives. A lawyer must prepare it, and this guide is not legal advice.",
+    label="Guide · RPAA",
+    service="rpaa-compliance-program.html",
+    date="2026-11-03",
+    takeaways=["The Bank asks for a written legal opinion during its assessments of PSPs that safeguard end-user funds in trust.",
+               "It covers the express trust's validity under common law or the Civil Code of Québec, the risks to it, and interest, dividends or capital gains the PSP receives.",
+               "At the 2 November 2026 supervision update, Bank staff said the opinion should be written with the Bank as its intended reader.",
+               "Keep each account's agreement and set-off acknowledgement with the trust documents. Only a lawyer can prepare the opinion."],
+    sections=[
+        ("when", "When does the Bank of Canada ask for the trust account legal opinion?", f"""          <p>The Bank asks for the opinion during its periodic assessments of whether a PSP meets the safeguarding requirements in the RPAA and the Retail Payment Activities Regulations (RPAR). Its <a href="{LO3_FAQ}" rel="noopener">retail payments supervision FAQ</a>, dated August 14, 2026, says that as part of the assessment process the Bank will request a written legal opinion from a PSP that safeguards funds in trust.</p>
+          <p>The request is tied to the first safeguarding option in subsection 20(1) of the <a href="{LO3_RPAA}" rel="noopener">Retail Payment Activities Act</a>: holding end-user funds in trust in a trust account that is not used for any other purpose. If you aren't sure you hold end-user funds, start with <a href="who-must-register-psp-rpaa.html">who must register as a PSP</a>.</p>
+          <p>Statement B14 of the Bank's <a href="{LO3_SAT}" rel="noopener">safeguarding self-assessment tool</a> (version October 2026) says the PSP can provide the opinion on request. At its 2 November 2026 supervision update, Bank staff told trust-account PSPs to "make sure your documentation supports the arrangement" and to have the trust documents and opinion ready.</p>
+          <p>Paragraph 2.21 of the Bank's <a href="{LO3_SG}" rel="noopener">safeguarding guideline</a> (December 2024) already expects a PSP to seek legal advice on the validity of its trust, and the safeguarding requirements have applied since September 8, 2025. The FAQ adds that the Bank will want that advice in writing.</p>"""),
+        ("scope", "What must the legal opinion cover?", f"""          <p>As of 3 November 2026, the Bank's FAQ and self-assessment tool name three core points. The opinion shows that the arrangement amounts to a valid express trust, under common law or, for Quebec arrangements, the Civil Code of Québec. It also assesses the risks or challenges to that trust and how the PSP deals with them, and it covers interest, dividends or capital gains the PSP receives from trust assets.</p>
+          <p>The tool and guideline add more for some models:</p>
+          <div class="table-wrap"><table>
+            <thead><tr><th scope="col">Point the opinion should address</th><th scope="col">Where the Bank says it</th><th scope="col">Who it applies to</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">How the arrangement forms a valid express trust under common law or the Civil Code of Québec, as applicable</th><td>FAQ; tool statement B14; guideline paras. 2.20 and 2.21</td><td>Every PSP that holds end-user funds in trust</td></tr>
+              <tr><th scope="row">Risks or challenges to the trust's validity, and how the PSP has addressed or will address them</th><td>FAQ; tool statement B14</td><td>Every PSP that holds end-user funds in trust</td></tr>
+              <tr><th scope="row">Risks or challenges to the PSP's compliance with the RPAA safeguarding requirements</th><td>FAQ</td><td>Every PSP that holds end-user funds in trust</td></tr>
+              <tr><th scope="row">The PSP's receipt of interest, dividends or capital gains earned on trust assets, and the legal basis for receiving them</th><td>Tool statement B14</td><td>PSPs that receive any such amounts</td></tr>
+              <tr><th scope="row">Reliance on an unaffiliated PSP to reach a safeguarding account</th><td>Tool statement B14; guideline paras. 6.2 to 6.4</td><td>PSPs in an indirect arrangement</td></tr>
+              <tr><th scope="row">Foreign courts, regulators or financial institutions in an insolvency and in returning funds, and foreign recognition of the trust</th><td>Tool statement B13; guideline paras. 2.24 and 2.25</td><td>PSPs with no place of business in Canada, or with end users or accounts in several countries</td></tr>
+            </tbody>
+          </table></div>
+          <p>At the 2 November 2026 session, Bank staff added that the opinion should identify assumptions that may affect the trust's validity, as well as risks. The FAQ and tool themselves refer to risks and challenges. None of the three documents sets a template or format for the opinion (checked 3 November 2026).</p>"""),
+        ("trust", "What does the Bank say a valid express trust needs?", f"""          <p>The Bank's safeguarding guideline lists characteristics it expects a PSP's trust to have, though paragraph 2.21 says it gives no legal advice on how to set one up. The opinion is where a lawyer confirms whether your documents meet them, so give counsel the Bank's own wording.</p>
+          <ul>
+            <li>Outside Quebec, paragraph 2.22 says the arrangement must satisfy the three certainties of trust: intention, subject matter and objects. The PSP must intend to create a trust, and end users should intend that their funds be held in trust. Footnote 3 asks the PSP to get legal advice on how best to show end users' intent, such as signed agreements or clear acknowledgements.</li>
+            <li>In Quebec, paragraph 2.23 says the arrangement must qualify as a trust as defined in the Civil Code of Québec, formed by contract between a settlor and a trustee. The alternative is the simple administration regime, where the PSP holds and administers the funds as administrator of end users' property, appointed by them.</li>
+            <li>Under paragraph 2.20, the PSP can be the trustee or use a third party.</li>
+          </ul>
+          <p>Our <a href="rpaa-safeguarding-end-user-funds.html">guide to safeguarding end-user funds</a> covers the other safeguarding options.</p>"""),
+        ("purpose", "Should the opinion be written specifically for the Bank?", f"""          <p>Yes, according to Bank staff. At the 2 November 2026 supervision update they said the opinion should be "prepared for the express purpose of sharing with the bank". The published FAQ does not use those words (checked 3 November 2026), so treat this as a session remark.</p>
+          <p>If your existing trust advice was written for another reader or purpose, ask your lawyer whether it covers each point in the table above and whether it can be given to the Bank. If it can't, commission an opinion written for the assessment.</p>
+          <p>The FAQ says information obtained during an assessment is treated under section 62 of the RPAA. Subsection 62(1) makes it confidential, subject to the disclosures that subsections 62(2) and (3) allow.</p>"""),
+        ("interest", "Can a PSP keep interest earned on a trust account?", f"""          <p>Possibly. The Bank's FAQ says a PSP holding funds in trust must make sure that keeping interest earned on end-user funds does not compromise or invalidate the trust. The Bank expects the PSP to confirm this with legal advisors who have appropriate expertise.</p>
+          <p>Tool statement B14 asks the opinion to address any interest, dividends or capital gains the PSP receives from trust assets, and the legal basis for receiving them. Bank staff used the same example at the session.</p>
+          <p>The guideline asks for legal input on three related uses of trust money:</p>
+          <ul>
+            <li>If you hold trust funds in secure and liquid assets other than cash, paragraph 3.21 requires legal due diligence showing the trust is not compromised. The market value of those assets must always equal or exceed the funds you must safeguard.</li>
+            <li>If you intend to pay administrative expenses from the trust account, paragraph 2.28 recommends legal advice on what qualifies, and the trust arrangement should say how those expenses are shared among end users.</li>
+            <li>As a best practice, paragraph 2.27 says to pay no other expenses from the trust account and to settle obligations to a financial institution or payment network from a separate account.</li>
+          </ul>"""),
+        ("fit", "How the opinion fits with RPAA s. 20, the RPAR and set-off evidence", f"""          <p>The opinion covers the trust itself under paragraph 20(1)(a) of the RPAA, and other documents evidence the rest of the arrangement. Under the schedule to the <a href="{LO3_RPAR}" rel="noopener">Retail Payment Activities Regulations</a>, a breach of subsection 20(1) of the Act is a very serious violation.</p>
+          <ul>
+            <li><strong>Set-off, account by account.</strong> Under RPAA subsection 20(3), whoever maintains a safeguarding account cannot assert set-off or compensation against its funds, and guideline paragraph 2.16 expects the account provider to acknowledge this in writing. At the 2 November 2026 session, Bank staff asked PSPs that use more than one safeguarding account to hold set-off evidence for every account.</li>
+            <li><strong>The account agreement.</strong> Under paragraphs 2.29 and 2.30, you tell the account provider the funds are held in trust, and the agreement identifies them as held in trust for your end users.</li>
+            <li><strong>The account provider.</strong> RPAR section 13 limits providers to listed Canadian institutions and comparably regulated foreign institutions.</li>
+            <li><strong>The framework.</strong> RPAR subsection 15(3) requires your safeguarding framework to identify legal and operational risks, having regard to jurisdictions, account providers and the terms of your trust arrangements. The risks in the opinion feed that analysis.</li>
+            <li><strong>Review and reporting.</strong> RPAR section 17 requires an independent review of compliance with subsection 20(1) at least once every three years, and paragraph 19(3)(a) asks your <a href="rpaa-annual-report.html">annual report</a> to describe the trust arrangement.</li>
+          </ul>"""),
+        ("prepare", "What should a PSP prepare before engaging counsel?", f"""          <p>Gather your trust documents, every account agreement and a plain description of how money moves through each trust account before you brief a lawyer. The trust statements in the self-assessment tool (B11 to B20) list most of the evidence the Bank expects:</p>
+          <ul>
+            <li>The trust instrument and related documents, such as a trust agreement or declaration, a service agreement with trust provisions, the form of end-user acknowledgement and any third-party trustee agreement (B11).</li>
+            <li>For Quebec arrangements, the Civil Code trust agreement or the simple administration documents, with any French translations (B12).</li>
+            <li>For each safeguarding account: the provider, its jurisdiction, the account agreement, the written set-off acknowledgement and the notice that the funds are held in trust.</li>
+            <li>Where your end users are located (RPAR paragraph 15(3)(a)).</li>
+            <li>What flows in and out of each account, including any expenses, fees or settlement payments.</li>
+            <li>Who receives any interest, dividends or capital gains from trust assets, on what terms, and which assets other than cash you hold.</li>
+            <li>Any unaffiliated PSP you rely on to reach an account.</li>
+            <li>How end users show their intent that their funds be held in trust.</li>
+            <li>Your ledger description, the legal and operational risk analysis in your framework, and your trust account controls, such as signing authority and periodic verification (guideline para. 3.35).</li>
+          </ul>
+          <p>Map each item to the tool's statements. The tool is voluntary, and the Bank states that filling it in is not, by itself, a demonstration of compliance. Our <a href="rpaa-compliance-program.html">RPAA compliance program</a> builds the safeguarding framework that surrounds the opinion, which only a lawyer can prepare.</p>"""),
+    ],
+    faqs=[("Is a formal written legal opinion required for an RPAA trust account?", "Yes, if the PSP safeguards end-user funds in trust. The Bank's FAQ, dated August 14, 2026, says the Bank will request a written legal opinion as part of its assessment process."),
+          ("Can a PSP keep the interest earned on a safeguarding trust account?", "Only if doing so does not compromise or invalidate the trust. The Bank's FAQ expects the PSP to confirm this with legal advisors, and its October 2026 self-assessment tool asks the legal opinion to address the legal basis for any interest, dividends or capital gains the PSP receives."),
+          ("Does a PSP that uses insurance or a guarantee need a trust legal opinion?", "The Bank's published request applies to funds held in trust. A PSP relying on insurance or a guarantee must meet RPAR section 14 instead. Any PSP in an indirect arrangement must still get legal advice under guideline paragraph 6.4."),
+          ("Will the Bank of Canada keep a PSP's legal opinion confidential?", "Yes, subject to limits. Subsection 62(1) of the RPAA makes information the Bank obtains under the Act confidential, apart from the disclosures that subsections 62(2) and (3) allow."),
+          ("Who should prepare the RPAA trust account legal opinion?", "A lawyer. The Bank's FAQ expects advice from legal advisors with appropriate expertise, and its safeguarding guideline says it does not provide legal advice on how to set up a valid express trust.")],
+    sources=[("Bank of Canada, Frequently asked questions about retail payments supervision", LO3_FAQ),
+             ("Bank of Canada, Safeguarding end-user funds: Self-assessment tool (October 2026)", LO3_SAT),
+             ("Bank of Canada, Guideline on safeguarding end-user funds (December 2024)", LO3_SG),
+             ("Retail Payment Activities Act", LO3_RPAA), ("Retail Payment Activities Regulations", LO3_RPAR)],
+    related=["rpaa-safeguarding-end-user-funds.html", "rpaa-annual-report.html", "who-must-register-psp-rpaa.html"],
+)
+
+
+# ------------------------------------------------------------------ rpaa-annual-report-section-4-metrics.html (2026-11-03)
+# RPAA annual report, Section 4 metrics. Appends to guides_v3.py (exec after its definitions).
+# Reuses RP_ACT, RP_REGS, RP_AR and RP_AR_GUIDE from guides_v3.py. New URLs checked 3 November 2026.
+S44_METRICS = "https://www.bankofcanada.ca/2024/10/annual-reporting-of-retail-payment-activity-metrics/"
+S44_FX = "https://www.bankofcanada.ca/rates/exchange/monthly-exchange-rates/"
+
+GUIDES["rpaa-annual-report-section-4-metrics.html"] = dict(
+    checked="3 November 2026",
+    title="RPAA Annual Report Section 4: Metrics Explained | AML Canada",
+    desc="What Section 4 of the RPAA annual report asks for: each ubiquity and interconnectedness metric, how to count EFTs, Canadian end users and a reconciliation list.",
+    crumb="RPAA annual report Section 4",
+    h1="How to complete Section 4 of the RPAA annual report",
+    lede="Section 4 of the RPAA annual report collects your ubiquity and interconnectedness metrics: end-user funds held, the monthly number and value of electronic funds transfers, and how many end users and other PSPs you served. Each figure is split by currency and between all end users and end users in Canada. This guide covers each question, the Bank of Canada's counting rules and the checks to run before the March 31, 2027 deadline.",
+    label="Guide · RPAA",
+    service="rpaa-compliance-program.html",
+    date="2026-11-03",
+    takeaways=["Count each completed transfer once, at its final value, before netting and excluding fees.",
+               "Every all-end-user figure must be equal to or greater than the matching figure for end users in Canada.",
+               "Put a number in every cell, using zero where nothing happened, and explain a zero year.",
+               "Bank staff said the metrics feed supervisory priorities and, expected from 2027, assessment fees."],
+    sections=[
+        ("asks", "What does Section 4 of the RPAA annual report ask for?", f"""          <p>Section 4 asks for the information that paragraph 19(4)(a) of the <a href="{RP_REGS}" rel="noopener">Retail Payment Activities Regulations</a> (RPAR) calls ubiquity and interconnectedness. A payment service provider (PSP) with a place of business in Canada reports its peak end-user funds held, 12 months of held-funds and transfer data, its number of end users and the number of other PSPs it served.</p>
+          <p>The Bank's <a href="{RP_AR_GUIDE}" rel="noopener">step-by-step guide to the annual report</a> (February 2026) sets out the questions. Question 4.1 asks which designated systems, such as Lynx, you join directly. Question 4.2 asks whether you have a place of business in Canada, which decides what follows:</p>
+          <ul>
+            <li><strong>4.3:</strong> peak end-user funds held during the year, in Canadian dollars.</li>
+            <li><strong>4.4:</strong> monthly average end-of-day funds held, in Canadian dollars and by currency.</li>
+            <li><strong>4.5 and 4.6:</strong> monthly number and value of electronic funds transfers (EFTs), in total and by currency.</li>
+            <li><strong>4.7 and 4.8:</strong> end users served, and other PSPs served, with the number of those PSPs that have a place of business in Canada.</li>
+            <li><strong>4.9:</strong> estimated share of EFT value by payment method, totalling 100%.</li>
+          </ul>
+          <p>The calculation rules sit in the Bank's policy <a href="{S44_METRICS}" rel="noopener">Annual reporting of retail payment activity metrics</a> (October 16, 2024). Numbering may change on the next form. Our <a href="rpaa-annual-report.html">RPAA annual report guide</a> covers the deadline and other sections.</p>"""),
+        ("eft", "How do you count electronic funds transfers for the annual report?", f"""          <p>For the RPAA annual report, count each completed transaction between a payer and a payee in which you performed at least one payment function, once, at its final value and excluding fees. Section 2 of the <a href="{RP_ACT}" rel="noopener">Retail Payment Activities Act</a> (RPAA) defines an EFT as a placement, transfer or withdrawal of funds by electronic means, initiated by or on behalf of an individual or entity.</p>
+          <p>The metrics policy adds:</p>
+          <ul>
+            <li>A transaction counts once, however many functions, steps or instructions it involves, and even if you handle both sides.</li>
+            <li>Transactions you perform for another PSP count too, so several PSPs in one chain each report the same transaction.</li>
+            <li>A batch counts as its underlying transactions, and settlement netting reduces neither the number nor the value.</li>
+            <li>Only completed transactions count, at the final amount where it differs from the authorized amount.</li>
+            <li>Refunds and unclaimed transactions are included where relevant to your operations.</li>
+          </ul>
+          <p>In the policy's examples, eight card payments worth $1,000 that settle as a $50 net batch are 8 EFTs worth $1,000. A fuel purchase authorized at $100 that finalizes at $55 is 1 EFT worth $55.</p>
+          <p>Leave out excluded activity, such as merchant gift cards, ATM cash withdrawals and transactions among affiliates. A designated-system transfer is excluded only if every function happens inside that system. Include transfers by agents named in your registration.</p>
+          <p>Bank staff said at the 2 November 2026 supervision update that some PSPs misread the EFT definition, without saying how. Test your count against each rule above.</p>"""),
+        ("end-users", "How do all end users and end users in Canada differ in Section 4?", """          <p>All end users means everyone you served, in Canada and elsewhere, so each all-end-user figure must be equal to or greater than the matching figure for end users in Canada. The Bank's February 2026 step-by-step guide states this rule for questions 4.3 to 4.9, because the all-end-user total already includes Canadian end users.</p>
+          <p>The RPAA defines an end user as a payer or payee using a payment service. For question 4.7, the metrics policy says to count distinct end users served during the year, so a customer who pays 50 times counts once. Payers and payees both count. Estimates from account or merchant numbers are allowed. Report zero if you dealt only with other PSPs.</p>
+          <p>Where you don't know an end user's location, the policy asks for a best-efforts estimate. Record the method and apply it to every metric.</p>
+          <p>For question 4.8, count the other PSPs you performed retail payment activities for, including banks, credit unions and Payments Canada, which the RPAA doesn't cover. Leave out a PSP that only buys services from you for its own operations.</p>"""),
+        ("monthly", "How do you report monthly held funds and currency breakdowns?", f"""          <p>The monthly average of held funds in Section 4 is the sum of each day's end-of-day balance of end-user funds divided by the number of days in that month. The Bank's metrics policy sets this method for question 4.4, reported in Canadian dollars and in each original currency, for all end users and for end users in Canada.</p>
+          <p>The policy doesn't treat weekends or holidays separately, so every day needs a balance. Question 4.3 asks instead for the single highest value held at any moment in the year, which can't be lower than any monthly average. Both usually come from the ledger behind your <a href="rpaa-safeguarding-end-user-funds.html">safeguarding records</a>.</p>
+          <p>If you don't hold funds, the step-by-step guide says to enter zeros for questions 4.3 and 4.4 and explain in the open-text field. Explain any metric that totals zero for the year the same way, and report only the months you operated.</p>
+          <p>For currencies, report counts in total and per currency, and values in Canadian dollars combined, then each currency in its own units. Section 1.5 of the metrics policy lets you convert at the Bank's <a href="{S44_FX}" rel="noopener">monthly exchange rates</a> or at the rates you use in the normal course of business. Pick one source and document it.</p>"""),
+        ("foreign", "What does a PSP without a place of business in Canada report?", """          <p>A PSP without a place of business in Canada answers questions 4.10 to 4.16, which ask only about activity for end users in Canada. Paragraph 19(4)(b) of the RPAR limits its metrics to ubiquity and interconnectedness in Canada, and it counts only other PSPs that have a place of business in Canada.</p>
+          <p>The questions mirror 4.3 to 4.9, and the counting and currency rules are the same. The Bank treats a location here, including a home office, a Canadian incorporation, or staff or agents in Canada as a place of business, and those PSPs report all end users too. Our guide on <a href="who-must-register-psp-rpaa.html">who must register as a PSP</a> explains that test. The main risk for a foreign PSP is putting worldwide totals in fields meant for Canada only.</p>"""),
+        ("errors", "Which Section 4 errors did the Bank see in the first cycle?", """          <p>Bank staff said at the 2 November 2026 supervision update that Section 4 was where they saw particular data-quality problems in the first annual reports, which covered 2025. They named blank fields, all-end-user metrics lower than the Canadian figures, and misread guidance, including the EFT definition. As of 2 November 2026, the Bank was contacting those PSPs for clarification.</p>
+          <p>Beyond those three, the table lists the mistakes the policy's counting rules guard against.</p>
+          <div class="table-wrap"><table>
+            <thead><tr><th scope="col">Metric</th><th scope="col">What counts</th><th scope="col">Common error</th><th scope="col">Check</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Peak funds held (4.3)</th><td>Highest total held at any time in the year</td><td>Year-end balance, or a blank when you hold no funds</td><td>At or above every monthly average. Zero, never blank</td></tr>
+              <tr><th scope="row">Average funds held (4.4)</th><td>Daily closing balances divided by days in the month</td><td>Dividing by business days, or omitting foreign-currency balances</td><td>Divisor is calendar days. Currency rows convert to the total</td></tr>
+              <tr><th scope="row">Number of EFTs (4.5)</th><td>Completed transactions, each counted once</td><td>Counting legs, instructions or batches</td><td>Trace samples through each flow</td></tr>
+              <tr><th scope="row">Value of EFTs (4.6)</th><td>Final amounts before netting, excluding fees</td><td>Net settlement, authorized amounts or fees</td><td>Ties to gross processed volume less fees</td></tr>
+              <tr><th scope="row">End users (4.7)</th><td>Distinct payers and payees in the year</td><td>Adding monthly active users</td><td>Deduplicated by unique ID. All at or above Canada</td></tr>
+              <tr><th scope="row">Other PSPs (4.8)</th><td>PSPs you served, including banks</td><td>Omitting banks, or counting PSPs that are only customers</td><td>Ties to partner list. Canadian count at or below total</td></tr>
+              <tr><th scope="row">Payment-method shares (4.9)</th><td>Estimated share of EFT value by method</td><td>Shares not totalling 100%</td><td>Each group totals 100%, assumptions stated</td></tr>
+            </tbody>
+          </table></div>"""),
+        ("changes", "What changes for the March 2027 filing, and why do the metrics matter more?", """          <p>For the report due March 31, 2027, covering 2026, Bank staff said the form will add validation rules for incomplete or inconsistent entries, clearer questions, better numbering and skip logic, improved summaries and bulk entry of metrics by copy and paste, including from Excel. It will open in PSP Connect well ahead of the deadline.</p>
+          <p>Validation can flag a Canadian figure above an all-end-user figure, but it can't see a transfer counted twice. Section 61 of the RPAA prohibits giving the Bank false or misleading information. Map your workbook to the new question numbers before you paste.</p>
+          <p>Staff said annual reports help the Bank understand the sector and target follow-ups, and "the information supports decisions about where we focus our supervisory attention." They also said the report will be used to set annual assessment fees, expected from 2027, with interim bills in spring 2027 based on 2026 metrics. The fee regulations still await Finance and Treasury Board, staff couldn't name the billing metrics, and they said timelines may change. As of 3 November 2026, treat Section 4 as data that may drive a bill.</p>"""),
+        ("reconcile", "How do you reconcile Section 4 before you submit?", """          <p>Reconcile Section 4 by tying each figure to a source system, testing how the figures relate and recording every method and estimate. This checklist follows the Bank's metrics policy and step-by-step guide:</p>
+          <ol>
+            <li><strong>Place of business.</strong> Check your answer to question 4.2.</li>
+            <li><strong>Scope.</strong> List each payment flow, remove excluded and affiliate activity, and add listed agents.</li>
+            <li><strong>No blanks.</strong> Put a number in every cell and explain any metric that totals zero for the year.</li>
+            <li><strong>Superset test.</strong> For every month, confirm all end users is at or above Canada, and total PSPs at or above Canadian PSPs.</li>
+            <li><strong>Held funds.</strong> Confirm the daily series covers every calendar day and no monthly average exceeds the peak.</li>
+            <li><strong>Transfers.</strong> Trace a sample from each flow, including refunds, and confirm each completed transaction appears once, at its final amount before netting.</li>
+            <li><strong>Currencies.</strong> Confirm currency rows convert to the Canadian dollar totals at one documented rate source.</li>
+            <li><strong>End users.</strong> Deduplicate across the year and record how you located users of unknown country.</li>
+            <li><strong>Trends.</strong> Investigate sharp monthly jumps or drops.</li>
+            <li><strong>Records.</strong> Keep the workbook, queries and sign-off. Under RPAR section 40, your records must be enough to show compliance.</li>
+          </ol>
+          <p>Have someone who didn't prepare the figures run the checks. A documented method also speeds up your reply if the Bank follows up.</p>"""),
+    ],
+    faqs=[("What are ubiquity and interconnectedness metrics in the RPAA annual report?", "They are the Section 4 figures on end-user funds held, monthly transfers, end users and other PSPs served, required by paragraph 19(4) of the Retail Payment Activities Regulations."),
+          ("How do I count EFTs for the Bank of Canada annual report?", "Count each completed transaction in which you performed a payment function once, at its final value, excluding fees. Netting doesn't reduce the number or value."),
+          ("Can my all end users figure be lower than my Canadian end users figure?", "No. The all-end-user figure includes end users in Canada, so it must be equal or greater. Bank staff said the reverse was a common error in the first annual reports."),
+          ("What exchange rate should I use for the RPAA annual report?", "The Bank of Canada's monthly exchange rates or your normal business rates. Use one source and record it."),
+          ("Do I complete Section 4 if I don't hold end-user funds?", "Yes. Enter zeros for the funds-held questions and explain in the open-text field. You still report transfers, end users and other PSPs served.")],
+    sources=[("Retail Payment Activities Act", RP_ACT), ("Retail Payment Activities Regulations", RP_REGS),
+             ("Bank of Canada, Annual reporting of retail payment activity metrics", S44_METRICS),
+             ("Bank of Canada, Annual reporting (supervisory policy)", RP_AR),
+             ("Bank of Canada, How to complete an annual report: A step-by-step guide (February 2026)", RP_AR_GUIDE),
+             ("Bank of Canada, Monthly exchange rates", S44_FX)],
+    related=["rpaa-annual-report.html", "rpaa-safeguarding-end-user-funds.html", "who-must-register-psp-rpaa.html"],
+)
+
+
+# ------------------------------------------------------------------ check-bank-of-canada-psp-registration.html (2026-11-03)
+# ------------------------------------------------------------------ RPAA: checking Bank of Canada PSP registration (checked 3 November 2026)
+# Official sources used only by this guide. Prefix CR5_ avoids clashes with names above.
+CR5_ACT = "https://laws-lois.justice.gc.ca/eng/acts/R-7.36/FullText.html"
+CR5_REGS = "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2023-229/FullText.html"
+CR5_REGISTRY = "https://www.bankofcanada.ca/regulatory-oversight/retail-payments/psp-registry/"
+CR5_APPLICANTS = "https://www.bankofcanada.ca/regulatory-oversight/retail-payments/list-of-applicants/"
+CR5_REFUSED = "https://www.bankofcanada.ca/regulatory-oversight/retail-payments/refused-or-revoked-registrations/"
+CR5_ENF = "https://www.bankofcanada.ca/regulatory-oversight/retail-payments/enforcement-decisions/"
+CR5_REVIEWS = "https://www.bankofcanada.ca/regulatory-oversight/retail-payments/enforcement-decisions/prescribed-review-decisions/"
+CR5_NOTICE = "https://www.bankofcanada.ca/2024/06/issuing-public-notice-of-decisions/"
+CR5_NOV = "https://www.bankofcanada.ca/2026/06/bank-canada-begin-publishing-notices-violation-payment-service-providers/"
+CR5_REFUSE_POL = "https://www.bankofcanada.ca/2025/08/refusal-or-revocation-of-registration-under-the-rpaa/"
+CR5_FAQ = "https://www.bankofcanada.ca/2026/08/frequently-asked-questions-about-retail-payments-supervision/"
+CR5_RPS = "https://www.bankofcanada.ca/regulatory-oversight/retail-payments/"
+CR5_INQ = "https://www.bankofcanada.ca/about/contact-information/general-inquiries/"
+CR5_MSB_REGISTRY = "https://fintrac-canafe.canada.ca/msb-esm/reg-eng"
+
+GUIDES["check-bank-of-canada-psp-registration.html"] = dict(
+    checked="3 November 2026",
+    title="How to Check Bank of Canada PSP Registration | AML Canada",
+    desc="How to check Bank of Canada PSP registration: the registry, the list of applicants and In Review, refused or revoked entries, NOVs and a due diligence table.",
+    crumb="Check PSP registration",
+    h1="How to check Bank of Canada PSP registration",
+    lede="To check Bank of Canada PSP registration, search the company's legal or trade name in the Bank's Registry of payment service providers, then check its list of applicants, refused or revoked list and enforcement decisions. As of 3 November 2026, the registry listed 1,789 PSPs. A listing confirms registration only, because the Bank does not license or endorse PSPs.",
+    label="Guide · RPAA",
+    service="rpaa-registration.html",
+    date="2026-11-03",
+    takeaways=["Search the Registry of PSPs by legal and trade name, then open the entry to check payment functions, the registration date and violations.",
+               "\"In Review\" means the business has applied and has no decision yet. Applicants from 8 September 2025 onward can't operate until they are registered.",
+               "Some refusals and revocations are technical, such as a business that is out of scope or has stopped operating. Read the authority and reason on each entry.",
+               "Registration is not a licence or a compliance finding. Report a suspected unregistered PSP through the Bank's general inquiries form, and expect no updates."],
+    sections=[
+        ("registry", "How do I check if a payment company is registered with the Bank of Canada?", f"""          <p>Search the company's legal name or main trade name in the Bank of Canada's <a href="{CR5_REGISTRY}" rel="noopener">Registry of payment service providers</a>, then open its entry. Section 26 of the <a href="{CR5_ACT}" rel="noopener">Retail Payment Activities Act</a> (RPAA) requires the Bank to keep this registry and publish each registered PSP's name, address and prescribed information. As of 3 November 2026, it listed 1,789 registered PSPs.</p>
+          <p>The search table shows legal name, main trade name, head office country and a violations flag. Section 23 of the <a href="{CR5_REGS}" rel="noopener">Retail Payment Activities Regulations</a> adds the trade names, registration date, addresses, phone, email, website, payment functions performed and the names of all agents and mandataries.</p>
+          <p>Contact and PSP details can change, so the Bank asks users to check back periodically. Its <a href="{CR5_FAQ}" rel="noopener">retail payments supervision FAQ</a>, dated 14 August 2026, says a registration does not expire and the registry stays public indefinitely, although the Bank can revoke a registration.</p>"""),
+        ("applicants", "What does \"In Review\" mean on the list of applicants?", f"""          <p>"In Review" is the status the Bank's registry data gives a business that has applied to register and has no decision yet. As of 3 November 2026, all 419 entries on the Bank's <a href="{CR5_APPLICANTS}" rel="noopener">list of applicants</a> had that status. An applicant is not a registered PSP.</p>
+          <p>The list shows legal name, main trade name, head office country and date of application. The date decides what the applicant may do:</p>
+          <ul>
+            <li><strong>Applied before 8 September 2025.</strong> Section 108 of the RPAA lets a PSP that applied during the transition period keep operating until the Bank registers or refuses it. The Bank expects these applicants to meet the operational risk and safeguarding obligations already.</li>
+            <li><strong>Applied on or after 8 September 2025.</strong> The Bank says these applicants may not start retail payment activities until it has registered them.</li>
+          </ul>
+          <p>The Bank warns that the list may leave out some businesses in discussion with it. At its 2 November 2026 supervision update, Bank staff said they could not give a review timeline. After the Bank's own review, the Department of Finance coordinates a national security review. They said both lists are updated very frequently.</p>"""),
+        ("refused", "What does the refused or revoked registrations list show?", f"""          <p>The Bank's <a href="{CR5_REFUSED}" rel="noopener">refused or revoked registrations list</a> names applicants the Bank refused to register and PSPs whose registration it revoked, with reasons. Section 27(1) of the RPAA requires the Bank to keep and publish it. As of 3 November 2026, it held 57 refusals and 15 revocations.</p>
+          <p>The table shows legal name, main trade name, head office country, status (Refused or Revoked) and violations. Each entry gives the decision date, the legal authority relied on and a written reason, with a summary of facts and analysis where available.</p>
+          <p>Read the authority line before you judge the business. Some refusals rest on the RPAA not applying, for example because the applicant is excluded from the Act. Some revocations cite section 52(e), which covers a PSP that has stopped performing retail payment activities. Grounds such as false or misleading information, a PCMLTFA conviction or penalty, or a directive from the Minister of Finance after a national security review (RPAA sections 40 and 48) are more serious.</p>
+          <p>Under section 27(2), a name goes on the list only after the review period has passed or a review has confirmed the decision. The Bank's <a href="{CR5_REFUSE_POL}" rel="noopener">refusal and revocation policy</a> lets a business apply again at any time, though it may be refused if the earlier reasons still apply.</p>"""),
+        ("enforcement", "Where does the Bank publish notices of violation?", f"""          <p>The Bank publishes notices of violation (NOVs) on its <a href="{CR5_ENF}" rel="noopener">enforcement decisions</a> page and flags them on the PSP's registry entry. Section 93 of the RPAA requires it to make public the nature of the violation, the PSP's name and any penalty once the violation is established. The Bank says these decisions stay online for five years.</p>
+          <p>Its <a href="{CR5_NOTICE}" rel="noopener">public notice policy</a> (17 June 2024) limits publication to NOVs issued against a PSP and adds a notice of default if a PSP breaks a compliance agreement. The <a href="{CR5_NOV}" rel="noopener">12 June 2026 announcement</a> says an NOV appears once the period for representations has ended. Full enforcement review decisions sit on the <a href="{CR5_REVIEWS}" rel="noopener">prescribed review decisions</a> page.</p>
+          <p>As of 3 November 2026, the page held 13 NOVs. Each was for breaching RPAA section 23, which bars a PSP from performing retail payment activities before it is registered, and each penalty was $0. The page also carries temporary orders, which the Governor can make under section 94(4). Bank staff said at the 2 November 2026 session that warning letters are not published, and that NOVs with monetary penalties will be published once issued.</p>"""),
+        ("limits", "Is Bank of Canada registration a licence or a compliance certificate?", f"""          <p>Bank of Canada registration is neither a licence nor a compliance certificate. The registry page states that the Bank does not endorse or license registered PSPs, and its FAQ says the Bank does not give PSPs a licence. A listing shows the business is in scope of the RPAA, paid the required fees and cleared a national security screening coordinated by the Department of Finance.</p>
+          <p>At the 2 November 2026 session, Bank staff described an activities-based registration regime: "It's not a licensing regime." They said a PSP does not have to prove compliance to get registered. Supervision and enforcement come afterwards. The lists don't tell you:</p>
+          <ul>
+            <li>whether the PSP's risk management or safeguarding works in practice;</li>
+            <li>whether it has had a warning letter, since those stay private;</li>
+            <li>whether it is under assessment or investigation;</li>
+            <li>whether it is registered with FINTRAC or a province;</li>
+            <li>which of its products each listed payment function covers.</li>
+          </ul>"""),
+        ("checklist", "PSP due diligence checklist: what to check, where and what it means", f"""          <p>Check the Bank's four pages and FINTRAC's registry for the exact legal entity named in your contract. Keep a dated screenshot or PDF of every result, because the Bank updates its lists often and entries change.</p>
+          <div class="table-wrap"><table>
+            <thead><tr><th scope="col">What to check</th><th scope="col">Where</th><th scope="col">What it means</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Legal name listed as registered</th><td><a href="{CR5_REGISTRY}" rel="noopener">Registry of PSPs</a></td><td>In scope, fees paid, national security screening cleared. Not a licence</td></tr>
+              <tr><th scope="row">Trade name matches the brand</th><td>Registry entry</td><td>A missing brand may belong to another entity. Ask which one holds the registration</td></tr>
+              <tr><th scope="row">Payment functions match the service</th><td>Registry entry</td><td>A provider that keeps your balance should list holding of funds</td></tr>
+              <tr><th scope="row">Registration date</th><td>Registry entry</td><td>If it served Canadians well before this date, look for a section 23 NOV</td></tr>
+              <tr><th scope="row">Violations flag</th><td>Registry table and entry</td><td>"Yes" links to the published decision, with the violation and penalty</td></tr>
+              <tr><th scope="row">Agent named on the PSP's entry</th><td>Registry entry (RPAR s. 23(h))</td><td>If an agent's name is missing, ask the PSP to confirm in writing</td></tr>
+              <tr><th scope="row">"In Review" and application date</th><td><a href="{CR5_APPLICANTS}" rel="noopener">List of applicants</a></td><td>No decision yet. Applied on or after 8 September 2025 means it may not operate yet</td></tr>
+              <tr><th scope="row">Refused or Revoked, with authority and reason</th><td><a href="{CR5_REFUSED}" rel="noopener">Refused or revoked list</a></td><td>From out of scope or ceased operations to false information or national security</td></tr>
+              <tr><th scope="row">NOVs and review decisions</th><td><a href="{CR5_ENF}" rel="noopener">Enforcement decisions</a></td><td>The violation, penalty and any review outcome. Warning letters never appear</td></tr>
+              <tr><th scope="row">MSB registration and expiry</th><td><a href="{CR5_MSB_REGISTRY}" rel="noopener">FINTRAC MSB registry</a></td><td>A separate anti-money laundering registration</td></tr>
+              <tr><th scope="row">No result anywhere</th><td>All of the above</td><td>Excluded, out of scope, an agent or unregistered. Ask for its written scoping analysis</td></tr>
+            </tbody>
+          </table></div>
+          <p>How each group uses the table:</p>
+          <ul>
+            <li><strong>Merchants</strong> choosing a processor should confirm the contracting entity is registered and lists holding of funds if it keeps balances before payout.</li>
+            <li><strong>Banks and credit unions</strong> are excluded by section 9 of the Act, so they won't appear themselves. They can screen PSP clients at onboarding, record the status and application date, and repeat the check at each periodic review.</li>
+            <li><strong>Partners</strong> such as sponsor PSPs, agents and investors should check agent listings, refusals and NOVs before signing. If a partner says it falls outside the Act, test that against our guide on <a href="who-must-register-psp-rpaa.html">who must register as a PSP</a>.</li>
+            <li><strong>End users</strong> can search the registry before sending money through an app or leaving a balance in one.</li>
+          </ul>"""),
+        ("fintrac", "How is the Bank's PSP registry different from FINTRAC's MSB registry?", f"""          <p>The Bank's registry records RPAA registration for supervision of operational risk, incidents and safeguarding. FINTRAC's <a href="{CR5_MSB_REGISTRY}" rel="noopener">money services business registry</a> records registration under the PCMLTFA, Canada's anti-money laundering law. A business may need both, one or neither, as our comparison of <a href="rpaa-vs-fintrac-msb-registration.html">RPAA and FINTRAC MSB registration</a> explains.</p>
+          <p>FINTRAC puts Registered, Revoked, Ceased and Expired businesses in one search, with a registration number, services offered, expiry date and a foreign MSB indicator. MSB registration has to be renewed every two years, while the Bank's FAQ says RPAA registration does not expire. FINTRAC's page, modified 11 October 2026, says it updates the registry monthly. Both regulators state that registration is not an endorsement or a licence. A FINTRAC status of Revoked is covered in our guide to <a href="msb-registration-refused-revoked.html">refused and revoked MSB registrations</a>.</p>"""),
+        ("report", "What should PSPs do if they see competitors in their vertical not registered as a PSP at the Bank?", f"""          <p>Tell the Bank what you have seen by using its online <a href="{CR5_INQ}" rel="noopener">general inquiries form</a> and picking retail payments supervision as the topic. Bank staff gave this answer to an audience question at the 2 November 2026 session, and said the Bank reviews each submission and decides whether further action is warranted.</p>
+          <p>Run the checklist first. The competitor may be on the list of applicants, act as a listed agent of a registered PSP, or be excluded or out of scope. If it still looks unregistered, give its legal and trade names, website, the payment service it offers and any sign that it serves Canadian end users, with dates.</p>
+          <p>You won't hear back. Bank staff said "the bank wouldn't be able to provide any updates on its supervisory activities" to the person reporting. Operating without registration breaches RPAA section 23, a very serious violation with a penalty of up to $10,000,000 under section 48 of the regulations.</p>"""),
+    ],
+    faqs=[("What happens if PSPs that should be registered don't register?", "They breach section 23 of the RPAA, a very serious violation with a penalty of up to $10,000,000. As of 3 November 2026, the Bank had published 13 notices of violation for this breach, each with a $0 penalty. Bank staff said on 2 November 2026 that the Bank has been investigating entities operating without registration."),
+          ("Can a company on the Bank of Canada list of applicants process payments?", "It depends on the application date. A PSP that applied before 8 September 2025 may continue until the Bank registers or refuses it (RPAA section 108). One that applied on or after that date may not operate until the Bank registers it."),
+          ("Why is a payment company not on any Bank of Canada list?", "Banks, credit unions and other institutions in section 9 of the RPAA are excluded, and some businesses are out of scope or act as agents of a registered PSP. A missing name can also mean the business is operating unregistered, so ask for its written scoping analysis."),
+          ("How often is the Bank of Canada PSP registry updated?", "The Bank says it updates the registry and its lists regularly, and Bank staff said on 2 November 2026 that updates are very frequent. FINTRAC updates its MSB registry monthly. Save a dated copy of each search."),
+          ("Does the Bank of Canada handle complaints about a payment company?", "The Bank of Canada does not handle complaints of that kind. Individual disputes, fee complaints and privacy complaints fall outside its retail payments mandate, so contact the PSP and then a provincial or federal consumer protection agency. Information about a business that may be operating unregistered can go to the Bank through its general inquiries form.")],
+    sources=[("Bank of Canada, Registry of payment service providers", CR5_REGISTRY), ("Bank of Canada, List of applicants", CR5_APPLICANTS),
+             ("Bank of Canada, Refused or revoked registrations", CR5_REFUSED), ("Bank of Canada, Enforcement decisions", CR5_ENF),
+             ("Bank of Canada, Prescribed review decisions", CR5_REVIEWS), ("Bank of Canada, Issuing public notice of decisions", CR5_NOTICE),
+             ("Bank of Canada, Publishing notices of violation (12 June 2026)", CR5_NOV), ("Bank of Canada, Refusal or revocation of registration under the RPAA", CR5_REFUSE_POL),
+             ("Retail payments supervision FAQ", CR5_FAQ), ("Bank of Canada, Retail payments", CR5_RPS), ("Bank of Canada, General inquiries", CR5_INQ),
+             ("FINTRAC, Money services business registry", CR5_MSB_REGISTRY),
+             ("Retail Payment Activities Act", CR5_ACT), ("Retail Payment Activities Regulations", CR5_REGS)],
+    related=["who-must-register-psp-rpaa.html", "rpaa-vs-fintrac-msb-registration.html", "rpaa-registration-guide.html"],
+)
+
+
+# ------------------------------------------------------------------ psp-insolvency-end-user-funds-canada.html (2026-11-03)
+# ------------------------------------------------------------------ RPAA. PSP insolvency and end-user funds
+# Checked 3 November 2026. RPAA and RPAR read on Justice Laws ("current to 2026-10-19").
+# Reuses constants defined earlier in guides_v3.py: RP_ACT, RP_REGS, B_SG, B_SG_FAQ, RP_INC, RP_NOV.
+IN6_SAT = "https://www.bankofcanada.ca/wp-content/uploads/2026/10/safeguarding-end-user-funds_self-assessment-tool.pdf"
+IN6_REGISTRY = "https://www.bankofcanada.ca/regulatory-oversight/retail-payments/psp-registry/"
+IN6_REFUSED = "https://www.bankofcanada.ca/regulatory-oversight/retail-payments/refused-or-revoked-registrations/"
+
+GUIDES["psp-insolvency-end-user-funds-canada.html"] = dict(
+    checked="3 November 2026",
+    title="PSP Insolvency: What Happens to End-User Funds? | AML Canada",
+    desc="What happens to end-user funds if a PSP becomes insolvent in Canada: RPAA s. 20, the RPAR s. 14(3) event, the ledger, shortfalls and a readiness checklist.",
+    crumb="PSP insolvency and end-user funds",
+    h1="PSP insolvency: what happens to end-user funds in Canada",
+    lede="In a PSP insolvency in Canada, the end-user funds a payment service provider holds are meant to be paid to end users as soon as feasible, because section 20 of the RPAA requires those funds to be held in trust or covered by insurance or a guarantee. Whether that works depends on the provider's ledger, its shortfall checks and its written procedures for returning funds.",
+    label="Guide · RPAA",
+    service="rpaa-compliance-program.html",
+    date="2026-11-03",
+    takeaways=["RPAA s. 20 and RPAR s. 15 aim to pay end-user funds back as soon as feasible after an RPAR s. 14(3) insolvency event.",
+               "Deposit insurance at the PSP's bank does not pay out when the PSP itself becomes insolvent.",
+               "The ledger and a final reconciliation show who is owed what, and every shortfall must be found, investigated and fixed.",
+               "End users can check the Bank's registry, the provider's safeguarding terms and their own contact details."],
+    sections=[
+        ("protection", "How does RPAA safeguarding protect funds in a PSP insolvency?", f"""          <p>RPAA safeguarding is meant to keep end-user funds protected and payable to end users if their payment service provider (PSP) becomes insolvent. The means come from section 20(1) of the <a href="{RP_ACT}" rel="noopener">Retail Payment Activities Act</a> (RPAA). The insolvency rules sit in sections 13 to 17 of the <a href="{RP_REGS}" rel="noopener">Retail Payment Activities Regulations</a> (RPAR).</p>
+          <p>As of 3 November 2026, a PSP holds the funds in trust in a trust account (s. 20(1)(a)), or in an account covered by insurance or a guarantee worth at least the balance (s. 20(1)(c)). Either account must not be used for any other purpose. The Bank of Canada's <a href="{B_SG}" rel="noopener">safeguarding guideline</a> (December 2024) says no other method is prescribed under s. 20(1)(b). Section 20(3) stops the account provider from asserting set-off or compensation against the funds.</p>
+          <p>RPAR s. 15(1) gives the safeguarding framework two purposes: reliable access without delay, and payment to end users as soon as feasible after an insolvency event. Both objectives came up again when Bank staff spoke at the Bank's supervision update on 2 November 2026. Our <a href="rpaa-safeguarding-end-user-funds.html">RPAA safeguarding guide</a> covers the day-to-day rules.</p>"""),
+        ("event", "What counts as an insolvency event under RPAR s. 14(3)?", f"""          <p>Under RPAR s. 14(3), an insolvency event occurs when a PSP brings an insolvency proceeding against itself, consents to one, or reaches 30 days after another person brings one, unless that proceeding is discontinued or dismissed within those 30 days. RPAR s. 14(4) covers any bankruptcy, insolvency, liquidation, dissolution or winding-up process, under the law of any jurisdiction.</p>
+          <p>The same event is used in four places:</p>
+          <ul>
+            <li>insurance or guarantee proceeds become payable for end users as soon as feasible (RPAR s. 14(2)(b));</li>
+            <li>the framework must aim to pay end users as soon as feasible after it (RPAR s. 15(1)(b));</li>
+            <li>the PSP must find any instance where funds would not have been payable had it occurred (RPAR s. 16(1));</li>
+            <li>the Bank's <a href="{RP_INC}" rel="noopener">incident notification guideline</a> (paragraph 3.1.3) lists it as an example of a material incident.</li>
+          </ul>
+          <p>Guideline paragraph 3.26 says a PSP subject to such an event must notify the Bank under RPAA s. 18. Under the Bank's incident guideline, the PSP has 48 hours at most from its materiality decision to file. See our guide to <a href="rpaa-incident-reporting.html">RPAA incident reporting</a>.</p>"""),
+        ("compare", "Trust account or insured account: what differs in an insolvency?", f"""          <p>A trust account and an insured or guaranteed account are both accepted under RPAA s. 20(1), and both need a segregated safeguarding account. They protect end users through different legal routes. Deposit insurance alone does not meet the Act.</p>
+          <div class="table-wrap"><table>
+            <thead><tr><th scope="col">Point</th><th scope="col">Trust account</th><th scope="col">Insurance or guarantee</th><th scope="col">Deposit insurance (CDIC or provincial)</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">What protects end users</th><td>A valid express trust under Canadian law or the Civil Code of Québec (guideline 2.20 to 2.23)</td><td>Proceeds outside the PSP's estate that survive its insolvency and any restructuring (RPAR s. 14(2))</td><td>Protects the PSP as accountholder if its bank fails</td></tr>
+              <tr><th scope="row">What starts repayment</th><td>The PSP's return-of-funds procedures</td><td>An RPAR s. 14(3) event</td><td>Not paid out when the PSP itself fails (<a href="{B_SG_FAQ}" rel="noopener">Bank FAQ</a>)</td></tr>
+              <tr><th scope="row">Evidence the Bank asks for</th><td>A written legal opinion on the trust (Bank FAQ)</td><td>Terms meeting RPAR s. 14(2), from an unaffiliated, prudentially regulated provider</td><td>Not accepted as safeguarding</td></tr>
+              <tr><th scope="row">Risks the Bank names</th><td>Keeping interest may compromise the trust; foreign jurisdictions may not respect it</td><td>Cover not honoured; termination clauses</td><td>Funds held only at a member institution fail s. 20(1)</td></tr>
+            </tbody>
+          </table></div>
+          <p>The Bank lets a PSP combine the two accepted means (guideline 2.2). Under RPAA s. 20(2), a PSP that itself takes provincially insured deposits does not safeguard funds held as those deposits. That exception does not cover a PSP that only banks at a member institution (guideline 7.5).</p>
+          <p>Neither the Act nor the guideline says how a court or trustee would treat a particular arrangement in a bankruptcy. The Bank expects PSPs to get legal advice on trust validity and on complex cross-border cases (guideline 2.21 to 2.25). Ask a Canadian insolvency lawyer about your own structure.</p>"""),
+        ("ledger", "Why is the ledger the record of who is owed what?", f"""          <p>The ledger shows how much a PSP owes each end user. The Bank expects an insolvency trustee to be able to use it to work out what to return to each person (guideline 3.28.1). Under RPAR s. 15(2)(b), the ledger records every end user whose funds are held, how to contact them, and what the PSP holds for them at the close of each day.</p>
+          <p>The guideline adds that the ledger should:</p>
+          <ul>
+            <li>separate funds in the safeguarding account from funds not yet placed there, and show when funds are in trust (paragraph 3.7);</li>
+            <li>be updated every day, with real-time updates as best practice (paragraph 3.9);</li>
+            <li>hold current contact details so funds can be returned accurately (paragraphs 3.11 and 3.12);</li>
+            <li>record funds in transit, which the PSP has an instruction to send but has not sent (paragraph 3.28.1).</li>
+          </ul>
+          <p>At the 2 November 2026 session, Bank staff described the ledger as "more than just a record keeping tool." They said the Bank expects PSPs to trace funds to the specific safeguarding account that holds them.</p>"""),
+        ("shortfalls", "What happens to a shortfall if the PSP fails?", f"""          <p>A shortfall is money that should be safeguarded but is not. RPAR s. 16(1), headed "Evaluation of insolvency protection", requires a PSP to find, as soon as feasible, any instance where end-user funds would not have been payable to end users had an insolvency event occurred.</p>
+          <p>Guideline paragraphs 4.2 to 4.8 make this a quantitative test. Compare funds safeguarded, or insurance cover, with funds held. Check daily as best practice and fix gaps in a timely manner. Investigate the root cause immediately (RPAR s. 16(2)) and report each shortfall in the annual report (RPAR s. 19(3)(c)). Funds not placed on receipt because of processing constraints count as shortfalls.</p>
+          <p>Bank staff said at the session that shortfalls can start in settlement and processing, in reconciliation or ledger errors, in failed systems or third parties, and in unauthorized transactions or returned payments.</p>
+          <p>On insolvency, the procedures should give a final reconciliation of funds held, funds safeguarded and any shortfall, with the trustee's options to address it (paragraph 3.30). The procedures should also tell end users whose funds were not safeguarded how they can advance claims (paragraph 3.29). The guideline does not say how those claims rank against other creditors, so get legal advice.</p>"""),
+        ("procedures", "What must procedures to return funds contain?", f"""          <p>Under RPAR s. 15(2)(c), the framework must explain how a trustee or insurer can reach all relevant records, contact end users as soon as feasible, and fix ledger errors and shortfalls. It must also set out the steps to return funds and the role of agents and third-party service providers.</p>
+          <p>Guideline paragraph 3.29 expects the procedures to say how the insurer will learn of the event and who contacts end users. They should also set out the instructions end users get, the payout methods they can choose, and how a trustee can reach funds at a financial institution. Paragraph 3.31 adds how agents are told to stop taking funds.</p>
+          <p>The <a href="{B_SG_FAQ}" rel="noopener">Bank's FAQ</a> says its role does not include administering claims or notifying insurers after an insolvency event. Bank staff said at the 2 November 2026 update that procedures should set out concrete steps and be "clear, comprehensive, and executable." Our guide to <a href="rpaa-compliance-frameworks.html">RPAA compliance frameworks</a> shows where they sit.</p>"""),
+        ("checklist", "What should an insolvency readiness checklist for PSPs cover?", f"""          <p>An insolvency readiness checklist should cover the trigger event, trustee access to records, the ledger, notices to insurers and end users, the final reconciliation, agents, shortfalls, legal risk and governance. Each row gives the source and the matching statement ID in the Bank's <a href="{IN6_SAT}" rel="noopener">safeguarding self-assessment tool</a> (October 2026). The Bank says the tool is voluntary and completing it does not demonstrate compliance.</p>
+          <div class="table-wrap"><table>
+            <thead><tr><th scope="col">Check</th><th scope="col">What to have ready</th><th scope="col">Source (tool ID)</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Event watch</th><td>A named person who decides when an s. 14(3) event has occurred and files the incident notice within 48 hours</td><td>RPAR s. 14(3); guideline 3.26 (C15)</td></tr>
+              <tr><th scope="row">Records access</th><td>Trustee access to the ledger, end-user and trust agreements, account agreements and any policy, including third-party records</td><td>RPAR s. 15(2)(c); guideline 3.28 (C16)</td></tr>
+              <tr><th scope="row">Ledger</th><td>Daily balance per end user, split into safeguarded, not yet placed and in transit</td><td>RPAR s. 15(2)(b); guideline 3.5 to 3.9 (C5 to C7)</td></tr>
+              <tr><th scope="row">Contact data</th><td>A routine that asks end users to confirm their details</td><td>Guideline 3.11, 3.12 (C9)</td></tr>
+              <tr><th scope="row">Insurer notice</th><td>The insurer's claim contact and the steps to notify it</td><td>Guideline 3.29 (C17)</td></tr>
+              <tr><th scope="row">End-user notices</th><td>Drafts with claim instructions, payout methods and wording for unsafeguarded funds</td><td>Guideline 3.29 (C17)</td></tr>
+              <tr><th scope="row">Final reconciliation</th><td>A named owner and a method splitting funds held, in transit, safeguarded and short</td><td>Guideline 3.30 (C18)</td></tr>
+              <tr><th scope="row">Agents and third parties</th><td>Stop instructions, the records they hold and their payout role</td><td>Guideline 3.31 (C19)</td></tr>
+              <tr><th scope="row">Shortfall method</th><td>Daily checks, root-cause notes, fixes and the annual report entry</td><td>RPAR s. 16; guideline 4.1 to 4.8 (D1, D3 to D5)</td></tr>
+              <tr><th scope="row">Legal risk</th><td>A current trust opinion or reviewed insurance terms, including termination and foreign-law risk</td><td>RPAR s. 15(3); guideline 3.32 to 3.34</td></tr>
+              <tr><th scope="row">Governance</th><td>Annual review and approval, and an independent review at least every three years</td><td>RPAR ss. 15(5), 15(6), 17 (C23 to C25, E1)</td></tr>
+            </tbody>
+          </table></div>
+          <p>We also suggest a desk walk-through: ask someone outside the safeguarding team to return funds on paper using only your records. The Bank has not prescribed a test format. Guideline 3.3 says the framework should suit the people who will use it.</p>"""),
+        ("end-users", "What can end users check about a provider holding their money?", f"""          <p>If you keep a balance with a payment app or other PSP, check that it is registered with the Bank of Canada, that its terms say how your money is safeguarded, and that it has your current contact details.</p>
+          <ul>
+            <li>Search the <a href="{IN6_REGISTRY}" rel="noopener">Bank's registry of payment service providers</a>. As of 3 November 2026, it shows each PSP's payment functions, including whether it holds funds. The Bank also lists <a href="{IN6_REFUSED}" rel="noopener">refused or revoked registrations</a> and <a href="{RP_NOV}" rel="noopener">notes published violations</a> on registry entries.</li>
+            <li>Read registration for what it is. The Bank's FAQ says it does not give PSPs a licence. Bank staff also said at the 2 November 2026 session that a registered PSP did not have to demonstrate compliance before it was registered.</li>
+            <li>Read the terms. A PSP should tell you which of your funds are safeguarded (guideline 1.4.1) and when funds may not be protected straight away on receipt (paragraph 2.7.3).</li>
+            <li>Don't rely on deposit insurance. CDIC or provincial cover at the PSP's bank does not pay out when the PSP itself fails.</li>
+            <li>Keep your email and phone number current, since that is how a trustee would reach you. Save statements showing your balance.</li>
+          </ul>
+          <p>If a provider fails, read its notices and follow the trustee's instructions. The Bank does not administer claims, and a lawyer can advise on your position. PSPs can have these procedures built into their safeguarding framework through our <a href="rpaa-compliance-program.html">RPAA compliance program</a>.</p>"""),
+    ],
+    faqs=[("What happens to my money if a payment app goes bankrupt in Canada?", "If the app is a PSP holding your funds, RPAA s. 20 requires them to be held in trust or covered by insurance or a guarantee, and its procedures must aim to return them as soon as feasible. For any amount that was not safeguarded, the procedures should tell you how to make a claim."),
+          ("Is money in a payment app covered by CDIC?", "Not against the app's own failure. The Bank of Canada's FAQ says deposit insurance protects the PSP as accountholder if its bank fails, and is not paid out when the PSP itself becomes insolvent."),
+          ("Does the Bank of Canada pay customers back if a PSP becomes insolvent?", "No. The Bank's FAQ says its role does not include administering claims or notifying insurers. The PSP's safeguarding framework must explain how a trustee or insurer will return funds."),
+          ("What is an insolvency event under the RPAR?", "Under RPAR s. 14(3), it is a PSP bringing an insolvency proceeding against itself, consenting to one, or 30 days passing after someone else brings one that is not discontinued or dismissed."),
+          ("How often must a PSP review its insolvency procedures?", "At least once a year as part of the safeguarding framework review under RPAR s. 15(6), and after changes to its safeguarding means, accounts or insurance. An independent review is also needed at least every three years under s. 17.")],
+    sources=[("Retail Payment Activities Act, s. 20", RP_ACT), ("Retail Payment Activities Regulations, ss. 13 to 17", RP_REGS),
+             ("Bank of Canada, Safeguarding end-user funds guideline (December 2024)", B_SG), ("Bank of Canada, FAQ on safeguarding end-user funds", B_SG_FAQ),
+             ("Bank of Canada, Safeguarding end-user funds: Self-assessment tool (October 2026)", IN6_SAT), ("Bank of Canada, Incident notification guideline (October 2024)", RP_INC),
+             ("Bank of Canada, Registry of payment service providers", IN6_REGISTRY), ("Bank of Canada, Refused or revoked registrations", IN6_REFUSED),
+             ("Bank of Canada, Publishing notices of violation", RP_NOV)],
+    related=["rpaa-safeguarding-end-user-funds.html", "rpaa-incident-reporting.html", "rpaa-compliance-frameworks.html"],
+)
+
+
+# ------------------------------------------------------------------ real-time-rail-rpaa-digital-wallets.html (2026-11-03)
+# Snippet for guides_v3.py: Real-Time Rail access and the RPAA digital wallet amendment.
+# Run with exec() after guides_v3.py's own definitions (GUIDES must exist). Sources checked 3 November 2026.
+
+RT7_RPAA = "https://laws-lois.justice.gc.ca/eng/acts/R-7.36/FullText.html"
+RT7_RPAR = "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2023-229/FullText.html"
+RT7_CPA = "https://laws-lois.justice.gc.ca/eng/acts/C-21/FullText.html"
+RT7_FES_ACT = "https://laws-lois.justice.gc.ca/eng/AnnualStatutes/2024_15/FullText.html"
+RT7_BIA_ACT = "https://laws-lois.justice.gc.ca/eng/AnnualStatutes/2026_3/FullText.html"
+RT7_C15 = "https://www.parl.ca/legisinfo/en/bill/45-1/c-15"
+RT7_C59 = "https://www.parl.ca/legisinfo/en/bill/44-1/c-59"
+RT7_LOP_C15 = "https://lop.parl.ca/staticfiles/PublicWebsite/Home/ResearchPublications/LegislativeSummaries/PDF/45-1/45-1-C15-E.pdf"
+RT7_BUDGET_CH1 = "https://budget.canada.ca/2025/report-rapport/chap1-en.html"
+RT7_PC_MEMBER = "https://www.payments.ca/connect/membership"
+RT7_PC_PSP = "https://www.payments.ca/connect/membership/payment-service-provider-participation"
+RT7_PC_LAUNCH = "https://www.payments.ca/systems-services/payment-systems/real-time-rail-payment-system/testing-and-launch"
+RT7_PC_FAQ = "https://www.payments.ca/systems-services/payment-systems/real-time-rail-payment-system/frequently-asked-questions"
+RT7_PC_CPA_NEWS = "https://www.payments.ca/expanded-access-critical-payment-infrastructure-will-drive-competition-and-growth-canada"
+RT7_PC_22 = "https://www.payments.ca/payments-canada-welcomes-six-new-members-expanded-membership-eligibility-reaches-one-year-milestone"
+RT7_PC_BYLAW = "https://www.payments.ca/critical-milestone-achieved-law-and-rules-approved-canadas-real-time-rail"
+RT7_GAZ_BYLAW10 = "https://gazette.gc.ca/rp-pr/p2/2026/2026-07-01/html/sor-dors133-eng.html"
+RT7_PC_Q3 = "https://www.payments.ca/canadas-real-time-rail-quarterly-update-jude-pinto-2026-q3"
+RT7_BOC_SA = "https://www.bankofcanada.ca/core-functions/financial-system/bank-canadas-settlement-account-policies-for-payments-canada-payment-systems/"
+RT7_BOC_CRIT = "https://www.bankofcanada.ca/2026/06/criteria-for-registering-payment-service-providers/"
+
+GUIDES["real-time-rail-rpaa-digital-wallets.html"] = dict(
+    checked="3 November 2026",
+    title="PSP Real-Time Rail Access and RPAA Digital Wallets | AML Canada",
+    desc="Can PSPs join the Real-Time Rail, and is the RPAA digital wallet amendment in force? Sources, status as of 3 November 2026 and what PSPs should do now.",
+    crumb="Real-Time Rail and digital wallets",
+    h1="Real-Time Rail access for PSPs and the RPAA digital wallet amendment",
+    lede="Real-Time Rail access is now open to payment service providers (PSPs) registered under the RPAA, through Payments Canada membership, and Payments Canada targets the system's launch for Q4 2026. Separately, Bill C-15 adds a payment function for tokenized payment instruments and private keys, which, as of 3 November 2026, isn't in force.",
+    label="Guide · RPAA",
+    service="rpaa-registration.html",
+    date="2026-11-03",
+    takeaways=["Since September 2025, the Canadian Payments Act lets RPAA-registered PSPs apply to become members of Payments Canada.",
+               "RTR participation needs RPAA registration, Payments Canada membership and a settlement route, in that order.",
+               "Payments Canada targets an RTR launch in Q4 2026, with onboarding phases running to Q3 2027.",
+               "The new tokenized-instrument and private-key payment function awaits an order in council, and the Bank's guidance on it is still pending."],
+    sections=[
+        ("at-a-glance", "Which two changes affect PSPs, and where do they stand?", f"""          <p>The first change lets registered PSPs connect to Canada's national payment systems, including the Real-Time Rail (RTR). The second widens the RPAA's list of payment functions to cover wallet-style services. As of 3 November 2026, the first is in force, and the second is law but not in force.</p>
+          <div class="table-wrap"><table>
+            <thead><tr><th scope="col">Change</th><th scope="col">Source</th><th scope="col">Status as of 3 November 2026</th><th scope="col">What PSPs should do now</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">RPAA-registered PSPs can become Payments Canada members</th><td><a href="{RT7_CPA}" rel="noopener">Canadian Payments Act</a> paragraph 4(2)(i), added by S.C. 2024, c. 15, s. 220</td><td>In force since September 25, 2025. Payments Canada reported 22 new members in the first year</td><td>Confirm your RPAA registration is current, then contact Payments Canada about membership</td></tr>
+              <tr><th scope="row">PSP participation in the RTR</th><td>Payments Canada's <a href="{RT7_PC_PSP}" rel="noopener">PSP participation page</a> and the RTR By-law and Rules</td><td>By-law and Rules in force since August 24, 2026. Launch targeted for Q4 2026</td><td>Choose a participation model and a connection method</td></tr>
+              <tr><th scope="row">Bank of Canada settlement accounts for RTR participants</th><td>Bank of Canada <a href="{RT7_BOC_SA}" rel="noopener">settlement account policies</a>, last updated July 31, 2026</td><td>Open to members, or entities eligible for membership, that meet Payments Canada's requirements</td><td>Decide between your own settlement account and a settlement agent</td></tr>
+              <tr><th scope="row">New payment function for tokenized payment instruments and private keys</th><td>Bill C-15, S.C. 2026, c. 3, s. 604</td><td>Royal Assent March 26, 2026. Not in force. Waits for an order in council (s. 606)</td><td>List any feature that stores or transmits tokens or keys for end users</td></tr>
+              <tr><th scope="row">Incident notices to prescribed recipients for prescribed units</th><td>S.C. 2026, c. 3, s. 605</td><td>Not in force. It depends on future regulations</td><td>Note it in your incident response plan's change log</td></tr>
+              <tr><th scope="row">Bank of Canada guidance on the wallet amendment</th><td>Bank staff at the 2 November 2026 supervision update</td><td>Being finalized. Not published</td><td>Watch bankofcanada.ca and reassess your scoping when it's out</td></tr>
+            </tbody>
+          </table></div>"""),
+        ("membership", "Can non-bank PSPs join Payments Canada?", f"""          <p>Yes. Paragraph 4(2)(i) of the <a href="{RT7_CPA}" rel="noopener">Canadian Payments Act</a> has entitled a payment service provider, as defined in the RPAA, that performs retail payment activities to Payments Canada membership since September 25, 2025, if it meets the requirements in the regulations and by-laws.</p>
+          <p>The paragraph was added by section 220 of the <a href="{RT7_FES_ACT}" rel="noopener">Fall Economic Statement Implementation Act, 2023</a> (S.C. 2024, c. 15), which was <a href="{RT7_C59}" rel="noopener">Bill C-59</a> and received Royal Assent on June 20, 2024. An order in council set the start date (section 230), and the Justice Laws consolidation shows the paragraph from September 25, 2025. Payments Canada <a href="{RT7_PC_CPA_NEWS}" rel="noopener">announced on September 29, 2025</a> that the changes had been implemented.</p>
+          <p>Payments Canada's <a href="{RT7_PC_MEMBER}" rel="noopener">membership page</a> says membership alone doesn't guarantee access to its payment systems. On October 1, 2026, Payments Canada <a href="{RT7_PC_22}" rel="noopener">said</a> 22 new members had joined in the first year of expanded eligibility, including PSPs and credit union locals. Bank staff said at the Bank's 2 November 2026 supervision update that Payments Canada had begun welcoming a first wave of non-bank PSPs as participants and was still assessing and onboarding more.</p>"""),
+        ("participation", "What does a PSP need to participate in the Real-Time Rail?", f"""          <p>Payments Canada's <a href="{RT7_PC_PSP}" rel="noopener">eligibility checklist</a> lists four conditions. A PSP must be registered with the Bank of Canada under the RPAA, meet the PSP criteria, be a member of Payments Canada, and have a Bank of Canada settlement account or an agreement with a settlement agent. RPAA registration is the prerequisite for the whole path, so a business still waiting on the Bank's decision should plan around that wait.</p>
+          <p>Payments Canada describes the path in four stages:</p>
+          <ol>
+            <li><strong>Prerequisite.</strong> RPAA registration.</li>
+            <li><strong>Membership.</strong> An application, a review by Payments Canada and approval by the Board, which typically meets in March, May, September and December.</li>
+            <li><strong>RTR participation.</strong> A separate participant application. Payments Canada gives two to three weeks from submission for conditional approval by its President, subject to onboarding and testing.</li>
+            <li><strong>Go-live readiness.</strong> Onboarding, testing and certification in the test environment, an attestation for final approval, then production testing and rollout.</li>
+          </ol>
+          <p>A PSP can connect directly to exchange, clear and settle payments, or offer an RTR product through a participant. A direct participant can also sell connectivity to others. Payments Canada's <a href="{RT7_PC_FAQ}" rel="noopener">RTR FAQ</a> adds that each RTR participant must belong to an external complaints body and be registered with FINTRAC. Our guide to <a href="rpaa-vs-fintrac-msb-registration.html">RPAA vs FINTRAC MSB registration</a> explains the FINTRAC side.</p>
+          <p>For direct settlement, the Bank of Canada's <a href="{RT7_BOC_SA}" rel="noopener">settlement account policies</a> (last updated July 31, 2026) require an applicant to be a member of Payments Canada, or eligible to become one, and to meet Payments Canada's operational, technical and security requirements. The applicant then emails the Bank for a form.</p>"""),
+        ("launch", "When does the Real-Time Rail launch?", f"""          <p>Payments Canada's <a href="{RT7_PC_LAUNCH}" rel="noopener">testing and launch page</a>, checked 3 November 2026, targets a Q4 2026 launch with the first participants connecting directly to the RTR Exchange. Its target timeline then runs through 2027:</p>
+          <ul>
+            <li><strong>Q1 2027:</strong> the first participants migrating Interac e-Transfer clearing and settlement.</li>
+            <li><strong>Q2 2027:</strong> more e-Transfer migration participants.</li>
+            <li><strong>Q3 2027:</strong> all participants in the initial launch phases at full transaction volumes.</li>
+          </ul>
+          <p>Canadian Payments Association By-law No. 10, the RTR By-law, was registered as <a href="{RT7_GAZ_BYLAW10}" rel="noopener">SOR/2026-133</a> on June 18, 2026, and Payments Canada <a href="{RT7_PC_BYLAW}" rel="noopener">said</a> the By-law and the RTR Rules took effect on August 24, 2026. Bank staff said at the 2 November session that the RTR is "expected to launch soon with a phase rollout continuing through 2027." Payments Canada hadn't announced the launch as of 3 November 2026.</p>
+          <p>In its <a href="{RT7_PC_Q3}" rel="noopener">July 2026 quarterly update</a>, Payments Canada said there is no forced deadline for new participants to join. Each one goes live when it's ready, in the launch sequence.</p>"""),
+        ("wallet-amendment", "What is the RPAA digital wallet amendment?", f"""          <p>Section 604 of the <a href="{RT7_BIA_ACT}" rel="noopener">Budget 2025 Implementation Act, No. 1</a> (S.C. 2026, c. 3) adds a sixth payment function to section 2 of the <a href="{RT7_RPAA}" rel="noopener">RPAA</a>: "the transmission or maintenance of an end user's encrypted or tokenized payment instrument or an end user's private key, whether or not the private key is encrypted or tokenized." The Act was <a href="{RT7_C15}" rel="noopener">Bill C-15</a> in the 45th Parliament and received Royal Assent on March 26, 2026.</p>
+          <p>The amendment itself doesn't use the words "digital wallet." The Library of Parliament's <a href="{RT7_LOP_C15}" rel="noopener">legislative summary of Bill C-15</a> (January 19, 2026) reads it as aimed at digital wallet providers and notes that this could include stablecoins. Bank staff at the 2 November 2026 update described it the same way. They said the fall 2025 budget clarified the scope of digital wallets, which have been "separated out into a distinct payment function."</p>
+          <p>The change sits in Division 45 of the Act, which enacts the Stablecoin Act. <a href="{RT7_BUDGET_CH1}" rel="noopener">Budget 2025</a> said related RPAA amendments would let the government regulate PSPs that perform payment functions using prescribed stablecoins. Section 605 makes a second RPAA change: it adds any prescribed individual or entity to those a PSP must notify of a material incident under subsection 18(1), for incidents involving a unit that meets prescribed criteria.</p>"""),
+        ("in-force", "Is the RPAA digital wallet amendment in force?", f"""          <p>No. Section 606 of S.C. 2026, c. 3 says sections 601 to 605 come into force on a day or days fixed by order of the Governor in Council. The consolidated RPAA on the Justice Laws website, current to October 19, 2026, still lists sections 604 and 605 under "Amendments not in force." Until an order is made, the five existing payment functions remain the full list.</p>
+          <p>The Bank of Canada hasn't yet published guidance on the new function. Its <a href="{RT7_BOC_CRIT}" rel="noopener">registration criteria</a>, last updated June 29, 2026, still explain the five existing functions. Bank staff said at the 2 November session that the Bank is finalizing updates to its guidance materials so they reflect the fall 2025 budget changes before those changes come into force. They added that the Department of Finance leads on the legislation and decides the timing. No in-force date had been announced as of 3 November 2026.</p>"""),
+        ("who-affected", "Which wallet businesses could the new payment function reach?", f"""          <p>Any business that stores or passes on an end user's tokenized card, encrypted credential or private key should test its model against paragraph (f). Many wallet providers are already PSPs. The Bank's current criteria treat storing an end user's details for future transfers as providing or maintaining an account, and they treat encrypting or tokenizing a payment instruction as part of transmitting it. Our guide to <a href="who-must-register-psp-rpaa.html">who must register as a PSP</a> covers the five existing functions and the four-part test.</p>
+          <p>Two limits still apply after the change. A payment function only makes an activity a retail payment activity when it relates to an electronic funds transfer in Canadian dollars, a foreign currency or a unit that meets prescribed criteria. And a business whose payment functions are incidental to another business still isn't a PSP. The Bank's updated guidance should show how far paragraph (f) reaches beyond today's functions, so record your analysis now and revisit it then.</p>"""),
+        ("next", "What should PSPs do now?", f"""          <p>Map your wallet features, plan any RPAA notices, choose an RTR route, confirm the RTR prerequisites and update your framework. None of these steps has to wait for either date:</p>
+          <ul>
+            <li><strong>Map wallet features.</strong> List each feature that transmits or maintains a token, encrypted credential or private key for an end user, and the existing payment function that covers it today.</li>
+            <li><strong>Plan any filings.</strong> Before you perform a new retail payment activity, or make a change that could materially affect operational risk or safeguarding, RPAA section 22 requires notice to the Bank. Under section 20 of the <a href="{RT7_RPAR}" rel="noopener">Retail Payment Activities Regulations</a>, the notice must reach the Bank at least five business days ahead.</li>
+            <li><strong>Pick an RTR route.</strong> Decide whether to connect directly, through a third-party provider or through a participant, and whether to settle through your own Bank of Canada account or a settlement agent.</li>
+            <li><strong>Check the RTR prerequisites.</strong> Confirm your RPAA registration, FINTRAC registration and external complaints body membership before you apply.</li>
+            <li><strong>Update your framework.</strong> A 24/7 rail changes your availability targets, fraud monitoring and incident response, and any new connectivity provider is a third party you must assess. Our guide to <a href="rpaa-compliance-frameworks.html">RPAA compliance frameworks</a> covers those requirements.</li>
+          </ul>
+          <p>If you aren't registered yet, RTR access starts with the RPAA application. Our <a href="rpaa-registration.html">RPAA registration service</a> scopes your payment functions, including wallet features, before preparing it.</p>"""),
+    ],
+    faqs=[("Can PSPs join the Real-Time Rail?", "Yes, a non-bank PSP can if it's registered with the Bank of Canada under the RPAA. It must then become a Payments Canada member, apply separately for RTR participation and arrange settlement through its own Bank of Canada account or a settlement agent."),
+          ("When is the Real-Time Rail launching?", "Payments Canada's testing and launch page, checked 3 November 2026, targets a Q4 2026 launch. Participants then join in phases, with all initial-phase participants at full volumes targeted for Q3 2027."),
+          ("Is the RPAA digital wallet amendment in force?", "No. Section 604 of the Budget 2025 Implementation Act, No. 1 (S.C. 2026, c. 3) takes effect only once the Governor in Council makes an order, and none had been made as of 3 November 2026."),
+          ("Do digital wallet providers need to register under the RPAA?", "Many already do, because storing an end user's details for future transfers counts as maintaining an account. Once in force, the new payment function will expressly cover transmitting or maintaining tokenized payment instruments and private keys.")],
+    sources=[("Canadian Payments Act", RT7_CPA), ("Fall Economic Statement Implementation Act, 2023, S.C. 2024, c. 15", RT7_FES_ACT),
+             ("LEGISinfo, Bill C-59 (44th Parliament, 1st Session)", RT7_C59), ("Budget 2025 Implementation Act, No. 1, S.C. 2026, c. 3", RT7_BIA_ACT),
+             ("LEGISinfo, Bill C-15 (45th Parliament, 1st Session)", RT7_C15), ("Library of Parliament, Legislative Summary of Bill C-15", RT7_LOP_C15),
+             ("Budget 2025, Chapter 1", RT7_BUDGET_CH1), ("Retail Payment Activities Act", RT7_RPAA), ("Retail Payment Activities Regulations", RT7_RPAR),
+             ("Payments Canada, Membership", RT7_PC_MEMBER), ("Payments Canada, Payment service provider participation", RT7_PC_PSP),
+             ("Payments Canada, RTR testing and launch", RT7_PC_LAUNCH), ("Payments Canada, RTR frequently asked questions", RT7_PC_FAQ),
+             ("Payments Canada, Canadian Payments Act changes implemented (September 29, 2025)", RT7_PC_CPA_NEWS),
+             ("Payments Canada, Six new members (October 1, 2026)", RT7_PC_22), ("Payments Canada, RTR By-law and Rules approved (June 30, 2026)", RT7_PC_BYLAW),
+             ("Canada Gazette, Part II, SOR/2026-133 (By-law No. 10, RTR)", RT7_GAZ_BYLAW10),
+             ("Payments Canada, RTR quarterly update 2026 Q3 (July 9, 2026)", RT7_PC_Q3),
+             ("Bank of Canada, Settlement account policies for Payments Canada payment systems", RT7_BOC_SA),
+             ("Bank of Canada, Criteria for registering payment service providers", RT7_BOC_CRIT)],
+    related=["who-must-register-psp-rpaa.html", "rpaa-compliance-frameworks.html", "rpaa-vs-fintrac-msb-registration.html"],
+)
+
+
 GUIDES = dict(sorted(GUIDES.items(), key=lambda kv: (kv[1].get("date", PUBLISHED), list(GUIDES).index(kv[0])), reverse=True))

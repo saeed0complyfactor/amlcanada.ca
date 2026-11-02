@@ -23,6 +23,154 @@ F_VC_IND = "https://fintrac-canafe.canada.ca/guidance-directives/transaction-ope
 
 POSTS = {}
 
+# ------------------------------------------------------------------ 2026-11-03 Bank of Canada supervision update
+# ------------------------------------------------------------------ 2026-11-03 BoC PSP supervision update recap
+# Update post. Facts checked 3 November 2026 against the sources below; session remarks are attributed in the text.
+BU1_ACT = "https://laws-lois.justice.gc.ca/eng/acts/R-7.36/FullText.html"
+BU1_REGS = "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2023-229/FullText.html"
+BU1_MILE = "https://www.bankofcanada.ca/regulatory-oversight/retail-payments/retail-payments-supervision-key-milestones/"
+BU1_ORIR = "https://www.bankofcanada.ca/wp-content/uploads/2024/02/operational-risk-and-incident-response.pdf"
+BU1_INC = "https://www.bankofcanada.ca/wp-content/uploads/2024/02/Incident-notification.pdf"
+BU1_SG = "https://www.bankofcanada.ca/wp-content/uploads/2024/02/safeguarding-end-user-funds.pdf"
+BU1_SAT = "https://www.bankofcanada.ca/wp-content/uploads/2026/10/safeguarding-end-user-funds_self-assessment-tool.pdf"
+BU1_FAQ = "https://www.bankofcanada.ca/2026/08/frequently-asked-questions-about-retail-payments-supervision/"
+BU1_ENF = "https://www.bankofcanada.ca/regulatory-oversight/retail-payments/enforcement-decisions/"
+BU1_NOV = "https://www.bankofcanada.ca/2026/06/bank-canada-begin-publishing-notices-violation-payment-service-providers/"
+BU1_REVIEW = "https://www.bankofcanada.ca/2025/01/reviews-and-appeals/"
+BU1_AR = "https://www.bankofcanada.ca/2024/10/annual-reporting/"
+BU1_METRICS = "https://www.bankofcanada.ca/2024/10/annual-reporting-of-retail-payment-activity-metrics/"
+BU1_CRIT = "https://www.bankofcanada.ca/2026/06/criteria-for-registering-payment-service-providers/"
+BU1_ACQ = "https://www.bankofcanada.ca/2024/08/acquisitions-of-control-and-prescribed-changes/"
+BU1_CHG = "https://www.bankofcanada.ca/2026/06/reporting-changes-to-registration-information/"
+BU1_C3 = "https://laws-lois.justice.gc.ca/eng/AnnualStatutes/2026_3/FullText.html"
+BU1_C30 = "https://www.parl.ca/legisinfo/en/bill/45-1/c-30"
+BU1_STABLE = "https://gazette.gc.ca/rp-pr/p1/2026/2026-10-24/html/reg1-eng.html"
+BU1_CDB = "https://gazette.gc.ca/rp-pr/p1/2026/2026-06-27/html/reg3-eng.html"
+BU1_PC = "https://www.payments.ca/connect/membership/payment-service-provider-participation"
+
+POSTS["bank-of-canada-psp-supervision-update-november-2026.html"] = dict(
+    checked="3 November 2026",
+    title="Bank of Canada PSP Supervision Update, 2 Nov 2026 | AML Canada",
+    desc="What PSPs heard at the Bank of Canada PSP supervision update on 2 November 2026: priorities, safeguarding, enforcement, AI, fees, policy and 14 audience Q&As.",
+    crumb="BoC supervision update, Nov 2026",
+    h1="Bank of Canada PSP supervision update, 2 November 2026: what PSPs heard",
+    lede="At its Bank of Canada PSP supervision update on 2 November 2026, the Bank told payment service providers (PSPs) that it expects full compliance with the Retail Payment Activities Act (RPAA) now, after its first year of supervision. Staff covered assessments, safeguarding, enforcement, AI risk, PSP Connect, annual reporting, cost recovery and policy, then answered 14 audience questions.",
+    label="Update · RPAA",
+    service="rpaa-compliance-program.html",
+    kind="update",
+    date="2026-11-03",
+    takeaways=["Bank staff said every PSP should already comply, and an assessment starts with a request for information that asks for evidence of practice.",
+               "As of 3 November 2026, all 13 published RPAA notices of violation carry a $0 penalty and concern late registration. Staff said penalties with amounts will follow.",
+               "The next annual report is due March 31, 2027 for the 2026 calendar year, and staff signalled stricter enforcement for late filers.",
+               "Assessment fees and the new digital wallet payment function were not in force on 3 November 2026. Bank staff said they expect fees to start in 2027."],
+    sections=[
+        ("glance", "What did the Bank of Canada cover at its 2 November 2026 PSP supervision update?", f"""          <p>The Bank of Canada held a virtual RPAA supervision update for PSPs on 2 November 2026, a little over a year after the operational risk, safeguarding and reporting requirements took effect on September 8, 2025, according to its <a href="{BU1_MILE}" rel="noopener">supervision milestones page</a>. Statuses below are as of 3 November 2026.</p>
+          <div class="table-wrap"><table>
+            <thead><tr><th scope="col">Segment</th><th scope="col">Main point</th><th scope="col">Next step or date</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Supervision priorities</th><td>Six recurring framework gaps</td><td>Assessments open with a request for information</td></tr>
+              <tr><th scope="row">Safeguarding</th><td>Evidence for each account and a traceable ledger</td><td>Self-assessment tool, October 2026</td></tr>
+              <tr><th scope="row">Enforcement</th><td>13 notices of violation, all $0, all for late registration</td><td>Penalties with amounts to be published</td></tr>
+              <tr><th scope="row">AI</th><td>No new rules</td><td>Map AI use to your framework</td></tr>
+              <tr><th scope="row">PSP Connect</th><td>Shared messages, several admins</td><td>New metrics screens</td></tr>
+              <tr><th scope="row">Annual reporting</th><td>92% filed; section 4 errors</td><td>Due March 31, 2027</td></tr>
+              <tr><th scope="row">Cost recovery</th><td>Fees not in force</td><td>Interim bill expected spring 2027</td></tr>
+              <tr><th scope="row">Policy</th><td>Digital wallets, stablecoins, consumer-driven banking, Real-Time Rail</td><td>Finance Canada sets timing</td></tr>
+            </tbody>
+          </table></div>"""),
+        ("priorities", "What are the Bank of Canada's supervision priorities for PSPs?", """          <p>Bank staff said every PSP should already comply with the operational risk and incident response requirements, and that supervision is risk-based and centred on end-user impact. Staff listed six areas where some PSPs fell short:</p>
+          <ul>
+            <li>yearly framework approval by the senior officer and any board (RPAR section 5);</li>
+            <li>indicators for each integrity, confidentiality and availability objective;</li>
+            <li>a yearly assessment of every third-party provider that supports a payment function;</li>
+            <li>prescribed incident plan items, such as escalation and transaction status;</li>
+            <li>monitoring for anomalous events;</li>
+            <li>procedures another person could repeat.</li>
+          </ul>
+          <p>Staff walked through the assessment cycle: document request, review and questions, then findings in writing and a wrap-up meeting. Staff said "assessment readiness starts before an assessment begins." Our guide to <a href="rpaa-compliance-frameworks.html">RPAA compliance frameworks</a> covers each requirement.</p>"""),
+        ("safeguarding", "What did the Bank say about safeguarding end-user funds?", f"""          <p>Bank staff said a safeguarding account holds end-user funds only, and a PSP should have evidence for each account that no right of set-off or compensation applies. Other points:</p>
+          <ul>
+            <li>Trust arrangements need trust documents and a legal opinion, described in the Bank's <a href="{BU1_FAQ}" rel="noopener">supervision FAQ</a>.</li>
+            <li>Insurance or guarantee cover still requires segregation.</li>
+            <li>Funds not placed on receipt are logged as a shortfall, under paragraphs 2.7 to 2.9 of the <a href="{BU1_SG}" rel="noopener">safeguarding guideline</a>.</li>
+            <li>Staff called daily shortfall checks a best practice.</li>
+          </ul>
+          <p>The Bank's October 2026 <a href="{BU1_SAT}" rel="noopener">self-assessment tool</a> says it is voluntary and that completing it does not show compliance. Our <a href="rpaa-safeguarding-end-user-funds.html">safeguarding guide</a> explains the rules.</p>"""),
+        ("enforcement", "How is the Bank of Canada enforcing the RPAA?", f"""          <p>Bank staff described a graduated approach that usually starts with supervision and escalates when that fails or a case is serious. As of 3 November 2026, the Bank's <a href="{BU1_ENF}" rel="noopener">enforcement decisions list</a> shows 13 notices of violation, each with a $0 penalty, all for operating before registering as RPAA section 23 requires.</p>
+          <p>Warning letters stay private. Under RPAA paragraph 76(2)(b), a compliance agreement can halve a penalty, and section 101 lets the regulations set penalties of up to $10 million per violation. According to staff, future notices will sometimes carry a dollar penalty, and those will be posted too. Late 2026 annual reports drew warning letters, and staff said the 2027 cycle will likely involve different tools.</p>"""),
+        ("ai", "Are there AI-specific RPAA requirements for PSPs?", """          <p>No. Bank staff said existing RPAA and RPAR expectations continue to apply as AI evolves, so AI use sits inside the risk management and incident response framework a PSP already has. Staff named shadow AI, prompt injection, AI-made impersonation and shared model providers as risks. They stressed a named owner for each use case, narrow permissions, human reviewers who can stop an action, and logs that can reconstruct events.</p>"""),
+        ("psp-connect", "What has changed in PSP Connect?", """          <p>Bank staff said portal messages are now visible to all of a PSP's authorized users, while automated messages still go to the primary contact. A PSP can have more than one organization admin to add and remove users. A bug that blocked registration information change submissions is fixed, and a fix for copying earlier answers into a change report is in progress.</p>"""),
+        ("annual-report", "What did the first RPAA annual report cycle show?", f"""          <p>The first annual report drew filings from 92% of PSPs registered by late March 2026, Bank staff said, and the Bank followed up with the other 8% because not filing is a violation. Most errors were in section 4: blank fields, all-end-user totals lower than Canadian-only totals, and a misread electronic funds transfer definition.</p>
+          <p>Under RPAR section 18, the 2026 report must reach the Bank by March 31, 2027. Staff said the new form flags incomplete or inconsistent entries and accepts figures pasted in bulk from a spreadsheet such as Excel. One staff member said: "The value of the information really depends on it being complete and accurate." See the Bank's <a href="{BU1_METRICS}" rel="noopener">metrics guidance</a> and our <a href="rpaa-annual-report.html">RPAA annual report guide</a>.</p>"""),
+        ("fees", "When will PSPs pay RPAA assessment fees?", f"""          <p>Not yet. As of 3 November 2026, the RPAA's assessment fee sections (99 and 100) are not in force, and Bank staff said they expect cost recovery to start in 2027, subject to change. The <a href="{BU1_C30}" rel="noopener">Spring Economic Update 2026 Implementation Act</a>, which received Royal Assent on June 18, 2026, moves these powers into the Bank of Canada Act on a date to be set by order.</p>
+          <p>On staff's timeline, a first invoice in spring 2027 would use the 2026 annual report figures, and its amount would come off the spring 2028 invoice. Staff did not say which figures will set the bill.</p>"""),
+        ("policy", "Which policy changes affect PSPs next?", f"""          <p>Bank staff said the Department of Finance leads legislation and timing. Status as of 3 November 2026:</p>
+          <ul>
+            <li><strong>Digital wallets.</strong> The <a href="{BU1_C3}" rel="noopener">Budget 2025 Implementation Act, No. 1</a> (S.C. 2026, c. 3, s. 604) would add a payment function for maintaining an end user's tokenized payment instrument or private key. It is not yet in force.</li>
+            <li><strong>Stablecoins.</strong> Proposed <a href="{BU1_STABLE}" rel="noopener">Stablecoin Regulations</a> appeared in the Canada Gazette, Part I, on October 24, 2026.</li>
+            <li><strong>Consumer-driven banking.</strong> Proposed <a href="{BU1_CDB}" rel="noopener">regulations</a> appeared on June 27, 2026, for a framework overseen by the Bank.</li>
+            <li><strong>Real-Time Rail.</strong> Payments Canada requires RPAA registration for <a href="{BU1_PC}" rel="noopener">PSP membership</a>. Staff said the rail should launch soon, phased through 2027.</li>
+          </ul>"""),
+        ("questions", "What did PSPs ask the Bank, and what did staff answer?", f"""          <p>These are the audience questions as read out, with light grammar cleanup.</p>
+          <h3>When can we expect all applicants to be reviewed?</h3>
+          <p>There is no set timeline, staff said, since each file passes to the Department of Finance, which coordinates the national security review, once the Bank is done. Sending a complete file the first time cuts delays.</p>
+          <h3>What happens if PSPs that should be registered don't register? Is there any action the Bank of Canada can take? What should PSPs do if they see competitors in their vertical not registered as a PSP?</h3>
+          <p>Staff said operating unregistered is a very serious violation and has drawn notices of violation. Concerns can go through the Bank's general inquiries form, though the Bank won't report back.</p>
+          <h3>What operational threshold constitutes a material impact that requires an immediate incident report to the Bank?</h3>
+          <p>Staff said an incident is reportable when it materially affects an end user, another PSP or a clearing house, whatever the root cause, and the <a href="{BU1_INC}" rel="noopener">incident notification guideline</a> gives examples. Notify the Bank and affected parties within 48 hours; see our <a href="rpaa-incident-reporting.html">incident reporting guide</a>.</p>
+          <h3>As PSPs increasingly adopt AI for fraud detection, AML monitoring and risk management, how does the Bank view the balance between innovation, model risk, data protection and regulatory oversight?</h3>
+          <p>Staff said the RPAA aims to support responsible innovation, while a PSP using AI stays answerable for the results. The Bank looks at outcomes and does not prescribe technologies.</p>
+          <h3>What is the review and appeals process following a refusal of a registration application?</h3>
+          <p>Request a review within 30 days after service, and appeal the review decision to the Federal Court within 30 days, according to the Bank's <a href="{BU1_REVIEW}" rel="noopener">reviews and appeals page</a>.</p>
+          <h3>How does the Bank plan to align RPAA requirements with other Canadian regimes, such as FINTRAC and provincial money services business rules, to avoid duplicate obligations?</h3>
+          <p>Staff said the mandates differ, and talks with FINTRAC and others have started, possibly toward a memorandum of understanding. Our <a href="rpaa-vs-fintrac-msb-registration.html">RPAA vs FINTRAC guide</a> compares them.</p>
+          <h3>What are the biggest lessons that the Bank has learned so far? Have there been any surprises?</h3>
+          <p>Staff said early compliance problems came as no surprise. They added that registration is activity-based and does not mean a PSP showed compliance before it was registered.</p>
+          <h3>What will be the significant changes in oversight and regulation over the next 12 months?</h3>
+          <p>Staff expect no major RPAA shifts, and named the assessment fee formula as the main new item.</p>
+          <h3>Are there any examples, templates or best practice formats that the Bank of Canada recommends for documenting annual testing plans and procedures?</h3>
+          <p>No. Staff said one format wouldn't suit every business model, so PSPs should follow the <a href="{BU1_ORIR}" rel="noopener">operational risk guideline</a>.</p>
+          <h3>Is a payment facilitator between a merchant and acquirer subject to holding funds requirements if it settles to the merchant immediately? What if settlement occurs the next business day or once a week?</h3>
+          <p>Staff said it depends on the facts: funds sent on with an immediate transfer instruction are generally not held, while funds kept for a predetermined future settlement date typically are. The Bank's <a href="{BU1_CRIT}" rel="noopener">registration criteria</a> explain the test.</p>
+          <h3>How should PSPs handle changes in control, new owners or new key persons, and does the Bank need advance notice or approval?</h3>
+          <p>An acquisition of control needs registration under a new application before closing (<a href="{BU1_ACQ}" rel="noopener">Bank policy</a>). Staff said new key persons need advance notice through PSP Connect and no approval.</p>
+          <h3>What level of detail does the Bank expect in an incident report, and how does it want post-incident reviews handled?</h3>
+          <p>Staff said to notify within 48 hours, add interim notices, and finish with a final notice giving the root cause and fixes. Staff expect a post-incident review.</p>
+          <h3>For smaller or less complex PSPs, what would the Bank of Canada consider sufficient evidence to demonstrate compliance with the annual RPAA testing requirement?</h3>
+          <p>Staff said scope and frequency can be proportionate and risk-based, and smaller PSPs still need thorough, documented testing.</p>
+          <h3>What are the biggest challenges in moving from policy objectives on paper to operational frameworks that work in practice for both incumbents and innovators? How do you ensure that oversight supports innovation rather than slowing it down?</h3>
+          <p>Staff said the two can coexist when rules stay workable, and the Bank coordinates with Finance and other regulators to limit duplication.</p>"""),
+    ],
+    faqs=[("What did the Bank of Canada say at its November 2026 PSP supervision update?", "At its 2 November 2026 update, the Bank said PSPs should already comply with the RPAA. Staff covered framework gaps, safeguarding, enforcement, AI, PSP Connect, annual reports, assessment fees and policy."),
+          ("Has the Bank of Canada fined any PSPs under the RPAA?", "As of 3 November 2026, the Bank had published 13 notices of violation, all with a $0 penalty for late registration. Staff said penalties with amounts will follow."),
+          ("When is the next RPAA annual report due?", "The 2026 report is due by March 31, 2027, under section 18 of the Retail Payment Activities Regulations."),
+          ("Do PSPs pay RPAA assessment fees yet?", "No, not as of 3 November 2026. Bank staff said they expect fees from 2027, with interim bills in spring 2027, subject to change."),
+          ("Is a registered PSP considered compliant by the Bank of Canada?", "No. Bank staff said registration brings a PSP into supervision. Compliance is checked afterwards through reporting and assessments.")],
+    sources=[("Bank of Canada, Retail payments supervision key milestones", BU1_MILE),
+             ("Bank of Canada, Operational risk and incident response guideline", BU1_ORIR),
+             ("Bank of Canada, Incident notification guideline", BU1_INC),
+             ("Bank of Canada, Safeguarding end-user funds guideline", BU1_SG),
+             ("Bank of Canada, Safeguarding end-user funds: self-assessment tool", BU1_SAT),
+             ("Bank of Canada, Retail payments supervision FAQ", BU1_FAQ),
+             ("Bank of Canada, Enforcement decisions", BU1_ENF),
+             ("Bank of Canada, Publishing notices of violation", BU1_NOV),
+             ("Bank of Canada, Reviews and appeals", BU1_REVIEW),
+             ("Bank of Canada, Annual reporting (supervisory policy)", BU1_AR),
+             ("Bank of Canada, Annual reporting of retail payment activity metrics", BU1_METRICS),
+             ("Bank of Canada, Criteria for registering payment service providers", BU1_CRIT),
+             ("Bank of Canada, Acquisitions of control and prescribed changes", BU1_ACQ),
+             ("Bank of Canada, Reporting changes to registration information", BU1_CHG),
+             ("Retail Payment Activities Act", BU1_ACT),
+             ("Retail Payment Activities Regulations", BU1_REGS),
+             ("Budget 2025 Implementation Act, No. 1, S.C. 2026, c. 3", BU1_C3),
+             ("Parliament of Canada, Bill C-30 (Spring Economic Update 2026 Implementation Act)", BU1_C30),
+             ("Canada Gazette, Part I, Proposed Stablecoin Regulations", BU1_STABLE),
+             ("Canada Gazette, Part I, Proposed Consumer-Driven Banking Regulations", BU1_CDB),
+             ("Payments Canada, Payment service provider participation", BU1_PC)],
+    related=["rpaa-compliance-frameworks.html", "rpaa-annual-report.html", "rpaa-safeguarding-end-user-funds.html"],
+)
+
+
 # ------------------------------------------------------------------ 2026-10-30 Necosmart penalty
 P_NECO = "https://fintrac-canafe.canada.ca/pen/amps/pen-2026-05-14-eng"
 P_NECO_NR = "https://fintrac-canafe.canada.ca/new-neuf/nr/2026-05-14-eng"
