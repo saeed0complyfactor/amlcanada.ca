@@ -61,7 +61,7 @@ def listings_html():
                 <td><span class="redact" aria-hidden="true">N300000000</span><span class="sr-only">Registry number shared under NDA</span></td>
                 <td><span class="listing-status">{l['status']}</span><br><a href="contact.html?need=acquire&amp;entity={l['slug']}">Ask about this MSB</a></td>
               </tr>""" for l in LISTINGS)
-    return f"""          <p>These Canadian companies are registered with FINTRAC as money services businesses and are available to acquire now. None has traded. Names and registration numbers are shared under NDA, and you can then check each one yourself on <a href="{F_REGISTRY}" rel="noopener">FINTRAC's public MSB registry</a> before paying anything.</p>
+    return f"""          <p>These Canadian companies are registered with FINTRAC as money services businesses and are for sale now. None has traded. Names and registration numbers are shared under NDA, and you can then check each one yourself on <a href="{F_REGISTRY}" rel="noopener">FINTRAC's public MSB registry</a> before paying anything.</p>
           <div class="table-wrap"><table class="listing-table">
             <thead><tr><th scope="col">Company</th><th scope="col">FINTRAC dates</th><th scope="col">Registered services (as listed by FINTRAC)</th><th scope="col">Registry no.</th><th scope="col">Status</th></tr></thead>
             <tbody>
@@ -403,18 +403,18 @@ DEEP["msb-for-sale.html"] = dict(
     name="MSB for sale",
     modified="2026-10-25",
     checked="25 October 2026",
-    title="FINTRAC-Registered MSBs for Sale in Canada | AML Canada",
-    desc="Registered Canadian MSBs for sale now, from €28,000. Check each one on FINTRAC's registry before you pay. Due diligence and FINTRAC updates handled with you.",
+    title="Canadian MSB for Sale: Buy a Ready-Made MSB | AML Canada",
+    desc="Buy a ready-made Canadian MSB: FINTRAC-registered companies for sale now, from €28,000. Check each one on FINTRAC's registry before you pay.",
     service_type="Acquisition of a FINTRAC-registered money services business",
     offers=[("28000", "EUR", "Registered Canadian MSB for acquisition, starting price")],
-    kicker="Registered MSB for sale in Canada",
+    kicker="MSB for sale in Canada: ready-made and FINTRAC-registered",
     h1="A registered Canadian MSB, ready to take over.",
-    lede="Acquire a Canadian company already registered with FINTRAC as a money services business. From €28,000.",
+    lede="Buy a ready-made MSB: a Canadian company already registered with FINTRAC as a money services business. From €28,000.",
     hero_price="From €28,000",
     label="MSB · Registered · For sale",
     need="acquire",
     intro=("Buying a company that's already registered with FINTRAC is one way into Canada, if the company's records are clean and the change of ownership is reported on time.",
-           ["We offer Canadian companies already registered with FINTRAC as money services businesses for acquisition, starting from €28,000. The price depends on the company, the services it's registered for and its history.",
+           ["We sell ready-made MSBs: Canadian companies already registered with FINTRAC as money services businesses, starting from €28,000. The price depends on the company, the services it's registered for and its history.",
             "The registration belongs to the registered business, so the purchase is of the company's shares. A new entity would need its own registration.",
             "We take you through choosing the right company, checking it before you commit, the change of ownership, and the updates FINTRAC has to receive afterwards."]),
     facts=[("Price", "From €28,000", "depending on the company"),
@@ -430,8 +430,8 @@ DEEP["msb-for-sale.html"] = dict(
                     "Updates to FINTRAC within 30 days, including new owners and directors",
                     "Guidance on what the new owners need to provide"]),
     guide=[
-        ("available", "Registered MSBs available now", listings_html()),
-        ("how", "How buying a registered MSB works", """          <ol>
+        ("available", "Canadian MSBs for sale now", listings_html()),
+        ("how", "How to buy an MSB in Canada", """          <ol>
             <li><strong>Consultation.</strong> Your plans: the services you'll offer, your customers and your timeline.</li>
             <li><strong>Matching.</strong> A company registered for the money services you need.</li>
             <li><strong>Due diligence.</strong> Corporate records, registration status and history, and the eligibility of the new owners and directors, reviewed before you commit.</li>
@@ -448,7 +448,7 @@ DEEP["msb-for-sale.html"] = dict(
             <li>whether the company is also registered with the Bank of Canada as a payment service provider;</li>
             <li>whether provincial requirements apply where you'll operate. Quebec, for example, licenses money services businesses separately.</li>
           </ul>
-          <p>Our guide to <a href="buying-an-msb-canada.html">buying an MSB in Canada</a> has the full due-diligence checklist.</p>"""),
+          <p>Every check is in our <a href="buying-an-msb-canada.html">MSB due-diligence checklist</a>.</p>"""),
         ("registry", "How to check an MSB on FINTRAC's registry", REGISTRY_HOWTO),
         ("rules", "Rules buyers get wrong", RULES_HTML),
         ("rpaa", "If the company is also registered with the Bank of Canada", """          <p>Some MSBs are also registered with the Bank of Canada as payment service providers under the Retail Payment Activities Act. Buying control of such a company is an acquisition of control, so the company must apply again and be re-registered by the Bank before the purchase closes (RPAA s.24). The changes are then reported to FINTRAC within 30 days.</p>"""),
@@ -472,7 +472,9 @@ DEEP["msb-for-sale.html"] = dict(
                ("Groups adding a Canadian entity", "A registered company to sit alongside existing operations."),
                ("Founders who prefer an existing company", "A company with a registration history they can review before committing.")],
     arts=["one", "register", "many"],
-    faqs=[("How much does a registered MSB cost?", "Acquisitions start from €28,000. The price depends on the company, the services it's registered for and its history."),
+    faqs=[("What is a ready-made MSB?", "A Canadian corporation, usually newly incorporated and with no trading history, that is already registered with FINTRAC as a money services business. You buy all its shares, and the registration stays with the company."),
+          ("Is this an MSB licence for sale?", "There's no federal MSB licence. What's for sale is a company holding a FINTRAC MSB registration, which is often called an MSB licence and is renewed every two years. Quebec licenses money services businesses separately."),
+          ("How much does a registered MSB cost?", "Acquisitions start from €28,000. The price depends on the company, the services it's registered for and its history."),
           ("Does the FINTRAC registration stay with the company?", "The registration belongs to the registered business, so the purchase is of the company's shares; a new entity would need its own registration. After the purchase, FINTRAC must be told about changes to the registration information, such as new owners and directors, within 30 days."),
           ("Do the new owners need criminal record checks?", "FINTRAC asks for criminal record checks for the chief executive officer, the president, the directors and anyone owning or controlling 20% or more of the business. Any check that isn't in English or French needs a translation attested by a certified translator."),
           ("What if the company is registered with the Bank of Canada too?", "Then it must apply again and be re-registered by the Bank before the purchase closes. We check this during due diligence."),
@@ -488,18 +490,18 @@ DEEP["buy-or-register-msb-canada.html"] = dict(
     name="Buy or register an MSB",
     modified="2026-10-25",
     checked="25 October 2026",
-    title="Buy a Ready-Made MSB or Register One in Canada | AML Canada",
-    desc="Two ways to a FINTRAC-registered MSB in Canada: buy a ready-made company from €28,000 or register your own for US$3,500. For founders in Canada and abroad.",
+    title="How to Open an MSB in Canada: Buy or Register | AML Canada",
+    desc="Two ways to open an MSB in Canada: register your own with FINTRAC for US$3,500, or buy a registered company from €28,000. For founders in Canada and abroad.",
     service_type="FINTRAC money services business registration or acquisition",
     timing="1 week to 7 months (new registration)",
     offers=[("3500", "USD", "New FINTRAC MSB registration, fixed fee"), ("28000", "EUR", "Ready-made FINTRAC-registered Canadian MSB, starting price")],
-    kicker="Buy a ready-made MSB or register a new one in Canada",
+    kicker="Open an MSB in Canada: buy one or register your own",
     h1="Two ways to a FINTRAC-registered MSB.",
     lede="Buy a Canadian company already registered with FINTRAC from €28,000, or register your own for a fixed US$3,500. For crypto, foreign exchange, remittance and payment businesses, in Canada or abroad.",
     hero_price="From US$3,500 · ready-made from €28,000",
     label="MSB · Buy or register",
     need="acquire",
-    intro=("There are two ways to get a money services business (MSB) registered with FINTRAC: register a company of your own, or buy one that's already registered. We do both.",
+    intro=("There are two ways to open a money services business (MSB) in Canada: register a company of your own with FINTRAC, or buy one that's already registered. We do both.",
            ["To register a new MSB, we prepare and submit the FINTRAC registration for your company, new or existing, for a fixed US$3,500. FINTRAC doesn't charge to register. See <a href=\"msb-registration.html\">MSB registration</a>.",
             "To buy a ready-made MSB, you acquire the shares of a Canadian company already registered with FINTRAC, from €28,000, and we report the change of ownership to FINTRAC within 30 days. See <a href=\"msb-for-sale.html\">MSB for sale</a>.",
             "Both routes cover the same money services, such as foreign exchange dealing, remitting or transmitting funds, and dealing in virtual currency. Both can be handled without travelling to Canada. Most of our MSB clients are outside Canada, in places such as the UAE, India, Cyprus, Germany, Turkey and Ukraine."]),
@@ -529,7 +531,7 @@ DEEP["buy-or-register-msb-canada.html"] = dict(
             </tbody>
           </table></div>"""),
         ("ready-made", "Buying a ready-made MSB", f"""          <p>A FINTRAC registration belongs to the registered business, so you buy the company's shares rather than the registration itself. Before you commit, check that the registration is active and covers the services you plan to offer, when it's next due for renewal, and the company's records and compliance history. You can confirm any company's status on <a href="{F_REGISTRY}" rel="noopener">FINTRAC's public MSB registry</a>.</p>
-          <p>The companies currently available are listed on <a href="msb-for-sale.html#available">MSB for sale</a>. The price depends on the company, the services it's registered for and its history. After the purchase, new owners, directors and the compliance officer are reported to FINTRAC within 30 days. Our guide to <a href="buying-an-msb-canada.html">buying an MSB in Canada</a> has the full due-diligence checklist.</p>"""),
+          <p>The companies currently available are listed on <a href="msb-for-sale.html#available">MSB for sale</a>. The price depends on the company, the services it's registered for and its history. After the purchase, new owners, directors and the compliance officer are reported to FINTRAC within 30 days. Every check is in our <a href="buying-an-msb-canada.html">MSB due-diligence checklist</a>.</p>"""),
         ("new", "Registering a new MSB", """          <p>We work out which of your services are money services, gather and check everything FINTRAC asks for, submit the application with your approval and answer FINTRAC's questions until it's decided. If FINTRAC asks for clarification, the answer is due within 30 days. Criminal record checks from several countries usually take longest, so we start them first. Our guide on <a href="how-to-register-msb-canada.html">how to register an MSB in Canada</a> covers each step.</p>"""),
         ("abroad", "Setting up from outside Canada", """          <ul>
             <li><strong>MSB or foreign MSB.</strong> A business with a place of business in Canada registers as an MSB. A business abroad that directs and provides money services to people in Canada registers as a foreign MSB and names a representative for service who resides in Canada. See our <a href="foreign-msb-registration-canada.html">foreign MSB guide</a>.</li>
@@ -1007,11 +1009,11 @@ DEEP["sell-your-msb.html"] = dict(
     name="Sell your MSB",
     modified="2026-10-25",
     checked="25 October 2026",
-    title="Sell a FINTRAC-Registered MSB in Canada | AML Canada",
+    title="Sell Your Registered MSB Company to a Buyer | AML Canada",
     desc="Sell a Canadian company registered with FINTRAC as an MSB. We check it, match it with a buyer, and handle the share sale and the FINTRAC updates.",
     service_type="Sale of a FINTRAC-registered money services business",
     offers=[],
-    kicker="Sell a FINTRAC-registered MSB",
+    kicker="Sell your registered MSB company",
     h1="Sell a registered Canadian MSB.",
     lede="We review your company, present it to buyers without naming it, and take both sides through the share sale and the FINTRAC updates afterwards.",
     hero_price="Quote after review",

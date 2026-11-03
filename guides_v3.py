@@ -131,11 +131,11 @@ GUIDES["msb-registration-cost-canada.html"] = dict(
               <tr><th scope="row"><a href="compliance-programs.html">PCMLTFA compliance program (14 documents)</a></th><td>US$3,500, fixed</td></tr>
               <tr><th scope="row"><a href="outsourced-compliance-officer.html">Outsourced compliance officer</a></th><td>US$1,500 per month for 10 hours</td></tr>
               <tr><th scope="row"><a href="canadian-address.html">Canadian business address</a></th><td>US$200 per month</td></tr>
-              <tr><th scope="row"><a href="msb-for-sale.html">Registered MSB to acquire</a></th><td>From €28,000</td></tr>
+              <tr><th scope="row"><a href="msb-for-sale.html">Registered MSB for sale</a></th><td>From €28,000</td></tr>
             </tbody>
           </table></div>
           <p>All fees are on our <a href="pricing.html">pricing page</a>. Every engagement starts with a consultation and a written scope, so you know the fee before any work begins.</p>"""),
-        ("buy-or-register", "Registering vs buying a registered MSB", """          <p>Some businesses buy a company that's already registered instead of registering a new one. It costs more up front. It still needs due diligence, updates to FINTRAC within 30 days of changes like new owners and directors, criminal record checks for the new people, and a compliance program that fits the new owners. Our guide to <a href="buying-an-msb-canada.html">buying an MSB</a> covers what to check.</p>"""),
+        ("buy-or-register", "Registering vs buying a registered MSB", """          <p>Some businesses buy a company that's already registered instead of registering a new one. It costs more up front. It still needs due diligence, updates to FINTRAC within 30 days of changes like new owners and directors, criminal record checks for the new people, and a compliance program that fits the new owners. Our <a href="buying-an-msb-canada.html">MSB due-diligence checklist</a> covers what to check.</p>"""),
     ],
     faqs=[("Is FINTRAC MSB registration free?", "Yes. FINTRAC doesn't charge to register or renew."),
           ("How much does it cost to set up an MSB in Canada?", "Registration is free, but budget for criminal record checks, certified translations, documents and a compliance program. Our fixed fees are US$3,500 for registration and US$3,500 for compliance program documents."),
@@ -175,7 +175,7 @@ GUIDES["foreign-msb-registration-canada.html"] = dict(
           <ul>
             <li><strong>No place of business in Canada.</strong> You serve Canadian clients from abroad and register with FINTRAC as a foreign MSB, with a representative for service in Canada.</li>
             <li><strong>A place of business in Canada.</strong> If you'll have a physical location in Canada, you're a domestic MSB under FINTRAC's definitions. Most firms in this position <a href="incorporation-canada.html">incorporate a Canadian company</a> and register it.</li>
-            <li><strong>Acquiring a registered company.</strong> Some buyers take over a Canadian company that is already registered with FINTRAC. That is a corporate acquisition, and the target needs proper due diligence. See our guide to <a href="buying-an-msb-canada.html">buying an MSB in Canada</a>.</li>
+            <li><strong>Acquiring a registered company.</strong> Some buyers take over a Canadian company that is already registered with FINTRAC. That is a corporate acquisition, and the target needs proper due diligence. See our <a href="buying-an-msb-canada.html">MSB due-diligence checklist</a>.</li>
           </ul>
           <p>Choosing the wrong route is expensive to unwind, so confirm it before you file. We can help in a <a href="contact.html">consultation</a>.</p>"""),
         ("representative", "Your representative for service in Canada", f"""          <p>A foreign MSB must name a representative for service who resides in Canada and is authorized to accept notices from FINTRAC on its behalf. The representative doesn't take over your obligations. The foreign business itself stays responsible for complying with Canada's anti-money laundering law.</p>
@@ -442,10 +442,10 @@ GUIDES["fintrac-examination-preparation.html"] = dict(
 GUIDES["buying-an-msb-canada.html"] = dict(
     modified="2026-10-25",
     checked="25 October 2026",
-    title="Buying an MSB in Canada: What to Check | AML Canada",
+    title="MSB Due Diligence Checklist for Buyers in Canada | AML Canada",
     desc="Due diligence for buying a FINTRAC-registered MSB in Canada: registry checks, eligibility, deal structure, FINTRAC updates within 30 days and red flags.",
-    crumb="Buying an MSB",
-    h1="Buying an MSB in Canada: what to check",
+    crumb="MSB due diligence",
+    h1="MSB due diligence: what to check before you buy",
     lede="Buying a company that's already registered with FINTRAC as a money services business needs the same care as any acquisition, plus checks specific to FINTRAC and, for payment businesses, the Bank of Canada.",
     label="Guide · Acquisition",
     also=["buy-or-register-msb-canada.html"],
@@ -912,7 +912,7 @@ GUIDES["msb-registration-refused-revoked.html"] = dict(
           <p>The same failures can be handled as administrative violations instead. Under the <a href="{MS_AMPR}" rel="noopener">penalty regulations</a>, failing to register, to report changes, to answer clarification requests, to renew or to notify cessation are all serious violations. For violations on or after March 26, 2026, a serious violation can carry up to $4,000,000. FINTRAC can't pursue both a penalty and a prosecution for the same act. Our guide to <a href="fintrac-penalties-amps.html">FINTRAC penalties</a> explains the process.</p>
           <p>There are practical effects too. FINTRAC notes that financial entities must make sure the foreign MSBs they open accounts for are registered with FINTRAC.</p>"""),
         ("reapply", "Applying again", f"""          <p>The registration sections of the Act don't set a waiting period before a new application. Any ineligibility has to be resolved first, such as an unpaid penalty. The application asks whether you've applied before, so be open about the earlier outcome and what has changed.</p>
-          <p>Fresh criminal record checks will be needed, issued no more than six months before you apply. Answer every clarification request well within 30 days. Our <a href="msb-registration.html">MSB registration service</a> prepares and submits applications, and our <a href="how-to-register-msb-canada.html">registration guide</a> sets out each step. Some businesses look at <a href="buying-an-msb-canada.html">buying a registered MSB</a> instead, which brings its own checks. If the address on file is part of the problem, see our guide on <a href="virtual-office-msb-registration.html">virtual offices and MSB registration</a>.</p>"""),
+          <p>Fresh criminal record checks will be needed, issued no more than six months before you apply. Answer every clarification request well within 30 days. Our <a href="msb-registration.html">MSB registration service</a> prepares and submits applications, and our <a href="how-to-register-msb-canada.html">registration guide</a> sets out each step. Some businesses buy one of the <a href="msb-for-sale.html">MSBs for sale</a> instead, which brings its own <a href="buying-an-msb-canada.html">due-diligence checks</a>. If the address on file is part of the problem, see our guide on <a href="virtual-office-msb-registration.html">virtual offices and MSB registration</a>.</p>"""),
     ],
     faqs=[("What happens if my MSB registration expires?", "If you didn't submit a renewal before the expiry date, the registry shows the business as Expired and it isn't registered. Providing money services while unregistered can lead to a penalty or prosecution."),
           ("Can I keep operating while my renewal is processed?", "Yes, if you submitted the renewal before the expiry date. FINTRAC says the business stays Registered until the renewal is processed."),
@@ -1980,10 +1980,10 @@ GUIDES["msb-licence-canada.html"] = dict(
 GUIDES["ready-made-msb-company-canada.html"] = dict(
     modified="2026-10-25",
     checked="25 October 2026",
-    title="Ready-Made FINTRAC MSB Company in Canada | AML Canada",
-    desc="What a ready-made FINTRAC-registered MSB company is, what should come with it, what drives the price, and the claims to question before you pay a deposit.",
-    crumb="Ready-made MSB company",
-    h1="Ready-made FINTRAC MSB companies: what you get and what to question",
+    title="MSB Seller Claims to Question Before a Deposit | AML Canada",
+    desc="What should come with a FINTRAC-registered MSB company, what drives the price, and the seller claims to question before you pay a deposit.",
+    crumb="MSB seller claims",
+    h1="Buying a registered MSB company: what should come with it and which claims to question",
     lede="A ready-made MSB is a Canadian company that's already registered with FINTRAC, sold through a share purchase. Here's what should come with one, and which sales claims don't hold up.",
     label="Guide · Acquisition",
     service="msb-for-sale.html",
@@ -2020,7 +2020,7 @@ GUIDES["ready-made-msb-company-canada.html"] = dict(
             <li>Ask whether the company is registered with the Bank of Canada, and plan any re-registration.</li>
             <li>Read the share purchase agreement for warranties about the company's history.</li>
           </ol>
-          <p>The full checklist is in <a href="buying-an-msb-canada.html">buying an MSB in Canada</a>. The companies we have now are on <a href="msb-for-sale.html#available">MSB for sale</a>.</p>"""),
+          <p>The full list is in our <a href="buying-an-msb-canada.html">MSB due-diligence checklist</a>. The companies we have now are on <a href="msb-for-sale.html#available">MSB for sale</a>.</p>"""),
     ],
     faqs=[("What is a ready-made MSB in Canada?", "A Canadian company already registered with FINTRAC as a money services business, sold by transferring its shares. The registration stays with the company."),
           ("How much does a ready-made MSB cost?", "Our registered companies start from €28,000. The price depends on the registered services, the time left on the registration, the company's history and any Bank of Canada registration."),

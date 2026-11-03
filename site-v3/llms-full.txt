@@ -382,7 +382,7 @@ Sources: [FINTRAC, Register your MSB or FMSB](https://fintrac-canafe.canada.ca/m
 
 URL: https://amlcanada.ca/msb-for-sale.html
 
-Acquire a Canadian company already registered with FINTRAC as a money services business. From €28,000.
+Buy a ready-made MSB: a Canadian company already registered with FINTRAC as a money services business. From €28,000.
 
 **Fee:** €28,000 (starting price · acquisition). Compliance program, compliance officer and Canadian address are available alongside, at their own fees.
 
@@ -394,9 +394,9 @@ Acquire a Canadian company already registered with FINTRAC as a money services b
 - Updates to FINTRAC within 30 days, including new owners and directors
 - Guidance on what the new owners need to provide
 
-### Registered MSBs available now
+### Canadian MSBs for sale now
 
-These Canadian companies are registered with FINTRAC as money services businesses and are available to acquire now. None has traded. Names and registration numbers are shared under NDA, and you can then check each one yourself on [FINTRAC's public MSB registry](https://fintrac-canafe.canada.ca/msb-esm/reg-eng) before paying anything.
+These Canadian companies are registered with FINTRAC as money services businesses and are for sale now. None has traded. Names and registration numbers are shared under NDA, and you can then check each one yourself on [FINTRAC's public MSB registry](https://fintrac-canafe.canada.ca/msb-esm/reg-eng) before paying anything.
 
 | Company | FINTRAC dates | Registered services (as listed by FINTRAC) | Registry no. | Status |
 
@@ -408,7 +408,7 @@ These Canadian companies are registered with FINTRAC as money services businesse
 
 Price from €28,000, depending on the company. Bank of Canada (RPAA) status, banking and the full corporate file are reviewed with you before you commit. Message us on [WhatsApp](https://wa.me/18078060444?text=Hi%2C%20I%27m%20interested%20in%20a%20registered%20MSB%20%28amlcanada.ca%29) or [Telegram](https://t.me/sabbasi_1), or [book a consultation](https://amlcanada.ca/contact.html?need=acquire).
 
-### How buying a registered MSB works
+### How to buy an MSB in Canada
 
 - **Consultation.** Your plans: the services you'll offer, your customers and your timeline.
 
@@ -438,7 +438,7 @@ Price from €28,000, depending on the company. Bank of Canada (RPAA) status, ba
 
 - whether provincial requirements apply where you'll operate. Quebec, for example, licenses money services businesses separately.
 
-Our guide to [buying an MSB in Canada](https://amlcanada.ca/buying-an-msb-canada.html) has the full due-diligence checklist.
+Every check is in our [MSB due-diligence checklist](https://amlcanada.ca/buying-an-msb-canada.html).
 
 ### How to check an MSB on FINTRAC's registry
 
@@ -487,6 +487,10 @@ The obligations come with the company. The business needs a compliance officer a
 Our [buy or register an MSB](https://amlcanada.ca/buy-or-register-msb-canada.html) page compares the two routes in full.
 
 ### Questions
+
+**What is a ready-made MSB?** A Canadian corporation, usually newly incorporated and with no trading history, that is already registered with FINTRAC as a money services business. You buy all its shares, and the registration stays with the company.
+
+**Is this an MSB licence for sale?** There's no federal MSB licence. What's for sale is a company holding a FINTRAC MSB registration, which is often called an MSB licence and is renewed every two years. Quebec licenses money services businesses separately.
 
 **How much does a registered MSB cost?** Acquisitions start from €28,000. The price depends on the company, the services it's registered for and its history.
 
@@ -548,7 +552,7 @@ Registering a new MSB costs our fixed fee of US$3,500, with no FINTRAC fee, and 
 
 A FINTRAC registration belongs to the registered business, so you buy the company's shares rather than the registration itself. Before you commit, check that the registration is active and covers the services you plan to offer, when it's next due for renewal, and the company's records and compliance history. You can confirm any company's status on [FINTRAC's public MSB registry](https://fintrac-canafe.canada.ca/msb-esm/reg-eng).
 
-The companies currently available are listed on [MSB for sale](https://amlcanada.ca/msb-for-sale.html#available). The price depends on the company, the services it's registered for and its history. After the purchase, new owners, directors and the compliance officer are reported to FINTRAC within 30 days. Our guide to [buying an MSB in Canada](https://amlcanada.ca/buying-an-msb-canada.html) has the full due-diligence checklist.
+The companies currently available are listed on [MSB for sale](https://amlcanada.ca/msb-for-sale.html#available). The price depends on the company, the services it's registered for and its history. After the purchase, new owners, directors and the compliance officer are reported to FINTRAC within 30 days. Every check is in our [MSB due-diligence checklist](https://amlcanada.ca/buying-an-msb-canada.html).
 
 ### Registering a new MSB
 
@@ -3660,7 +3664,7 @@ There are practical effects too. FINTRAC notes that financial entities must make
 
 The registration sections of the Act don't set a waiting period before a new application. Any ineligibility has to be resolved first, such as an unpaid penalty. The application asks whether you've applied before, so be open about the earlier outcome and what has changed.
 
-Fresh criminal record checks will be needed, issued no more than six months before you apply. Answer every clarification request well within 30 days. Our [MSB registration service](https://amlcanada.ca/msb-registration.html) prepares and submits applications, and our [registration guide](https://amlcanada.ca/how-to-register-msb-canada.html) sets out each step. Some businesses look at [buying a registered MSB](https://amlcanada.ca/buying-an-msb-canada.html) instead, which brings its own checks. If the address on file is part of the problem, see our guide on [virtual offices and MSB registration](https://amlcanada.ca/virtual-office-msb-registration.html).
+Fresh criminal record checks will be needed, issued no more than six months before you apply. Answer every clarification request well within 30 days. Our [MSB registration service](https://amlcanada.ca/msb-registration.html) prepares and submits applications, and our [registration guide](https://amlcanada.ca/how-to-register-msb-canada.html) sets out each step. Some businesses buy one of the [MSBs for sale](https://amlcanada.ca/msb-for-sale.html) instead, which brings its own [due-diligence checks](https://amlcanada.ca/buying-an-msb-canada.html). If the address on file is part of the problem, see our guide on [virtual offices and MSB registration](https://amlcanada.ca/virtual-office-msb-registration.html).
 
 ### Questions
 
@@ -4170,7 +4174,7 @@ Sources: [FINTRAC, Update, renew or cancel your registration](https://fintrac-ca
 
 ---
 
-## Guide: Ready-made FINTRAC MSB companies: what you get and what to question
+## Guide: Buying a registered MSB company: what should come with it and which claims to question
 
 URL: https://amlcanada.ca/ready-made-msb-company-canada.html
 
@@ -4230,7 +4234,7 @@ The registered services, how long is left before the registration expires, wheth
 
 - Read the share purchase agreement for warranties about the company's history.
 
-The full checklist is in [buying an MSB in Canada](https://amlcanada.ca/buying-an-msb-canada.html). The companies we have now are on [MSB for sale](https://amlcanada.ca/msb-for-sale.html#available).
+The full list is in our [MSB due-diligence checklist](https://amlcanada.ca/buying-an-msb-canada.html). The companies we have now are on [MSB for sale](https://amlcanada.ca/msb-for-sale.html#available).
 
 ### Questions
 
@@ -4412,7 +4416,7 @@ Sources: [FINTRAC, Compliance program requirements](https://fintrac-canafe.canad
 
 ---
 
-## Guide: Buying an MSB in Canada: what to check
+## Guide: MSB due diligence: what to check before you buy
 
 URL: https://amlcanada.ca/buying-an-msb-canada.html
 
@@ -4973,7 +4977,7 @@ The route follows where your business will operate:
 
 - **A place of business in Canada.** If you'll have a physical location in Canada, you're a domestic MSB under FINTRAC's definitions. Most firms in this position [incorporate a Canadian company](https://amlcanada.ca/incorporation-canada.html) and register it.
 
-- **Acquiring a registered company.** Some buyers take over a Canadian company that is already registered with FINTRAC. That is a corporate acquisition, and the target needs proper due diligence. See our guide to [buying an MSB in Canada](https://amlcanada.ca/buying-an-msb-canada.html).
+- **Acquiring a registered company.** Some buyers take over a Canadian company that is already registered with FINTRAC. That is a corporate acquisition, and the target needs proper due diligence. See our [MSB due-diligence checklist](https://amlcanada.ca/buying-an-msb-canada.html).
 
 Choosing the wrong route is expensive to unwind, so confirm it before you file. We can help in a [consultation](https://amlcanada.ca/contact.html).
 
@@ -5057,13 +5061,13 @@ To operate, an MSB needs a compliance program: a compliance officer, policies an
 
 | Canadian business address | US$200 per month |
 
-| Registered MSB to acquire | From €28,000 |
+| Registered MSB for sale | From €28,000 |
 
 All fees are on our [pricing page](https://amlcanada.ca/pricing.html). Every engagement starts with a consultation and a written scope, so you know the fee before any work begins.
 
 ### Registering vs buying a registered MSB
 
-Some businesses buy a company that's already registered instead of registering a new one. It costs more up front. It still needs due diligence, updates to FINTRAC within 30 days of changes like new owners and directors, criminal record checks for the new people, and a compliance program that fits the new owners. Our guide to [buying an MSB](https://amlcanada.ca/buying-an-msb-canada.html) covers what to check.
+Some businesses buy a company that's already registered instead of registering a new one. It costs more up front. It still needs due diligence, updates to FINTRAC within 30 days of changes like new owners and directors, criminal record checks for the new people, and a compliance program that fits the new owners. Our [MSB due-diligence checklist](https://amlcanada.ca/buying-an-msb-canada.html) covers what to check.
 
 ### Questions
 
