@@ -86,20 +86,6 @@ FONTS = """  <link rel="preload" href="fonts/geist-latin-wght.woff2" as="font" t
 SITE = "https://amlcanada.ca/"
 ORG_ID = SITE + "#organization"
 CF_URL = "https://complyfactor.com"
-REVIEWER_ID = SITE + "about.html#saeed"
-REVIEWER = {"@type": "Person", "@id": REVIEWER_ID, "name": "Muhammad Saeed Abbasi", "url": REVIEWER_ID,
-            "jobTitle": "MLRO and Managing Director",
-            "worksFor": {"@type": "Organization", "name": OPERATOR, "url": CF_URL},
-            "hasCredential": [{"@type": "EducationalOccupationalCredential", "name": n} for n in
-                              ("Certified Anti-Money Laundering Specialist (CAMS)", "ACMA", "CGMA")],
-            "knowsAbout": ["PCMLTFA", "FINTRAC MSB registration", "Retail Payment Activities Act", "AML compliance"]}
-# Pages that carry the visible "Reviewed by" line (and reviewedBy in their schema).
-REVIEWED = {"msb-for-sale.html": "25 October 2026", "buy-or-register-msb-canada.html": "25 October 2026",
-            "sell-your-msb.html": "25 October 2026", "msb-registration.html": "25 October 2026",
-            "buying-an-msb-canada.html": "25 October 2026", "how-to-register-msb-canada.html": "25 October 2026"}
-REVIEWED_ISO = "2026-10-25"
-BYLINE = ('<p class="byline">Reviewed by <a href="about.html#saeed">Muhammad Saeed Abbasi</a>, CAMS, ACMA, CGMA, '
-          'MLRO and Managing Director, ComplyFactor Limited. Last checked {date}.</p>')
 
 # JSON-LD. Organization and WebSite live on the homepage only; every other page
 # points at the organization by @id. Breadcrumb names match the visible crumbs.
@@ -160,12 +146,6 @@ def jsonld(path):
             trail.append((SCHEMA_CRUMBS[path], url))
         else:
             return ""
-        if path in REVIEWED:
-            graph.append({"@type": "WebPage", "@id": url + "#webpage", "url": url, "isPartOf": {"@id": SITE + "#website"},
-                          "reviewedBy": {"@id": REVIEWER_ID}, "lastReviewed": REVIEWED_ISO, "dateModified": REVIEWED_ISO})
-            graph.append(REVIEWER)
-        elif path == "about.html":
-            graph.append(REVIEWER)
         graph.append({"@type": "BreadcrumbList", "@id": url + "#breadcrumb", "itemListElement": [
             {"@type": "ListItem", "position": i, "name": n, "item": u} for i, (n, u) in enumerate(trail, 1)]})
     data = json.dumps({"@context": "https://schema.org", "@graph": graph}, ensure_ascii=False, separators=(",", ":"))
@@ -635,17 +615,11 @@ def faq_block(faqs, title="Questions"):
 """
 
 
-def with_byline(hero, file):
-    if file not in REVIEWED:
-        return hero
-    return hero.replace('<p class="page-lede">', BYLINE.format(date=REVIEWED[file]) + '\n        <p class="page-lede">', 1)
-
-
 def deep_page(file):
     d = DEEP[file]
     return (head(d["title"], d["desc"], file) + nav(file) + '  <main id="main">\n'
-            + with_byline(page_hero([("services.html", "Services")], d["name"], (d["h1"], d["lede"]), d["label"], d.get("flag", False),
-                        need=d["need"], price=d["hero_price"], kicker=d.get("kicker", "")), file)
+            + page_hero([("services.html", "Services")], d["name"], (d["h1"], d["lede"]), d["label"], d.get("flag", False),
+                        need=d["need"], price=d["hero_price"], kicker=d.get("kicker", ""))
             + intro(*d["intro"])
             + fee_band(d["fee"], d["need"])
             + facts_strip(d["facts"])
@@ -857,19 +831,9 @@ PAGES["about.html"] = (
                 "AML and anti-terrorist financing compliance for businesses regulated by FINTRAC."), "AML Canada")
     + intro("AML Canada helps businesses register with FINTRAC, build compliance programs that work, prepare for examinations and train their people.",
             ["AML Canada is operated by ComplyFactor Limited. We provide anti-money laundering (AML) and anti-terrorist financing compliance services to businesses regulated by FINTRAC, Canada's financial intelligence unit, and to payment service providers supervised by the Bank of Canada under the RPAA. We're a private consultancy, not part of or affiliated with FINTRAC, the Bank of Canada or the Government of Canada.",
-             "Most of our clients are busy running their business. We explain what they have to do and help them do it, from the first registration to the next review."])
-    + f"""    <section class="team" id="team" data-theme="light" aria-labelledby="team-title">
-      <div class="wrap">
-        <h2 id="team-title">Who reviews our work</h2>
-        <article class="person" id="saeed">
-          <h3>Muhammad Saeed Abbasi</h3>
-          <p class="person-role">MLRO and Managing Director, <a href="{CF_URL}" rel="noopener">ComplyFactor Limited</a> · CAMS, ACMA, CGMA</p>
-          <p>Saeed works at MLRO level and reviews AML Canada's registration, acquisition and compliance guidance. His foundation is Canadian AML and payments regulation: the PCMLTFA, FINTRAC registration and reporting, and the Bank of Canada's Retail Payment Activities Act. He also works across the UAE, UK and US regimes, which is useful for the many clients who run Canadian MSBs from abroad.</p>
-          <p>ComplyFactor Limited, which operates AML Canada, has offices in Mississauga (Canada), the UK and Dubai (UAE).</p>
-        </article>
-      </div>
-    </section>
-    <section class="beliefs" data-theme="dark" aria-labelledby="beliefs-title">
+             "Most of our clients are busy running their business. We explain what they have to do and help them do it, from the first registration to the next review.",
+             "ComplyFactor Limited, which operates AML Canada, has offices in Mississauga (Canada), the UK and Dubai (UAE)."])
+    + f"""    <section class="beliefs" data-theme="dark" aria-labelledby="beliefs-title">
       <div class="wrap">
         <h2 id="beliefs-title">What we believe</h2>
         <ol class="belief-grid">
@@ -985,7 +949,6 @@ def guide_page(file):
     meta = f'{kind} · {"Published " + nice_date(g["date"]) if g.get("date") else "Updated " + (nice_date(g["modified"]) if g.get("modified") else UPDATED)} · {read_minutes(g)} min read · AML Canada'
     hero = page_hero([("guides.html", "Guides")], g["crumb"], (g["h1"], g["lede"]), g["label"], actions=False)
     hero = hero.replace('<p class="page-lede">', f'<p class="guide-meta">{meta}</p>\n        <p class="page-lede">', 1)
-    hero = with_byline(hero, file)
     return (head(g["title"], g["desc"], file) + nav(file) + '  <main id="main">\n'
             + hero
             + takeaways_box(g["takeaways"])
