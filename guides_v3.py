@@ -502,7 +502,7 @@ GUIDES["buying-an-msb-canada.html"] = dict(
     sources=[("FINTRAC, MSB registry", F_MSB_REGISTRY), ("Register your MSB or FMSB", F_REG), ("Update, renew or cancel your registration", F_UPD), ("Money services businesses", F_MSB),
              ("Proceeds of Crime (Money Laundering) and Terrorist Financing Act", L_PCMLTFA), ("Bank of Canada, Acquisitions of control", B_ACQ),
              ("Revenu Québec, Money-services business licence", RQ_MSB)],
-    related=["how-to-register-msb-canada.html", "msb-registration-cost-canada.html", "foreign-msb-registration-canada.html"],
+    related=["how-to-register-msb-canada.html", "check-fintrac-msb-registration.html", "foreign-msb-registration-canada.html"],
 )
 
 # ------------------------------------------------------------------ 10. outsourced vs in-house
@@ -552,7 +552,7 @@ GUIDES["outsourced-vs-in-house-compliance-officer.html"] = dict(
           ("Can a small business owner be the compliance officer?", "Yes. FINTRAC's guidance says that in a small business the owner or operator can be the compliance officer."),
           ("How much does an outsourced compliance officer cost?", "With us, US$1,500 per month for 10 hours, scaled to your workload.")],
     sources=[("FINTRAC, Compliance program requirements", F_G4)],
-    related=["fintrac-reporting-requirements.html", "fintrac-effectiveness-review-checklist.html", "fintrac-examination-preparation.html"],
+    related=["msb-compliance-officer-requirements-canada.html", "fintrac-effectiveness-review-checklist.html", "fintrac-examination-preparation.html"],
 )
 
 # ------------------------------------------------------------------ 11. first 90 days after registration
@@ -703,7 +703,7 @@ GUIDES["fintrac-compliance-program-requirements.html"] = dict(
     sources=[("FINTRAC, Compliance program requirements", F_G4), ("FINTRAC, Risk assessment guidance", F_RBA),
              ("Proceeds of Crime (Money Laundering) and Terrorist Financing Act", L_PCMLTFA), ("Proceeds of Crime (Money Laundering) and Terrorist Financing Regulations", L_PCMLTFR), ("Ministerial directives", F_DIR),
              ("Travel rule guidance", F_TRAVEL)],
-    related=["first-90-days-aml-compliance-canada.html", "fintrac-effectiveness-review-checklist.html", "outsourced-vs-in-house-compliance-officer.html"],
+    related=["fintrac-risk-assessment-msb.html", "fintrac-effectiveness-review-checklist.html", "fintrac-training-requirements.html"],
 )
 
 # ------------------------------------------------------------------ 13. RPAA safeguarding
@@ -925,7 +925,7 @@ GUIDES["msb-registration-refused-revoked.html"] = dict(
              ("Proceeds of Crime (Money Laundering) and Terrorist Financing Act", L_PCMLTFA),
              ("Proceeds of Crime (Money Laundering) and Terrorist Financing Registration Regulations", MS_REGR),
              ("Proceeds of Crime (Money Laundering) and Terrorist Financing Administrative Monetary Penalties Regulations", MS_AMPR)],
-    related=["how-to-register-msb-canada.html", "fintrac-penalties-amps.html", "buying-an-msb-canada.html"],
+    related=["how-to-register-msb-canada.html", "fintrac-penalties-amps.html", "msb-registration-renewal-canada.html"],
 )
 
 # ------------------------------------------------------------------ 16. FINTRAC administrative monetary penalties
@@ -1349,7 +1349,7 @@ GUIDES["who-must-register-psp-rpaa.html"] = dict(
              ("Case scenarios: agents and mandataries", RP_CS_AGENTS), ("Case scenarios: geographic scope", RP_CS_GEO),
              ("Refusal or revocation of registration under the RPAA", RP_REFUSE), ("Retail payments supervision FAQ", RP_FAQ),
              ("Retail Payment Activities Act", RP_ACT), ("Retail Payment Activities Regulations", RP_REGS)],
-    related=["rpaa-registration-guide.html", "rpaa-vs-fintrac-msb-registration.html", "rpaa-safeguarding-end-user-funds.html"],
+    related=["rpaa-registration-guide.html", "rpaa-vs-fintrac-msb-registration.html", "psp-licence-canada.html"],
 )
 
 # ------------------------------------------------------------------ RPAA 2. annual report
@@ -1973,7 +1973,7 @@ GUIDES["msb-licence-canada.html"] = dict(
     sources=[("FINTRAC, Money Services Business Registry", F_MSB_REGISTRY), ("FINTRAC, Money services businesses", F_MSB), ("Register your MSB or FMSB", F_REG),
              ("Update, renew or cancel your registration", F_UPD), ("FINTRAC, Conducting transactions with an MSB", F_PUBLIC_MSB),
              ("Revenu Québec, Money-services business licence", RQ_MSB), ("Retail Payment Activities Act", L_RPAA)],
-    related=["how-to-register-msb-canada.html", "rpaa-vs-fintrac-msb-registration.html", "msb-registration-cost-canada.html"],
+    related=["how-to-register-msb-canada.html", "rpaa-vs-fintrac-msb-registration.html", "psp-licence-canada.html"],
 )
 
 # ------------------------------------------------------------------ 26. Ready-made MSB company (2026-10-25)
@@ -2698,5 +2698,667 @@ GUIDES["real-time-rail-rpaa-digital-wallets.html"] = dict(
     related=["who-must-register-psp-rpaa.html", "rpaa-compliance-frameworks.html", "rpaa-vs-fintrac-msb-registration.html"],
 )
 
+
+# --- keyword-cluster run 2026-11-11: msb-compliance-officer-requirements-canada ---
+# Sources checked 11 November 2026. F_G4, F_CAM and L_PCMLTFA come from guides_v3.py / content_v3.py.
+SR1_S156 = "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-184/section-156.html"
+SR1_S96 = "https://laws-lois.justice.gc.ca/eng/acts/P-24.501/section-9.6.html"
+SR1_S1113 = "https://laws-lois.justice.gc.ca/eng/acts/P-24.501/section-11.13.html"
+SR1_REGREGS = "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2007-121/FullText.html"
+
+GUIDES["msb-compliance-officer-requirements-canada.html"] = dict(
+    checked="11 November 2026",
+    title="MSB Compliance Officer Requirements in Canada | AML Canada",
+    desc="Who can be an MSB's compliance officer under FINTRAC rules, what the law requires versus what FINTRAC expects, and whether you can outsource the role.",
+    crumb="MSB compliance officer requirements",
+    h1="MSB compliance officer requirements in Canada",
+    lede="The core MSB compliance officer requirement in Canada is short: you must appoint a person responsible for implementing your compliance program. Most of what people call requirements, such as seniority, independence and knowledge, comes from FINTRAC's guidance, and this guide marks which is which.",
+    label="Guide · Compliance officer",
+    service="outsourced-compliance-officer.html",
+    date="2026-11-11",
+    takeaways=["The law requires you to appoint a person responsible for implementing your compliance program. FINTRAC's guidance sets out the authority and knowledge that person needs.",
+               "An owner or operator of a small business can be the compliance officer, and a sole proprietor can appoint themselves.",
+               "The officer's name and contact details go in your MSB registration, so a change must be reported to FINTRAC within 30 days.",
+               "Delegating or outsourcing the work doesn't move responsibility. The officer stays responsible for implementing the program, and your business stays responsible for meeting the requirements."],
+    sections=[
+        ("requirements", "What are the MSB compliance officer requirements in Canada?", f"""          <p>Every money services business and foreign money services business must appoint a person who is responsible for implementing its compliance program. That is the legal requirement, in paragraph 156(1)(a) of the <a href="{SR1_S156}" rel="noopener">Proceeds of Crime (Money Laundering) and Terrorist Financing Regulations</a>. FINTRAC's guidance then describes what the person needs to do the job.</p>
+          <p>The duty to have a compliance program comes from subsection 9.6(1) of the <a href="{SR1_S96}" rel="noopener">Proceeds of Crime (Money Laundering) and Terrorist Financing Act</a> (PCMLTFA), which applies to every person or entity referred to in section 5 of the Act. MSBs and foreign MSBs are both in section 5. Appointing a compliance officer is the first of the program's elements; the others are covered in our guide to <a href="fintrac-compliance-program-requirements.html">FINTRAC compliance program requirements</a>.</p>
+          <p>FINTRAC says that appointing someone isn't enough on its own. In its <a href="{F_G4}" rel="noopener">compliance program guidance</a>, the appointed officer is responsible for implementing every element of the program.</p>"""),
+        ("required-expected", "Required by law, expected by FINTRAC, or best practice", f"""          <p>As of 11 November 2026, the rules on compliance officers fall into three groups: what the Act and regulations require, what FINTRAC's guidance says the officer needs and its examiners check, and what FINTRAC calls best practice. This table sorts each point and names the source.</p>
+          <div class="table-wrap"><table>
+            <thead><tr><th scope="col">Point</th><th scope="col">Status</th><th scope="col">Source</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Appoint a person responsible for implementing the program</th><td>Required by law</td><td>PCMLTFR s. 156(1)(a)</td></tr>
+              <tr><th scope="row">A person (such as a sole proprietor) may take that responsibility themselves</th><td>Permitted by law</td><td>PCMLTFR s. 156(1)(a)</td></tr>
+              <tr><th scope="row">Give the officer's name, address, phone number and email in the MSB registration application</th><td>Required by law</td><td>Registration Regulations, Schedule 1, Part B, item 11</td></tr>
+              <tr><th scope="row">Tell FINTRAC about a change to that information within 30 days</th><td>Required by law</td><td>PCMLTFA s. 11.13(1)</td></tr>
+              <tr><th scope="row">Authority and access to resources to run the program and make changes</th><td>FINTRAC guidance; assessed in examinations</td><td>FINTRAC compliance program guidance, section 2</td></tr>
+              <tr><th scope="row">Knowledge of your business, your sector's risks and your PCMLTFA requirements</th><td>FINTRAC guidance; assessed in examinations</td><td>FINTRAC compliance program guidance, section 2</td></tr>
+              <tr><th scope="row">Independent oversight and direct communication with senior management or the board</th><td>Best practice</td><td>FINTRAC compliance program guidance, section 2</td></tr>
+              <tr><th scope="row">In a larger business, not directly involved in receiving, transferring or paying funds</th><td>Best practice</td><td>FINTRAC compliance program guidance, section 2</td></tr>
+              <tr><th scope="row">A named certification, degree, years of experience, or Canadian residency</th><td>Not stated</td><td>Not in PCMLTFR s. 156 or FINTRAC's compliance program guidance</td></tr>
+            </tbody>
+          </table></div>
+          <p>The registration item matters in practice. Because the officer's details are part of your application under the <a href="{SR1_REGREGS}" rel="noopener">Registration Regulations</a>, replacing your compliance officer is a change you report to FINTRAC within 30 days of becoming aware of it, under <a href="{SR1_S1113}" rel="noopener">PCMLTFA subsection 11.13(1)</a>.</p>"""),
+        ("who", "Who can be a compliance officer under FINTRAC rules?", """          <p>FINTRAC says the compliance officer can be you or another individual, depending on the size of your business. In a small business, it can be a senior manager, the owner or the operator. In a large business, FINTRAC's example is someone at a senior level with direct access to senior management and the board of directors.</p>
+          <p>FINTRAC's glossary defines the compliance officer as the individual, with the necessary authority, that you appoint to be responsible for implementing your compliance program. Keep that role separate in your mind from the senior officer. For an entity, a senior officer approves your written policies and procedures and receives the effectiveness review results.</p>"""),
+        ("own", "Can I act as my own compliance officer for my MSB?", """          <p>Yes, in most small MSBs. FINTRAC's guidance says the owner or operator of a small business can be the compliance officer, and a sole proprietor can appoint themselves. The regulation itself lets a person take responsibility for implementing the program instead of appointing someone else.</p>
+          <p>Two points from FINTRAC's guidance limit how far this goes as you grow:</p>
+          <ul>
+            <li><strong>Handling funds.</strong> As a best practice, the compliance officer of a larger business shouldn't be directly involved in the receipt, transfer or payment of funds. An owner who also processes transactions fits a small business better than a larger one.</li>
+            <li><strong>The two-year review.</strong> The effectiveness review must be done by an internal or external auditor, or by you if you have no auditor (PCMLTFR s. 156(3)). As a best practice, FINTRAC says the reviewer shouldn't be someone directly involved in your compliance program activities, so an owner who is also the compliance officer is better off with someone else reviewing the program.</li>
+          </ul>
+          <p>Being your own compliance officer also means doing the work. FINTRAC's examiners judge the officer by whether the program is actually put into practice.</p>"""),
+        ("qualifications", "What qualifications do you need to be a compliance officer?", """          <p>Neither section 156 of the regulations nor FINTRAC's compliance program guidance names a certification, degree or minimum years of experience. FINTRAC describes what the officer needs instead. Its guidance says a compliance officer needs to:</p>
+          <ul>
+            <li>have the necessary authority and access to resources to implement an effective compliance program and make any desired changes;</li>
+            <li>know your business's functions and structure;</li>
+            <li>know your sector's money laundering, terrorist activity financing and sanctions evasion risks and vulnerabilities, and the related trends and typologies;</li>
+            <li>understand your sector's requirements under the PCMLTFA and its regulations.</li>
+          </ul>
+          <p>FINTRAC's compliance assessment manual says examiners may look at the officer's background and experience, and at the training you have given them, to check that knowledge. FINTRAC's guidance also lists the compliance officer among the people your training plan should cover. An AML credential is one way to show that knowledge; section 156 doesn't require one.</p>"""),
+        ("outsourced", "Can a compliance officer be outsourced?", f"""          <p>The regulation requires you to appoint "a person" responsible for implementing the program, and FINTRAC's guidance says the officer can be you or another individual. Neither text says the officer must be your employee, and FINTRAC's guidance doesn't address outsourcing directly. Its examples are a senior manager, the owner or operator of a small business, or a senior person with direct access to senior management and the board, and it says a sole proprietor may appoint themselves or "choose to appoint someone else". FINTRAC's expectations of the role are the same whoever fills it.</p>
+          <p>Two rules in FINTRAC's guidance shape any outsourced arrangement:</p>
+          <ul>
+            <li>The compliance officer may delegate certain duties to other employees, but remains responsible for implementing the compliance program.</li>
+            <li>Whoever is appointed, it is the reporting entity's responsibility to meet its compliance program requirements.</li>
+          </ul>
+          <p>FINTRAC's assessment manual says examiners may confirm that the compliance officer has direct access to senior management or the board, and timely access to information from all business lines. An external officer has these only if you grant them. In our view, the appointment letter or agreement should grant both, and say who signs off on reports, policy changes and client decisions. Our guide to <a href="outsourced-vs-in-house-compliance-officer.html">outsourced vs in-house compliance officers</a> compares the two options in more detail.</p>"""),
+        ("foreign", "Does a foreign MSB's compliance officer have to live in Canada?", f"""          <p>We found no residency rule for compliance officers. Section 156 of the regulations and FINTRAC's compliance program guidance don't require the compliance officer to live in Canada or to be a Canadian citizen. The person a foreign MSB must have in Canada is a different role: someone who resides in Canada and is authorized to accept notices from FINTRAC on the business's behalf.</p>
+          <p>That second person appears separately in Schedule 1 of the <a href="{SR1_REGREGS}" rel="noopener">Registration Regulations</a> (Part B, item 8.1), in the same part as the compliance officer's contact details (item 11). Our guide to <a href="foreign-msb-registration-canada.html">foreign MSB registration</a> covers the representative for service in more detail.</p>
+          <p>Where the officer lives doesn't change what FINTRAC expects. They still need to understand Canadian requirements under the PCMLTFA, and they need the authority and access described above.</p>"""),
+        ("exam", "What FINTRAC checks about your compliance officer", f"""          <p>In an examination, FINTRAC verifies four things about the compliance officer: appointment (selection), authority, knowledge and duties. Its <a href="{F_CAM}" rel="noopener">compliance assessment manual</a> says the focus is whether the officer is fulfilling their duties to implement a sound compliance program, judged by whether the areas examined are put into practice.</p>
+          <p>Based on the manual, keep these on file:</p>
+          <ul>
+            <li>a document showing you formally appointed the compliance officer;</li>
+            <li>their job description and documents describing their authority;</li>
+            <li>an organizational chart showing their line to senior management or the board;</li>
+            <li>policies and procedures that give the officer enough guidance to meet the legal requirements;</li>
+            <li>a record of their background, experience and the AML training you have given them.</li>
+          </ul>
+          <p>In our view, if your officer is outsourced, also keep the agreement setting out their access and sign-off authority.</p>
+          <p>If you've just registered, our guide to the <a href="first-90-days-aml-compliance-canada.html">first 90 days of AML compliance</a> sets out what to put in place first.</p>"""),
+    ],
+    faqs=[("Can a compliance officer be outsourced?", "The regulation requires you to appoint a person responsible for implementing your compliance program, and FINTRAC's guidance doesn't say that person must be an employee. The officer can delegate duties but stays responsible, and your MSB stays responsible for meeting its requirements."),
+          ("What qualifications do you need to be a compliance officer?", "FINTRAC's guidance names no certification, degree or minimum experience. It says the officer needs the authority and resources to run the program, knowledge of your business and its money laundering, terrorist financing and sanctions evasion risks, and an understanding of your PCMLTFA requirements."),
+          ("Can I act as my own compliance officer for my MSB?", "Yes, if your business is small. FINTRAC's guidance says the owner or operator of a small business can be the compliance officer, and a sole proprietor can appoint themselves. In a larger business, FINTRAC's best practice is an officer who isn't directly involved in receiving, transferring or paying funds."),
+          ("Do I have to tell FINTRAC if my compliance officer changes?", "Yes. The compliance officer's name, address, phone number and email are part of an MSB's registration information, and PCMLTFA subsection 11.13(1) requires you to report a change within 30 days after you become aware of it."),
+          ("Does an MSB compliance officer have to live in Canada?", "Section 156 of the regulations and FINTRAC's compliance program guidance set no residency requirement for the compliance officer. A foreign MSB must separately name a person who resides in Canada and is authorized to accept notices from FINTRAC.")],
+    sources=[("FINTRAC, Compliance program requirements", F_G4), ("FINTRAC, Compliance assessment manual", F_CAM),
+             ("PCMLTFR, section 156", SR1_S156), ("PCMLTFA, section 9.6", SR1_S96), ("PCMLTFA, section 11.13", SR1_S1113),
+             ("Proceeds of Crime (Money Laundering) and Terrorist Financing Registration Regulations", SR1_REGREGS)],
+    related=["outsourced-vs-in-house-compliance-officer.html", "fintrac-compliance-program-requirements.html", "foreign-msb-registration-canada.html"],
+)
+
+# --- keyword-cluster run 2026-11-11: msb-registration-renewal-canada ---
+# MSB registration renewal guide. Sources checked 11 November 2026.
+SR2_UPD = "https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/respond-eng"
+SR2_REGISTRY = "https://fintrac-canafe.canada.ca/msb-esm/reg-eng"
+SR2_HARM = "https://fintrac-canafe.canada.ca/pen/guides/msb-eng"
+SR2_ACT = "https://laws-lois.justice.gc.ca/eng/acts/P-24.501/FullText.html"
+SR2_REGR = "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2007-121/FullText.html"
+SR2_AMPR = "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2007-292/FullText.html"
+
+GUIDES["msb-registration-renewal-canada.html"] = dict(
+    checked="11 November 2026",
+    title="FINTRAC MSB Registration Renewal: Steps and Dates | AML Canada",
+    desc="How FINTRAC MSB registration renewal works: the two-year rule, first-renewal dates, what to update before filing, 30-day change deadlines and what expiry means.",
+    crumb="Registration renewal",
+    h1="FINTRAC MSB registration renewal: how and when to renew",
+    lede="FINTRAC MSB registration renewal is due every two years under section 11.19 of the Proceeds of Crime (Money Laundering) and Terrorist Financing Act, and FINTRAC says you must renew before the expiry date. A renewal filed in time keeps you Registered while FINTRAC processes it. This guide covers the dates, the information to refresh and the 30-day deadlines that run alongside renewal.",
+    label="Guide · MSB registration",
+    service="msb-registration.html",
+    date="2026-11-11",
+    takeaways=["Registration lasts two years, and the renewal must reach FINTRAC before the expiry date.",
+               "Virtual currency dealers and foreign MSBs have a set date for their first renewal under section 6.1 of the Registration Regulations.",
+               "A renewal carries the same Schedule 1 information as an application, so refresh owners, accounts, agents and volumes first.",
+               "Changes still go to FINTRAC within 30 days, whether or not a renewal is due."],
+    sections=[
+        ("how", "How do I renew my FINTRAC registration?", f"""          <p>You renew by completing FINTRAC's renewal form, \"Request to renew the registration of a money services business or foreign money services business\", before your registration expires. <a href="{SR2_UPD}" rel="noopener">FINTRAC's renewal page</a> says registration is valid for two years and that it's your responsibility to renew on time.</p>
+          <p>The legal steps are short:</p>
+          <ol>
+            <li><strong>File the renewal.</strong> Section 11.19 of the Act requires a registered business to renew \"in the prescribed form and manner every two years\". Under section 4 of the <a href="{SR2_REGR}" rel="noopener">Registration Regulations</a>, you submit electronically if you have the technical capability, or by telephone if you don't.</li>
+            <li><strong>Give the full Schedule 1 information.</strong> Section 5 of the Regulations says a renewal application must contain the information in Schedule 1, the same schedule used for a first application. Section 6.01 adds that you must report all known information that falls within each item.</li>
+            <li><strong>Answer any clarification request.</strong> FINTRAC says it will send one if it needs more information. A registered business has 30 days after the request to respond (Act, s. 11.17(1)).</li>
+          </ol>
+          <p>As of 11 November 2026, FINTRAC says the majority of complete applications are processed within three months of receiving a complete package, and complex ones can take longer.</p>"""),
+        ("when", "When is FINTRAC MSB registration renewal due?", f"""          <p>For most MSBs, renewal is due two years after registration. Section 11.19 of the Act sets the two-year cycle, and <a href="{SR2_REGISTRY}" rel="noopener">FINTRAC's registry</a> describes an Expired business as one that \"did not renew its registration after 2 years\".</p>
+          <p>Two groups have a fixed deadline for their <strong>first</strong> renewal under section 6.1 of the Registration Regulations: virtual currency dealers (paragraph 5(h)(iv) of the Act) and foreign money services businesses (paragraph 5(h.1)). They must renew no later than:</p>
+          <ul>
+            <li><strong>A person:</strong> the last day of the month of their first birthday that occurs after the second anniversary of initial registration.</li>
+            <li><strong>A corporation:</strong> the last day of the month of the first anniversary of its incorporation that occurs after the second anniversary of initial registration.</li>
+            <li><strong>Another entity:</strong> the day after the second anniversary of initial registration.</li>
+          </ul>
+          <p>Your expiry date is public. Section 2 of the Regulations makes the date a registration expires part of the identifying information shown on the registry. Look up your own listing and put that date in your compliance calendar.</p>"""),
+        ("checklist", "What to check and update before you renew", f"""          <p>Because a renewal must carry the full Schedule 1 information, review each item against how the business runs today. A renewal that repeats the old application can leave the registry inaccurate. These are the main Schedule 1 items to confirm:</p>
+          <div class="table-wrap"><table>
+            <thead><tr><th scope="col">Check</th><th scope="col">Schedule 1 item</th><th scope="col">What to confirm</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Identity and services</th><td>Part A, items 1, 5 to 9</td><td>Legal and operating name, place of business, phone, website, every service you're renewing for, and your existing registration number</td></tr>
+              <tr><th scope="row">People and owners</th><td>Part B, item 7 or 8</td><td>CEO, president, each director and everyone owning or controlling 20% or more, with contact details, date of birth and country of birth and residence</td></tr>
+              <tr><th scope="row">Representative for service</th><td>Part B, item 8.1</td><td>For a foreign MSB, the phone number and email of the person in Canada authorized to accept FINTRAC notices</td></tr>
+              <tr><th scope="row">Bank accounts</th><td>Part B, item 9</td><td>Every financial entity, in Canada or abroad, where you hold an account used for MSB services</td></tr>
+              <tr><th scope="row">Other MSBs you use</th><td>Part B, item 10</td><td>Name, address and FINTRAC registration number of each MSB or foreign MSB you use to conduct transactions</td></tr>
+              <tr><th scope="row">Compliance officer</th><td>Part B, item 11</td><td>The person responsible for your compliance program, with current contact details</td></tr>
+              <tr><th scope="row">Size of the business</th><td>Part B, items 14 and 15</td><td>Number of staff and the approximate annual value of your services, both stated at the time of renewal</td></tr>
+              <tr><th scope="row">Agents and branches</th><td>Part C</td><td>Every agent, mandatary and branch, the services each provides, and the date of your next agent review</td></tr>
+            </tbody>
+          </table></div>
+          <p>Check eligibility too. Under section 11.11 of the Act and section 3 of the Regulations, a corporation isn't eligible if its CEO, president, a director or a 20% owner falls into certain groups, such as people convicted of listed offences. FINTRAC's <a href="{SR2_HARM}" rel="noopener">harm done guide for registration violations</a> says registration information that is incomplete, outdated or unclear diminishes the effectiveness of its compliance activities.</p>"""),
+        ("deadlines", "Renewal deadlines and the 30-day rules", f"""          <p>Renewal is one of several registration deadlines, and the others keep running between renewals. Each comes from the Act or the Regulations:</p>
+          <div class="table-wrap"><table>
+            <thead><tr><th scope="col">Event</th><th scope="col">Deadline</th><th scope="col">Source</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Routine renewal</th><td>Every two years, before the expiry date</td><td>Act s. 11.19; FINTRAC</td></tr>
+              <tr><th scope="row">First renewal, virtual currency dealer or foreign MSB</th><td>The date set by the person, corporation or entity rule</td><td>Regulations s. 6.1</td></tr>
+              <tr><th scope="row">Change to registration information, or newly obtained information</th><td>Within 30 days after you become aware of it</td><td>Act s. 11.13(1)</td></tr>
+              <tr><th scope="row">Foreign MSB's representative for service changes name or address</th><td>Within 30 days, or FINTRAC must deny or revoke</td><td>Act s. 11.13(2)</td></tr>
+              <tr><th scope="row">Clarification request from FINTRAC</th><td>Within 30 days after the request is made</td><td>Act s. 11.17(1)</td></tr>
+              <tr><th scope="row">You stop a registered activity</th><td>Within 30 days after you cease it</td><td>Act s. 11.2</td></tr>
+            </tbody>
+          </table></div>
+          <p>For planning, work back from the expiry date. If FINTRAC's three-month processing estimate applies to your file, starting the review several months ahead leaves time to gather owner details and answer questions. A renewal doesn't replace a change notice. If a director changes six weeks before your renewal is due, the 30-day rule in section 11.13(1) still applies. Our guide to <a href="fintrac-msb-change-of-ownership.html">reporting a change of ownership</a> covers that process.</p>"""),
+        ("processing", "Can you keep operating while the renewal is processed?", f"""          <p>Yes, if you submitted the renewal before the expiry date. FINTRAC's registry says a business that has submitted a renewal application but has passed its expiry date \"remains registered with FINTRAC until its renewal is processed\" and shows as Registered.</p>
+          <p>Watch for email during this period. FINTRAC says clarification requests usually go by email to the contact person or representative for service on file, and delays in responding can increase processing times. If a registered business doesn't answer within 30 days, FINTRAC may revoke the registration (Act, s. 11.17(2)).</p>"""),
+        ("expired", "What happens if my MSB registration expires?", f"""          <p>If no renewal reached FINTRAC before the expiry date, the registry says the business \"is deemed to have an expired registration\" and its status becomes Expired. The business is then no longer registered, and section 11.1 of the Act requires every MSB and foreign MSB to be registered with FINTRAC.</p>
+          <p>FINTRAC's harm done guide says that when there's a significant delay in renewing, it \"may consider that the MSB is operating as an unregistered MSB\". The consequences can be administrative or criminal:</p>
+          <ul>
+            <li><strong>Penalty.</strong> Failing to renew under section 11.19 is a serious violation in the schedule to the <a href="{SR2_AMPR}" rel="noopener">Administrative Monetary Penalties Regulations</a>. As of 11 November 2026, section 5(b) of those Regulations sets the range for a serious violation at $1 to $4,000,000.</li>
+            <li><strong>Offence.</strong> Under section 77.4 of the Act, a business that must register and knowingly engages in an activity it isn't registered for commits an offence. The maximum is a $2,500,000 fine, two years less a day in prison, or both, on summary conviction, and a $5,000,000 fine, five years in prison, or both, on indictment.</li>
+          </ul>
+          <p>FINTRAC's renewal page lists the same risk: failure to renew may result in administrative monetary penalties or criminal charges. Our <a href="fintrac-penalties-amps.html">FINTRAC penalties guide</a> explains how penalties are set. Denials, revocations and reapplying are covered in our guide to <a href="msb-registration-refused-revoked.html">denied, revoked and expired registrations</a>.</p>"""),
+        ("cease", "If you don't plan to renew", f"""          <p>If the business no longer offers money services, notify FINTRAC instead of letting the registration lapse. Section 11.2 of the Act requires a registered business that ceases an activity to notify FINTRAC within 30 days after it stops. FINTRAC uses a cessation form for this, and the notice carries the proposed effective date of cessation (Regulations, Schedule 2).</p>
+          <p>The registry then shows the business as Ceased, which FINTRAC defines as a business that notified it that it no longer offers the services. If you plan to start again later, our guide on <a href="how-to-register-msb-canada.html">how to register an MSB</a> sets out the full application.</p>"""),
+    ],
+    faqs=[("How do I renew my FINTRAC registration?", "Complete FINTRAC's renewal form before your registration expires, with the full information in Schedule 1 of the Registration Regulations. Answer any clarification request within 30 days. FINTRAC says most complete applications are processed within three months."),
+          ("What happens if my MSB registration expires?", "If you didn't submit a renewal before the expiry date, FINTRAC's registry treats the registration as expired. Failing to renew is a serious violation under the penalty regulations, and knowingly providing money services while unregistered can be prosecuted under section 77.4 of the Act."),
+          ("How often do I renew MSB registration with FINTRAC?", "Every two years, under section 11.19 of the Act. Virtual currency dealers and foreign MSBs follow the date rules in section 6.1 of the Registration Regulations for their first renewal."),
+          ("Do I still report changes if my renewal is coming up?", "Yes. Section 11.13(1) of the Act requires you to report changes to your registration information within 30 days after you become aware of them, separately from renewal."),
+          ("Is MSB renewal a licence renewal?", "No. People often search for an MSB licence, but FINTRAC says registration doesn't mean it endorses or licenses a business, and it doesn't issue licences or certificates of registration. What you renew is your registration.")],
+    sources=[("FINTRAC, Answer clarification requests, update, renew or cancel your registration", SR2_UPD),
+             ("FINTRAC, Money Services Business Registry", SR2_REGISTRY),
+             ("FINTRAC, Guide on harm done assessment for money services businesses registration violations", SR2_HARM),
+             ("Proceeds of Crime (Money Laundering) and Terrorist Financing Act", SR2_ACT),
+             ("Proceeds of Crime (Money Laundering) and Terrorist Financing Registration Regulations", SR2_REGR),
+             ("Proceeds of Crime (Money Laundering) and Terrorist Financing Administrative Monetary Penalties Regulations", SR2_AMPR)],
+    related=["msb-registration-refused-revoked.html", "fintrac-msb-change-of-ownership.html", "how-to-register-msb-canada.html"],
+)
+
+# --- keyword-cluster run 2026-11-11: check-fintrac-msb-registration ---
+# ------------------------------------------------------------------ check-fintrac-msb-registration.html (2026-11-08)
+# ------------------------------------------------------------------ MSB: checking FINTRAC MSB registration (checked 11 November 2026)
+# Official sources used only by this guide. Prefix SR3_ avoids clashes with names above.
+# PCMLTFA and SOR/2007-121 read on Justice Laws ("current to 2026-10-19").
+SR3_REGISTRY = "https://fintrac-canafe.canada.ca/msb-esm/reg-eng"
+SR3_REVOKED = "https://fintrac-canafe.canada.ca/msb-esm/revoked-revoquee-eng"
+SR3_PUBLIC = "https://fintrac-canafe.canada.ca/public/businesses-entreprises-eng"
+SR3_OPEN = "https://fintrac-canafe.canada.ca/transp/open-ouvert-eng"
+SR3_ACT = "https://laws-lois.justice.gc.ca/eng/acts/P-24.501/FullText.html"
+SR3_REGS = "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2007-121/FullText.html"
+
+GUIDES["check-fintrac-msb-registration.html"] = dict(
+    checked="11 November 2026",
+    title="How to Check FINTRAC MSB Registration | AML Canada",
+    desc="How to check FINTRAC MSB registration: search the registry by name or number, read each field and status, download the full list, and what a listing proves.",
+    crumb="Check MSB registration",
+    h1="How to check FINTRAC MSB registration",
+    lede="To check FINTRAC MSB registration, search the business's legal name, operating name or registration number in FINTRAC's Money Services Business Registry and confirm the status reads Registered. Then match the name, number, website and services on the entry to the business you are dealing with. A listing confirms registration only, because FINTRAC does not license or endorse money services businesses.",
+    label="Guide · MSB registration",
+    service="msb-registration.html",
+    date="2026-11-11",
+    takeaways=["Search FINTRAC's registry by name or number, then check that the name, number and status match the business in front of you.",
+               "Only Registered means registered today. A past expiry date with Registered status means a renewal was filed on time and is still being processed.",
+               "The whole registry downloads as XLS or CSV, and FINTRAC keeps a separate list of revoked registrations.",
+               "Registration is not a licence, an endorsement or a compliance finding, and FINTRAC can't tell you more than the registry shows."],
+    sections=[
+        ("how-to-check", "How do I check FINTRAC MSB registration?", f"""          <p>Open FINTRAC's <a href="{SR3_REGISTRY}" rel="noopener">Money Services Business Registry</a> and search the business's legal name, operating name or registration number. FINTRAC says all fields are searchable. Then confirm that the name, the registration number and the status on the entry match what the business told you, which is the check FINTRAC itself recommends.</p>
+          <p>The registry is the public record of MSB registration. Section 54.1(1) of the <a href="{SR3_ACT}" rel="noopener">Proceeds of Crime (Money Laundering) and Terrorist Financing Act</a> (PCMLTFA) makes FINTRAC responsible for keeping a registry of the information businesses submit when they register. Section 54.1(3) requires FINTRAC to make the identifying part of it public. Under section 11.15, a business is registered once FINTRAC adds it to that registry.</p>
+          <p>FINTRAC says it can't give any further information on a business beyond what the registry shows. As of 11 November 2026, its registry page (modified 4 November 2026) says the registry is updated monthly.</p>"""),
+        ("fields", "What does the FINTRAC MSB registry show?", f"""          <p>The registry's search results show 14 fields for each business. Section 2 of the <a href="{SR3_REGS}" rel="noopener">PCMLTFA Registration Regulations</a> defines the public "identifying information" as the details in Parts A and C of Schedule 1, plus the dates a registration is revoked or expires and the date a business ceases an activity. The fields are:</p>
+          <ul>
+            <li>organization names, legal and operating;</li>
+            <li>business address and website;</li>
+            <li>services offered;</li>
+            <li>MSB registration status and MSB registration number;</li>
+            <li>initial registration date, expiry date, cessation date and revocation date;</li>
+            <li>jurisdiction of incorporation, incorporation number and incorporation date;</li>
+            <li>foreign MSB indicator.</li>
+          </ul>
+          <p>The foreign MSB indicator separates the two kinds of registrant in section 5 of the Act. An MSB under paragraph 5(h) has a place of business in Canada. A foreign MSB under paragraph 5(h.1) has no place of business in Canada but directs its services at people in Canada and provides them to clients in Canada.</p>"""),
+        ("statuses", "What do Registered, Expired, Ceased and Revoked mean?", f"""          <p>Every business in the registry carries one of four statuses, and FINTRAC defines each one on its registry page. Only Registered means the business is registered today:</p>
+          <ul>
+            <li><strong>Registered.</strong> The business is currently registered with FINTRAC.</li>
+            <li><strong>Expired.</strong> The business did not renew its registration after two years. Section 11.19 of the Act requires renewal every two years.</li>
+            <li><strong>Ceased.</strong> The business told FINTRAC it no longer offers the services. Section 11.2 requires that notice within 30 days of stopping an activity.</li>
+            <li><strong>Revoked.</strong> The business is no longer registered because it didn't answer a clarification request, didn't provide assistance to FINTRAC or was found ineligible.</li>
+          </ul>
+          <p>Read the expiry date with the status. FINTRAC says a business that submitted its renewal before the expiry date stays Registered until the renewal is processed, even after that date passes. A business that did not submit one in time is treated as Expired. Our guide to <a href="msb-registration-refused-revoked.html">denied, revoked and expired registrations</a> explains what each outcome means for the business itself.</p>"""),
+        ("number", "How can I check an MSB registration number in Canada?", f"""          <p>Search the number in FINTRAC's registry and check that it returns the same legal or operating name the business uses with you. FINTRAC's registry page and its <a href="{SR3_PUBLIC}" rel="noopener">guidance on conducting transactions with an MSB</a> both say to verify the name, number and status of a business together.</p>
+          <p>A number on its own proves little, because anyone can quote a number copied from a registered business. Compare the website and business address on the entry with the contact details you were given.</p>
+          <p>FINTRAC sends a business notice of its registration (section 11.15), but it says it does not issue licences or certificates of registration. Rely on the registry entry, and treat any "certificate" or "licence" a business shows you as its own document.</p>"""),
+        ("list", "Can you provide me with a list of MSBs registered with FINTRAC?", f"""          <p>Yes. FINTRAC publishes the registry as a download on its registry page, in XLS (1.1 MB) and CSV (2.6 MB) versions as of 11 November 2026. Check the status column of each row before you treat it as a current registration.</p>
+          <p>FINTRAC also lists the money services businesses registry among its datasets on the <a href="{SR3_OPEN}" rel="noopener">Open Government portal</a>. Its separate <a href="{SR3_REVOKED}" rel="noopener">list of businesses with revoked registration</a> uses the same fields except Website, and FINTRAC points users back to the main registry for the most recent status.</p>
+          <p>The revoked list page sets out when FINTRAC can deny or revoke a registration. The grounds are a business that isn't eligible, doesn't answer a clarification request within 30 days, doesn't respond in time to demands for information, doesn't tell FINTRAC about updates to its name or address, or fails to provide assistance. A business can ask for a review within 30 days of a denial or revocation.</p>"""),
+        ("table", "What a registry entry tells a bank, partner or buyer, and what it doesn't prove", f"""          <p>A registry entry confirms a legal fact about registration and little else. FINTRAC says registration "indicates only that the business has satisfied the legal requirements to register." Read each field for what it can carry:</p>
+          <div class="table-wrap"><table>
+            <thead><tr><th scope="col">Field or status</th><th scope="col">What it tells you</th><th scope="col">What it doesn't prove</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Status: Registered</th><td>The business met the legal requirements to register and is registered now</td><td>That FINTRAC endorses or licenses it, or that its compliance program works</td></tr>
+              <tr><th scope="row">Legal and operating names</th><td>Which legal entity holds the registration and the trade names it gave FINTRAC</td><td>That a brand missing from the entry belongs to this entity. Ask which entity signs your contract</td></tr>
+              <tr><th scope="row">Registration number</th><td>A reference to check against the name and status</td><td>That the person quoting it acts for that business</td></tr>
+              <tr><th scope="row">Services offered</th><td>The services the business registered for</td><td>That a service missing from the list is covered, or how much business it does</td></tr>
+              <tr><th scope="row">Business address and website</th><td>The place of business and URL the business gave FINTRAC (Schedule 1, Part A)</td><td>That FINTRAC checked them. The Act says FINTRAC may verify registry information (s. 54.1(4)), and the entry doesn't say whether it did</td></tr>
+              <tr><th scope="row">Initial registration date</th><td>When the registration began</td><td>That the business was registered for any earlier period in which it operated</td></tr>
+              <tr><th scope="row">Expiry date</th><td>When the current two-year period ends. A past date with Registered status means a renewal is pending</td><td>That the pending renewal will be approved</td></tr>
+              <tr><th scope="row">Cessation or revocation date</th><td>When the business stopped or lost its registration</td><td>Why. The registry fields carry no reason for a revocation</td></tr>
+              <tr><th scope="row">Incorporation jurisdiction, number and date</th><td>Which corporate record to match the entry against</td><td>That the corporation is in good standing. Check the corporate registry</td></tr>
+              <tr><th scope="row">Foreign MSB indicator</th><td>Whether the business has a place of business in Canada (s. 5(h)) or not (s. 5(h.1))</td><td>Anything about Bank of Canada PSP or provincial status</td></tr>
+              <tr><th scope="row">No entry found</th><td>Nothing yet. Try other names and the number</td><td>That the business is unregistered. See the next section</td></tr>
+            </tbody>
+          </table></div>
+          <p>How each group uses the table:</p>
+          <ul>
+            <li><strong>Banks and credit unions.</strong> Section 9.31 of the Act bars banks, credit unions, caisses populaires, trust and loan companies and other prescribed entities from opening or keeping an account for a foreign MSB, or having a correspondent banking relationship with one, unless it is registered with FINTRAC. Save the entry at onboarding and again at each review.</li>
+            <li><strong>Partners and payment providers.</strong> Match the listed services to the flows you will run with the MSB, and compare the expiry date with your contract term.</li>
+            <li><strong>Buyers.</strong> Our <a href="buying-an-msb-canada.html">MSB due-diligence checklist</a> covers the rest, from examination history to the eligibility of new owners.</li>
+            <li><strong>Consumers.</strong> FINTRAC says it can't assess an MSB's business practices or help customers recover funds, so treat the registry as the start of your research.</li>
+          </ul>"""),
+        ("not-found", "What if a business isn't in the FINTRAC registry?", f"""          <p>A business missing from the registry may be listed under another name, may not be required to register as an MSB, or may be operating without registration. Search its legal name, operating names and registration number before you draw a conclusion.</p>
+          <p>Section 11.1 of the Act requires registration from MSBs, foreign MSBs, government departments and agents under paragraph 5(l) that issue or sell money orders to, or redeem them from, the public, and any other prescribed section 5 entity, except as the regulations provide otherwise. Banks and credit unions are reporting entities under paragraphs 5(a) and (b). A payment company may instead, or also, be registered with the Bank of Canada under the Retail Payment Activities Act, which keeps its own registry. Our guide to <a href="check-bank-of-canada-psp-registration.html">checking Bank of Canada PSP registration</a> covers that search.</p>
+          <p>If the business still looks unregistered, FINTRAC's consumer guidance says you may submit voluntary information to FINTRAC anonymously. FINTRAC says operating an unregistered MSB is a violation and an offence under the Act. Section 77.4 makes it an offence for a business that must register to knowingly carry on an activity it isn't registered for.</p>"""),
+    ],
+    faqs=[("Is FINTRAC MSB registration a licence?", "No. FINTRAC says registration does not mean it endorses or licenses the business, and it does not issue licences or certificates of registration. People search for an \"MSB licence\", but what section 11.1 of the PCMLTFA requires is registration with FINTRAC."),
+          ("How often is the FINTRAC MSB registry updated?", "FINTRAC's registry page, modified 4 November 2026, says the registry is updated monthly. A very recent change may not show yet, so save a dated copy of each search and repeat it before you sign or pay."),
+          ("Can FINTRAC tell me more about an MSB than the registry shows?", "No. FINTRAC says it can't provide any further information on a business beyond what the registry makes public. It also says it can't freeze funds, help recover funds or assist consumers in disputes with an MSB."),
+          ("Why does a registered MSB show an expiry date that has passed?", "FINTRAC says a business that submitted its renewal before the expiry date stays Registered until the renewal is processed. A business that missed the date has the status Expired instead."),
+          ("Does the FINTRAC registry show Bank of Canada PSP registration?", "No. None of the registry's 14 fields covers RPAA registration. Search the Bank of Canada's PSP registry separately, as our <a href=\"check-bank-of-canada-psp-registration.html\">PSP registration guide</a> explains.")],
+    sources=[("FINTRAC, Money Services Business Registry", SR3_REGISTRY), ("FINTRAC, Money services businesses with revoked registration", SR3_REVOKED),
+             ("FINTRAC, Conducting transactions with a money services business", SR3_PUBLIC), ("FINTRAC, Data on the Open Government portal", SR3_OPEN),
+             ("Proceeds of Crime (Money Laundering) and Terrorist Financing Act", SR3_ACT),
+             ("Proceeds of Crime (Money Laundering) and Terrorist Financing Registration Regulations", SR3_REGS)],
+    related=["buying-an-msb-canada.html", "msb-registration-refused-revoked.html", "check-bank-of-canada-psp-registration.html"],
+)
+
+# --- keyword-cluster run 2026-11-11: fintrac-risk-assessment-msb ---
+# fintrac-risk-assessment-msb: exec() after guides_v3.py definitions (GUIDES, F_G4, F_RBA, F_CAM, F_DIR exist).
+# Official sources checked 11 November 2026.
+SR4_A96 = "https://laws-lois.justice.gc.ca/eng/acts/P-24.501/section-9.6.html"
+SR4_A5 = "https://laws-lois.justice.gc.ca/eng/acts/P-24.501/section-5.html"
+SR4_R156 = "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-184/section-156.html"
+SR4_R157 = "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-184/section-157.html"
+SR4_NRA = "https://www.canada.ca/en/department-finance/programs/financial-sector-policy/nira-neri/2025.html"
+SR4_NRA_RPT = "https://www.canada.ca/en/department-finance/programs/financial-sector-policy/nira-neri/2025/report.html"
+
+GUIDES["fintrac-risk-assessment-msb.html"] = dict(
+    checked="11 November 2026",
+    title="FINTRAC Risk Assessment for MSBs: How to Do It | AML Canada",
+    desc="What a FINTRAC risk assessment for MSBs must cover under PCMLTFR s. 156, with a factor-by-factor table, FINTRAC's six steps and what examiners check.",
+    crumb="Risk assessment for MSBs",
+    h1="FINTRAC risk assessment for MSBs: the rules and a worked example",
+    lede="A FINTRAC risk assessment for MSBs is the written assessment of how your clients, services, delivery channels and locations could expose you to money laundering or terrorist financing. Section 156 of the Regulations lists the factors, and FINTRAC's guidance describes a method. Below, each factor is matched to its legal source and to the evidence an examiner may ask to see.",
+    label="Guide · Compliance programs",
+    service="compliance-programs.html",
+    date="2026-11-11",
+    takeaways=["PCMLTFR s. 156(1)(c) requires every MSB to assess and document its risks across clients, products and channels, geography and other relevant factors.",
+               "Under s. 156(2), assess a new product, service or technology before you launch it.",
+               "High risk triggers written enhanced measures under PCMLTFA s. 9.6(3) and PCMLTFR s. 157.",
+               "FINTRAC also expects you to consider sanctions evasion risk and the latest National Risk Assessment."],
+    sections=[
+        ("requirements", "What are the requirements for risk assessment under FINTRAC?", f"""          <p>Every MSB and foreign MSB must assess and document its money laundering and terrorist financing risks as part of its compliance program. Where it finds the risk high, it must take special measures. The duty comes from section 9.6 of the PCMLTFA and section 156 of the Regulations. FINTRAC's guidance adds detail and doesn't prescribe a method.</p>
+          <p>As of 11 November 2026, the legal requirements are:</p>
+          <ul>
+            <li><strong><a href="{SR4_A96}" rel="noopener">PCMLTFA s. 9.6(1.1)</a>.</strong> Your compliance program must be "reasonably designed, risk-based and effective". S.C. 2026, c. 4, s. 79 added this subsection, in force since 26 March 2026.</li>
+            <li><strong>PCMLTFA s. 9.6(2).</strong> The program must include policies and procedures to assess the risk of a money laundering offence or a terrorist activity financing offence.</li>
+            <li><strong><a href="{SR4_R156}" rel="noopener">PCMLTFR s. 156(1)(c)</a>.</strong> You must assess and document that risk, considering your clients and business relationships, your products, services and delivery channels, the geographic location of your activities and any other relevant factor.</li>
+            <li><strong>PCMLTFR s. 156(2).</strong> You must assess and document the risk of a new development or new technology before you introduce it.</li>
+            <li><strong>PCMLTFA s. 9.6(3) and <a href="{SR4_R157}" rel="noopener">PCMLTFR s. 157</a>.</strong> Where the risk is high, you need written policies and procedures for enhanced measures to verify identity, keep client information up to date and monitor business relationships, at a frequency that matches the risk.</li>
+          </ul>
+          <p><a href="{F_G4}" rel="noopener">FINTRAC's compliance program guidance</a> also asks you to assess sanctions evasion risk and to consider your sector's risks in the latest National Risk Assessment. Those two points are FINTRAC expectations. For the other parts of the program, see <a href="fintrac-compliance-program-requirements.html">FINTRAC compliance program requirements</a>.</p>"""),
+        ("factors", "Which risk factors apply to a money services business?", f"""          <p>Five of the six factors in section 156 of the Regulations apply to an MSB: clients and business relationships; products, services and delivery channels; geography; new developments and technologies; and any other relevant factor. The affiliate factor in paragraph 156(1)(c)(iv) covers only entities in paragraphs 5(a) to (g) of the Act, such as banks and securities dealers. MSBs fall under <a href="{SR4_A5}" rel="noopener">paragraph 5(h)</a>, and foreign MSBs under 5(h.1).</p>
+          <p>FINTRAC says the law doesn't prohibit high-risk activities or business relationships. If you have them, you must document them, put controls in place and apply the prescribed special measures. FINTRAC also says you are accountable for the activities of your agents.</p>"""),
+        ("table", "FINTRAC risk assessment for MSBs: a worked factor table", f"""          <p>Each factor below has a source in the Regulations or the Act, and some of the detail comes only from FINTRAC guidance. The examples are from FINTRAC's <a href="{F_RBA}" rel="noopener">risk assessment guidance</a>, which applies to all reporting entities, and its <a href="{F_G4}" rel="noopener">compliance program guidance</a>, and the evidence column is from its <a href="{F_CAM}" rel="noopener">assessment manual</a> and that guidance.</p>
+          <div class="table-wrap"><table>
+            <thead><tr><th scope="col">Factor</th><th scope="col">Source and status</th><th scope="col">Examples from FINTRAC guidance</th><th scope="col">Evidence examiners may review</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Clients and business relationships</th><td>PCMLTFR s. 156(1)(c)(i). Law</td><td>Unknown source of funds; unusual speed, volume or frequency of transactions</td><td>Client ratings with a written rationale, one by one or in logical groups; client records that match those ratings</td></tr>
+              <tr><th scope="row">Products, services and delivery channels</th><td>PCMLTFR s. 156(1)(c)(ii). Law</td><td>Electronic funds transfers, products offered through agents, mobile apps, virtual currency, non-face-to-face and online onboarding</td><td>A rating and rationale for each service and channel; written controls for each high-risk one</td></tr>
+              <tr><th scope="row">Geography</th><td>PCMLTFR s. 156(1)(c)(iii). Law</td><td>Locations near a border crossing or in a high-crime area; transfers with a country under sanctions, which FINTRAC says you should treat as high risk</td><td>Ratings for your locations and the countries you deal with; records linked to high-risk jurisdictions</td></tr>
+              <tr><th scope="row">New developments and technologies</th><td>PCMLTFR s. 156(2). Law, before launch</td><td>E-wallets, prepaid cards, mobile payments, a new onboarding or monitoring tool, an acquisition</td><td>An assessment documented before the change, and the process you follow</td></tr>
+              <tr><th scope="row">Affiliates</th><td>PCMLTFR s. 156(1)(c)(iv). Law for entities in PCMLTFA s. 5(a) to (g) only</td><td>Doesn't apply to MSBs or foreign MSBs</td><td>Not applicable</td></tr>
+              <tr><th scope="row">Any other relevant factor</th><td>PCMLTFR s. 156(1)(c)(v). Law; FINTRAC's examples are guidance</td><td>Employee turnover, third-party service providers, sanctions, ministerial directives, the National Risk Assessment</td><td>That your assessment considers any ministerial directive that applies to you; how you use public information</td></tr>
+              <tr><th scope="row">High-risk results</th><td>PCMLTFA s. 9.6(3) and PCMLTFR s. 157. Law</td><td>Enhanced identity checks, more frequent client updates and monitoring, questions on source of funds or wealth</td><td>High-risk client files that show special measures; controls that match your ratings</td></tr>
+            </tbody>
+          </table></div>
+          <p>FINTRAC says a table of ratings like this is not in itself a risk assessment. If you use a checklist, you must be able to provide a documented analysis that draws conclusions on your vulnerabilities and the threats you face.</p>"""),
+        ("how", "How to do an AML risk assessment", """          <p>FINTRAC suggests a six-step cycle that you can adapt to your business: identify inherent risks, set your risk tolerance, create controls, evaluate the risk that remains, implement the approach and review it. The steps are FINTRAC guidance, while the documentation and special measures inside them are required by law.</p>
+          <ol>
+            <li><strong>Identify inherent risks.</strong> Inherent risk is the risk before controls. Rate each factor and write down why. FINTRAC says the law doesn't require a low, medium and high scale, but you must set a scale that suits your size and type. A very small business may only need low and high.</li>
+            <li><strong>Set your risk tolerance.</strong> Decide which regulatory, reputational, legal or financial risks you will accept. FINTRAC expects senior management to approve it, where you have senior management. A high tolerance doesn't remove your obligations.</li>
+            <li><strong>Create controls.</strong> Mitigate every high-risk element and put the written mitigation strategies in your policies and procedures.</li>
+            <li><strong>Evaluate residual risk.</strong> If the risk left after controls exceeds your tolerance, return to step 3.</li>
+            <li><strong>Implement.</strong> Apply the approach as documented, including monitoring frequencies and special measures.</li>
+            <li><strong>Review.</strong> Test it in your two-year effectiveness review, and update it when your business model changes.</li>
+          </ol>"""),
+        ("business-wide", "Business-wide and client risk assessments", """          <p>FINTRAC's model splits the work into a business-based assessment of the whole business and a relationship-based assessment of your clients, and you can do both at once. The business-wide risk assessment covers every factor except clients and relationships. The client assessment looks at the services each client uses, their geography and their patterns of activity.</p>
+          <p>You can rate clients individually or in logical groups. FINTRAC says one high-risk indicator doesn't necessarily make a client high risk, apart from three indicators it names. If you have no business relationships, you don't need a client worksheet for low and medium risk clients, but FINTRAC says to include high-risk ones, such as clients named in a suspicious transaction report you sent.</p>"""),
+        ("nra", "What the 2025 National Risk Assessment says about MSBs", f"""          <p>The Department of Finance published the <a href="{SR4_NRA}" rel="noopener">2025 Assessment of Money Laundering and Terrorist Financing Risks in Canada</a>, also called the National Risk Assessment, in August 2025. It rates the inherent vulnerability of the money services business sector as medium to very high, alongside crypto assets, corporations, express trusts and domestic systemically important banks in its very high group.</p>
+          <ul>
+            <li>The <a href="{SR4_NRA_RPT}" rel="noopener">report</a> names retail multi-service MSBs and MSBs using informal value transfer systems, such as hawalas, as the most vulnerable types.</li>
+            <li>It rates crypto assets as very high, and payment service providers and crowdfunding platforms as high.</li>
+            <li>It says newer MSB sub-sectors, including virtual currency dealers, may not yet have the strong understanding of obligations expected of core MSB services regulated since 2008.</li>
+          </ul>
+          <p>The report doesn't assess risks specific to individual organizations or regions. Use it to check that your assessment covers the risks it names for your sub-sector.</p>"""),
+        ("examiners", "What FINTRAC examiners look for", f"""          <p>FINTRAC's assessment manual says examiners check that you have a documented risk assessment covering each applicable element and reflecting the type, nature, size and complexity of your business. They focus on whether you rated every aspect of your business, gave reasons and applied special measures to high-risk areas. They may:</p>
+          <ul>
+            <li>test a sample of client and transaction records against your ratings and your policies and procedures;</li>
+            <li>check that your controls, policies, training and two-year review address your higher-risk areas;</li>
+            <li>check that you assessed new developments and technologies before introducing them;</li>
+            <li>interview the people responsible for your risk assessment;</li>
+            <li>verify that your assessment considers any <a href="{F_DIR}" rel="noopener">ministerial directive</a> covering a jurisdiction or entity you deal with.</li>
+          </ul>
+          <p>If you rate something lower than FINTRAC would, its guidance says you must be able to give a reasonable rationale. Our <a href="fintrac-examination-preparation.html">examination preparation guide</a> covers the wider process.</p>"""),
+        ("update", "When should an MSB update its risk assessment?", """          <p>The law requires you to assess and document the risk before you launch a new development or technology, under section 156(2) of the Regulations. FINTRAC's guidance also says to reassess regularly and to document the risks of each change, such as a new product, service, technology or location.</p>
+          <p>FINTRAC counts systems used in your own AML controls as new technologies, such as a transaction monitoring system or a client onboarding or identification tool. It lists acquisitions, business model changes and restructuring as new developments.</p>
+          <p>Your two-year effectiveness review must test the risk assessment along with your policies and training. Our <a href="fintrac-effectiveness-review-checklist.html">effectiveness review checklist</a> lists the questions to ask.</p>"""),
+    ],
+    faqs=[("Does FINTRAC require a specific risk assessment template?", "No. FINTRAC says it doesn't prescribe how a risk assessment should be conducted, and its example worksheets are optional. The assessment must be documented, and FINTRAC expects it to reflect your business and include all the prescribed elements."),
+          ("Is a business-wide risk assessment a legal requirement?", "Yes. PCMLTFR s. 156(1)(c) requires you to assess and document risk across your clients, products, services, delivery channels, geography and other relevant factors. The terms business-based and relationship-based come from FINTRAC's guidance."),
+          ("Do MSBs have to assess sanctions evasion risk?", "FINTRAC's compliance program guidance asks you to assess sanctions evasion risk alongside money laundering and terrorist financing. As of 11 November 2026, PCMLTFA s. 9.6(2) refers only to money laundering and terrorist activity financing offences."),
+          ("How often should an MSB update its risk assessment?", "Before any new development or technology (a legal requirement) and whenever your risks change (a FINTRAC expectation). Your effectiveness review must also test it at least every two years."),
+          ("Can a consultant prepare our risk assessment?", "Yes. FINTRAC says that if a service provider performs your risk assessment, you remain ultimately responsible for meeting the obligation.")],
+    sources=[("FINTRAC, Risk assessment guidance", F_RBA), ("FINTRAC, Compliance program requirements", F_G4),
+             ("FINTRAC assessment manual", F_CAM), ("PCMLTFA, section 9.6", SR4_A96), ("PCMLTFA, section 5", SR4_A5),
+             ("PCMLTFR, section 156", SR4_R156), ("PCMLTFR, section 157", SR4_R157), ("FINTRAC, Ministerial directives", F_DIR),
+             ("Department of Finance, 2025 National Risk Assessment: overview", SR4_NRA),
+             ("Department of Finance, 2025 National Risk Assessment: report", SR4_NRA_RPT)],
+    related=["fintrac-compliance-program-requirements.html", "fintrac-effectiveness-review-checklist.html", "fintrac-examination-preparation.html"],
+)
+
+# --- keyword-cluster run 2026-11-11: psp-licence-canada ---
+# ------------------------------------------------------------------ psp-licence-canada.html (2026-11-08)
+# Official sources for this guide (checked 11 November 2026).
+SR5_ACT = "https://laws-lois.justice.gc.ca/eng/acts/R-7.36/FullText.html"
+SR5_FAQ = "https://www.bankofcanada.ca/2026/08/frequently-asked-questions-about-retail-payments-supervision/"
+SR5_CRIT = "https://www.bankofcanada.ca/2026/06/criteria-for-registering-payment-service-providers/"
+SR5_FEE = "https://www.bankofcanada.ca/2024/10/registration-application-fee/"
+SR5_REGISTRY = "https://www.bankofcanada.ca/regulatory-oversight/retail-payments/psp-registry/"
+SR5_F_MSB = "https://fintrac-canafe.canada.ca/msb-esm/msb-eng"
+SR5_RQ = "https://www.revenuquebec.ca/en/businesses/sector-specific-measures/money-services-businesses-msbs/money-services-business-licence-application/"
+SR5_CPA = "https://laws-lois.justice.gc.ca/eng/acts/C-21/FullText.html"
+SR5_PC_PSP = "https://www.payments.ca/connect/membership/payment-service-provider-participation"
+
+GUIDES["psp-licence-canada.html"] = dict(
+    checked="11 November 2026",
+    title="Payment Service Provider Licence in Canada? | AML Canada",
+    desc="Is there a payment service provider licence in Canada? The Bank of Canada registers PSPs under the RPAA. What applies, who issues it and what else you may need.",
+    crumb="PSP licence vs registration",
+    h1="Is there a payment service provider licence in Canada?",
+    lede="There is no payment service provider licence in Canada. A PSP covered by the Retail Payment Activities Act registers with the Bank of Canada, which lists it on a public registry and says it does not license or endorse PSPs. Depending on your business, FINTRAC registration, a Quebec licence or Payments Canada membership may also apply.",
+    label="Guide · RPAA",
+    service="rpaa-registration.html",
+    date="2026-11-11",
+    takeaways=["Canada has no PSP licence. In-scope PSPs register with the Bank of Canada under the RPAA before they perform any retail payment activities.",
+               "Foreign PSPs that direct payment services at people in Canada and serve end users here must register too, and name an agent in Canada for notices.",
+               "A PSP that also remits or transmits funds usually needs FINTRAC MSB registration, and a funds transfer business in Quebec needs a Revenu Québec licence.",
+               "A Bank of Canada registration doesn't expire, but it can be revoked, and a change of control needs a new application first."],
+    sections=[
+        ("answer", "Is there a PSP licence in Canada?", f"""          <p>No. The Bank of Canada's <a href="{SR5_FAQ}" rel="noopener">retail payments supervision FAQ</a> (14 August 2026) answers the question \"Do I need a licence to operate in Canada?\" by saying PSPs must register with the Bank, which keeps a public registry \"but does not provide PSPs with a licence\". The <a href="{SR5_REGISTRY}" rel="noopener">registry page</a> adds that the Bank \"does not endorse or license registered PSPs\".</p>
+          <p>Many people still search for a \"PSP licence\". In practice they usually mean a Bank of Canada registration under the <a href="{SR5_ACT}" rel="noopener">Retail Payment Activities Act</a> (RPAA). It works the same way as the <a href="msb-licence-canada.html">so-called MSB licence</a>, which is a FINTRAC registration.</p>
+          <p>Registered PSPs have met the legal requirements to register, paid the required fees and cleared a national security screening coordinated by the Department of Finance, according to the registry page. They are then subject to the Bank's risk supervision and enforcement.</p>"""),
+        ("who", "Who needs to register as a PSP with the Bank of Canada?", f"""          <p>You must register if all four parts of the Bank's test apply. The test is set out in its supervisory policy <a href="{SR5_CRIT}" rel="noopener">Criteria for registering payment service providers</a> (last updated 29 June 2026):</p>
+          <ol>
+            <li>You perform one or more of the five payment functions as a service that isn't incidental to another business activity.</li>
+            <li>The function relates to an electronic funds transfer in a fiat currency or a prescribed unit.</li>
+            <li>You have a place of business in Canada, or you both direct services at, and perform services for, individuals or entities in Canada.</li>
+            <li>Neither you nor the activity is excluded.</li>
+          </ol>
+          <p>The five payment functions in section 2 of the RPAA are providing or maintaining an account, holding funds, initiating a transfer at an end user's request, authorizing or transmitting transfer instructions, and providing clearing or settlement services. Section 9 excludes banks, authorized foreign banks, provincially regulated credit unions and caisses populaires, insurance companies and trust and loan companies, among others.</p>
+          <p>Section 23 of the RPAA says a PSP \"must be registered with the Bank before it performs any retail payment activities\". The Bank's FAQ says anyone applying after 8 September 2025 must receive a registration decision before operating. Our guide on <a href="who-must-register-psp-rpaa.html">who must register as a PSP</a> works through the test with examples.</p>"""),
+        ("permissions", "Which registrations, licences and memberships can apply to a PSP?", f"""          <p>Four different registrations, licences or memberships can come up when people ask about a \"PSP licence\". They are issued by different bodies under different laws, and one business can need more than one. Only the first is required for every in-scope PSP.</p>
+          <div class="table-wrap"><table>
+            <thead><tr><th scope="col">Permission</th><th scope="col">Who issues it</th><th scope="col">Law</th><th scope="col">What it covers</th><th scope="col">When it applies</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">PSP registration</th><td>Bank of Canada</td><td>RPAA, Part 3 (registration) and Part 2 (operational risk and safeguarding)</td><td>Registration required before performing retail payment activities (s. 23), a listing on the public registry, and supervision of operational risk, incidents and safeguarding</td><td>Every PSP that meets the four-part test, in Canada or abroad</td></tr>
+              <tr><th scope="row">MSB or foreign MSB registration</th><td>FINTRAC</td><td>Proceeds of Crime (Money Laundering) and Terrorist Financing Act</td><td>Anti-money laundering and anti-terrorist financing obligations for money services such as remitting or transmitting funds, foreign exchange dealing and dealing in virtual currency</td><td>When you offer a money services business service, whether or not you are also a PSP</td></tr>
+              <tr><th scope="row">Money-services business licence</th><td>Revenu Québec</td><td>Quebec Money-Services Businesses Act</td><td>Operating a money-services business in Quebec, including funds transfer, currency exchange and cheque cashing</td><td>When you operate one of those services in Quebec, on top of FINTRAC registration</td></tr>
+              <tr><th scope="row">Payments Canada membership and Real-Time Rail participation</th><td>Payments Canada</td><td>Canadian Payments Act, s. 4(2)(i)</td><td>Membership of Payments Canada, and participation in the Real-Time Rail for members that also hold a Bank of Canada settlement account or have a settlement agent</td><td>Optional. Payments Canada lists Bank of Canada registration as the prerequisite for Real-Time Rail participation</td></tr>
+            </tbody>
+          </table></div>
+          <p>Section 29(1)(n) of the RPAA also asks every applicant to declare whether it has applied for or holds registration under a provincial Act respecting retail payment activities, so check the provinces you operate in as well.</p>"""),
+        ("foreign", "Do foreign payment companies need a Canadian PSP registration?", f"""          <p>Yes, if they serve the Canadian market. Section 5 of the RPAA applies the Act to a PSP without a place of business in Canada that directs retail payment activities at individuals or entities in Canada and performs them for end users in Canada. Section 29(1)(o) requires such an applicant to name an agent or mandatary in Canada authorized to accept notices and orders under the Act.</p>
+          <p>Working with a registered partner doesn't remove the duty. The Bank's FAQ says a foreign PSP doing business with a registered PSP is still \"responsible for registering with the Bank\". The exception in section 10 is narrow: it covers an agent or mandatary of a registered PSP acting within its authority and included on that PSP's list of agents.</p>"""),
+        ("fintrac", "Does a PSP also need FINTRAC MSB registration?", f"""          <p>Often, yes. FINTRAC's <a href="{SR5_F_MSB}" rel="noopener">money services businesses page</a> treats remitting or transmitting funds as an MSB service, and says that invoice payment services and payment services for goods and services are engaged in remitting or transmitting funds or dealing in virtual currency. A payment business that does this needs FINTRAC registration before it starts operating in Canada.</p>
+          <p>The two registrations are linked. Section 29(1)(l) of the RPAA asks applicants to declare whether they are registered with FINTRAC, and section 31 requires the Bank to send FINTRAC the applicant's details once the application is complete. FINTRAC charges no registration fee, and it says that a provincial MSB registration or licence doesn't replace FINTRAC registration. See <a href="rpaa-vs-fintrac-msb-registration.html">RPAA vs FINTRAC MSB registration</a> for which business models need both.</p>"""),
+        ("process", "How does Bank of Canada PSP registration work?", f"""          <p>You apply online through PSP Connect, the Bank's web application for PSPs, and pay a one-time, non-refundable fee. Section 29(1) of the RPAA lists what the application must contain, including your names, address, structure, owners and directors, agents, a description of your retail payment activities, your risk management and incident response framework, how you safeguard end-user funds, and your material third-party service providers.</p>
+          <ul>
+            <li><strong>Fee.</strong> The Bank's <a href="{SR5_FEE}" rel="noopener">registration application fee</a> page set the fee at $2,500 as of 1 November 2024, indexed to the September CPI each year, with the new amount announced every 1 December. Its FAQ (14 August 2026) still describes a flat $2,500 fee. As of 11 November 2026, confirm the current amount on the Bank's site before you pay. The Bank evaluates an application only after the fee is paid in full.</li>
+            <li><strong>Questions from the Bank.</strong> Section 29(3) gives you 30 days to answer the Bank's requests for additional information.</li>
+            <li><strong>National security review.</strong> The Minister of Finance can review an application for national security reasons. The Bank's FAQ says the regulations prescribe 180 days for that review, which the Minister can extend, and section 37 bars the Bank from registering you while it is open.</li>
+            <li><strong>Decision.</strong> Section 25 requires the Bank to register an applicant unless a refusal ground or a ministerial review applies, and to notify the applicant in writing.</li>
+            <li><strong>Registry.</strong> Section 26 requires the Bank to publish each registered PSP's name, address and other prescribed information. The FAQ lists trade names, registration date, contact details, payment functions and agents.</li>
+          </ul>
+          <p>The Bank's FAQ says a registration does not expire, but it can be revoked, for example if you stop performing retail payment activities or commit a violation. Under section 24, a registered PSP must file a new application before a planned acquisition of control or a prescribed change, and be registered on that basis.</p>"""),
+        ("unregistered", "What happens if you operate without registering?", f"""          <p>The Bank's FAQ says failure to register is \"a very serious violation\" that may lead to a notice of violation and \"a substantial administrative monetary penalty\". Paragraph 101(1)(k) of the RPAA allows the regulations to set penalties of up to $10,000,000 for a violation. Section 93 requires the Bank to make public the nature of a violation, the name of the PSP and the amount of any penalty.</p>"""),
+        ("describe", "How should you describe your registration?", f"""          <p>Say that the business is registered with the Bank of Canada as a payment service provider under the Retail Payment Activities Act, and point readers to its entry on the Bank's registry. Avoid \"licensed by the Bank of Canada\" or \"approved by the Bank of Canada\", since the Bank says it does not license or endorse registered PSPs. Our guide on <a href="check-bank-of-canada-psp-registration.html">checking Bank of Canada PSP registration</a> shows how.</p>"""),
+    ],
+    faqs=[("Do I need a licence to process payments in Canada?", "No licence exists for this. If your business performs payment functions that bring it within the Retail Payment Activities Act, you must register with the Bank of Canada before you perform any retail payment activities. The Bank says it does not provide PSPs with a licence."),
+          ("How much does Bank of Canada PSP registration cost?", "The Bank charges a one-time, non-refundable application fee. Its FAQ dated 14 August 2026 gives a flat $2,500 for all applicants, and its fee page says the amount is indexed to inflation each January. Confirm the current figure on the Bank's site before you apply."),
+          ("Does a Bank of Canada PSP registration expire?", "No. The Bank's FAQ says registration does not expire, but the Bank can revoke it. A registered PSP must also submit a new application before a planned acquisition of control or a prescribed change."),
+          ("Is FINTRAC MSB registration the same as PSP registration?", "No. They are separate registrations under separate laws. FINTRAC registers money services businesses under the PCMLTFA, and the Bank of Canada registers PSPs under the RPAA. Many payment businesses need both, and the Bank's application asks whether you are registered with FINTRAC."),
+          ("Can a foreign PSP register without an office in Canada?", "Yes. The RPAA covers foreign PSPs that direct retail payment activities at people in Canada and perform them for end users here. An applicant without a place of business in Canada must name an agent or mandatary in Canada to accept notices and orders.")],
+    sources=[("Retail Payment Activities Act", SR5_ACT), ("Bank of Canada, Frequently asked questions about retail payments supervision", SR5_FAQ),
+             ("Bank of Canada, Criteria for registering payment service providers", SR5_CRIT), ("Bank of Canada, Registration application fee", SR5_FEE),
+             ("Bank of Canada, Registry of payment service providers", SR5_REGISTRY), ("FINTRAC, Money services businesses", SR5_F_MSB),
+             ("Revenu Québec, Money-services business licence application", SR5_RQ), ("Canadian Payments Act", SR5_CPA),
+             ("Payments Canada, Payment service providers and the Real-Time Rail", SR5_PC_PSP)],
+    related=["who-must-register-psp-rpaa.html", "rpaa-vs-fintrac-msb-registration.html", "msb-licence-canada.html"],
+)
+
+# --- keyword-cluster run 2026-11-11: fintrac-training-requirements ---
+# fintrac-training-requirements: exec() after guides_v3.py definitions (GUIDES, F_G4, F_CAM exist).
+# Official sources checked 11 November 2026.
+SR6_R156 = "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-184/section-156.html"
+SR6_A96 = "https://laws-lois.justice.gc.ca/eng/acts/P-24.501/section-9.6.html"
+SR6_AMPR = "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2007-292/FullText.html"
+
+GUIDES["fintrac-training-requirements.html"] = dict(
+    checked="11 November 2026",
+    title="FINTRAC Training Requirements and Training Plans | AML Canada",
+    desc="FINTRAC training requirements under PCMLTFR s. 156: who to train, what to cover, how often, and a training plan checklist matched to what examiners check.",
+    crumb="Training requirements",
+    h1="FINTRAC training requirements: the program, the plan and the records",
+    lede="FINTRAC training requirements come from section 156 of the Proceeds of Crime (Money Laundering) and Terrorist Financing Regulations. If anyone works or acts for you, you need a written, ongoing compliance training program and a documented plan for delivering it. Neither the Regulations nor FINTRAC fix how often you train, so your plan sets the frequency and your records should show you kept to it.",
+    label="Guide · Training",
+    service="training.html",
+    date="2026-11-11",
+    takeaways=["PCMLTFR s. 156(1)(d) and (e) require a written, ongoing training program and a documented plan to deliver it if anyone acts for you.",
+               "No training frequency is fixed in law. FINTRAC's guidance says your plan should state one, using regular intervals, trigger events or both.",
+               "Train client-facing staff, agents, anyone who handles funds or virtual currency, and the people who run the program, including the compliance officer.",
+               "Under the penalty regulations, failing the training requirement is a very serious violation."],
+    sections=[
+        ("legal-requirement", "Is AML training a legal requirement in Canada?", f"""          <p>Yes, for any reporting entity with employees, agents, mandataries or other people authorized to act for it. Section 9.6(1) of the PCMLTFA requires a compliance program, and paragraphs 156(1)(d) and (e) of the Regulations make a written, ongoing training program and a documented plan for delivering it part of that program.</p>
+          <p>As of 11 November 2026, <a href="{SR6_R156}" rel="noopener">section 156 of the Regulations</a> requires you to:</p>
+          <ul>
+            <li><strong>s. 156(1)(d):</strong> develop and maintain a written, ongoing compliance training program for your employees, agents or mandataries and other persons authorized to act on your behalf;</li>
+            <li><strong>s. 156(1)(e):</strong> institute and document a plan for that ongoing training program, and deliver the training.</li>
+          </ul>
+          <p>The duty sits with the business. <a href="{F_G4}" rel="noopener">FINTRAC's compliance program guidance</a> lists training as one of the elements every reporting entity must implement, with a compliance officer, written policies and procedures, a risk assessment and a two-year effectiveness review. Our guide to <a href="fintrac-compliance-program-requirements.html">FINTRAC compliance program requirements</a> covers the other elements.</p>
+          <p>FINTRAC says a sole proprietor with no employees, agents or other individuals authorized to act for them doesn't need a training program or a training plan for themselves.</p>"""),
+        ("who", "Who do FINTRAC training requirements cover?", f"""          <p>Your training plan should name who gets trained. FINTRAC's guidance says recipients should include anyone who has contact with clients, is involved in client transactions, handles cash, funds or virtual currency for you in any way, or is responsible for implementing or overseeing the compliance program.</p>
+          <ul>
+            <li>front-line staff and agents who deal with clients;</li>
+            <li>staff involved in client transaction activities;</li>
+            <li>anyone who handles cash, funds or virtual currency for you;</li>
+            <li>the compliance officer, senior management, information technology staff and internal auditors.</li>
+          </ul>
+          <p>FINTRAC's glossary defines a mandatary as a person who acts for another person or entity under a mandate or agreement. If someone acts for you under a contract, check whether they belong in the plan.</p>
+          <p>The compliance officer needs training too. <a href="{F_CAM}" rel="noopener">FINTRAC's assessment manual</a> says examiners look at the officer's background and experience, and at the training you have given them. They check that the officer knows your business's functions and structure and your sector's money laundering and terrorist financing risks.</p>"""),
+        ("topics", "What should FINTRAC compliance training cover?", f"""          <p>FINTRAC says your training program should explain five things to the people who act for you. Those are your obligations under the Act and Regulations, background on money laundering and terrorist financing, how your business could be vulnerable, your own policies and procedures, and each person's role in detecting and deterring suspicious activity.</p>
+          <ol>
+            <li><strong>Your requirements</strong> under the PCMLTFA and its Regulations.</li>
+            <li><strong>Background</strong>, such as the definitions and methods of money laundering and terrorist activity financing.</li>
+            <li><strong>Vulnerabilities</strong>: how your business could be used, with indicators and examples.</li>
+            <li><strong>Your policies and procedures</strong>, including reporting, record keeping and know your client.</li>
+            <li><strong>Roles and responsibilities</strong> in detecting and deterring money laundering and terrorist financing, and when dealing with potentially suspicious activities or transactions.</li>
+          </ol>
+          <p>The program and plan should fit your size, structure and complexity and your exposure to money laundering, terrorist financing and sanctions evasion risk. A large business may give general training to some people and specialized training to others according to their roles. FINTRAC says the plan should explain that choice.</p>
+          <p>The assessment manual says examiners pay close attention to the training you provide on detecting suspicious transactions.</p>"""),
+        ("frequency", "How often is AML training required in Canada?", f"""          <p>Canadian law sets no fixed interval. Paragraph 156(1)(d) of the Regulations requires an "ongoing" training program, and neither the Regulations nor FINTRAC's compliance program guidance names a set period. FINTRAC asks you to choose a frequency, write it in your training plan and deliver training on that basis.</p>
+          <p>FINTRAC's guidance describes three ways to set it:</p>
+          <ul>
+            <li><strong>Regular intervals.</strong> FINTRAC's examples are monthly, semi-annually and annually.</li>
+            <li><strong>Trigger events.</strong> FINTRAC's examples are before a new employee deals with clients and after a procedure is changed.</li>
+            <li><strong>A combination</strong> of regular intervals and events.</li>
+          </ul>
+          <p>Base the choice on your risks and how your business runs. One of FINTRAC's own event examples is training a new employee before they deal with clients. If a new product or a change in the law leads you to rewrite a procedure, the people who follow that procedure should be trained on the new version.</p>
+          <p>The two-year effectiveness review is a separate duty. Under s. 156(1)(f) and (3), a review must test the program, including the training program and plan, every two years. It checks your training and doesn't count as training.</p>"""),
+        ("plan-checklist", "What goes in a FINTRAC training plan? A checklist", f"""          <p>A FINTRAC training plan documents how you will implement and deliver your ongoing training program. FINTRAC says it should cover recipients, topics and materials, delivery methods and frequency, and the program should keep a record of training delivered. The table separates what the Regulations require from what FINTRAC's guidance and assessment manual add.</p>
+          <div class="table-wrap"><table>
+            <thead><tr><th scope="col">Plan item</th><th scope="col">Regulations (s. 156)</th><th scope="col">FINTRAC guidance expects</th><th scope="col">What examiners look at</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Who is trained</th><td>Employees, agents or mandataries and other persons authorized to act for you</td><td>Named recipients: client-facing staff and agents, transaction staff, anyone handling cash, funds or virtual currency, the compliance officer, senior management, IT staff and internal auditors</td><td>Who receives training; interviews with employees and agents</td></tr>
+              <tr><th scope="row">What topics</th><td>A written program (topics not listed)</td><td>The five topics above, and the sources of your training materials</td><td>Whether material is tailored to your business and adequate for each person's responsibilities</td></tr>
+              <tr><th scope="row">When</th><td>"Ongoing"</td><td>A stated frequency: regular intervals, trigger events or both</td><td>When and how often training takes place</td></tr>
+              <tr><th scope="row">How delivered</th><td>Deliver the training</td><td>Methods such as self-directed or e-learning, information sessions, face-to-face meetings, classroom, conferences and on-the-job training; in-house or external instructors who know the Act and Regulations</td><td>How training is delivered and whether the program is put into practice</td></tr>
+              <tr><th scope="row">How recorded</th><td>Program in writing; plan documented</td><td>A record of training delivered, such as the date, the attendees and the topics covered</td><td>How you have implemented the program</td></tr>
+              <tr><th scope="row">Fit to your business</th><td>Not stated</td><td>Tailored to size, structure, complexity and risk exposure; general or specialized training by role</td><td>Whether the program takes into account the size, type, nature and complexity of your business</td></tr>
+              <tr><th scope="row">Policies and procedures</th><td>Written and kept up to date (s. 156(1)(b))</td><td>Policies cover the compliance program, including training</td><td>Whether policies give enough guidance to develop, implement and maintain an ongoing training program</td></tr>
+            </tbody>
+          </table></div>
+          <p>The first column is the law. The other two show how FINTRAC reads and tests it, so build your plan against all three.</p>"""),
+        ("msb", "FINTRAC AML training for MSBs and their agents", f"""          <p>Money services businesses meet the same training requirement as every other reporting entity, and it reaches their agents. FINTRAC's recipient list names front-line staff or agents with client contact and anyone who handles cash, funds or virtual currency for you. Every agent and every person who moves funds or virtual currency belongs in an MSB's plan.</p>
+          <p>Points worth checking in an MSB training plan:</p>
+          <ul>
+            <li>Agents are named as recipients, and you keep training records for agent staff as well as your own.</li>
+            <li>Training covers the reports you file and how staff escalate a possible suspicious transaction, since examiners focus on suspicious transaction detection.</li>
+            <li>Training follows your written policies, which FINTRAC expects to cover the travel rule for electronic funds and virtual currency transfers and ministerial directives.</li>
+          </ul>
+          <p>FINTRAC's assessment manual says examiners may interview employees and agents. They confirm that people understand the requirements for their positions, follow your policies and procedures, understand how your business could be vulnerable and have received adequate ongoing training.</p>"""),
+        ("examination", "How does FINTRAC examine your training program?", f"""          <p>During an examination, FINTRAC looks at who receives training, what topics are covered, when and how often training takes place, how you have implemented the program and how it is delivered, according to its assessment manual. It also checks that the program is adequate for your business and put into practice.</p>
+          <p>To do that, the manual says FINTRAC may:</p>
+          <ul>
+            <li>review your policies and procedures for guidance on running an ongoing training program;</li>
+            <li>review your training plan for the steps you take to develop, maintain and deliver training;</li>
+            <li>review your training material to confirm it suits your business and each person's responsibilities;</li>
+            <li>interview employees and agents.</li>
+          </ul>
+          <p>Section 9.6(1.1) of the <a href="{SR6_A96}" rel="noopener">PCMLTFA</a>, added by S.C. 2026, c. 4, s. 79, requires your program to be reasonably designed, risk-based and effective. Under the <a href="{SR6_AMPR}" rel="noopener">penalty regulations</a>, schedule Part 2, item 199, contravening s. 156(1)(d) and (e) is a very serious violation. Section 5(c) of those regulations sets the range for a very serious violation at $1 to $20,000,000, subject to subsections 73.1(2) and (3) of the Act. Our guide to <a href="fintrac-penalties-amps.html">FINTRAC penalties</a> explains how amounts are set.</p>
+          <p>Your own effectiveness review covers the same ground first. FINTRAC's examples of review methods include interviews with those handling transactions to evaluate their knowledge of your policies and procedures. See <a href="fintrac-examination-preparation.html">preparing for a FINTRAC examination</a> for the documents to have ready.</p>"""),
+    ],
+    faqs=[("Is it a FINTRAC requirement that you complete AML/CTF training?", "The requirement is placed on the business. A reporting entity with employees, agents or other authorized persons must keep a written, ongoing training program and deliver it under a documented plan (PCMLTFR s. 156(1)(d) and (e)). The people FINTRAC says should be trained, including the compliance officer and senior management, take part through that program."),
+          ("Does FINTRAC approve or certify AML training courses?", "Section 156 and FINTRAC's compliance program guidance don't name an approved course or certification. FINTRAC says instructors should know the Act and Regulations, and that if you use an external provider you may need to decide whether its services and content suit your business."),
+          ("Can FINTRAC training be done online?", "Yes. FINTRAC lists self-directed learning, including online courses and e-learning materials, among the delivery methods. You can use one method or several, depending on your size and how many people need training."),
+          ("What should a training record include?", "FINTRAC's examples are the date the training took place, a list of the attendees and the topics covered. Records help you schedule the next sessions and show that you deliver training on an ongoing basis.")],
+    sources=[("FINTRAC, Compliance program requirements (section 6, Training program and plan requirements)", F_G4),
+             ("FINTRAC assessment manual", F_CAM),
+             ("Proceeds of Crime (Money Laundering) and Terrorist Financing Regulations, s. 156", SR6_R156),
+             ("Proceeds of Crime (Money Laundering) and Terrorist Financing Act, s. 9.6", SR6_A96),
+             ("Administrative Monetary Penalties Regulations (SOR/2007-292)", SR6_AMPR)],
+    related=["fintrac-compliance-program-requirements.html", "fintrac-examination-preparation.html", "fintrac-effectiveness-review-checklist.html"],
+)
+
+# --- keyword-cluster run 2026-11-11: incorporate-in-canada-non-resident ---
+# Guide: incorporate-in-canada-non-resident.html (seo-run, 11 November 2026)
+# Official sources, all checked 11 November 2026.
+SR7_CBCA = "https://laws-lois.justice.gc.ca/eng/acts/C-44/FullText.html"
+SR7_CBCA_105 = "https://laws-lois.justice.gc.ca/eng/acts/C-44/section-105.html"
+SR7_CBCA_114 = "https://laws-lois.justice.gc.ca/eng/acts/C-44/section-114.html"
+SR7_OBCA = "https://www.ontario.ca/laws/statute/90b16"
+SR7_BCBCA_P2 = "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/02057_02"
+SR7_BCBCA_P5 = "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/02057_06"
+SR7_ABCA = "https://kings-printer.alberta.ca/documents/Acts/B09.pdf"
+SR7_ICA = "https://laws-lois.justice.gc.ca/eng/acts/I-21.8/FullText.html"
+SR7_F_MSB = "https://fintrac-canafe.canada.ca/msb-esm/msb-eng"
+SR7_CC_DIR = "https://ised-isde.canada.ca/site/corporations-canada/en/business-corporations/directors-and-officers"
+SR7_CC_NEXT = "https://ised-isde.canada.ca/site/corporations-canada/en/business-corporations/next-steps-following-incorporation-your-business"
+SR7_CC_PROV = "https://ised-isde.canada.ca/site/corporations-canada/en/register-federal-corporation-province-or-territory"
+SR7_CRA_RES = ("https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/"
+               "businesses-international-non-resident-taxes/residency-a-corporation.html")
+SR7_CRA_NR = ("https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/business-registration/"
+              "business-number-program-account/how-register/non-resident.html")
+SR7_CRA_BN = ("https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/business-registration/"
+              "business-number-program-account/need-bn.html")
+
+GUIDES["incorporate-in-canada-non-resident.html"] = dict(
+    checked="11 November 2026",
+    title="Incorporate in Canada as a Non-Resident: 2026 Guide | AML Canada",
+    desc="Can a non-resident incorporate in Canada? Director residency rules for federal, Ontario, BC and Alberta companies, with the statute section for each.",
+    crumb="Incorporate as a non-resident",
+    h1="How to incorporate in Canada as a non-resident",
+    lede="You can incorporate in Canada as a non-resident, and you don't need to live in Canada or hold Canadian citizenship to own the company. The jurisdictions differ on who can sit on the board: a federal corporation needs resident Canadian directors, and Ontario, British Columbia and Alberta have no director residency rule.",
+    label="Guide · Incorporation",
+    service="incorporation-canada.html",
+    date="2026-11-11",
+    takeaways=["A federal (CBCA) corporation needs at least 25% resident Canadian directors, and at least one if it has fewer than four (s. 105(3)).",
+               "Ontario, British Columbia and Alberta have no resident director rule. Ontario and Alberta repealed theirs; BC's qualifications have none.",
+               "Every jurisdiction needs a registered office in Canada, and Alberta also needs an agent for service who is a resident Albertan.",
+               "A company incorporated in Canada after 26 April 1965 is deemed resident in Canada for income tax (ITA s. 250(4)), unless a tax treaty makes it resident elsewhere."],
+    sections=[
+        ("can", "Can a non-resident incorporate a company in Canada?", f"""          <p>Yes. As of 11 November 2026, a person with no ties to Canada can incorporate a company federally or in a province. The rule that differs between jurisdictions is director residency. The <a href="{SR7_CBCA_105}" rel="noopener">Canada Business Corporations Act, s. 105(3)</a> requires resident Canadian directors on a federal board. Ontario, British Columbia and Alberta have no such rule.</p>
+          <p>For a foreign owner, that makes the jurisdiction the first decision. If every director you plan to appoint lives outside Canada, a federal corporation needs at least one more director who is a resident Canadian. A provincial corporation in Ontario, BC or Alberta doesn't.</p>
+          <p>Corporations Canada says a federal corporation must have at least one director, and that one individual can be the sole shareholder, director and officer. It also says any individual can be an officer.</p>"""),
+        ("table", "Director residency rules by jurisdiction", f"""          <p>As of 11 November 2026, the federal statute is the only one of these four that requires resident Canadian directors: at least 25% of the board, and at least one director if there are fewer than four. Ontario, British Columbia and Alberta have none. Other provinces aren't shown because we haven't checked their current statute text.</p>
+          <div class="table-wrap"><table>
+            <thead><tr><th scope="col">Jurisdiction and statute</th><th scope="col">Resident director rule</th><th scope="col">Other local requirement</th><th scope="col">Text current to</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Federal: <a href="{SR7_CBCA}" rel="noopener">Canada Business Corporations Act</a>, R.S.C. 1985, c. C-44</th><td>At least 25% of directors must be resident Canadians, and at least one if there are fewer than four directors (s. 105(3)). A majority in certain sectors (s. 105(3.1))</td><td>Registered office in the province named in the articles (s. 19(1))</td><td>19 October 2026</td></tr>
+              <tr><th scope="row">Ontario: <a href="{SR7_OBCA}" rel="noopener">Business Corporations Act</a>, R.S.O. 1990, c. B.16</th><td>None. Subsection 118(3) was repealed by 2020, c. 34, Sched. 1, s. 5, in force 5 July 2021</td><td>Registered office in Ontario (s. 14(1))</td><td>e-Laws currency date 5 November 2026</td></tr>
+              <tr><th scope="row">British Columbia: <a href="{SR7_BCBCA_P5}" rel="noopener">Business Corporations Act</a>, S.B.C. 2002, c. 57</th><td>None. Section 124 sets out who is qualified to be a director and doesn't include residency</td><td>Registered office and records office in BC (s. 34(1))</td><td>3 November 2026</td></tr>
+              <tr><th scope="row">Alberta: <a href="{SR7_ABCA}" rel="noopener">Business Corporations Act</a>, R.S.A. 2000, c. B-9</th><td>None. Subsection 105(3) was repealed by 2020 c25 s1</td><td>Registered office in Alberta (s. 20(1)) and an agent for service who is a resident Albertan (s. 20.1(1))</td><td>2 September 2026</td></tr>
+            </tbody>
+          </table></div>
+          <p>All four statutes allow a private company to have a single director: CBCA s. 102(2), Ontario s. 115(2), BC s. 120 and Alberta s. 101(2). Each sets a higher minimum for public, offering or distributing companies.</p>"""),
+        ("federal", "Non-resident director rules for a federal corporation", f"""          <p>Under CBCA s. 105(3), at least 25% of the directors of a federal corporation must be resident Canadians, and a board of fewer than four needs at least one. Corporations Canada repeats the rule in its <a href="{SR7_CC_DIR}" rel="noopener">guidance on directors</a>. We found no amendment to this subsection in the Act's list of amendments not in force.</p>
+          <p>Section 2 of the CBCA defines a resident Canadian as an individual who is:</p>
+          <ul>
+            <li>a Canadian citizen ordinarily resident in Canada;</li>
+            <li>a Canadian citizen not ordinarily resident in Canada who is a member of a prescribed class of persons; or</li>
+            <li>a permanent resident ordinarily resident in Canada, except one who has been ordinarily resident in Canada for more than one year after first becoming eligible to apply for citizenship.</li>
+          </ul>
+          <p>The rule applies at board meetings too. Under <a href="{SR7_CBCA_114}" rel="noopener">CBCA s. 114(3)</a>, directors can't transact business at a meeting unless the required share of resident Canadians is present. Section 114(4) allows an exception when an absent resident Canadian director approves the business in writing or by phone or other communication, and the required number would have been present with that director.</p>
+          <p>Corporations in sectors with Canadian ownership restrictions need a majority of resident Canadian directors (s. 105(3.1)). Corporations Canada gives airlines, telecommunications, book retailing and film or video distribution as examples.</p>"""),
+        ("provinces", "Ontario, BC and Alberta: no resident director needed", f"""          <p>In Ontario, British Columbia and Alberta, every director can live outside Canada. Each province still requires a registered office inside the province.</p>
+          <h3>Ontario</h3>
+          <p>Ontario's <a href="{SR7_OBCA}" rel="noopener">Business Corporations Act</a> shows subsection 118(3) as repealed by 2020, c. 34, Sched. 1, s. 5, in force on 5 July 2021. Section 118(1) now disqualifies only people under 18, people found incapable, non-individuals and bankrupts. Section 14(1) requires a registered office in Ontario.</p>
+          <h3>British Columbia</h3>
+          <p>BC's <a href="{SR7_BCBCA_P5}" rel="noopener">Business Corporations Act, s. 124</a> lists who can't act as a director: people under 18, people found incapable, undischarged bankrupts and people convicted of certain offences, subject to exceptions. Residency isn't on the list. Section 34(1) requires a registered office and a records office in BC (<a href="{SR7_BCBCA_P2}" rel="noopener">Part 2</a>).</p>
+          <h3>Alberta</h3>
+          <p>Alberta's <a href="{SR7_ABCA}" rel="noopener">Business Corporations Act</a> shows subsection 105(3) as repealed by 2020 c25 s1. Alberta has one extra requirement. Under s. 20.1(1), a corporation must appoint an agent for service who is a resident Albertan, meaning a Canadian citizen or permanent resident ordinarily resident in Alberta (s. 1(cc.1)).</p>"""),
+        ("tax", "What is a non-resident corporation in Canada?", f"""          <p>For income tax, the CRA's page on <a href="{SR7_CRA_RES}" rel="noopener">residency of a corporation</a> says a corporation incorporated in Canada after 26 April 1965 is deemed resident in Canada throughout a tax year, under Income Tax Act s. 250(4). A non-resident corporation is one that isn't resident under those rules, such as a company incorporated abroad whose central management and control is exercised outside Canada.</p>
+          <p>The CRA says a company is generally resident where its central management and control is exercised, which usually means where the board meets. It also says a corporation can be resident in Canada without being a Canadian corporation. Where a tax treaty makes a corporation resident in another country, s. 250(5) deems it non-resident in Canada. The CRA directs corporations with dual residency questions to the International Tax Section of a tax services office.</p>
+          <p>If a foreign company doing business in Canada without incorporating here needs a business number or CRA program account, such as GST/HST or payroll, it registers with the CRA as a non-resident. The CRA's <a href="{SR7_CRA_NR}" rel="noopener">non-resident registration page</a> says to use its Non-Resident Business Registration online form if the business is incorporated or located outside Canada, or if you have no SIN or one starting with 0. Tax treatment depends on your facts, so take advice from a tax professional.</p>"""),
+        ("ica", "Does the Investment Canada Act apply to a new company?", f"""          <p>It can. Under the <a href="{SR7_ICA}" rel="noopener">Investment Canada Act</a>, s. 11(a), an investment by a non-Canadian to establish a new Canadian business is subject to notification. Section 12 requires the non-Canadian to notify the Director of Investments before the investment is implemented or within 30 days after.</p>
+          <p>The Act defines a Canadian business as one carried on in Canada that has a place of business, people employed or self-employed in connection with the business, and assets in Canada used in it. A new Canadian business is one the non-Canadian isn't already carrying on in Canada and that is unrelated to its other Canadian businesses, subject to a cultural-sector exception. Whether your company meets that definition depends on what it will do in Canada.</p>"""),
+        ("after", "Registrations and filings after you incorporate", f"""          <p>After incorporating, a non-resident owner still has tax, provincial and corporate filings to keep up, and a regulated business needs its own registration.</p>
+          <ul>
+            <li><strong>Business number.</strong> The CRA says a <a href="{SR7_CRA_BN}" rel="noopener">federal incorporation</a> gives you a business number and a corporation income tax account. Incorporating in Ontario, BC, Alberta and five other listed provinces does too. GST/HST and payroll accounts are registered separately.</li>
+            <li><strong>Provinces where you do business.</strong> Corporations Canada says provincial and territorial laws require a federal corporation to <a href="{SR7_CC_PROV}" rel="noopener">register in each province or territory</a> where it conducts business.</li>
+            <li><strong>Annual return and ISC.</strong> A federal corporation files an annual return within 60 days of its anniversary date and files information on individuals with significant control at the same time. ISC changes must be filed within 15 days (<a href="{SR7_CC_NEXT}" rel="noopener">Corporations Canada</a>).</li>
+            <li><strong>Directors and office.</strong> Tell Corporations Canada within 15 days of a change of directors or registered office address. Directors' names and addresses are public.</li>
+            <li><strong>Regulated services.</strong> A company that will offer money services must <a href="{SR7_F_MSB}" rel="noopener">register with FINTRAC</a> before it begins operating. See <a href="foreign-msb-registration-canada.html">foreign MSB registration</a> if you'll serve Canada from abroad, or <a href="msb-registration.html">MSB registration</a> for a Canadian company.</li>
+          </ul>"""),
+        ("help", "How we incorporate for non-resident founders", """          <p>We <a href="incorporation-canada.html">incorporate Canadian companies</a> for a fixed fee of US$1,500. Government filing fees are separate and paid to the government. Once we have your details, incorporation typically takes a few hours and is usually done within 24 hours, though that isn't guaranteed.</p>
+          <p>If you also want a Canadian base for banking and partners, we offer a <a href="canadian-address.html">Canadian business address</a> for US$200 per month.</p>"""),
+    ],
+    faqs=[("Can a non-resident with no ties to Canada incorporate in Canada?", "Yes. Ontario, British Columbia and Alberta have no resident director rule, so a board of non-residents is allowed. The company still needs a registered office in the province, and an Alberta company also needs an agent for service who is a resident Albertan. A federal corporation needs at least one resident Canadian director."),
+          ("What is a non-resident corporation in Canada?", "For income tax, it's a corporation that isn't resident in Canada. The CRA says a corporation incorporated in Canada after 26 April 1965 is deemed resident, and other corporations are generally resident where their central management and control is exercised. A tax treaty can change the result."),
+          ("Can a non-resident be the only director of a federal corporation?", "No. Under CBCA s. 105(3), a federal corporation with fewer than four directors needs at least one resident Canadian director. A sole director must therefore be a resident Canadian."),
+          ("Can a foreign owner hold all the shares of a Canadian corporation?", "The residency rules in the CBCA and the Ontario, BC and Alberta statutes apply to directors, and Corporations Canada says one individual can be the sole shareholder, director and officer. Some sectors restrict Canadian ownership, and a non-Canadian establishing a new Canadian business may have to notify under the Investment Canada Act."),
+          ("How much does it cost and how long does it take?", "Our fixed fee is US$1,500, with government filing fees separate. Once we have your details, incorporation typically takes a few hours and is usually done within 24 hours. That timing isn't guaranteed.")],
+    sources=[("Canada Business Corporations Act (current to 2026-10-19)", SR7_CBCA),
+             ("CBCA section 105, qualifications of directors", SR7_CBCA_105),
+             ("Ontario Business Corporations Act (e-Laws currency date 5 November 2026)", SR7_OBCA),
+             ("BC Business Corporations Act, Part 5 (current to 3 November 2026)", SR7_BCBCA_P5),
+             ("Alberta Business Corporations Act (current as of 2 September 2026)", SR7_ABCA),
+             ("Corporations Canada, Directors and officers", SR7_CC_DIR),
+             ("Corporations Canada, Next steps following incorporation", SR7_CC_NEXT),
+             ("Corporations Canada, Register a federal corporation in a province or territory", SR7_CC_PROV),
+             ("CRA, Residency of a corporation", SR7_CRA_RES),
+             ("CRA, Register as a non-resident doing business in Canada", SR7_CRA_NR),
+             ("CRA, When you need a BN", SR7_CRA_BN),
+             ("Investment Canada Act", SR7_ICA),
+             ("FINTRAC, Money services businesses", SR7_F_MSB)],
+    related=["foreign-msb-registration-canada.html", "how-to-register-msb-canada.html", "virtual-office-msb-registration.html"],
+)
 
 GUIDES = dict(sorted(GUIDES.items(), key=lambda kv: (kv[1].get("date", PUBLISHED), list(GUIDES).index(kv[0])), reverse=True))
