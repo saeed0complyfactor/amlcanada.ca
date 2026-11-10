@@ -5138,7 +5138,7 @@ Sources: [FINTRAC, Money Services Business Registry](https://fintrac-canafe.cana
 
 ---
 
-## Guide: MSB licence in Canada: what FINTRAC registration really is
+## Guide: Is there an MSB licence in Canada?
 
 URL: https://amlcanada.ca/msb-licence-canada.html
 
@@ -5969,7 +5969,7 @@ Sources: [FINTRAC, Register your MSB or FMSB](https://fintrac-canafe.canada.ca/m
 
 ---
 
-## Guide: How to register an MSB in Canada
+## Guide: How to apply for MSB registration with FINTRAC: 6 steps
 
 URL: https://amlcanada.ca/how-to-register-msb-canada.html
 
