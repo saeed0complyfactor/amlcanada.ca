@@ -1,0 +1,1 @@
+Each FINTRAC report has its own trigger and deadline.

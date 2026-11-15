@@ -887,8 +887,28 @@ def read_minutes(g):
     return max(1, round(words / 220))
 
 
-def takeaways_box(items):
+def guide_image(file):
+    """(src, alt) for a guide's LinkedIn headline image, copied into site-v3/img/guides; None if it has none."""
+    slug = file[:-5]
+    for spec in sorted((Path(__file__).parent / "linkedin").glob(f"20*-{slug}/spec.json")):
+        png = spec.parent / f"{slug}-headline-landscape.png"
+        if png.exists():
+            alt = json.loads(spec.read_text(encoding="utf-8"))["headline"]
+            dest = OUT / "img" / "guides" / f"{slug}.png"
+            dest.parent.mkdir(parents=True, exist_ok=True)
+            dest.write_bytes(png.read_bytes())
+            dest.with_suffix(".txt").write_text(alt, encoding="utf-8")  # linkedin/ is local-only; keep the alt with the image
+            return f"img/guides/{slug}.png", alt
+    dest = OUT / "img" / "guides" / f"{slug}.png"
+    if dest.exists():
+        return f"img/guides/{slug}.png", dest.with_suffix(".txt").read_text(encoding="utf-8")
+    return None
+
+
+def takeaways_box(items, image=None):
     lis = "\n".join(f"            <li>{t}</li>" for t in items)
+    fig = (f'\n        <figure class="guide-figure"><img src="{image[0]}" alt="{escape(image[1])}" width="1200" height="627" decoding="async"></figure>'
+           if image else "")
     return f"""    <section class="takeaways" id="start" data-theme="light" aria-labelledby="tk-title">
       <div class="wrap">
         <div class="tk-card">
@@ -896,7 +916,7 @@ def takeaways_box(items):
           <ul class="tk-list">
 {lis}
           </ul>
-        </div>
+        </div>{fig}
       </div>
     </section>
 """
@@ -949,11 +969,17 @@ def guide_page(file):
     g = GUIDES[file]
     kind = "Update" if g.get("kind") == "update" else "Guide"
     meta = f'{kind} · {"Published " + nice_date(g["date"]) if g.get("date") else "Updated " + (nice_date(g["modified"]) if g.get("modified") else UPDATED)} · {read_minutes(g)} min read · AML Canada'
+    image = guide_image(file)
     hero = page_hero([("guides.html", "Guides")], g["crumb"], (g["h1"], g["lede"]), g["label"], actions=False)
     hero = hero.replace('<p class="page-lede">', f'<p class="guide-meta">{meta}</p>\n        <p class="page-lede">', 1)
-    return (head(g["title"], g["desc"], file) + nav(file) + '  <main id="main">\n'
+    top = head(g["title"], g["desc"], file)
+    if image:  # share card = the guide's own image
+        top = (top.replace("https://amlcanada.ca/og-default.png", SITE + image[0], 1)
+               .replace('og:image:height" content="630"', 'og:image:height" content="627"', 1)
+               .replace('content="AML Canada: AML compliance for businesses FINTRAC regulates"', f'content="{escape(image[1])}"', 1))
+    return (top + nav(file) + '  <main id="main">\n'
             + hero
-            + takeaways_box(g["takeaways"])
+            + takeaways_box(g["takeaways"], image)
             + guide(g["sections"], g["sources"], g.get("checked", CHECKED))
             + service_cta(g["service"])
             + faq_block(g["faqs"], f'{g["crumb"]}: common questions')

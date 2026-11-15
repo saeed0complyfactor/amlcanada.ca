@@ -227,10 +227,12 @@ def sitemap():
             continue
         alts = "".join(f'<xhtml:link rel="alternate" hreflang="{h}" href="{u}"/>' for h, u in
                        [(EN[0], url("en", page))] + [(v[0], url(k, page)) for k, v in LANGS.items()] + [("x-default", url("en", page))])
+        img = OUT / "img" / "guides" / page
+        img = f"<image:image><image:loc>{SITE}img/guides/{page[:-5]}.png</image:loc></image:image>" if img.with_suffix(".png").exists() else ""
         for lang in ["en", *LANGS]:
-            out.append(f"  <url><loc>{url(lang, page)}</loc><lastmod>{mod}</lastmod>{alts}</url>")
+            out.append(f"  <url><loc>{url(lang, page)}</loc><lastmod>{mod}</lastmod>{alts}{img}</url>")
     return ('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" '
-            'xmlns:xhtml="http://www.w3.org/1999/xhtml">\n' + "\n".join(out) + "\n</urlset>\n")
+            'xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n' + "\n".join(out) + "\n</urlset>\n")
 
 
 def run():
