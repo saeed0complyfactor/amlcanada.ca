@@ -50,15 +50,15 @@ We prepare and file the reports your business has to make to FINTRAC, including 
 
 | Suspicious transaction report (STR) | Reasonable grounds to suspect a transaction is related to money laundering, terrorist financing or, since August 19, 2024, sanctions evasion. No minimum amount. | As soon as practicable |
 
-| Large cash transaction report (LCTR) | Cash of $10,000 or more, in one transaction or in two or more that the 24-hour rule requires you to add together. | 15 calendar days |
+| Large cash transaction report (LCTR) | You receive cash of $10,000 or more, in one transaction or in two or more that the 24-hour rule requires you to add together. | 15 calendar days |
 
-| Electronic funds transfer report (EFTR) | International electronic funds transfers of $10,000 or more, in one transfer or in two or more that the 24-hour rule requires you to add together. | 5 working days |
+| Electronic funds transfer report (EFTR) | You initiate, or finally receive, an international electronic funds transfer of $10,000 or more, in one transfer or in two or more that the 24-hour rule requires you to add together. | 5 working days |
 
-| Large virtual currency transaction report (LVCTR) | Virtual currency worth $10,000 or more, in one transaction or in two or more that the 24-hour rule requires you to add together. | 5 working days |
+| Large virtual currency transaction report (LVCTR) | You receive virtual currency worth $10,000 or more, in one transaction or in two or more that the 24-hour rule requires you to add together. | 5 working days |
 
 | Listed person or entity property report | Property you know or believe is owned or controlled by a terrorist group or a listed person or entity. Since October 1, 2025, this includes persons listed under the Special Economic Measures Act and the Sergei Magnitsky Law. Called the terrorist property report until March 2, 2025. You must also disclose the property to the RCMP and CSIS without delay. | Immediately |
 
-Amounts are in Canadian dollars. Under FINTRAC's 24-hour rule, two or more transactions that total $10,000 or more within a static 24-hour window are reported together when you know they were conducted by or on behalf of the same person or entity, or are for the same beneficiary.
+Amounts are in Canadian dollars. For large cash and large virtual currency transactions, FINTRAC's 24-hour rule means two or more transactions that total $10,000 or more within a static 24-hour window are reported together when you know they were conducted by or on behalf of the same person or entity, or are for the same beneficiary. Electronic funds transfers and casino disbursements have their own aggregation rules.
 
 ### Policy maintenance
 
@@ -5854,11 +5854,11 @@ Money services businesses report suspicious transactions, large cash, internatio
 
 | Suspicious transaction report (STR) | Reasonable grounds to suspect a transaction is related to money laundering, terrorist financing or, since August 19, 2024, sanctions evasion. No minimum amount. | As soon as practicable |
 
-| Large cash transaction report (LCTR) | Cash of $10,000 or more, in one transaction or in two or more that the 24-hour rule requires you to add together. | 15 calendar days |
+| Large cash transaction report (LCTR) | You receive cash of $10,000 or more, in one transaction or in two or more that the 24-hour rule requires you to add together. | 15 calendar days |
 
-| Electronic funds transfer report (EFTR) | International electronic funds transfers of $10,000 or more, in one transfer or in two or more that the 24-hour rule requires you to add together. | 5 working days |
+| Electronic funds transfer report (EFTR) | You initiate, or finally receive, an international electronic funds transfer of $10,000 or more, in one transfer or in two or more that the 24-hour rule requires you to add together. | 5 working days |
 
-| Large virtual currency transaction report (LVCTR) | Virtual currency worth $10,000 or more, in one transaction or in two or more that the 24-hour rule requires you to add together. | 5 working days |
+| Large virtual currency transaction report (LVCTR) | You receive virtual currency worth $10,000 or more, in one transaction or in two or more that the 24-hour rule requires you to add together. | 5 working days |
 
 | Listed person or entity property report | Property you know or believe is owned or controlled by a terrorist group or a listed person or entity. Since October 1, 2025, this includes persons listed under the Special Economic Measures Act and the Sergei Magnitsky Law. Called the terrorist property report until March 2, 2025. You must also disclose the property to the RCMP and CSIS without delay. | Immediately |
 
@@ -5886,7 +5886,7 @@ When you receive virtual currency worth $10,000 or more, in one transaction or i
 
 ### The 24-hour rule
 
-The 24-hour rule stops threshold reporting being avoided by splitting transactions. When you know that two or more transactions of the same type, totalling $10,000 or more within a 24-hour window, were conducted by the same person or entity, on behalf of the same person or entity, or for the same beneficiary, you report them together. The individual transactions can be any amount.
+The 24-hour rule stops threshold reporting being avoided by splitting transactions. For cash and virtual currency, when you know that two or more transactions of the same type, totalling $10,000 or more within a 24-hour window, were conducted by the same person or entity, on behalf of the same person or entity, or for the same beneficiary, you report them together. The individual transactions can be any amount. Electronic funds transfers and casino disbursements have their own aggregation rules.
 
 FINTRAC uses a static 24-hour window: you set fixed 24-hour periods, for example 9 a.m. one day to 8:59 a.m. the next. If a client gives you $6,000 in cash at 10 a.m. and another $5,000 at 3 p.m. in the same window, you file one LCTR for $11,000. Your systems need to add these up. [FINTRAC's 24-hour rule guidance](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/24hour/1-eng) has more examples.
 
