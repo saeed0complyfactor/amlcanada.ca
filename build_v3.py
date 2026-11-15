@@ -38,6 +38,7 @@ SERVICES = [
     ("msb-for-sale.html", "MSB for sale", "one", "A Canadian company already registered with FINTRAC as a money services business.", "From €28,000"),
     ("incorporation-canada.html", "Company incorporation", "one", "A Canadian company, federal or Ontario, usually incorporated within a few hours to 24 hours.", "US$1,500"),
     ("apostille-notarization-canada.html", "Apostille & notarization", "review", "Notarization and apostilles for Canadian corporate documents used abroad, through a licensed Ontario notary partner.", "Quote"),
+    ("fintrac-reporting-software.html", "FINTRAC reporting software", "scan", "A platform that checks, approves and submits STRs, LCTRs, EFTRs and LVCTRs through FINTRAC API report submission.", "Quote"),
     ("canadian-address.html", "Canadian address", "address", "A Canadian business address for foreign MSBs and companies entering Canada.", "US$200 / month"),
     ("effectiveness-reviews.html", "Effectiveness reviews", "review", "The two-year review FINTRAC requires, and preparation for an examination.", "Scoped"),
     ("training.html", "Training", "training", "AML training for front-line staff, compliance teams and management.", "Scoped"),
@@ -47,9 +48,9 @@ PICK = {f: DEEP[f]["need"] for f, *_ in SERVICES}
 
 AUD = [
     ("msb", "Money services businesses", "Foreign exchange dealers, money transfer businesses and others that need to register with FINTRAC, stay compliant and report on time.",
-     ["buy-or-register-msb-canada.html", "msb-registration.html", "compliance-programs.html", "outsourced-compliance-officer.html", "effectiveness-reviews.html"]),
+     ["buy-or-register-msb-canada.html", "msb-registration.html", "compliance-programs.html", "outsourced-compliance-officer.html", "effectiveness-reviews.html", "fintrac-reporting-software.html"]),
     ("vc", "Virtual currency dealers", "Crypto exchanges and dealers in virtual currency, which register with FINTRAC as money services businesses and report large virtual currency transactions.",
-     ["msb-registration.html", "compliance-programs.html", "outsourced-compliance-officer.html"]),
+     ["msb-registration.html", "compliance-programs.html", "outsourced-compliance-officer.html", "fintrac-reporting-software.html"]),
     ("psp", "Payment service providers", "Payment processors, wallets and other PSPs that register with the Bank of Canada under the RPAA, and often with FINTRAC too.",
      ["rpaa-registration.html", "rpaa-compliance-program.html", "msb-registration.html"]),
     ("foreign", "Foreign businesses entering Canada", "Companies outside Canada that serve customers in Canada and need a Canadian company, registration, a Canadian address, a compliance officer, or a registered company to acquire.",
@@ -57,7 +58,7 @@ AUD = [
     ("fintech", "Payment and fintech companies", "Start-ups and growing companies that need to understand their obligations and meet them as they scale.",
      ["compliance-programs.html", "rpaa-registration.html", "training.html"]),
     ("officers", "Compliance officers", "Compliance officers at reporting entities who need a second pair of hands, a review, or training for their teams.",
-     ["outsourced-compliance-officer.html", "effectiveness-reviews.html", "training.html"]),
+     ["outsourced-compliance-officer.html", "effectiveness-reviews.html", "training.html", "fintrac-reporting-software.html"]),
 ]
 
 ICONS = """  <svg class="sprite" aria-hidden="true" focusable="false">
@@ -322,6 +323,7 @@ FORM = f"""        <form class="form" novalidate data-consult>
               <label class="chip"><input type="radio" name="need" value="review"><span>A review or examination</span></label>
               <label class="chip"><input type="radio" name="need" value="training"><span>Staff training</span></label>
               <label class="chip"><input type="radio" name="need" value="apostille"><span>Apostille or notarization</span></label>
+              <label class="chip"><input type="radio" name="need" value="reporting"><span>FINTRAC reporting software</span></label>
               <label class="chip"><input type="radio" name="need" value="unsure" checked><span>Not sure yet</span></label>
             </div>
           </fieldset>

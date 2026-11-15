@@ -16,6 +16,7 @@
 - [Training](https://amlcanada.ca/training.html): Anti-money laundering training for MSB front-line staff, compliance teams and senior management, built to meet FINTRAC's training requirement.
 - [Company incorporation](https://amlcanada.ca/incorporation-canada.html): Incorporate a Canadian company, federally or in Ontario, usually within 24 hours. Fixed fee US$1,500, ready for FINTRAC or RPAA registration.
 - [Apostille & notarization](https://amlcanada.ca/apostille-notarization-canada.html): Apostille and notarization of Canadian corporate documents for foreign banks, payment partners and regulators, with a licensed Ontario partner notary.
+- [FINTRAC reporting software](https://amlcanada.ca/fintrac-reporting-software.html): FINTRAC reporting software for STRs, LCTRs, EFTRs, LVCTRs and CDRs: data import, 24-hour rule checks, validation, maker-checker approval and API submission.
 - [Sell your MSB](https://amlcanada.ca/sell-your-msb.html): Sell a Canadian company registered with FINTRAC as an MSB. We check it, match it with a buyer, and handle the share sale and the FINTRAC updates.
 
 ## Guides

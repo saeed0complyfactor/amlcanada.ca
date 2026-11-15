@@ -202,7 +202,7 @@ GUIDES["fintrac-reporting-requirements.html"] = dict(
     title="FINTRAC Reporting for MSBs: STR, LCTR, EFTR, LVCTR | AML Canada",
     desc="Which reports a money services business must file with FINTRAC, when each applies, the $10,000 threshold, the 24-hour rule and the deadline for each report.",
     crumb="FINTRAC reporting",
-    also=["compliance-programs.html", "training.html"],
+    also=["compliance-programs.html", "training.html", "fintrac-reporting-software.html"],
     h1="FINTRAC reporting for MSBs: which report, and when",
     lede="Money services businesses report suspicious transactions, large cash, international transfers, large virtual currency receipts and listed person property to FINTRAC. Each report has its own trigger and deadline.",
     label="Guide · Reporting",
@@ -231,7 +231,7 @@ GUIDES["fintrac-reporting-requirements.html"] = dict(
             <li>Document why you did or didn't file an STR.</li>
             <li>Keep the records behind every report, generally for at least five years.</li>
           </ul>
-          <p>Your <a href="compliance-programs.html">policies and procedures</a> should set out how each of these is done, and staff who handle transactions need <a href="training.html">training</a> on them. An <a href="outsourced-compliance-officer.html">outsourced compliance officer</a> can handle this reporting.</p>"""),
+          <p>Your <a href="compliance-programs.html">policies and procedures</a> should set out how each of these is done, and staff who handle transactions need <a href="training.html">training</a> on them. An <a href="outsourced-compliance-officer.html">outsourced compliance officer</a> can handle this reporting, and our <a href="fintrac-reporting-software.html">FINTRAC reporting software</a> applies the 24-hour rule, validates each report and submits it through FINTRAC's API.</p>"""),
     ],
     faqs=[("What is the FINTRAC reporting threshold?", "$10,000 for large cash, international electronic funds transfer and large virtual currency transaction reports, including linked transactions that add up to $10,000 within 24 hours. Suspicious transaction reports have no threshold."),
           ("How long do I have to file an EFTR?", "5 working days."),

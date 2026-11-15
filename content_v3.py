@@ -1004,6 +1004,110 @@ DEEP["apostille-notarization-canada.html"] = dict(
 )
 
 
+# ------------------------------------------------------------------ FINTRAC reporting software (quote)
+F_METHODS = "https://fintrac-canafe.canada.ca/reporting-declaration/electron-eng"
+F_API = "https://fintrac-canafe.canada.ca/reporting-declaration/info/api/api-eng"
+F_FWR = "https://fintrac-canafe.canada.ca/reporting-declaration/info/f2r-eng"
+
+RS_TABLE = """<div class="table-wrap"><table>
+            <thead><tr><th scope="col">Report</th><th scope="col">When it applies</th><th scope="col">Deadline</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Suspicious transaction report (STR)</th><td>Reasonable grounds to suspect a transaction is related to money laundering, terrorist financing or sanctions evasion. No minimum amount.</td><td>As soon as practicable</td></tr>
+              <tr><th scope="row">Large cash transaction report (LCTR)</th><td>You receive cash of $10,000 or more, in one transaction or in two or more that the 24-hour rule requires you to add together.</td><td>15 calendar days</td></tr>
+              <tr><th scope="row">Electronic funds transfer report (EFTR)</th><td>You initiate, or finally receive, an international electronic funds transfer of $10,000 or more, in one transfer or in two or more that the 24-hour rule requires you to add together.</td><td>5 working days</td></tr>
+              <tr><th scope="row">Large virtual currency transaction report (LVCTR)</th><td>You receive virtual currency worth $10,000 or more, in one transaction or in two or more that the 24-hour rule requires you to add together.</td><td>5 working days</td></tr>
+            </tbody>
+          </table></div>"""
+
+DEEP["fintrac-reporting-software.html"] = dict(
+    checked="15 November 2026",
+    name="FINTRAC reporting software",
+    modified="2026-11-15",
+    title="FINTRAC Reporting Software for MSBs | AML Canada",
+    desc="FINTRAC reporting software for STRs, LCTRs, EFTRs, LVCTRs and CDRs: data import, 24-hour rule checks, validation, maker-checker approval and API submission.",
+    service_type="FINTRAC reporting software",
+    offers=[],
+    kicker="FINTRAC reporting software and API report submission",
+    h1="Your FINTRAC reports checked, approved and tracked in one place.",
+    lede="Our reporting platform takes your transaction data through 24-hour rule checks, validation and approval, then submits through FINTRAC API report submission where you're enrolled, and keeps the record.",
+    hero_price="Quote · after a scoping call",
+    label="Report validated · Approved",
+    need="reporting",
+    intro=("Most of the work in FINTRAC reporting happens before you press submit.",
+           ["Transactions sit in more than one system. Smaller transactions may have to be added together under the 24-hour rule. Conductor and beneficiary details go missing, each report needs checking before it goes, and a rejected report has to be fixed and resubmitted. Spreadsheets and email make all of that slow and hard to evidence.",
+            "Our platform covers the five reports filed electronically: suspicious transaction reports, large cash transaction reports, electronic funds transfer reports, large virtual currency transaction reports and casino disbursement reports. Your compliance team still decides what gets reported. The platform does the checking, routing and record keeping around that decision. Pricing is confirmed after a scoping call."]),
+    facts=[("Reports", "5 workflows", "STR, LCTR, EFTR, LVCTR, CDR"),
+           ("Checks", "24-hour rule", "report-specific aggregation"),
+           ("Approval", "Maker-checker", "with time-stamped sign-off"),
+           ("Fee", "Quote", "after a scoping call")],
+    fee=dict(amount="Quote", unit="after a scoping call",
+             note="Pricing is confirmed after a scoping call.",
+             items=["Set-up of your report types, thresholds, aggregation rules and field mappings by a compliance specialist",
+                    "Import of transaction files such as CSV, with reusable mappings",
+                    "Pre-submission validation, with warnings shown apart from blocking errors",
+                    "Maker-checker review and recorded sign-off",
+                    "Submission through FINTRAC API report submission where you are enrolled",
+                    "A report archive you can download as PDF or CSV"]),
+    guide=[
+        ("channels", "How reports reach FINTRAC", f"""          <p>A business with an internet connection must send FINTRAC its suspicious transaction reports, large cash transaction reports, large virtual currency transaction reports, electronic funds transfer reports and casino disbursement reports electronically. Listed person or entity property reports still go on a paper form. FINTRAC's <a href="{F_METHODS}" rel="noopener">reporting methods page</a> lists two electronic reporting systems, plus a shared process for sending EFTRs to FINTRAC and the Canada Revenue Agency at the same time:</p>
+          <ul>
+            <li><strong>FINTRAC Web Reporting System.</strong> You enter and submit reports one at a time in a browser. FINTRAC says it is geared to businesses with lower reporting volumes.</li>
+            <li><strong>FINTRAC API report submission.</strong> A system-to-system connection that sends report data straight to FINTRAC, geared to businesses with higher volumes.</li>
+          </ul>
+          <p>The older batch systems are being retired. FINTRAC's transition periods for moving higher-volume reporting to the API ended on November 6, 2023 for LCTRs and LVCTRs, July 3, 2024 for STRs, and August 22, 2024 for EFTRs and casino disbursement reports (<a href="{F_API}" rel="noopener">FINTRAC, API report submission</a>, checked November 15, 2026).</p>"""),
+        ("api", "What FINTRAC API report submission involves", f"""          <p>To use the API you need an application and secret keys, which your technical administrator sets up through FINTRAC's API portal. A business that files larger volumes and doesn't have API access yet contacts FINTRAC at F2R@fintrac-canafe.gc.ca.</p>
+          <p>FINTRAC offers two groups of endpoints, one for single reports and one for bulk submission, and each lets you create, change or delete a report submission. A single report can hold up to 500 transactions (25 MB). A bulk file can hold up to 5,000 reports and up to 5,000 transactions per report, within 300 MB. FINTRAC publishes JSON schemas and validation rules for each report type.</p>
+          <p>Our platform builds report data in the format FINTRAC's API expects, submits approved reports individually or in aggregate, and records FINTRAC's response against each report. If your business isn't enrolled for the API yet, we help with enrolment. Until then the platform produces validated, approved report data for submission through your existing FINTRAC channel, and records the status against the report.</p>"""),
+        ("reports", "The reports the platform covers", f"""          <p>These are the thresholds and deadlines from FINTRAC's guidance, as we summarize them in our <a href="fintrac-reporting-requirements.html">FINTRAC reporting guide</a>. Which reports you must file depends on your business and your activities.</p>
+{RS_TABLE}
+          <p>Listed person or entity property reports are filed on paper, so the platform doesn't handle them. Casino disbursement reports, which apply to casinos, have their own workflow.</p>"""),
+        ("aggregation", "24-hour rule checks", f"""          <p>For large cash and large virtual currency transactions, FINTRAC's <a href="{F_24}" rel="noopener">24-hour rule</a> means two or more transactions of any amount that total $10,000 or more within a 24-hour window are reported together when you know they were conducted by or on behalf of the same person or entity, or are for the same beneficiary. Electronic funds transfers and casino disbursements have their own aggregation rules. FINTRAC expects the rule to be applied across all your locations, which is hard to do by hand across branches, agents and payment channels.</p>
+          <p>The rule doesn't work the same way for every report. Which transactions are added together depends on the report type, timing, who conducted them, third parties and beneficiaries. The platform applies configurable checks for each report type and shows the transactions it has grouped. Your team confirms whether a report is required.</p>"""),
+        ("validation", "Validation before a report is submitted", f"""          <p>FINTRAC's Web Reporting System shows two kinds of validation message, according to its <a href="{F_FWR}" rel="noopener">guide</a>. A <strong>rejected</strong> message means mandatory information is missing, and the report can't be submitted until it's added. A <strong>warning</strong> means information marked "mandatory if applicable" is missing or incomplete. A warning doesn't stop submission, but if the information is in your records you are required to include it.</p>
+          <p>The platform runs its checks before a report reaches approval. It checks:</p>
+          <ul>
+            <li>mandatory and mandatory-if-applicable fields;</li>
+            <li>formats, codes and conditional fields;</li>
+            <li>missing conductor or beneficiary information, and third-party fields on casino disbursement reports;</li>
+            <li>duplicate report references and missing links between transactions;</li>
+            <li>dates and amounts that don't agree.</li>
+          </ul>
+          <p>Blocking errors are shown apart from warnings, so your team deals with what would stop a filing first. Validation can't guarantee FINTRAC will accept a report.</p>"""),
+        ("approval", "Review and approval", """          <p>Maker-checker review is configurable. A preparer drafts and validates the report, and a reviewer signs it off. Reviewers can comment on the report itself and return it for correction, and every action is time-stamped, so you can show who prepared, reviewed, approved and submitted each report, and when. Reminders flag reports that are getting close to their deadline.</p>
+          <p>Suspicious transaction reports need judgement that software can't supply. The platform provides structured fields for the narrative and routes the report for approval, but establishing reasonable grounds to suspect, writing the narrative and deciding to file stay with your compliance officer. Using the platform doesn't transfer your legal responsibility for reporting.</p>"""),
+        ("after", "After submission", """          <p>A submitted report can come back with warnings or be rejected. The platform records FINTRAC's acknowledgement and confirmation number, keeps the JSON data that was sent, assigns corrections to a team member and links each corrected version to the original, so the history of a report reads as one record. You can change or delete submitted reports through the same workflow.</p>
+          <p>Submitted reports are kept in an archive you can download as PDF or CSV. Retention controls are confirmed in writing during scoping. That gives your effectiveness reviewer, and FINTRAC's examiners, a time-stamped record of each report's review and sign-off, the JSON data sent and FINTRAC's response.</p>"""),
+        ("setup", "How we set it up", """          <ol>
+            <li><strong>Scoping call.</strong> Your report types, data sources and how you file today.</li>
+            <li><strong>Data review.</strong> We check which fields your systems hold and where reporting data is missing.</li>
+            <li><strong>Configuration.</strong> A compliance specialist sets your report types, thresholds, aggregation rules, field mappings, user roles and approval paths.</li>
+            <li><strong>Testing.</strong> We test with sample and past transactions in a sandbox environment, apart from live FINTRAC submissions.</li>
+            <li><strong>API enrolment.</strong> Where it applies, we help you complete FINTRAC API enrolment.</li>
+            <li><strong>Go live.</strong> Approved workflows move to production.</li>
+          </ol>
+          <p>There's no standard implementation timeline. Security controls, hosting location and data residency are confirmed in writing for each client during scoping. If you'd rather not run reporting yourselves, our <a href="outsourced-compliance-officer.html">outsourced compliance officer</a> service includes FINTRAC reporting.</p>"""),
+    ],
+    sources=[("FINTRAC, Methods to report to FINTRAC", F_METHODS), ("FINTRAC API report submission", F_API),
+             ("Using the FINTRAC Web Reporting System", F_FWR), ("Reporting suspicious transactions", F_STR),
+             ("Reporting large cash transactions", F_LCTR), ("Reporting electronic funds transfers", F_EFT),
+             ("Reporting large virtual currency transactions", F_LVCTR), ("The 24-hour rule", F_24)],
+    for_title="Who it's for",
+    for_items=[("Money transfer and foreign exchange MSBs", "EFTRs and LCTRs, with 24-hour rule checks before approval."),
+               ("Virtual currency dealers", "LVCTRs, validated before approval."),
+               ("Payment businesses with FINTRAC obligations", "Where your service model makes you an MSB or another reporting entity."),
+               ("Casinos", "Casino disbursement reports, with 24-hour rule checks and approval.")],
+    arts=["scan", "programme", "review", "one"],
+    faqs=[("What is FINTRAC reporting software?", "Software that helps a reporting entity prepare, check, approve, submit and track the reports it must send FINTRAC, such as STRs, LCTRs, EFTRs and LVCTRs. Ours also applies 24-hour rule checks and keeps the full history of each report."),
+          ("Which FINTRAC reports does the platform support?", "Suspicious transaction reports, large cash transaction reports, electronic funds transfer reports, large virtual currency transaction reports and casino disbursement reports. Listed person or entity property reports are filed on paper, so they aren't included."),
+          ("Does it submit reports to FINTRAC directly?", "Yes, through FINTRAC API report submission once your business is enrolled. Until then it produces validated, approved report data for your existing FINTRAC channel."),
+          ("Does the software decide whether to file an STR?", "No. It structures preparation and approval, but reasonable grounds to suspect, the narrative and the decision to file stay with your compliance team."),
+          ("Can we import our transaction files?", "Yes. Structured files such as CSV exports are the main import route, and reusable mappings match your fields to FINTRAC's report fields. Other sources are confirmed during scoping."),
+          ("How much does it cost?", "Pricing is confirmed after a scoping call."),
+          ("Where is our data hosted?", "Hosting location, data residency and security controls are confirmed in writing for each client during scoping.")],
+    related=["outsourced-compliance-officer.html", "compliance-programs.html", "effectiveness-reviews.html"],
+)
+
+
 # ------------------------------------------------------------------ sell your MSB
 DEEP["sell-your-msb.html"] = dict(
     name="Sell your MSB",
