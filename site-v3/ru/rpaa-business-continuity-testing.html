@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>План обеспечения непрерывности бизнеса и тестирование по RPAA для PSP | AML Canada</title>
+<meta content="Что должен охватывать план обеспечения непрерывности бизнеса по RPAA, какие целевые показатели восстановления рекомендует Банк Канады, как и как часто его тестировать и какие записи хранить." name="description"/>
+<link href="https://amlcanada.ca/ru/rpaa-business-continuity-testing.html" rel="canonical"/>
+<meta content="План обеспечения непрерывности бизнеса и тестирование по RPAA для PSP | AML Canada" property="og:title"/>
+<meta content="Что должен охватывать план обеспечения непрерывности бизнеса по RPAA, какие целевые показатели восстановления рекомендует Банк Канады, как и как часто его тестировать и какие записи хранить." property="og:description"/>
+<meta content="article" property="og:type"/>
+<meta content="2026-11-19" property="article:modified_time"/>
+<meta content="https://amlcanada.ca/ru/rpaa-business-continuity-testing.html" property="og:url"/>
+<meta content="AML Canada" property="og:site_name"/>
+<meta content="ru" property="og:locale"/>
+<meta content="https://amlcanada.ca/og-default.png" property="og:image"/>
+<meta content="1200" property="og:image:width"/>
+<meta content="630" property="og:image:height"/>
+<meta content="AML Canada: AML compliance for businesses FINTRAC regulates" property="og:image:alt"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="#06080C" name="theme-color"/>
+<link as="font" crossorigin="" href="../fonts/geist-latin-wght.woff2" rel="preload" type="font/woff2"/>
+<link as="font" crossorigin="" href="../fonts/geist-mono-latin-wght.woff2" rel="preload" type="font/woff2"/>
+<link href="../styles.css" rel="stylesheet"/>
+<link href="../pages.css" rel="stylesheet"/>
+<link href="../favicon.ico" rel="icon" sizes="48x48"/>
+<link href="../icon-96.png" rel="icon" sizes="96x96" type="image/png"/>
+<link href="../icon-192.png" rel="icon" sizes="192x192" type="image/png"/>
+<link href="../favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="../apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="../site.webmanifest" rel="manifest"/>
+<script>document.documentElement.classList.add("js");</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://amlcanada.ca/ru/rpaa-business-continuity-testing.html#article","headline":"План обеспечения непрерывности бизнеса по RPAA: восстановление и тестирование для PSP","description":"Что должен охватывать план обеспечения непрерывности бизнеса по RPAA, какие целевые показатели восстановления рекомендует Банк Канады, как и как часто его тестировать и какие записи хранить.","url":"https://amlcanada.ca/ru/rpaa-business-continuity-testing.html","mainEntityOfPage":"https://amlcanada.ca/ru/rpaa-business-continuity-testing.html","image":"https://amlcanada.ca/og-default.png","inLanguage":"ru","datePublished":"2026-11-19","dateModified":"2026-11-19","author":{"@id":"https://amlcanada.ca/#organization"},"publisher":{"@id":"https://amlcanada.ca/#organization"},"about":{"@id":"https://amlcanada.ca/ru/rpaa-compliance-program.html#service"}},{"@type":"BreadcrumbList","@id":"https://amlcanada.ca/ru/rpaa-business-continuity-testing.html#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Главная","item":"https://amlcanada.ca/ru/"},{"@type":"ListItem","position":2,"name":"Руководства","item":"https://amlcanada.ca/ru/guides.html"},{"@type":"ListItem","position":3,"name":"Непрерывность и тестирование по RPAA","item":"https://amlcanada.ca/ru/rpaa-business-continuity-testing.html"}]}]}</script>
+  <!--i18n:alt-->
+  <link rel="alternate" hreflang="en-CA" href="https://amlcanada.ca/rpaa-business-continuity-testing.html">
+  <link rel="alternate" hreflang="fr-CA" href="https://amlcanada.ca/fr/rpaa-business-continuity-testing.html">
+  <link rel="alternate" hreflang="de" href="https://amlcanada.ca/de/rpaa-business-continuity-testing.html">
+  <link rel="alternate" hreflang="ar" href="https://amlcanada.ca/ar/rpaa-business-continuity-testing.html">
+  <link rel="alternate" hreflang="zh-Hans" href="https://amlcanada.ca/zh-hans/rpaa-business-continuity-testing.html">
+  <link rel="alternate" hreflang="zh-Hant" href="https://amlcanada.ca/zh-hant/rpaa-business-continuity-testing.html">
+  <link rel="alternate" hreflang="es" href="https://amlcanada.ca/es/rpaa-business-continuity-testing.html">
+  <link rel="alternate" hreflang="pt-BR" href="https://amlcanada.ca/pt-br/rpaa-business-continuity-testing.html">
+  <link rel="alternate" hreflang="it" href="https://amlcanada.ca/it/rpaa-business-continuity-testing.html">
+  <link rel="alternate" hreflang="pl" href="https://amlcanada.ca/pl/rpaa-business-continuity-testing.html">
+  <link rel="alternate" hreflang="ru" href="https://amlcanada.ca/ru/rpaa-business-continuity-testing.html">
+  <link rel="alternate" hreflang="uk" href="https://amlcanada.ca/uk/rpaa-business-continuity-testing.html">
+  <link rel="alternate" hreflang="x-default" href="https://amlcanada.ca/rpaa-business-continuity-testing.html">
+  <!--/i18n:alt-->
+</head>
+<body>
+<a class="skip" href="#main">Перейти к содержанию</a>
+<svg aria-hidden="true" class="sprite" focusable="false">
+<symbol id="i-mark" viewbox="0 0 24 24"><path d="M2 8V2h6M16 2h6v6M22 16v6h-6M8 22H2v-6" fill="none" stroke="currentColor" stroke-width="2"></path><circle cx="12" cy="12" fill="var(--amber)" r="3.2"></circle></symbol>
+<symbol id="i-arrow" viewbox="0 0 16 16"><path d="M2.5 8h10M8.5 3.5 13 8l-4.5 4.5" fill="none" stroke="currentColor" stroke-width="1.5"></path></symbol>
+<symbol id="i-down" viewbox="0 0 16 16"><path d="M8 2.5v10M3.5 8.5 8 13l4.5-4.5" fill="none" stroke="currentColor" stroke-width="1.5"></path></symbol>
+<symbol id="i-check" viewbox="0 0 16 16"><path d="m3 8.5 3.2 3L13 4.5" fill="none" stroke="currentColor" stroke-width="1.6"></path></symbol>
+<symbol id="i-gap" viewbox="0 0 16 16"><circle cx="8" cy="8" fill="none" r="5.5" stroke="currentColor" stroke-width="1.5"></circle><path d="M8 5v3.6" stroke="currentColor" stroke-width="1.5"></path><circle cx="8" cy="11" fill="currentColor" r=".9"></circle></symbol>
+<symbol id="i-plus" viewbox="0 0 16 16"><path d="M8 2.5v11M2.5 8h11" fill="none" stroke="currentColor" stroke-width="1.5"></path></symbol>
+<symbol id="i-menu" viewbox="0 0 20 20"><path d="M2 7h16M2 13h16" fill="none" stroke="currentColor" stroke-width="1.5"></path></symbol>
+<symbol id="i-close" viewbox="0 0 20 20"><path d="m4 4 12 12M16 4 4 16" fill="none" stroke="currentColor" stroke-width="1.5"></path></symbol>
+<symbol id="i-chev" viewbox="0 0 16 16"><path d="m4 6 4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"></path></symbol>
+<symbol id="i-chev-r" viewbox="0 0 16 16"><path d="m6 4 4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.5"></path></symbol>
+<symbol id="i-out" viewbox="0 0 16 16"><path d="M5 11 11 5M6 5h5v5" fill="none" stroke="currentColor" stroke-width="1.6"></path></symbol>
+</svg>
+<header class="nav" data-nav="">
+<div class="nav-pill">
+<a aria-label="Главная AML Canada" class="brand" href="./">
+<svg aria-hidden="true" class="brand-mark"><use href="#i-mark"></use></svg>
+<span>AML Canada</span>
+</a>
+<nav aria-label="Основное" class="mega" data-mega="">
+<ul class="mega-bar">
+<li class="mega-item">
+<button aria-controls="mega-services" aria-expanded="false" class="mega-trigger" data-mega-trigger="" type="button">Услуги<svg aria-hidden="true"><use href="#i-chev"></use></svg></button>
+<div class="mega-panel" data-mega-panel="" hidden="" id="mega-services">
+<ul class="mega-list">
+<li><a class="mega-link" data-desc="Регистрация в FINTRAC и Банке Канады, программы комплаенс, внешние комплаенс-офицеры, проверки и обучение." data-title="Все услуги" href="services.html">Все услуги<svg aria-hidden="true"><use href="#i-chev-r"></use></svg></a></li>
+<li><a class="mega-link" data-desc="Канадский комплаенс-офицер по ПОД/ФТ (MLRO): проверки при онбординге клиентов, отчётность в FINTRAC, политики и оценки рисков." data-title="Внешний комплаенс-офицер" href="outsourced-compliance-officer.html">Внешний комплаенс-офицер<svg aria-hidden="true"><use href="#i-chev-r"></use></svg></a></li>
+<li><a class="mega-link" data-desc="Регистрация в FINTRAC для компаний денежных услуг, иностранных MSB и дилеров виртуальной валюты." data-title="Регистрация MSB" href="msb-registration.html">Регистрация MSB<svg aria-hidden="true"><use href="#i-chev-r"></use></svg></a></li>
+<li><a class="mega-link" data-desc="Два пути к MSB, зарегистрированной в FINTRAC: купить готовую компанию или зарегистрировать собственную." data-title="Купить или зарегистрировать MSB" href="buy-or-register-msb-canada.html">Купить или зарегистрировать MSB<svg aria-hidden="true"><use href="#i-chev-r"></use></svg></a></li>
+<li><a class="mega-link" data-desc="14 документов программы комплаенс по PCMLTFA, составленных под ваш бизнес." data-title="Программы комплаенс" href="compliance-programs.html">Программы комплаенс<svg aria-hidden="true"><use href="#i-chev-r"></use></svg></a></li>
+<li><a class="mega-link" data-desc="Регистрация поставщика платёжных услуг в Банке Канады по RPAA." data-title="Регистрация по RPAA" href="rpaa-registration.html">Регистрация по RPAA<svg aria-hidden="true"><use href="#i-chev-r"></use></svg></a></li>
+<li><a class="mega-link" data-desc="Системы управления, рисков, реагирования на инциденты, защиты средств и непрерывности деятельности для PSP." data-title="Программа комплаенс по RPAA" href="rpaa-compliance-program.html">Программа комплаенс по RPAA<svg aria-hidden="true"><use href="#i-chev-r"></use></svg></a></li>
+<li><a class="mega-link" data-desc="Канадская компания, уже зарегистрированная в FINTRAC как компания денежных услуг." data-title="MSB на продажу" href="msb-for-sale.html">MSB на продажу<svg aria-hidden="true"><use href="#i-chev-r"></use></svg></a></li>
+<li><a class="mega-link" data-desc="Канадская компания, федеральная или в Онтарио, обычно регистрируется в течение нескольких часов — до 24 часов." data-title="Регистрация компании" href="incorporation-canada.html">Регистрация компании<svg aria-hidden="true"><use href="#i-chev-r"></use></svg></a></li>
+<li><a class="mega-link" data-desc="Нотариальное заверение и апостиль канадских корпоративных документов для использования за рубежом через лицензированного нотариуса-партнёра в Онтарио." data-title="Апостиль и нотариальное заверение" href="apostille-notarization-canada.html">Апостиль и нотариальное заверение<svg aria-hidden="true"><use href="#i-chev-r"></use></svg></a></li>
+<li><a class="mega-link" data-desc="Платформа, которая проверяет, утверждает и подаёт STR, LCTR, EFTR и LVCTR через API FINTRAC (FINTRAC API report submission)." data-title="ПО для отчётности в FINTRAC" href="fintrac-reporting-software.html">ПО для отчётности в FINTRAC<svg aria-hidden="true"><use href="#i-chev-r"></use></svg></a></li>
+<li><a class="mega-link" data-desc="Канадский деловой адрес для иностранных MSB и компаний, выходящих на рынок Канады." data-title="Канадский адрес" href="canadian-address.html">Канадский адрес<svg aria-hidden="true"><use href="#i-chev-r"></use></svg></a></li>
+<li><a class="mega-link" data-desc="Проверка раз в два года, которой требует FINTRAC, и подготовка к проверке FINTRAC." data-title="Проверки эффективности" href="effectiveness-reviews.html">Проверки эффективности<svg aria-hidden="true"><use href="#i-chev-r"></use></svg></a></li>
+<li><a class="mega-link" data-desc="Обучение ПОД/ФТ для фронт-офиса, команд комплаенс и руководства." data-title="Обучение" href="training.html">Обучение<svg aria-hidden="true"><use href="#i-chev-r"></use></svg></a></li>
+</ul>
+<div aria-hidden="true" class="mega-preview">
+<p class="mega-title" data-mega-title="">Все услуги</p>
+<p class="mega-desc" data-mega-desc="">Регистрация в FINTRAC и Банке Канады, программы комплаенс, внешние комплаенс-офицеры, проверки и обучение.</p>
+<a class="mega-more" data-mega-more="" href="services.html" tabindex="-1">Подробнее<svg><use href="#i-out"></use></svg></a>
+</div>
+</div>
+</li>
+<li class="mega-item">
+<button aria-controls="mega-who" aria-expanded="false" class="mega-trigger" data-mega-trigger="" type="button">Кому мы помогаем<svg aria-hidden="true"><use href="#i-chev"></use></svg></button>
+<div class="mega-panel" data-mega-panel="" hidden="" id="mega-who">
+<ul class="mega-list">
+<li><a class="mega-link" data-desc="Обменные пункты, компании денежных переводов и другие организации, которым нужно зарегистрироваться в FINTRAC, соблюдать требования и своевременно подавать отчёты." data-title="Компании денежных услуг" href="who-we-help.html#msb">Компании денежных услуг<svg aria-hidden="true"><use href="#i-chev-r"></use></svg></a></li>
+<li><a class="mega-link" data-desc="Криптобиржи и дилеры виртуальной валюты, которые регистрируются в FINTRAC как компании денежных услуг и сообщают о крупных операциях с виртуальной валютой." data-title="Дилеры виртуальной валюты" href="who-we-help.html#vc">Дилеры виртуальной валюты<svg aria-hidden="true"><use href="#i-chev-r"></use></svg></a></li>
+<li><a class="mega-link" data-desc="Платёжные процессоры, кошельки и другие PSP, которые регистрируются в Банке Канады по RPAA, а часто и в FINTRAC." data-title="Поставщики платёжных услуг" href="who-we-help.html#psp">Поставщики платёжных услуг<svg aria-hidden="true"><use href="#i-chev-r"></use></svg></a></li>
+<li><a class="mega-link" data-desc="Компании за пределами Канады, которые обслуживают клиентов в Канаде и нуждаются в канадской компании, регистрации, канадском адресе, комплаенс-офицере или зарегистрированной компании для приобретения." data-title="Иностранные компании, выходящие на рынок Канады" href="who-we-help.html#foreign">Иностранные компании, выходящие на рынок Канады<svg aria-hidden="true"><use href="#i-chev-r"></use></svg></a></li>
+<li><a class="mega-link" data-desc="Стартапы и растущие компании, которым нужно понять свои обязательства и выполнять их по мере роста." data-title="Платёжные и финтех-компании" href="who-we-help.html#fintech">Платёжные и финтех-компании<svg aria-hidden="true"><use href="#i-chev-r"></use></svg></a></li>
+<li><a class="mega-link" data-desc="Комплаенс-офицеры отчитывающихся организаций, которым нужны дополнительные руки, проверка или обучение для их команд." data-title="Комплаенс-офицеры" href="who-we-help.html#officers">Комплаенс-офицеры<svg aria-hidden="true"><use href="#i-chev-r"></use></svg></a></li>
+</ul>
+<div aria-hidden="true" class="mega-preview">
+<p class="mega-title" data-mega-title="">Компании денежных услуг</p>
+<p class="mega-desc" data-mega-desc="">Обменные пункты, компании денежных переводов и другие организации, которым нужно зарегистрироваться в FINTRAC, соблюдать требования и своевременно подавать отчёты.</p>
+<a class="mega-more" data-mega-more="" href="who-we-help.html#msb" tabindex="-1">Подробнее<svg><use href="#i-out"></use></svg></a>
+</div>
+</div>
+</li>
+<li><a class="mega-plain" href="how-we-work.html">Как мы работаем</a></li>
+<li><a class="mega-plain" href="pricing.html">Цены</a></li>
+<li><a class="mega-plain" href="guides.html">Руководства</a></li>
+<li><a class="mega-plain" href="about.html">О нас</a></li>
+</ul>
+</nav>
+<div class="nav-end">
+        <!--i18n:switch--><details class="lang-switch" data-lang-switch><summary aria-label="Язык: Русский"><svg aria-hidden="true" viewBox="0 0 16 16"><circle cx="8" cy="8" r="6.2" fill="none" stroke="currentColor" stroke-width="1.3"/><path d="M1.8 8h12.4M8 1.8c2 2 2 10.4 0 12.4M8 1.8c-2 2-2 10.4 0 12.4" fill="none" stroke="currentColor" stroke-width="1.3"/></svg><span>RU</span></summary><ul><li><a href="/rpaa-business-continuity-testing.html" hreflang="en-CA" lang="en-CA">English</a></li><li><a href="/fr/rpaa-business-continuity-testing.html" hreflang="fr-CA" lang="fr-CA">Français</a></li><li><a href="/de/rpaa-business-continuity-testing.html" hreflang="de" lang="de">Deutsch</a></li><li><a href="/ar/rpaa-business-continuity-testing.html" hreflang="ar" lang="ar">العربية</a></li><li><a href="/zh-hans/rpaa-business-continuity-testing.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li><li><a href="/zh-hant/rpaa-business-continuity-testing.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li><li><a href="/es/rpaa-business-continuity-testing.html" hreflang="es" lang="es">Español</a></li><li><a href="/pt-br/rpaa-business-continuity-testing.html" hreflang="pt-BR" lang="pt-BR">Português</a></li><li><a href="/it/rpaa-business-continuity-testing.html" hreflang="it" lang="it">Italiano</a></li><li><a href="/pl/rpaa-business-continuity-testing.html" hreflang="pl" lang="pl">Polski</a></li><li><a href="/ru/rpaa-business-continuity-testing.html" hreflang="ru" lang="ru" aria-current="true">Русский</a></li><li><a href="/uk/rpaa-business-continuity-testing.html" hreflang="uk" lang="uk">Українська</a></li></ul></details><!--/i18n:switch-->
+<a class="nbtn nbtn-amber" href="contact.html"><span>Записаться</span><span>на консультацию</span></a>
+<a class="nbtn nbtn-white" href="./#checker"><span>Анализ</span><span>пробелов</span></a>
+<a class="nbtn nbtn-grey" href="mailto:info@amlcanada.ca"><span>Связаться</span><span>с нами</span></a>
+<button aria-controls="menu" aria-expanded="false" class="nav-menu" data-menu-open="" type="button">
+<svg aria-hidden="true"><use href="#i-menu"></use></svg>
+<span class="sr">Меню</span>
+</button>
+</div>
+</div>
+</header>
+<div aria-label="Меню" aria-modal="true" class="menu" data-menu="" hidden="" id="menu" role="dialog">
+<div class="menu-top">
+<a class="brand" href="./">
+<svg aria-hidden="true" class="brand-mark"><use href="#i-mark"></use></svg>
+<span>AML Canada</span>
+</a>
+<button class="nav-menu" data-menu-close="" type="button">
+<svg aria-hidden="true"><use href="#i-close"></use></svg>
+<span class="sr">Закрыть меню</span>
+</button>
+</div>
+<nav aria-label="Меню" class="menu-links">
+<a data-menu-link="" href="./">Главная</a>
+<a data-menu-link="" href="services.html">Услуги</a>
+<a data-menu-link="" href="who-we-help.html">Кому мы помогаем</a>
+<a data-menu-link="" href="how-we-work.html">Как мы работаем</a>
+<a data-menu-link="" href="pricing.html">Цены</a>
+<a data-menu-link="" href="guides.html">Руководства</a>
+<a data-menu-link="" href="about.html">О нас</a>
+<a data-menu-link="" href="contact.html">Записаться на консультацию</a>
+</nav>
+<div class="menu-sub">
+<a data-menu-link="" href="outsourced-compliance-officer.html">Внешний комплаенс-офицер</a><a data-menu-link="" href="msb-registration.html">Регистрация MSB</a><a data-menu-link="" href="buy-or-register-msb-canada.html">Купить или зарегистрировать MSB</a><a data-menu-link="" href="compliance-programs.html">Программы комплаенс</a><a data-menu-link="" href="rpaa-registration.html">Регистрация по RPAA</a><a data-menu-link="" href="rpaa-compliance-program.html">Программа комплаенс по RPAA</a><a data-menu-link="" href="msb-for-sale.html">MSB на продажу</a><a data-menu-link="" href="incorporation-canada.html">Регистрация компании</a><a data-menu-link="" href="apostille-notarization-canada.html">Апостиль и нотариальное заверение</a><a data-menu-link="" href="fintrac-reporting-software.html">ПО для отчётности в FINTRAC</a><a data-menu-link="" href="canadian-address.html">Канадский адрес</a><a data-menu-link="" href="effectiveness-reviews.html">Проверки эффективности</a><a data-menu-link="" href="training.html">Обучение</a>
+</div>
+<!--i18n:switch--><nav class="lang-menu" aria-label="Язык"><ul><li><a href="/rpaa-business-continuity-testing.html" hreflang="en-CA" lang="en-CA">English</a></li><li><a href="/fr/rpaa-business-continuity-testing.html" hreflang="fr-CA" lang="fr-CA">Français</a></li><li><a href="/de/rpaa-business-continuity-testing.html" hreflang="de" lang="de">Deutsch</a></li><li><a href="/ar/rpaa-business-continuity-testing.html" hreflang="ar" lang="ar">العربية</a></li><li><a href="/zh-hans/rpaa-business-continuity-testing.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li><li><a href="/zh-hant/rpaa-business-continuity-testing.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li><li><a href="/es/rpaa-business-continuity-testing.html" hreflang="es" lang="es">Español</a></li><li><a href="/pt-br/rpaa-business-continuity-testing.html" hreflang="pt-BR" lang="pt-BR">Português</a></li><li><a href="/it/rpaa-business-continuity-testing.html" hreflang="it" lang="it">Italiano</a></li><li><a href="/pl/rpaa-business-continuity-testing.html" hreflang="pl" lang="pl">Polski</a></li><li><a href="/ru/rpaa-business-continuity-testing.html" hreflang="ru" lang="ru" aria-current="true">Русский</a></li><li><a href="/uk/rpaa-business-continuity-testing.html" hreflang="uk" lang="uk">Українська</a></li></ul></nav><!--/i18n:switch-->
+    <p class="menu-note"><a href="mailto:info@amlcanada.ca">info@amlcanada.ca</a></p>
+</div>
+<main id="main">
+<section aria-labelledby="page-title" class="page-hero" data-theme="dark">
+<canvas aria-hidden="true" class="page-canvas" data-label="Руководство · RPAA" data-page-canvas=""></canvas>
+<div aria-hidden="true" class="page-boxes" data-page-boxes=""></div>
+<div aria-hidden="true" class="page-shade"></div>
+<div class="wrap page-hero-inner">
+<nav aria-label="Навигационная цепочка" class="crumbs"><a href="./">Главная</a><span aria-hidden="true">/</span><a href="guides.html">Руководства</a><span aria-hidden="true">/</span><span aria-current="page">Непрерывность и тестирование по RPAA</span></nav>
+<h1 id="page-title">План обеспечения непрерывности бизнеса по RPAA: восстановление и тестирование для PSP</h1>
+<p class="guide-meta">Руководство · Опубликовано 19 ноября 2026 г. · 5 мин чтения · AML Canada</p>
+<p class="page-lede">План обеспечения непрерывности бизнеса по RPAA — это часть, касающаяся восстановления, в системе управления рисками и реагирования на инциденты, которую обязан поддерживать каждый поставщик платёжных услуг. Регламент требует плана реагирования и восстановления, измеримых целевых показателей надёжности и методики тестирования с записью о каждом тесте. В этом руководстве описано, что содержит план, как и как часто его тестировать и что хранить.</p>
+</div>
+</section>
+<section aria-labelledby="tk-title" class="takeaways" data-theme="light" id="start">
+<div class="wrap">
+<div class="tk-card">
+<h2 class="fee-label" id="tk-title">Ключевые моменты</h2>
+<ul class="tk-list">
+<li>Непрерывность и восстановление входят в систему управления рисками и реагирования на инциденты согласно RPAA, ст. 17(1), и RPAR, ст. 5.</li>
+<li>RPAR, ст. 9, не устанавливает фиксированной периодичности тестирования: её определяет ваша методика, и вы должны проводить тестирование до любого существенного изменения.</li>
+<li>По каждому тесту нужна запись о его дате, методике, результатах и мерах, направляемая старшему должностному лицу, если оно есть.</li>
+<li>Тесты должны учитывать вашу зависимость от сторонних поставщиков услуг.</li>
+</ul>
+</div>
+</div>
+</section>
+<section aria-label="Руководство" class="guide" data-theme="light">
+<div class="wrap legal-grid">
+<nav aria-label="На этой странице" class="legal-toc">
+<p class="legal-toc-h">На этой странице</p>
+<ol>
+<li><a href="#answer">Что должен охватывать план обеспечения непрерывности бизнеса по RPAA?</a></li>
+<li><a href="#recovery">Какие цели восстановления рекомендует Банк Канады?</a></li>
+<li><a href="#what">Что такое тестирование непрерывности бизнеса?</a></li>
+<li><a href="#how">Как тестировать план обеспечения непрерывности бизнеса?</a></li>
+<li><a href="#frequency">Как часто следует тестировать план обеспечения непрерывности бизнеса?</a></li>
+<li><a href="#records">Что фиксировать и как результаты используются при пересмотре системы</a></li>
+<li><a href="#third-parties">Какое место в плане непрерывности занимают сторонние поставщики?</a></li>
+<li><a href="#who">Кто что делает, когда мы выступаем вашим риск-офицером</a></li>
+</ol>
+</nav>
+<article class="legal-body guide-body">
+<section class="legal-sec guide-sec" id="answer">
+<h2>Что должен охватывать план обеспечения непрерывности бизнеса по RPAA?</h2>
+<p><a href="https://laws-lois.justice.gc.ca/eng/acts/R-7.36/page-2.html" rel="noopener">Закон о розничных платёжных операциях</a> (RPAA) не содержит отдельного правила о непрерывности бизнеса. Непрерывность и восстановление входят в систему управления рисками и реагирования на инциденты, которую статья 17(1) требует от каждого поставщика платёжных услуг (PSP). Статья 5 <a href="https://laws-lois.justice.gc.ca/eng/regulations/SOR-2023-229/FullText.html" rel="noopener">Регламента о розничных платёжных операциях</a> (RPAR) определяет её содержание.</p>
+<p>Части, касающиеся непрерывности:</p>
+<ul>
+<li>цель осуществлять розничные платёжные операции без снижения качества, ухудшения или сбоев, включая поддержание доступности систем и данных (ст. 5(1)(a)(i));</li>
+<li>измеримые целевые показатели и индикаторы надёжности (ст. 5(1)(b));</li>
+<li>риски для непрерывности и устойчивости бизнеса и их причины (ст. 5(1)(f)(i));</li>
+<li>план реагирования и восстановления, охватывающий инциденты с участием агентов, доверенных лиц или сторонних поставщиков услуг (ст. 5(1)(i));</li>
+<li>ручные процессы или альтернативные решения при отказе основных систем и то, как быстро они запускаются (ст. 5(1)(i)(ii));</li>
+<li>как вы подтвердите статус всех операций, восстановите утраченные или повреждённые данные и устраните нарушения целостности (ст. 5(1)(i)(vii)).</li>
+</ul>
+<p>Статья 5(2) требует, чтобы всё это было соразмерно последствиям, которые сбой может иметь для конечных пользователей и других PSP. Наше руководство о <a href="rpaa-compliance-frameworks.html">системах комплаенса по RPAA</a> описывает остальную часть системы, а наше руководство об <a href="rpaa-incident-reporting.html">уведомлениях об инцидентах по RPAA</a> — уведомления Банку.</p>
+</section>
+<section class="legal-sec guide-sec" id="recovery">
+<h2>Какие цели восстановления рекомендует Банк Канады?</h2>
+<p>Пункт 2.7 <a href="https://www.bankofcanada.ca/wp-content/uploads/2024/02/operational-risk-and-incident-response.pdf" rel="noopener">Руководства Банка по операционному риску и реагированию на инциденты</a> (октябрь 2024 г.) рекомендует более повсеместным или взаимосвязанным PSP устанавливать как минимум целевые показатели доступности систем, целевое время восстановления, максимально допустимое время простоя и целевые точки восстановления. Каждому PSP в любом случае нужны измеримые целевые показатели надёжности согласно RPAR, ст. 5(1)(b).</p>
+<p>Приложение B даёт их определения:</p>
+<ul>
+<li>Целевой показатель доступности системы — процент времени, в течение которого система или услуга должна быть полностью доступна.</li>
+<li>Целевое время восстановления — установленное PSP максимальное время, в течение которого нарушенная система или услуга должна возобновить работу.</li>
+<li>Максимально допустимое время простоя — это целевое время восстановления плюс время восстановления работы, необходимое для проверки данных и приведения их в актуальное состояние.</li>
+<li>Целевая точка восстановления — максимальная потеря данных, измеряемая во времени, которую вы готовы допустить.</li>
+</ul>
+</section>
+<section class="legal-sec guide-sec" id="what">
+<h2>Что такое тестирование непрерывности бизнеса?</h2>
+<p>Согласно RPAR, ст. 9(1), тестирование непрерывности бизнеса — часть методики тестирования, которую каждый PSP обязан установить и применять. Её цель — выявлять пробелы в эффективности и уязвимости систем, политик, процедур, процессов и мер контроля в его системе управления рисками и реагирования на инциденты.</p>
+<p>Методика должна быть соразмерной (ст. 9(1)(a)) и охватывать риски с высокой вероятностью и высоким воздействием (ст. 9(1)(b)). Её тесты должны вовлекать внутренние заинтересованные стороны, включая агентов, доверенных лиц и лиц, принимающих решения, и учитывать зависимость от сторонних поставщиков услуг (ст. 9(1)(c)). Она должна определять периодичность и объём тестирования (ст. 9(1)(d)) и предусматривать тестирование до любого существенного изменения (ст. 9(1)(e)).</p>
+<p>Пункт 10.7 руководства предусматривает три категории тестов: проверку и валидацию мер контроля, тестирование на основе сценариев и тестирование изменений.</p>
+</section>
+<section class="legal-sec guide-sec" id="how">
+<h2>Как тестировать план обеспечения непрерывности бизнеса?</h2>
+<p>План обеспечения непрерывности бизнеса тестируется путём проведения учений по сценариям, взятым из ваших собственных выявленных рисков, с последующей проверкой того, действуют ли люди, резервные копии и обходные решения так, как написано. Приложение G руководства Банка перечисляет методы: анализ документации, интервью, выборочное тестирование, кабинетные проверки, настольные учения (tabletop exercises), пошаговые разборы и симуляции.</p>
+<p>Согласно приложению G, тесты плана реагирования на инциденты должны охватывать:</p>
+<ul>
+<li>каналы эскалации и порядок принятия решений;</li>
+<li>способны ли сотрудники следовать плану и вернуться к нормальной работе;</li>
+<li>работают ли резервные копии и можно ли надёжно извлечь сохранённые данные;</li>
+<li>любые ручные обходные решения или альтернативную обработку, на которые опирается план.</li>
+</ul>
+<p>Согласно приложению G, сценарии должны основываться на известных операционных рисках, меняться по мере развития деятельности и сопровождаться задокументированным обоснованием. <a href="https://www.cyber.gc.ca/en/guidance/developing-your-business-continuity-plan-itsap10005" rel="noopener">ITSAP.10.005</a> Канадского центра кибербезопасности — общие рекомендации, а не требование RPAA. В нём в качестве способов тестирования плана названы семинары, настольные учения и симуляции в реальных условиях.</p>
+</section>
+<section class="legal-sec guide-sec" id="frequency">
+<h2>Как часто следует тестировать план обеспечения непрерывности бизнеса?</h2>
+<p>По состоянию на 19 ноября 2026 г. RPAR не устанавливает фиксированного количества тестов в год. Статья 9(1)(d) поручает вашей собственной методике тестирования определять периодичность и объём тестирования. Статья 9(1)(e) добавляет тестирование до принятия любого существенного изменения систем, политик, процедур, процессов или мер контроля системы либо затрагивающих их операций.</p>
+<p>Пункт 10.4 руководства требует риск-ориентированного подхода, при котором более важные системы тестируются чаще и глубже. Статья 8(1) RPAR требует пересматривать систему не реже одного раза в год, поэтому учения перед каждым пересмотром дают ему актуальные результаты.</p>
+<p>Регуляторы ценных бумаг устанавливают ежегодные циклы для некоторых своих секторов. <a href="https://www.osc.ca/en/securities-law/instruments-rules-policies/1/11-764/osc-staff-notice-11-764-business-continuity-planning-industry-testing-exercise" rel="noopener">Уведомление сотрудников OSC 11-764</a> (2011 г.) отмечает, что Национальный документ (National Instrument) 21-101 требует от торговых площадок тестировать свои планы не реже одного раза в год. Это правило не распространяется на PSP.</p>
+</section>
+<section class="legal-sec guide-sec" id="records">
+<h2>Что фиксировать и как результаты используются при пересмотре системы</h2>
+<p>RPAR, ст. 9(2), требует вести запись о каждом тесте с указанием его даты, методики, результатов и принятых или запланированных по итогам мер. Статья 9(3) требует направлять запись старшему должностному лицу, если оно у вас есть. Пункт 10.20 руководства добавляет протестированный объём и причины, по которым какой-либо пробел остаётся неустранённым.</p>
+<p>Статья 8(2)(b) требует, чтобы при пересмотре системы оценивалось, насколько хорошо вы достигли своих целей с учётом целевых показателей и индикаторов. Приложение F руководства относит к источникам для пересмотра выводы, извлечённые из тестирования, и статус вытекающих из них мер. Статья 40 требует хранить записи в течение пяти лет после того, как они перестают отражать текущее соблюдение требований.</p>
+<div class="table-wrap"><table>
+<thead><tr><th scope="col">Требование</th><th scope="col">Источник</th><th scope="col">Какие доказательства хранить</th></tr></thead>
+<tbody>
+<tr><th scope="row">Целевые показатели надёжности</th><td>RPAR, ст. 5(1)(b); приложение B руководства</td><td>Целевое время и целевая точка восстановления для каждой критически важной системы</td></tr>
+<tr><th scope="row">Ручные обходные решения</th><td>RPAR, ст. 5(1)(i)(ii)</td><td>Процедуры с ожидаемым временем активации</td></tr>
+<tr><th scope="row">Письменная методика</th><td>RPAR, ст. 9(1)(d)</td><td>Утверждённая методика и календарь тестирования</td></tr>
+<tr><th scope="row">Сценарии</th><td>RPAR, ст. 9(1)(b); приложение G руководства</td><td>Перечень сценариев с обоснованием</td></tr>
+<tr><th scope="row">Заинтересованные стороны и поставщики</th><td>RPAR, ст. 9(1)(c)</td><td>Участники и проверенные допущения в отношении поставщиков</td></tr>
+<tr><th scope="row">Резервные копии</th><td>Приложение G руководства</td><td>Результаты тестов восстановления</td></tr>
+<tr><th scope="row">Тестирование до изменения</th><td>RPAR, ст. 9(1)(e)</td><td>Запись о тесте и решение об устранении до внедрения</td></tr>
+<tr><th scope="row">Запись о тесте для старшего должностного лица</th><td>RPAR, ст. 9(2) и (3)</td><td>Запись и подпись</td></tr>
+<tr><th scope="row">Результаты при пересмотре</th><td>RPAR, ст. 8; приложение F руководства</td><td>Запись о пересмотре со ссылкой на результаты тестов</td></tr>
+</tbody>
+</table></div>
+</section>
+<section class="legal-sec guide-sec" id="third-parties">
+<h2>Какое место в плане непрерывности занимают сторонние поставщики?</h2>
+<p>RPAR, ст. 5(1)(i)(i), требует, чтобы ваш план реагирования и восстановления учитывал процедуры реагирования на инциденты каждого стороннего поставщика услуг и необходимость координации с ними. Статья 9(1)(c)(ii) требует тестов, учитывающих вашу зависимость от этих поставщиков.</p>
+<ul>
+<li>Пункт 10.14 руководства предлагает тестировать допущения о том, будут ли доступны услуги поставщика.</li>
+<li>Приложение H относит к практикам, подлежащим оценке, механизмы обеспечения непрерывности бизнеса и аварийного восстановления поставщика и их тестирование.</li>
+<li>Пункт 12.26 называет включение услуг поставщика в вашу методику тестирования компенсирующей мерой контроля.</li>
+</ul>
+<p>Пункт 10.6 позволяет использовать тестирование, проведённое для других целей, если оно отвечает целям статьи 9. Что можно передать поставщику, описано в нашем руководстве об <a href="rpaa-outsourcing-risk-management-psp.html">аутсорсинге управления рисками по RPAA</a>.</p>
+</section>
+<section class="legal-sec guide-sec" id="who">
+<h2>Кто что делает, когда мы выступаем вашим риск-офицером</h2>
+<p>Когда мы выступаем риск-офицером PSP на неполный день по RPAA, мы проверяем его планы обеспечения непрерывности и восстановления и консультируем по сценариям тестирования. Собственная команда PSP пишет технические процедуры восстановления, проводит тесты и фиксирует результаты.</p>
+<div class="table-wrap"><table>
+<thead><tr><th scope="col">Область</th><th scope="col">Мы</th><th scope="col">Команда PSP</th></tr></thead>
+<tbody>
+<tr><th scope="row">Непрерывность бизнеса</th><td>Проверка планов обеспечения непрерывности и восстановления и консультации по сценариям тестирования.</td><td>Подготовка технических процедур восстановления, проведение тестов и фиксация результатов.</td></tr>
+<tr><th scope="row">Независимая проверка</th><td>Подготовка документации по системе для проверяющего.</td><td>Назначение независимого проверяющего и устранение выявленных недостатков.</td></tr>
+</tbody>
+</table></div>
+<p>Административная работа, например планирование встреч или получение документов от поставщиков, не включена. На нашей странице <a href="rpaa-compliance-program.html">программа комплаенс по RPAA</a> описаны системы, которые мы разрабатываем.</p>
+</section>
+<p class="sources">Источники: <a href="https://laws-lois.justice.gc.ca/eng/acts/R-7.36/page-2.html" rel="noopener">Retail Payment Activities Act, ss. 17 to 19</a>; <a href="https://laws-lois.justice.gc.ca/eng/regulations/SOR-2023-229/FullText.html" rel="noopener">Retail Payment Activities Regulations (SOR/2023-229)</a>; <a href="https://www.bankofcanada.ca/wp-content/uploads/2024/02/operational-risk-and-incident-response.pdf" rel="noopener">Bank of Canada, Operational risk and incident response guideline (October 2024)</a>; <a href="https://www.cyber.gc.ca/en/guidance/developing-your-business-continuity-plan-itsap10005" rel="noopener">Canadian Centre for Cyber Security, Developing your business continuity plan (ITSAP.10.005)</a>; <a href="https://www.osc.ca/en/securities-law/instruments-rules-policies/1/11-764/osc-staff-notice-11-764-business-continuity-planning-industry-testing-exercise" rel="noopener">Ontario Securities Commission, Staff Notice 11-764</a>. Проверено 19 ноября 2026 г. Общая информация, не юридическая консультация.</p>
+</article>
+</div>
+</section>
+<section aria-label="Связанная услуга" class="gcta" data-theme="light">
+<div class="wrap">
+<a class="gcta-card" data-theme="dark" href="rpaa-compliance-program.html">
+<span class="fee-label">Нужна помощь?</span>
+<span class="gcta-name">Программа комплаенс по RPAA</span>
+<span class="gcta-desc">Системы управления, рисков, реагирования на инциденты, защиты средств и непрерывности деятельности для PSP.</span>
+<span class="gcta-price">3 500 USD</span>
+<span aria-hidden="true" class="gcta-go"><svg aria-hidden="true"><use href="#i-arrow"></use></svg></span>
+</a>
+</div>
+</section>
+<section aria-labelledby="faq-title" class="faq faq-inner" data-theme="light">
+<div class="wrap faq-grid">
+<div class="faq-head">
+<h2 id="faq-title">Непрерывность и тестирование по RPAA: частые вопросы</h2>
+<p>Остались вопросы? <a href="contact.html">Запишитесь на консультацию</a> или напишите на <a href="mailto:info@amlcanada.ca">info@amlcanada.ca</a>.</p>
+</div>
+<div class="faq-panel">
+<details><summary>Требует ли RPAA плана обеспечения непрерывности бизнеса именно под таким названием?<svg aria-hidden="true"><use href="#i-plus"></use></svg></summary><p>Нет. RPAR, ст. 5, требует плана реагирования и восстановления, целевых показателей надёжности и выявления рисков для непрерывности и устойчивости бизнеса в рамках системы управления рисками и реагирования на инциденты.</p></details>
+<details><summary>Должен ли PSP тестировать свой план каждый год?<svg aria-hidden="true"><use href="#i-plus"></use></svg></summary><p>RPAR не устанавливает фиксированной периодичности. Её определяет ваша методика тестирования согласно ст. 9(1)(d), а ст. 9(1)(e) требует тестирования до любого существенного изменения.</p></details>
+<details><summary>Кто должен видеть результаты тестов?<svg aria-hidden="true"><use href="#i-plus"></use></svg></summary><p>RPAR, ст. 9(3), требует направлять запись о каждом тесте старшему должностному лицу, если оно есть у PSP.</p></details>
+<details><summary>Можно ли засчитать тестирование, проведённое для другой цели?<svg aria-hidden="true"><use href="#i-plus"></use></svg></summary><p>Да, если оно отвечает целям статьи 9, согласно пункту 10.6 руководства Банка. Если его объём недостаточен, проведите дополнительные тесты.</p></details>
+<details><summary>Обязательны ли для PSP документы Киберцентра или OSC?<svg aria-hidden="true"><use href="#i-plus"></use></svg></summary><p>Нет. Обязательные правила — это RPAA и RPAR. Руководство Банка Канады излагает его надзорные ожидания в отношении их соблюдения.</p></details>
+</div>
+</div>
+</section>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Требует ли RPAA плана обеспечения непрерывности бизнеса именно под таким названием?","acceptedAnswer":{"@type":"Answer","text":"Нет. RPAR, ст. 5, требует плана реагирования и восстановления, целевых показателей надёжности и выявления рисков для непрерывности и устойчивости бизнеса в рамках системы управления рисками и реагирования на инциденты."}},{"@type":"Question","name":"Должен ли PSP тестировать свой план каждый год?","acceptedAnswer":{"@type":"Answer","text":"RPAR не устанавливает фиксированной периодичности. Её определяет ваша методика тестирования согласно ст. 9(1)(d), а ст. 9(1)(e) требует тестирования до любого существенного изменения."}},{"@type":"Question","name":"Кто должен видеть результаты тестов?","acceptedAnswer":{"@type":"Answer","text":"RPAR, ст. 9(3), требует направлять запись о каждом тесте старшему должностному лицу, если оно есть у PSP."}},{"@type":"Question","name":"Можно ли засчитать тестирование, проведённое для другой цели?","acceptedAnswer":{"@type":"Answer","text":"Да, если оно отвечает целям статьи 9, согласно пункту 10.6 руководства Банка. Если его объём недостаточен, проведите дополнительные тесты."}},{"@type":"Question","name":"Обязательны ли для PSP документы Киберцентра или OSC?","acceptedAnswer":{"@type":"Answer","text":"Нет. Обязательные правила — это RPAA и RPAR. Руководство Банка Канады излагает его надзорные ожидания в отношении их соблюдения."}}]}</script>
+<section aria-labelledby="gm-title" class="guides-more" data-theme="light">
+<div class="wrap">
+<h2 id="gm-title">Другие руководства</h2>
+<div class="gcard-grid">
+<a class="gcard" data-reveal="" href="rpaa-compliance-frameworks.html">
+<span class="gcard-tag">RPAA</span>
+<h3>Системы комплаенс по RPAA, необходимые PSP</h3>
+<p>Каждому поставщику платёжных услуг нужна письменная система управления рисками и реагирования на инциденты, а тому, кто хранит средства конечных пользователей, нужна также система защиты средств. Сторонние поставщики, агенты и роль старшего должностного лица встроены в эти два документа. Правила хранения записей распространяются на оба, а годовой отчёт, уведомления об изменениях и уведомления об инцидентах опираются на них.</p>
+<span class="link-ink">Читать руководство <svg aria-hidden="true"><use href="#i-arrow"></use></svg></span>
+</a>
+<a class="gcard" data-reveal="" href="rpaa-incident-reporting.html">
+<span class="gcard-tag">RPAA</span>
+<h3>Сообщение об инцидентах по RPAA и правило 48 часов</h3>
+<p>Когда поставщику платёжных услуг становится известно об инциденте, имеющем существенные последствия, он должен без промедления уведомить Банк Канады и затронутых конечных пользователей, поставщиков платёжных услуг и клиринговые палаты. Банк ожидает первое уведомление не позднее чем через 48 часов после того, как поставщик определит, что инцидент существенный.</p>
+<span class="link-ink">Читать руководство <svg aria-hidden="true"><use href="#i-arrow"></use></svg></span>
+</a>
+<a class="gcard" data-reveal="" href="psp-insolvency-end-user-funds-canada.html">
+<span class="gcard-tag">RPAA</span>
+<h3>Неплатёжеспособность PSP: что происходит со средствами конечных пользователей в Канаде</h3>
+<p>При неплатёжеспособности PSP в Канаде средства конечных пользователей, которые хранит поставщик платёжных услуг, должны быть выплачены конечным пользователям как можно скорее, поскольку статья 20 RPAA требует хранить эти средства в трасте или обеспечивать их страхованием или гарантией. Сработает ли это, зависит от реестра поставщика, его проверок недостач и письменных процедур возврата средств.</p>
+<span class="link-ink">Читать руководство <svg aria-hidden="true"><use href="#i-arrow"></use></svg></span>
+</a>
+</div>
+</div>
+</section>
+<section aria-labelledby="close-title" class="close" data-theme="dark">
+<canvas aria-hidden="true" class="close-canvas" data-close-canvas=""></canvas>
+<div class="wrap close-inner">
+<h2 id="close-title">Расскажите, с чем вам нужна помощь.</h2>
+<a class="btn btn-amber" href="contact.html?need=rpaa">Записаться на консультацию <svg aria-hidden="true"><use href="#i-arrow"></use></svg></a>
+</div>
+</section>
+<p class="i18n-note wrap">Эта страница переведена с английского. В случае расхождений преимущественную силу имеет английская версия. <a href="https://amlcanada.ca/rpaa-business-continuity-testing.html" hreflang="en-CA" lang="en-CA">Читать на английском</a></p></main>
+<footer class="footer" data-theme="dark">
+<div class="wrap footer-grid">
+<div class="footer-brand">
+<a class="brand" href="./">
+<svg aria-hidden="true" class="brand-mark"><use href="#i-mark"></use></svg>
+<span>AML Canada</span>
+</a>
+<p>Услуги в сфере ПОД/ФТ и регуляторного комплаенса в Канаде. Частная консалтинговая компания, не связанная с FINTRAC или Банком Канады.</p>
+</div>
+<nav aria-label="Услуги" class="footer-col">
+<p class="footer-h">Услуги</p>
+<a href="outsourced-compliance-officer.html">Внешний комплаенс-офицер</a>
+<a href="msb-registration.html">Регистрация MSB</a>
+<a href="buy-or-register-msb-canada.html">Купить или зарегистрировать MSB</a>
+<a href="compliance-programs.html">Программы комплаенс</a>
+<a href="rpaa-registration.html">Регистрация по RPAA</a>
+<a href="rpaa-compliance-program.html">Программа комплаенс по RPAA</a>
+<a href="msb-for-sale.html">MSB на продажу</a>
+<a href="incorporation-canada.html">Регистрация компании</a>
+<a href="apostille-notarization-canada.html">Апостиль и нотариальное заверение</a>
+<a href="fintrac-reporting-software.html">ПО для отчётности в FINTRAC</a>
+<a href="canadian-address.html">Канадский адрес</a>
+<a href="effectiveness-reviews.html">Проверки эффективности</a>
+<a href="training.html">Обучение</a>
+</nav>
+<nav aria-label="Компания" class="footer-col">
+<p class="footer-h">Компания</p>
+<a href="who-we-help.html">Кому мы помогаем</a>
+<a href="how-we-work.html">Как мы работаем</a>
+<a href="pricing.html">Цены</a>
+<a href="guides.html">Руководства</a>
+<a href="about.html">О нас</a>
+<a href="contact.html">Записаться на консультацию</a>
+</nav>
+<div class="footer-col">
+<p class="footer-h">Связь с нами</p>
+<a href="mailto:info@amlcanada.ca">info@amlcanada.ca</a>
+<a href="tel:+18078060444">+1 807-806-0444</a>
+<a href="https://wa.me/18078060444" rel="noopener">WhatsApp</a>
+<a href="https://t.me/sabbasi_1" rel="noopener">Telegram</a>
+<a href="https://www.linkedin.com/company/amlcanada/" rel="noopener">LinkedIn</a>
+<address>Suite 211, 320 Matheson Blvd West<br/>Mississauga, ON L5R 3R1</address>
+</div>
+</div>
+<div class="wrap footer-base">
+<p>© <span data-year="">2026</span> ComplyFactor Limited. AML Canada управляется компанией <a href="https://complyfactor.com" rel="noopener">ComplyFactor Limited</a>.</p>
+<p class="footer-legal"><a href="../privacy.html">Конфиденциальность</a><a href="../terms.html">Условия</a><button class="footer-cookie" data-consent-open="" hidden="" type="button">Настройки cookie</button></p>
+</div>
+<div class="wrap footer-note"><p>Информация на этом сайте носит общий характер и не является юридической консультацией.</p></div>
+</footer>
+<div aria-label="Настройки cookie" class="consent" data-consent="" hidden="" role="region">
+<p>Мы хотели бы использовать файлы cookie Google Analytics, чтобы понимать, как используется этот сайт. Они загружаются только с вашего согласия. <a href="../privacy.html#cookies">Как мы используем данные</a></p>
+<div class="consent-actions">
+<button class="nbtn nbtn-grey" data-consent-no="" type="button"><span>Отклонить</span></button>
+<button class="nbtn nbtn-amber" data-consent-yes="" type="button"><span>Принять</span></button>
+</div>
+</div>
+<script defer="" src="../site-config.js"></script>
+<script>window.I18N={"Client · ID verified": "Клиент · личность подтверждена", "4 cash deposits · 24h · $9,600 avg": "4 внесения наличных · 24 ч · в среднем 9 600 CAD", "Intl EFT · $14,500 · Reportable": "Междунар. EFT · 14 500 CAD · подлежит отчёту", "Name screen · Clear": "Проверка имени · совпадений нет", "FINTRAC registration": "Регистрация в FINTRAC", "MSB registration": "Регистрация MSB", "A representative for service in Canada": "Представитель для получения документов в Канаде", "A named compliance officer": "Назначенный комплаенс-офицер", "Compliance programs": "Программы комплаенс", "Written policies and procedures": "Письменные политики и процедуры", "A documented risk assessment": "Задокументированная оценка рисков", "An ongoing training program": "Постоянная программа обучения", "Training": "Обучение", "An effectiveness review in the last two years": "Проверка эффективности за последние два года", "Effectiveness reviews": "Проверки эффективности", "FINTRAC registration, in progress": "Регистрация в FINTRAC в процессе", "In place": "Есть", "of {total}": "из {total}", "{have} of {total} in place.": "Есть {have} из {total}.", "Gaps: {list}.": "Пробелы: {list}.", "No gaps flagged. We'd like a second opinion.": "Пробелов не выявлено. Мы хотели бы получить второе мнение.", "and": "и", "That email address doesn't look complete. Please check it.": "Этот адрес электронной почты выглядит неполным. Пожалуйста, проверьте его.", "Please add your {list}.": "Пожалуйста, укажите: {list}.", "Sending…": "Отправка…", "Thank you. We'll be in touch to find a time.": "Спасибо. Мы свяжемся с вами, чтобы согласовать время.", "Online requests aren't switched on yet. Please email info@amlcanada.ca and we'll find a time.": "Онлайн-заявки пока не включены. Пожалуйста, напишите на info@amlcanada.ca, и мы согласуем время.", "That didn't go through. Please check your connection and try again.": "Не удалось отправить. Проверьте подключение и попробуйте ещё раз."}</script><script defer="" src="../main.js"></script>
+</body>
+</html>

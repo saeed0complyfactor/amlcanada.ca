@@ -92,7 +92,7 @@ POSTS["bank-of-canada-psp-supervision-update-november-2026.html"] = dict(
           <ul>
             <li>Trust arrangements need trust documents and a legal opinion, described in the Bank's <a href="{BU1_FAQ}" rel="noopener">supervision FAQ</a>.</li>
             <li>Insurance or guarantee cover still requires segregation.</li>
-            <li>Funds not placed on receipt are logged as a shortfall, under paragraphs 2.7 to 2.9 of the <a href="{BU1_SG}" rel="noopener">safeguarding guideline</a>.</li>
+            <li>Funds not placed on receipt are logged as a shortfall, under paragraphs 2.7 and 4.8 of the <a href="{BU1_SG}" rel="noopener">safeguarding guideline</a>.</li>
             <li>Staff called daily shortfall checks a best practice.</li>
           </ul>
           <p>The Bank's October 2026 <a href="{BU1_SAT}" rel="noopener">self-assessment tool</a> says it is voluntary and that completing it does not show compliance. Our <a href="rpaa-safeguarding-end-user-funds.html">safeguarding guide</a> explains the rules.</p>"""),

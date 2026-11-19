@@ -242,7 +242,7 @@ GUIDES["fintrac-reporting-requirements.html"] = dict(
              ("Reporting electronic funds transfers", F_EFT), ("Reporting large virtual currency transactions", F_LVCTR), ("The 24-hour rule", F_24),
              ("Reporting listed person or entity property", F_LPEP), ("Travel rule", F_TRAVEL), ("Record keeping for MSBs", F_REC_MSB),
              ("Proceeds of Crime (Money Laundering) and Terrorist Financing Act", L_PCMLTFA)],
-    related=["crypto-registration-canada.html", "fintrac-examination-preparation.html", "outsourced-vs-in-house-compliance-officer.html"],
+    related=["fintrac-ongoing-monitoring-transaction-monitoring.html", "fintrac-examination-preparation.html", "outsourced-vs-in-house-compliance-officer.html"],
 )
 
 # ------------------------------------------------------------------ 5. RPAA
@@ -388,7 +388,7 @@ GUIDES["fintrac-effectiveness-review-checklist.html"] = dict(
           ("Who can do the effectiveness review?", "An internal or external auditor, or yourself if you don't have an auditor. FINTRAC suggests it shouldn't be someone directly involved in the activities being reviewed."),
           ("What happens after the review?", "If you're an entity, report the findings in writing to a senior officer within 30 days, along with the updates made to policies and procedures and how far they've been put in place.")],
     sources=[("FINTRAC, Compliance program requirements", F_G4), ("Risk assessment guidance", F_RBA), ("The 24-hour rule", F_24), ("Report suspected sanctions evasion", F_SANC)],
-    related=["fintrac-examination-preparation.html", "fintrac-reporting-requirements.html", "outsourced-vs-in-house-compliance-officer.html"],
+    related=["fintrac-examination-preparation.html", "second-line-of-defence-aml-canada.html", "outsourced-vs-in-house-compliance-officer.html"],
 )
 
 # ------------------------------------------------------------------ 8. examination preparation
@@ -552,7 +552,7 @@ GUIDES["outsourced-vs-in-house-compliance-officer.html"] = dict(
           ("Can a small business owner be the compliance officer?", "Yes. FINTRAC's guidance says that in a small business the owner or operator can be the compliance officer."),
           ("How much does an outsourced compliance officer cost?", "With us, US$1,500 per month for 10 hours, scaled to your workload.")],
     sources=[("FINTRAC, Compliance program requirements", F_G4)],
-    related=["msb-compliance-officer-requirements-canada.html", "fintrac-effectiveness-review-checklist.html", "fintrac-examination-preparation.html"],
+    related=["msb-compliance-officer-requirements-canada.html", "fintrac-effectiveness-review-checklist.html", "choosing-outsourced-compliance-officer-canada.html"],
 )
 
 # ------------------------------------------------------------------ 11. first 90 days after registration
@@ -703,7 +703,7 @@ GUIDES["fintrac-compliance-program-requirements.html"] = dict(
     sources=[("FINTRAC, Compliance program requirements", F_G4), ("FINTRAC, Risk assessment guidance", F_RBA),
              ("Proceeds of Crime (Money Laundering) and Terrorist Financing Act", L_PCMLTFA), ("Proceeds of Crime (Money Laundering) and Terrorist Financing Regulations", L_PCMLTFR), ("Ministerial directives", F_DIR),
              ("Travel rule guidance", F_TRAVEL)],
-    related=["fintrac-risk-assessment-msb.html", "fintrac-effectiveness-review-checklist.html", "fintrac-training-requirements.html"],
+    related=["fintrac-risk-assessment-msb.html", "fintrac-effectiveness-review-checklist.html", "second-line-of-defence-aml-canada.html"],
 )
 
 # ------------------------------------------------------------------ 13. RPAA safeguarding
@@ -1545,7 +1545,7 @@ GUIDES["rpaa-incident-reporting.html"] = dict(
     sources=[("Retail Payment Activities Act", RP_ACT), ("Retail Payment Activities Regulations", RP_REGS),
              ("Bank of Canada, Incident notification guideline (October 2024)", RP_INC), ("Bank of Canada, How to complete an incident notice: A step-by-step guide", RP_INC_GUIDE),
              ("Bank of Canada, Reminder: PSP reporting obligations under the RPAA", RP_REMIND)],
-    related=["rpaa-annual-report.html", "rpaa-safeguarding-end-user-funds.html", "who-must-register-psp-rpaa.html"],
+    related=["rpaa-annual-report.html", "rpaa-safeguarding-end-user-funds.html", "rpaa-business-continuity-testing.html"],
 )
 
 # ------------------------------------------------------------------ Ontario vs B.C. for crypto MSBs
@@ -1911,7 +1911,7 @@ GUIDES["rpaa-compliance-frameworks.html"] = dict(
              ("Bank of Canada, Notice of significant change or new activity guideline", FW_SIGCHG),
              ("Bank of Canada, Incident notification guideline", FW_INC),
              ("Bank of Canada, Retail payments supervision FAQ", FW_FAQ)],
-    related=["rpaa-safeguarding-end-user-funds.html", "rpaa-incident-reporting.html", "rpaa-annual-report.html"],
+    related=["rpaa-safeguarding-end-user-funds.html", "rpaa-incident-reporting.html", "rpaa-outsourcing-risk-management-psp.html"],
 )
 
 
@@ -2787,7 +2787,7 @@ GUIDES["msb-compliance-officer-requirements-canada.html"] = dict(
     sources=[("FINTRAC, Compliance program requirements", F_G4), ("FINTRAC, Compliance assessment manual", F_CAM),
              ("PCMLTFR, section 156", SR1_S156), ("PCMLTFA, section 9.6", SR1_S96), ("PCMLTFA, section 11.13", SR1_S1113),
              ("Proceeds of Crime (Money Laundering) and Terrorist Financing Registration Regulations", SR1_REGREGS)],
-    related=["outsourced-vs-in-house-compliance-officer.html", "fintrac-compliance-program-requirements.html", "foreign-msb-registration-canada.html"],
+    related=["outsourced-vs-in-house-compliance-officer.html", "fintrac-compliance-program-requirements.html", "outsourced-compliance-officer-how-it-works.html"],
 )
 
 # --- keyword-cluster run 2026-11-11: msb-registration-renewal-canada ---
@@ -3071,7 +3071,7 @@ GUIDES["fintrac-risk-assessment-msb.html"] = dict(
              ("PCMLTFR, section 156", SR4_R156), ("PCMLTFR, section 157", SR4_R157), ("FINTRAC, Ministerial directives", F_DIR),
              ("Department of Finance, 2025 National Risk Assessment: overview", SR4_NRA),
              ("Department of Finance, 2025 National Risk Assessment: report", SR4_NRA_RPT)],
-    related=["fintrac-compliance-program-requirements.html", "fintrac-effectiveness-review-checklist.html", "fintrac-examination-preparation.html"],
+    related=["fintrac-compliance-program-requirements.html", "fintrac-effectiveness-review-checklist.html", "msb-onboarding-file-review-checklist.html"],
 )
 
 # --- keyword-cluster run 2026-11-11: psp-licence-canada ---
@@ -3360,5 +3360,750 @@ GUIDES["incorporate-in-canada-non-resident.html"] = dict(
              ("FINTRAC, Money services businesses", SR7_F_MSB)],
     related=["foreign-msb-registration-canada.html", "how-to-register-msb-canada.html", "virtual-office-msb-registration.html"],
 )
+
+
+# ------------------------------------------------------------------ 2026-11-19 outsourced compliance officer + RPAA risk officer guides
+# Written from seo-run/BRIEF-2.md; each passed an independent fact check (seo-run/pages/<slug>/verify.md).
+# --- outsourced compliance officer run 2026-11-19: outsourced-compliance-officer-how-it-works ---
+# Sources checked 19 November 2026. F_G4 and F_CAM come from content_v3.py / guides_v3.py.
+OCO_S156 = "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-184/section-156.html"
+OCO_S96 = "https://laws-lois.justice.gc.ca/eng/acts/P-24.501/section-9.6.html"
+OCO_S7 = "https://laws-lois.justice.gc.ca/eng/acts/P-24.501/section-7.html"
+
+GUIDES["outsourced-compliance-officer-how-it-works.html"] = dict(
+    checked="19 November 2026",
+    title="How Does an Outsourced Compliance Officer Work? | AML Canada",
+    desc="How an outsourced compliance officer works day to day for a FINTRAC-regulated business: who does what, how escalations run, and who stays responsible in law.",
+    crumb="How an outsourced CO works",
+    h1="How does an outsourced compliance officer work?",
+    lede="An outsourced compliance officer works through escalation. Your business appoints an outside professional as the person responsible for implementing its compliance program, and your operations team runs onboarding and monitoring day to day, escalating files to that person for a compliance decision. Your business stays the reporting entity throughout, and this guide shows how the work divides.",
+    label="Guide · Compliance officer",
+    service="outsourced-compliance-officer.html",
+    date="2026-11-19",
+    takeaways=["An outsourced compliance officer makes the compliance decisions on the files and transactions your team escalates. Your team runs operations and all customer contact.",
+               "PCMLTFA s. 9.6(1) puts the duty to establish and implement a compliance program on your business, and FINTRAC says meeting the requirements stays your responsibility whoever is appointed.",
+               "The officer needs access to your folders, platforms and decision makers. FINTRAC's examiners may confirm direct access to senior management and timely access to information.",
+               "Put the split of work, the escalation route, sign-off authority and the effectiveness reviewer in writing before the arrangement starts."],
+    sections=[
+        ("how", "How does an outsourced compliance officer work day to day?", f"""          <p>An outsourced compliance officer works through escalation. Your operations team handles customers and systems every day, and brings the officer the onboarding files and transactions that need a compliance decision. The officer reviews each one, decides, and your team carries out the decision.</p>
+          <p>The legal anchor is paragraph 156(1)(a) of the <a href="{OCO_S156}" rel="noopener">Proceeds of Crime (Money Laundering) and Terrorist Financing Regulations</a> (PCMLTFR), which requires you to appoint a person responsible for implementing your compliance program. FINTRAC's <a href="{F_G4}" rel="noopener">compliance program guidance</a> says that person is responsible for implementing all elements of the program.</p>
+          <p>A fractional compliance officer in Canada is usually part-time. In our engagements we are not watching your platforms full time, so the arrangement depends on your team knowing what to escalate and when. Our <a href="outsourced-compliance-officer.html">outsourced compliance officer service</a> page covers the fee and how an engagement starts.</p>"""),
+        ("split", "Outsourced compliance officer responsibilities and your team's", """          <p>In our engagements, the outside officer advises, decides and files, and your team operates. The table shows how the work splits across eight areas. It reflects our service scope as of 19 November 2026; other providers may divide the work differently.</p>
+          <div class="table-wrap"><table>
+            <thead><tr><th scope="col">Area</th><th scope="col">Outside compliance officer (us)</th><th scope="col">Your team</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">FINTRAC reports and filings</th><td>Prepares and files STRs, LCTRs, LVCTRs, EFTRs and listed person or entity property reports (formerly terrorist property reports), plus other filings such as MSB registration changes and renewals</td><td>Escalates the transactions behind them through the shared channel</td></tr>
+              <tr><th scope="row">Policies, procedures and risk assessment</th><td>Writes and maintains them, and updates them as the business and the rules change</td><td>A senior officer approves the policies and procedures, as PCMLTFR s. 156(1)(b) requires of an entity</td></tr>
+              <tr><th scope="row">Onboarding reviews</th><td>Reviews escalated client files, runs a customer risk assessment under your framework, and approves, rejects or requests information</td><td>Escalates complete files, sends requests for information to customers and handles all customer contact</td></tr>
+              <tr><th scope="row">Onboarding controls</th><td>Helps design controls across your onboarding journeys</td><td>Builds and integrates the onboarding systems, directly or through its providers</td></tr>
+              <tr><th scope="row">Transaction monitoring</th><td>Helps set monitoring rules and thresholds, and reviews the transactions and alerts your team escalates</td><td>Runs day-to-day monitoring, turns rules on and off, and releases transactions that don't need compliance review</td></tr>
+              <tr><th scope="row">Training</th><td>Trains staff, and trains the point of contact on what an escalated file must contain</td><td>Names a point of contact in operations who escalates files and handles customer requests for information</td></tr>
+              <tr><th scope="row">Access</th><td>Works from one shared Slack channel for all escalations</td><td>Gives access to client folders and to onboarding and monitoring platforms</td></tr>
+              <tr><th scope="row">Two-year effectiveness review</th><td>Prepares documentation and records for the reviewer</td><td>Appoints the independent reviewer; for an entity, a senior officer receives the findings (PCMLTFR s. 156(4))</td></tr>
+            </tbody>
+          </table></div>
+          <p>Our onboarding review is a second-line review, and our guide to the <a href="second-line-of-defence-aml-canada.html">second line of defence in AML</a> explains the three-lines model.</p>"""),
+        ("escalation", "How an escalation works", """          <p>Every escalation follows four steps, and each step has one owner: your team at the start and the end, the officer in the middle. In our engagements all onboarding and transaction escalations go through one shared Slack channel, so every escalation and decision is in one place.</p>
+          <ol>
+            <li>Your point of contact posts the client file or transaction in the shared channel, with the information we need to assess it.</li>
+            <li>We carry out due diligence: we review the file and run a customer risk assessment under your compliance framework.</li>
+            <li>We decide to approve, reject or request more information.</li>
+            <li>Your operations or support team applies the decision and sends any request for information to the customer.</li>
+          </ol>
+          <p>Your team handles all customer contact, so the customer relationship stays with your own staff. For what a complete escalated file should contain, see our <a href="msb-onboarding-file-review-checklist.html">MSB onboarding file review checklist</a>.</p>"""),
+        ("contact", "What your team provides: a point of contact and access", f"""          <p>Your team provides two things the officer can't supply alone: a trained point of contact in operations, and access to your records and systems. Without both, the officer can't review files or see the risks they are responsible for managing.</p>
+          <p>The point of contact escalates files and handles customer requests for information. We train them on what an escalated file needs to contain, so each file arrives with enough information to complete due diligence. Training is also a legal element of the program: if you have employees, agents or mandataries or other authorized persons, PCMLTFR s. 156(1)(d) requires a written, ongoing compliance training program for them.</p>
+          <p>On access, FINTRAC's <a href="{F_CAM}" rel="noopener">compliance assessment manual</a> says examiners may confirm two things about the compliance officer, where applicable:</p>
+          <ul>
+            <li>direct access to senior management or the board of directors, or to those who make important decisions about compliance issues;</li>
+            <li>timely access to information from all business lines, so they know of potential compliance risks or concerns.</li>
+          </ul>
+          <p>FINTRAC's guidance also says the officer needs the necessary authority and access to resources to implement an effective program and make any desired changes. An outside officer has that authority and access only if you grant them.</p>"""),
+        ("monitoring", "How transaction monitoring is shared", """          <p>Monitoring is shared between your team and the outside officer. Your team runs the platforms day to day, and the officer reviews the alerts and transactions that need a compliance decision. As a fractional service, we rely on your team to bring us anything that needs that decision.</p>
+          <p>In our engagements your team turns rules on and off and releases transactions that don't need our review. We help deploy the rules and thresholds, review what you escalate, and decide whether a transaction should be reported. The rules themselves, and what FINTRAC expects of ongoing monitoring, are covered in our guide to <a href="fintrac-ongoing-monitoring-transaction-monitoring.html">FINTRAC ongoing and transaction monitoring</a>.</p>
+          <p>In our view, a shared model works only if the escalation criteria are written down. Agree in advance which alert types always come to the officer and which your team may close.</p>"""),
+        ("responsible", "Who is responsible when AML compliance is outsourced?", f"""          <p>Your business stays responsible. Subsection 9.6(1) of the <a href="{OCO_S96}" rel="noopener">Proceeds of Crime (Money Laundering) and Terrorist Financing Act</a> (PCMLTFA) says every person or entity referred to in section 5 shall establish and implement a compliance program. Subsection 9.6(1.1) adds that the person or entity shall ensure the program is reasonably designed, risk-based and effective.</p>
+          <p>The reporting duties sit with the business too. <a href="{OCO_S7}" rel="noopener">PCMLTFA section 7</a> requires every person or entity referred to in section 5 to report suspicious transactions to FINTRAC. When a provider files on your behalf, FINTRAC's compliance assessment manual says examiners check that the reports carry your business's identification information, not the provider's.</p>
+          <p>FINTRAC's guidance sets out how responsibility works inside the arrangement:</p>
+          <ul>
+            <li>the compliance officer may delegate certain duties, but remains responsible for implementing the compliance program;</li>
+            <li>while the compliance officer is appointed, it is the reporting entity's responsibility to meet its compliance program requirements.</li>
+          </ul>
+          <p>Senior management keeps its own legal roles. For an entity, a senior officer approves the written policies and procedures (PCMLTFR s. 156(1)(b)) and receives the effectiveness review findings in writing within 30 days after the review is completed (s. 156(4)).</p>
+          <p>Can a compliance officer be outsourced? FINTRAC's guidance doesn't say the officer must be an employee, and our guide to <a href="msb-compliance-officer-requirements-canada.html">MSB compliance officer requirements</a> sets out what the rules say on who can hold the role.</p>"""),
+        ("limits", "What an outsourced compliance officer doesn't do", """          <p>An outsourced compliance officer doesn't build your systems, doesn't run your effectiveness review, and doesn't operate your business. In our engagements three limits apply, and each one leaves a task with your team or with someone independent of us.</p>
+          <ul>
+            <li>Integration is out of scope. We advise on onboarding controls and monitoring rules; building and connecting systems sits with your team or your providers.</li>
+            <li>We support the two-year effectiveness review and don't conduct it. PCMLTFR s. 156(3) requires the review to be done by an internal or external auditor, or by you if you have no auditor, and FINTRAC's best practice is a reviewer who isn't directly involved in your compliance program activities.</li>
+            <li>Our work is advice, review and decisions on what you escalate. We make sure your documentation and processes meet the requirements, and your team carries out that advice in day-to-day operations.</li>
+          </ul>
+          <p>Our <a href="fintrac-effectiveness-review-checklist.html">effectiveness review checklist</a> shows what the reviewer tests.</p>"""),
+        ("writing", "What to have in writing", """          <p>Before the arrangement starts, record who does what, who can decide, and what the officer can see. FINTRAC's compliance assessment manual says examiners may review documents showing you formally appointed the compliance officer, their job description, documents describing their authority, and an organizational chart.</p>
+          <p>In our view, the written agreement or appointment should cover:</p>
+          <ul>
+            <li>the formal appointment of the outside officer as the person responsible for implementing your compliance program;</li>
+            <li>the who-does-what split for reporting, policies, onboarding, monitoring, training and the effectiveness review;</li>
+            <li>the escalation channel, what a complete file contains, and which alerts always come to the officer;</li>
+            <li>who signs off on FINTRAC reports, policy changes and client decisions;</li>
+            <li>the folders and platforms the officer can access, and their line to senior management or the board;</li>
+            <li>the name of your point of contact and who sends requests for information to customers;</li>
+            <li>who appoints the effectiveness reviewer;</li>
+            <li>a statement that your business remains the reporting entity.</li>
+          </ul>
+          <p>If you are still deciding between providers, our guide to <a href="choosing-outsourced-compliance-officer-canada.html">choosing an outsourced compliance officer</a> sets out what to compare, and our comparison of <a href="outsourced-vs-in-house-compliance-officer.html">outsourced vs in-house compliance officers</a> covers cost and the in-house option.</p>"""),
+    ],
+    faqs=[("Can a compliance officer be outsourced?", "PCMLTFR s. 156(1)(a) requires you to appoint a person responsible for implementing your compliance program, and FINTRAC's guidance doesn't say that person must be an employee. Our guide to MSB compliance officer requirements covers who can hold the role."),
+          ("What exactly does a compliance officer do?", "FINTRAC's guidance says the compliance officer is responsible for implementing all elements of the compliance program. Under PCMLTFR s. 156(1), those elements are written policies and procedures, a risk assessment, a training program and plan, and a plan for the two-year effectiveness review."),
+          ("Who is responsible for AML compliance?", "The reporting entity. PCMLTFA s. 9.6(1) requires every person or entity referred to in section 5 to establish and implement a compliance program, and FINTRAC's guidance says meeting those requirements is the reporting entity's responsibility even after a compliance officer is appointed."),
+          ("Does an outsourced compliance officer watch transactions full time?", "Not in a fractional arrangement like ours. Your team runs day-to-day monitoring and escalates the alerts and transactions that need a compliance decision, and the officer reviews those and decides whether to report."),
+          ("Can the outsourced compliance officer do the effectiveness review?", "We don't. PCMLTFR s. 156(3) requires the review every two years by an internal or external auditor, or by you if you have no auditor, and FINTRAC's best practice is a reviewer not directly involved in your compliance program activities.")],
+    sources=[("FINTRAC, Compliance program requirements", F_G4), ("FINTRAC, Compliance assessment manual", F_CAM),
+             ("PCMLTFR, section 156", OCO_S156), ("PCMLTFA, section 9.6", OCO_S96), ("PCMLTFA, section 7", OCO_S7)],
+    related=["msb-compliance-officer-requirements-canada.html", "outsourced-vs-in-house-compliance-officer.html", "first-90-days-aml-compliance-canada.html"],
+)
+
+# Sources checked 19 November 2026. F_G4 and F_CAM come from guides_v3.py / content_v3.py.
+SLD_R156 = "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-184/section-156.html"
+SLD_R95 = "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-184/section-95.html"
+SLD_R1231 = "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-184/section-123.1.html"
+SLD_R133 = "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-184/section-133.html"
+SLD_A5 = "https://laws-lois.justice.gc.ca/eng/acts/P-24.501/section-5.html"
+SLD_A6 = "https://laws-lois.justice.gc.ca/eng/acts/P-24.501/section-6.html"
+SLD_A61 = "https://laws-lois.justice.gc.ca/eng/acts/P-24.501/section-6.1.html"
+SLD_A7 = "https://laws-lois.justice.gc.ca/eng/acts/P-24.501/section-7.html"
+SLD_A96 = "https://laws-lois.justice.gc.ca/eng/acts/P-24.501/section-9.6.html"
+SLD_OSFI_E21 = "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/operational-risk-management-resilience-guideline"
+
+GUIDES["second-line-of-defence-aml-canada.html"] = dict(
+    checked="19 November 2026",
+    title="Second Line of Defence in AML: A Canadian Guide | AML Canada",
+    desc="What the second line of defence means in AML, how the three lines map onto FINTRAC rules for MSBs, and who should do the two-year effectiveness review.",
+    crumb="Second line of defence",
+    h1="The second line of defence in AML: how the three lines map to FINTRAC rules",
+    lede="The second line of defence in AML is the compliance function that sets the rules, checks the operations team's work and decides on the files the team escalates. The term comes from the three lines of defence, a widely used governance model. FINTRAC's compliance program guidance and assessment manual don't use it, so this guide maps each line onto what the law requires of an MSB.",
+    label="Guide · Compliance officer",
+    service="outsourced-compliance-officer.html",
+    also=["effectiveness-reviews.html"],
+    date="2026-11-19",
+    takeaways=["\"Lines of defence\" is an industry model. As of 19 November 2026, FINTRAC's compliance program guidance and examination manual don't use the term.",
+               "The law puts every duty on the business, and PCMLTFR s. 156 lists the program elements.",
+               "The second line is that compliance officer: they write the rules, review what operations escalates and decide whether a transaction is reported.",
+               "The two-year effectiveness review is done by an auditor, or by the business if it has none. FINTRAC's best practice is a reviewer not directly involved in the program."],
+    sections=[
+        ("what", "What is the second line of defence in AML?", f"""          <p>In the three lines of defence model, the second line is the compliance function. It sets the anti-money laundering rules the business follows, monitors whether the operations team applies them, and challenges or decides on cases the team can't settle alone. In a Canadian money services business, that role sits with the compliance officer.</p>
+          <p>The model is a way of dividing work. It isn't a legal category in Canada. As of 19 November 2026, FINTRAC's <a href="{F_G4}" rel="noopener">compliance program guidance</a>, its <a href="{F_CAM}" rel="noopener">assessment manual</a> and its risk assessment guidance don't mention lines of defence. What the law does require is a compliance program, and the model is one way to staff it.</p>"""),
+        ("three-lines", "What are the first, second and third lines of defence?", f"""          <p>The first line is the business itself: the people who onboard clients and process transactions, and who own the risk those activities create. The second line is the risk and compliance function that sets standards and oversees the first. The third line is internal audit or a similar function, which gives independent assurance that the other two work.</p>
+          <p>Banks will recognize the pattern from OSFI. Its <a href="{SLD_OSFI_E21}" rel="noopener">Guideline E-21 on operational risk management and resilience</a> (August 2024) applies to federally regulated financial institutions, so here it is context and not an expectation for MSBs. It describes the same three layers without the label: business and central functions accountable for managing operational risks, independent risk and compliance functions that oversee and challenge them, and internal audit or a similar function that provides independent assurance to senior management and the board.</p>"""),
+        ("fintrac-map", "How the three lines map onto FINTRAC rules", f"""          <p>The PCMLTFA gives every duty to the business. Section 6 requires it to keep records, section 6.1 to verify identity, section 7 to report suspicious transactions, and section 9.6 to run a compliance program that is "reasonably designed, risk-based and effective". The lines of defence decide which people carry out each duty. This table maps the model onto those provisions for an MSB.</p>
+          <div class="table-wrap"><table>
+            <thead><tr><th scope="col">Line</th><th scope="col">Who, in a small MSB</th><th scope="col">What they do</th><th scope="col">FINTRAC basis</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">First line</th><td>Operations, onboarding and support staff, and any agents</td><td>Verify clients' identity, keep the required records, run day-to-day monitoring, and escalate unusual files and transactions</td><td>PCMLTFA ss. 6 and 6.1; PCMLTFR s. 95 (MSB identity thresholds) and s. 123.1 (ongoing monitoring)</td></tr>
+              <tr><th scope="row">Second line</th><td>The compliance officer, in-house or outsourced</td><td>Implement the program: policies, risk assessment and training; review escalations; decide whether a transaction is reported</td><td>PCMLTFR s. 156(1)(a) to (e); PCMLTFA ss. 7 and 9.6</td></tr>
+              <tr><th scope="row">Third line</th><td>An internal or external auditor, or the business itself if it has no auditor</td><td>Test the program's effectiveness at least every two years and document the results</td><td>PCMLTFR s. 156(1)(f) and (3)</td></tr>
+              <tr><th scope="row">Oversight of all three</th><td>A senior officer (for an entity)</td><td>Approve the written policies and procedures, and receive the review findings in writing within 30 days</td><td>PCMLTFR s. 156(1)(b) and (4)</td></tr>
+            </tbody>
+          </table></div>
+          <p>This applies to any business in paragraph 5(h) of the Act, which covers money services such as remitting or transmitting funds and dealing in virtual currencies. Paragraph 5(h.1) brings in foreign MSBs serving clients in Canada. For each program element in detail, see our guide to <a href="fintrac-compliance-program-requirements.html">FINTRAC compliance program requirements</a>.</p>"""),
+        ("first-line", "Who owns the first line in an MSB?", f"""          <p>The first line is everyone who deals with clients or handles their funds. Section 133 of the regulations says that when an employee does the work, the employer is responsible for complying with the regulations. When an agent acts for the business, the business is responsible. Staff carry out the controls, but the legal duty stays with the MSB.</p>
+          <p>FINTRAC's guidance says training should reach people who have contact with clients, such as front-line staff or agents, and people who handle cash, funds or virtual currency. Its <a href="{F_CAM}" rel="noopener">assessment manual</a> says examiners may interview employees and agents to confirm they know the requirements that apply to their duties.</p>"""),
+        ("second-line-review", "What a second line compliance review covers", f"""          <p>A second line compliance review is the compliance officer's check of first-line work. It covers the onboarding files, transactions and monitoring alerts the team escalates, and each review should end in a recorded decision. Paragraph 156(1)(a) of the <a href="{SLD_R156}" rel="noopener">regulations</a> makes the appointed person responsible for implementing the program, and that review work is part of implementing it.</p>
+          <p>In practice, the second line:</p>
+          <ul>
+            <li>writes and updates the policies, procedures and risk assessment that tell the first line what to do (s. 156(1)(b) and (c));</li>
+            <li>trains staff on their part of the program (s. 156(1)(d) and (e));</li>
+            <li>reviews escalated clients and decides to approve, reject or ask for more information;</li>
+            <li>reviews alerts the first line can't clear, against the ongoing monitoring purposes in <a href="{SLD_R1231}" rel="noopener">section 123.1</a>, such as checking whether activity is consistent with what the business knows about the client;</li>
+            <li>decides whether there are reasonable grounds to suspect, which triggers a suspicious transaction report under <a href="{SLD_A7}" rel="noopener">PCMLTFA s. 7</a>.</li>
+          </ul>
+          <p>FINTRAC's guidance lets the compliance officer delegate duties to other employees. The officer still remains responsible for implementing the program, and the business remains responsible for meeting its requirements. Who can hold the role, and what they need to know, is covered in our guide to <a href="msb-compliance-officer-requirements-canada.html">MSB compliance officer requirements</a>.</p>"""),
+        ("small-business", "How a small business keeps the lines separate", f"""          <p>A small MSB can't put a different team on each line, and the law doesn't ask it to. FINTRAC's guidance says the owner or operator of a small business can be the compliance officer. Its best practice is that the compliance officer of a larger business shouldn't be directly involved in the receipt, transfer or payment of funds.</p>
+          <p>FINTRAC's guidance also says the compliance officer should have independent oversight and be able to communicate directly with senior management or the board. With few staff, separation comes from process. In our view, these steps keep the lines apart:</p>
+          <ul>
+            <li>Write down which files the first line must escalate, and what each escalated file must contain.</li>
+            <li>Have the person who onboarded a client avoid approving that same client when it is escalated.</li>
+            <li>Log every second-line decision with its reasons, including decisions not to file a report.</li>
+            <li>Bring in someone outside daily operations for the second line, the third line, or both.</li>
+          </ul>"""),
+        ("outsourced", "How an outside compliance officer acts as the second line", """          <p>An outsourced compliance officer sits on top of your operations team. Your team does the first-line work and escalates, and the officer reviews and decides. In our engagements, all onboarding and transaction escalations go through one shared channel. A trained point of contact in your operations team posts each file with the information we need.</p>
+          <p>Each escalation follows four steps:</p>
+          <ol>
+            <li>Your point of contact escalates the client file or transaction in the shared channel.</li>
+            <li>We review it and run a customer risk assessment under your compliance framework.</li>
+            <li>We decide to approve, reject or request more information.</li>
+            <li>Your operations or support team applies the decision and sends any request to the customer.</li>
+          </ol>
+          <p>Monitoring is shared. We help deploy monitoring rules and thresholds and review the alerts and transactions your team escalates. Your team runs day-to-day monitoring, turns rules on and off, and releases transactions that don't need our review. Building and integrating systems stays with your team or its providers. Our role is advisory: we make sure documents and processes meet the requirements, and applying them in practice is your responsibility.</p>
+          <p>The day-to-day workflow is set out in <a href="outsourced-compliance-officer-how-it-works.html">how an outsourced compliance officer works</a>, and scope and fee are on our <a href="outsourced-compliance-officer.html">outsourced compliance officer</a> page.</p>"""),
+        ("third-line", "Why the second line shouldn't review itself", f"""          <p>The third line tests whether the first two work. FINTRAC's best practice, to keep the review impartial, is a reviewer who isn't directly involved in your compliance program activities. Under <a href="{SLD_R156}" rel="noopener">PCMLTFR s. 156(3)</a>, the review is carried out and documented every two years by an internal or external auditor, or by the business itself if it has no auditor. The Regulations name who may do it, and FINTRAC's guidance adds the impartiality point.</p>
+          <p>FINTRAC's guidance says the reviewer should know the requirements under the Act and regulations. As a best practice, to keep the review impartial, it shouldn't be done by someone directly involved in your compliance program activities. For an entity, the findings, policy updates and implementation status go in writing to a senior officer within 30 days after the review is completed (s. 156(4)).</p>
+          <p>For that reason, when we act as compliance officer we prepare the documents and records for the two-year review and don't conduct it, and you appoint the independent reviewer. What the review tests is in our <a href="fintrac-effectiveness-review-checklist.html">effectiveness review checklist</a>, and our <a href="effectiveness-reviews.html">effectiveness reviews</a> page covers having one done.</p>"""),
+    ],
+    faqs=[("What is the 2nd line of defence in risk?", "It is the risk and compliance function in the three lines of defence model. It sets the rules, oversees day-to-day work and decides on escalated cases. In a Canadian MSB, that is the compliance officer appointed under PCMLTFR s. 156(1)(a)."),
+          ("Does FINTRAC require the three lines of defence model?", "No. As of 19 November 2026, FINTRAC's compliance program guidance and examination manual don't use the term. The law requires a compliance program with the elements in PCMLTFR s. 156, and the three lines are one way to staff it."),
+          ("Can the compliance officer do the two-year effectiveness review?", "The law says an internal or external auditor does the review, or the business itself if it has no auditor (PCMLTFR s. 156(3)). FINTRAC's best practice is that the reviewer shouldn't be directly involved in the compliance program activities, which in most cases rules out the compliance officer."),
+          ("Can a small MSB with two or three staff have three lines of defence?", "Yes, through process. FINTRAC's guidance lets the owner or operator of a small business be the compliance officer. Written escalation rules, recorded decisions and an outside reviewer keep the work separate."),
+          ("Is an outsourced compliance officer the second line?", "Yes, when they are appointed as the person responsible for implementing the program. FINTRAC's guidance says the officer stays responsible for implementing it, and the business stays responsible for meeting its requirements.")],
+    sources=[("FINTRAC, Compliance program requirements", F_G4), ("FINTRAC, Compliance assessment manual", F_CAM),
+             ("PCMLTFR, section 156", SLD_R156), ("PCMLTFR, section 95", SLD_R95), ("PCMLTFR, section 123.1", SLD_R1231),
+             ("PCMLTFR, section 133", SLD_R133), ("PCMLTFA, section 5", SLD_A5), ("PCMLTFA, section 6", SLD_A6),
+             ("PCMLTFA, section 6.1", SLD_A61), ("PCMLTFA, section 7", SLD_A7), ("PCMLTFA, section 9.6", SLD_A96),
+             ("OSFI, Guideline E-21: Operational Risk Management and Resilience", SLD_OSFI_E21)],
+    related=["fintrac-compliance-program-requirements.html", "fintrac-effectiveness-review-checklist.html", "msb-compliance-officer-requirements-canada.html"],
+)
+
+# msb-onboarding-file-review-checklist: exec() after guides_v3.py definitions
+# (GUIDES, F_RBA, F_REC_MSB, F_LPEP, F_SANC, L_PCMLTFA, L_PCMLTFR exist).
+# Official sources checked 19 November 2026.
+OF_WHEN = "https://fintrac-canafe.canada.ca/guidance-directives/client-clientele/client/msb-eng"
+OF_METHODS = "https://fintrac-canafe.canada.ca/guidance-directives/client-clientele/Guide11/11-eng"
+OF_BOR = "https://fintrac-canafe.canada.ca/guidance-directives/client-clientele/bor-eng"
+OF_TPD = "https://fintrac-canafe.canada.ca/guidance-directives/client-clientele/tpdr-eng"
+OF_PEP = "https://fintrac-canafe.canada.ca/guidance-directives/client-clientele/pep/pep-non-acct-eng"
+OF_BRR = "https://fintrac-canafe.canada.ca/guidance-directives/client-clientele/brr-eng"
+OF_R37 = "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-184/section-37.html"
+OF_R95 = "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-184/section-95.html"
+OF_R105 = "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-184/section-105.html"
+OF_R109 = "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-184/section-109.html"
+OF_R120 = "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-184/section-120.html"
+OF_R122_1 = "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-184/section-122.1.html"
+OF_R136 = "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-184/section-136.html"
+OF_R138 = "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-184/section-138.html"
+OF_R145 = "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-184/section-145.html"
+OF_R157 = "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-184/section-157.html"
+OF_A5 = "https://laws-lois.justice.gc.ca/eng/acts/P-24.501/section-5.html"
+OF_A71 = "https://laws-lois.justice.gc.ca/eng/acts/P-24.501/section-7.1.html"
+OF_A96 = "https://laws-lois.justice.gc.ca/eng/acts/P-24.501/section-9.6.html"
+OF_CC8308 = "https://laws-lois.justice.gc.ca/eng/acts/C-46/section-83.08.html"
+OF_CC831 = "https://laws-lois.justice.gc.ca/eng/acts/C-46/section-83.1.html"
+
+GUIDES["msb-onboarding-file-review-checklist.html"] = dict(
+    checked="19 November 2026",
+    title="KYC Checklist for MSBs in Canada: Onboarding Files | AML Canada",
+    desc="A KYC checklist for MSBs in Canada: what each client onboarding file must show, the FINTRAC rule behind each item, and what to escalate to compliance.",
+    crumb="MSB onboarding file checklist",
+    h1="KYC checklist for MSBs in Canada: what an onboarding file needs before review",
+    lede="A KYC checklist for MSBs in Canada lists what a client onboarding file needs before the compliance officer can decide on it: verified identity, beneficial ownership, the politically exposed person and third party determinations, the sanctions check, the purpose of the relationship and a risk rating. Each item below is tied to its section of the Regulations or to FINTRAC guidance, as of 19 November 2026.",
+    label="Guide · Client onboarding",
+    service="outsourced-compliance-officer.html",
+    also=["compliance-programs.html"],
+    date="2026-11-19",
+    takeaways=["PCMLTFR s. 108 sets the identity record for each verification method, such as the document type, number and expiry date for photo ID.",
+               "A corporation's file needs its directors and everyone owning or controlling 25% or more (trustees, beneficiaries and settlors for a trust), the ownership and control structure and the confirming measures (PCMLTFR s. 138).",
+               "An MSB must take reasonable measures to make a PEP and HIO determination when it enters a business relationship (PCMLTFR s. 120(3)).",
+               "A high risk rating triggers the enhanced measures in PCMLTFR s. 157, so the file should show which ones were applied."],
+    sections=[
+        ("cover", "What should a KYC checklist for MSBs in Canada cover?", f"""          <p>A KYC checklist for an MSB in Canada should cover eight items: how identity was verified, beneficial ownership for entities, the politically exposed person (PEP) and head of an international organization (HIO) determination, the third party determination, the sanctions and listed person check, the purpose of the relationship, the client risk rating, and enhanced measures for high risk.</p>
+          <p>The file starts with an identity trigger. Under <a href="{OF_R95}" rel="noopener">PCMLTFR s. 95(1)</a>, an MSB must verify the identity of a person who asks it to initiate an electronic funds transfer of $1,000 or more, exchange $3,000 or more in foreign currency, or transfer or exchange $1,000 or more in virtual currency. Dealing in virtual currencies is an MSB service under <a href="{OF_A5}" rel="noopener">PCMLTFA s. 5(h)(iv)</a>, so virtual currency dealers follow the same rules. FINTRAC's <a href="{OF_WHEN}" rel="noopener">MSB identification guidance</a> lists every trigger.</p>
+          <p>Some items attach to the business relationship. <a href="{OF_BRR}" rel="noopener">FINTRAC's guidance</a> says an MSB enters one the second time it must verify a client's identity within five years, or when it signs a service agreement with an entity.</p>"""),
+        ("checklist", "Onboarding file review checklist with the FINTRAC basis for each item", """          <p>The table shows what a complete MSB onboarding file contains, the rule behind each item and a gap to check, taken from FINTRAC's guidance or marked as a practical check. A reviewer can work down it before deciding on the file.</p>
+          <div class="table-wrap"><table>
+            <thead><tr><th scope="col">Item</th><th scope="col">What the file shows</th><th scope="col">FINTRAC basis</th><th scope="col">Common gap to check</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Identity of a person</th><td>Method, name, date and the method's details (for photo ID: type, number, jurisdiction and country of issue, expiry)</td><td>PCMLTFR ss. 105(1) and 108</td><td>FINTRAC says viewing a remote client and their ID on a video call is not enough on its own; dual-process sources must differ (s. 105(4))</td></tr>
+              <tr><th scope="row">Identity of an entity</th><td>The record confirming existence, or its registration number, type and source if from a public database</td><td>PCMLTFR ss. 109 and 112</td><td>The record must be authentic, valid and current (s. 109(2))</td></tr>
+              <tr><th scope="row">Service agreement</th><td>Signatories' details, an information record on the entity, the power-to-bind extract for a corporation, and employees authorized to order transactions</td><td>PCMLTFR s. 37</td><td>Practical check: the power-to-bind extract and employee list are on file</td></tr>
+              <tr><th scope="row">Beneficial ownership</th><td>Directors (for a corporation) or trustees, beneficiaries and settlors (for a trust), owners of 25% or more, ownership and control structure, and the confirming measures</td><td>PCMLTFR s. 138</td><td>FINTRAC says the confirming measure can't be the one used to obtain the information</td></tr>
+              <tr><th scope="row">PEP and HIO determination</th><td>The result; where s. 122.1 measures apply, the office, organization, date of determination and source of wealth if known</td><td>PCMLTFR ss. 120(3), 122.1 and 123(4)</td><td>Practical check: a negative result is recorded too</td></tr>
+              <tr><th scope="row">Third party determination</th><td>Whether the client acts for a third party, the third party's details, or the reasons for a suspicion</td><td>PCMLTFR s. 136</td><td>FINTRAC says the steps you take must be in your policies</td></tr>
+              <tr><th scope="row">Sanctions and listed persons</th><td>Practical record: lists checked, date and how any possible match was resolved</td><td>No rule sets this record. Criminal Code ss. 83.08 and 83.1; PCMLTFA s. 7.1; FINTRAC says your policies must explain how you identify terrorist or sanctioned property</td><td>Practical check: no possible match closed without a reason</td></tr>
+              <tr><th scope="row">Purpose and intended nature</th><td>Why the client uses your services</td><td>PCMLTFR s. 145</td><td>FINTRAC's best practice is to note the transactions you expect</td></tr>
+              <tr><th scope="row">Client risk rating</th><td>A rating and the reason for it</td><td>PCMLTFA s. 9.6(2); PCMLTFR s. 156(1)(c)</td><td>FINTRAC's guidance says to explain each rating</td></tr>
+              <tr><th scope="row">Enhanced measures</th><td>The measures applied to a high-risk client</td><td>PCMLTFA s. 9.6(3); PCMLTFR s. 157</td><td>Practical check: a high rating has measures recorded</td></tr>
+            </tbody>
+          </table></div>"""),
+        ("identity", "How must an MSB verify and record a client's identity?", f"""          <p>An MSB verifies a person's identity using one of the methods in PCMLTFR s. 105(1) and keeps the record that s. 108 sets for that method. FINTRAC's <a href="{OF_METHODS}" rel="noopener">methods guidance</a> describes five methods for a person, including government-issued photo identification, the credit file method and the dual-process method.</p>
+          <p>For photo ID with a client who isn't present, FINTRAC says you need a process to authenticate the document and confirm the name and photo are the client's. Under <a href="{OF_R105}" rel="noopener">s. 105(5)</a>, the document must be authentic, valid and current.</p>
+          <p>A corporation is verified from its certificate of incorporation or another current record showing its name, address and directors (<a href="{OF_R109}" rel="noopener">s. 109(1)</a>). For a public database, s. 109(5) requires a record of the registration number, record type and source. Under a service agreement, s. 109(4)(g) allows 30 days after the information record is created, and <a href="{OF_R37}" rel="noopener">s. 37</a> lists the agreement records.</p>"""),
+        ("ownership", "What beneficial ownership information does an entity file need?", f"""          <p>For a corporation, <a href="{OF_R138}" rel="noopener">PCMLTFR s. 138(1)</a> requires the names of all directors, the names and addresses of everyone who owns or controls 25% or more of the shares, and information establishing ownership, control and structure. Trusts and other entities have their own lists in the same subsection.</p>
+          <p>Section 138(2) requires reasonable measures to confirm the information when first obtained. For a high-risk corporation under the Canada Business Corporations Act, you must also consult the information Corporations Canada publishes. If you can't obtain or confirm the information, s. 138(4) requires reasonable measures to verify the chief executive officer's identity, plus the special measures in s. 157.</p>
+          <p>FINTRAC's <a href="{OF_BOR}" rel="noopener">beneficial ownership guidance</a> adds that where no one owns or controls 25%, you record the steps you took to reach that conclusion.</p>"""),
+        ("pep-third-party", "When does an MSB need PEP, HIO and third party determinations?", f"""          <p>An MSB must take reasonable measures to determine whether a person it enters a business relationship with is a PEP, an HIO, a family member of one, or a close associate of a foreign PEP (<a href="{OF_R120}" rel="noopener">PCMLTFR s. 120(3)</a>). Section 120(1) adds certain transactions of $100,000 or more: sending or receiving an international electronic funds transfer, sending or receiving virtual currency, and transporting cash or negotiable instruments.</p>
+          <p>For a foreign PEP, <a href="{OF_R122_1}" rel="noopener">s. 122.1(1)</a> requires reasonable measures to establish the source of wealth, plus the special measures in s. 157. For a domestic PEP or HIO, those measures apply if you consider the risk high. Section 122.1(5) allows 30 days after the relationship starts. FINTRAC's <a href="{OF_PEP}" rel="noopener">PEP guidance for non-account-based sectors</a> covers MSBs.</p>
+          <p>Under <a href="{OF_R136}" rel="noopener">s. 136</a>, when you create an information record, such as the one on an entity under a service agreement, you must take reasonable measures to find out whether the client acts for a third party. FINTRAC's <a href="{OF_TPD}" rel="noopener">third party guidance</a> says asking the client is one such measure.</p>"""),
+        ("sanctions", "What must an MSB do about sanctions and listed persons?", f"""          <p>The law sets prohibitions and disclosure duties. Under <a href="{OF_CC8308}" rel="noopener">Criminal Code s. 83.08</a>, no person in Canada may knowingly deal in property owned or controlled by or on behalf of a terrorist group, and <a href="{OF_CC831}" rel="noopener">s. 83.1</a> requires disclosure of such property without delay to the RCMP or CSIS.</p>
+          <p>When a disclosure is required under s. 83.1, the United Nations Act, the Special Economic Measures Act or the Sergei Magnitsky Law, <a href="{OF_A71}" rel="noopener">PCMLTFA s. 7.1(1)</a> also requires a report to FINTRAC. FINTRAC's <a href="{F_LPEP}" rel="noopener">listed person property guidance</a> says your policies must explain your process to identify terrorist or sanctioned property, and it names the Canadian and UN lists to consult.</p>
+          <p>Suspected sanctions evasion goes on a suspicious transaction report, according to FINTRAC's <a href="{F_SANC}" rel="noopener">sanctions evasion guidance</a>. Our <a href="fintrac-reporting-requirements.html">FINTRAC reporting requirements</a> guide covers reports, and <a href="fintrac-travel-rule-ministerial-directives.html">ministerial directives</a> covers the Russia, Iran and North Korea directives.</p>"""),
+        ("risk", "How does the file show purpose, risk rating and enhanced measures?", f"""          <p>Once a business relationship forms, <a href="{OF_R145}" rel="noopener">PCMLTFR s. 145</a> requires a record of its purpose and intended nature. FINTRAC's MSB examples include foreign exchange for travel and funds transfers for family support. As a best practice, FINTRAC says the record should help you anticipate the client's transactions.</p>
+          <p>The client risk rating comes from your risk assessment under <a href="{OF_A96}" rel="noopener">PCMLTFA s. 9.6(2)</a> and PCMLTFR s. 156(1)(c)(i). FINTRAC's <a href="{F_RBA}" rel="noopener">risk assessment guidance</a> says to rate each relationship, or a logical group, and explain the rating. Building the method is covered in <a href="fintrac-risk-assessment-msb.html">FINTRAC risk assessment for MSBs</a>.</p>
+          <p>Where the risk is high, s. 9.6(3) and <a href="{OF_R157}" rel="noopener">PCMLTFR s. 157</a> require written policies for enhanced measures to verify identity, keep client information current and monitor the relationship at a frequency that matches the risk. Monitoring after onboarding is in <a href="fintrac-ongoing-monitoring-transaction-monitoring.html">ongoing monitoring and transaction monitoring</a>.</p>"""),
+        ("review", "What to escalate to compliance and how the decision is recorded", """          <p>When we act as your compliance officer, your operations point of contact posts the client file in a shared channel with the information we need. We run a customer risk assessment under your compliance framework and decide whether to approve, reject or request more information. Your team applies the decision and sends any request to the customer.</p>
+          <p>In our view, your procedures should name the files that go to compliance: a positive PEP or HIO determination, a possible listed person match, beneficial ownership you can't confirm, a suspected third party, or a high risk rating. We train the point of contact on what an escalated file needs to contain, so we have enough information to complete due diligence.</p>
+          <p>In our view, the review record should show the decision, the reason, the reviewer, the date and any information requested, next to the records the Regulations require. The full workflow is in <a href="outsourced-compliance-officer-how-it-works.html">how an outsourced compliance officer works</a>, and the roles in <a href="second-line-of-defence-aml-canada.html">the second line of defence</a>. Our <a href="outsourced-compliance-officer.html">outsourced compliance officer</a> service covers these reviews.</p>"""),
+    ],
+    faqs=[("What is a KYC checklist for an MSB in Canada?", "A list of what a client onboarding file should contain to meet the PCMLTFA, its Regulations and FINTRAC guidance: the identity record, beneficial ownership, PEP, HIO and third party determinations, the sanctions check, the purpose of the relationship, the risk rating and any enhanced measures."),
+          ("When does an MSB enter a business relationship with a client?", "FINTRAC's guidance says an MSB enters a business relationship the second time it must verify a client's identity within five years, or when it signs a service agreement with an entity."),
+          ("What happens if an MSB can't confirm an entity's beneficial owners?", "PCMLTFR s. 138(4) requires reasonable measures to verify the identity of the entity's chief executive officer, or the person in that role, and the special measures for high risk in s. 157."),
+          ("Do MSBs have to check clients against sanctions lists?", "The Criminal Code bars knowingly dealing in terrorist group property, and PCMLTFA s. 7.1 requires a report to FINTRAC when a disclosure is required. FINTRAC's guidance says your policies must explain how you identify terrorist or sanctioned property.")],
+    sources=[("FINTRAC, When to verify the identity of persons and entities: money services businesses", OF_WHEN),
+             ("FINTRAC, Methods to verify the identity of persons and entities", OF_METHODS),
+             ("FINTRAC, Beneficial ownership requirements", OF_BOR),
+             ("FINTRAC, PEP and HIO guidance for non-account-based reporting entity sectors", OF_PEP),
+             ("FINTRAC, Third party determination requirements", OF_TPD),
+             ("FINTRAC, Business relationship requirements", OF_BRR),
+             ("FINTRAC, Reporting listed person or entity property", F_LPEP),
+             ("FINTRAC, Report suspected sanctions evasion", F_SANC),
+             ("FINTRAC, Risk assessment guidance", F_RBA),
+             ("FINTRAC, Record keeping requirements for MSBs", F_REC_MSB),
+             ("Proceeds of Crime (Money Laundering) and Terrorist Financing Regulations", L_PCMLTFR),
+             ("Proceeds of Crime (Money Laundering) and Terrorist Financing Act", L_PCMLTFA),
+             ("Criminal Code, section 83.08", OF_CC8308),
+             ("Criminal Code, section 83.1", OF_CC831)],
+    related=["fintrac-risk-assessment-msb.html", "fintrac-compliance-program-requirements.html", "fintrac-travel-rule-ministerial-directives.html"],
+)
+
+# --- keyword-cluster run 2026-11-19: fintrac-ongoing-monitoring-transaction-monitoring ---
+# exec() after guides_v3.py definitions (GUIDES, F_CAM, F_STR, F_24 exist). Official sources checked 19 November 2026.
+OM_OMR = "https://fintrac-canafe.canada.ca/guidance-directives/client-clientele/omr-eng"
+OM_BRR = "https://fintrac-canafe.canada.ca/guidance-directives/client-clientele/brr-eng"
+OM_IND = "https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/indicators-indicateurs/msb_mltf-eng"
+OM_A7 = "https://laws-lois.justice.gc.ca/eng/acts/P-24.501/section-7.html"
+OM_A96 = "https://laws-lois.justice.gc.ca/eng/acts/P-24.501/section-9.6.html"
+OM_R41 = "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-184/section-4.1.html"
+OM_R1231 = "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-184/section-123.1.html"
+OM_R138 = "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-184/section-138.html"
+OM_R146 = "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-184/section-146.html"
+OM_R148 = "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-184/section-148.html"
+OM_R156 = "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-184/section-156.html"
+OM_R157 = "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-184/section-157.html"
+
+GUIDES["fintrac-ongoing-monitoring-transaction-monitoring.html"] = dict(
+    checked="19 November 2026",
+    title="FINTRAC Transaction Monitoring Requirements for MSBs | AML Canada",
+    desc="FINTRAC transaction monitoring requirements for MSBs: ongoing monitoring under PCMLTFR s. 123.1, risk-based rules and thresholds, alert review and records.",
+    crumb="Ongoing and transaction monitoring",
+    h1="FINTRAC transaction monitoring requirements: ongoing monitoring for MSBs",
+    lede="FINTRAC transaction monitoring requirements for an MSB start with section 123.1 of the Regulations: once you have a business relationship with a client, you must monitor it periodically, at a frequency set by your risk assessment, to detect suspicious transactions and keep client information current. The rules, thresholds and alert reviews that put this into practice come from FINTRAC's guidance and examination manual, and this guide marks which parts are law, guidance or practice.",
+    label="Guide · Ongoing monitoring",
+    service="outsourced-compliance-officer.html",
+    also=["compliance-programs.html"],
+    date="2026-11-19",
+    takeaways=["PCMLTFR s. 123.1 requires periodic, risk-based ongoing monitoring of every business relationship, for four set purposes.",
+               "High-risk clients need enhanced ongoing monitoring under written procedures (PCMLTFA s. 9.6(3), PCMLTFR s. 157).",
+               "Monitoring rules, thresholds and alert decisions can be tested in FINTRAC examinations, so tie each one to your risk assessment and write down why.",
+               "Keep a record of your monitoring measures and what they found for at least five years (PCMLTFR ss. 146(1) and 148(1)(c))."],
+    sections=[
+        ("requirements", "What are FINTRAC's transaction monitoring requirements?", f"""          <p>Two legal duties sit behind transaction monitoring for an MSB. Section 7 of the <a href="{OM_A7}" rel="noopener">PCMLTFA</a> requires you to report every completed or attempted transaction where there are reasonable grounds to suspect a link to money laundering, terrorist financing or sanctions evasion. Section 123.1 of the Regulations requires ongoing monitoring of business relationships to detect those transactions.</p>
+          <p>The Regulations, current to 29 October 2026, don't use the phrase "transaction monitoring" and set no monitoring rules or thresholds. FINTRAC's <a href="{F_CAM}" rel="noopener">assessment manual</a> says examiners review your policies and procedures to confirm you have a monitoring process that lets you detect, assess and, when required, report suspicious transactions. Examiners may ask whether that process is automated, manual or both.</p>
+          <p>The process has to be written down. Section 156(1)(b) of the <a href="{OM_R156}" rel="noopener">Regulations</a> requires written compliance policies and procedures that are kept up to date and, for an entity, approved by a senior officer. FINTRAC's <a href="{F_STR}" rel="noopener">STR guidance</a> says those policies must set out how you identify and assess suspicious transactions.</p>"""),
+        ("ongoing", "What are the ongoing monitoring requirements for FINTRAC clients?", f"""          <p>Under section 123.1 of the <a href="{OM_R1231}" rel="noopener">Regulations</a>, a business that enters into a business relationship with a client must periodically monitor that relationship, based on its risk assessment. The law gives the monitoring four purposes:</p>
+          <ul>
+            <li>detecting transactions you must report under section 7 of the Act;</li>
+            <li>keeping client identification information, beneficial ownership information and the record of the relationship's purpose and intended nature up to date;</li>
+            <li>reassessing the risk of the client's transactions and activities;</li>
+            <li>checking that transactions and activities are consistent with what you know about the client, including your risk assessment of them.</li>
+          </ul>
+          <p>Under section 4.1 of the <a href="{OM_R41}" rel="noopener">Regulations</a>, an MSB enters into a business relationship at the earliest of three events: opening an account for the client, the second time it must verify the client's identity, or signing a service agreement with a client that is an entity. For a foreign MSB, the service agreement trigger applies to entities in Canada. FINTRAC's <a href="{OM_BRR}" rel="noopener">business relationship guidance</a> reads the second-verification trigger as within a 5-year period.</p>
+          <p>Section 145 then requires a record of the purpose and intended nature of the relationship. As a best practice, FINTRAC says this record should help you anticipate the transactions a client may conduct, so you can spot unusual ones. What goes into the file at onboarding is covered in our <a href="msb-onboarding-file-review-checklist.html">MSB onboarding file review checklist</a>.</p>
+          <p>For entity clients, section 138(2) of the <a href="{OM_R138}" rel="noopener">Regulations</a> requires reasonable measures to confirm beneficial ownership information in the course of ongoing monitoring.</p>"""),
+        ("frequency", "How often must an MSB monitor, and what is enhanced ongoing monitoring?", f"""          <p>Monitoring frequency follows risk. FINTRAC's <a href="{OM_OMR}" rel="noopener">ongoing monitoring guidance</a> says low-risk clients may need less frequent monitoring, while high-risk clients require enhanced measures. FINTRAC expects your policies and procedures to state how often you will monitor each client or group of clients, based on your risk assessment.</p>
+          <p>For high risk, the requirement is law. <a href="{OM_A96}" rel="noopener">PCMLTFA s. 9.6(3)</a> requires special measures, and <a href="{OM_R157}" rel="noopener">PCMLTFR s. 157(b)(ii)</a> prescribes written policies and procedures for ongoing monitoring at a frequency appropriate to the level of risk. FINTRAC's guidance suggests these methods for enhanced ongoing monitoring:</p>
+          <ul>
+            <li>reviewing transactions on an approved schedule that involves management sign-off;</li>
+            <li>reviewing reports of high-risk transactions more often;</li>
+            <li>flagging activity that deviates from your expectations;</li>
+            <li>setting limits or parameters on transactions that trigger early warnings and a mandatory review;</li>
+            <li>reviewing transactions more often against suspicious transaction indicators.</li>
+          </ul>
+          <p>Enhanced monitoring ends when the relationship ends or when your risk assessment no longer rates the client high risk. FINTRAC says ordinary monitoring then continues at the frequency for the client's new rating. How to set those ratings is covered in our <a href="fintrac-risk-assessment-msb.html">FINTRAC risk assessment guide for MSBs</a>.</p>"""),
+        ("rules", "What are transaction monitoring rules?", f"""          <p>Transaction monitoring rules are the automated or manual criteria that flag a transaction or pattern for review, such as an amount, a frequency or a change from a client's expected activity. FINTRAC's assessment manual says examiners confirm that your rules are reasonable, put into practice and monitor transactions in keeping with your risk assessment.</p>
+          <p>According to the manual, examiners may also:</p>
+          <ul>
+            <li>ask how often you review and adjust your rules, what causes a change and how you document it;</li>
+            <li>assess whether you have a reasonable rationale for the thresholds on your rules;</li>
+            <li>assess whether you have enough resources to review transactions for your size and transaction volume;</li>
+            <li>check that you identify and address gaps between a client's actual and expected activity, which the manual calls a common indicator.</li>
+          </ul>
+          <p>A new monitoring system counts as a new technology in FINTRAC's glossary. Section 156(2) of the Regulations requires you to assess and document the risk of a new technology that may affect your clients or services before you introduce it.</p>
+          <p>In our view, each rule should trace back to a line in your risk assessment and to an indicator in FINTRAC's <a href="{OM_IND}" rel="noopener">MSB indicators</a>, with its threshold and rationale written down.</p>"""),
+        ("alerts", "How should alerts be reviewed and documented?", f"""          <p>FINTRAC's assessment manual describes alerts as transactions flagged by your internal monitoring because they may relate to money laundering or terrorist financing, and says they should be assessed further under your policies and procedures. Examiners may ask how you prioritize alerts and what process you follow to assess and decide on each one.</p>
+          <p>Examiners also review the unusual transactions you chose not to report, to confirm those decisions were sound, and check for a sound escalation and decision-making process. FINTRAC's STR guidance says that where an automated system flags transactions, a person may still assess them as a best practice.</p>
+          <p>The record is a legal duty. <a href="{OM_R146}" rel="noopener">PCMLTFR s. 146(1)</a> requires a record of the measures you take in ongoing monitoring and of the information you obtain, and <a href="{OM_R148}" rel="noopener">s. 148(1)(c)</a> requires you to keep it for at least five years from the day it was created. FINTRAC says this information is likely to be specific to one relationship, so document it separately from your policies.</p>
+          <p>In our view, each closed alert should show the rule that fired, who reviewed it, what they checked, the decision and the date.</p>"""),
+        ("str", "When does an alert lead to an STR assessment?", f"""          <p>An alert becomes an STR question when the review turns up facts, context or indicators that point toward suspicion. The legal test is reasonable grounds to suspect, under section 7 of the Act. FINTRAC's MSB indicators guidance says a single indicator may not appear suspicious on its own, and that observing one can lead you to assess the transaction further.</p>
+          <p>FINTRAC's STR guidance lists the measures that lead to a decision: screening for suspicious transactions, assessing the facts and context, linking indicators to that assessment, and explaining your grounds in the report. It says the STR is due as soon as practicable after you complete those measures. After a report, FINTRAC says you must keep reporting later transactions while the suspicion remains, and expects you to reassess the client periodically as part of your risk assessment or ongoing monitoring.</p>
+          <p>Report types, deadlines and the 24-hour rule are covered in our <a href="fintrac-reporting-requirements.html">FINTRAC reporting guide</a>. For filing tools, see our <a href="fintrac-reporting-software.html">FINTRAC reporting software</a> page.</p>"""),
+        ("checklist", "Ongoing monitoring checklist: what FINTRAC expects and how to evidence it", """          <p>As of 19 November 2026, these are the monitoring elements an examiner may test at an MSB, with the source of each. The evidence column is our suggestion.</p>
+          <div class="table-wrap"><table>
+            <thead><tr><th scope="col">Monitoring element</th><th scope="col">Source and status</th><th scope="col">How to evidence it</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Written monitoring procedure</th><td>PCMLTFR ss. 123.1 and 156(1)(b). Law</td><td>Current, approved procedure with a version history</td></tr>
+              <tr><th scope="row">Monitoring frequency for each risk level</th><td>FINTRAC ongoing monitoring guidance</td><td>A frequency stated for each client risk rating or group</td></tr>
+              <tr><th scope="row">Business relationship start date and purpose record</th><td>PCMLTFR ss. 4.1 and 145. Law. Deciding within 30 calendar days is FINTRAC best practice</td><td>Date the relationship began; the client's expected activity</td></tr>
+              <tr><th scope="row">Client and beneficial ownership information kept current</th><td>PCMLTFR ss. 123.1(b) and 138(2). Law</td><td>Dated updates in the client file</td></tr>
+              <tr><th scope="row">Enhanced monitoring of high-risk clients</th><td>PCMLTFA s. 9.6(3), PCMLTFR s. 157(b)(ii). Law; methods are FINTRAC guidance</td><td>High-risk client list, review schedule, management sign-offs</td></tr>
+              <tr><th scope="row">Rules and thresholds tied to risk</th><td>FINTRAC assessment manual</td><td>Rule list mapped to the risk assessment, threshold rationale, change log</td></tr>
+              <tr><th scope="row">Alert review and decisions</th><td>FINTRAC assessment manual; human review of automated alerts is FINTRAC best practice</td><td>Alert log with rule, reviewer, checks, decision and date</td></tr>
+              <tr><th scope="row">New monitoring system assessed first</th><td>PCMLTFR s. 156(2). Law</td><td>Dated risk assessment completed before launch</td></tr>
+              <tr><th scope="row">Monitoring records kept</th><td>PCMLTFR ss. 146(1) and 148(1)(c). Law</td><td>Records held at least five years from creation</td></tr>
+            </tbody>
+          </table></div>"""),
+        ("who-does-what", "Who does what when the compliance officer is outsourced", """          <p>When the compliance officer is part-time, monitoring is shared. In our engagements as an <a href="outsourced-compliance-officer.html">outsourced compliance officer</a>, the business's team runs day-to-day monitoring and brings us anything that needs a compliance decision. We aren't watching platforms full time.</p>
+          <ul>
+            <li>Your team watches the monitoring platform, turns rules on and off, and releases transactions that don't need our review.</li>
+            <li>Your team escalates transactions and alerts through a shared channel, sends requests for information to customers and handles all customer contact.</li>
+            <li>We help deploy monitoring rules and thresholds, review the transactions and alerts your team escalates, and decide on them.</li>
+            <li>We prepare and file STRs and other FINTRAC reports, and maintain your policies, procedures and risk assessment.</li>
+            <li>Your team or its providers build and integrate the monitoring system. Integration is outside our scope.</li>
+          </ul>
+          <p>Our role is advisory, and following that advice in practice is the business's responsibility. The full escalation workflow is set out in <a href="outsourced-compliance-officer-how-it-works.html">how our outsourced compliance officer service works</a>.</p>"""),
+    ],
+    faqs=[("What is the 24-hour rule in FINTRAC?", "It is FINTRAC's term for treating multiple transactions made within a 24-hour period as a single transaction for threshold reporting. Our <a href=\"fintrac-reporting-requirements.html\">FINTRAC reporting guide</a> explains how it works."),
+          ("Does FINTRAC require automated transaction monitoring software?", "The Regulations don't require it. FINTRAC's assessment manual asks whether your monitoring process is automated, manual or both, and checks that your rules are reasonable, match your risk assessment and are backed by enough resources for your transaction volume."),
+          ("Do I have to monitor clients who aren't in a business relationship?", "The ongoing monitoring duty in PCMLTFR s. 123.1 applies to business relationships. The STR duty in section 7 of the PCMLTFA covers every completed or attempted transaction, so a suspicious one-off transaction still has to be assessed."),
+          ("How long must ongoing monitoring records be kept?", "At least five years from the day each record was created, under PCMLTFR s. 148(1)(c). Section 146(1) requires a record of the monitoring measures you take and the information you obtain."),
+          ("Can an outsourced compliance officer run our transaction monitoring?", "In our model, your team runs day-to-day monitoring and releases transactions that don't need review. We help set the rules and thresholds, decide on the alerts you escalate and file any reports. Building and integrating the system stays with your team or its providers.")],
+    sources=[("FINTRAC, Ongoing monitoring requirements", OM_OMR), ("FINTRAC, Business relationship requirements", OM_BRR),
+             ("FINTRAC, Reporting suspicious transactions to FINTRAC", F_STR), ("FINTRAC assessment manual", F_CAM),
+             ("FINTRAC, Money laundering and terrorist financing indicators: money services businesses", OM_IND),
+             ("FINTRAC, The 24-hour rule", F_24),
+             ("PCMLTFA, section 7", OM_A7), ("PCMLTFA, section 9.6", OM_A96),
+             ("PCMLTFR, section 4.1", OM_R41), ("PCMLTFR, section 123.1", OM_R1231), ("PCMLTFR, section 138", OM_R138),
+             ("PCMLTFR, section 146", OM_R146), ("PCMLTFR, section 148", OM_R148),
+             ("PCMLTFR, section 156", OM_R156), ("PCMLTFR, section 157", OM_R157)],
+    related=["fintrac-reporting-requirements.html", "fintrac-risk-assessment-msb.html", "fintrac-compliance-program-requirements.html"],
+)
+
+# Sources checked 19 November 2026. F_G4 and F_CAM come from guides_v3.py / content_v3.py.
+COC_S156 = "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-184/section-156.html"
+COC_S144 = "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-184/section-144.html"
+COC_S148 = "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-184/section-148.html"
+COC_S149 = "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-184/section-149.html"
+COC_S1113 = "https://laws-lois.justice.gc.ca/eng/acts/P-24.501/section-11.13.html"
+COC_REGREGS = "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2007-121/FullText.html"
+COC_MSBREG = "https://fintrac-canafe.canada.ca/msb-esm/reg-eng"
+COC_VIDEO = "https://fintrac-canafe.canada.ca/training-formation/mortgage-hypotheque/video-eng"
+COC_PUBLIC = "https://fintrac-canafe.canada.ca/public/businesses-entreprises-eng"
+
+GUIDES["choosing-outsourced-compliance-officer-canada.html"] = dict(
+    checked="19 November 2026",
+    title="How to Choose an Outsourced Compliance Officer | AML Canada",
+    desc="A buyer's checklist for choosing an outsourced compliance officer in Canada: questions to ask, what the agreement should record, and FINTRAC warning signs.",
+    crumb="Choosing an outsourced CO",
+    h1="How to choose an outsourced compliance officer in Canada",
+    lede="How to choose an outsourced compliance officer comes down to three checks: what the provider will do for your FINTRAC program, what the written agreement gives them in authority and access, and whether anything they claim conflicts with FINTRAC's rules. This checklist is for a FINTRAC-regulated business that has already decided to outsource the role.",
+    label="Guide · Compliance officer",
+    service="outsourced-compliance-officer.html",
+    date="2026-11-19",
+    takeaways=["You can appoint an outside person as compliance officer under PCMLTFR s. 156(1)(a), but your business stays responsible for meeting its compliance program requirements.",
+               "Before you sign, get written answers on reports, onboarding reviews, policy upkeep, training, hours, access, escalation, sign-off and how decisions are recorded.",
+               "The agreement should grant access to senior management and information, name who approves what, keep every record in your systems, and set out a handover on exit.",
+               "Treat four claims as warning signs: an offer to do your effectiveness review while running your program, \"FINTRAC-approved\" wording, MSB registration called a licence, and a promise that your legal responsibility moves to the provider."],
+    sections=[
+        ("outsourced", "Can a compliance officer be outsourced?", f"""          <p>A compliance officer can be outsourced: <a href="{COC_S156}" rel="noopener">PCMLTFR s. 156(1)(a)</a> requires you to appoint "a person" responsible for implementing your compliance program, and FINTRAC's <a href="{F_G4}" rel="noopener">compliance program guidance</a> says the officer can be you or another individual. Neither text says the person must be your employee.</p>
+          <p>FINTRAC's guidance sets two limits on any outsourced arrangement. The officer may delegate certain duties but remains responsible for implementing the program, and meeting the program requirements is the reporting entity's responsibility.</p>
+          <p>Who can legally hold the role is covered in our guide to <a href="msb-compliance-officer-requirements-canada.html">MSB compliance officer requirements</a>. If you're still weighing cost and the in-house option, start with <a href="outsourced-vs-in-house-compliance-officer.html">outsourced vs in-house compliance officer</a>.</p>"""),
+        ("questions", "What questions should you ask an outsourced compliance officer?", f"""          <p>Before you sign, ask an outsourced compliance officer ten questions: which FINTRAC reports they file, which onboarding files they review, who keeps your policies and risk assessment current, who trains staff, how hours work, what access they need, how escalation works, who signs off, how decisions are recorded, and whether they would review their own work.</p>
+          <p>The table below is our outsourced CAMLO checklist, checked against the law and FINTRAC's guidance as of 19 November 2026.</p>
+          <div class="table-wrap"><table>
+            <thead><tr><th scope="col">Question to ask</th><th scope="col">Why it matters</th><th scope="col">A good answer looks like</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Which FINTRAC reports will you prepare and file?</th><td>Reporting is your business's obligation. FINTRAC's assessment manual says examiners check that suspicious transaction reports are submitted "as soon as practicable".</td><td>Names each report that applies to you, such as STRs, LCTRs, LVCTRs, EFTRs and listed person or entity property reports, who submits it, and where your copy is kept (PCMLTFR s. 144).</td></tr>
+              <tr><th scope="row">Which onboarding files will you review, and what can you decide?</th><td>Examiners assess whether your program is put into practice, and client files show it.</td><td>Names the files your team escalates, runs a client risk assessment under your framework, and ends each file with approve, reject or a request for information.</td></tr>
+              <tr><th scope="row">Who keeps the policies, procedures and risk assessment current?</th><td>Policies must be kept up to date (PCMLTFR s. 156(1)(b)), and a new development or technology must be risk-assessed before you introduce it (s. 156(2)).</td><td>Commits to updates when your business or the rules change, and leaves approval with your senior officer.</td></tr>
+              <tr><th scope="row">Who trains our staff, and who keeps the records?</th><td>You need a written training program and plan, and must deliver the training (s. 156(1)(d) and (e)).</td><td>Covers front-line staff and your escalation contact, with dated records of who attended and what was covered.</td></tr>
+              <tr><th scope="row">How many hours are included, and how is time reported?</th><td>A part-time officer works within an allowance, so you need to know what happens in a busy month.</td><td>A stated monthly allowance, a regular record of time used, and an agreed way to add hours.</td></tr>
+              <tr><th scope="row">What access do you need from us?</th><td>FINTRAC's assessment manual says examiners may confirm the officer has timely access to information from all business lines.</td><td>A specific list: client folders, onboarding and monitoring platforms, and the people who can answer questions.</td></tr>
+              <tr><th scope="row">How do we escalate, and who is our contact?</th><td>An officer can only decide on what reaches them.</td><td>One written channel for escalations, and one trained point of contact on your side who knows what a complete file contains.</td></tr>
+              <tr><th scope="row">Who signs off on reports, policy changes and client decisions?</th><td>For an entity, a senior officer must approve the policies and procedures (s. 156(1)(b)), and the business stays responsible for its program.</td><td>A written split of who decides, who approves and who acts, by name or role.</td></tr>
+              <tr><th scope="row">How will decisions be documented for an examiner?</th><td>Records must be kept so they can be provided within 30 days after a request to examine them (PCMLTFR s. 149).</td><td>Every decision recorded with its date and reasons, and stored in your systems.</td></tr>
+              <tr><th scope="row">Can you also do our two-year effectiveness review?</th><td>FINTRAC's best practice is that the review isn't done by someone directly involved in your compliance program activities.</td><td>No. They prepare documents and records for an independent reviewer you appoint.</td></tr>
+            </tbody>
+          </table></div>"""),
+        ("agreement", "What should an outsourced compliance officer agreement include?", f"""          <p>An outsourced compliance officer agreement should record the appointment and the officer's authority, their access to senior management, information and resources, who signs off on what, who owns the records, and how the role is handed over when the engagement ends.</p>
+          <ul>
+            <li>Record the formal appointment and the officer's authority. FINTRAC's <a href="{F_CAM}" rel="noopener">compliance assessment manual</a> says examiners may review documents showing you formally appointed the officer, their job description and documents describing their authority.</li>
+            <li>Grant access in writing. FINTRAC's guidance says the officer needs the authority and access to resources to implement an effective program and, as a best practice, the ability to communicate directly with senior management or the board.</li>
+            <li>Name who approves. For an entity, PCMLTFR s. 156(1)(b) requires a senior officer to approve the policies and procedures. Section 1(2) defines a senior officer to include a director who is a full-time employee, the CEO, and other officers who report directly to the board, CEO or COO.</li>
+            <li>Keep the records yours. Your business must keep its records for at least five years (<a href="{COC_S148}" rel="noopener">PCMLTFR s. 148(1)</a>), keep a copy of every report it sends to FINTRAC (<a href="{COC_S144}" rel="noopener">s. 144</a>), and be able to provide records within 30 days of a request (<a href="{COC_S149}" rel="noopener">s. 149</a>). Under s. 148(2), a person under contract isn't required to keep records that belong to the business after the contract ends, so the agreement should keep every record in your systems.</li>
+            <li>Plan the handover. An MSB's registration includes the compliance officer's name, address, phone number and email (<a href="{COC_REGREGS}" rel="noopener">Registration Regulations</a>, Schedule 1, Part B, item 11), and <a href="{COC_S1113}" rel="noopener">PCMLTFA s. 11.13(1)</a> requires you to notify FINTRAC of a change within 30 days after you become aware of it. In our view, the agreement should set a notice period, list what is handed back (open files, pending reports, policies, training records) and say who covers the role in between.</li>
+          </ul>"""),
+        ("warning-signs", "What are the warning signs when choosing a provider?", f"""          <p>Four warning signs follow from the law and from FINTRAC's own guidance and public statements: an offer to run your program and also review it, a claim to be FINTRAC-approved or certified, MSB registration called a licence, and a promise that your legal responsibility moves to the provider.</p>
+          <h3>They offer to review their own work</h3>
+          <p>PCMLTFR s. 156(3) requires the two-year review to be carried out and documented by an internal or external auditor, or by you if you have no auditor. FINTRAC's best practice is that the reviewer isn't directly involved in your compliance program activities, and a provider running your program is. In our engagements, we prepare the documents and records, and the client appoints the independent reviewer.</p>
+          <h3>They say they are FINTRAC-approved or certified</h3>
+          <p>FINTRAC says it "does not endorse any templates or services provided by businesses or industry associations" (<a href="{COC_VIDEO}" rel="noopener">FINTRAC compliance program video</a>), and as of 19 November 2026 we found no FINTRAC program that approves or certifies compliance consultants. FINTRAC's training guidance puts the check on you: with an external service provider, you may need to determine whether their services and content suit your business. Ask what the claim refers to, and look for it on FINTRAC's own website.</p>
+          <h3>They call MSB registration a licence</h3>
+          <p>FINTRAC's <a href="{COC_MSBREG}" rel="noopener">MSB registry page</a> says registration doesn't indicate that FINTRAC endorses or licenses the business, and that FINTRAC doesn't issue licences or certificates of registration. Its <a href="{COC_PUBLIC}" rel="noopener">consumer page</a> says FINTRAC doesn't have the authority to issue licences to the businesses it regulates.</p>
+          <h3>They say the responsibility moves to them</h3>
+          <p>FINTRAC's guidance says the compliance officer stays responsible for implementing the program when duties are delegated, and that meeting the program requirements is the reporting entity's responsibility. An agreement can divide the work, and your obligations under the PCMLTFA stay with you.</p>"""),
+        ("scope", "What does a well-scoped engagement include?", """          <p>In our engagements, a well-scoped outsourced compliance officer arrangement is written as a split of who does what: we act as compliance officer and file your FINTRAC reports, and your team escalates complete files, handles all customer contact and runs day-to-day monitoring.</p>
+          <p>Our side covers FINTRAC reports and other filings, such as MSB registration changes; the policies, procedures and risk assessment; decisions on escalated onboarding files and transactions; help designing onboarding controls and monitoring rules; and staff training. The client's side covers escalating through one shared channel, sending information requests to customers, building and integrating systems, giving us access to folders and platforms, and appointing the independent effectiveness reviewer. Our role is advisory, and following that advice in practice is the client's responsibility.</p>
+          <p>The day-to-day workflow after you sign is in <a href="outsourced-compliance-officer-how-it-works.html">how an outsourced compliance officer works</a>, and the service and fee are on our <a href="outsourced-compliance-officer.html">outsourced compliance officer</a> page.</p>"""),
+        ("pillars", "What are the 7 pillars of compliance, and what does FINTRAC require?", """          <p>The PCMLTFA and its regulations don't use a seven-pillar list. For a FINTRAC-regulated business, PCMLTFR s. 156(1) sets out the program in six paragraphs, (a) to (f), which FINTRAC groups as five required elements because it treats the training program and training plan as one. A provider's scope should show which ones it covers.</p>
+          <ol>
+            <li>A compliance officer (s. 156(1)(a)): the provider, with authority set out in writing.</li>
+            <li>Written policies and procedures (s. 156(1)(b)): drafted by the provider, approved by your senior officer if you're an entity.</li>
+            <li>A documented risk assessment (s. 156(1)(c)): maintained by the provider with information from your team.</li>
+            <li>A written, ongoing training program (s. 156(1)(d), part of FINTRAC's single training element): delivered by the provider if training is in scope.</li>
+            <li>A training plan and delivery of the training (s. 156(1)(e), the same training element): with records you keep.</li>
+            <li>A plan for the effectiveness review (s. 156(1)(f)): carried out every two years under s. 156(3), and, as FINTRAC's best practice, by someone not involved in running the program.</li>
+          </ol>
+          <p>Each element is explained in our guide to <a href="fintrac-compliance-program-requirements.html">FINTRAC compliance program requirements</a>.</p>"""),
+    ],
+    faqs=[("Can a compliance officer be outsourced?", "Yes. PCMLTFR s. 156(1)(a) requires you to appoint a person responsible for implementing your compliance program, and FINTRAC's guidance doesn't require that person to be an employee. The officer can delegate duties but stays responsible, and your business stays responsible for meeting its program requirements."),
+          ("What are the 7 pillars of compliance?", "Canada's AML law doesn't use a seven-pillar list. PCMLTFR s. 156(1) sets out the compliance program in six paragraphs, which FINTRAC groups as five elements: a compliance officer, written policies and procedures, a risk assessment, an ongoing training program and plan, and a two-year effectiveness review and plan."),
+          ("Can my outsourced compliance officer also do our effectiveness review?", "PCMLTFR s. 156(3) says the review is done by an internal or external auditor, or by you if you have no auditor. FINTRAC's best practice is that the reviewer isn't directly involved in your compliance program activities, so the provider running your program shouldn't also review it."),
+          ("Is there a list of FINTRAC-approved compliance consultants?", "FINTRAC says it \"does not endorse any templates or services provided by businesses or industry associations\", and as of 19 November 2026 we found no FINTRAC list of approved or certified consultants. FINTRAC's guidance says that if you use an external training provider, you may need to determine whether their services suit your business."),
+          ("Do I have to tell FINTRAC if our outsourced compliance officer changes?", "If you're an MSB, yes. The compliance officer's contact details are part of your registration information, and PCMLTFA s. 11.13(1) requires you to notify FINTRAC of a change within 30 days after you become aware of it.")],
+    sources=[("FINTRAC, Compliance program requirements video (mortgage sector)", COC_VIDEO),
+             ("FINTRAC, Compliance program requirements", F_G4), ("FINTRAC, Compliance assessment manual", F_CAM),
+             ("PCMLTFR, section 156", COC_S156), ("PCMLTFR, section 144", COC_S144), ("PCMLTFR, section 148", COC_S148),
+             ("PCMLTFR, section 149", COC_S149), ("PCMLTFA, section 11.13", COC_S1113),
+             ("Proceeds of Crime (Money Laundering) and Terrorist Financing Registration Regulations", COC_REGREGS),
+             ("FINTRAC, Money Services Business Registry", COC_MSBREG),
+             ("FINTRAC, Conducting transactions with a money services business", COC_PUBLIC)],
+    related=["outsourced-vs-in-house-compliance-officer.html", "msb-compliance-officer-requirements-canada.html", "fintrac-examination-preparation.html"],
+)
+
+# ------------------------------------------------------------------ rpaa-outsourcing-risk-management-psp.html (2026-11-19)
+# Official sources for this guide (checked 19 November 2026). Justice Laws: Act current to 2026-10-29
+# (last amended 2026-03-26); Regulations current to 2026-10-29 (last amended 2025-09-08).
+ORO_ACT = "https://laws-lois.justice.gc.ca/eng/acts/R-7.36/FullText.html"
+ORO_REGS = "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2023-229/FullText.html"
+ORO_ORIR = "https://www.bankofcanada.ca/wp-content/uploads/2024/02/operational-risk-and-incident-response.pdf"
+ORO_FAQ = "https://www.bankofcanada.ca/2026/08/frequently-asked-questions-about-retail-payments-supervision/"
+
+GUIDES["rpaa-outsourcing-risk-management-psp.html"] = dict(
+    checked="19 November 2026",
+    title="Outsource RPAA Compliance: What a PSP Keeps | AML Canada",
+    desc="Can a PSP outsource RPAA risk management? What an outside risk officer can do, what the RPAA keeps with the PSP, and who may do the independent review.",
+    crumb="Outsourcing RPAA risk management",
+    h1="Outsourcing RPAA compliance: what a PSP can hand over and what it keeps",
+    lede="A payment service provider can outsource RPAA compliance work, such as writing its risk management and incident response framework, assessing risks and drafting notices, to an outside risk officer or adviser. The PSP keeps the legal duty: approval by its senior officer and board, the notices and filings, the records and the oversight of anyone it hands work to.",
+    label="Guide · RPAA",
+    service="rpaa-compliance-program.html",
+    date="2026-11-19",
+    takeaways=["Section 17(1) of the RPAA puts the risk management and incident response framework on the PSP, and section 87 makes it liable for violations by its third-party service providers, agents and mandataries.",
+               "The senior officer and any board approve the framework under RPAR s. 5(6), and the PSP itself gives incident notices (RPAA s. 18) and submits the annual report (RPAA s. 21).",
+               "If the framework gives a role to an outside party, RPAR s. 5(5) requires it to say how the PSP oversees that party.",
+               "A PSP with an internal or external auditor needs an independent review under RPAR s. 10, done by someone with no role in the framework, so the adviser who maintains it can't do it."],
+    sections=[
+        ("answer", "Can a PSP outsource RPAA risk management?", f"""          <p>Yes. A payment service provider (PSP) can use outside people to write, run and challenge parts of its risk management and incident response framework. It can't hand over the legal duty. Section 17(1) of the <a href="{ORO_ACT}" rel="noopener">Retail Payment Activities Act</a> (RPAA) requires the PSP itself to establish, implement and maintain the framework.</p>
+          <p>The Bank of Canada's <a href="{ORO_ORIR}" rel="noopener">operational risk and incident response guideline</a> (October 2024) allows for outside help. Paragraph 4.1.1 counts people provided by a third party as part of a PSP's human resources. Paragraph 3.3 says an external party, such as a consultant, can be responsible for challenging and overseeing roles in the framework. The <a href="{ORO_REGS}" rel="noopener">Retail Payment Activities Regulations</a> (RPAR) let the framework draw on resources "whether from internal or external sources" (s. 5(1)(c)).</p>
+          <p>The PSP stays answerable. The Bank's <a href="{ORO_FAQ}" rel="noopener">retail payments supervision FAQ</a> says every PSP subject to the RPAA is responsible for ensuring compliance with the Act and its regulations. Section 87 of the Act makes a PSP liable for violations committed by its employees, third-party service providers, agents and mandataries acting within their role. As of 19 November 2026, the Justice Laws texts of the Act and the regulations are current to 29 October 2026.</p>"""),
+        ("keep", "What must stay with the PSP?", f"""          <p>Five duties stay with the PSP whoever does the drafting:</p>
+          <ul>
+            <li>Approval. Under RPAR s. 5(6), the senior officer approves the framework at least once a year and after each material change, and the board, if there is one, approves it at least once a year.</li>
+            <li>Senior officer oversight. Unless the PSP is an individual, RPAR s. 5(1)(d)(ii) makes a senior officer responsible for overseeing compliance and material decisions on operational risks and incidents.</li>
+            <li>Reports to the senior officer. Review findings (RPAR s. 8(4)), test records (s. 9(3)) and independent review gaps (s. 10(3)) go to the senior officer.</li>
+            <li>Notices and filings. Section 18 of the Act requires the PSP to notify the Bank and each materially affected end user, PSP or designated clearing house without delay. Section 21 requires the PSP to submit the annual report.</li>
+            <li>Records and access. RPAR s. 40 requires records sufficient to show compliance, kept until five years after they stop showing current compliance. Section 42 keeps records held by agents and third-party service providers accessible to the PSP, and section 17(3) of the Act requires the PSP to give the Bank the documents and data it asks for in an assessment.</li>
+          </ul>
+          <p>What each framework must contain is covered in our guide to <a href="rpaa-compliance-frameworks.html">RPAA compliance frameworks</a>.</p>"""),
+        ("senior-officer", "Can an outside risk officer be the PSP's senior officer?", f"""          <p>Only if the person meets the definition in section 1 of the RPAR. A senior officer is a board member who is also a full-time employee; the CEO, COO, CFO, chief risk officer or another listed officer, or someone performing similar functions; or any other officer who reports directly to the board, CEO or COO.</p>
+          <p>The Bank's FAQ says that, because of that last branch, a senior officer need not be a direct employee of the PSP, provided they report directly to the board, CEO or COO. The PSP should assess whether the person has the capabilities, including seniority and authority, to fulfil the role.</p>
+          <p>Choosing the senior officer is the PSP's decision. Under our risk officer scope, the PSP's team approves the framework at board level.</p>"""),
+        ("oversight", "How must a PSP oversee an outside risk officer?", f"""          <p>If the framework gives any role or responsibility to a third party, RPAR s. 5(5) requires it to set out the systems, policies, procedures, processes, controls or other means the PSP uses to oversee how that party carries it out. Paragraph 3.13 of the guideline says this should include who conducts due diligence and who monitors delivery of the services and performance of the roles.</p>
+          <p>Whether an outside adviser is also a third-party service provider under section 2 of the Act depends on the contract and the nature of the services, the Bank's FAQ says. Paragraph 12.1.2 of the guideline says each PSP must assess which of its providers are in scope. For those in scope, the yearly and pre-contract assessments in RPAR s. 5(3) apply.</p>
+          <p>Paragraph 3.3 also asks PSPs to respect separation of duties where necessary and feasible, so that one individual doesn't control a process from start to end. Our scope splits the work this way: we design the framework, assess the risks, review and advise, and the PSP's team runs the operations.</p>"""),
+        ("independent-review", "Who can carry out the independent review?", f"""          <p>The independent review must be done by a sufficiently skilled individual who has had no role in establishing, implementing or maintaining the framework. RPAR s. 10(1) requires a PSP with an internal or external auditor to have that person review the framework at least once every three years. The review covers whether each element meets section 5 and whether the PSP complies with sections 6 to 9.</p>
+          <p>That rules out the outside risk officer who writes and maintains your framework. Paragraph 11.4 of the guideline says the reviewer may be a PSP employee or an external party, provided they meet those conditions. Under paragraph 11.2, a PSP "has an external auditor" when it regularly uses one for independent assurance; ad hoc use for specific testing or reviews doesn't count.</p>
+          <p>The PSP must obtain a record of the reviewer's name, or the reviewing entity's name, with the date, scope, methodology and findings (RPAR s. 10(2)). It reports gaps, vulnerabilities and the measures taken to the senior officer (s. 10(3)). Under our scope, we prepare the framework documentation for the reviewer, and the PSP appoints the reviewer and acts on the findings.</p>"""),
+        ("who-does-what", "How to outsource RPAA compliance: who does what", f"""          <p>AML Canada acts as a fractional, part-time RPAA risk officer for PSPs in Canada. We design the framework, assess the risks, review and advise, and the PSP's team runs the operations and handles all administration. The table shows the split across eight areas, with the rule in each area that stays with the PSP.</p>
+          <div class="table-wrap"><table>
+            <thead><tr><th scope="col">Area</th><th scope="col">Outside risk officer (us)</th><th scope="col">PSP's team</th><th scope="col">Rule that stays with the PSP</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Risk framework</th><td>Write and maintain the risk management and incident response framework, and update it when the business or the rules change</td><td>Approve the framework at board level and follow it in day-to-day operations</td><td>Approval by the senior officer and any board, RPAR s. 5(6)</td></tr>
+              <tr><th scope="row">Risk assessment</th><td>Identify and assess operational risks, set the risk register methodology and review the register</td><td>Keep the register current, assign risk owners and carry out mitigation actions</td><td>Yearly review with findings to the senior officer, RPAR s. 8</td></tr>
+              <tr><th scope="row">Safeguarding of funds</th><td>Document the safeguarding arrangement and review reconciliations for exceptions</td><td>Run daily reconciliations, manage the safeguarding account and keep the records</td><td>Holding end-user funds by a permitted method, RPAA s. 20(1); safeguarding framework, RPAR s. 15</td></tr>
+              <tr><th scope="row">Incident response</th><td>Assess escalated incidents, advise on the response and draft Bank of Canada and end-user notices</td><td>Detect and log incidents, escalate them to us, fix the issue and send the notices</td><td>Notice without delay, RPAA s. 18</td></tr>
+              <tr><th scope="row">Third-party risk</th><td>Set the due diligence standard and assess the risk of each agent, mandatary and provider</td><td>Collect vendor documents, manage contracts and keep the vendor list current</td><td>Assessments, RPAR s. 5(3) and (4); liability for their violations, RPAA s. 87</td></tr>
+              <tr><th scope="row">Business continuity</th><td>Review continuity and recovery plans and advise on test scenarios</td><td>Write the technical recovery procedures, run the tests and record the results</td><td>Test records to the senior officer, RPAR s. 9</td></tr>
+              <tr><th scope="row">Reporting</th><td>Prepare risk reports for the board and draft the annual report and significant change notices</td><td>Supply the data, hold board meetings and file with the Bank of Canada</td><td>Annual report, RPAA s. 21; significant change notice, RPAA s. 22</td></tr>
+              <tr><th scope="row">Independent review</th><td>Prepare framework documentation for the reviewer</td><td>Appoint the independent reviewer and act on the findings</td><td>Reviewer with no role in the framework, RPAR s. 10</td></tr>
+            </tbody>
+          </table></div>
+          <p>Administrative work is not included: data entry, filing and record keeping, scheduling and minuting meetings, chasing vendors or staff for documents, submitting filings on portals, and building or configuring systems. Those tasks stay with the PSP's team.</p>
+          <p>Our guides cover the detail behind several rows: <a href="rpaa-incident-reporting.html">incident notices</a>, <a href="rpaa-safeguarding-end-user-funds.html">safeguarding end-user funds</a>, <a href="rpaa-business-continuity-testing.html">continuity testing</a> and the <a href="rpaa-annual-report.html">annual report</a>.</p>"""),
+        ("before-you-sign", "What to settle before you outsource", f"""          <p>Write the outside role into the framework itself, because RPAR s. 5(1)(d) requires the framework to allocate roles and responsibilities. Before the engagement starts, check that:</p>
+          <ul>
+            <li>the framework names the outside risk officer's role and the means of overseeing it (RPAR s. 5(5));</li>
+            <li>you have named a senior officer who meets the section 1 definition and has the seniority and authority the Bank's FAQ describes;</li>
+            <li>you have assessed whether the adviser is a third-party service provider and, if so, covered it in your section 5(3) assessments;</li>
+            <li>the records the adviser works on stay accessible to you and are kept for the period in RPAR s. 40;</li>
+            <li>someone inside the PSP gives the notices and files the reports, since the Act puts those duties on the PSP;</li>
+            <li>if you have an internal or external auditor, the independent reviewer is someone other than the adviser who maintains the framework.</li>
+          </ul>
+          <p>Our <a href="rpaa-compliance-program.html">RPAA compliance program</a> (US$3,500) writes the framework documents, and our risk officer service then maintains and reviews them with your team.</p>"""),
+    ],
+    faqs=[("Can a PSP outsource risk management under the RPAA?", "It can outsource the work, and the Bank's guideline counts people provided by a third party as part of a PSP's human resources. The legal duties stay with the PSP: section 17(1) of the RPAA requires it to maintain the framework, and section 87 makes it liable for violations by its third-party service providers, agents and mandataries."),
+          ("Can an outside consultant be the PSP's senior officer?", "Only if they meet the definition in section 1 of the RPAR. The Bank's FAQ says a senior officer need not be a direct employee if they report directly to the board, CEO or COO, and the PSP should assess their seniority and authority."),
+          ("Can the adviser who wrote our framework do the independent review?", "No. RPAR s. 10(1) requires a sufficiently skilled individual who has had no role in establishing, implementing or maintaining the framework. The review is required at least every three years for PSPs with an internal or external auditor."),
+          ("Is an outside risk officer a third-party service provider?", "It depends on the contract and the services. The RPAA defines a third-party service provider as one that provides a service related to a payment function under a contract. Either way, RPAR s. 5(5) requires the framework to set out how the PSP oversees any third party given a role in it."),
+          ("Who files incident notices and the annual report if risk work is outsourced?", "The PSP. Section 18 of the RPAA requires the PSP to give incident notices and section 21 requires it to submit the annual report. Under our scope, we draft the notices and the annual report, and the PSP's team sends and files them.")],
+    sources=[("Retail Payment Activities Act", ORO_ACT), ("Retail Payment Activities Regulations", ORO_REGS),
+             ("Bank of Canada, Operational risk and incident response guideline", ORO_ORIR),
+             ("Bank of Canada, Retail payments supervision FAQ", ORO_FAQ)],
+    related=["rpaa-compliance-frameworks.html", "rpaa-incident-reporting.html", "rpaa-safeguarding-end-user-funds.html"],
+)
+
+# ------------------------------------------------------------------ rpaa-business-continuity-testing.html (2026-11-19)
+# Official sources read 19 November 2026. Justice Laws: Act current to 2026-10-29 (last amended 2026-03-26);
+# Regulations current to 2026-10-29 (last amended 2025-09-08). Bank of Canada guideline PDF dated October 2024.
+BCT_ACT = "https://laws-lois.justice.gc.ca/eng/acts/R-7.36/page-2.html"
+BCT_REGS = "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2023-229/FullText.html"
+BCT_ORIR = "https://www.bankofcanada.ca/wp-content/uploads/2024/02/operational-risk-and-incident-response.pdf"
+BCT_CYBER = "https://www.cyber.gc.ca/en/guidance/developing-your-business-continuity-plan-itsap10005"
+BCT_OSC = ("https://www.osc.ca/en/securities-law/instruments-rules-policies/1/11-764/"
+           "osc-staff-notice-11-764-business-continuity-planning-industry-testing-exercise")
+
+GUIDES["rpaa-business-continuity-testing.html"] = dict(
+    checked="19 November 2026",
+    title="RPAA Business Continuity Plan and Testing for PSPs | AML Canada",
+    desc="What an RPAA business continuity plan must cover, the recovery targets the Bank of Canada recommends, how and how often to test it, and what records to keep.",
+    crumb="RPAA continuity and testing",
+    h1="RPAA business continuity plan: recovery and testing for PSPs",
+    lede="An RPAA business continuity plan is the recovery part of the risk management and incident response framework every payment service provider must keep. The regulations require a response and recovery plan, measurable reliability targets and a testing methodology with a record of each test. This guide covers what the plan contains, how and how often to test it, and what to keep.",
+    label="Guide · RPAA",
+    service="rpaa-compliance-program.html",
+    date="2026-11-19",
+    takeaways=["Continuity and recovery sit inside the risk management and incident response framework under RPAA s. 17(1) and RPAR s. 5.",
+               "RPAR s. 9 sets no fixed test frequency: your methodology sets it, and you must test before any material change.",
+               "Each test needs a record of its date, methodology, results and actions, sent to the senior officer if there is one.",
+               "Tests must take into account your reliance on third-party service providers."],
+    sections=[
+        ("answer", "What must an RPAA business continuity plan cover?", f"""          <p>The <a href="{BCT_ACT}" rel="noopener">Retail Payment Activities Act</a> (RPAA) has no stand-alone business continuity rule. Continuity and recovery sit inside the risk management and incident response framework that section 17(1) requires of every payment service provider (PSP). Section 5 of the <a href="{BCT_REGS}" rel="noopener">Retail Payment Activities Regulations</a> (RPAR) sets out the contents.</p>
+          <p>The continuity parts are:</p>
+          <ul>
+            <li>an objective of performing retail payment activities without reduction, deterioration or breakdown, including keeping systems and data available (s. 5(1)(a)(i));</li>
+            <li>measurable reliability targets and indicators (s. 5(1)(b));</li>
+            <li>business continuity and resilience risks and their causes (s. 5(1)(f)(i));</li>
+            <li>a response and recovery plan that covers incidents involving agents, mandataries or third-party service providers (s. 5(1)(i));</li>
+            <li>manual processes or alternate solutions if primary systems fail, and how quickly they start (s. 5(1)(i)(ii));</li>
+            <li>how you will confirm the status of all transactions, recover lost or corrupted data and correct integrity issues (s. 5(1)(i)(vii)).</li>
+          </ul>
+          <p>Section 5(2) requires all of it to be proportionate to the impact a breakdown could have on end users and other PSPs. Our guide to <a href="rpaa-compliance-frameworks.html">RPAA compliance frameworks</a> covers the rest of the framework, and our guide to <a href="rpaa-incident-reporting.html">RPAA incident reporting</a> covers notices to the Bank.</p>"""),
+        ("recovery", "What recovery objectives does the Bank of Canada recommend?", f"""          <p>Paragraph 2.7 of the Bank's <a href="{BCT_ORIR}" rel="noopener">Operational risk and incident response guideline</a> (October 2024) recommends that more ubiquitous or interconnected PSPs set, at a minimum, system availability targets, recovery time objectives, maximum tolerable downtimes and recovery point objectives. Every PSP still needs measurable reliability targets under RPAR s. 5(1)(b).</p>
+          <p>Appendix B defines them:</p>
+          <ul>
+            <li>A system availability target is the percentage of time a system or service should be fully available.</li>
+            <li>A recovery time objective is the maximum time, set by the PSP, within which a disrupted system or service should resume.</li>
+            <li>A maximum tolerable downtime is the recovery time objective plus the work recovery time needed to verify data and bring it up to date.</li>
+            <li>A recovery point objective is the maximum data loss, measured in time, you will accept.</li>
+          </ul>"""),
+        ("what", "What is business continuity testing?", f"""          <p>Under RPAR s. 9(1), business continuity testing is part of a testing methodology every PSP must establish and implement. Its purpose is to find gaps in the effectiveness of, and vulnerabilities in, the systems, policies, procedures, processes and controls in its risk management and incident response framework.</p>
+          <p>The methodology must be proportionate (s. 9(1)(a)) and cover high-likelihood and high-impact risks (s. 9(1)(b)). Its tests must involve internal stakeholders, including agents, mandataries and decision-makers, and take into account reliance on third-party service providers (s. 9(1)(c)). It must set the frequency and scope of testing (s. 9(1)(d)) and test before any material change (s. 9(1)(e)).</p>
+          <p>Paragraph 10.7 of the guideline expects three categories of test: verifying and validating controls, scenario-based testing, and testing of changes.</p>"""),
+        ("how", "How do you test a business continuity plan?", f"""          <p>You test a business continuity plan by running exercises on scenarios drawn from your own identified risks, then checking whether people, backups and workarounds perform as written. Appendix G of the Bank's guideline lists methods: documentation review, interviews, sample-based testing, desktop reviews, tabletop exercises, walk-throughs and simulations.</p>
+          <p>Appendix G says incident response plan tests should cover:</p>
+          <ul>
+            <li>escalation channels and decision-making arrangements;</li>
+            <li>whether staff can follow the plan and return to normal operations;</li>
+            <li>whether backups work and backed-up data can be reliably retrieved;</li>
+            <li>any manual workarounds or alternative processing the plan relies on.</li>
+          </ul>
+          <p>Scenarios should be based on known operational risks, change as operations develop, and come with a documented rationale, according to Appendix G. The Canadian Centre for Cyber Security's <a href="{BCT_CYBER}" rel="noopener">ITSAP.10.005</a> is general guidance and not an RPAA requirement. It names seminars, tabletop exercises and live simulations as ways to test a plan.</p>"""),
+        ("frequency", "How often should a business continuity plan be tested?", f"""          <p>As of 19 November 2026, the RPAR sets no fixed number of tests per year. Section 9(1)(d) makes your own testing methodology set the frequency and scope of testing. Section 9(1)(e) adds a test before you adopt any material change to the framework's systems, policies, procedures, processes or controls, or to operations that affect them.</p>
+          <p>Paragraph 10.4 of the guideline asks for a risk-based approach that tests more important systems more often and in more depth. Section 8(1) of the RPAR requires a framework review at least once a year, so an exercise before each review gives it current results.</p>
+          <p>Securities regulators set yearly cycles for some of their own sectors. The OSC's <a href="{BCT_OSC}" rel="noopener">Staff Notice 11-764</a> (2011) notes that National Instrument 21-101 requires marketplaces to test their plans at least annually. That rule does not apply to PSPs.</p>"""),
+        ("records", "What to record and how results feed the framework review", f"""          <p>RPAR s. 9(2) requires a record of each test showing its date, methodology, results and the measures taken or planned in response. Section 9(3) requires the record to go to the senior officer, if you have one. Paragraph 10.20 of the guideline adds the scope tested and your reasons for leaving any gap unremedied.</p>
+          <p>Section 8(2)(b) requires the framework review to evaluate how well you met your objectives against your targets and indicators. Appendix F of the guideline lists lessons learned from testing, and the status of resulting actions, among the review's sources. Section 40 requires records to be kept until five years after they stop showing current compliance.</p>
+          <div class="table-wrap"><table>
+            <thead><tr><th scope="col">Requirement</th><th scope="col">Source</th><th scope="col">Evidence to keep</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Reliability targets</th><td>RPAR s. 5(1)(b); guideline Appendix B</td><td>Recovery time and recovery point objectives per critical system</td></tr>
+              <tr><th scope="row">Manual workarounds</th><td>RPAR s. 5(1)(i)(ii)</td><td>Procedures with expected activation times</td></tr>
+              <tr><th scope="row">Written methodology</th><td>RPAR s. 9(1)(d)</td><td>Approved methodology and test calendar</td></tr>
+              <tr><th scope="row">Scenarios</th><td>RPAR s. 9(1)(b); guideline Appendix G</td><td>Scenario list with reasons</td></tr>
+              <tr><th scope="row">Stakeholders and providers</th><td>RPAR s. 9(1)(c)</td><td>Participants and provider assumptions tested</td></tr>
+              <tr><th scope="row">Backups</th><td>Guideline Appendix G</td><td>Restore test results</td></tr>
+              <tr><th scope="row">Pre-change test</th><td>RPAR s. 9(1)(e)</td><td>Test record and fix-first decision</td></tr>
+              <tr><th scope="row">Test record to senior officer</th><td>RPAR s. 9(2) and (3)</td><td>Record and sign-off</td></tr>
+              <tr><th scope="row">Results in the review</th><td>RPAR s. 8; guideline Appendix F</td><td>Review record citing test results</td></tr>
+            </tbody>
+          </table></div>"""),
+        ("third-parties", "How do third-party providers fit into a continuity plan?", f"""          <p>RPAR s. 5(1)(i)(i) requires your response and recovery plan to take into account each third-party service provider's incident response procedures and the need to coordinate with them. Section 9(1)(c)(ii) requires tests that take into account your reliance on those providers.</p>
+          <ul>
+            <li>Paragraph 10.14 of the guideline suggests testing assumptions about whether a provider's services will be available.</li>
+            <li>Appendix H lists a provider's business continuity and disaster recovery arrangements, and its testing of them, among the practices to assess.</li>
+            <li>Paragraph 12.26 lists adding a provider's services to your testing methodology as a compensating control.</li>
+          </ul>
+          <p>Paragraph 10.6 lets you use testing done for other purposes if it meets the objectives of section 9. What you can hand to a provider is covered in our guide to <a href="rpaa-outsourcing-risk-management-psp.html">RPAA outsourcing risk management</a>.</p>"""),
+        ("who", "Who does what when we act as your risk officer", f"""          <p>When we act as a PSP's part-time risk officer under the RPAA, we review its continuity and recovery plans and advise on test scenarios. The PSP's own team writes the technical recovery procedures, runs the tests and records the results.</p>
+          <div class="table-wrap"><table>
+            <thead><tr><th scope="col">Area</th><th scope="col">Us</th><th scope="col">PSP's team</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Business continuity</th><td>Review continuity and recovery plans and advise on test scenarios.</td><td>Write the technical recovery procedures, run the tests and record the results.</td></tr>
+              <tr><th scope="row">Independent review</th><td>Prepare framework documentation for the reviewer.</td><td>Appoint the independent reviewer and act on the findings.</td></tr>
+            </tbody>
+          </table></div>
+          <p>Administrative work, such as scheduling meetings or chasing vendors for documents, is not included. Our <a href="rpaa-compliance-program.html">RPAA compliance program</a> page describes the frameworks we write.</p>"""),
+    ],
+    faqs=[("Does the RPAA require a business continuity plan by that name?", "No. RPAR s. 5 requires a response and recovery plan, reliability targets and the identification of business continuity and resilience risks inside the risk management and incident response framework."),
+          ("Does a PSP have to test its plan every year?", "The RPAR sets no fixed frequency. Your testing methodology sets it under s. 9(1)(d), and s. 9(1)(e) requires a test before any material change."),
+          ("Who has to see the test results?", "RPAR s. 9(3) requires the record of each test to go to the senior officer, if the PSP has one."),
+          ("Can testing done for another purpose count?", "Yes, if it meets the objectives of section 9, according to paragraph 10.6 of the Bank's guideline. If its scope falls short, run additional tests."),
+          ("Are Cyber Centre or OSC documents binding on PSPs?", "No. The binding rules are the RPAA and the RPAR. The Bank of Canada's guideline sets out its supervisory expectations for meeting them.")],
+    sources=[("Retail Payment Activities Act, ss. 17 to 19", BCT_ACT),
+             ("Retail Payment Activities Regulations (SOR/2023-229)", BCT_REGS),
+             ("Bank of Canada, Operational risk and incident response guideline (October 2024)", BCT_ORIR),
+             ("Canadian Centre for Cyber Security, Developing your business continuity plan (ITSAP.10.005)", BCT_CYBER),
+             ("Ontario Securities Commission, Staff Notice 11-764", BCT_OSC)],
+    related=["rpaa-compliance-frameworks.html", "rpaa-incident-reporting.html", "psp-insolvency-end-user-funds-canada.html"],
+)
+
+# 2026-11-19 additions to existing guides (seo-run/pages/_refresh, fact checked)
+# Additions to three existing guides (drafted 19 November 2026). Exec in the guides_v3 namespace:
+# uses its constants B_SG, B_SG_FAQ, L_RPAR, F_G4, L_PCMLTFR. Sources checked 19 November 2026.
+
+# 1. rpaa-safeguarding-end-user-funds.html
+SAFEGUARD_SECTION = ("reconcile", "How should a PSP reconcile safeguarded funds?", f"""          <p>Reconciling safeguarded funds means comparing the end-user funds your ledger says you hold with the funds in your safeguarding account or the insurance or guarantee cover. The Bank's <a href="{B_SG}" rel="noopener">safeguarding guideline</a> treats it as a shortfall when the safeguarded or covered amount is less than the funds held, and says a PSP should take daily measures to find one as a best practice.</p>
+          <h3>What the ledger must show</h3>
+          <ul>
+            <li>Under paragraph 15(2)(b) of the <a href="{L_RPAR}" rel="noopener">Retail Payment Activities Regulations</a> (RPAR), the ledger sets out each end user's name and contact information and the amount held for each at the end of each day.</li>
+            <li>Paragraph 3.9 says you must update it each day, and as a best practice in real time.</li>
+            <li>Paragraph 3.7.1 says it must record three totals: funds held, funds safeguarded and funds still to be safeguarded.</li>
+            <li>Under paragraphs 2.7 and 4.8, funds not placed on receipt due to unavoidable processing constraints are recorded as yet to be placed, and count as a shortfall.</li>
+            <li>Under paragraph 2.9, if end users expect their funds to be in trust, a delay leaving them outside the trust account may breach your duties as trustee.</li>
+          </ul>
+          <p>If you use insurance or a guarantee, the Bank's <a href="{B_SG_FAQ}" rel="noopener">FAQ</a> says your coverage valuation should account for daily changes in held funds, and you should monitor it on an ongoing basis. RPAR section 40 requires records showing your compliance, kept until five years after they stop demonstrating your current compliance.</p>
+          <h3>Who does what</h3>
+          <p>When we act as a PSP's risk officer:</p>
+          <ul>
+            <li>The PSP's team runs daily reconciliations, manages the safeguarding account and keeps the records.</li>
+            <li>We document the safeguarding arrangement and review the reconciliations for exceptions.</li>
+          </ul>
+          <p>RPAR subsection 17(1) bars anyone who identified shortfalls from the three-year independent review, so the PSP appoints someone else.</p>""")
+SAFEGUARD_AFTER = "shortfalls"
+SAFEGUARD_SOURCES = []  # guideline, FAQ and RPAR are already listed on the page
+
+# 2. outsourced-vs-in-house-compliance-officer.html
+INHOUSE_SECTION = ("trade-offs", "What are the benefits and trade-offs of outsourcing?", f"""          <p>Outsourcing the compliance officer role gives you someone who already files FINTRAC reports and reviews onboarding files, hours that grow with your workload, and a second-line reviewer above your operations team. The trade-offs are that monitoring becomes shared work, your business keeps its obligations, and your team still builds the systems.</p>
+          <h3>Benefits</h3>
+          <ul>
+            <li>An outsourced officer brings experience of preparing and filing reports such as STRs, LCTRs, LVCTRs and EFTRs, and of reviewing escalated client files.</li>
+            <li>With us, each escalated file gets a customer risk assessment under your compliance framework and a decision to approve, reject or request more information.</li>
+            <li>You can start with a small number of hours and add more as volumes grow.</li>
+            <li>Your operations team stays the first line. It escalates files and transactions through a shared channel and handles customer contact, and the officer makes the compliance decision.</li>
+          </ul>
+          <h3>Trade-offs</h3>
+          <ul>
+            <li>Monitoring is shared. A part-time officer isn't watching your platforms full time, so your team runs day-to-day monitoring and brings the officer anything that needs a compliance decision.</li>
+            <li>The officer documents the requirements and advises on them. Following that advice in practice is your business's responsibility.</li>
+            <li>With us, integration is out of scope. The officer advises on onboarding controls and monitoring rules, and your team or providers build and connect the systems.</li>
+            <li>The effectiveness review is best done by someone else. <a href="{F_G4}" rel="noopener">FINTRAC's guidance</a> says that as a best practice the review shouldn't be done by someone directly involved in your compliance program activities, so an outsourced officer prepares the records for it and you appoint an independent reviewer.</li>
+          </ul>""")
+INHOUSE_AFTER = "compare"
+INHOUSE_SOURCES = []  # FINTRAC compliance program guidance (F_G4) is already listed
+
+# 3. fintrac-effectiveness-review-checklist.html
+EFFREVIEW_FAQ = ("Can our compliance officer do the two-year effectiveness review?",
+                 "It's best avoided. PCMLTFR s. 156(3) says an internal or external auditor carries out the review, or the business itself if it has no auditor. FINTRAC's guidance says the compliance officer is responsible for implementing every element of the program, and that as a best practice the review shouldn't be done by someone directly involved in compliance program activities. A reviewer outside the officer's work meets that best practice.")
+EFFREVIEW_SOURCES = [("Proceeds of Crime (Money Laundering) and Terrorist Financing Regulations", L_PCMLTFR)]
+
+def _add_section(slug, after, section, sources):
+    secs = GUIDES[slug]["sections"]
+    secs.insert([sid for sid, *_ in secs].index(after) + 1, section)
+    GUIDES[slug]["sources"] = list(GUIDES[slug]["sources"]) + list(sources)
+    GUIDES[slug]["modified"] = "2026-11-19"
+
+
+_add_section("rpaa-safeguarding-end-user-funds.html", SAFEGUARD_AFTER, SAFEGUARD_SECTION, SAFEGUARD_SOURCES)
+_add_section("outsourced-vs-in-house-compliance-officer.html", INHOUSE_AFTER, INHOUSE_SECTION, INHOUSE_SOURCES)
+GUIDES["fintrac-effectiveness-review-checklist.html"]["faqs"] = list(GUIDES["fintrac-effectiveness-review-checklist.html"]["faqs"]) + [EFFREVIEW_FAQ]
+GUIDES["fintrac-effectiveness-review-checklist.html"]["sources"] = list(GUIDES["fintrac-effectiveness-review-checklist.html"]["sources"]) + list(EFFREVIEW_SOURCES)
+GUIDES["fintrac-effectiveness-review-checklist.html"]["modified"] = "2026-11-19"
+
 
 GUIDES = dict(sorted(GUIDES.items(), key=lambda kv: (kv[1].get("date", PUBLISHED), list(GUIDES).index(kv[0])), reverse=True))

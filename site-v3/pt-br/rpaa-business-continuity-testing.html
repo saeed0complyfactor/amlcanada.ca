@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Plano de continuidade de negócios e testes da RPAA para PSPs | AML Canada</title>
+<meta content="O que um plano de continuidade de negócios da RPAA deve abranger, as metas de recuperação que o Banco do Canadá recomenda, como e com que frequência testá-lo e que registros guardar." name="description"/>
+<link href="https://amlcanada.ca/pt-br/rpaa-business-continuity-testing.html" rel="canonical"/>
+<meta content="Plano de continuidade de negócios e testes da RPAA para PSPs | AML Canada" property="og:title"/>
+<meta content="O que um plano de continuidade de negócios da RPAA deve abranger, as metas de recuperação que o Banco do Canadá recomenda, como e com que frequência testá-lo e que registros guardar." property="og:description"/>
+<meta content="article" property="og:type"/>
+<meta content="2026-11-19" property="article:modified_time"/>
+<meta content="https://amlcanada.ca/pt-br/rpaa-business-continuity-testing.html" property="og:url"/>
+<meta content="AML Canada" property="og:site_name"/>
+<meta content="pt_BR" property="og:locale"/>
+<meta content="https://amlcanada.ca/og-default.png" property="og:image"/>
+<meta content="1200" property="og:image:width"/>
+<meta content="630" property="og:image:height"/>
+<meta content="AML Canada: AML compliance for businesses FINTRAC regulates" property="og:image:alt"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="#06080C" name="theme-color"/>
+<link as="font" crossorigin="" href="../fonts/geist-latin-wght.woff2" rel="preload" type="font/woff2"/>
+<link as="font" crossorigin="" href="../fonts/geist-mono-latin-wght.woff2" rel="preload" type="font/woff2"/>
+<link href="../styles.css" rel="stylesheet"/>
+<link href="../pages.css" rel="stylesheet"/>
+<link href="../favicon.ico" rel="icon" sizes="48x48"/>
+<link href="../icon-96.png" rel="icon" sizes="96x96" type="image/png"/>
+<link href="../icon-192.png" rel="icon" sizes="192x192" type="image/png"/>
+<link href="../favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="../apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="../site.webmanifest" rel="manifest"/>
+<script>document.documentElement.classList.add("js");</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://amlcanada.ca/pt-br/rpaa-business-continuity-testing.html#article","headline":"Plano de continuidade de negócios da RPAA: recuperação e testes para PSPs","description":"O que um plano de continuidade de negócios da RPAA deve abranger, as metas de recuperação que o Banco do Canadá recomenda, como e com que frequência testá-lo e que registros guardar.","url":"https://amlcanada.ca/pt-br/rpaa-business-continuity-testing.html","mainEntityOfPage":"https://amlcanada.ca/pt-br/rpaa-business-continuity-testing.html","image":"https://amlcanada.ca/og-default.png","inLanguage":"pt-BR","datePublished":"2026-11-19","dateModified":"2026-11-19","author":{"@id":"https://amlcanada.ca/#organization"},"publisher":{"@id":"https://amlcanada.ca/#organization"},"about":{"@id":"https://amlcanada.ca/pt-br/rpaa-compliance-program.html#service"}},{"@type":"BreadcrumbList","@id":"https://amlcanada.ca/pt-br/rpaa-business-continuity-testing.html#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Início","item":"https://amlcanada.ca/pt-br/"},{"@type":"ListItem","position":2,"name":"Guias","item":"https://amlcanada.ca/pt-br/guides.html"},{"@type":"ListItem","position":3,"name":"Continuidade e testes sob a RPAA","item":"https://amlcanada.ca/pt-br/rpaa-business-continuity-testing.html"}]}]}</script>
+  <!--i18n:alt-->
+  <link rel="alternate" hreflang="en-CA" href="https://amlcanada.ca/rpaa-business-continuity-testing.html">
+  <link rel="alternate" hreflang="fr-CA" href="https://amlcanada.ca/fr/rpaa-business-continuity-testing.html">
+  <link rel="alternate" hreflang="de" href="https://amlcanada.ca/de/rpaa-business-continuity-testing.html">
+  <link rel="alternate" hreflang="ar" href="https://amlcanada.ca/ar/rpaa-business-continuity-testing.html">
+  <link rel="alternate" hreflang="zh-Hans" href="https://amlcanada.ca/zh-hans/rpaa-business-continuity-testing.html">
+  <link rel="alternate" hreflang="zh-Hant" href="https://amlcanada.ca/zh-hant/rpaa-business-continuity-testing.html">
+  <link rel="alternate" hreflang="es" href="https://amlcanada.ca/es/rpaa-business-continuity-testing.html">
+  <link rel="alternate" hreflang="pt-BR" href="https://amlcanada.ca/pt-br/rpaa-business-continuity-testing.html">
+  <link rel="alternate" hreflang="it" href="https://amlcanada.ca/it/rpaa-business-continuity-testing.html">
+  <link rel="alternate" hreflang="pl" href="https://amlcanada.ca/pl/rpaa-business-continuity-testing.html">
+  <link rel="alternate" hreflang="ru" href="https://amlcanada.ca/ru/rpaa-business-continuity-testing.html">
+  <link rel="alternate" hreflang="uk" href="https://amlcanada.ca/uk/rpaa-business-continuity-testing.html">
+  <link rel="alternate" hreflang="x-default" href="https://amlcanada.ca/rpaa-business-continuity-testing.html">
+  <!--/i18n:alt-->
+</head>
+<body>
+<a class="skip" href="#main">Pular para o conteúdo</a>
+<svg aria-hidden="true" class="sprite" focusable="false">
+<symbol id="i-mark" viewbox="0 0 24 24"><path d="M2 8V2h6M16 2h6v6M22 16v6h-6M8 22H2v-6" fill="none" stroke="currentColor" stroke-width="2"></path><circle cx="12" cy="12" fill="var(--amber)" r="3.2"></circle></symbol>
+<symbol id="i-arrow" viewbox="0 0 16 16"><path d="M2.5 8h10M8.5 3.5 13 8l-4.5 4.5" fill="none" stroke="currentColor" stroke-width="1.5"></path></symbol>
+<symbol id="i-down" viewbox="0 0 16 16"><path d="M8 2.5v10M3.5 8.5 8 13l4.5-4.5" fill="none" stroke="currentColor" stroke-width="1.5"></path></symbol>
+<symbol id="i-check" viewbox="0 0 16 16"><path d="m3 8.5 3.2 3L13 4.5" fill="none" stroke="currentColor" stroke-width="1.6"></path></symbol>
+<symbol id="i-gap" viewbox="0 0 16 16"><circle cx="8" cy="8" fill="none" r="5.5" stroke="currentColor" stroke-width="1.5"></circle><path d="M8 5v3.6" stroke="currentColor" stroke-width="1.5"></path><circle cx="8" cy="11" fill="currentColor" r=".9"></circle></symbol>
+<symbol id="i-plus" viewbox="0 0 16 16"><path d="M8 2.5v11M2.5 8h11" fill="none" stroke="currentColor" stroke-width="1.5"></path></symbol>
+<symbol id="i-menu" viewbox="0 0 20 20"><path d="M2 7h16M2 13h16" fill="none" stroke="currentColor" stroke-width="1.5"></path></symbol>
+<symbol id="i-close" viewbox="0 0 20 20"><path d="m4 4 12 12M16 4 4 16" fill="none" stroke="currentColor" stroke-width="1.5"></path></symbol>
+<symbol id="i-chev" viewbox="0 0 16 16"><path d="m4 6 4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"></path></symbol>
+<symbol id="i-chev-r" viewbox="0 0 16 16"><path d="m6 4 4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.5"></path></symbol>
+<symbol id="i-out" viewbox="0 0 16 16"><path d="M5 11 11 5M6 5h5v5" fill="none" stroke="currentColor" stroke-width="1.6"></path></symbol>
+</svg>
+<header class="nav" data-nav="">
+<div class="nav-pill">
+<a aria-label="Página inicial da AML Canada" class="brand" href="./">
+<svg aria-hidden="true" class="brand-mark"><use href="#i-mark"></use></svg>
+<span>AML Canada</span>
+</a>
+<nav aria-label="Principal" class="mega" data-mega="">
+<ul class="mega-bar">
+<li class="mega-item">
+<button aria-controls="mega-services" aria-expanded="false" class="mega-trigger" data-mega-trigger="" type="button">Serviços<svg aria-hidden="true"><use href="#i-chev"></use></svg></button>
+<div class="mega-panel" data-mega-panel="" hidden="" id="mega-services">
+<ul class="mega-list">
+<li><a class="mega-link" data-desc="Registro no FINTRAC e no Banco do Canadá, programas de compliance, oficiais de compliance terceirizados, revisões e treinamento." data-title="Todos os serviços" href="services.html">Todos os serviços<svg aria-hidden="true"><use href="#i-chev-r"></use></svg></a></li>
+<li><a class="mega-link" data-desc="Um oficial de compliance de PLD/AML no Canadá (MLRO): revisões de onboarding, comunicações ao FINTRAC, políticas e avaliações de riscos." data-title="Oficial de compliance terceirizado" href="outsourced-compliance-officer.html">Oficial de compliance terceirizado<svg aria-hidden="true"><use href="#i-chev-r"></use></svg></a></li>
+<li><a class="mega-link" data-desc="Registro no FINTRAC para empresas de serviços monetários, MSBs estrangeiras e negociantes de moeda virtual." data-title="Registro de MSB" href="msb-registration.html">Registro de MSB<svg aria-hidden="true"><use href="#i-chev-r"></use></svg></a></li>
+<li><a class="mega-link" data-desc="Dois caminhos para ter uma MSB registrada no FINTRAC: comprar uma empresa pronta ou registrar a sua própria." data-title="Comprar ou registrar uma MSB" href="buy-or-register-msb-canada.html">Comprar ou registrar uma MSB<svg aria-hidden="true"><use href="#i-chev-r"></use></svg></a></li>
+<li><a class="mega-link" data-desc="14 documentos do programa de compliance da PCMLTFA, baseados no seu negócio." data-title="Programas de compliance" href="compliance-programs.html">Programas de compliance<svg aria-hidden="true"><use href="#i-chev-r"></use></svg></a></li>
+<li><a class="mega-link" data-desc="Registro de prestador de serviços de pagamento no Banco do Canadá nos termos da RPAA." data-title="Registro na RPAA" href="rpaa-registration.html">Registro na RPAA<svg aria-hidden="true"><use href="#i-chev-r"></use></svg></a></li>
+<li><a class="mega-link" data-desc="Estruturas de governança, riscos, resposta a incidentes, salvaguarda de fundos e continuidade para PSPs." data-title="Programa de compliance da RPAA" href="rpaa-compliance-program.html">Programa de compliance da RPAA<svg aria-hidden="true"><use href="#i-chev-r"></use></svg></a></li>
+<li><a class="mega-link" data-desc="Uma empresa canadense já registrada no FINTRAC como empresa de serviços monetários." data-title="MSB à venda" href="msb-for-sale.html">MSB à venda<svg aria-hidden="true"><use href="#i-chev-r"></use></svg></a></li>
+<li><a class="mega-link" data-desc="Uma empresa canadense, federal ou de Ontário, geralmente constituída em algumas horas a 24 horas." data-title="Constituição de empresa" href="incorporation-canada.html">Constituição de empresa<svg aria-hidden="true"><use href="#i-chev-r"></use></svg></a></li>
+<li><a class="mega-link" data-desc="Notarização e apostilas para documentos societários canadenses usados no exterior, por meio de um notário parceiro licenciado em Ontário." data-title="Apostila e notarização" href="apostille-notarization-canada.html">Apostila e notarização<svg aria-hidden="true"><use href="#i-chev-r"></use></svg></a></li>
+<li><a class="mega-link" data-desc="Uma plataforma que verifica, aprova e envia STRs, LCTRs, EFTRs e LVCTRs pelo envio de comunicações por API do FINTRAC (FINTRAC API report submission)." data-title="Software de comunicações ao FINTRAC" href="fintrac-reporting-software.html">Software de comunicações ao FINTRAC<svg aria-hidden="true"><use href="#i-chev-r"></use></svg></a></li>
+<li><a class="mega-link" data-desc="Um endereço comercial canadense para MSBs estrangeiras e empresas que entram no Canadá." data-title="Endereço canadense" href="canadian-address.html">Endereço canadense<svg aria-hidden="true"><use href="#i-chev-r"></use></svg></a></li>
+<li><a class="mega-link" data-desc="A revisão bienal exigida pelo FINTRAC e a preparação para uma fiscalização." data-title="Revisões de efetividade" href="effectiveness-reviews.html">Revisões de efetividade<svg aria-hidden="true"><use href="#i-chev-r"></use></svg></a></li>
+<li><a class="mega-link" data-desc="Treinamento em PLD/AML para equipes de linha de frente, equipes de compliance e a gerência." data-title="Treinamento" href="training.html">Treinamento<svg aria-hidden="true"><use href="#i-chev-r"></use></svg></a></li>
+</ul>
+<div aria-hidden="true" class="mega-preview">
+<p class="mega-title" data-mega-title="">Todos os serviços</p>
+<p class="mega-desc" data-mega-desc="">Registro no FINTRAC e no Banco do Canadá, programas de compliance, oficiais de compliance terceirizados, revisões e treinamento.</p>
+<a class="mega-more" data-mega-more="" href="services.html" tabindex="-1">Saiba mais<svg><use href="#i-out"></use></svg></a>
+</div>
+</div>
+</li>
+<li class="mega-item">
+<button aria-controls="mega-who" aria-expanded="false" class="mega-trigger" data-mega-trigger="" type="button">Quem atendemos<svg aria-hidden="true"><use href="#i-chev"></use></svg></button>
+<div class="mega-panel" data-mega-panel="" hidden="" id="mega-who">
+<ul class="mega-list">
+<li><a class="mega-link" data-desc="Casas de câmbio, empresas de transferência de dinheiro e outras que precisam se registrar no FINTRAC, manter-se em conformidade e fazer suas comunicações no prazo." data-title="Empresas de serviços monetários" href="who-we-help.html#msb">Empresas de serviços monetários<svg aria-hidden="true"><use href="#i-chev-r"></use></svg></a></li>
+<li><a class="mega-link" data-desc="Exchanges de cripto e negociantes de moeda virtual, que se registram no FINTRAC como empresas de serviços monetários e comunicam grandes transações em moeda virtual." data-title="Negociantes de moeda virtual" href="who-we-help.html#vc">Negociantes de moeda virtual<svg aria-hidden="true"><use href="#i-chev-r"></use></svg></a></li>
+<li><a class="mega-link" data-desc="Processadores de pagamento, carteiras digitais e outros PSPs que se registram no Banco do Canadá nos termos da RPAA e, muitas vezes, também no FINTRAC." data-title="Prestadores de serviços de pagamento" href="who-we-help.html#psp">Prestadores de serviços de pagamento<svg aria-hidden="true"><use href="#i-chev-r"></use></svg></a></li>
+<li><a class="mega-link" data-desc="Empresas fora do Canadá que atendem clientes no Canadá e precisam de uma empresa canadense, de registro, de um endereço canadense, de um oficial de compliance ou de uma empresa registrada para adquirir." data-title="Empresas estrangeiras entrando no Canadá" href="who-we-help.html#foreign">Empresas estrangeiras entrando no Canadá<svg aria-hidden="true"><use href="#i-chev-r"></use></svg></a></li>
+<li><a class="mega-link" data-desc="Startups e empresas em crescimento que precisam entender suas obrigações e cumpri-las à medida que crescem." data-title="Empresas de pagamentos e fintechs" href="who-we-help.html#fintech">Empresas de pagamentos e fintechs<svg aria-hidden="true"><use href="#i-chev-r"></use></svg></a></li>
+<li><a class="mega-link" data-desc="Oficiais de compliance em entidades declarantes que precisam de reforço, de uma revisão ou de treinamento para suas equipes." data-title="Oficiais de compliance" href="who-we-help.html#officers">Oficiais de compliance<svg aria-hidden="true"><use href="#i-chev-r"></use></svg></a></li>
+</ul>
+<div aria-hidden="true" class="mega-preview">
+<p class="mega-title" data-mega-title="">Empresas de serviços monetários</p>
+<p class="mega-desc" data-mega-desc="">Casas de câmbio, empresas de transferência de dinheiro e outras que precisam se registrar no FINTRAC, manter-se em conformidade e fazer suas comunicações no prazo.</p>
+<a class="mega-more" data-mega-more="" href="who-we-help.html#msb" tabindex="-1">Saiba mais<svg><use href="#i-out"></use></svg></a>
+</div>
+</div>
+</li>
+<li><a class="mega-plain" href="how-we-work.html">Como trabalhamos</a></li>
+<li><a class="mega-plain" href="pricing.html">Preços</a></li>
+<li><a class="mega-plain" href="guides.html">Guias</a></li>
+<li><a class="mega-plain" href="about.html">Sobre</a></li>
+</ul>
+</nav>
+<div class="nav-end">
+        <!--i18n:switch--><details class="lang-switch" data-lang-switch><summary aria-label="Idioma: Português"><svg aria-hidden="true" viewBox="0 0 16 16"><circle cx="8" cy="8" r="6.2" fill="none" stroke="currentColor" stroke-width="1.3"/><path d="M1.8 8h12.4M8 1.8c2 2 2 10.4 0 12.4M8 1.8c-2 2-2 10.4 0 12.4" fill="none" stroke="currentColor" stroke-width="1.3"/></svg><span>PT</span></summary><ul><li><a href="/rpaa-business-continuity-testing.html" hreflang="en-CA" lang="en-CA">English</a></li><li><a href="/fr/rpaa-business-continuity-testing.html" hreflang="fr-CA" lang="fr-CA">Français</a></li><li><a href="/de/rpaa-business-continuity-testing.html" hreflang="de" lang="de">Deutsch</a></li><li><a href="/ar/rpaa-business-continuity-testing.html" hreflang="ar" lang="ar">العربية</a></li><li><a href="/zh-hans/rpaa-business-continuity-testing.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li><li><a href="/zh-hant/rpaa-business-continuity-testing.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li><li><a href="/es/rpaa-business-continuity-testing.html" hreflang="es" lang="es">Español</a></li><li><a href="/pt-br/rpaa-business-continuity-testing.html" hreflang="pt-BR" lang="pt-BR" aria-current="true">Português</a></li><li><a href="/it/rpaa-business-continuity-testing.html" hreflang="it" lang="it">Italiano</a></li><li><a href="/pl/rpaa-business-continuity-testing.html" hreflang="pl" lang="pl">Polski</a></li><li><a href="/ru/rpaa-business-continuity-testing.html" hreflang="ru" lang="ru">Русский</a></li><li><a href="/uk/rpaa-business-continuity-testing.html" hreflang="uk" lang="uk">Українська</a></li></ul></details><!--/i18n:switch-->
+<a class="nbtn nbtn-amber" href="contact.html"><span>Agendar uma</span><span>consulta</span></a>
+<a class="nbtn nbtn-white" href="./#checker"><span>Diagnóstico</span><span>de lacunas</span></a>
+<a class="nbtn nbtn-grey" href="mailto:info@amlcanada.ca"><span>Fale</span><span>conosco</span></a>
+<button aria-controls="menu" aria-expanded="false" class="nav-menu" data-menu-open="" type="button">
+<svg aria-hidden="true"><use href="#i-menu"></use></svg>
+<span class="sr">Menu</span>
+</button>
+</div>
+</div>
+</header>
+<div aria-label="Menu" aria-modal="true" class="menu" data-menu="" hidden="" id="menu" role="dialog">
+<div class="menu-top">
+<a class="brand" href="./">
+<svg aria-hidden="true" class="brand-mark"><use href="#i-mark"></use></svg>
+<span>AML Canada</span>
+</a>
+<button class="nav-menu" data-menu-close="" type="button">
+<svg aria-hidden="true"><use href="#i-close"></use></svg>
+<span class="sr">Fechar menu</span>
+</button>
+</div>
+<nav aria-label="Menu" class="menu-links">
+<a data-menu-link="" href="./">Início</a>
+<a data-menu-link="" href="services.html">Serviços</a>
+<a data-menu-link="" href="who-we-help.html">Quem atendemos</a>
+<a data-menu-link="" href="how-we-work.html">Como trabalhamos</a>
+<a data-menu-link="" href="pricing.html">Preços</a>
+<a data-menu-link="" href="guides.html">Guias</a>
+<a data-menu-link="" href="about.html">Sobre</a>
+<a data-menu-link="" href="contact.html">Agendar uma consulta</a>
+</nav>
+<div class="menu-sub">
+<a data-menu-link="" href="outsourced-compliance-officer.html">Oficial de compliance terceirizado</a><a data-menu-link="" href="msb-registration.html">Registro de MSB</a><a data-menu-link="" href="buy-or-register-msb-canada.html">Comprar ou registrar uma MSB</a><a data-menu-link="" href="compliance-programs.html">Programas de compliance</a><a data-menu-link="" href="rpaa-registration.html">Registro na RPAA</a><a data-menu-link="" href="rpaa-compliance-program.html">Programa de compliance da RPAA</a><a data-menu-link="" href="msb-for-sale.html">MSB à venda</a><a data-menu-link="" href="incorporation-canada.html">Constituição de empresa</a><a data-menu-link="" href="apostille-notarization-canada.html">Apostila e notarização</a><a data-menu-link="" href="fintrac-reporting-software.html">Software de comunicações ao FINTRAC</a><a data-menu-link="" href="canadian-address.html">Endereço canadense</a><a data-menu-link="" href="effectiveness-reviews.html">Revisões de efetividade</a><a data-menu-link="" href="training.html">Treinamento</a>
+</div>
+<!--i18n:switch--><nav class="lang-menu" aria-label="Idioma"><ul><li><a href="/rpaa-business-continuity-testing.html" hreflang="en-CA" lang="en-CA">English</a></li><li><a href="/fr/rpaa-business-continuity-testing.html" hreflang="fr-CA" lang="fr-CA">Français</a></li><li><a href="/de/rpaa-business-continuity-testing.html" hreflang="de" lang="de">Deutsch</a></li><li><a href="/ar/rpaa-business-continuity-testing.html" hreflang="ar" lang="ar">العربية</a></li><li><a href="/zh-hans/rpaa-business-continuity-testing.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li><li><a href="/zh-hant/rpaa-business-continuity-testing.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li><li><a href="/es/rpaa-business-continuity-testing.html" hreflang="es" lang="es">Español</a></li><li><a href="/pt-br/rpaa-business-continuity-testing.html" hreflang="pt-BR" lang="pt-BR" aria-current="true">Português</a></li><li><a href="/it/rpaa-business-continuity-testing.html" hreflang="it" lang="it">Italiano</a></li><li><a href="/pl/rpaa-business-continuity-testing.html" hreflang="pl" lang="pl">Polski</a></li><li><a href="/ru/rpaa-business-continuity-testing.html" hreflang="ru" lang="ru">Русский</a></li><li><a href="/uk/rpaa-business-continuity-testing.html" hreflang="uk" lang="uk">Українська</a></li></ul></nav><!--/i18n:switch-->
+    <p class="menu-note"><a href="mailto:info@amlcanada.ca">info@amlcanada.ca</a></p>
+</div>
+<main id="main">
+<section aria-labelledby="page-title" class="page-hero" data-theme="dark">
+<canvas aria-hidden="true" class="page-canvas" data-label="Guia · RPAA" data-page-canvas=""></canvas>
+<div aria-hidden="true" class="page-boxes" data-page-boxes=""></div>
+<div aria-hidden="true" class="page-shade"></div>
+<div class="wrap page-hero-inner">
+<nav aria-label="Trilha de navegação" class="crumbs"><a href="./">Início</a><span aria-hidden="true">/</span><a href="guides.html">Guias</a><span aria-hidden="true">/</span><span aria-current="page">Continuidade e testes sob a RPAA</span></nav>
+<h1 id="page-title">Plano de continuidade de negócios da RPAA: recuperação e testes para PSPs</h1>
+<p class="guide-meta">Guia · Publicado em 19 de novembro de 2026 · 5 min de leitura · AML Canada</p>
+<p class="page-lede">Um plano de continuidade de negócios da RPAA é a parte de recuperação da estrutura de gestão de riscos e de resposta a incidentes que todo prestador de serviços de pagamento deve manter. O regulamento exige um plano de resposta e recuperação, metas de confiabilidade mensuráveis e uma metodologia de testes com registro de cada teste. Este guia aborda o que o plano contém, como e com que frequência testá-lo e o que guardar.</p>
+</div>
+</section>
+<section aria-labelledby="tk-title" class="takeaways" data-theme="light" id="start">
+<div class="wrap">
+<div class="tk-card">
+<h2 class="fee-label" id="tk-title">Pontos principais</h2>
+<ul class="tk-list">
+<li>A continuidade e a recuperação fazem parte da estrutura de gestão de riscos e de resposta a incidentes nos termos do art. 17(1) da RPAA e do art. 5 do RPAR.</li>
+<li>O art. 9 do RPAR não fixa uma frequência de testes: sua metodologia a define, e você deve testar antes de qualquer mudança relevante.</li>
+<li>Cada teste precisa de um registro com data, metodologia, resultados e ações, enviado ao executivo sênior, se houver.</li>
+<li>Os testes devem levar em conta sua dependência de prestadores de serviços terceirizados.</li>
+</ul>
+</div>
+</div>
+</section>
+<section aria-label="Guia" class="guide" data-theme="light">
+<div class="wrap legal-grid">
+<nav aria-label="Nesta página" class="legal-toc">
+<p class="legal-toc-h">Nesta página</p>
+<ol>
+<li><a href="#answer">O que um plano de continuidade de negócios da RPAA deve abranger?</a></li>
+<li><a href="#recovery">Que objetivos de recuperação o Banco do Canadá recomenda?</a></li>
+<li><a href="#what">O que são testes de continuidade de negócios?</a></li>
+<li><a href="#how">Como se testa um plano de continuidade de negócios?</a></li>
+<li><a href="#frequency">Com que frequência um plano de continuidade de negócios deve ser testado?</a></li>
+<li><a href="#records">O que registrar e como os resultados alimentam a revisão da estrutura</a></li>
+<li><a href="#third-parties">Como os prestadores terceirizados se encaixam em um plano de continuidade?</a></li>
+<li><a href="#who">Quem faz o quê quando atuamos como seu oficial de riscos</a></li>
+</ol>
+</nav>
+<article class="legal-body guide-body">
+<section class="legal-sec guide-sec" id="answer">
+<h2>O que um plano de continuidade de negócios da RPAA deve abranger?</h2>
+<p>A <a href="https://laws-lois.justice.gc.ca/eng/acts/R-7.36/page-2.html" rel="noopener">Lei de Atividades de Pagamentos de Varejo</a> (RPAA) não tem uma regra autônoma de continuidade de negócios. A continuidade e a recuperação fazem parte da estrutura de gestão de riscos e de resposta a incidentes que o art. 17(1) exige de todo prestador de serviços de pagamento (PSP). O art. 5 do <a href="https://laws-lois.justice.gc.ca/eng/regulations/SOR-2023-229/FullText.html" rel="noopener">Regulamento de Atividades de Pagamentos de Varejo</a> (RPAR) define o conteúdo.</p>
+<p>As partes relativas à continuidade são:</p>
+<ul>
+<li>o objetivo de realizar as atividades de pagamento de varejo sem redução, deterioração ou interrupção, incluindo manter os sistemas e os dados disponíveis (art. 5(1)(a)(i));</li>
+<li>metas e indicadores de confiabilidade mensuráveis (art. 5(1)(b));</li>
+<li>os riscos de continuidade de negócios e de resiliência e suas causas (art. 5(1)(f)(i));</li>
+<li>um plano de resposta e recuperação que abranja incidentes envolvendo agentes, mandatários ou prestadores de serviços terceirizados (art. 5(1)(i));</li>
+<li>processos manuais ou soluções alternativas caso os sistemas principais falhem, e com que rapidez eles são ativados (art. 5(1)(i)(ii));</li>
+<li>como você confirmará a situação de todas as transações, recuperará dados perdidos ou corrompidos e corrigirá problemas de integridade (art. 5(1)(i)(vii)).</li>
+</ul>
+<p>O art. 5(2) exige que tudo isso seja proporcional ao impacto que uma interrupção poderia ter sobre os usuários finais e outros PSPs. Nosso guia sobre as <a href="rpaa-compliance-frameworks.html">estruturas de compliance da RPAA</a> aborda o restante da estrutura, e nosso guia sobre <a href="rpaa-incident-reporting.html">notificação de incidentes sob a RPAA</a> aborda as notificações ao Banco.</p>
+</section>
+<section class="legal-sec guide-sec" id="recovery">
+<h2>Que objetivos de recuperação o Banco do Canadá recomenda?</h2>
+<p>O parágrafo 2.7 da <a href="https://www.bankofcanada.ca/wp-content/uploads/2024/02/operational-risk-and-incident-response.pdf" rel="noopener">diretriz de risco operacional e resposta a incidentes</a> do Banco (outubro de 2024) recomenda que os PSPs mais onipresentes ou interconectados definam, no mínimo, metas de disponibilidade de sistemas, objetivos de tempo de recuperação, tempos máximos de inatividade toleráveis e objetivos de ponto de recuperação. Todo PSP ainda precisa de metas de confiabilidade mensuráveis nos termos do art. 5(1)(b) do RPAR.</p>
+<p>O Apêndice B os define:</p>
+<ul>
+<li>Uma meta de disponibilidade de sistema é o percentual do tempo em que um sistema ou serviço deve estar totalmente disponível.</li>
+<li>Um objetivo de tempo de recuperação (RTO) é o tempo máximo, definido pelo PSP, dentro do qual um sistema ou serviço interrompido deve ser retomado.</li>
+<li>Um tempo máximo de inatividade tolerável é o objetivo de tempo de recuperação mais o tempo de recuperação do trabalho necessário para verificar os dados e atualizá-los.</li>
+<li>Um objetivo de ponto de recuperação (RPO) é a perda máxima de dados, medida em tempo, que você aceitará.</li>
+</ul>
+</section>
+<section class="legal-sec guide-sec" id="what">
+<h2>O que são testes de continuidade de negócios?</h2>
+<p>Nos termos do art. 9(1) do RPAR, os testes de continuidade de negócios fazem parte de uma metodologia de testes que todo PSP deve estabelecer e implementar. Sua finalidade é identificar lacunas de efetividade e vulnerabilidades nos sistemas, políticas, procedimentos, processos e controles da sua estrutura de gestão de riscos e de resposta a incidentes.</p>
+<p>A metodologia deve ser proporcional (art. 9(1)(a)) e abranger riscos de alta probabilidade e de alto impacto (art. 9(1)(b)). Seus testes devem envolver as partes interessadas internas, incluindo agentes, mandatários e tomadores de decisão, e levar em conta a dependência de prestadores de serviços terceirizados (art. 9(1)(c)). Ela deve definir a frequência e o escopo dos testes (art. 9(1)(d)) e prever testes antes de qualquer mudança relevante (art. 9(1)(e)).</p>
+<p>O parágrafo 10.7 da diretriz espera três categorias de teste: verificação e validação de controles, testes baseados em cenários e testes de mudanças.</p>
+</section>
+<section class="legal-sec guide-sec" id="how">
+<h2>Como se testa um plano de continuidade de negócios?</h2>
+<p>Você testa um plano de continuidade de negócios realizando exercícios com cenários extraídos dos riscos que você mesmo identificou e verificando se as pessoas, os backups e as soluções de contorno funcionam conforme o previsto. O Apêndice G da diretriz do Banco lista métodos: revisão de documentação, entrevistas, testes por amostragem, revisões de mesa, exercícios de mesa (tabletop), simulações guiadas (walk-throughs) e simulações.</p>
+<p>O Apêndice G diz que os testes do plano de resposta a incidentes devem abranger:</p>
+<ul>
+<li>os canais de escalonamento e os arranjos de tomada de decisão;</li>
+<li>se a equipe consegue seguir o plano e voltar às operações normais;</li>
+<li>se os backups funcionam e se os dados copiados podem ser recuperados de forma confiável;</li>
+<li>quaisquer soluções manuais de contorno ou processamento alternativo de que o plano dependa.</li>
+</ul>
+<p>Os cenários devem se basear em riscos operacionais conhecidos, mudar à medida que as operações evoluem e vir acompanhados de uma justificativa documentada, segundo o Apêndice G. O <a href="https://www.cyber.gc.ca/en/guidance/developing-your-business-continuity-plan-itsap10005" rel="noopener">ITSAP.10.005</a> do Canadian Centre for Cyber Security é uma orientação geral e não um requisito da RPAA. Ele cita seminários, exercícios de mesa e simulações ao vivo como formas de testar um plano.</p>
+</section>
+<section class="legal-sec guide-sec" id="frequency">
+<h2>Com que frequência um plano de continuidade de negócios deve ser testado?</h2>
+<p>Em 19 de novembro de 2026, o RPAR não fixa um número de testes por ano. O art. 9(1)(d) faz com que sua própria metodologia de testes defina a frequência e o escopo dos testes. O art. 9(1)(e) acrescenta um teste antes de você adotar qualquer mudança relevante nos sistemas, políticas, procedimentos, processos ou controles da estrutura, ou em operações que os afetem.</p>
+<p>O parágrafo 10.4 da diretriz pede uma abordagem baseada em risco que teste os sistemas mais importantes com mais frequência e mais profundidade. O art. 8(1) do RPAR exige uma revisão da estrutura pelo menos uma vez por ano, então um exercício antes de cada revisão lhe fornece resultados atuais.</p>
+<p>Os reguladores de valores mobiliários definem ciclos anuais para alguns de seus próprios setores. O <a href="https://www.osc.ca/en/securities-law/instruments-rules-policies/1/11-764/osc-staff-notice-11-764-business-continuity-planning-industry-testing-exercise" rel="noopener">Staff Notice 11-764</a> (2011) da OSC observa que o National Instrument 21-101 exige que os mercados testem seus planos pelo menos uma vez por ano. Essa regra não se aplica aos PSPs.</p>
+</section>
+<section class="legal-sec guide-sec" id="records">
+<h2>O que registrar e como os resultados alimentam a revisão da estrutura</h2>
+<p>O art. 9(2) do RPAR exige um registro de cada teste com sua data, metodologia, resultados e as medidas adotadas ou planejadas em resposta. O art. 9(3) exige que o registro seja enviado ao executivo sênior, se você tiver um. O parágrafo 10.20 da diretriz acrescenta o escopo testado e os motivos para deixar qualquer lacuna sem correção.</p>
+<p>O art. 8(2)(b) exige que a revisão da estrutura avalie em que medida você atingiu seus objetivos em relação às suas metas e indicadores. O Apêndice F da diretriz inclui, entre as fontes da revisão, as lições aprendidas com os testes e a situação das ações resultantes. O art. 40 exige que os registros sejam guardados até cinco anos depois de deixarem de demonstrar a conformidade atual.</p>
+<div class="table-wrap"><table>
+<thead><tr><th scope="col">Requisito</th><th scope="col">Fonte</th><th scope="col">Evidências a guardar</th></tr></thead>
+<tbody>
+<tr><th scope="row">Metas de confiabilidade</th><td>Art. 5(1)(b) do RPAR; diretriz, Apêndice B</td><td>Objetivos de tempo de recuperação e de ponto de recuperação por sistema crítico</td></tr>
+<tr><th scope="row">Soluções manuais de contorno</th><td>Art. 5(1)(i)(ii) do RPAR</td><td>Procedimentos com os tempos de ativação esperados</td></tr>
+<tr><th scope="row">Metodologia por escrito</th><td>Art. 9(1)(d) do RPAR</td><td>Metodologia aprovada e calendário de testes</td></tr>
+<tr><th scope="row">Cenários</th><td>Art. 9(1)(b) do RPAR; diretriz, Apêndice G</td><td>Lista de cenários com justificativas</td></tr>
+<tr><th scope="row">Partes interessadas e fornecedores</th><td>Art. 9(1)(c) do RPAR</td><td>Participantes e premissas sobre fornecedores testadas</td></tr>
+<tr><th scope="row">Backups</th><td>Diretriz, Apêndice G</td><td>Resultados dos testes de restauração</td></tr>
+<tr><th scope="row">Teste antes de mudanças</th><td>Art. 9(1)(e) do RPAR</td><td>Registro do teste e decisão de corrigir primeiro</td></tr>
+<tr><th scope="row">Registro do teste ao executivo sênior</th><td>Art. 9(2) e (3) do RPAR</td><td>Registro e aprovação</td></tr>
+<tr><th scope="row">Resultados na revisão</th><td>Art. 8 do RPAR; diretriz, Apêndice F</td><td>Registro da revisão citando os resultados dos testes</td></tr>
+</tbody>
+</table></div>
+</section>
+<section class="legal-sec guide-sec" id="third-parties">
+<h2>Como os prestadores terceirizados se encaixam em um plano de continuidade?</h2>
+<p>O art. 5(1)(i)(i) do RPAR exige que seu plano de resposta e recuperação leve em conta os procedimentos de resposta a incidentes de cada prestador de serviços terceirizado e a necessidade de coordenação com eles. O art. 9(1)(c)(ii) exige testes que levem em conta sua dependência desses prestadores.</p>
+<ul>
+<li>O parágrafo 10.14 da diretriz sugere testar as premissas sobre a disponibilidade dos serviços de um prestador.</li>
+<li>O Apêndice H inclui, entre as práticas a avaliar, os arranjos de continuidade de negócios e de recuperação de desastres de um prestador e os testes que ele faz deles.</li>
+<li>O parágrafo 12.26 inclui a incorporação dos serviços de um prestador à sua metodologia de testes como controle compensatório.</li>
+</ul>
+<p>O parágrafo 10.6 permite usar testes feitos para outras finalidades se eles atenderem aos objetivos do art. 9. O que você pode delegar a um prestador é tratado no nosso guia sobre <a href="rpaa-outsourcing-risk-management-psp.html">terceirização da gestão de riscos sob a RPAA</a>.</p>
+</section>
+<section class="legal-sec guide-sec" id="who">
+<h2>Quem faz o quê quando atuamos como seu oficial de riscos</h2>
+<p>Quando atuamos como oficial de riscos em tempo parcial de um PSP sob a RPAA, revisamos seus planos de continuidade e recuperação e orientamos sobre os cenários de teste. A própria equipe do PSP redige os procedimentos técnicos de recuperação, realiza os testes e registra os resultados.</p>
+<div class="table-wrap"><table>
+<thead><tr><th scope="col">Área</th><th scope="col">Nós</th><th scope="col">Equipe do PSP</th></tr></thead>
+<tbody>
+<tr><th scope="row">Continuidade de negócios</th><td>Revisar os planos de continuidade e recuperação e orientar sobre os cenários de teste.</td><td>Redigir os procedimentos técnicos de recuperação, realizar os testes e registrar os resultados.</td></tr>
+<tr><th scope="row">Revisão independente</th><td>Preparar a documentação da estrutura para o revisor.</td><td>Nomear o revisor independente e agir com base nas conclusões.</td></tr>
+</tbody>
+</table></div>
+<p>Trabalhos administrativos, como agendar reuniões ou cobrar documentos de fornecedores, não estão incluídos. Nossa página do <a href="rpaa-compliance-program.html">programa de compliance da RPAA</a> descreve as estruturas que redigimos.</p>
+</section>
+<p class="sources">Fontes: <a href="https://laws-lois.justice.gc.ca/eng/acts/R-7.36/page-2.html" rel="noopener">Retail Payment Activities Act, arts. 17 a 19</a>; <a href="https://laws-lois.justice.gc.ca/eng/regulations/SOR-2023-229/FullText.html" rel="noopener">Retail Payment Activities Regulations (SOR/2023-229)</a>; <a href="https://www.bankofcanada.ca/wp-content/uploads/2024/02/operational-risk-and-incident-response.pdf" rel="noopener">Banco do Canadá, Operational risk and incident response guideline (outubro de 2024)</a>; <a href="https://www.cyber.gc.ca/en/guidance/developing-your-business-continuity-plan-itsap10005" rel="noopener">Canadian Centre for Cyber Security, Developing your business continuity plan (ITSAP.10.005)</a>; <a href="https://www.osc.ca/en/securities-law/instruments-rules-policies/1/11-764/osc-staff-notice-11-764-business-continuity-planning-industry-testing-exercise" rel="noopener">Ontario Securities Commission, Staff Notice 11-764</a>. Verificado em 19 de novembro de 2026. Informações gerais, não aconselhamento jurídico.</p>
+</article>
+</div>
+</section>
+<section aria-label="Serviço relacionado" class="gcta" data-theme="light">
+<div class="wrap">
+<a class="gcta-card" data-theme="dark" href="rpaa-compliance-program.html">
+<span class="fee-label">Precisa de ajuda com isso?</span>
+<span class="gcta-name">Programa de compliance da RPAA</span>
+<span class="gcta-desc">Estruturas de governança, riscos, resposta a incidentes, salvaguarda de fundos e continuidade para PSPs.</span>
+<span class="gcta-price">US$ 3.500</span>
+<span aria-hidden="true" class="gcta-go"><svg aria-hidden="true"><use href="#i-arrow"></use></svg></span>
+</a>
+</div>
+</section>
+<section aria-labelledby="faq-title" class="faq faq-inner" data-theme="light">
+<div class="wrap faq-grid">
+<div class="faq-head">
+<h2 id="faq-title">Continuidade e testes sob a RPAA: perguntas frequentes</h2>
+<p>Ainda com dúvidas? <a href="contact.html">Agende uma consulta</a> ou escreva para <a href="mailto:info@amlcanada.ca">info@amlcanada.ca</a>.</p>
+</div>
+<div class="faq-panel">
+<details><summary>A RPAA exige um plano de continuidade de negócios com esse nome?<svg aria-hidden="true"><use href="#i-plus"></use></svg></summary><p>Não. O art. 5 do RPAR exige um plano de resposta e recuperação, metas de confiabilidade e a identificação dos riscos de continuidade de negócios e de resiliência dentro da estrutura de gestão de riscos e de resposta a incidentes.</p></details>
+<details><summary>Um PSP precisa testar seu plano todos os anos?<svg aria-hidden="true"><use href="#i-plus"></use></svg></summary><p>O RPAR não fixa uma frequência. Sua metodologia de testes a define nos termos do art. 9(1)(d), e o art. 9(1)(e) exige um teste antes de qualquer mudança relevante.</p></details>
+<details><summary>Quem precisa ver os resultados dos testes?<svg aria-hidden="true"><use href="#i-plus"></use></svg></summary><p>O art. 9(3) do RPAR exige que o registro de cada teste seja enviado ao executivo sênior, se o PSP tiver um.</p></details>
+<details><summary>Testes feitos para outra finalidade podem contar?<svg aria-hidden="true"><use href="#i-plus"></use></svg></summary><p>Sim, se atenderem aos objetivos do art. 9, segundo o parágrafo 10.6 da diretriz do Banco. Se o escopo deles for insuficiente, realize testes adicionais.</p></details>
+<details><summary>Os documentos do Cyber Centre ou da OSC são vinculantes para os PSPs?<svg aria-hidden="true"><use href="#i-plus"></use></svg></summary><p>Não. As regras vinculantes são a RPAA e o RPAR. A diretriz do Banco do Canadá expõe suas expectativas de supervisão para o cumprimento delas.</p></details>
+</div>
+</div>
+</section>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"A RPAA exige um plano de continuidade de negócios com esse nome?","acceptedAnswer":{"@type":"Answer","text":"Não. O art. 5 do RPAR exige um plano de resposta e recuperação, metas de confiabilidade e a identificação dos riscos de continuidade de negócios e de resiliência dentro da estrutura de gestão de riscos e de resposta a incidentes."}},{"@type":"Question","name":"Um PSP precisa testar seu plano todos os anos?","acceptedAnswer":{"@type":"Answer","text":"O RPAR não fixa uma frequência. Sua metodologia de testes a define nos termos do art. 9(1)(d), e o art. 9(1)(e) exige um teste antes de qualquer mudança relevante."}},{"@type":"Question","name":"Quem precisa ver os resultados dos testes?","acceptedAnswer":{"@type":"Answer","text":"O art. 9(3) do RPAR exige que o registro de cada teste seja enviado ao executivo sênior, se o PSP tiver um."}},{"@type":"Question","name":"Testes feitos para outra finalidade podem contar?","acceptedAnswer":{"@type":"Answer","text":"Sim, se atenderem aos objetivos do art. 9, segundo o parágrafo 10.6 da diretriz do Banco. Se o escopo deles for insuficiente, realize testes adicionais."}},{"@type":"Question","name":"Os documentos do Cyber Centre ou da OSC são vinculantes para os PSPs?","acceptedAnswer":{"@type":"Answer","text":"Não. As regras vinculantes são a RPAA e o RPAR. A diretriz do Banco do Canadá expõe suas expectativas de supervisão para o cumprimento delas."}}]}</script>
+<section aria-labelledby="gm-title" class="guides-more" data-theme="light">
+<div class="wrap">
+<h2 id="gm-title">Mais guias</h2>
+<div class="gcard-grid">
+<a class="gcard" data-reveal="" href="rpaa-compliance-frameworks.html">
+<span class="gcard-tag">RPAA</span>
+<h3>As estruturas de compliance da RPAA de que um PSP precisa</h3>
+<p>Todo prestador de serviços de pagamento precisa de uma estrutura escrita de gestão de riscos e de resposta a incidentes, e o que mantém fundos de usuários finais também precisa de uma estrutura de proteção de fundos. Terceiros, agentes e o papel do executivo sênior estão incorporados a esses dois documentos. As regras de manutenção de registros abrangem ambos, e o relatório anual, as notificações de alterações e as notificações de incidentes se baseiam neles.</p>
+<span class="link-ink">Leia o guia <svg aria-hidden="true"><use href="#i-arrow"></use></svg></span>
+</a>
+<a class="gcard" data-reveal="" href="rpaa-incident-reporting.html">
+<span class="gcard-tag">RPAA</span>
+<h3>Comunicação de incidentes na RPAA e a regra das 48 horas</h3>
+<p>Quando um prestador de serviços de pagamento toma conhecimento de um incidente com impacto relevante, deve notificar sem demora o Banco do Canadá e os usuários finais, prestadores de serviços de pagamento e câmaras de compensação afetados. O Banco espera a primeira notificação em no máximo 48 horas após o prestador concluir que o incidente é relevante.</p>
+<span class="link-ink">Leia o guia <svg aria-hidden="true"><use href="#i-arrow"></use></svg></span>
+</a>
+<a class="gcard" data-reveal="" href="psp-insolvency-end-user-funds-canada.html">
+<span class="gcard-tag">RPAA</span>
+<h3>Insolvência de PSP: o que acontece com os fundos dos usuários finais no Canadá</h3>
+<p>Na insolvência de um PSP no Canadá, os fundos de usuários finais que um prestador de serviços de pagamento mantém devem ser pagos aos usuários finais assim que possível, porque o art. 20 da RPAA exige que esses fundos sejam mantidos em trust ou cobertos por seguro ou garantia. Se isso funciona depende do livro-razão do prestador, de suas verificações de insuficiência e de seus procedimentos escritos para a devolução dos fundos.</p>
+<span class="link-ink">Leia o guia <svg aria-hidden="true"><use href="#i-arrow"></use></svg></span>
+</a>
+</div>
+</div>
+</section>
+<section aria-labelledby="close-title" class="close" data-theme="dark">
+<canvas aria-hidden="true" class="close-canvas" data-close-canvas=""></canvas>
+<div class="wrap close-inner">
+<h2 id="close-title">Conte-nos com o que você precisa de ajuda.</h2>
+<a class="btn btn-amber" href="contact.html?need=rpaa">Agendar uma consulta <svg aria-hidden="true"><use href="#i-arrow"></use></svg></a>
+</div>
+</section>
+<p class="i18n-note wrap">Esta página foi traduzida do inglês. Em caso de divergência, prevalece a versão em inglês. <a href="https://amlcanada.ca/rpaa-business-continuity-testing.html" hreflang="en-CA" lang="en-CA">Ler em inglês</a></p></main>
+<footer class="footer" data-theme="dark">
+<div class="wrap footer-grid">
+<div class="footer-brand">
+<a class="brand" href="./">
+<svg aria-hidden="true" class="brand-mark"><use href="#i-mark"></use></svg>
+<span>AML Canada</span>
+</a>
+<p>Serviços de compliance regulatório e de PLD/AML no Canadá. Uma consultoria privada, sem afiliação com o FINTRAC ou o Banco do Canadá.</p>
+</div>
+<nav aria-label="Serviços" class="footer-col">
+<p class="footer-h">Serviços</p>
+<a href="outsourced-compliance-officer.html">Oficial de compliance terceirizado</a>
+<a href="msb-registration.html">Registro de MSB</a>
+<a href="buy-or-register-msb-canada.html">Comprar ou registrar uma MSB</a>
+<a href="compliance-programs.html">Programas de compliance</a>
+<a href="rpaa-registration.html">Registro na RPAA</a>
+<a href="rpaa-compliance-program.html">Programa de compliance da RPAA</a>
+<a href="msb-for-sale.html">MSB à venda</a>
+<a href="incorporation-canada.html">Constituição de empresa</a>
+<a href="apostille-notarization-canada.html">Apostila e notarização</a>
+<a href="fintrac-reporting-software.html">Software de comunicações ao FINTRAC</a>
+<a href="canadian-address.html">Endereço canadense</a>
+<a href="effectiveness-reviews.html">Revisões de efetividade</a>
+<a href="training.html">Treinamento</a>
+</nav>
+<nav aria-label="Empresa" class="footer-col">
+<p class="footer-h">Empresa</p>
+<a href="who-we-help.html">Quem atendemos</a>
+<a href="how-we-work.html">Como trabalhamos</a>
+<a href="pricing.html">Preços</a>
+<a href="guides.html">Guias</a>
+<a href="about.html">Sobre</a>
+<a href="contact.html">Agendar uma consulta</a>
+</nav>
+<div class="footer-col">
+<p class="footer-h">Contato</p>
+<a href="mailto:info@amlcanada.ca">info@amlcanada.ca</a>
+<a href="tel:+18078060444">+1 807-806-0444</a>
+<a href="https://wa.me/18078060444" rel="noopener">WhatsApp</a>
+<a href="https://t.me/sabbasi_1" rel="noopener">Telegram</a>
+<a href="https://www.linkedin.com/company/amlcanada/" rel="noopener">LinkedIn</a>
+<address>Suite 211, 320 Matheson Blvd West<br/>Mississauga, ON L5R 3R1</address>
+</div>
+</div>
+<div class="wrap footer-base">
+<p>© <span data-year="">2026</span> ComplyFactor Limited. A AML Canada é operada pela <a href="https://complyfactor.com" rel="noopener">ComplyFactor Limited</a>.</p>
+<p class="footer-legal"><a href="../privacy.html">Privacidade</a><a href="../terms.html">Termos</a><button class="footer-cookie" data-consent-open="" hidden="" type="button">Opções de cookies</button></p>
+</div>
+<div class="wrap footer-note"><p>As informações deste site são gerais e não constituem aconselhamento jurídico.</p></div>
+</footer>
+<div aria-label="Opções de cookies" class="consent" data-consent="" hidden="" role="region">
+<p>Gostaríamos de usar cookies do Google Analytics para entender como este site é usado. Eles só são carregados se você aceitar. <a href="../privacy.html#cookies">Como usamos os dados</a></p>
+<div class="consent-actions">
+<button class="nbtn nbtn-grey" data-consent-no="" type="button"><span>Recusar</span></button>
+<button class="nbtn nbtn-amber" data-consent-yes="" type="button"><span>Aceitar</span></button>
+</div>
+</div>
+<script defer="" src="../site-config.js"></script>
+<script>window.I18N={"Client · ID verified": "Cliente · Identidade verificada", "4 cash deposits · 24h · $9,600 avg": "4 depósitos em espécie · 24 h · média de CA$ 9.600", "Intl EFT · $14,500 · Reportable": "TEF internacional · CA$ 14.500 · Comunicável", "Name screen · Clear": "Triagem de nomes · Sem correspondência", "FINTRAC registration": "Registro no FINTRAC", "MSB registration": "Registro de MSB", "A representative for service in Canada": "Um representante para recebimento de citações e notificações no Canadá", "A named compliance officer": "Um oficial de compliance nomeado", "Compliance programs": "Programas de compliance", "Written policies and procedures": "Políticas e procedimentos escritos", "A documented risk assessment": "Uma avaliação de riscos documentada", "An ongoing training program": "Um programa de treinamento contínuo", "Training": "Treinamento", "An effectiveness review in the last two years": "Uma revisão de efetividade nos últimos dois anos", "Effectiveness reviews": "Revisões de efetividade", "FINTRAC registration, in progress": "Registro no FINTRAC, em andamento", "In place": "Implementado", "of {total}": "de {total}", "{have} of {total} in place.": "{have} de {total} implementados.", "Gaps: {list}.": "Lacunas: {list}.", "No gaps flagged. We'd like a second opinion.": "Nenhuma lacuna sinalizada. Gostaríamos de uma segunda opinião.", "and": "e", "That email address doesn't look complete. Please check it.": "Esse endereço de e-mail parece incompleto. Verifique-o, por favor.", "Please add your {list}.": "Por favor, preencha: {list}.", "Sending…": "Enviando…", "Thank you. We'll be in touch to find a time.": "Obrigado. Entraremos em contato para encontrar um horário.", "Online requests aren't switched on yet. Please email info@amlcanada.ca and we'll find a time.": "As solicitações online ainda não estão ativadas. Envie um e-mail para info@amlcanada.ca e encontraremos um horário.", "That didn't go through. Please check your connection and try again.": "Não foi possível enviar. Verifique sua conexão e tente novamente."}</script><script defer="" src="../main.js"></script>
+</body>
+</html>

@@ -628,7 +628,7 @@ def deep_page(file):
             + guide(d["guide"], d["sources"], d.get("checked", CHECKED))
             + who_for(d["for_title"], d["for_items"], d["arts"])
             + faq_block(d["faqs"], f'{d["name"]}: questions')
-            + (guide_cards(gs, "Guides on this") if (gs := [f for f, g in GUIDES.items() if file in (g["service"], *g.get("also", ()))][:3]) else "")
+            + (guide_cards(gs, "Guides on this") if (gs := d.get("guides") or [f for f, g in GUIDES.items() if file in (g["service"], *g.get("also", ()))][:3]) else "")
             + related(d["related"])
             + close_and_footer(need=d["need"]))
 

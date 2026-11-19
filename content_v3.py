@@ -128,6 +128,7 @@ DEEP = {}
 
 # ------------------------------------------------------------------ outsourced compliance officer
 DEEP["outsourced-compliance-officer.html"] = dict(
+    guides=['outsourced-compliance-officer-how-it-works.html', 'second-line-of-defence-aml-canada.html', 'outsourced-vs-in-house-compliance-officer.html', 'msb-compliance-officer-requirements-canada.html', 'choosing-outsourced-compliance-officer-canada.html', 'msb-onboarding-file-review-checklist.html'],
     name="Outsourced compliance officer",
     title="Outsourced AML Compliance Officer (MLRO) Canada | AML Canada",
     desc="An outsourced Canadian AML compliance officer (MLRO): onboarding reviews, FINTRAC reporting, policies and risk assessments. US$1,500 per month for 10 hours.",
@@ -639,6 +640,7 @@ DEEP["rpaa-registration.html"] = dict(
 
 # ------------------------------------------------------------------ RPAA compliance program
 DEEP["rpaa-compliance-program.html"] = dict(
+    guides=['rpaa-outsourcing-risk-management-psp.html', 'rpaa-business-continuity-testing.html', 'rpaa-compliance-frameworks.html', 'rpaa-safeguarding-end-user-funds.html', 'rpaa-incident-reporting.html', 'rpaa-annual-report.html'],
     name="RPAA compliance program",
     title="RPAA Compliance Program for PSPs | AML Canada",
     desc="RPAA frameworks for PSPs: governance, risk registers, incident response, third parties, safeguarding, cyber and continuity, annual reports. Fixed fee US$3,500.",
