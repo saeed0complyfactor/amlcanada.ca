@@ -34,6 +34,8 @@ LANGS = {
 }
 EN = ("en-CA", "English", "EN")
 ENGLISH_ONLY = {"privacy.html", "terms.html", "404.html"}  # legal text stays English (owner's choice)
+from jobs_v3 import JOBS
+ENGLISH_ONLY |= {"careers.html", "careers-thanks.html", *JOBS}  # one JobPosting per role, so job pages stay English
 
 NOTE = {  # shown at the end of every translated page
     "fr": ("Cette page est une traduction de l'anglais. En cas de divergence, la version anglaise prévaut.", "Lire en anglais"),

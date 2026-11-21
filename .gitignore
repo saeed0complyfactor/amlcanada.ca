@@ -6,6 +6,7 @@
 !/content_v3.py
 !/guides_v3.py
 !/posts_v3.py
+!/jobs_v3.py
 !/i18n_v3.py
 !/i18n/
 /i18n/todo-*.json

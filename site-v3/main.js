@@ -1159,6 +1159,9 @@
     $$("input, textarea", form).forEach((f) => f.addEventListener("input", () => f.removeAttribute("aria-invalid")));
   }
 
+  /* Job applications: FormSubmit takes up to 10 MB in total */
+  $$("[data-cv]").forEach((i) => i.addEventListener("change", () => i.setCustomValidity(i.files[0]?.size > 10e6 ? "Please attach a file under 10 MB." : "")));
+
   /* Analytics: Cloudflare Web Analytics is cookieless and loads directly.
      The Google tag loads only after the visitor accepts the cookie banner. */
   const addScript = (src, attrs = {}) => {

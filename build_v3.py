@@ -12,6 +12,8 @@ from html import escape
 
 from content_v3 import CHECKED, DEEP, LISTINGS, TELEGRAM, WHATSAPP
 from guides_v3 import GUIDES, PUBLISHED
+from jobs_v3 import APPLY_TO, JOBS
+from datetime import date
 from pathlib import Path
 
 OUT = Path(__file__).parent / "site-v3"
@@ -20,6 +22,7 @@ OPERATOR = "ComplyFactor Limited"
 EMAIL = "info@amlcanada.ca"
 PRIVACY_EMAIL = EMAIL  # one public address for everything
 UPDATED = "11 October 2026"
+TODAY = date.today().isoformat()
 LASTMOD = "2026-10-11"
 PHONE_DISPLAY = "+1 807-806-0444"
 PHONE_TEL = "+18078060444"
@@ -93,7 +96,7 @@ CF_URL = "https://complyfactor.com"
 SCHEMA_SERVICES = {f: (d["name"], d["service_type"], d["desc"], d["offers"]) for f, d in DEEP.items()}
 SCHEMA_CRUMBS = {
     "services.html": "Services", "pricing.html": "Pricing", "guides.html": "Guides", "who-we-help.html": "Who we help", "how-we-work.html": "How we work",
-    "about.html": "About", "contact.html": "Book a consultation",
+    "about.html": "About", "contact.html": "Book a consultation", "careers.html": "Careers",
     "privacy.html": "Privacy policy", "terms.html": "Terms of use",
 }
 
@@ -145,6 +148,10 @@ def jsonld(path):
                 del graph[-1]["about"]
         elif path in SCHEMA_CRUMBS:
             trail.append((SCHEMA_CRUMBS[path], url))
+        elif path in JOBS:
+            trail += [("Careers", SITE + "careers.html"), (JOBS[path]["crumb"], url)]
+            if job_open(JOBS[path]):
+                graph.append(job_schema(path))
         else:
             return ""
         graph.append({"@type": "BreadcrumbList", "@id": url + "#breadcrumb", "itemListElement": [
@@ -378,6 +385,7 @@ def footer():
         <a href="pricing.html">Pricing</a>
         <a href="guides.html">Guides</a>
         <a href="about.html">About</a>
+        <a href="careers.html">Careers</a>
         <a href="contact.html">Book a consultation</a>
       </nav>
       <div class="footer-col">
@@ -1087,7 +1095,8 @@ PRIVACY = [
         "<strong>Consultation requests.</strong> Your name, work email, company, the help you're looking for and anything you choose to tell us in the message.",
         "<strong>Gap check answers.</strong> The gap check runs in your browser. Your answers aren't sent to us unless you carry them into a consultation request, where they appear in the message for you to review before sending.",
         USAGE_ITEM,
-        "<strong>Emails you send us.</strong> If you write to us, we keep the correspondence.")),
+        "<strong>Emails you send us.</strong> If you write to us, we keep the correspondence.",
+        "<span id=\"applicants\"></span><strong>Job applications.</strong> Your name, email, phone number, LinkedIn profile if you give it, your CV and anything you write in the application. We use them only to assess you for the role you applied for and to contact you about it.")),
     ("use", "How we use it", UL(
         "To reply to your request and arrange a consultation.",
         "To provide services you engage us for, under a separate written agreement.",
@@ -1098,12 +1107,13 @@ PRIVACY = [
     ("share", "Who we share it with", P("We share personal information only with service providers that help us run this site and respond to you, and only as much as they need:") + "\n" + UL(
         "<strong>GitHub</strong> (GitHub Pages), which hosts this website.",
         "<strong>Web3Forms</strong>, which delivers consultation form submissions to our inbox.",
+        "<strong>FormSubmit</strong>, which delivers job applications and CVs to our inbox.",
         *(["<strong>Cloudflare</strong>, for cookieless visit counts."] if CF_ON else []),
         *(["<strong>Google</strong>, for analytics, only if you accept analytics cookies."] if GA_ON else []),
         "Our email provider, for correspondence.") + "\n" + P(
         "Some of these providers process information outside Canada, including in the United States, where it may be accessible to authorities under local law. We may also disclose information where the law requires it.")),
     ("keep", "How long we keep it", P(
-        "We keep consultation requests and correspondence for as long as we need them to respond and, if you become a client, for the period our engagement and legal obligations require. When we no longer need personal information, we delete it or make it anonymous.")),
+        "We keep consultation requests and correspondence for as long as we need them to respond and, if you become a client, for the period our engagement and legal obligations require. We keep job applications for up to 12 months after the role is filled, unless you're hired or ask us to delete yours sooner. When we no longer need personal information, we delete it or make it anonymous.")),
     ("safe", "How we protect it", P(
         "We use reasonable physical, organizational and technical safeguards, and limit access to people who need it. No method of transmission over the internet is completely secure, so please don't send sensitive personal information, such as identity documents, through the website form.",
         "If a breach of security safeguards involving your personal information creates a real risk of significant harm, we'll notify you and the regulators as the law requires.")),
@@ -1138,6 +1148,152 @@ TERMS = [
     ("changes", "Changes and contact", P(
         f"We may update these terms; the date at the top shows the latest version. Questions? Write to <a href=\"mailto:{EMAIL}\">{EMAIL}</a>.")),
 ]
+
+# ---------------------------------------------------------------- careers (job pages carry JobPosting schema)
+def job_open(j):
+    return not j.get("closed") and j["valid_through"] >= TODAY
+
+
+def job_facts(j):
+    return (f'Mississauga, Ontario (hybrid) · {j["employment"].replace("_", "-").capitalize()} · '
+            f'Posted {nice_date(j["posted"])} · Apply by {nice_date(j["valid_through"])}')
+
+
+def job_description_html(j):
+    li = lambda xs: "<ul>" + "".join(f"<li>{x}</li>" for x in xs) + "</ul>"
+    return (f"<p>{j['summary']}</p><p><strong>What you'll do</strong></p>{li(j['duties'])}"
+            f"<p><strong>What you'll need</strong></p>{li(j['requirements'])}"
+            f"<p><strong>It helps if you have</strong></p>{li(j['assets'])}"
+            "<p>Hybrid role based at our office at 320 Matheson Blvd West, Mississauga, Ontario.</p>")
+
+
+def job_schema(path):
+    j = JOBS[path]
+    return {"@type": "JobPosting", "@id": SITE + path + "#job", "title": j["title"],
+            "description": job_description_html(j), "datePosted": j["posted"],
+            "validThrough": j["valid_through"] + "T23:59:59-05:00", "employmentType": j["employment"],
+            "hiringOrganization": {"@type": "Organization", "name": "AML Canada", "sameAs": SITE, "logo": SITE + "icon-512.png"},
+            "jobLocation": {"@type": "Place", "address": POSTAL},
+            "identifier": {"@type": "PropertyValue", "name": "AML Canada", "value": path.removesuffix(".html")},
+            "directApply": True, "url": SITE + path}
+
+
+def apply_form(j):
+    return f"""        <form class="form" method="POST" action="https://formsubmit.co/{APPLY_TO}" enctype="multipart/form-data">
+          <input type="hidden" name="_subject" value="Job application: {escape(j['title'])}">
+          <input type="hidden" name="role" value="{escape(j['title'])}">
+          <input type="hidden" name="_next" value="{SITE}careers-thanks.html">
+          <input type="hidden" name="_template" value="table">
+          <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <div class="form-row">
+            <div class="field">
+              <label class="field-label" for="a-name">Full name</label>
+              <input class="input" id="a-name" name="name" autocomplete="name" required>
+            </div>
+            <div class="field">
+              <label class="field-label" for="a-email">Email</label>
+              <input class="input" id="a-email" name="email" type="email" autocomplete="email" required>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="field">
+              <label class="field-label" for="a-phone">Phone</label>
+              <input class="input" id="a-phone" name="phone" type="tel" autocomplete="tel" required>
+            </div>
+            <div class="field">
+              <label class="field-label" for="a-linkedin">LinkedIn profile <span class="opt">Optional</span></label>
+              <input class="input" id="a-linkedin" name="linkedin" type="url" placeholder="https://www.linkedin.com/in/...">
+            </div>
+          </div>
+          <div class="field">
+            <label class="field-label" for="a-cv">CV <span class="opt">PDF or Word, up to 10 MB</span></label>
+            <input class="input" id="a-cv" name="attachment" type="file" accept=".pdf,.doc,.docx,application/pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document" required data-cv>
+          </div>
+          <div class="field">
+            <label class="field-label" for="a-note">Anything you'd like us to know? <span class="opt">Optional</span></label>
+            <textarea class="input" id="a-note" name="message" rows="4"></textarea>
+          </div>
+          <label class="form-legal"><input type="checkbox" name="consent" value="yes" required> I agree that AML Canada may use my application to assess me for this role, as set out in the <a href="privacy.html#applicants">privacy policy</a>.</label>
+          <button class="btn btn-ink btn-block" type="submit">Send application {arrow()}</button>
+          <p class="form-legal">Applications reach us by email through FormSubmit. You may be asked to complete a quick check that you're not a robot.</p>
+        </form>
+"""
+
+
+def job_page(file):
+    j = JOBS[file]
+    sections = [("about", "About the role", f"          <p>{j['summary']}</p>\n          <p><strong>{job_facts(j)}</strong></p>"),
+                ("duties", "What you'll do", UL(*j["duties"])),
+                ("needs", "What you'll need", UL(*j["requirements"])),
+                ("assets", "It helps if you have", UL(*j["assets"]))]
+    toc = "\n".join(f'          <li><a href="#{sid}">{st}</a></li>' for sid, st, _ in sections) + '\n          <li><a href="#apply">Apply</a></li>'
+    body = "\n".join(f'        <section id="{sid}" class="legal-sec">\n          <h2>{st}</h2>\n{h}\n        </section>' for sid, st, h in sections)
+    if job_open(j):
+        apply = f'        <section id="apply" class="legal-sec">\n          <h2>Apply</h2>\n{apply_form(j)}        </section>'
+    else:
+        apply = ('        <section id="apply" class="legal-sec">\n          <h2>Apply</h2>\n'
+                 '          <p><strong>This role is closed.</strong> See <a href="careers.html">current openings</a>.</p>\n        </section>')
+    return (head(j["seo_title"], j["desc"], file) + nav(file) + f"""  <main id="main">
+    <section class="legal-hero" data-theme="dark" aria-labelledby="page-title">
+      <div class="wrap">
+        <nav class="crumbs" aria-label="Breadcrumb"><a href="./">Home</a><span aria-hidden="true">/</span><a href="careers.html">Careers</a><span aria-hidden="true">/</span><span aria-current="page">{escape(j['crumb'])}</span></nav>
+        <h1 id="page-title">{escape(j['title'])}</h1>
+        <p class="page-lede">{job_facts(j)}</p>
+      </div>
+    </section>
+    <div class="legal" data-theme="light">
+      <div class="wrap legal-grid">
+        <nav class="legal-toc" aria-label="On this page">
+          <p class="legal-toc-h">On this page</p>
+          <ol>
+{toc}
+          </ol>
+        </nav>
+        <article class="legal-body">
+{body}
+{apply}
+        </article>
+      </div>
+    </div>
+  </main>
+
+{footer()}</body>
+</html>
+""")
+
+
+OPEN_JOBS = [f for f, j in JOBS.items() if job_open(j)]
+for _f in JOBS:
+    PAGES[_f] = job_page(_f)
+
+_roles = ("\n".join(f'          <p><a href="{f}"><strong>{escape(JOBS[f]["title"])}</strong></a><br>{job_facts(JOBS[f])}</p>' for f in OPEN_JOBS)
+          or f'          <p>We have no open roles right now. You\'re welcome to send your CV to <a href="mailto:{EMAIL}">{EMAIL}</a>.</p>')
+PAGES["careers.html"] = legal_page("careers.html", "Careers", "Careers at AML Canada",
+    "AML compliance jobs at AML Canada in Mississauga: compliance officer and MLRO roles working on FINTRAC compliance for MSBs, crypto and payment businesses.", [
+        ("open", "Open roles", _roles),
+        ("work", "What we do", P(
+            f"AML Canada is an AML and FINTRAC compliance consultancy operated by {OPERATOR}. We help money services businesses, virtual currency dealers, payment service providers and fintechs register, build and run their compliance programs, prepare for FINTRAC examinations and train their staff.",
+            "Our compliance team works from our office in Mississauga, Ontario.")),
+        ("apply", "How to apply", P(
+            "Choose a role above and apply on its page with your CV. We read every application and contact the people we'd like to interview.",
+            f"Questions about a role? Write to <a href=\"mailto:{EMAIL}\">{EMAIL}</a>.")),
+    ]).replace(f"Last updated {UPDATED}. AML Canada is operated by {OPERATOR}.", "Compliance officer and MLRO roles in Mississauga, Ontario.")
+
+PAGES["careers-thanks.html"] = (head("Application received | AML Canada", "Thank you for applying to AML Canada.", "careers-thanks.html",
+                                     robots='\n  <meta name="robots" content="noindex">') + nav("careers.html") + f"""  <main id="main">
+    <section class="legal-hero" data-theme="dark" aria-labelledby="page-title">
+      <div class="wrap">
+        <h1 id="page-title">Thank you for applying.</h1>
+        <p class="page-lede">We've received your application and CV. We read every application and will contact you if we'd like to interview you.</p>
+        <p class="page-lede"><a class="link-dark" href="careers.html">Back to careers</a></p>
+      </div>
+    </section>
+  </main>
+
+{footer()}</body>
+</html>
+""")
+
 
 PAGES["privacy.html"] = legal_page("privacy.html", "Privacy policy", "Privacy policy",
     f"How {OPERATOR}, operator of AML Canada, collects, uses and protects personal information.", PRIVACY)
@@ -1195,7 +1351,7 @@ def page_404():
 
 
 INDEXED = ["", "services.html", *[f for f, *_ in SERVICES], "sell-your-msb.html", "pricing.html", "guides.html", *GUIDES, "who-we-help.html", "how-we-work.html",
-           "about.html", "contact.html", "privacy.html", "terms.html"]
+           "about.html", "contact.html", "careers.html", *[f for f in JOBS if job_open(JOBS[f])], "privacy.html", "terms.html"]
 
 ROBOTS = """# robots.txt for https://amlcanada.ca
 # Open to search engines and AI assistants. A crawler that matches a named group
