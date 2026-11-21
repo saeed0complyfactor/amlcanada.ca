@@ -14,7 +14,7 @@ public notice. No speculation about why a business was penalized beyond what the
 notice says. No invented statistics, quotes or client stories.
 """
 
-from content_v3 import F_G4, F_REC_MSB, F_STR
+from content_v3 import F_G4, F_REC_MSB, F_STR, F_SANCTIONS, F_LPEP
 
 L_PCMLTFA = "https://laws-lois.justice.gc.ca/eng/acts/P-24.501/FullText.html"
 L_PCMLTFR = "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-184/FullText.html"
@@ -22,6 +22,101 @@ F_AMP_NEW = "https://fintrac-canafe.canada.ca/pen/3-eng"
 F_VC_IND = "https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/indicators-indicateurs/vc_mltf-eng"
 
 POSTS = {}
+
+# ------------------------------------------------------------------ 2026-11-21 OFAC sanctions on 8 Canadian MSBs
+# Update post. Facts checked 21 November 2026 against the FINTRAC, OFAC and US Treasury pages below.
+OS_STMT = "https://fintrac-canafe.canada.ca/new-neuf/statement-declaration-2026-11-06-eng"
+OS_OFAC = "https://ofac.treasury.gov/recent-actions/20261106"
+OS_PR = "https://home.treasury.gov/news/press-releases/sb0686"
+OS_SANC = F_SANCTIONS
+OS_IRI = "https://fintrac-canafe.canada.ca/obligations/dir-iri-eng"
+OS_LPEP = F_LPEP
+F_AMP_LIST = "https://fintrac-canafe.canada.ca/pen/4-eng"
+
+POSTS["ofac-sanctions-canadian-msbs-iran-fintrac.html"] = dict(
+    checked="21 November 2026",
+    title="OFAC Sanctions 8 Canadian MSBs: Compliance Lessons | AML Canada",
+    desc="US Treasury sanctioned eight Canadian MSBs on 6 November 2026 in coordination with FINTRAC. What happened, the Iran directive and what MSBs should check.",
+    crumb="OFAC sanctions on Canadian MSBs",
+    h1="OFAC sanctions eight Canadian MSBs: what money services businesses should check",
+    lede="On 6 November 2026, the US Treasury's Office of Foreign Assets Control (OFAC) designated eight money services businesses based in Canada under its Iran sanctions, and FINTRAC said it coordinated with OFAC and FinCEN on the action. For Canadian MSBs, it is a reason to recheck sanctions screening and how Iran-connected transactions are identified and reported.",
+    label="Update · Sanctions",
+    service="compliance-programs.html",
+    also=["outsourced-compliance-officer.html", "effectiveness-reviews.html"],
+    kind="update",
+    date="2026-11-21",
+    takeaways=["OFAC added eight Canadian MSBs in Ontario and British Columbia to its SDN List under Executive Order 13902, for operating in the digital asset sector of the Iranian economy.",
+               "The SDN entries list aliases, addresses, Canadian MSB registration numbers and, for four entities, TRX digital currency addresses, so screening on legal names alone can miss a match.",
+               "FINTRAC says it has revoked 161 MSB registrations since the start of 2026 and imposed penalties totalling more than $198 million on nine MSBs over the past year.",
+               "Canada's Iran ministerial directive already treats every transaction originating from or bound for Iran as high risk and requires it to be reported to FINTRAC."],
+    sections=[
+        ("what-happened", "What did OFAC and FINTRAC announce on 6 November 2026?", f"""          <p>OFAC designated eight Canadian money services businesses under Executive Order 13902 "for operating in the digital asset sector of the Iranian economy," according to the <a href="{OS_PR}" rel="noopener">US Treasury press release</a>. The action is part of Treasury's Operation Economic Outcast. Treasury says the businesses facilitate the exchange of Iranian rials and other currencies for digital assets, and that the action was coordinated with FinCEN and FINTRAC.</p>
+          <p>The same day, FINTRAC published a <a href="{OS_STMT}" rel="noopener">public statement</a> confirming it had coordinated with OFAC and FinCEN "in the imposition of sanctions against eight Canadian money services businesses." FINTRAC added that, under the Proceeds of Crime (Money Laundering) and Terrorist Financing Act, it cannot disclose compliance actions against specific businesses except through a public notice of an administrative monetary penalty.</p>
+          <p>The <a href="{OS_OFAC}" rel="noopener">OFAC recent actions notice</a> lists the eight entities added to the Specially Designated Nationals (SDN) List:</p>
+          <div class="table-wrap"><table>
+            <thead><tr><th scope="col">Legal name in the SDN entry</th><th scope="col">Also known as (selected)</th><th scope="col">Province</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">1380079 BC LTD</th><td>Amin Exchange Vancouver; Sarafi Amin</td><td>British Columbia</td></tr>
+              <tr><th scope="row">2397639 ONTARIO LTD</th><td>Farah Exchange</td><td>Ontario</td></tr>
+              <tr><th scope="row">B GALAXY INC</th><td>Cryptoyal; C Exchange</td><td>Ontario</td></tr>
+              <tr><th scope="row">CCC INC</th><td>Ccurrency Exchange; Sarafi C; Parsis Exchange; Salam Exchange</td><td>Ontario</td></tr>
+              <tr><th scope="row">DARVISH EXCHANGE</th><td>Kanata MD Inc; Canada Exchange</td><td>Ontario</td></tr>
+              <tr><th scope="row">DIVERSE TRADE INC</th><td>Million Exchange; Millionex</td><td>Ontario</td></tr>
+              <tr><th scope="row">NIA NATIONS CURRENCY LTD</th><td>NIA Exchange</td><td>British Columbia</td></tr>
+              <tr><th scope="row">TOP PC TECHNICIAN INC</th><td>2840711 Ontario Inc; Amin Exchange Toronto</td><td>Ontario</td></tr>
+            </tbody>
+          </table></div>
+          <p>The entries for 1380079 BC LTD and DIVERSE TRADE INC also give addresses in Montreal, Quebec. Each entry lists a Canadian MSB registration number.</p>"""),
+        ("treasury-findings", "What does Treasury say these businesses did?", f"""          <p>Treasury says digital asset addresses linked to several of the businesses transacted with sanctioned Iranian exchanges, including Nobitex, Wallex, Ramzinex, Bitpin, Aban Tether Exchange and Shelbit, or with addresses associated with Iran's Islamic Revolutionary Guard Corps.</p>
+          <p>Treasury also says several of the businesses worked with an OFAC-sanctioned Canadian drug trafficker, who used couriers to bring bulk cash to money exchange businesses in the Vancouver and Toronto areas that converted it into digital assets to send abroad. It adds that several of the businesses "have changed their business names and addresses in an attempt to evade detection and enforcement actions."</p>
+          <p>Treasury's account describes the exchange of rials for virtual currency, cash converted to virtual currency for transfer abroad, and changes of business name and address. These are Treasury's statements. FINTRAC's statement does not describe the conduct of any of the eight businesses, and none of them appears on FINTRAC's <a href="{F_AMP_LIST}" rel="noopener">public notice list of penalties</a> as of 21 November 2026.</p>"""),
+        ("fintrac-numbers", "What did FINTRAC say about MSB enforcement?", f"""          <p>FINTRAC's statement gave these figures, which go beyond the eight businesses:</p>
+          <ul>
+            <li>Since the beginning of 2026, FINTRAC has revoked the registrations of 161 money services businesses, "more than the last three years combined."</li>
+            <li>Over the past year, it imposed administrative monetary penalties on nine MSBs for more than $198 million, for violations that include failing to register and failing to report large virtual currency transactions.</li>
+            <li>Over the past year, it disclosed 28 cases of MSB non-compliance to law enforcement.</li>
+            <li>Since Bill C-12 passed in March 2026, operating without a valid MSB registration can bring, on conviction on indictment, a fine of up to $5,000,000, up to five years in prison, or both.</li>
+          </ul>
+          <p>Our guides on <a href="fintrac-penalties-amps.html">FINTRAC penalties</a> and <a href="msb-registration-refused-revoked.html">refused and revoked MSB registrations</a> explain how penalties and revocations work.</p>"""),
+        ("canadian-rules", "Which Canadian rules apply to Iran-connected transactions?", f"""          <p>An OFAC designation is a US measure. Your obligations to FINTRAC come from Canadian law. The sanctions evasion and listed property reports below depend on Canadian sanctions laws and lists, so a match on the SDN List alone does not trigger them. The Iran directive and suspicious transaction reporting for money laundering or terrorist financing can still apply.</p>
+          <h3>The ministerial directive on Iran</h3>
+          <p>The directive came into force on July 25, 2020 and was amended on February 15, 2024 and November 15, 2025, according to <a href="{OS_IRI}" rel="noopener">FINTRAC's Iran directive guidance</a>. For every transaction originating from or bound for Iran, whatever the amount, you must treat it as high risk and verify the identity of the client who requests or benefits from it. Your due diligence must establish the source of the funds or virtual currency, the purpose of the transaction and the beneficial ownership or control of any entity involved. You must also keep a record and report the transaction to FINTRAC. FINTRAC's examples of a connection include virtual currency or currency exchange transactions involving the Iranian rial, and online transactions traced to an IP address geolocated in Iran. Our <a href="fintrac-travel-rule-ministerial-directives.html">ministerial directives guide</a> covers the "IR2020" reporting field.</p>
+          <h3>Suspicious transaction reports for sanctions evasion</h3>
+          <p>You must report completed and attempted transactions when there are reasonable grounds to suspect they relate to a sanctions evasion offence, according to <a href="{OS_SANC}" rel="noopener">FINTRAC's sanctions evasion guidance</a>. FINTRAC defines that offence by reference to orders and regulations under the United Nations Act, the Special Economic Measures Act and the Sergei Magnitsky Law, and points to the Consolidated Canadian Autonomous Sanctions List and the UN Security Council list. Suspicions of money laundering or terrorist financing are reportable on their own terms; see our <a href="fintrac-reporting-requirements.html">FINTRAC reporting guide</a>.</p>
+          <h3>Listed person or entity property reports</h3>
+          <p>If you must disclose property of a listed person or entity under the Criminal Code, the United Nations Act, the Special Economic Measures Act or the Sergei Magnitsky Law, you must also send FINTRAC a Listed Person or Entity Property Report immediately, according to <a href="{OS_LPEP}" rel="noopener">FINTRAC's guidance</a>. Property includes virtual currency.</p>"""),
+        ("checklist", "What should an MSB check in its program now?", f"""          <p>Your risk assessment sets how far each of these checks needs to go.</p>
+          <div class="table-wrap"><table>
+            <thead><tr><th scope="col">What the case shows</th><th scope="col">What to check</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">SDN entries list aliases, addresses, MSB registration numbers and, for four entities, TRX addresses</th><td>If you screen against the SDN List, for example because of US banking or counterparty exposure, your tool matches on all of these identifiers, is updated when lists change, and covers TRX addresses if you support that network.</td></tr>
+              <tr><th scope="row">Exchange of rials for virtual currency</th><td>Staff can spot an Iran connection, and every such transaction gets the directive's identification, due diligence, record keeping and reporting steps.</td></tr>
+              <tr><th scope="row">Bulk cash converted to virtual currency for transfer abroad</th><td>Your monitoring flags cash-to-virtual-currency patterns, and your large cash and large virtual currency transaction reports are filed on time.</td></tr>
+              <tr><th scope="row">Name and address changes</th><td>Know-your-client and counterparty files are refreshed, and changes to a business client's name, address or ownership trigger a new review.</td></tr>
+              <tr><th scope="row">FINTRAC's guidance covers sanctions evasion risk</th><td>Your written risk assessment covers sanctions evasion risk, as <a href="{F_G4}" rel="noopener">FINTRAC's compliance program guidance</a> expects.</td></tr>
+            </tbody>
+          </table></div>
+          <p>Our guide to the <a href="fintrac-risk-assessment-msb.html">MSB risk assessment</a> explains the risk factors FINTRAC expects you to document. A <a href="compliance-programs.html">compliance program review</a> can test whether these controls work in practice.</p>"""),
+        ("us-exposure", "Why does a US designation matter to a Canadian MSB?", f"""          <p>Treasury's press release says US persons are generally prohibited from dealing with designated persons, and that entities owned 50% or more by blocked persons are also blocked. It adds that non-US persons are prohibited from causing US persons to violate US sanctions, and that financial institutions and others "may risk exposure to sanctions" for certain transactions with designated persons. Each SDN entry also notes "secondary sanctions risk" under section 2 of Executive Order 13902.</p>
+          <p>If your business uses US banks, US dollar settlement or US-based service providers, those providers may be US persons subject to these prohibitions. Whether and how US sanctions apply to a specific business is a legal question, so get advice from a sanctions lawyer if any of your clients or counterparties appear on the SDN List. This post is general information, not legal advice.</p>"""),
+    ],
+    faqs=[("Which Canadian MSBs did OFAC sanction in November 2026?", "On 6 November 2026, OFAC added 1380079 BC Ltd, 2397639 Ontario Ltd, B Galaxy Inc, CCC Inc, Darvish Exchange, Diverse Trade Inc, NIA Nations Currency Ltd and Top PC Technician Inc to its SDN List under Executive Order 13902."),
+          ("Did FINTRAC take part in the OFAC sanctions?", "FINTRAC said in a public statement on 6 November 2026 that it coordinated with OFAC and FinCEN in the imposition of sanctions against eight Canadian money services businesses."),
+          ("Do Canadian MSBs have to report transactions connected to Iran?", "Yes. Under the ministerial directive on Iran, every transaction originating from or bound for Iran must be treated as high risk and reported to FINTRAC, whatever the amount."),
+          ("Do MSBs have to report suspected sanctions evasion to FINTRAC?", "Yes. FINTRAC requires a suspicious transaction report when there are reasonable grounds to suspect a transaction relates to a sanctions evasion offence under Canada's United Nations Act, Special Economic Measures Act or Sergei Magnitsky Law."),
+          ("How many MSB registrations has FINTRAC revoked in 2026?", "FINTRAC said on 6 November 2026 that it had revoked the registrations of 161 money services businesses since the beginning of 2026, more than the previous three years combined.")],
+    sources=[("FINTRAC, Public Statement: Sanctions on Canadian Money Services Businesses (6 November 2026)", OS_STMT),
+             ("OFAC, Recent actions: Iran-related designations (6 November 2026)", OS_OFAC),
+             ("US Treasury, Operation Economic Outcast press release (6 November 2026)", OS_PR),
+             ("FINTRAC, Report suspected sanctions evasion", OS_SANC),
+             ("FINTRAC, Guidance on the Ministerial Directive on Iran", OS_IRI),
+             ("FINTRAC, Reporting listed person or entity property", OS_LPEP),
+             ("FINTRAC, Compliance program requirements (Guide 4)", F_G4),
+             ("FINTRAC, Public notice of administrative monetary penalties", F_AMP_LIST)],
+    related=["fintrac-travel-rule-ministerial-directives.html", "fintrac-risk-assessment-msb.html", "msb-registration-refused-revoked.html"],
+)
+
+
 
 # ------------------------------------------------------------------ 2026-11-03 Bank of Canada supervision update
 # ------------------------------------------------------------------ 2026-11-03 BoC PSP supervision update recap
