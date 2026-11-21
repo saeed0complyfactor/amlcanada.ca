@@ -1184,6 +1184,8 @@ def apply_form(j):
           <input type="hidden" name="role" value="{escape(j['title'])}">
           <input type="hidden" name="_next" value="{SITE}careers-thanks.html">
           <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_blacklist" value="casino bonus, crypto signals, seo services, backlinks, viagra, loan offer, guest post, web design services">
           <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
           <div class="form-row">
             <div class="field">
@@ -1215,7 +1217,7 @@ def apply_form(j):
           </div>
           <label class="form-legal"><input type="checkbox" name="consent" value="yes" required> I agree that AML Canada may use my application to assess me for this role, as set out in the <a href="privacy.html#applicants">privacy policy</a>.</label>
           <button class="btn btn-ink btn-block" type="submit">Send application {arrow()}</button>
-          <p class="form-legal">Applications reach us by email through FormSubmit. You may be asked to complete a quick check that you're not a robot.</p>
+          <p class="form-legal">Applications reach us by email through FormSubmit.</p>
         </form>
 """
 
