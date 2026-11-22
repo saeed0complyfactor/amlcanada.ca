@@ -100,9 +100,19 @@ Your business remains the reporting entity even when we do the work, and your se
 
 - We agree in writing who signs off on what, including reports and policy changes.
 
-### MLRO, compliance officer or CCO?
+### A fractional compliance officer
 
-The titles differ by country. In the UK and Europe the role is usually called the MLRO, or money laundering reporting officer. Canada's PCMLTFA framework uses "compliance officer", and many firms use "chief compliance officer" too. If you're entering Canada from abroad and looking for an MLRO, the Canadian compliance officer is the equivalent role, with Canada's own reports, thresholds and deadlines.
+"Fractional" usually means a part-time compliance officer from outside your business who is paid for the hours used. That's how our service works: US$1,500 per month for 10 hours, with further 10-hour blocks added as your customers, products and markets grow. You get an experienced officer without the cost of a full-time senior hire, and the arrangement can later be handed to an in-house officer we help you hire and train.
+
+### What FINTRAC checks about your compliance officer
+
+An appointment has to be real. In an examination, FINTRAC verifies four things about the compliance officer: appointment, authority, knowledge and duties. Its compliance assessment manual says the focus is whether the officer is fulfilling their duties to implement a sound compliance program, judged by whether the areas examined are put into practice. Examiners may also confirm that the officer has direct access to senior management or the board, and timely access to information from all business lines.
+
+An external officer has that access only if you grant it, so we put it in writing at the start, together with who signs off on reports, policy changes and client decisions. Our guide to [FINTRAC compliance officer requirements](https://amlcanada.ca/msb-compliance-officer-requirements-canada.html) lists the documents to keep on file.
+
+### MLRO, CAMLO, compliance officer or CCO?
+
+The titles differ by country and by firm. In the UK and Europe the role is usually called the MLRO, or money laundering reporting officer. Canada's PCMLTFA framework uses "compliance officer". Some Canadian firms also use "CAMLO" (chief anti-money laundering officer) or "chief compliance officer" for the same appointed role. If you're entering Canada from abroad and looking for an MLRO, the Canadian compliance officer is the equivalent role, with Canada's own reports, thresholds and deadlines.
 
 ### Questions
 
@@ -110,7 +120,11 @@ The titles differ by country. In the UK and Europe the role is usually called th
 
 **What does an outsourced compliance officer cost?** US$1,500 per month for 10 hours. You can add further 10-hour blocks each month as your business grows.
 
-**What is an MLRO in Canada?** MLRO means money laundering reporting officer, a title used mainly in the UK and Europe. The Canadian equivalent under the PCMLTFA is the compliance officer.
+**What is an MLRO in Canada?** MLRO means money laundering reporting officer, a title used mainly in the UK and Europe. The Canadian equivalent under the PCMLTFA is the compliance officer, which some Canadian firms call the CAMLO (chief anti-money laundering officer).
+
+**Does the compliance officer have to live in Canada?** Section 156 of the regulations and FINTRAC's compliance program guidance set no residency requirement for the compliance officer. A foreign MSB must separately name a person who resides in Canada and is authorized to accept notices from FINTRAC.
+
+**What does FINTRAC check about an outsourced compliance officer?** The same as for any compliance officer: appointment, authority, knowledge and duties, judged by whether the compliance program is actually put into practice. Examiners may also confirm, where applicable, that the officer has direct access to senior management or the board and timely access to information from all business lines, which an external officer has only if you grant it in writing.
 
 **Which FINTRAC reports do you handle?** Suspicious transaction reports, electronic funds transfer reports, large virtual currency transaction reports, large cash transaction reports, and listed person or entity property reports, whichever apply to your business.
 
@@ -314,7 +328,7 @@ Together they cover the policies, procedures, risk assessment, training and revi
 
 FINTRAC's guidance sets out five required elements:
 
-- **A compliance officer**, appointed to be responsible for implementing the program.
+- **A compliance officer**, appointed to be responsible for implementing the program. See [FINTRAC compliance officer requirements](https://amlcanada.ca/msb-compliance-officer-requirements-canada.html).
 
 - **Written policies and procedures**, kept up to date and, for an entity, approved by a senior officer.
 
@@ -1708,7 +1722,7 @@ A compliance officer can be outsourced: [PCMLTFR s. 156(1)(a)](https://laws-lois
 
 FINTRAC's guidance sets two limits on any outsourced arrangement. The officer may delegate certain duties but remains responsible for implementing the program, and meeting the program requirements is the reporting entity's responsibility.
 
-Who can legally hold the role is covered in our guide to [MSB compliance officer requirements](https://amlcanada.ca/msb-compliance-officer-requirements-canada.html). If you're still weighing cost and the in-house option, start with [outsourced vs in-house compliance officer](https://amlcanada.ca/outsourced-vs-in-house-compliance-officer.html).
+Who can legally hold the role is covered in our guide to [FINTRAC compliance officer requirements](https://amlcanada.ca/msb-compliance-officer-requirements-canada.html). If you're still weighing cost and the in-house option, start with [outsourced vs in-house compliance officer](https://amlcanada.ca/outsourced-vs-in-house-compliance-officer.html).
 
 ### What questions should you ask an outsourced compliance officer?
 
@@ -2132,7 +2146,7 @@ In practice, the second line:
 
 - decides whether there are reasonable grounds to suspect, which triggers a suspicious transaction report under [PCMLTFA s. 7](https://laws-lois.justice.gc.ca/eng/acts/P-24.501/section-7.html).
 
-FINTRAC's guidance lets the compliance officer delegate duties to other employees. The officer still remains responsible for implementing the program, and the business remains responsible for meeting its requirements. Who can hold the role, and what they need to know, is covered in our guide to [MSB compliance officer requirements](https://amlcanada.ca/msb-compliance-officer-requirements-canada.html).
+FINTRAC's guidance lets the compliance officer delegate duties to other employees. The officer still remains responsible for implementing the program, and the business remains responsible for meeting its requirements. Who can hold the role, and what they need to know, is covered in our guide to [FINTRAC compliance officer requirements](https://amlcanada.ca/msb-compliance-officer-requirements-canada.html).
 
 ### How a small business keeps the lines separate
 
@@ -2284,7 +2298,7 @@ FINTRAC's guidance sets out how responsibility works inside the arrangement:
 
 Senior management keeps its own legal roles. For an entity, a senior officer approves the written policies and procedures (PCMLTFR s. 156(1)(b)) and receives the effectiveness review findings in writing within 30 days after the review is completed (s. 156(4)).
 
-Can a compliance officer be outsourced? FINTRAC's guidance doesn't say the officer must be an employee, and our guide to [MSB compliance officer requirements](https://amlcanada.ca/msb-compliance-officer-requirements-canada.html) sets out what the rules say on who can hold the role.
+Can a compliance officer be outsourced? FINTRAC's guidance doesn't say the officer must be an employee, and our guide to [FINTRAC compliance officer requirements](https://amlcanada.ca/msb-compliance-officer-requirements-canada.html) sets out what the rules say on who can hold the role.
 
 ### What an outsourced compliance officer doesn't do
 
@@ -3092,11 +3106,11 @@ Sources: [FINTRAC, Answer clarification requests, update, renew or cancel your r
 
 ---
 
-## Guide: MSB compliance officer requirements in Canada
+## Guide: FINTRAC compliance officer requirements, with MSB specifics
 
 URL: https://amlcanada.ca/msb-compliance-officer-requirements-canada.html
 
-The core MSB compliance officer requirement in Canada is short: you must appoint a person responsible for implementing your compliance program. Most of what people call requirements, such as seniority, independence and knowledge, comes from FINTRAC's guidance, and this guide marks which is which.
+The core FINTRAC compliance officer requirement is short: every business FINTRAC regulates must appoint a person responsible for implementing its compliance program. Most of what people call requirements, such as seniority, independence and knowledge, comes from FINTRAC's guidance, and this guide marks which is which, using money services businesses (MSBs) as the example.
 
 **Key points:**
 - The law requires you to appoint a person responsible for implementing your compliance program. FINTRAC's guidance sets out the authority and knowledge that person needs.
@@ -3104,9 +3118,9 @@ The core MSB compliance officer requirement in Canada is short: you must appoint
 - The officer's name and contact details go in your MSB registration, so a change must be reported to FINTRAC within 30 days.
 - Delegating or outsourcing the work doesn't move responsibility. The officer stays responsible for implementing the program, and your business stays responsible for meeting the requirements.
 
-### What are the MSB compliance officer requirements in Canada?
+### What are FINTRAC's compliance officer requirements?
 
-Every money services business and foreign money services business must appoint a person who is responsible for implementing its compliance program. That is the legal requirement, in paragraph 156(1)(a) of the [Proceeds of Crime (Money Laundering) and Terrorist Financing Regulations](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-184/section-156.html). FINTRAC's guidance then describes what the person needs to do the job.
+Every money services business and foreign money services business, like every other business FINTRAC regulates, must appoint a person who is responsible for implementing its compliance program. That is the legal requirement, in paragraph 156(1)(a) of the [Proceeds of Crime (Money Laundering) and Terrorist Financing Regulations](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-184/section-156.html). FINTRAC's guidance then describes what the person needs to do the job.
 
 The duty to have a compliance program comes from subsection 9.6(1) of the [Proceeds of Crime (Money Laundering) and Terrorist Financing Act](https://laws-lois.justice.gc.ca/eng/acts/P-24.501/section-9.6.html) (PCMLTFA), which applies to every person or entity referred to in section 5 of the Act. MSBs and foreign MSBs are both in section 5. Appointing a compliance officer is the first of the program's elements; the others are covered in our guide to [FINTRAC compliance program requirements](https://amlcanada.ca/fintrac-compliance-program-requirements.html).
 
@@ -3138,7 +3152,7 @@ As of 11 November 2026, the rules on compliance officers fall into three groups:
 
 The registration item matters in practice. Because the officer's details are part of your application under the [Registration Regulations](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2007-121/FullText.html), replacing your compliance officer is a change you report to FINTRAC within 30 days of becoming aware of it, under [PCMLTFA subsection 11.13(1)](https://laws-lois.justice.gc.ca/eng/acts/P-24.501/section-11.13.html).
 
-### Who can be a compliance officer under FINTRAC rules?
+### Who can be an AML compliance officer?
 
 FINTRAC says the compliance officer can be you or another individual, depending on the size of your business. In a small business, it can be a senior manager, the owner or the operator. In a large business, FINTRAC's example is someone at a senior level with direct access to senior management and the board of directors.
 
@@ -6040,7 +6054,7 @@ FINTRAC's guidance cites subsection 9.6(1) of the PCMLTFA and section 156 of the
 
 In a small business, the compliance officer can be the owner, the operator or a senior manager. For a larger business, FINTRAC's example is someone at a senior level with direct access to senior management and the board of directors. As a best practice, the compliance officer of a larger business shouldn't be directly involved in receiving, transferring or paying out funds.
 
-FINTRAC says the officer needs the authority and resources to implement the program, knowledge of how your business works, knowledge of the money laundering, terrorist financing and sanctions evasion risks in your sector, and an understanding of your sector's requirements under the PCMLTFA. They can delegate tasks, but they stay responsible for implementing the program, and your business stays responsible for meeting the requirements.
+FINTRAC says the officer needs the authority and resources to implement the program, knowledge of how your business works, knowledge of the money laundering, terrorist financing and sanctions evasion risks in your sector, and an understanding of your sector's requirements under the PCMLTFA. They can delegate tasks, but they stay responsible for implementing the program, and your business stays responsible for meeting the requirements. Our guide to [FINTRAC compliance officer requirements](https://amlcanada.ca/msb-compliance-officer-requirements-canada.html) separates what the law requires from what FINTRAC expects.
 
 FINTRAC's guidance says the compliance officer can be you or another individual. If you're weighing an [outsourced compliance officer](https://amlcanada.ca/outsourced-compliance-officer.html) against an internal appointment, our guide to [outsourced vs in-house compliance officers](https://amlcanada.ca/outsourced-vs-in-house-compliance-officer.html) compares the two options.
 
