@@ -244,13 +244,27 @@ DEEP["msb-registration.html"] = dict(
                     "Foreign MSB requirements, including your representative for service in Canada",
                     "Coordination with your compliance program"]),
     guide=[
-        ("who-must-register", "Who has to register", """          <p>A business with a place of business in Canada must register with FINTRAC before it operates as a money services business, for example by dealing in foreign exchange, remitting or transmitting funds, or dealing in virtual currency. Registering or being licensed with a province doesn't replace FINTRAC registration. Whether your own activities are covered depends on how your business works, which is the first thing we confirm with you.</p>
+        ("who-must-register", "Who has to register", f"""          <p>A business with a place of business in Canada must register with FINTRAC before it provides any of these money services:</p>
+          {MSB_ACTIVITIES}
+          <p>Registering or being licensed with a province doesn't replace FINTRAC registration. Whether your own activities are covered depends on how your business works, which is the first thing we confirm with you.</p>
           <p>An MSB that holds funds for its users or transfers funds at their request may also need to register with the Bank of Canada under the Retail Payment Activities Act. We cover that in <a href="rpaa-registration.html">RPAA registration</a>.</p>
-          <p>Prefer a company that's already registered? Compare the two routes on our <a href="buy-or-register-msb-canada.html">buy or register an MSB</a> page.</p>
-          <p>Our guide on <a href="how-to-register-msb-canada.html">how to register an MSB in Canada</a> lists every money service and walks through each step of the application.</p>"""),
+          <p>Prefer a company that's already registered? Compare the two routes on our <a href="buy-or-register-msb-canada.html">buy or register an MSB</a> page.</p>"""),
         ("foreign-msb", "Foreign MSB registration", """          <p>A foreign MSB has no place of business in Canada but directs and provides money services to people or entities in Canada. It registers with FINTRAC before it starts and names a representative for service who resides in Canada; our <a href="foreign-msb-registration-canada.html">foreign MSB guide</a> covers the details.</p>"""),
-        ("application", "What the application involves", """          <p>FINTRAC asks for details of the business, its owners, senior management and compliance officer, its bank accounts, locations and agents, and its expected transaction volumes, with documents showing who owns and controls it. Criminal record checks are needed for the chief executive officer, the president, the directors and anyone who owns or controls 20% or more. A document that isn't in English or French needs a translation attested by a certified translator (PCMLTFA s.11.12(1.1)).</p>
-          <p>If FINTRAC asks for clarification, the answer is due within 30 days of the request, or FINTRAC can deny the application (PCMLTFA s.11.14). Registered businesses face the same 30-day limit, with revocation as the consequence (s.11.17).</p>"""),
+        ("application", "What FINTRAC asks for", """          <p>FINTRAC's registration asks for:</p>
+          <ul>
+            <li>details of the business, including its incorporation, ownership and senior management;</li>
+            <li>bank account information;</li>
+            <li>your compliance officer;</li>
+            <li>how many employees you have, and every location you operate from;</li>
+            <li>estimated annual transaction totals for each money service you offer;</li>
+            <li>any agents or mandataries that provide services on your behalf;</li>
+            <li>for a foreign MSB, a representative for service who lives in Canada;</li>
+            <li>documents confirming the business exists and how it's owned and controlled;</li>
+            <li>criminal record checks.</li>
+          </ul>
+          <p>Criminal record checks are needed for the chief executive officer, the president, the directors and anyone who owns or controls 20% or more, directly or indirectly. Each must be issued no more than six months before you apply. A criminal record check that isn't in English or French needs a translation attested by a certified translator (PCMLTFA s.11.12(1.1)).</p>
+          <p>If FINTRAC asks for clarification, the answer is due within 30 days of the request, or FINTRAC can deny the application (PCMLTFA s.11.14). Registered businesses face the same 30-day limit, or FINTRAC can revoke the registration (s.11.17). Transaction estimates, locations, ownership and documents that tell the same story are the best way to avoid back-and-forth. Our guide on <a href="how-to-register-msb-canada.html">how to apply to FINTRAC</a> covers each step.</p>"""),
+        ("licence", "MSB licence or registration?", """          <p>People often search for an "MSB licence". At the federal level, Canada requires registration with FINTRAC, not a licence, and FINTRAC doesn't endorse the businesses it registers. Quebec is the exception: a business operating in Quebec that offers currency exchange, funds transfers, cheque cashing, traveller's cheques, money orders or bank drafts, or ATMs or crypto ATMs also needs a licence from Revenu Québec under the Money-Services Businesses Act. Our guide <a href="msb-licence-canada.html">Is there an MSB licence in Canada?</a> explains how to describe your registration accurately.</p>"""),
         ("how", "How registration works with us", """          <ol>
             <li><strong>Assessment.</strong> Which of your services are money services, whether you're an MSB or a foreign MSB, and what follows from that.</li>
             <li><strong>Preparation.</strong> A checklist of everything FINTRAC needs, and help gathering and checking it. Criminal record checks from several countries often take longest, so we start them first.</li>
@@ -260,7 +274,9 @@ DEEP["msb-registration.html"] = dict(
           </ol>"""),
         ("how-long", "How long registration takes", """          <p>FINTRAC says most complete applications are processed within three months. In our experience it has ranged from about 1 week to 7 months. The main factors are how complete and consistent the application is, how quickly criminal record checks arrive, and FINTRAC's workload at the time.</p>"""),
         ("after", "After you register", """          <p>Registration is valid for two years and has to be renewed before it expires. Changes to your registration information must be reported to FINTRAC within 30 days.</p>
-          <p>After registration, an MSB also needs a compliance program, client identification, record keeping and reporting to FINTRAC. Since October 1, 2025, an MSB must also check that its agents and mandataries are eligible, including by reviewing criminal record checks, before engaging them.</p>"""),
+          <p>After registration, an MSB also needs a compliance program, client identification, record keeping and reporting to FINTRAC. Since October 1, 2025, an MSB must also check that its agents and mandataries are eligible, including by reviewing criminal record checks, before engaging them.</p>
+          <p>FINTRAC's public MSB registry lists registered businesses and is updated monthly, so clients, banks and partners can confirm your status. Our guide shows <a href="check-fintrac-msb-registration.html">how to check FINTRAC MSB registration</a>.</p>
+          <p>Knowingly operating without the required registration is an offence. Section 77.4 of the PCMLTFA makes it an offence for a business that must register to knowingly engage in an activity it isn't registered for, and officers and directors can also be found guilty (section 78). Our guide on <a href="msb-registration-refused-revoked.html">refused and revoked registrations</a> sets out the penalties.</p>"""),
         ("crypto", "Virtual currency dealers", """          <p>Dealing in virtual currency is a money service, so crypto exchanges and dealers register with FINTRAC as MSBs, including foreign ones that serve people in Canada. Registered dealers also report virtual currency transactions of $10,000 or more within five working days. Provincial securities rules can also apply to some crypto trading platforms; we'll tell you if that's something you need separate advice on.</p>"""),
     ],
     sources=[("FINTRAC, Money services businesses", F_MSB), ("Register your MSB or FMSB", F_REG),
@@ -276,7 +292,9 @@ DEEP["msb-registration.html"] = dict(
           ("Can a company outside Canada register as an MSB?", "Yes. A foreign business that directs and provides money services to people in Canada registers as a foreign MSB and must name a representative for service who resides in Canada."),
           ("Do I need a compliance program before I register?", "You need one to operate. FINTRAC asks for your compliance officer when you register, and your obligations start as soon as you begin. We prepare your program at the same time as your registration. Program documents are a separate fixed fee of US$3,500."),
           ("How often do I renew?", "Every two years. Changes to your registration information have to be reported within 30 days."),
-          ("Do crypto businesses register with FINTRAC?", "Yes. Dealing in virtual currency is a money service, so crypto dealers and exchanges register as MSBs.")],
+          ("Do crypto businesses register with FINTRAC?", "Yes. Dealing in virtual currency is a money service, so crypto dealers and exchanges register as MSBs."),
+          ("Is there an MSB licence in Canada?", "At the federal level, Canada requires registration with FINTRAC, not a licence. When people search for an MSB licence in Canada, they usually mean FINTRAC registration. Quebec is the exception: a business operating in Quebec that offers currency exchange, funds transfers, cheque cashing, traveller's cheques, money orders or bank drafts, or ATMs or crypto ATMs also needs a licence from Revenu Québec."),
+          ("How do I check if a business is registered with FINTRAC?", "Search FINTRAC's public MSB registry by name or registration number and confirm the status is Registered. The other statuses are Revoked, Expired and Ceased. FINTRAC updates the registry monthly, so a newly registered business may not appear yet.")],
     related=["compliance-programs.html", "outsourced-compliance-officer.html", "rpaa-registration.html"],
 )
 

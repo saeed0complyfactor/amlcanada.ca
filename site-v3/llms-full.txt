@@ -142,23 +142,63 @@ For money services businesses, foreign MSBs and virtual currency dealers. Fixed 
 
 ### Who has to register
 
-A business with a place of business in Canada must register with FINTRAC before it operates as a money services business, for example by dealing in foreign exchange, remitting or transmitting funds, or dealing in virtual currency. Registering or being licensed with a province doesn't replace FINTRAC registration. Whether your own activities are covered depends on how your business works, which is the first thing we confirm with you.
+A business with a place of business in Canada must register with FINTRAC before it provides any of these money services:
+
+- foreign exchange dealing;
+
+- remitting or transmitting funds;
+
+- issuing or redeeming money orders, traveller's cheques or similar negotiable instruments;
+
+- dealing in virtual currency;
+
+- crowdfunding platform services;
+
+- armoured car services;
+
+- cheque cashing;
+
+- acquirer services for private automated banking machines.
+
+Registering or being licensed with a province doesn't replace FINTRAC registration. Whether your own activities are covered depends on how your business works, which is the first thing we confirm with you.
 
 An MSB that holds funds for its users or transfers funds at their request may also need to register with the Bank of Canada under the Retail Payment Activities Act. We cover that in [RPAA registration](https://amlcanada.ca/rpaa-registration.html).
 
 Prefer a company that's already registered? Compare the two routes on our [buy or register an MSB](https://amlcanada.ca/buy-or-register-msb-canada.html) page.
 
-Our guide on [how to register an MSB in Canada](https://amlcanada.ca/how-to-register-msb-canada.html) lists every money service and walks through each step of the application.
-
 ### Foreign MSB registration
 
 A foreign MSB has no place of business in Canada but directs and provides money services to people or entities in Canada. It registers with FINTRAC before it starts and names a representative for service who resides in Canada; our [foreign MSB guide](https://amlcanada.ca/foreign-msb-registration-canada.html) covers the details.
 
-### What the application involves
+### What FINTRAC asks for
 
-FINTRAC asks for details of the business, its owners, senior management and compliance officer, its bank accounts, locations and agents, and its expected transaction volumes, with documents showing who owns and controls it. Criminal record checks are needed for the chief executive officer, the president, the directors and anyone who owns or controls 20% or more. A document that isn't in English or French needs a translation attested by a certified translator (PCMLTFA s.11.12(1.1)).
+FINTRAC's registration asks for:
 
-If FINTRAC asks for clarification, the answer is due within 30 days of the request, or FINTRAC can deny the application (PCMLTFA s.11.14). Registered businesses face the same 30-day limit, with revocation as the consequence (s.11.17).
+- details of the business, including its incorporation, ownership and senior management;
+
+- bank account information;
+
+- your compliance officer;
+
+- how many employees you have, and every location you operate from;
+
+- estimated annual transaction totals for each money service you offer;
+
+- any agents or mandataries that provide services on your behalf;
+
+- for a foreign MSB, a representative for service who lives in Canada;
+
+- documents confirming the business exists and how it's owned and controlled;
+
+- criminal record checks.
+
+Criminal record checks are needed for the chief executive officer, the president, the directors and anyone who owns or controls 20% or more, directly or indirectly. Each must be issued no more than six months before you apply. A criminal record check that isn't in English or French needs a translation attested by a certified translator (PCMLTFA s.11.12(1.1)).
+
+If FINTRAC asks for clarification, the answer is due within 30 days of the request, or FINTRAC can deny the application (PCMLTFA s.11.14). Registered businesses face the same 30-day limit, or FINTRAC can revoke the registration (s.11.17). Transaction estimates, locations, ownership and documents that tell the same story are the best way to avoid back-and-forth. Our guide on [how to apply to FINTRAC](https://amlcanada.ca/how-to-register-msb-canada.html) covers each step.
+
+### MSB licence or registration?
+
+People often search for an "MSB licence". At the federal level, Canada requires registration with FINTRAC, not a licence, and FINTRAC doesn't endorse the businesses it registers. Quebec is the exception: a business operating in Quebec that offers currency exchange, funds transfers, cheque cashing, traveller's cheques, money orders or bank drafts, or ATMs or crypto ATMs also needs a licence from Revenu Québec under the Money-Services Businesses Act. Our guide [Is there an MSB licence in Canada?](https://amlcanada.ca/msb-licence-canada.html) explains how to describe your registration accurately.
 
 ### How registration works with us
 
@@ -182,6 +222,10 @@ Registration is valid for two years and has to be renewed before it expires. Cha
 
 After registration, an MSB also needs a compliance program, client identification, record keeping and reporting to FINTRAC. Since October 1, 2025, an MSB must also check that its agents and mandataries are eligible, including by reviewing criminal record checks, before engaging them.
 
+FINTRAC's public MSB registry lists registered businesses and is updated monthly, so clients, banks and partners can confirm your status. Our guide shows [how to check FINTRAC MSB registration](https://amlcanada.ca/check-fintrac-msb-registration.html).
+
+Knowingly operating without the required registration is an offence. Section 77.4 of the PCMLTFA makes it an offence for a business that must register to knowingly engage in an activity it isn't registered for, and officers and directors can also be found guilty (section 78). Our guide on [refused and revoked registrations](https://amlcanada.ca/msb-registration-refused-revoked.html) sets out the penalties.
+
 ### Virtual currency dealers
 
 Dealing in virtual currency is a money service, so crypto exchanges and dealers register with FINTRAC as MSBs, including foreign ones that serve people in Canada. Registered dealers also report virtual currency transactions of $10,000 or more within five working days. Provincial securities rules can also apply to some crypto trading platforms; we'll tell you if that's something you need separate advice on.
@@ -199,6 +243,10 @@ Dealing in virtual currency is a money service, so crypto exchanges and dealers 
 **How often do I renew?** Every two years. Changes to your registration information have to be reported within 30 days.
 
 **Do crypto businesses register with FINTRAC?** Yes. Dealing in virtual currency is a money service, so crypto dealers and exchanges register as MSBs.
+
+**Is there an MSB licence in Canada?** At the federal level, Canada requires registration with FINTRAC, not a licence. When people search for an MSB licence in Canada, they usually mean FINTRAC registration. Quebec is the exception: a business operating in Quebec that offers currency exchange, funds transfers, cheque cashing, traveller's cheques, money orders or bank drafts, or ATMs or crypto ATMs also needs a licence from Revenu Québec.
+
+**How do I check if a business is registered with FINTRAC?** Search FINTRAC's public MSB registry by name or registration number and confirm the status is Registered. The other statuses are Revoked, Expired and Ceased. FINTRAC updates the registry monthly, so a newly registered business may not appear yet.
 
 Sources: [FINTRAC, Money services businesses](https://fintrac-canafe.canada.ca/msb-esm/msb-eng); [Register your MSB or FMSB](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/reg-ins-eng); [Update, renew or cancel your registration](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/respond-eng); [Reporting large virtual currency transactions](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/lvctr/lvctr-eng); [PCMLTFA, sections 11.1 to 11.17](https://laws-lois.justice.gc.ca/eng/acts/P-24.501/); [Bank of Canada, Retail payments](https://www.bankofcanada.ca/regulatory-oversight/retail-payments/). Checked 11 October 2026.
 
@@ -7175,7 +7223,7 @@ Sources: [FINTRAC, Register your MSB or FMSB](https://fintrac-canafe.canada.ca/m
 
 ---
 
-## Guide: How to apply for MSB registration with FINTRAC: 6 steps
+## Guide: How to apply to FINTRAC as an MSB: 6 steps
 
 URL: https://amlcanada.ca/how-to-register-msb-canada.html
 
@@ -7209,7 +7257,7 @@ In Canada, a money services business (MSB) is a business that provides certain m
 
 If you have no place of business in Canada but you direct and provide these services to people or entities in Canada, you're a foreign MSB, and you must register too. Our [foreign MSB guide](https://amlcanada.ca/foreign-msb-registration-canada.html) covers that case.
 
-Registering or being licensed with a province doesn't replace FINTRAC registration. Quebec has its own licence for money-services businesses, issued by Revenu Québec, which is needed in addition to FINTRAC registration.
+Registering or being licensed with a province doesn't replace FINTRAC registration. Quebec has its own licence, issued by Revenu Québec, for businesses operating in Quebec that offer currency exchange, funds transfers, cheque cashing, traveller's cheques, money orders or bank drafts, or ATMs or crypto ATMs.
 
 If your business holds funds for users or transfers funds electronically for them, check the Retail Payment Activities Act as well. Many payment businesses need to register with the Bank of Canada as payment service providers, separately from FINTRAC. Our [RPAA guide](https://amlcanada.ca/rpaa-registration-guide.html) explains who is covered.
 
@@ -7265,7 +7313,7 @@ MSB registration is valid for two years and must be renewed before it expires. B
 
 **Does FINTRAC charge to register an MSB?** No. FINTRAC doesn't charge a registration fee. Your costs are your own time, criminal record checks, any certified translations, and professional help if you use it.
 
-**Is there an MSB licence in Canada?** At the federal level, Canada requires registration with FINTRAC under the Proceeds of Crime (Money Laundering) and Terrorist Financing Act. When people search for an MSB licence in Canada, they usually mean FINTRAC registration. Quebec is the exception: Revenu Québec issues a separate licence for money-services businesses.
+**Is there an MSB licence in Canada?** At the federal level, Canada requires registration with FINTRAC under the Proceeds of Crime (Money Laundering) and Terrorist Financing Act. When people search for an MSB licence in Canada, they usually mean FINTRAC registration. Quebec is the exception: a business operating in Quebec that offers currency exchange, funds transfers, cheque cashing, traveller's cheques, money orders or bank drafts, or ATMs or crypto ATMs also needs a licence from Revenu Québec.
 
 **Can I register an MSB without a Canadian office?** Yes, as a foreign MSB, if you direct and provide money services to people in Canada. You'll need a representative for service who lives in Canada.
 
