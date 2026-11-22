@@ -626,13 +626,13 @@ DEEP["rpaa-registration.html"] = dict(
                     "Coordination with your FINTRAC registration, where you need both"]),
     guide=[
         ("who", "Does the RPAA apply to you?", """          <p>The Act covers businesses that perform payment functions for end users as a service or business activity, such as holding accounts or funds for end users, initiating, authorizing or transmitting electronic funds transfers, and providing clearing or settlement services. A PSP with a place of business in Canada is covered. A PSP outside Canada is covered when it directs retail payment activities at people or entities in Canada and performs them for end users in Canada (RPAA s.5). Foreign firms often need FINTRAC registration as well; see our <a href="foreign-msb-registration-canada.html">foreign MSB registration guide</a>.</p>
-          <p>Banks and some other institutions are excluded, and some activities fall outside the Act, so we confirm where you stand before preparing anything. Our <a href="rpaa-registration-guide.html">RPAA guide</a> explains the Act in more detail.</p>"""),
+          <p>Banks and some other institutions are excluded, and some activities fall outside the Act, so we confirm where you stand before preparing anything. Our guide on <a href="who-must-register-psp-rpaa.html">who must register as a PSP</a> works through the test, and our <a href="rpaa-registration-guide.html">step-by-step guide to applying for RPAA registration</a> covers the application itself.</p>"""),
         ("fees", "What it costs", """          <p>Our fee is a fixed US$3,500. The Bank's one-time, non-refundable application fee was CA$2,500 when it was introduced in November 2024 and is indexed to inflation each January, so we confirm the current amount before you apply.</p>
           <p>The Bank also plans to charge registered PSPs annual assessment fees to recover its supervision costs. It isn't charging them yet and will start once the cost-recovery regulations are finalized.</p>"""),
         ("process", "How we handle your application", """          <ol>
             <li><strong>Assessment.</strong> Which of your activities are retail payment activities, and whether you need FINTRAC registration as well.</li>
             <li><strong>Preparation.</strong> Your business, ownership, payment activities, agents, mandataries and third-party providers, gathered and checked.</li>
-            <li><strong>Application.</strong> Submitted to the Bank of Canada, with the application fee.</li>
+            <li><strong>Application.</strong> Completed in PSP Connect, the Bank of Canada's online portal, and submitted with the application fee.</li>
             <li><strong>Review.</strong> The Bank shares applications with the Department of Finance and FINTRAC, and the Minister of Finance can order a national security review. We help you answer questions along the way.</li>
             <li><strong>Decision.</strong> Once registered, your business is listed in the Bank's public registry of PSPs.</li>
           </ol>
@@ -652,7 +652,10 @@ DEEP["rpaa-registration.html"] = dict(
           ("Do foreign payment service providers have to register?", "Yes, if they direct retail payment activities at people or entities in Canada and perform them for end users in Canada."),
           ("Do I also need to register with FINTRAC?", "Often. If you also provide money services, such as remitting or transmitting funds, you need FINTRAC registration as an MSB too."),
           ("How long does RPAA registration take?", "In our experience it often takes 2 to 8 months, including any national security review. That isn't guaranteed, and a new PSP can't start retail payment activities until it's registered."),
-          ("What happens after registration?", "You need risk management, incident response and, if you hold end-user funds, safeguarding frameworks, plus incident notices, change notices and annual reports. Our RPAA compliance program covers these.")],
+          ("What happens after registration?", "You need risk management, incident response and, if you hold end-user funds, safeguarding frameworks, plus incident notices, change notices and annual reports. Our RPAA compliance program covers these."),
+          ("Is RPAA registration a licence?", "No. The Bank of Canada registers payment service providers under the RPAA and says it doesn't license or endorse them. There is no PSP licence in Canada."),
+          ("Where do I apply for RPAA registration?", "Online, through PSP Connect, the Bank of Canada's portal for payment service providers. The application, the fee and the Bank's questions all go through it."),
+          ("Can I operate while my RPAA application is under review?", "Not if you applied on or after 8 September 2025: the Bank says those applicants may not start retail payment activities until they're registered. PSPs that applied during the transition period, before that date, can keep operating until the Bank decides.")],
     related=["rpaa-compliance-program.html", "msb-registration.html", "outsourced-compliance-officer.html"],
 )
 

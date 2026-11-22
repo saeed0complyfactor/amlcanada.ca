@@ -693,7 +693,7 @@ Retail Payment Activities Act (RPAA) registration for payment service providers.
 
 The Act covers businesses that perform payment functions for end users as a service or business activity, such as holding accounts or funds for end users, initiating, authorizing or transmitting electronic funds transfers, and providing clearing or settlement services. A PSP with a place of business in Canada is covered. A PSP outside Canada is covered when it directs retail payment activities at people or entities in Canada and performs them for end users in Canada (RPAA s.5). Foreign firms often need FINTRAC registration as well; see our [foreign MSB registration guide](https://amlcanada.ca/foreign-msb-registration-canada.html).
 
-Banks and some other institutions are excluded, and some activities fall outside the Act, so we confirm where you stand before preparing anything. Our [RPAA guide](https://amlcanada.ca/rpaa-registration-guide.html) explains the Act in more detail.
+Banks and some other institutions are excluded, and some activities fall outside the Act, so we confirm where you stand before preparing anything. Our guide on [who must register as a PSP](https://amlcanada.ca/who-must-register-psp-rpaa.html) works through the test, and our [step-by-step guide to applying for RPAA registration](https://amlcanada.ca/rpaa-registration-guide.html) covers the application itself.
 
 ### What it costs
 
@@ -707,7 +707,7 @@ The Bank also plans to charge registered PSPs annual assessment fees to recover 
 
 - **Preparation.** Your business, ownership, payment activities, agents, mandataries and third-party providers, gathered and checked.
 
-- **Application.** Submitted to the Bank of Canada, with the application fee.
+- **Application.** Completed in PSP Connect, the Bank of Canada's online portal, and submitted with the application fee.
 
 - **Review.** The Bank shares applications with the Department of Finance and FINTRAC, and the Minister of Finance can order a national security review. We help you answer questions along the way.
 
@@ -736,6 +736,12 @@ Often, yes. A payment business that remits or transmits funds usually needs FINT
 **How long does RPAA registration take?** In our experience it often takes 2 to 8 months, including any national security review. That isn't guaranteed, and a new PSP can't start retail payment activities until it's registered.
 
 **What happens after registration?** You need risk management, incident response and, if you hold end-user funds, safeguarding frameworks, plus incident notices, change notices and annual reports. Our RPAA compliance program covers these.
+
+**Is RPAA registration a licence?** No. The Bank of Canada registers payment service providers under the RPAA and says it doesn't license or endorse them. There is no PSP licence in Canada.
+
+**Where do I apply for RPAA registration?** Online, through PSP Connect, the Bank of Canada's portal for payment service providers. The application, the fee and the Bank's questions all go through it.
+
+**Can I operate while my RPAA application is under review?** Not if you applied on or after 8 September 2025: the Bank says those applicants may not start retail payment activities until they're registered. PSPs that applied during the transition period, before that date, can keep operating until the Bank decides.
 
 Sources: [Bank of Canada, Retail payments](https://www.bankofcanada.ca/regulatory-oversight/retail-payments/); [Supervisory framework](https://www.bankofcanada.ca/regulatory-oversight/retail-payments/supervisory-framework/); [Frequently asked questions about retail payments supervision](https://www.bankofcanada.ca/2026/08/frequently-asked-questions-about-retail-payments-supervision/); [Registration application fee](https://www.bankofcanada.ca/2024/10/registration-application-fee/); [Criteria for registering PSPs](https://www.bankofcanada.ca/2026/06/criteria-for-registering-payment-service-providers/); [Registry of payment service providers](https://www.bankofcanada.ca/regulatory-oversight/retail-payments/psp-registry/). Checked 11 October 2026.
 
@@ -3934,7 +3940,7 @@ The [Retail Payment Activities Regulations](https://laws-lois.justice.gc.ca/eng/
 
 - notices of change in registration information (RPAR s. 35(b)).
 
-The Bank's [June 29, 2026 reminder](https://www.bankofcanada.ca/2026/06/reminder-psp-reporting-obligations-under-rpaa/) repeats that all reports and notifications go through the portal.
+The Bank's [June 29, 2026 reminder](https://www.bankofcanada.ca/2026/06/reminder-psp-reporting-obligations-under-rpaa/) repeats that all reports and notifications go through the portal. If you haven't applied yet, our guide on [how to apply for RPAA registration](https://amlcanada.ca/rpaa-registration-guide.html) walks through the application in PSP Connect step by step.
 
 ### Who can access a PSP Connect account?
 
@@ -6892,17 +6898,43 @@ Sources: [FINTRAC, Money services businesses](https://fintrac-canafe.canada.ca/m
 
 ---
 
-## Guide: What is the RPAA?
+## Guide: How to apply for RPAA registration with the Bank of Canada
 
 URL: https://amlcanada.ca/rpaa-registration-guide.html
 
-The Retail Payment Activities Act is the federal law under which the Bank of Canada supervises payment service providers. It sets rules on operational risk, incidents and the safeguarding of users' funds.
+Payment service providers covered by the Retail Payment Activities Act (RPAA) apply to the Bank of Canada online, through PSP Connect. Since 8 September 2025, a new applicant can't start retail payment activities until the Bank registers it.
 
 **Key points:**
-- The RPAA applies to payment service providers performing retail payment activities.
-- Foreign PSPs are covered when they direct activities at Canada and serve end users here.
-- Banks, credit unions and some other institutions are excluded.
-- The RPAA sits alongside FINTRAC rules, and many businesses need both.
+- Confirm the RPAA applies, then create a PSP Connect account and complete the Bank's application form.
+- The Bank charges a one-time, non-refundable fee and evaluates an application only once it's paid.
+- You have 30 days to answer each of the Bank's information requests, and a national security review can follow.
+- Applicants from 8 September 2025 onward can't operate until they are registered.
+
+### How to apply for RPAA registration: 6 steps
+
+- **Check that the RPAA applies.** You must register if you perform one of the five payment functions as a service that isn't incidental to another service or business activity, in relation to an electronic funds transfer in a fiat currency or a prescribed unit, with a place of business in Canada or by directing services at, and performing them for, individuals or entities in Canada, and neither you nor the activity is excluded. The Bank's [registration criteria](https://www.bankofcanada.ca/2026/06/criteria-for-registering-payment-service-providers/) set out the test, and our guide on [who must register as a PSP](https://amlcanada.ca/who-must-register-psp-rpaa.html) works through it with examples.
+
+- **Create a PSP Connect account.** You apply through [PSP Connect](https://rps.bankofcanada.ca/), the Bank's online portal. The Bank's [step-by-step guide](https://www.bankofcanada.ca/wp-content/uploads/2024/01/How-to-complete-a-registration-application-a-step-by-step-guide.pdf) says the email address you sign up with can be linked to only one application or entity, and the person who creates the account becomes the organization's administrator, who can add other representatives later. Our [PSP Connect guide](https://amlcanada.ca/psp-connect-guide.html) explains users and roles.
+
+- **Prepare the application.** Section 29 of the RPAA sets out what the application must contain. The Bank's form asks about your contact details, business structure and ownership, payment functions, transfers and currencies, where you operate, transaction values and volumes, end users, your risk management and incident response framework, personal and financial information, third-party service providers, agents and mandataries, affiliated entities, FINTRAC registration and any provincial registration. You can save the form and finish it later.
+
+- **Pay the fee and submit.** The Bank charges a one-time, non-refundable application fee and evaluates an application only once the fee is paid in full. It was $2,500 when registration opened in November 2024 and is indexed to inflation, so confirm the current amount on the Bank's [fee page](https://www.bankofcanada.ca/2024/10/registration-application-fee/) before you pay. The step-by-step guide lists Visa, Mastercard, Discover, UnionPay, Visa Debit and Mastercard Debit as accepted cards. After you submit, PSP Connect confirms receipt and shows the application under "Registration Details".
+
+- **Answer the Bank's questions.** Section 29(3) of the RPAA gives you 30 days to answer each request for additional information. Application information is shared with the Department of Finance and FINTRAC. The Minister of Finance can order a national security review, which the Bank's [FAQ](https://www.bankofcanada.ca/2026/08/frequently-asked-questions-about-retail-payments-supervision/) says has a prescribed 180 days that the Minister can extend, and the Bank can't register you while it's open (section 37).
+
+- **Receive the decision.** Section 25 requires the Bank to register an applicant unless a refusal ground or a ministerial review applies, and to notify it in writing. Registered PSPs are listed on the Bank's public registry. If you're refused, a request for review is due within 30 days after you're notified (RPAR s. 31(1)); the Bank's [reviews and appeals policy](https://www.bankofcanada.ca/2025/01/reviews-and-appeals/) explains the process.
+
+The Bank also plans to charge registered PSPs annual assessment fees to recover the cost of supervision, but it hasn't started yet. Its FAQ says it will begin charging them in due course, once the cost recovery formula and regulations are finalized. Our [RPAA registration service](https://amlcanada.ca/rpaa-registration.html) prepares and submits the application with you.
+
+### Can you operate while your application is under review?
+
+It depends on when you applied. Section 23 of the RPAA says a PSP must be registered with the Bank before it performs any retail payment activities.
+
+- **Applied on or after 8 September 2025.** The Bank says these applicants may not start retail payment activities until it has registered them.
+
+- **Applied before 8 September 2025.** Section 108 of the RPAA lets a PSP that applied during the transition period keep operating until the Bank registers or refuses it. The Bank expects these applicants to meet the operational risk and safeguarding obligations already.
+
+Applicants still being processed appear on the Bank's list of applicants, with their date of application. Our guide on [checking Bank of Canada PSP registration](https://amlcanada.ca/check-bank-of-canada-psp-registration.html) explains the lists.
 
 ### What the RPAA is
 
@@ -6936,12 +6968,6 @@ Sections 6 to 10 of the Act set out exclusions. Some institutions are outside th
 
 Some activities are excluded too, including payments made with closed-loop instruments such as gift cards that can be used only with the issuing merchant or a group of merchants, cash withdrawals at ATMs, and certain securities and financial contract transactions. An agent of a registered PSP that is acting within its authority and is on the PSP's list of agents isn't separately covered.
 
-### Registration, review and fees
-
-The Bank charges a one-time, non-refundable application fee. It was CA$2,500 when registration opened in November 2024, and it's set by [regulation](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2023-229/FullText.html) and adjusted for inflation each January. We confirm the current amount before you apply. The Bank plans to charge registered PSPs annual assessment fees to recover the cost of supervision, but it hasn't started yet. Its [FAQ](https://www.bankofcanada.ca/2026/08/frequently-asked-questions-about-retail-payments-supervision/) says it will begin charging them in due course, once the fee formula is finalized.
-
-Application information is shared with the Department of Finance and with FINTRAC. If the Minister of Finance considers it necessary for national security reasons, the Minister can order a full review of an application, and the Bank can't register the applicant while that review is under way. Our [RPAA registration service](https://amlcanada.ca/rpaa-registration.html) covers the application itself.
-
 ### Ongoing obligations
 
 Since September 8, 2025, PSPs must have a risk management and incident response framework, and those that hold end-user funds must [safeguard them](https://amlcanada.ca/rpaa-safeguarding-end-user-funds.html), either in a trust account or in a segregated account with insurance or a guarantee.
@@ -6954,6 +6980,16 @@ The two regimes sit side by side. The RPAA deals with operational risk and safeg
 
 ### Questions
 
+**Where do I apply for RPAA registration?** Online, through PSP Connect, the Bank of Canada's portal for payment service providers at rps.bankofcanada.ca. You create an account, complete the application form, pay the fee and submit it there.
+
+**Can I operate while my RPAA application is under review?** Only if you applied before 8 September 2025, under the transition rule in section 108 of the RPAA. The Bank says applicants from 8 September 2025 onward may not start retail payment activities until they are registered.
+
+**What does the RPAA application ask for?** Section 29 of the RPAA lists it. The Bank's form covers your ownership and structure, payment functions, currencies, geography, values and volumes, end users, risk management and incident response framework, third-party service providers, agents, affiliates, FINTRAC registration and provincial registrations.
+
+**What if my RPAA application is refused?** The Bank notifies you in writing. You can request a review within 30 days after you're notified, through PSP Connect, under section 31(1) of the Retail Payment Activities Regulations.
+
+**Is RPAA registration a licence?** No. The Bank of Canada registers payment service providers and says it doesn't license or endorse them. See our guide on whether there is a payment service provider licence in Canada.
+
 **What does RPAA stand for?** The Retail Payment Activities Act, the law under which the Bank of Canada supervises payment service providers.
 
 **How much is the Bank of Canada's RPAA fee?** A one-time, non-refundable application fee. It was CA$2,500 when introduced in November 2024 and is adjusted for inflation each January, so we confirm the current amount before you apply. Annual assessment fees aren't charged yet.
@@ -6964,7 +7000,7 @@ The two regimes sit side by side. The RPAA deals with operational risk and safeg
 
 **How long does RPAA registration take?** In our experience, generally about 2 to 8 months, including the national security review.
 
-Sources: [Retail Payment Activities Act](https://laws-lois.justice.gc.ca/eng/acts/R-7.36/FullText.html); [Retail Payment Activities Regulations](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2023-229/FullText.html); [Bank of Canada, Retail payments supervision](https://www.bankofcanada.ca/regulatory-oversight/retail-payments/); [Supervisory framework](https://www.bankofcanada.ca/regulatory-oversight/retail-payments/supervisory-framework/); [Retail payments supervision FAQ](https://www.bankofcanada.ca/2026/08/frequently-asked-questions-about-retail-payments-supervision/); [Registration application fee](https://www.bankofcanada.ca/2024/10/registration-application-fee/); [Criteria for registering PSPs](https://www.bankofcanada.ca/2026/06/criteria-for-registering-payment-service-providers/); [PSP reporting obligations](https://www.bankofcanada.ca/2026/06/reminder-psp-reporting-obligations-under-rpaa/). Checked 11 October 2026.
+Sources: [Retail Payment Activities Act](https://laws-lois.justice.gc.ca/eng/acts/R-7.36/FullText.html); [Retail Payment Activities Regulations](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2023-229/FullText.html); [Bank of Canada, Retail payments supervision](https://www.bankofcanada.ca/regulatory-oversight/retail-payments/); [Supervisory framework](https://www.bankofcanada.ca/regulatory-oversight/retail-payments/supervisory-framework/); [Retail payments supervision FAQ](https://www.bankofcanada.ca/2026/08/frequently-asked-questions-about-retail-payments-supervision/); [Registration application fee](https://www.bankofcanada.ca/2024/10/registration-application-fee/); [Criteria for registering PSPs](https://www.bankofcanada.ca/2026/06/criteria-for-registering-payment-service-providers/); [PSP reporting obligations](https://www.bankofcanada.ca/2026/06/reminder-psp-reporting-obligations-under-rpaa/); [How to complete a registration application: a step-by-step guide](https://www.bankofcanada.ca/wp-content/uploads/2024/01/How-to-complete-a-registration-application-a-step-by-step-guide.pdf); [PSP Connect](https://rps.bankofcanada.ca/); [Reviews and appeals](https://www.bankofcanada.ca/2025/01/reviews-and-appeals/). Checked 23 November 2026.
 
 ---
 
