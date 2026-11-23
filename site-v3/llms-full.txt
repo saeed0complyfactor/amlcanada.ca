@@ -324,19 +324,19 @@ Your fixed fee covers a complete set of PCMLTFA compliance program documents for
 
 Together they cover the policies, procedures, risk assessment, training and review planning behind the five required parts of a FINTRAC compliance program, plus your risk appetite and fraud risk management.
 
-### The five parts of a compliance program
+### The five elements of a FINTRAC compliance program
 
 FINTRAC's guidance sets out five required elements:
 
 - **A compliance officer**, appointed to be responsible for implementing the program. See [FINTRAC compliance officer requirements](https://amlcanada.ca/msb-compliance-officer-requirements-canada.html).
 
-- **Written policies and procedures**, kept up to date and, for an entity, approved by a senior officer.
+- **Written policies and procedures**, kept up to date and, for an entity, approved by a senior officer. See [what FINTRAC expects them to cover](https://amlcanada.ca/fintrac-compliance-program-requirements.html#policies).
 
-- **A risk assessment** of the business's money laundering, terrorist financing and sanctions evasion risks, documented.
+- **A risk assessment** of the business's money laundering, terrorist financing and sanctions evasion risks, documented. See [how to do a FINTRAC risk assessment](https://amlcanada.ca/fintrac-risk-assessment-msb.html).
 
-- **A written, ongoing compliance training program**, with a plan for delivering it, if you have employees, agents or others authorized to act for you.
+- **A written, ongoing compliance training program**, with a plan for delivering it, if you have employees, agents or others authorized to act for you. See [FINTRAC training requirements](https://amlcanada.ca/fintrac-training-requirements.html).
 
-- **A review of effectiveness** of the policies and procedures, risk assessment and training program, at least every two years.
+- **A review of effectiveness** of the policies and procedures, risk assessment and training program, at least every two years. See our [effectiveness review checklist](https://amlcanada.ca/fintrac-effectiveness-review-checklist.html).
 
 Our guide to [FINTRAC compliance program requirements](https://amlcanada.ca/fintrac-compliance-program-requirements.html) explains what FINTRAC expects in each part.
 
@@ -364,6 +364,10 @@ The exact list depends on the kind of business you are and the services you offe
 
 The rest of your program depends on the risk assessment. It looks at your money laundering, terrorist financing and sanctions evasion risks: your clients and business relationships, your products, services and delivery channels, the places you operate in and deal with, new developments and technologies, and the risks for your sector set out in Canada's latest National Risk Assessment of Money Laundering and Terrorist Financing. Higher-risk clients and products get closer controls.
 
+### What happens without one
+
+FINTRAC can impose administrative monetary penalties for breaches of the anti-money laundering law. For violations on or after March 26, 2026, the cap is $4 million per violation for a person and $20 million for an entity. FINTRAC can also refer non-compliance to law enforcement as a criminal offence, but it can't do both for the same act or omission. Our guide to [FINTRAC penalties (AMPs)](https://amlcanada.ca/fintrac-penalties-amps.html) explains how they work.
+
 ### If your bank or payment partner has asked for your program
 
 Banks and payment partners usually want to see that your program exists, fits your business, has a named compliance officer, and is followed day to day. If you've been asked and don't have one, or aren't sure yours will stand up, book a consultation. We'll tell you what's missing and how quickly it can be put right.
@@ -375,6 +379,12 @@ A program written once and left on a shelf goes out of date as your business and
 ### Questions
 
 **What does an AML compliance program include in Canada?** Five parts: a compliance officer, written policies and procedures, a risk assessment, an ongoing training program and plan if you have employees, agents or others acting for you, and an effectiveness review at least every two years.
+
+**Who needs a FINTRAC compliance program?** Every reporting entity under the PCMLTFA must establish and implement one, whatever its size. That includes money services businesses, foreign MSBs and virtual currency dealers.
+
+**Can the owner be the compliance officer?** Yes, if your business is small. FINTRAC's guidance says the owner or operator of a small business can be the compliance officer, and a sole proprietor can appoint themselves. In a larger business, FINTRAC's best practice is an officer who isn't directly involved in receiving, transferring or paying funds.
+
+**Is a FINTRAC compliance program the same as an RPAA compliance program?** No. A FINTRAC compliance program covers money laundering, terrorist financing and sanctions evasion under the PCMLTFA. An RPAA compliance program covers operational risk and safeguarding under the Bank of Canada. Many payment businesses need both.
 
 **How much does a compliance program cost?** A fixed US$3,500 for 14 PCMLTFA compliance program documents, from the AML/ATF Compliance Policy to the Fraud Risk Management Policy.
 
@@ -731,7 +741,7 @@ In our experience the process often takes 2 to 8 months, though that isn't guara
 
 ### After registration
 
-Registered PSPs need a risk management and incident response framework and, if they hold end-user funds, a safeguarding framework. They also report incidents, changes and an annual report to the Bank. Our [RPAA compliance program](https://amlcanada.ca/rpaa-compliance-program.html) sets these up for a fixed US$3,500.
+Registered PSPs need a [risk management and incident response framework](https://amlcanada.ca/rpaa-compliance-frameworks.html) and, if they hold end-user funds, a safeguarding framework. They also report incidents, changes and an annual report to the Bank. Our [RPAA compliance program](https://amlcanada.ca/rpaa-compliance-program.html) sets these up for a fixed US$3,500.
 
 ### RPAA and FINTRAC: do you need both?
 
@@ -778,13 +788,35 @@ Risk management, incident response and safeguarding frameworks for payment servi
 - Cyber, IT and continuity
 - Annual report and change notices
 
+### What an RPAA compliance program includes
+
+The [Retail Payment Activities Act](https://laws-lois.justice.gc.ca/eng/acts/R-7.36/FullText.html) (RPAA) and the [Retail Payment Activities Regulations](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2023-229/FullText.html) set out what a registered payment service provider (PSP) must have in place. If you're not sure the RPAA applies to you, start with [who must register as a PSP](https://amlcanada.ca/who-must-register-psp-rpaa.html).
+
+- **A risk management and incident response framework.** Every PSP needs one in writing (RPAA s.17(1); Regulations ss.5 to 9). It's reviewed at least once a year and before any material change, and everyone with a role in it is trained. See our guide to the [RPAA risk management framework](https://amlcanada.ca/rpaa-compliance-frameworks.html).
+
+- **Safeguarding of end-user funds, if you hold them.** A PSP that holds end-user funds also needs a safeguarding-of-funds framework (RPAA s.20(1); Regulations ss.15 to 17). See [RPAA safeguarding of end-user funds](https://amlcanada.ca/rpaa-safeguarding-end-user-funds.html).
+
+- **Incident notices.** When an incident has a material impact, you notify the Bank and each materially affected end user, PSP or designated clearing house without delay (RPAA s.18). The Bank's guideline sets the outer limit at 48 hours after you determine the incident is material. See [RPAA incident reporting](https://amlcanada.ca/rpaa-incident-reporting.html).
+
+- **Significant change notices.** At least five business days before a significant change or new activity (Regulations s.20).
+
+- **An annual report.** Due by March 31 for the previous calendar year (RPAA s.21; Regulations s.18). See [the RPAA annual report](https://amlcanada.ca/rpaa-annual-report.html).
+
+- **Records.** Records sufficient to show you comply, kept until five years after the day they stop showing current compliance (Regulations s.40).
+
+- **Independent review.** At least every three years for the risk framework if you have an internal or external auditor (Regulations s.10), and for safeguarding if you hold end-user funds (Regulations s.17).
+
+The schedule to the regulations classifies a breach of section 17(1) of the Act, read with section 5 of the regulations, as a very serious violation, with a penalty of up to $10,000,000 (Regulations s.48(1)(b)). Many payment businesses also need FINTRAC registration and an AML compliance program. See [RPAA vs FINTRAC MSB registration](https://amlcanada.ca/rpaa-vs-fintrac-msb-registration.html).
+
+The sections below set out the seven areas our program documents cover.
+
 ### Senior officer and governance
 
 Clear roles and responsibilities, with a senior officer accountable for the frameworks, and enough resources to run them. We set out who owns each framework, how it's approved and reviewed, and how issues reach senior management.
 
 ### Risk framework and registers
 
-The Bank expects PSPs to identify their operational risks, protect against them, detect problems, and respond and recover, with periodic review and testing. We build your risk framework and the registers behind it: the risks in your payment activities, the controls that address them and who is responsible.
+The Bank expects PSPs to identify their operational risks, protect against them, detect problems, and respond and recover, with periodic review and testing. We build your risk framework and the registers behind it: the risks in your payment activities, the controls that address them and who is responsible. Our guide to the [RPAA risk management and incident response framework](https://amlcanada.ca/rpaa-compliance-frameworks.html) sets out what section 5 of the regulations requires.
 
 ### Incident response
 
@@ -796,11 +828,17 @@ Many PSPs depend on processors, banks, cloud providers and others, and some act 
 
 ### Safeguarding end-user funds
 
-If you hold end-user funds, you must safeguard them, either in a trust account, or in a segregated account protected by insurance or a guarantee. Your written safeguarding framework explains how end users get timely access to their funds and how funds would be paid out if your business became insolvent. Our guide to [RPAA safeguarding of end-user funds](https://amlcanada.ca/rpaa-safeguarding-end-user-funds.html) covers the requirements in detail.
+If you hold end-user funds, you must safeguard them, either in a trust account, or in a segregated account protected by insurance or a guarantee. Your written safeguarding framework explains how end users get timely access to their funds and how funds would be paid out if your business became insolvent. Our guide to [RPAA safeguarding of end-user funds](https://amlcanada.ca/rpaa-safeguarding-end-user-funds.html) covers the requirements in detail, and our guide to the [trust account legal opinion](https://amlcanada.ca/rpaa-safeguarding-legal-opinion-trust-account.html) covers what the Bank asks for.
 
 ### Cyber, IT and continuity
 
 Protecting the integrity, confidentiality and availability of your systems and data, detecting cyber threats, and keeping payments running, or restoring them quickly, when systems or providers fail.
+
+### Independent review and records
+
+If you have an internal or external auditor, section 10 of the regulations requires an independent review of your risk management and incident response framework at least once every three years. It's carried out by a sufficiently skilled individual who has had no role in establishing, implementing or maintaining the framework, and the gaps it finds are reported to the senior officer, if you have one. A PSP that holds end-user funds needs an independent review of its safeguarding at least every three years regardless (section 17).
+
+Section 40 requires records sufficient to show that you comply with the Act and regulations. You keep them until five years after the day they stop showing current compliance. Section 42 extends the rules to records held by your agents and third-party service providers.
 
 ### Annual report and change notices
 
@@ -814,11 +852,13 @@ Changes to registration information are generally notified within 30 days after 
 
 **How much does an RPAA compliance program cost?** A fixed US$3,500 for the program documents covering all seven areas.
 
+**Is an independent review of the RPAA framework always required?** Only for PSPs that have an internal or external auditor, at least every three years. A PSP that holds end-user funds needs an independent review of safeguarding compliance at least every three years regardless.
+
 **Is this the same as our FINTRAC AML program?** No. The RPAA program covers operational risk and safeguarding under the Bank of Canada. A FINTRAC compliance program covers money laundering, terrorist financing and sanctions evasion. Many payment businesses need both.
 
 **Do you help us put the frameworks in place?** Yes. We write them around how you operate and walk your team through them. Ongoing support can be covered by outsourced compliance officer hours.
 
-Sources: [Bank of Canada, Supervisory framework](https://www.bankofcanada.ca/regulatory-oversight/retail-payments/supervisory-framework/); [Retail payments](https://www.bankofcanada.ca/regulatory-oversight/retail-payments/); [Reminder: PSP reporting obligations under the RPAA](https://www.bankofcanada.ca/2026/06/reminder-psp-reporting-obligations-under-rpaa/); [Acquisitions of control and prescribed changes](https://www.bankofcanada.ca/2024/08/acquisitions-of-control-and-prescribed-changes/); [Retail Payment Activities Regulations](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2023-229/). Checked 11 October 2026.
+Sources: [Bank of Canada, Supervisory framework](https://www.bankofcanada.ca/regulatory-oversight/retail-payments/supervisory-framework/); [Retail payments](https://www.bankofcanada.ca/regulatory-oversight/retail-payments/); [Reminder: PSP reporting obligations under the RPAA](https://www.bankofcanada.ca/2026/06/reminder-psp-reporting-obligations-under-rpaa/); [Acquisitions of control and prescribed changes](https://www.bankofcanada.ca/2024/08/acquisitions-of-control-and-prescribed-changes/); [Retail Payment Activities Regulations](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2023-229/); [Retail Payment Activities Act](https://laws-lois.justice.gc.ca/eng/acts/R-7.36/FullText.html). Checked 11 October 2026.
 
 ---
 
@@ -948,7 +988,7 @@ An effectiveness review is your own check of your program. A FINTRAC examination
 
 **Can we do the review ourselves?** FINTRAC's guidance allows a self-review if you have no internal or external auditor, provided whoever does it knows the requirements. An external review adds independence.
 
-**When is our first effectiveness review due?** Neither the Regulations nor FINTRAC's compliance program guidance sets a date for the first review. Your compliance program, including a documented plan for the review, must be in place from the start, and the review is required every two years (PCMLTFR s. 156(1)(f) and (3)). If you're unsure, FINTRAC answers questions on requirements at guidelines-lignesdirectrices@fintrac-canafe.gc.ca.
+**When is our first effectiveness review due?** Neither the Regulations nor FINTRAC's compliance program guidance sets a date for the first review. The Act requires you to establish and implement a compliance program (PCMLTFA s. 9.6(1)), and a documented plan for the review is one of its elements (PCMLTFR s. 156(1)(f)). The review itself is required every two years (s. 156(3)). If you're unsure, FINTRAC answers questions on requirements at guidelines-lignesdirectrices@fintrac-canafe.gc.ca.
 
 **What if we've missed the two-year deadline?** Neither the Regulations nor FINTRAC's guidance gives a grace period. The penalty regulations class a breach of PCMLTFR s. 156(1)(f) and (3), the review plan and two-year review, as a very serious violation. In our view, start the review as soon as you can and document it. If you're an entity, the findings still go in writing to a senior officer within 30 days of finishing.
 
@@ -980,7 +1020,7 @@ Anti-money laundering training for front-line staff, compliance teams and senior
 
 ### Is AML training required in Canada?
 
-Yes, if you have employees, agents or others authorized to act on your behalf. In that case a written, ongoing compliance training program, with a plan for delivering it, is one of the required elements of a compliance program for businesses regulated by FINTRAC. Training should fit your business and your risks, and reach the people who deal with clients or transactions. A sole proprietor with no employees, agents or others authorized to act for them doesn't need a training program.
+Yes, if you have employees, agents or others authorized to act on your behalf. In that case a written, ongoing compliance training program, with a plan for delivering it, is one of the required elements of a [FINTRAC compliance program](https://amlcanada.ca/compliance-programs.html). Training should fit your business and your risks, and reach the people who deal with clients or transactions. A sole proprietor with no employees, agents or others authorized to act for them doesn't need a training program.
 
 ### Training for each role
 
@@ -6820,11 +6860,11 @@ Neither section 156 of the [Regulations](https://laws-lois.justice.gc.ca/eng/reg
 
 What the rules do set:
 
-- A documented plan for the review is one of the elements of your compliance program (s. 156(1)(f)), and your program needs to be in place from the day your obligations start.
+- A documented plan for the review is one of the elements of the compliance program the Act requires you to establish and implement (s. 156(1)(f); PCMLTFA s. 9.6(1)).
 
 - The review is carried out, and its results documented, every two years (s. 156(3)).
 
-- Each review must start no later than 24 months from the start of the previous one, and the previous review must be finished before the next one starts.
+- FINTRAC's guidance says each review must start no later than 24 months from the start of the previous one, and the previous review must be finished before the next one starts.
 
 If you're unsure when your first review is due, FINTRAC's guidance gives an address for questions on requirements: guidelines-lignesdirectrices@fintrac-canafe.gc.ca. In our view, record the date you chose and why in your review plan.
 
