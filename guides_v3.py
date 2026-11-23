@@ -500,7 +500,7 @@ GUIDES["buying-an-msb-canada.html"] = dict(
                "A PSP registered under the RPAA must re-register before control changes."],
     sections=[
         ("why", "Why some businesses buy", """          <p>Some businesses acquire a Canadian company that's already registered with FINTRAC as a money services business, instead of <a href="how-to-register-msb-canada.html">registering a new one</a>. They start from an established entity with a registration history. It costs more up front, and the due diligence matters as much as the price.</p>
-          <p>AML Canada sells registered MSBs. Our current companies are listed on <a href="msb-for-sale.html">MSB for sale</a>. The checks below apply whichever seller you buy from.</p>"""),
+          <p>AML Canada sells registered MSBs. Our current companies are listed on <a href="msb-for-sale.html">Canadian MSB companies for sale</a>. The checks below apply whichever seller you buy from.</p>"""),
         ("registry", "Check the public registry", f"""          <p>Start with <a href="{F_MSB_REGISTRY}" rel="noopener">FINTRAC's MSB registry</a>. Search by name or registration number and confirm the status is Registered. The other statuses are Revoked, Expired and Ceased. The listing also shows the services the business is registered for, its addresses, and its registration and expiry dates.</p>
           <p>Compare the listed services with what you plan to offer. Adding services later means updating the registration. Note the expiry date too: registration lasts two years and must be renewed before it expires. A Registered listing means the business met the legal requirements to register. FINTRAC says it isn't an endorsement.</p>"""),
         ("eligibility", "Check that the new owners are eligible", f"""          <p>Section 11.11 of the <a href="{L_PCMLTFA}" rel="noopener">PCMLTFA</a> makes some persons and entities ineligible to register. They include:</p>
@@ -2065,7 +2065,7 @@ GUIDES["ready-made-msb-company-canada.html"] = dict(
             <li>Ask whether the company is registered with the Bank of Canada, and plan any re-registration.</li>
             <li>Read the share purchase agreement for warranties about the company's history.</li>
           </ol>
-          <p>The full list is in our <a href="buying-an-msb-canada.html">MSB due-diligence checklist</a>. The companies we have now are on <a href="msb-for-sale.html#available">MSB for sale</a>.</p>"""),
+          <p>The full list is in our <a href="buying-an-msb-canada.html">MSB due-diligence checklist</a>. The companies we have now are on <a href="msb-for-sale.html#available">ready-made MSBs for sale</a>.</p>"""),
     ],
     faqs=[("What is a ready-made MSB in Canada?", "A Canadian company already registered with FINTRAC as a money services business, sold by transferring its shares. The registration stays with the company."),
           ("How much does a ready-made MSB cost?", "Our registered companies start from €28,000. The price depends on the registered services, the time left on the registration, the company's history and any Bank of Canada registration."),

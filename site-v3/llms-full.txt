@@ -502,7 +502,7 @@ Buy a ready-made MSB: a Canadian company already registered with FINTRAC as a mo
 - Updates to FINTRAC within 30 days, including new owners and directors
 - Guidance on what the new owners need to provide
 
-### Canadian MSBs for sale now
+### Ready-made Canadian MSBs for sale now
 
 These Canadian companies are registered with FINTRAC as money services businesses and are for sale now. None has traded. Names and registration numbers are shared under NDA, and you can then check each one yourself on [FINTRAC's public MSB registry](https://fintrac-canafe.canada.ca/msb-esm/reg-eng) before paying anything.
 
@@ -516,7 +516,21 @@ These Canadian companies are registered with FINTRAC as money services businesse
 
 Price from €28,000, depending on the company. Bank of Canada (RPAA) status, banking and the full corporate file are reviewed with you before you commit. Message us on [WhatsApp](https://wa.me/18078060444?text=Hi%2C%20I%27m%20interested%20in%20a%20registered%20MSB%20%28amlcanada.ca%29) or [Telegram](https://t.me/sabbasi_1), or [book a consultation](https://amlcanada.ca/contact.html?need=acquire).
 
-### How to buy an MSB in Canada
+### Shelf company or operating business?
+
+A ready-made MSB is usually a shelf company: newly incorporated, registered with FINTRAC and with no trading history. The companies listed on this page are of this kind. None has traded. An operating business has customers, transactions and records, and a share purchase brings that history with it.
+
+| | Shelf company (ready-made MSB) | Operating business |
+
+| History | No trading history, though its corporate and registration records still need checking | Past transactions, records, any examination findings and any unpaid penalties come with the company |
+
+| Main checks | Registration status, registered services, expiry date and corporate records | The same, plus past FINTRAC examinations, findings letters and action plans, any published penalties, the compliance program, the last two effectiveness reviews, whether reports were filed on time, and whether records exist for the past five years |
+
+| Banking | FINTRAC registration doesn't guarantee a bank account or payment partners. Check whether any existing accounts would continue after the change of control |
+
+For either kind, ask your lawyer about warranties and indemnities in the share purchase agreement that cover the company's history.
+
+### How to buy a ready-made MSB in Canada
 
 - **Consultation.** Your plans: the services you'll offer, your customers and your timeline.
 
@@ -592,7 +606,7 @@ The obligations come with the company. The business needs a compliance officer a
 
 | Afterwards | The same obligations: compliance program, reporting, record keeping and renewal |
 
-Our [buy or register an MSB](https://amlcanada.ca/buy-or-register-msb-canada.html) page compares the two routes in full.
+Our [buy or register an MSB](https://amlcanada.ca/buy-or-register-msb-canada.html) page compares the two routes in full. Selling a registered company instead? See [sell your MSB in Canada](https://amlcanada.ca/sell-your-msb.html).
 
 ### Questions
 
@@ -616,6 +630,10 @@ Our [buy or register an MSB](https://amlcanada.ca/buy-or-register-msb-canada.htm
 
 **How can I verify a company before I pay?** Ask for its legal name and MSB registration number, then search FINTRAC's public MSB registry and check that the status is Registered and the services and expiry date match what you've been told.
 
+**Are a company's past FINTRAC violations my problem after I buy?** They come with the company. A share purchase brings the company's history with it: past transactions, records, any examination findings and any unpaid penalties. An unpaid FINTRAC penalty can also make a business ineligible to register under PCMLTFA s.11.11. Ask your lawyer about warranties and indemnities that cover this.
+
+**What does due diligence on an MSB cover?** Check on FINTRAC's registry that the registration is active, covers your services and when it expires. Then review the corporate records, past compliance issues and FINTRAC correspondence, the new owners' eligibility, and whether the company is registered with the Bank of Canada. If the company has traded, also review its compliance program, effectiveness reviews, reporting and records.
+
 Sources: [FINTRAC, Register your MSB or FMSB](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/reg-ins-eng); [Update, renew or cancel your registration](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/respond-eng); [Money services businesses](https://fintrac-canafe.canada.ca/msb-esm/msb-eng); [FINTRAC MSB registry](https://fintrac-canafe.canada.ca/msb-esm/reg-eng); [Who is not eligible to register](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/no-eng); [PCMLTFA, section 11.11](https://laws-lois.justice.gc.ca/eng/acts/P-24.501/); [Bank of Canada, Acquisitions of control and prescribed changes](https://www.bankofcanada.ca/2024/08/acquisitions-of-control-and-prescribed-changes/). Checked 11 October 2026.
 
 ---
@@ -624,7 +642,7 @@ Sources: [FINTRAC, Register your MSB or FMSB](https://fintrac-canafe.canada.ca/m
 
 URL: https://amlcanada.ca/buy-or-register-msb-canada.html
 
-Buy a Canadian company already registered with FINTRAC from €28,000, or register your own for a fixed US$3,500. For crypto, foreign exchange, remittance and payment businesses, in Canada or abroad.
+Register your own MSB with FINTRAC for a fixed US$3,500, or buy a Canadian company that's already registered. First decide whether you need FINTRAC only, or the Bank of Canada too. For crypto, foreign exchange, remittance and payment businesses, in Canada or abroad.
 
 **Fee:** US$3,500 (new registration · fixed fee). Or buy a registered company from €28,000. Compliance program, compliance officer, incorporation and Canadian address are available with either route, at their own fees.
 
@@ -638,7 +656,41 @@ Buy a Canadian company already registered with FINTRAC from €28,000, or regist
 
 ### The short answer
 
-Registering a new MSB costs our fixed fee of US$3,500, with no FINTRAC fee, and FINTRAC's review has taken from about a week to seven months in our experience. Buying a ready-made MSB starts from €28,000 and skips the new application, but you take on the company's history, so due diligence comes first. Either way, the business needs a compliance officer and a compliance program before it operates.
+Registering a new MSB costs our fixed fee of US$3,500, with no FINTRAC fee, and FINTRAC's review has taken from about a week to seven months in our experience. Buying a ready-made MSB skips the new application, but you take on the company's history, so due diligence comes first. Either way, the business needs a compliance officer and a compliance program before it operates. Before choosing a route, decide whether you need FINTRAC registration only, or Bank of Canada registration too.
+
+### First decision: FINTRAC only, or FINTRAC and the Bank of Canada?
+
+Money services businesses (MSBs) register with FINTRAC under the PCMLTFA. Payment service providers (PSPs) register with the Bank of Canada under the Retail Payment Activities Act (RPAA). You're an MSB because of the money services you provide, and a PSP because of the payment functions you perform. One business can meet both tests, one test or neither.
+
+A business with a place of business in Canada must register with FINTRAC before it provides any of these money services:
+
+- foreign exchange dealing;
+
+- remitting or transmitting funds;
+
+- issuing or redeeming money orders, traveller's cheques or similar negotiable instruments;
+
+- dealing in virtual currency;
+
+- crowdfunding platform services;
+
+- armoured car services;
+
+- cheque cashing;
+
+- acquirer services for private automated banking machines.
+
+- **FINTRAC only.** A crypto-only exchange or a cash currency counter can be an MSB without being a PSP.
+
+- **FINTRAC and the Bank of Canada.** A remittance business is usually both a PSP and an MSB. A crypto-backed prepaid card that earns interchange fees is treated by the Bank as a PSP, and dealing in virtual currencies is an MSB service. A PSP must be registered with the Bank before it performs any retail payment activities.
+
+| | Register a new MSB | Buy a ready-made MSB |
+
+| FINTRAC only | Register your company with FINTRAC | Buy a company registered for the money services you need, then report the changes to FINTRAC within 30 days |
+
+| FINTRAC and the Bank of Canada | Put the FINTRAC registration in place first, or file both together. The Bank asks for your FINTRAC registration number | If the company is already a registered PSP, buying control needs Bank of Canada re-registration before the purchase closes (RPAA s.24). If it isn't, it must register with the Bank before it performs any retail payment activities |
+
+Our guide to [RPAA vs FINTRAC MSB registration](https://amlcanada.ca/rpaa-vs-fintrac-msb-registration.html) covers which business models need both. Our [MSB registration with FINTRAC](https://amlcanada.ca/msb-registration.html) and [RPAA registration](https://amlcanada.ca/rpaa-registration.html) services can be run together.
 
 ### Ready-made or new: side by side
 
@@ -660,11 +712,11 @@ Registering a new MSB costs our fixed fee of US$3,500, with no FINTRAC fee, and 
 
 A FINTRAC registration belongs to the registered business, so you buy the company's shares rather than the registration itself. Before you commit, check that the registration is active and covers the services you plan to offer, when it's next due for renewal, and the company's records and compliance history. You can confirm any company's status on [FINTRAC's public MSB registry](https://fintrac-canafe.canada.ca/msb-esm/reg-eng).
 
-The companies currently available are listed on [MSB for sale](https://amlcanada.ca/msb-for-sale.html#available). The price depends on the company, the services it's registered for and its history. After the purchase, new owners, directors and the compliance officer are reported to FINTRAC within 30 days. Every check is in our [MSB due-diligence checklist](https://amlcanada.ca/buying-an-msb-canada.html).
+The companies currently available are listed on [Canadian MSB companies for sale](https://amlcanada.ca/msb-for-sale.html#available). The price depends on the company, the services it's registered for and its history. After the purchase, new owners, directors and the compliance officer are reported to FINTRAC within 30 days. Every check is in our [MSB due-diligence checklist](https://amlcanada.ca/buying-an-msb-canada.html).
 
 ### Registering a new MSB
 
-We work out which of your services are money services, gather and check everything FINTRAC asks for, submit the application with your approval and answer FINTRAC's questions until it's decided. If FINTRAC asks for clarification, the answer is due within 30 days. Criminal record checks from several countries usually take longest, so we start them first. Our guide on [how to register an MSB in Canada](https://amlcanada.ca/how-to-register-msb-canada.html) covers each step.
+We work out which of your services are money services, gather and check everything FINTRAC asks for, submit the application with your approval and answer FINTRAC's questions until it's decided. If FINTRAC asks for clarification, the answer is due within 30 days. Criminal record checks from several countries usually take longest, so we start them first. Our guide on [how to register an MSB in Canada](https://amlcanada.ca/how-to-register-msb-canada.html) covers each step, and our [MSB registration with FINTRAC](https://amlcanada.ca/msb-registration.html) page sets out the service.
 
 ### Setting up from outside Canada
 
@@ -1524,7 +1576,7 @@ We review your company, present it to buyers without naming it, and take both si
 - FINTRAC change filings within 30 days of closing
 - Bank of Canada re-registration managed if the company is a registered PSP
 
-### Which companies we can sell
+### Which MSBs you can sell through us
 
 - Canadian corporations registered with FINTRAC as money services businesses, with the status Registered on FINTRAC's registry;
 
@@ -1532,7 +1584,7 @@ We review your company, present it to buyers without naming it, and take both si
 
 - companies that are also registered with the Bank of Canada as payment service providers, with extra time allowed for re-registration before closing.
 
-### What we check before listing
+### What we check before you sell
 
 - the status, registered services and expiry date on [FINTRAC's MSB registry](https://fintrac-canafe.canada.ca/msb-esm/reg-eng);
 
@@ -1544,15 +1596,17 @@ We review your company, present it to buyers without naming it, and take both si
 
 - bank accounts and payment partners, and whether they would continue after a change of control.
 
-### What affects the price
+### What affects your sale price
 
-The registered services, how long is left before the registration expires, whether the company has traded and how clean its records are, and whether it's also registered with the Bank of Canada. A company that has had compliance problems is harder to sell, and some can't be sold until those problems are fixed.
+The registered services, how long is left before the registration expires (registration lasts two years and must be renewed before it expires), whether the company has traded and how clean its records are, and whether it's also registered with the Bank of Canada. A company that has had compliance problems is harder to sell, and some can't be sold until those problems are fixed.
 
-### How the sale works
+If the company operates in Quebec, it also needs a licence from [Revenu Québec](https://www.revenuquebec.ca/en/businesses/sector-specific-measures/money-services-businesses-msbs/money-services-business-licence-application/). Revenu Québec decides on a licence only after it receives security clearance reports from the Sûreté du Québec on the business and its associated persons, including directors, officers and anyone who directly or indirectly owns or controls it. New reports are required when a change is likely to affect the licence.
+
+### How selling your MSB works
 
 - **Review.** You send us the corporate documents and FINTRAC approval. We check them and agree a price range and our fee with you.
 
-- **Listing.** The company appears on [MSB for sale](https://amlcanada.ca/msb-for-sale.html#available) without its name or registration number.
+- **Listing.** The company appears on [our list of available companies](https://amlcanada.ca/msb-for-sale.html#available) without its name or registration number.
 
 - **Buyer.** Interested buyers sign an NDA. We check that the new owners and directors aren't ineligible under PCMLTFA s.11.11.
 
@@ -1572,7 +1626,9 @@ The registered services, how long is left before the registration expires, wheth
 
 **How long does a sale take?** It depends on finding the right buyer, their due diligence and any Bank of Canada re-registration. We give you a timeline after the review.
 
-Sources: [FINTRAC MSB registry](https://fintrac-canafe.canada.ca/msb-esm/reg-eng); [Update, renew or cancel your registration](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/respond-eng); [Who is not eligible to register](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/no-eng); [PCMLTFA](https://laws-lois.justice.gc.ca/eng/acts/P-24.501/); [Bank of Canada, Acquisitions of control and prescribed changes](https://www.bankofcanada.ca/2024/08/acquisitions-of-control-and-prescribed-changes/). Checked 11 October 2026.
+**Will my bank account continue after the sale?** Not reliably. FINTRAC registration doesn't guarantee banking, and an existing account may not continue after a change of control. We check bank accounts and payment partners, and whether they would continue, before the company is listed.
+
+Sources: [FINTRAC MSB registry](https://fintrac-canafe.canada.ca/msb-esm/reg-eng); [Update, renew or cancel your registration](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/respond-eng); [Who is not eligible to register](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/no-eng); [PCMLTFA](https://laws-lois.justice.gc.ca/eng/acts/P-24.501/); [Bank of Canada, Acquisitions of control and prescribed changes](https://www.bankofcanada.ca/2024/08/acquisitions-of-control-and-prescribed-changes/); [Revenu Québec, Money-services business licence](https://www.revenuquebec.ca/en/businesses/sector-specific-measures/money-services-businesses-msbs/money-services-business-licence-application/). Checked 11 October 2026.
 
 ---
 
@@ -6626,7 +6682,7 @@ The registered services, how long is left before the registration expires, wheth
 
 - Read the share purchase agreement for warranties about the company's history.
 
-The full list is in our [MSB due-diligence checklist](https://amlcanada.ca/buying-an-msb-canada.html). The companies we have now are on [MSB for sale](https://amlcanada.ca/msb-for-sale.html#available).
+The full list is in our [MSB due-diligence checklist](https://amlcanada.ca/buying-an-msb-canada.html). The companies we have now are on [ready-made MSBs for sale](https://amlcanada.ca/msb-for-sale.html#available).
 
 ### Questions
 
@@ -6848,7 +6904,7 @@ Buying a company that's already registered with FINTRAC as a money services busi
 
 Some businesses acquire a Canadian company that's already registered with FINTRAC as a money services business, instead of [registering a new one](https://amlcanada.ca/how-to-register-msb-canada.html). They start from an established entity with a registration history. It costs more up front, and the due diligence matters as much as the price.
 
-AML Canada sells registered MSBs. Our current companies are listed on [MSB for sale](https://amlcanada.ca/msb-for-sale.html). The checks below apply whichever seller you buy from.
+AML Canada sells registered MSBs. Our current companies are listed on [Canadian MSB companies for sale](https://amlcanada.ca/msb-for-sale.html). The checks below apply whichever seller you buy from.
 
 ### Check the public registry
 
