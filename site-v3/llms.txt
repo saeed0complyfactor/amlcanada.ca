@@ -13,7 +13,7 @@
 - [RPAA registration](https://amlcanada.ca/rpaa-registration.html): Register as a payment service provider (PSP) with the Bank of Canada under the RPAA. Fixed fee US$3,500, plus the Bank's own application fee.
 - [RPAA compliance program](https://amlcanada.ca/rpaa-compliance-program.html): RPAA frameworks for PSPs: governance, risk registers, incident response, third parties, safeguarding, cyber and continuity, annual reports. Fixed fee US$3,500.
 - [Effectiveness reviews](https://amlcanada.ca/effectiveness-reviews.html): The FINTRAC two-year effectiveness review, often called an AML audit: your policies, risk assessment and training tested, with written findings.
-- [Training](https://amlcanada.ca/training.html): Anti-money laundering training for MSB front-line staff, compliance teams and senior management, built to meet FINTRAC's training requirement.
+- [Training](https://amlcanada.ca/training.html): FINTRAC AML training in Canada for MSB front-line staff, compliance teams and senior management, built to meet FINTRAC's training requirement.
 - [Company incorporation](https://amlcanada.ca/incorporation-canada.html): Incorporate a Canadian company, federally or in Ontario, usually within 24 hours. Fixed fee US$1,500, ready for FINTRAC or RPAA registration.
 - [Apostille & notarization](https://amlcanada.ca/apostille-notarization-canada.html): Apostille and notarization of Canadian corporate documents for foreign banks, payment partners and regulators, with a licensed Ontario partner notary.
 - [FINTRAC reporting software](https://amlcanada.ca/fintrac-reporting-software.html): FINTRAC reporting software for STRs, LCTRs, EFTRs, LVCTRs and CDRs: data import, 24-hour rule checks, validation, maker-checker approval and API submission.

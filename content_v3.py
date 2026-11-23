@@ -354,7 +354,7 @@ DEEP["compliance-programs.html"] = dict(
           </ul>
           <p>The exact list depends on the kind of business you are and the services you offer, which is why we start with how you operate.</p>"""),
         ("risk-assessment", "Your risk assessment", """          <p>The rest of your program depends on the risk assessment. It looks at your money laundering, terrorist financing and sanctions evasion risks: your clients and business relationships, your products, services and delivery channels, the places you operate in and deal with, new developments and technologies, and the risks for your sector set out in Canada's latest National Risk Assessment of Money Laundering and Terrorist Financing. Higher-risk clients and products get closer controls.</p>"""),
-        ("without", "What happens without one", """          <p>FINTRAC can impose administrative monetary penalties for breaches of the anti-money laundering law. For violations on or after March 26, 2026, the cap is $4 million per violation for a person and $20 million for an entity. FINTRAC can also refer non-compliance to law enforcement as a criminal offence, but it can't do both for the same act or omission. Our guide to <a href="fintrac-penalties-amps.html">FINTRAC penalties (AMPs)</a> explains how they work.</p>"""),
+        ("without", "What happens without one", """          <p>FINTRAC can impose administrative monetary penalties for breaches of the anti-money laundering law. For violations on or after March 26, 2026, the cap is $4 million per violation for a person and $20 million for an entity. FINTRAC can also disclose non-compliance to law enforcement for investigation as a criminal offence, but the same act or omission can't be dealt with both as a violation and as an offence (PCMLTFA s.73.12). Our guide to <a href="fintrac-penalties-amps.html">FINTRAC penalties (AMPs)</a> explains how they work.</p>"""),
         ("bank", "If your bank or payment partner has asked for your program", """          <p>Banks and payment partners usually want to see that your program exists, fits your business, has a named compliance officer, and is followed day to day. If you've been asked and don't have one, or aren't sure yours will stand up, book a consultation. We'll tell you what's missing and how quickly it can be put right.</p>"""),
         ("keeping-current", "Keeping it current", """          <p>A program written once and left on a shelf goes out of date as your business and the rules change. We can keep it current through outsourced compliance officer hours, and test it in your two-year effectiveness review.</p>"""),
     ],
@@ -845,12 +845,16 @@ DEEP["effectiveness-reviews.html"] = dict(
 )
 
 # ------------------------------------------------------------------ training (scoped)
+F_VIDEOS = "https://fintrac-canafe.canada.ca/training-formation/training-formation-eng"
 DEEP["training.html"] = dict(
+    checked="23 November 2026",
     name="Training",
-    title="AML Training for FINTRAC Compliance in Canada | AML Canada",
-    desc="Anti-money laundering training for MSB front-line staff, compliance teams and senior management, built to meet FINTRAC's training requirement.",
+    modified="2026-11-23",
+    title="FINTRAC AML Training in Canada | AML Canada",
+    desc="FINTRAC AML training in Canada for MSB front-line staff, compliance teams and senior management, built to meet FINTRAC's training requirement.",
     service_type="Anti-money laundering (AML) training",
     offers=[],
+    kicker="FINTRAC AML training for your team",
     h1="AML training that fits your business and your team.",
     lede="Anti-money laundering training for front-line staff, compliance teams and senior management.",
     hero_price="Scoped to your team",
@@ -871,10 +875,38 @@ DEEP["training.html"] = dict(
                     "Training records"]),
     guide=[
         ("training-required", "Is AML training required in Canada?", """          <p>Yes, if you have employees, agents or others authorized to act on your behalf. In that case a written, ongoing compliance training program, with a plan for delivering it, is one of the required elements of a <a href="compliance-programs.html">FINTRAC compliance program</a>. Training should fit your business and your risks, and reach the people who deal with clients or transactions. A sole proprietor with no employees, agents or others authorized to act for them doesn't need a training program.</p>"""),
+        ("covers", "What the training covers", f"""          <p>FINTRAC's <a href="{F_G4}" rel="noopener">compliance program guidance</a> says a training program should explain five things to the people who act for you. We build the training around them and around your products, customers and risks.</p>
+          <ol>
+            <li><strong>Your requirements</strong> under the PCMLTFA and its Regulations.</li>
+            <li><strong>Background</strong>, such as the definitions and methods of money laundering and terrorist activity financing.</li>
+            <li><strong>Vulnerabilities</strong>: how your business could be used, with indicators and examples.</li>
+            <li><strong>Your policies and procedures</strong>, including reporting, record keeping and know your client.</li>
+            <li><strong>Roles and responsibilities</strong> in detecting and deterring money laundering and terrorist financing, and when dealing with potentially suspicious activities or transactions.</li>
+          </ol>
+          <p>Depending on your business, your requirements and policies can include:</p>
+          <ul>
+            <li>knowing your client: verifying identity, beneficial ownership, and politically exposed persons and heads of international organizations;</li>
+            <li>third-party determinations and business relationships;</li>
+            <li>ongoing monitoring, and the enhanced measures you apply to high-risk clients;</li>
+            <li>sanctions and listed person screening;</li>
+            <li>reporting to FINTRAC, including suspicious transactions, and the 24-hour rule;</li>
+            <li>record keeping;</li>
+            <li>ministerial directives, and how you'll apply new ones;</li>
+            <li>travel rule information for funds and virtual currency transfers, where it applies.</li>
+          </ul>
+          <p>The exact list depends on the kind of business you are and the services you offer.</p>"""),
+        ("plan", "What a training plan includes", f"""          <p>You must document a plan for your ongoing training program and for delivering it. FINTRAC's guidance says the plan should cover:</p>
+          <ul>
+            <li><strong>Who is trained.</strong> Anyone who has contact with clients, is involved in client transactions, handles cash, funds or virtual currency for you, or implements or oversees the compliance program.</li>
+            <li><strong>Topics and materials</strong>, and where the training materials come from.</li>
+            <li><strong>How training is delivered.</strong> FINTRAC's examples include self-directed learning and e-learning, information sessions, face-to-face meetings, classroom, conferences and on-the-job training.</li>
+            <li><strong>How often.</strong> At regular intervals, when certain events happen, or both. Our guide explains <a href="fintrac-training-requirements.html#frequency">how often AML training is required</a>.</li>
+          </ul>
+          <p>The program should also keep a record of the training delivered, such as the date, the attendees and the topics covered. The program and plan should fit your size, structure and complexity, and your exposure to money laundering, terrorist financing and sanctions evasion risk.</p>"""),
         ("roles", "Training for each role", """          <p>Front-line staff learn to recognize unusual activity, identify clients and know when and how to escalate. Compliance teams cover reviews, reporting, the 24-hour rule and deadlines, and how to document decisions. Senior management covers their responsibilities for the program and how to oversee it.</p>"""),
         ("records", "Training records", """          <p>Being able to show who was trained, on what and when is part of showing your program works. We help you keep those records, ready for your effectiveness review or a FINTRAC examination.</p>"""),
     ],
-    sources=[("FINTRAC, Compliance program requirements", F_G4)],
+    sources=[("FINTRAC, Compliance program requirements", F_G4), ("FINTRAC, Videos: learning resources", F_VIDEOS)],
     for_title="When teams book training",
     for_items=[("A new program", "Staff learning a compliance program that has just been written."),
                ("Before a review or examination", "Training and records brought up to date ahead of your effectiveness review or a FINTRAC examination."),
@@ -882,6 +914,9 @@ DEEP["training.html"] = dict(
     arts=["training", "many", "programme"],
     faqs=[("Is AML training mandatory in Canada?", "Yes, if you have employees, agents or others authorized to act for you. A sole proprietor with no employees, agents or others acting for them doesn't need a training program."),
           ("Who needs AML training?", "Anyone whose work touches your compliance obligations, typically front-line staff, agents, compliance teams and senior management."),
+          ("How often is AML training required?", "Neither the Regulations nor FINTRAC fix an interval. The Regulations require an ongoing training program, and FINTRAC's guidance says your training plan should state how often you train: at regular intervals, such as monthly, semi-annually or annually, when certain events happen, such as before a new employee deals with clients, or both."),
+          ("What goes in a training plan?", "FINTRAC says the plan should cover who is trained, the topics and materials, how training is delivered and how often. The program should also keep a record of training delivered, such as the date, the attendees and the topics covered."),
+          ("Is there free FINTRAC training?", "FINTRAC publishes videos for reporting entities on its website, on its Videos: learning resources page. They include an introduction to FINTRAC for reporting entities, a series on verifying the identity of a client, a series on suspicious transaction reports and a beneficial ownership webinar. FINTRAC describes them as a general overview of its role with practical guidance. Your training program still needs to explain your own policies and procedures."),
           ("Do you provide training records?", "Yes. We help you keep records of who was trained, on what and when.")],
     related=["compliance-programs.html", "effectiveness-reviews.html", "outsourced-compliance-officer.html"],
 )
@@ -1095,9 +1130,9 @@ RS_TABLE = """<div class="table-wrap"><table>
           </table></div>"""
 
 DEEP["fintrac-reporting-software.html"] = dict(
-    checked="15 November 2026",
+    checked="23 November 2026",
     name="FINTRAC reporting software",
-    modified="2026-11-15",
+    modified="2026-11-23",
     title="FINTRAC Reporting Software for MSBs | AML Canada",
     desc="FINTRAC reporting software for STRs, LCTRs, EFTRs, LVCTRs and CDRs: data import, 24-hour rule checks, validation, maker-checker approval and API submission.",
     service_type="FINTRAC reporting software",
@@ -1130,6 +1165,16 @@ DEEP["fintrac-reporting-software.html"] = dict(
             <li><strong>FINTRAC API report submission.</strong> A system-to-system connection that sends report data straight to FINTRAC, geared to businesses with higher volumes.</li>
           </ul>
           <p>The older batch systems are being retired. FINTRAC's transition periods for moving higher-volume reporting to the API ended on November 6, 2023 for LCTRs and LVCTRs, July 3, 2024 for STRs, and August 22, 2024 for EFTRs and casino disbursement reports (<a href="{F_API}" rel="noopener">FINTRAC, API report submission</a>, checked November 15, 2026).</p>"""),
+        ("three-ways", "Three ways to file with FINTRAC", f"""          <p>For the five electronic reports, the choice is between using one of FINTRAC's two systems directly and using a reporting platform that prepares reports and submits them through one of them. A business without the technical capability to report electronically must use FINTRAC's paper forms (<a href="{F_METHODS}" rel="noopener">FINTRAC, Methods to report</a>).</p>
+          <div class="table-wrap"><table>
+            <thead><tr><th scope="col">Option</th><th scope="col">How it works</th><th scope="col">Geared to</th><th scope="col">What you set up</th><th scope="col">Checks before submission</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">FINTRAC Web Reporting System</th><td>You fill in and submit each report in a browser.</td><td>Lower reporting volumes, according to FINTRAC</td><td>Access, by first emailing FINTRAC at F2R@fintrac-canafe.gc.ca, and users with roles: data entry officers can only create reports, and verification and submission officers submit them.</td><td>FINTRAC's validation: a rejected message for missing mandatory information, and a warning for missing information marked "mandatory if applicable".</td></tr>
+              <tr><th scope="row">Your own connection to FINTRAC's API</th><td>Your systems send report data straight to FINTRAC.</td><td>Higher reporting volumes, according to FINTRAC</td><td>An application and secret keys through FINTRAC's API portal, and your own build against FINTRAC's JSON schemas and validation rules, kept up to date as FINTRAC updates them.</td><td>Whatever checks you build, then FINTRAC's validation messages.</td></tr>
+              <tr><th scope="row">A reporting platform, such as ours</th><td>Transaction data is imported, checked and approved, then submitted through FINTRAC API report submission where you're enrolled.</td><td>Submits through FINTRAC's API, or prepares report data for your existing FINTRAC channel until you're enrolled</td><td>Report types, thresholds, aggregation rules, field mappings and approval paths, set by a compliance specialist. API enrolment still applies.</td><td>24-hour rule checks, pre-submission validation with warnings shown apart from blocking errors, and maker-checker sign-off.</td></tr>
+            </tbody>
+          </table></div>
+          <p>Whichever you use, your business stays responsible for its reports. FINTRAC's <a href="{F_FWR}" rel="noopener">Web Reporting System guide</a> and <a href="{F_API}" rel="noopener">API report submission page</a> explain each system.</p>"""),
         ("api", "What FINTRAC API report submission involves", f"""          <p>To use the API you need an application and secret keys, which your technical administrator sets up through FINTRAC's API portal. A business that files larger volumes and doesn't have API access yet contacts FINTRAC at F2R@fintrac-canafe.gc.ca.</p>
           <p>FINTRAC offers two groups of endpoints, one for single reports and one for bulk submission, and each lets you create, change or delete a report submission. A single report can hold up to 500 transactions (25 MB). A bulk file can hold up to 5,000 reports and up to 5,000 transactions per report, within 300 MB. FINTRAC publishes JSON schemas and validation rules for each report type.</p>
           <p>Our platform builds report data in the format FINTRAC's API expects, submits approved reports individually or in aggregate, and records FINTRAC's response against each report. If your business isn't enrolled for the API yet, we help with enrolment. Until then the platform produces validated, approved report data for submission through your existing FINTRAC channel, and records the status against the report.</p>"""),
@@ -1152,6 +1197,18 @@ DEEP["fintrac-reporting-software.html"] = dict(
           <p>Suspicious transaction reports need judgement that software can't supply. The platform provides structured fields for the narrative and routes the report for approval, but establishing reasonable grounds to suspect, writing the narrative and deciding to file stay with your compliance officer. Using the platform doesn't transfer your legal responsibility for reporting.</p>"""),
         ("after", "After submission", """          <p>A submitted report can come back with warnings or be rejected. The platform records FINTRAC's acknowledgement and confirmation number, keeps the JSON data that was sent, assigns corrections to a team member and links each corrected version to the original, so the history of a report reads as one record. You can change or delete submitted reports through the same workflow.</p>
           <p>Submitted reports are kept in an archive you can download as PDF or CSV. Retention controls are confirmed in writing during scoping. That gives your effectiveness reviewer, and FINTRAC's examiners, a time-stamped record of each report's review and sign-off, the JSON data sent and FINTRAC's response.</p>"""),
+        ("look-for", "What to look for in FINTRAC reporting software", """          <p>Whichever product you consider, these are the questions that matter for FINTRAC reporting:</p>
+          <ul>
+            <li><strong>Report coverage.</strong> Does it cover the reports you file: STRs, LCTRs, EFTRs, LVCTRs and, for casinos, casino disbursement reports? Listed person or entity property reports go on paper.</li>
+            <li><strong>24-hour rule.</strong> Does it apply the rule for each report type, and show which transactions it grouped so your team can confirm?</li>
+            <li><strong>Validation.</strong> Does it check mandatory and mandatory-if-applicable fields before submission, and separate warnings from blocking errors, as FINTRAC's own validation does?</li>
+            <li><strong>Approval trail.</strong> Can you show who prepared, reviewed, approved and submitted each report, and when?</li>
+            <li><strong>FINTRAC's response.</strong> Does it record the acknowledgement, warnings or rejection for each report, and let you change or delete a submitted report? FINTRAC's API supports create, change and delete actions.</li>
+            <li><strong>Schema updates.</strong> FINTRAC publishes JSON schemas and validation rules for each report type and updates them. Who keeps the software in step?</li>
+            <li><strong>Records.</strong> Can you export a record of each report for your effectiveness review or a FINTRAC examination?</li>
+            <li><strong>Judgement.</strong> Does the decision to file an STR stay with your compliance officer?</li>
+          </ul>
+          <p>The sections above describe how our platform handles validation, approval, FINTRAC responses and records.</p>"""),
         ("setup", "How we set it up", """          <ol>
             <li><strong>Scoping call.</strong> Your report types, data sources and how you file today.</li>
             <li><strong>Data review.</strong> We check which fields your systems hold and where reporting data is missing.</li>
@@ -1177,6 +1234,7 @@ DEEP["fintrac-reporting-software.html"] = dict(
           ("Does it submit reports to FINTRAC directly?", "Yes, through FINTRAC API report submission once your business is enrolled. Until then it produces validated, approved report data for your existing FINTRAC channel."),
           ("Does the software decide whether to file an STR?", "No. It structures preparation and approval, but reasonable grounds to suspect, the narrative and the decision to file stay with your compliance team."),
           ("Can we import our transaction files?", "Yes. Structured files such as CSV exports are the main import route, and reusable mappings match your fields to FINTRAC's report fields. Other sources are confirmed during scoping."),
+          ("Is FINTRAC API report submission mandatory?", "FINTRAC's reporting pages don't set a volume figure. They describe the Web Reporting System as geared to lower reporting volumes and API report submission as geared to higher volumes. Businesses that sent higher volumes through the older systems being retired had transition periods to move to the API, which ended between November 6, 2023 and August 22, 2024. A business with an internet connection must report electronically, and one without the technical capability to do so must use paper forms."),
           ("How much does it cost?", "Pricing is confirmed after a scoping call."),
           ("Where is our data hosted?", "Hosting location, data residency and security controls are confirmed in writing for each client during scoping.")],
     related=["outsourced-compliance-officer.html", "compliance-programs.html", "effectiveness-reviews.html"],

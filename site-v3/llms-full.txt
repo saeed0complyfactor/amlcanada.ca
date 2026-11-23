@@ -366,7 +366,7 @@ The rest of your program depends on the risk assessment. It looks at your money 
 
 ### What happens without one
 
-FINTRAC can impose administrative monetary penalties for breaches of the anti-money laundering law. For violations on or after March 26, 2026, the cap is $4 million per violation for a person and $20 million for an entity. FINTRAC can also refer non-compliance to law enforcement as a criminal offence, but it can't do both for the same act or omission. Our guide to [FINTRAC penalties (AMPs)](https://amlcanada.ca/fintrac-penalties-amps.html) explains how they work.
+FINTRAC can impose administrative monetary penalties for breaches of the anti-money laundering law. For violations on or after March 26, 2026, the cap is $4 million per violation for a person and $20 million for an entity. FINTRAC can also disclose non-compliance to law enforcement for investigation as a criminal offence, but the same act or omission can't be dealt with both as a violation and as an offence (PCMLTFA s.73.12). Our guide to [FINTRAC penalties (AMPs)](https://amlcanada.ca/fintrac-penalties-amps.html) explains how they work.
 
 ### If your bank or payment partner has asked for your program
 
@@ -1022,6 +1022,54 @@ Anti-money laundering training for front-line staff, compliance teams and senior
 
 Yes, if you have employees, agents or others authorized to act on your behalf. In that case a written, ongoing compliance training program, with a plan for delivering it, is one of the required elements of a [FINTRAC compliance program](https://amlcanada.ca/compliance-programs.html). Training should fit your business and your risks, and reach the people who deal with clients or transactions. A sole proprietor with no employees, agents or others authorized to act for them doesn't need a training program.
 
+### What the training covers
+
+FINTRAC's [compliance program guidance](https://fintrac-canafe.canada.ca/guidance-directives/compliance-conformite/Guide4/4-eng) says a training program should explain five things to the people who act for you. We build the training around them and around your products, customers and risks.
+
+- **Your requirements** under the PCMLTFA and its Regulations.
+
+- **Background**, such as the definitions and methods of money laundering and terrorist activity financing.
+
+- **Vulnerabilities**: how your business could be used, with indicators and examples.
+
+- **Your policies and procedures**, including reporting, record keeping and know your client.
+
+- **Roles and responsibilities** in detecting and deterring money laundering and terrorist financing, and when dealing with potentially suspicious activities or transactions.
+
+Depending on your business, your requirements and policies can include:
+
+- knowing your client: verifying identity, beneficial ownership, and politically exposed persons and heads of international organizations;
+
+- third-party determinations and business relationships;
+
+- ongoing monitoring, and the enhanced measures you apply to high-risk clients;
+
+- sanctions and listed person screening;
+
+- reporting to FINTRAC, including suspicious transactions, and the 24-hour rule;
+
+- record keeping;
+
+- ministerial directives, and how you'll apply new ones;
+
+- travel rule information for funds and virtual currency transfers, where it applies.
+
+The exact list depends on the kind of business you are and the services you offer.
+
+### What a training plan includes
+
+You must document a plan for your ongoing training program and for delivering it. FINTRAC's guidance says the plan should cover:
+
+- **Who is trained.** Anyone who has contact with clients, is involved in client transactions, handles cash, funds or virtual currency for you, or implements or oversees the compliance program.
+
+- **Topics and materials**, and where the training materials come from.
+
+- **How training is delivered.** FINTRAC's examples include self-directed learning and e-learning, information sessions, face-to-face meetings, classroom, conferences and on-the-job training.
+
+- **How often.** At regular intervals, when certain events happen, or both. Our guide explains [how often AML training is required](https://amlcanada.ca/fintrac-training-requirements.html#frequency).
+
+The program should also keep a record of the training delivered, such as the date, the attendees and the topics covered. The program and plan should fit your size, structure and complexity, and your exposure to money laundering, terrorist financing and sanctions evasion risk.
+
 ### Training for each role
 
 Front-line staff learn to recognize unusual activity, identify clients and know when and how to escalate. Compliance teams cover reviews, reporting, the 24-hour rule and deadlines, and how to document decisions. Senior management covers their responsibilities for the program and how to oversee it.
@@ -1036,9 +1084,15 @@ Being able to show who was trained, on what and when is part of showing your pro
 
 **Who needs AML training?** Anyone whose work touches your compliance obligations, typically front-line staff, agents, compliance teams and senior management.
 
+**How often is AML training required?** Neither the Regulations nor FINTRAC fix an interval. The Regulations require an ongoing training program, and FINTRAC's guidance says your training plan should state how often you train: at regular intervals, such as monthly, semi-annually or annually, when certain events happen, such as before a new employee deals with clients, or both.
+
+**What goes in a training plan?** FINTRAC says the plan should cover who is trained, the topics and materials, how training is delivered and how often. The program should also keep a record of training delivered, such as the date, the attendees and the topics covered.
+
+**Is there free FINTRAC training?** FINTRAC publishes videos for reporting entities on its website, on its Videos: learning resources page. They include an introduction to FINTRAC for reporting entities, a series on verifying the identity of a client, a series on suspicious transaction reports and a beneficial ownership webinar. FINTRAC describes them as a general overview of its role with practical guidance. Your training program still needs to explain your own policies and procedures.
+
 **Do you provide training records?** Yes. We help you keep records of who was trained, on what and when.
 
-Sources: [FINTRAC, Compliance program requirements](https://fintrac-canafe.canada.ca/guidance-directives/compliance-conformite/Guide4/4-eng). Checked 11 October 2026.
+Sources: [FINTRAC, Compliance program requirements](https://fintrac-canafe.canada.ca/guidance-directives/compliance-conformite/Guide4/4-eng); [FINTRAC, Videos: learning resources](https://fintrac-canafe.canada.ca/training-formation/training-formation-eng). Checked 11 October 2026.
 
 ---
 
@@ -1236,6 +1290,20 @@ A business with an internet connection must send FINTRAC its suspicious transact
 
 The older batch systems are being retired. FINTRAC's transition periods for moving higher-volume reporting to the API ended on November 6, 2023 for LCTRs and LVCTRs, July 3, 2024 for STRs, and August 22, 2024 for EFTRs and casino disbursement reports ([FINTRAC, API report submission](https://fintrac-canafe.canada.ca/reporting-declaration/info/api/api-eng), checked November 15, 2026).
 
+### Three ways to file with FINTRAC
+
+For the five electronic reports, the choice is between using one of FINTRAC's two systems directly and using a reporting platform that prepares reports and submits them through one of them. A business without the technical capability to report electronically must use FINTRAC's paper forms ([FINTRAC, Methods to report](https://fintrac-canafe.canada.ca/reporting-declaration/electron-eng)).
+
+| Option | How it works | Geared to | What you set up | Checks before submission |
+
+| FINTRAC Web Reporting System | You fill in and submit each report in a browser. | Lower reporting volumes, according to FINTRAC | Access, by first emailing FINTRAC at F2R@fintrac-canafe.gc.ca, and users with roles: data entry officers can only create reports, and verification and submission officers submit them. | FINTRAC's validation: a rejected message for missing mandatory information, and a warning for missing information marked "mandatory if applicable". |
+
+| Your own connection to FINTRAC's API | Your systems send report data straight to FINTRAC. | Higher reporting volumes, according to FINTRAC | An application and secret keys through FINTRAC's API portal, and your own build against FINTRAC's JSON schemas and validation rules, kept up to date as FINTRAC updates them. | Whatever checks you build, then FINTRAC's validation messages. |
+
+| A reporting platform, such as ours | Transaction data is imported, checked and approved, then submitted through FINTRAC API report submission where you're enrolled. | Submits through FINTRAC's API, or prepares report data for your existing FINTRAC channel until you're enrolled | Report types, thresholds, aggregation rules, field mappings and approval paths, set by a compliance specialist. API enrolment still applies. | 24-hour rule checks, pre-submission validation with warnings shown apart from blocking errors, and maker-checker sign-off. |
+
+Whichever you use, your business stays responsible for its reports. FINTRAC's [Web Reporting System guide](https://fintrac-canafe.canada.ca/reporting-declaration/info/f2r-eng) and [API report submission page](https://fintrac-canafe.canada.ca/reporting-declaration/info/api/api-eng) explain each system.
+
 ### What FINTRAC API report submission involves
 
 To use the API you need an application and secret keys, which your technical administrator sets up through FINTRAC's API portal. A business that files larger volumes and doesn't have API access yet contacts FINTRAC at F2R@fintrac-canafe.gc.ca.
@@ -1296,6 +1364,28 @@ A submitted report can come back with warnings or be rejected. The platform reco
 
 Submitted reports are kept in an archive you can download as PDF or CSV. Retention controls are confirmed in writing during scoping. That gives your effectiveness reviewer, and FINTRAC's examiners, a time-stamped record of each report's review and sign-off, the JSON data sent and FINTRAC's response.
 
+### What to look for in FINTRAC reporting software
+
+Whichever product you consider, these are the questions that matter for FINTRAC reporting:
+
+- **Report coverage.** Does it cover the reports you file: STRs, LCTRs, EFTRs, LVCTRs and, for casinos, casino disbursement reports? Listed person or entity property reports go on paper.
+
+- **24-hour rule.** Does it apply the rule for each report type, and show which transactions it grouped so your team can confirm?
+
+- **Validation.** Does it check mandatory and mandatory-if-applicable fields before submission, and separate warnings from blocking errors, as FINTRAC's own validation does?
+
+- **Approval trail.** Can you show who prepared, reviewed, approved and submitted each report, and when?
+
+- **FINTRAC's response.** Does it record the acknowledgement, warnings or rejection for each report, and let you change or delete a submitted report? FINTRAC's API supports create, change and delete actions.
+
+- **Schema updates.** FINTRAC publishes JSON schemas and validation rules for each report type and updates them. Who keeps the software in step?
+
+- **Records.** Can you export a record of each report for your effectiveness review or a FINTRAC examination?
+
+- **Judgement.** Does the decision to file an STR stay with your compliance officer?
+
+The sections above describe how our platform handles validation, approval, FINTRAC responses and records.
+
 ### How we set it up
 
 - **Scoping call.** Your report types, data sources and how you file today.
@@ -1323,6 +1413,8 @@ There's no standard implementation timeline. Security controls, hosting location
 **Does the software decide whether to file an STR?** No. It structures preparation and approval, but reasonable grounds to suspect, the narrative and the decision to file stay with your compliance team.
 
 **Can we import our transaction files?** Yes. Structured files such as CSV exports are the main import route, and reusable mappings match your fields to FINTRAC's report fields. Other sources are confirmed during scoping.
+
+**Is FINTRAC API report submission mandatory?** FINTRAC's reporting pages don't set a volume figure. They describe the Web Reporting System as geared to lower reporting volumes and API report submission as geared to higher volumes. Businesses that sent higher volumes through the older systems being retired had transition periods to move to the API, which ended between November 6, 2023 and August 22, 2024. A business with an internet connection must report electronically, and one without the technical capability to do so must use paper forms.
 
 **How much does it cost?** Pricing is confirmed after a scoping call.
 
@@ -2659,6 +2751,8 @@ Points worth checking in an MSB training plan:
 - Training follows your written policies, which FINTRAC expects to cover the travel rule for electronic funds and virtual currency transfers and ministerial directives.
 
 FINTRAC's assessment manual says examiners may interview employees and agents. They confirm that people understand the requirements for their positions, follow your policies and procedures, understand how your business could be vulnerable and have received adequate ongoing training.
+
+For training built around your products, customers and risks, see our [FINTRAC AML training](https://amlcanada.ca/training.html).
 
 ### How does FINTRAC examine your training program?
 
@@ -6186,7 +6280,7 @@ Where you consider a risk high, you must take enhanced measures and set them out
 
 If you have employees, agents, mandataries or others authorized to act for you, you need a written, ongoing compliance training program and a documented plan for delivering it. The training should cover your obligations under the PCMLTFA, background on money laundering and terrorist financing, how your business could be used for them, your own policies and procedures, and each person's role when something looks suspicious.
 
-The plan should say who gets trained, which topics and materials you use, how you deliver the training and how often. FINTRAC says recipients should include anyone who deals with clients, is involved in client transactions or handles cash, funds or virtual currency for you, and those who implement or oversee the program, such as the compliance officer, senior management, IT staff and internal auditors. Keep a record of each session, with the date, the attendees and the topics. A sole proprietor with no employees, agents or other authorized persons doesn't need a training program or plan. Our [AML training](https://amlcanada.ca/training.html) is built around these requirements.
+The plan should say who gets trained, which topics and materials you use, how you deliver the training and how often. FINTRAC says recipients should include anyone who deals with clients, is involved in client transactions or handles cash, funds or virtual currency for you, and those who implement or oversee the program, such as the compliance officer, senior management, IT staff and internal auditors. Keep a record of each session, with the date, the attendees and the topics. A sole proprietor with no employees, agents or other authorized persons doesn't need a training program or plan. Our [FINTRAC AML training](https://amlcanada.ca/training.html) is built around these requirements.
 
 ### 5. Review the program every two years
 
@@ -6274,7 +6368,7 @@ Then test that your systems flag each report you need: a transfer or cash amount
 
 ### First month: train your people and check your agents
 
-If you have employees, agents, mandataries or other people authorized to act for you, FINTRAC requires a written, ongoing compliance training program and a documented plan for delivering it. Start with the people who have contact with clients, such as front-line staff and agents, and those who handle funds or virtual currency. Keep a record of who was trained, when and on what. Our [AML training](https://amlcanada.ca/training.html) is built to meet FINTRAC's training requirement.
+If you have employees, agents, mandataries or other people authorized to act for you, FINTRAC requires a written, ongoing compliance training program and a documented plan for delivering it. Start with the people who have contact with clients, such as front-line staff and agents, and those who handle funds or virtual currency. Keep a record of who was trained, when and on what. Our [FINTRAC AML training](https://amlcanada.ca/training.html) is built to meet FINTRAC's training requirement.
 
 If you use agents or mandataries, [FINTRAC](https://fintrac-canafe.canada.ca/msb-esm/msb-eng) requires you to verify that they're eligible before you engage them, and again within 30 days after the second anniversary of the most recent verification. You must not engage an agent who isn't eligible, and you must stop engaging one who becomes ineligible.
 
