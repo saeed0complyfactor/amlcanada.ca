@@ -378,13 +378,25 @@ DEEP["compliance-programs.html"] = dict(
 )
 
 # ------------------------------------------------------------------ Canadian address
+# Address roles and limits added 23 November 2026 (seo-run REVERSE-address-incorporation-apostille).
+# Checked 23 November 2026 against the pages below; FINTRAC wording reused from virtual-office-msb-registration.html.
+CA_CBCA_19 = "https://laws-lois.justice.gc.ca/eng/acts/C-44/section-19.html"
+CA_CBCA_20 = "https://laws-lois.justice.gc.ca/eng/acts/C-44/section-20.html"
+CA_CC_NEXT = "https://ised-isde.canada.ca/site/corporations-canada/en/business-corporations/next-steps-following-incorporation-your-business"
+CA_OBCA = "https://www.ontario.ca/laws/statute/90b16"
+CA_CRA_ADDR = "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/business-registration/maintain-business/change-address.html"
+CA_CRA_RES = ("https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/"
+              "businesses-international-non-resident-taxes/residency-a-corporation.html")
+
 DEEP["canadian-address.html"] = dict(
     name="Canadian business address",
+    checked="23 November 2026",
+    modified="2026-11-23",
     title="Canadian Business Address for Foreign Companies | AML Canada",
     desc="A Canadian business address for foreign MSBs and companies entering Canada, for your setup, banking and partners. US$200 per month, terms agreed in writing.",
     service_type="Canadian business address",
     offers=[("200", "USD", "Canadian business address, per month")],
-    h1="A Canadian business address for your setup in Canada.",
+    h1="A Canadian business address for foreign companies and MSBs.",
     lede="A Canadian business address for your setup, banking and partners, for foreign MSBs and companies entering Canada. US$200 per month.",
     hero_price="US$200 · per month",
     label="Business address · Canada",
@@ -406,6 +418,26 @@ DEEP["canadian-address.html"] = dict(
         ("why", "Why a Canadian address helps", """          <p>Canadian banks, payment partners and customers often look for a Canadian presence, and a Canadian business address gives your setup a stable base. For a Canadian-based MSB, FINTRAC registration asks for every location you operate from.</p>"""),
         ("registration", "How the address fits your FINTRAC registration", """          <p>A foreign MSB registers with FINTRAC through a representative for service: a person who resides in Canada and accepts FINTRAC's notices on the business's behalf. That's a separate requirement from your business address.</p>
           <p>If you're a foreign MSB, a physical location in Canada can change your status to a domestic MSB. We'll confirm how the address fits your registration before you use it.</p>"""),
+        ("which-address", "Which Canadian address do you need?", f"""          <p>A company in Canada can have several addresses, and each one does a different job. It helps to know which ones you need before you choose an address.</p>
+          <div class="table-wrap"><table>
+            <thead><tr><th scope="col">Address</th><th scope="col">What it is</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Registered office</th><td>A federal corporation must at all times have a registered office in the province named in its articles (<a href="{CA_CBCA_19}" rel="noopener">CBCA s. 19(1)</a>). <a href="{CA_CC_NEXT}" rel="noopener">Corporations Canada</a> calls it the official address for communications with your corporation. It's public, and a change must be filed within 15 days. An Ontario corporation needs a registered office in Ontario (<a href="{CA_OBCA}" rel="noopener">Business Corporations Act, s. 14(1)</a>).</td></tr>
+              <tr><th scope="row">Records office</th><td>A federal corporation keeps its articles, by-laws, minutes, resolutions and securities register at its registered office or another place in Canada the directors designate (<a href="{CA_CBCA_20}" rel="noopener">CBCA s. 20(1)</a>). Records can be kept outside Canada only if they can be inspected electronically from the registered office or another place in Canada (s. 20(5.1)).</td></tr>
+              <tr><th scope="row">CRA physical address</th><td>The <a href="{CA_CRA_ADDR}" rel="noopener">CRA</a> says the physical address is the business or head office address, where day-to-day activities take place. It can't be a rural route number or a P.O. box.</td></tr>
+              <tr><th scope="row">Mailing address</th><td>The CRA says your mailing address can be different from your physical address, for example your accountant's. The CRA also needs your books and records address if it's different. FINTRAC's MSB registration asks for a mailing address if it differs from the place of business.</td></tr>
+              <tr><th scope="row">Place of business given to FINTRAC</th><td>An MSB lists the address of its place of business, and FINTRAC's registration asks for detailed information about every location. That address is published on <a href="{F_REGISTRY}" rel="noopener">FINTRAC's public MSB registry</a>.</td></tr>
+              <tr><th scope="row">Representative for service (foreign MSB)</th><td>Not an address. It's a person who resides in Canada and is authorized to accept notices from FINTRAC on the business's behalf.</td></tr>
+            </tbody>
+          </table></div>
+          <p>Tell us which of these you need an address for. What our address covers is confirmed with you in writing before you use it. Our guide on <a href="virtual-office-msb-registration.html">using a virtual office for MSB registration</a> covers the FINTRAC side in more detail.</p>"""),
+        ("limits", "What a Canadian address doesn't do", f"""          <ul>
+            <li><strong>It doesn't incorporate or register your company.</strong> <a href="incorporation-canada.html">Incorporation</a> is a separate filing with Corporations Canada or a province.</li>
+            <li><strong>It isn't FINTRAC approval.</strong> FINTRAC doesn't publish a list of acceptable address types, and it doesn't certify addresses. It can verify what you tell it, and the address you list should describe how your business really operates.</li>
+            <li><strong>It isn't a representative for service.</strong> A foreign MSB still needs a person who resides in Canada for that role.</li>
+            <li><strong>It doesn't, on its own, make your company resident in Canada for tax.</strong> The <a href="{CA_CRA_RES}" rel="noopener">CRA</a> says a corporation incorporated in Canada after April 26, 1965 is deemed resident. Otherwise, a company is generally resident where its central management and control is actually exercised, which is usually where the board meets. Tax treatment depends on your facts, so take advice from a tax professional.</li>
+            <li><strong>It doesn't guarantee a bank account.</strong> We can't promise that a bank will open an account for you.</li>
+          </ul>"""),
         ("how", "How it works", """          <ol>
             <li><strong>Consultation.</strong> Your plans for Canada and how you'll use the address.</li>
             <li><strong>Written scope.</strong> What's included, including mail handling.</li>
@@ -414,7 +446,12 @@ DEEP["canadian-address.html"] = dict(
             <li><strong>Monthly.</strong> US$200 per month while you use it.</li>
           </ol>"""),
     ],
-    sources=[("FINTRAC, Register your MSB or FMSB", F_REG), ("Money services businesses", F_MSB)],
+    sources=[("FINTRAC, Register your MSB or FMSB", F_REG), ("Money services businesses", F_MSB),
+             ("FINTRAC, Money Services Business Registry", F_REGISTRY),
+             ("Canada Business Corporations Act, s. 19", CA_CBCA_19), ("CBCA, s. 20", CA_CBCA_20),
+             ("Corporations Canada, Next steps following incorporation", CA_CC_NEXT),
+             ("Ontario Business Corporations Act", CA_OBCA),
+             ("CRA, Change a business address", CA_CRA_ADDR), ("CRA, Residency of a corporation", CA_CRA_RES)],
     for_title="Who uses it",
     for_items=[("Foreign money services businesses", "Companies outside Canada that serve customers in Canada."),
                ("Companies opening Canadian operations", "Businesses establishing a presence before hiring locally."),
@@ -423,7 +460,9 @@ DEEP["canadian-address.html"] = dict(
     faqs=[("How much is a Canadian business address?", "US$200 per month."),
           ("Can I use the address on my FINTRAC registration?", "It depends on how you're registered. A foreign MSB registers with a representative for service who resides in Canada, and a physical location in Canada can change a foreign MSB into a domestic MSB. We confirm how the address fits your registration before you use it."),
           ("Is the address my representative for service?", "No. A foreign MSB's representative for service is a person who resides in Canada, which is a separate requirement. Ask us about it in your consultation."),
-          ("What happens to mail sent to the address?", "How mail is handled is set out in your written scope.")],
+          ("What happens to mail sent to the address?", "How mail is handled is set out in your written scope."),
+          ("Can a P.O. box be my Canadian business address?", "Not as your physical address with the CRA. The CRA says the physical address must be where day-to-day activities take place and can't be a rural route number or a P.O. box. Your mailing address can be different."),
+          ("Does a Canadian address make my company tax resident in Canada?", "Not on its own. The CRA says a corporation incorporated in Canada after April 26, 1965 is deemed resident, and other companies are generally resident where their central management and control is exercised. Take advice from a tax professional on your facts.")],
     related=["msb-registration.html", "msb-for-sale.html", "outsourced-compliance-officer.html"],
 )
 
@@ -938,9 +977,17 @@ CC_NAME = "https://ised-isde.canada.ca/site/corporations-canada/en/naming-corpor
 L_CBCA = "https://laws-lois.justice.gc.ca/eng/acts/C-44/"
 ON_INC = "https://www.ontario.ca/page/business/start/register-your-business-online"
 ON_FEES = "https://www.ontario.ca/page/cost-time-required-to-register-change-search-for-business-name-corporation-not-for-profit"
+# CRA pages for the "After incorporation" block, checked 23 November 2026.
+IN_CRA_BN = ("https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/business-registration/"
+             "business-number-program-account/need-bn.html")
+IN_CRA_GST = "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/when-register-charge.html"
+IN_CRA_T2 = ("https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/"
+             "corporation-income-tax-return/when-file-your-corporation-income-tax-return.html")
 
 DEEP["incorporation-canada.html"] = dict(
     name="Company incorporation",
+    checked="23 November 2026",
+    modified="2026-11-23",
     title="Canadian Company Incorporation, Usually Within 24 Hours | AML Canada",
     desc="Incorporate a Canadian company, federally or in Ontario, usually within 24 hours. Fixed fee US$1,500, ready for FINTRAC or RPAA registration.",
     service_type="Canadian company incorporation",
@@ -970,20 +1017,25 @@ DEEP["incorporation-canada.html"] = dict(
         ("federal-or-provincial", "Federal or provincial?", """          <p>You can incorporate federally, under the Canada Business Corporations Act (CBCA) through Corporations Canada, or in a province or territory, such as Ontario under its Business Corporations Act. A federal company can use its name across Canada, though it still registers in the provinces where it does business. A provincial company is often simpler if you'll operate mainly in one province. We help you choose before anything is filed.</p>"""),
         ("directors", "Directors and residency", """          <p>Federal corporations must have at least 25% resident Canadian directors; if the company has fewer than four directors, at least one must be a resident Canadian. Under CBCA s.2, a resident Canadian includes a Canadian citizen ordinarily resident in Canada and a permanent resident ordinarily resident in Canada, with limited exceptions. Ontario doesn't require resident Canadian directors, which can matter for founders based outside Canada. Some regulated sectors have stricter rules.</p>"""),
         ("timing", "How long it takes", """          <p>Once we have your details and documents, incorporation usually takes a few hours and is usually done within 24 hours; it isn't guaranteed. Corporations Canada processes online incorporations in about a day, with a 4-hour express option for an extra government fee, and Ontario incorporates immediately online.</p>"""),
-        ("fees", "What it costs", """          <p>Our fee is a fixed US$1,500. Government fees are paid separately to the government: currently CA$200 for federal online incorporation (CA$100 more for 4-hour express) or CA$300 for Ontario online incorporation.</p>
-          <p>For a federal online incorporation, the name search is built into the application, so a word name doesn't need a separate Nuans report. A named Ontario company needs an Ontario-biased Nuans name search report; a numbered company doesn't.</p>"""),
-        ("after", "After incorporation", """          <ul>
-            <li>Keep corporate records, including a register of individuals with significant control.</li>
-            <li>For a federal corporation, file information about individuals with significant control with Corporations Canada at incorporation, every year with the annual return, and within 15 days of a change to the register. This has applied since January 22, 2024.</li>
-            <li>File an annual return each year (federal online annual return: CA$12).</li>
-            <li>Register for tax accounts, and in each province where you carry on business.</li>
-            <li>Register with <a href="msb-registration.html">FINTRAC as an MSB</a> or with the <a href="rpaa-registration.html">Bank of Canada under the RPAA</a> before you start offering those services.</li>
-          </ul>"""),
+        ("fees", "What it costs", f"""          <p>Our fee is a fixed US$1,500. Government fees are paid separately to the government: currently CA$200 for federal online incorporation (CA$100 more for 4-hour express) or CA$300 for Ontario online incorporation.</p>
+          <p>For a federal online incorporation, the name search is built into the application, so a word name doesn't need a separate Nuans report. <a href="{CC_NAME}" rel="noopener">Corporations Canada</a> says the name search for incorporation is integrated into the application process, and you don't need to order a separate report first. It still asks for a Nuans report for some other filings, such as revivals and amalgamations. A named Ontario company needs an Ontario-biased Nuans name search report, and <a href="{ON_INC}" rel="noopener">Ontario</a> won't accept a federal-biased one; a numbered company doesn't need one.</p>"""),
+        ("after", "After incorporation: tax accounts and filings", f"""          <ul>
+            <li><strong>Business number.</strong> The <a href="{IN_CRA_BN}" rel="noopener">CRA</a> says a federal incorporation gives you a business number (BN) and a corporation income tax (RC) program account, so you don't register separately for that account. Incorporating in Ontario does too. GST/HST and payroll accounts are registered with the CRA separately, once you have your BN.</li>
+            <li><strong>GST/HST.</strong> Most businesses are small suppliers and don't have to register while their taxable supplies stay at or below CA$30,000 over four consecutive calendar quarters. Once you go over CA$30,000, in a single quarter or over four consecutive quarters, you must register, according to the <a href="{IN_CRA_GST}" rel="noopener">CRA</a>.</li>
+            <li><strong>Corporation income tax return.</strong> A corporation files its T2 return within six months of the end of each tax year (<a href="{IN_CRA_T2}" rel="noopener">CRA</a>).</li>
+            <li><strong>Annual return.</strong> A federal corporation files an annual return with Corporations Canada within 60 days of its anniversary date each year, but not for the year it was incorporated (federal online annual return: CA$12). Ontario lists its annual return for an Ontario corporation at no fee.</li>
+            <li><strong>Individuals with significant control.</strong> Keep corporate records, including a register of individuals with significant control. For a federal corporation, file ISC information with Corporations Canada at incorporation, every year with the annual return, and within 15 days of a change to the register. This has applied since January 22, 2024.</li>
+            <li><strong>Provinces.</strong> Register in each province where you carry on business.</li>
+            <li><strong>Regulated services.</strong> Register with <a href="msb-registration.html">FINTRAC as an MSB</a> or with the <a href="rpaa-registration.html">Bank of Canada under the RPAA</a> before you start offering those services.</li>
+          </ul>
+          <p>If you're incorporating from outside Canada, our guide on <a href="incorporate-in-canada-non-resident.html">how to incorporate in Canada as a non-resident</a> covers director residency and tax residency in more detail.</p>"""),
     ],
     sources=[("Corporations Canada, Services, fees and processing times", CC_FEES), ("Directors and officers", CC_DIR),
              ("Next steps after incorporating", CC_NEXT), ("Individuals with significant control: file your information", CC_ISC),
              ("Naming a corporation", CC_NAME), ("Canada Business Corporations Act", L_CBCA),
-             ("Ontario, Register your business online", ON_INC), ("Ontario fees and timing", ON_FEES)],
+             ("Ontario, Register your business online", ON_INC), ("Ontario fees and timing", ON_FEES),
+             ("CRA, When you need a BN", IN_CRA_BN), ("CRA, When to register for and start charging the GST/HST", IN_CRA_GST),
+             ("CRA, When to file your corporation income tax return", IN_CRA_T2)],
     for_title="Who it's for",
     for_items=[("Foreign businesses entering Canada", "A Canadian company to hold your registration and contracts."),
                ("New MSBs and payment companies", "The company that will register with FINTRAC or the Bank of Canada."),
@@ -992,7 +1044,9 @@ DEEP["incorporation-canada.html"] = dict(
     faqs=[("How much does it cost to incorporate a company in Canada?", "Our fee is a fixed US$1,500. Government filing fees are separate: currently CA$200 federally online or CA$300 in Ontario online."),
           ("How long does incorporation take?", "Usually within 24 hours once we have your details and documents, often a few hours. It isn't guaranteed."),
           ("Can a non-resident incorporate in Canada?", "Yes. Federal companies need at least 25% resident Canadian directors (at least one if there are fewer than four). Ontario doesn't require resident Canadian directors."),
-          ("Should we incorporate before registering as an MSB?", "Usually, yes. The company is what registers with FINTRAC, so incorporating first means the registration can start straight away.")],
+          ("Should we incorporate before registering as an MSB?", "Usually, yes. The company is what registers with FINTRAC, so incorporating first means the registration can start straight away."),
+          ("Do I need a Nuans report to incorporate federally?", "Not for a federal incorporation. Corporations Canada says the name search is integrated into the online application, so you don't order a separate report. A named Ontario company does need an Ontario-biased Nuans report. A numbered company needs none."),
+          ("When does a new company have to register for GST/HST?", "The CRA says most businesses must register once their taxable supplies go over CA$30,000 in a single calendar quarter or over four consecutive calendar quarters. Below that, registration is voluntary.")],
     related=["msb-registration.html", "canadian-address.html", "rpaa-registration.html"],
 )
 
@@ -1022,7 +1076,7 @@ AP_QC_APPLY = "https://www.quebec.ca/en/justice-and-civil-status/services/aposti
 DEEP["apostille-notarization-canada.html"] = dict(
     checked="21 October 2026",
     name="Apostille & notarization",
-    modified="2026-10-21",
+    modified="2026-11-23",
     title="Apostille Services Canada for Corporate Documents | AML Canada",
     desc="Apostille and notarization of Canadian corporate documents for foreign banks, payment partners and regulators, with a licensed Ontario partner notary.",
     service_type="Apostille and notarization of corporate documents",
@@ -1053,13 +1107,18 @@ DEEP["apostille-notarization-canada.html"] = dict(
           <p>An apostille confirms where a document came from. It doesn't confirm what the document says. Ontario's <a href="{AP_ON}" rel="noopener">Official Documents Services</a> checks signatures and seals against its records and doesn't validate the contents.</p>"""),
         ("convention", "Canada and the Apostille Convention", f"""          <p>Canada acceded to the Hague Apostille Convention on May 12, 2023, and the Convention entered into force for Canada on <strong>January 11, 2024</strong>, according to the <a href="{AP_HCCH}" rel="noopener">Hague Conference status table</a>. The table listed 130 contracting parties when we checked it. For documents going to a member country, the apostille replaces legalization at that country's embassy or consulate.</p>
           <p>Whether a document needs authentication at all is set by the law of the destination country. Canadian law doesn't require it, so start with the receiving bank, partner or regulator.</p>"""),
-        ("who-issues", "Who issues the apostille", f"""          <p>Canada has six authorities that issue apostilles. The <a href="{AP_GAC_REQ}" rel="noopener">Global Affairs Canada requirements</a> set out who handles what:</p>
-          <ul>
-            <li><strong>Global Affairs Canada</strong>: documents issued by the Government of Canada, such as Corporations Canada documents, and documents issued or notarized in Manitoba, New Brunswick, Newfoundland and Labrador, the Northwest Territories, Nova Scotia, Nunavut, Prince Edward Island or Yukon.</li>
-            <li><strong>Alberta, British Columbia, Ontario, Quebec and Saskatchewan</strong>: documents issued in their own province.</li>
-          </ul>
+        ("who-issues", "Who issues the apostille", f"""          <p>Canada has six authorities that issue apostilles: Global Affairs Canada and five provinces. The <a href="{AP_GAC_REQ}" rel="noopener">Global Affairs Canada requirements</a> set out who handles what:</p>
+          <div class="table-wrap"><table>
+            <thead><tr><th scope="col">Where the document comes from</th><th scope="col">Who issues the apostille</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Government of Canada, such as Corporations Canada documents</th><td>Global Affairs Canada</td></tr>
+              <tr><th scope="row">Manitoba, New Brunswick, Newfoundland and Labrador, Northwest Territories, Nova Scotia, Nunavut, Prince Edward Island, Yukon</th><td>Global Affairs Canada, for documents issued or notarized there</td></tr>
+              <tr><th scope="row">Alberta, Ontario, Saskatchewan</th><td>The province, for documents issued there and for any document notarized there</td></tr>
+              <tr><th scope="row">British Columbia, Quebec</th><td>The province, for documents issued there; a notarized document qualifies only if the original was issued in the province</td></tr>
+            </tbody>
+          </table></div>
           <p>A document notarized in Alberta, Ontario or Saskatchewan goes to that province, wherever it was originally issued. British Columbia and Quebec authenticate a notarized document only if the original was issued in their province. In practice, a copy of a federal certificate notarized by an Ontario notary goes to Ontario's Official Documents Services, not to Global Affairs Canada.</p>"""),
-        ("notarize", "When a document must be notarized first", f"""          <p>Some government documents can be apostilled directly. Most private and corporate records can't. The Global Affairs Canada <a href="{AP_GAC_PORTAL}" rel="noopener">document eligibility tool</a> says:</p>
+        ("notarize", "Public or private document: when to notarize first", f"""          <p>Some government documents can be apostilled directly. Most private and corporate records can't. The Global Affairs Canada <a href="{AP_GAC_PORTAL}" rel="noopener">document eligibility tool</a> says:</p>
           <ul>
             <li>a Corporations Canada certificate of incorporation with an original signature or seal doesn't need notarizing, but one without an original signature or seal does;</li>
             <li>certificates of compliance and existence, articles of incorporation, business registration documents, corporate bylaws and other business or corporate records must be notarized;</li>
@@ -1067,6 +1126,25 @@ DEEP["apostille-notarization-canada.html"] = dict(
           </ul>
           <p>Ontario's <a href="{AP_ON}" rel="noopener">Official Documents Services</a> accepts business registry documents issued since 1991 by the Business and Personal Property Branch or the Ontario Business Registry without notarization. It won't accept documents commissioned by a commissioner for taking affidavits, or electronic copies.</p>
           <p>In Ontario, a notary must be physically present with the person when notarizing. The <a href="{AP_ON_NOTARY}" rel="noopener">Ministry of the Attorney General</a> says remote notarization isn't permitted under the Notaries Act, and Official Documents Services won't authenticate or apostille documents notarized remotely. Our partner notary works in person.</p>"""),
+        ("documents", "Corporate documents we handle, by type", f"""          <p>A public document is one issued by a government registry. A private document is one your company makes itself, and it must be notarized before it can be apostilled. Some public documents also need notarizing first, depending on the version you hold. This table uses the <a href="{AP_GAC_PORTAL}" rel="noopener">Global Affairs Canada eligibility tool</a> and Ontario's <a href="{AP_ON}" rel="noopener">Official Documents Services</a> guidance.</p>
+          <div class="table-wrap"><table>
+            <thead><tr><th scope="col">Document</th><th scope="col">Public or private</th><th scope="col">Notarize first?</th></tr></thead>
+            <tbody>
+              <tr><th scope="rowgroup" colspan="3">Core corporate documents</th></tr>
+              <tr><th scope="row">Corporations Canada certificate of incorporation with an original signature or seal</th><td>Public</td><td>No</td></tr>
+              <tr><th scope="row">Corporations Canada certificate of incorporation without an original signature or seal</th><td>Public</td><td>Yes</td></tr>
+              <tr><th scope="row">Corporations Canada certificates of compliance, existence or amendment, and articles of incorporation</th><td>Public</td><td>Yes, Global Affairs Canada says business or corporate records must be notarized</td></tr>
+              <tr><th scope="row">Ontario Business Registry documents issued since 1991, such as a certificate of status</th><td>Public</td><td>No, in Ontario</td></tr>
+              <tr><th scope="rowgroup" colspan="3">Registers and minute book</th></tr>
+              <tr><th scope="row">Register extracts, minute book pages and by-laws</th><td>Private</td><td>Yes</td></tr>
+              <tr><th scope="rowgroup" colspan="3">Resolutions and powers of attorney</th></tr>
+              <tr><th scope="row">Director and shareholder resolutions</th><td>Private</td><td>Yes</td></tr>
+              <tr><th scope="row">Corporate power of attorney</th><td>Private</td><td>Yes, as a private legal document</td></tr>
+              <tr><th scope="rowgroup" colspan="3">Registration evidence</th></tr>
+              <tr><th scope="row">Evidence of FINTRAC MSB or Bank of Canada RPAA registration</th><td>Public registry record</td><td>Usually. Global Affairs Canada's tool says documents from a Government of Canada department or agency that aren't on its list must be notarized. FINTRAC says it doesn't issue certificates of registration, so ask the receiving party what evidence it accepts.</td></tr>
+            </tbody>
+          </table></div>
+          <p>The version you hold matters, so we check each document before anything is submitted. Our guide to <a href="apostille-corporate-documents-canada.html">how to apostille Canadian corporate documents</a> covers each type in more detail.</p>"""),
         ("non-convention", "Countries that are not part of the Convention", f"""          <p>For a country outside the Convention, the document may need to be legalized at that country's embassy, high commission or consulate after it has been authenticated in Canada, according to <a href="{AP_GAC_REQ}" rel="noopener">Global Affairs Canada</a>. Ontario issues a certificate of authentication instead of an apostille for those countries. Global Affairs Canada also notes that some countries accept only its own authentication, so check with the destination country's mission before choosing a route.</p>"""),
         ("fees-times", "Government fees and processing times", f"""          <p>These are the fees and times each authority published when we checked on October 21, 2026. They change, so we confirm them again before we submit.</p>
           <div class="table-wrap"><table>

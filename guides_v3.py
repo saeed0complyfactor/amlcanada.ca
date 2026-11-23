@@ -1204,7 +1204,8 @@ GUIDES["apostille-canada-guide.html"] = dict(
 
 GUIDES["apostille-corporate-documents-canada.html"] = dict(
     checked="21 October 2026",
-    title="Apostilling Canadian Corporate Documents for Banks | AML Canada",
+    modified="2026-11-23",
+    title="How to Apostille Canadian Corporate Documents for Banks | AML Canada",
     desc="Apostilling Canadian corporate documents for foreign banks and regulators: certificates, certified copies, minute book extracts, resolutions and registrations.",
     crumb="Apostille for corporate documents",
     h1="Apostilling Canadian corporate documents for foreign banks and regulators",

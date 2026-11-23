@@ -424,6 +424,38 @@ A foreign MSB registers with FINTRAC through a representative for service: a per
 
 If you're a foreign MSB, a physical location in Canada can change your status to a domestic MSB. We'll confirm how the address fits your registration before you use it.
 
+### Which Canadian address do you need?
+
+A company in Canada can have several addresses, and each one does a different job. It helps to know which ones you need before you choose an address.
+
+| Address | What it is |
+
+| Registered office | A federal corporation must at all times have a registered office in the province named in its articles (CBCA s. 19(1)). Corporations Canada calls it the official address for communications with your corporation. It's public, and a change must be filed within 15 days. An Ontario corporation needs a registered office in Ontario (Business Corporations Act, s. 14(1)). |
+
+| Records office | A federal corporation keeps its articles, by-laws, minutes, resolutions and securities register at its registered office or another place in Canada the directors designate (CBCA s. 20(1)). Records can be kept outside Canada only if they can be inspected electronically from the registered office or another place in Canada (s. 20(5.1)). |
+
+| CRA physical address | The CRA says the physical address is the business or head office address, where day-to-day activities take place. It can't be a rural route number or a P.O. box. |
+
+| Mailing address | The CRA says your mailing address can be different from your physical address, for example your accountant's. The CRA also needs your books and records address if it's different. FINTRAC's MSB registration asks for a mailing address if it differs from the place of business. |
+
+| Place of business given to FINTRAC | An MSB lists the address of its place of business, and FINTRAC's registration asks for detailed information about every location. That address is published on FINTRAC's public MSB registry. |
+
+| Representative for service (foreign MSB) | Not an address. It's a person who resides in Canada and is authorized to accept notices from FINTRAC on the business's behalf. |
+
+Tell us which of these you need an address for. What our address covers is confirmed with you in writing before you use it. Our guide on [using a virtual office for MSB registration](https://amlcanada.ca/virtual-office-msb-registration.html) covers the FINTRAC side in more detail.
+
+### What a Canadian address doesn't do
+
+- **It doesn't incorporate or register your company.** [Incorporation](https://amlcanada.ca/incorporation-canada.html) is a separate filing with Corporations Canada or a province.
+
+- **It isn't FINTRAC approval.** FINTRAC doesn't publish a list of acceptable address types, and it doesn't certify addresses. It can verify what you tell it, and the address you list should describe how your business really operates.
+
+- **It isn't a representative for service.** A foreign MSB still needs a person who resides in Canada for that role.
+
+- **It doesn't, on its own, make your company resident in Canada for tax.** The [CRA](https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/businesses-international-non-resident-taxes/residency-a-corporation.html) says a corporation incorporated in Canada after April 26, 1965 is deemed resident. Otherwise, a company is generally resident where its central management and control is actually exercised, which is usually where the board meets. Tax treatment depends on your facts, so take advice from a tax professional.
+
+- **It doesn't guarantee a bank account.** We can't promise that a bank will open an account for you.
+
 ### How it works
 
 - **Consultation.** Your plans for Canada and how you'll use the address.
@@ -446,7 +478,11 @@ If you're a foreign MSB, a physical location in Canada can change your status to
 
 **What happens to mail sent to the address?** How mail is handled is set out in your written scope.
 
-Sources: [FINTRAC, Register your MSB or FMSB](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/reg-ins-eng); [Money services businesses](https://fintrac-canafe.canada.ca/msb-esm/msb-eng). Checked 11 October 2026.
+**Can a P.O. box be my Canadian business address?** Not as your physical address with the CRA. The CRA says the physical address must be where day-to-day activities take place and can't be a rural route number or a P.O. box. Your mailing address can be different.
+
+**Does a Canadian address make my company tax resident in Canada?** Not on its own. The CRA says a corporation incorporated in Canada after April 26, 1965 is deemed resident, and other companies are generally resident where their central management and control is exercised. Take advice from a tax professional on your facts.
+
+Sources: [FINTRAC, Register your MSB or FMSB](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/reg-ins-eng); [Money services businesses](https://fintrac-canafe.canada.ca/msb-esm/msb-eng); [FINTRAC, Money Services Business Registry](https://fintrac-canafe.canada.ca/msb-esm/reg-eng); [Canada Business Corporations Act, s. 19](https://laws-lois.justice.gc.ca/eng/acts/C-44/section-19.html); [CBCA, s. 20](https://laws-lois.justice.gc.ca/eng/acts/C-44/section-20.html); [Corporations Canada, Next steps following incorporation](https://ised-isde.canada.ca/site/corporations-canada/en/business-corporations/next-steps-following-incorporation-your-business); [Ontario Business Corporations Act](https://www.ontario.ca/laws/statute/90b16); [CRA, Change a business address](https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/business-registration/maintain-business/change-address.html); [CRA, Residency of a corporation](https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/businesses-international-non-resident-taxes/residency-a-corporation.html). Checked 11 October 2026.
 
 ---
 
@@ -1128,19 +1164,25 @@ Once we have your details and documents, incorporation usually takes a few hours
 
 Our fee is a fixed US$1,500. Government fees are paid separately to the government: currently CA$200 for federal online incorporation (CA$100 more for 4-hour express) or CA$300 for Ontario online incorporation.
 
-For a federal online incorporation, the name search is built into the application, so a word name doesn't need a separate Nuans report. A named Ontario company needs an Ontario-biased Nuans name search report; a numbered company doesn't.
+For a federal online incorporation, the name search is built into the application, so a word name doesn't need a separate Nuans report. [Corporations Canada](https://ised-isde.canada.ca/site/corporations-canada/en/naming-corporation/naming-corporation-how-get-name) says the name search for incorporation is integrated into the application process, and you don't need to order a separate report first. It still asks for a Nuans report for some other filings, such as revivals and amalgamations. A named Ontario company needs an Ontario-biased Nuans name search report, and [Ontario](https://www.ontario.ca/page/business/start/register-your-business-online) won't accept a federal-biased one; a numbered company doesn't need one.
 
-### After incorporation
+### After incorporation: tax accounts and filings
 
-- Keep corporate records, including a register of individuals with significant control.
+- **Business number.** The [CRA](https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/business-registration/business-number-program-account/need-bn.html) says a federal incorporation gives you a business number (BN) and a corporation income tax (RC) program account, so you don't register separately for that account. Incorporating in Ontario does too. GST/HST and payroll accounts are registered with the CRA separately, once you have your BN.
 
-- For a federal corporation, file information about individuals with significant control with Corporations Canada at incorporation, every year with the annual return, and within 15 days of a change to the register. This has applied since January 22, 2024.
+- **GST/HST.** Most businesses are small suppliers and don't have to register while their taxable supplies stay at or below CA$30,000 over four consecutive calendar quarters. Once you go over CA$30,000, in a single quarter or over four consecutive quarters, you must register, according to the [CRA](https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/when-register-charge.html).
 
-- File an annual return each year (federal online annual return: CA$12).
+- **Corporation income tax return.** A corporation files its T2 return within six months of the end of each tax year ([CRA](https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-income-tax-return/when-file-your-corporation-income-tax-return.html)).
 
-- Register for tax accounts, and in each province where you carry on business.
+- **Annual return.** A federal corporation files an annual return with Corporations Canada within 60 days of its anniversary date each year, but not for the year it was incorporated (federal online annual return: CA$12). Ontario lists its annual return for an Ontario corporation at no fee.
 
-- Register with [FINTRAC as an MSB](https://amlcanada.ca/msb-registration.html) or with the [Bank of Canada under the RPAA](https://amlcanada.ca/rpaa-registration.html) before you start offering those services.
+- **Individuals with significant control.** Keep corporate records, including a register of individuals with significant control. For a federal corporation, file ISC information with Corporations Canada at incorporation, every year with the annual return, and within 15 days of a change to the register. This has applied since January 22, 2024.
+
+- **Provinces.** Register in each province where you carry on business.
+
+- **Regulated services.** Register with [FINTRAC as an MSB](https://amlcanada.ca/msb-registration.html) or with the [Bank of Canada under the RPAA](https://amlcanada.ca/rpaa-registration.html) before you start offering those services.
+
+If you're incorporating from outside Canada, our guide on [how to incorporate in Canada as a non-resident](https://amlcanada.ca/incorporate-in-canada-non-resident.html) covers director residency and tax residency in more detail.
 
 ### Questions
 
@@ -1152,7 +1194,11 @@ For a federal online incorporation, the name search is built into the applicatio
 
 **Should we incorporate before registering as an MSB?** Usually, yes. The company is what registers with FINTRAC, so incorporating first means the registration can start straight away.
 
-Sources: [Corporations Canada, Services, fees and processing times](https://ised-isde.canada.ca/site/corporations-canada/en/services-fees-and-processing-times); [Directors and officers](https://ised-isde.canada.ca/site/corporations-canada/en/business-corporations/directors-and-officers); [Next steps after incorporating](https://ised-isde.canada.ca/site/corporations-canada/en/business-corporations/next-steps-following-incorporation-your-business); [Individuals with significant control: file your information](https://ised-isde.canada.ca/site/corporations-canada/en/individuals-significant-control/individuals-significant-control-file-your-information); [Naming a corporation](https://ised-isde.canada.ca/site/corporations-canada/en/naming-corporation/naming-corporation-how-get-name); [Canada Business Corporations Act](https://laws-lois.justice.gc.ca/eng/acts/C-44/); [Ontario, Register your business online](https://www.ontario.ca/page/business/start/register-your-business-online); [Ontario fees and timing](https://www.ontario.ca/page/cost-time-required-to-register-change-search-for-business-name-corporation-not-for-profit). Checked 11 October 2026.
+**Do I need a Nuans report to incorporate federally?** Not for a federal incorporation. Corporations Canada says the name search is integrated into the online application, so you don't order a separate report. A named Ontario company does need an Ontario-biased Nuans report. A numbered company needs none.
+
+**When does a new company have to register for GST/HST?** The CRA says most businesses must register once their taxable supplies go over CA$30,000 in a single calendar quarter or over four consecutive calendar quarters. Below that, registration is voluntary.
+
+Sources: [Corporations Canada, Services, fees and processing times](https://ised-isde.canada.ca/site/corporations-canada/en/services-fees-and-processing-times); [Directors and officers](https://ised-isde.canada.ca/site/corporations-canada/en/business-corporations/directors-and-officers); [Next steps after incorporating](https://ised-isde.canada.ca/site/corporations-canada/en/business-corporations/next-steps-following-incorporation-your-business); [Individuals with significant control: file your information](https://ised-isde.canada.ca/site/corporations-canada/en/individuals-significant-control/individuals-significant-control-file-your-information); [Naming a corporation](https://ised-isde.canada.ca/site/corporations-canada/en/naming-corporation/naming-corporation-how-get-name); [Canada Business Corporations Act](https://laws-lois.justice.gc.ca/eng/acts/C-44/); [Ontario, Register your business online](https://www.ontario.ca/page/business/start/register-your-business-online); [Ontario fees and timing](https://www.ontario.ca/page/cost-time-required-to-register-change-search-for-business-name-corporation-not-for-profit); [CRA, When you need a BN](https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/business-registration/business-number-program-account/need-bn.html); [CRA, When to register for and start charging the GST/HST](https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/when-register-charge.html); [CRA, When to file your corporation income tax return](https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-income-tax-return/when-file-your-corporation-income-tax-return.html). Checked 11 October 2026.
 
 ---
 
@@ -1186,15 +1232,21 @@ Whether a document needs authentication at all is set by the law of the destinat
 
 ### Who issues the apostille
 
-Canada has six authorities that issue apostilles. The [Global Affairs Canada requirements](https://international.canada.ca/en/global-affairs/services/document-authentication/requirements) set out who handles what:
+Canada has six authorities that issue apostilles: Global Affairs Canada and five provinces. The [Global Affairs Canada requirements](https://international.canada.ca/en/global-affairs/services/document-authentication/requirements) set out who handles what:
 
-- **Global Affairs Canada**: documents issued by the Government of Canada, such as Corporations Canada documents, and documents issued or notarized in Manitoba, New Brunswick, Newfoundland and Labrador, the Northwest Territories, Nova Scotia, Nunavut, Prince Edward Island or Yukon.
+| Where the document comes from | Who issues the apostille |
 
-- **Alberta, British Columbia, Ontario, Quebec and Saskatchewan**: documents issued in their own province.
+| Government of Canada, such as Corporations Canada documents | Global Affairs Canada |
+
+| Manitoba, New Brunswick, Newfoundland and Labrador, Northwest Territories, Nova Scotia, Nunavut, Prince Edward Island, Yukon | Global Affairs Canada, for documents issued or notarized there |
+
+| Alberta, Ontario, Saskatchewan | The province, for documents issued there and for any document notarized there |
+
+| British Columbia, Quebec | The province, for documents issued there; a notarized document qualifies only if the original was issued in the province |
 
 A document notarized in Alberta, Ontario or Saskatchewan goes to that province, wherever it was originally issued. British Columbia and Quebec authenticate a notarized document only if the original was issued in their province. In practice, a copy of a federal certificate notarized by an Ontario notary goes to Ontario's Official Documents Services, not to Global Affairs Canada.
 
-### When a document must be notarized first
+### Public or private document: when to notarize first
 
 Some government documents can be apostilled directly. Most private and corporate records can't. The Global Affairs Canada [document eligibility tool](https://apostille-gac.powerappsportals.com/en/search-document/) says:
 
@@ -1207,6 +1259,38 @@ Some government documents can be apostilled directly. Most private and corporate
 Ontario's [Official Documents Services](https://www.ontario.ca/page/authenticate-document-use-outside-canada) accepts business registry documents issued since 1991 by the Business and Personal Property Branch or the Ontario Business Registry without notarization. It won't accept documents commissioned by a commissioner for taking affidavits, or electronic copies.
 
 In Ontario, a notary must be physically present with the person when notarizing. The [Ministry of the Attorney General](https://www.ontario.ca/page/information-notaries-public-ontario) says remote notarization isn't permitted under the Notaries Act, and Official Documents Services won't authenticate or apostille documents notarized remotely. Our partner notary works in person.
+
+### Corporate documents we handle, by type
+
+A public document is one issued by a government registry. A private document is one your company makes itself, and it must be notarized before it can be apostilled. Some public documents also need notarizing first, depending on the version you hold. This table uses the [Global Affairs Canada eligibility tool](https://apostille-gac.powerappsportals.com/en/search-document/) and Ontario's [Official Documents Services](https://www.ontario.ca/page/authenticate-document-use-outside-canada) guidance.
+
+| Document | Public or private | Notarize first? |
+
+| Core corporate documents |
+
+| Corporations Canada certificate of incorporation with an original signature or seal | Public | No |
+
+| Corporations Canada certificate of incorporation without an original signature or seal | Public | Yes |
+
+| Corporations Canada certificates of compliance, existence or amendment, and articles of incorporation | Public | Yes, Global Affairs Canada says business or corporate records must be notarized |
+
+| Ontario Business Registry documents issued since 1991, such as a certificate of status | Public | No, in Ontario |
+
+| Registers and minute book |
+
+| Register extracts, minute book pages and by-laws | Private | Yes |
+
+| Resolutions and powers of attorney |
+
+| Director and shareholder resolutions | Private | Yes |
+
+| Corporate power of attorney | Private | Yes, as a private legal document |
+
+| Registration evidence |
+
+| Evidence of FINTRAC MSB or Bank of Canada RPAA registration | Public registry record | Usually. Global Affairs Canada's tool says documents from a Government of Canada department or agency that aren't on its list must be notarized. FINTRAC says it doesn't issue certificates of registration, so ask the receiving party what evidence it accepts. |
+
+The version you hold matters, so we check each document before anything is submitted. Our guide to [how to apostille Canadian corporate documents](https://amlcanada.ca/apostille-corporate-documents-canada.html) covers each type in more detail.
 
 ### Countries that are not part of the Convention
 
