@@ -1632,6 +1632,142 @@ Sources: [FINTRAC MSB registry](https://fintrac-canafe.canada.ca/msb-esm/reg-eng
 
 ---
 
+## Guide: FINTRAC's 2025-26 annual report: what the supervision figures mean for MSBs
+
+URL: https://amlcanada.ca/fintrac-annual-report-2025-26-msb-supervision.html
+
+FINTRAC published its 2025-26 annual report on 26 October 2026. In the year to 31 March 2026, money services businesses received more than 55% of its assessment activity, 433 targeted examinations and information demands, and 82 registration revocations. This post sets out the supervision and enforcement figures that matter to MSBs and the compliance checks they point to.
+
+**Key points:**
+- More than 55% of FINTRAC's 4,874 assessment and monitoring activities in 2025-26 were directed at money services businesses.
+- FINTRAC ran 625 targeted examinations and information demands, and 433 of them were on MSBs.
+- It revoked 82 MSB registrations, up from 12 the year before, and penalized nine MSBs for more than $198 million.
+- FINTRAC received 294 voluntary self-declarations of non-compliance, many about late reporting caused by human error or systems issues.
+
+### What does FINTRAC's 2025-26 annual report say about supervision?
+
+FINTRAC published its [2025-26 Annual Report, Safe Canadians, Secure Economy](https://fintrac-canafe.canada.ca/publications/ar/2026/1-eng) on 26 October 2026. The report covers the year to 31 March 2026. Its supervision chapter describes a new Supervision Framework that FINTRAC finalized, implemented and published during the year, and a focus on higher-risk businesses. The [news release](https://fintrac-canafe.canada.ca/new-neuf/nr/2026-10-26-eng) calls the 4,874 assessment and monitoring activities a record.
+
+These are the supervision figures FINTRAC reports in its [results by the numbers](https://fintrac-canafe.canada.ca/publications/ar/2025-2026-info-eng) page and in the report itself:
+
+| Measure (2025-26) | Figure |
+
+| Assessment and monitoring activities, all sectors | 4,874 |
+
+| Share of activities focused on MSBs | More than 55% |
+
+| Targeted examinations and information demands | 625, including 433 on MSBs, 129 on financial entities and 26 on casinos |
+
+| Full-scope examinations | 89, mostly dealers in precious metals and stones (34), real estate (29) and mortgage brokers (9) |
+
+| Self-attestations processed | 812 |
+
+| Risk questionnaires administered | 984 |
+
+| Voluntary self-declarations of non-compliance received | 294 |
+
+| MSB registrations revoked | 82, up from 12 the previous year |
+
+| Notices of violation, all sectors | 35, for more than $247 million |
+
+| Non-compliance cases disclosed to law enforcement | 31, of which 28 involved MSBs |
+
+### Why did MSBs get most of FINTRAC's attention?
+
+The report says the 2025 Assessment of Money Laundering and Terrorist Financing Risks in Canada rated MSBs as having very high vulnerability, so FINTRAC "focused significant resources" on the sector, particularly on virtual asset service providers. The MSB work included:
+
+- full-scope examinations of larger, more traditional MSBs;
+
+- targeted assessments of crowdfunding platforms and payment service providers;
+
+- information demands on high-risk virtual asset service providers.
+
+FINTRAC also says that, when it assessed virtual currency dealers, it found instances of exposure to dark markets related to the buying, selling and distribution of illegal fentanyl.
+
+The report describes a move from an audit approach to an assessment approach, with "more complex, lengthy and in-depth examinations" of larger businesses in higher-risk sectors. After an examination, FINTRAC monitors the business's action plan, and an action item closes only once the business can show it has taken all appropriate corrective measures. Our guide to [preparing for a FINTRAC examination](https://amlcanada.ca/fintrac-examination-preparation.html) covers what examiners ask for.
+
+### What happened to MSB registrations in 2025-26?
+
+The registry grew in 2025-26 even as revocations rose. According to the annual report, 1,401 new MSBs registered and 625 renewed in 2025-26. FINTRAC denied 23 new registrations, 91 businesses ceased their registrations and 605 registrations expired, a figure that includes registrations that expired and were then renewed. As of 31 March 2026, 3,396 MSBs were registered, up from 2,778 a year earlier.
+
+FINTRAC revoked 82 registrations. The report says MSBs must respond in a timely manner to FINTRAC's demands for information "or their registrations are revoked," and that people convicted of certain offences are ineligible to register. FINTRAC publishes the names of revoked MSBs.
+
+The 82 figure covers the fiscal year. FINTRAC's 6 November 2026 statement gave a separate count of 161 revocations since the start of calendar year 2026, which we covered in our post on the [OFAC sanctions on Canadian MSBs](https://amlcanada.ca/ofac-sanctions-canadian-msbs-iran-fintrac.html). Our guide to [refused and revoked MSB registrations](https://amlcanada.ca/msb-registration-refused-revoked.html) explains the process.
+
+### How large were FINTRAC's penalties?
+
+FINTRAC issued 35 notices of violation in 2025-26, up 52% from the previous year, for more than $247 million. The report calls it "by far the largest amount in FINTRAC's history." By number of notices of violation, the most penalized sectors were financial entities (12), MSBs (8), casinos (5) and real estate (5). FINTRAC's [results by the numbers](https://fintrac-canafe.canada.ca/publications/ar/2025-2026-info-eng) page compares the last five fiscal years:
+
+| Fiscal year | Notices of violation | Amount |
+
+| 2025-26 | 35 | More than $247 million |
+
+| 2024-25 | 23 | $25 million |
+
+| 2023-24 | 12 | $26 million |
+
+| 2022-23 | 6 | $1 million |
+
+| 2021-22 | 15 | $3.5 million |
+
+In its section on MSBs, the report says nine MSBs were penalized for more than $198 million, for violations that include compliance program deficiencies, failing to register and failing to report large virtual currency transactions. The report does not explain why this differs from the eight MSBs in its count of most penalized sectors. It names three MSB cases:
+
+- Xeltox Enterprises Ltd. (operating as Cryptomus) received a $176 million penalty in October 2025, the largest in FINTRAC's history. Among other violations, FINTRAC found it failed to submit suspicious transaction reports where there were reasonable grounds to suspect links to trafficking in child sexual abuse material, fraud, ransomware payments and sanctions evasion.
+
+- Peken Global Limited (also operating as KuCoin), a foreign MSB, received a $19,552,000 penalty in July 2025 for failing to register, failing to report large virtual currency transactions on 2,952 occasions and failing to report suspicious transactions on 33 occasions.
+
+- MP Technology Services Ltd., a subsidiary of MoonPay Inc. and a foreign MSB, received a $536,853.35 penalty in November 2025 for four violations, including failing to report suspicious transactions with direct or indirect exposure to darknet marketplaces, sanctioned entities and child sexual abuse material.
+
+The report adds that the Strengthening Canada's Immigration System and Borders Act, passed in March 2026, raised penalties by up to 40 times and gave FINTRAC power to issue compliance orders. Failing to comply with an order can bring a penalty of up to $30 million or 3% of the business's global revenues. Our [guide to FINTRAC penalties](https://amlcanada.ca/fintrac-penalties-amps.html) explains how amounts are set under the [AMP policy](https://fintrac-canafe.canada.ca/pen/2-eng).
+
+### What is a voluntary self-declaration of non-compliance?
+
+A business that finds its own gaps can tell FINTRAC in writing. FINTRAC received 294 of these declarations in 2025-26. The report says many related to late reporting caused by human error or systems issues, or to fixing past non-compliance in recently onboarded sectors.
+
+FINTRAC's [self-declaration page](https://fintrac-canafe.canada.ca/guidance-directives/exam-examen/vsdonc/1-eng) says a declaration should include the business's name and contact details, the number and type of reports affected and the period involved, the reason for the problem, and a plan with measures and timelines to fix it and submit any outstanding reports. FINTRAC says it will work with the business to resolve the issue when the problem is not a repeat of an earlier declaration and the declaration was not made after the business was notified of an upcoming assessment activity.
+
+### What should an MSB check after reading the report?
+
+The report shows where FINTRAC spent its supervision effort in 2025-26. Here is a control an MSB can test against each finding.
+
+| What the report shows | What to check |
+
+| 433 targeted examinations and information demands on MSBs | Your compliance program documents, risk assessment, training records and last effectiveness review are current and can be produced quickly. |
+
+| Registrations revoked when MSBs do not answer information demands in time | Someone monitors the email address on your registration and answers FINTRAC by the deadline. Our revocation response plan sets out the steps. |
+
+| Penalties for unreported suspicious and large virtual currency transactions | Your monitoring flags exposure to darknet markets, sanctioned entities and fraud, and your reports are filed on time. |
+
+| Failure to register was among the MSB violations | Every service you offer, including virtual currency and payment services, is covered by your registration. |
+
+| Action plan items close only when corrective measures are shown | Past examination findings have documented fixes and evidence that the fixes work. |
+
+| 294 self-declarations, many about late reporting | You have a process to find reporting errors and decide whether to self-declare before an assessment is announced. |
+
+If your business has no dedicated compliance staff, an [outsourced compliance officer](https://amlcanada.ca/outsourced-compliance-officer.html) can run these checks and handle FINTRAC correspondence. FINTRAC's [examination pages](https://fintrac-canafe.canada.ca/guidance-directives/exam-examen/1-eng) describe what to expect if you are selected.
+
+### What comes next for FINTRAC supervision?
+
+In its [statement on the FATF evaluation](https://fintrac-canafe.canada.ca/new-neuf/statementfatf-declarationgafi-eng) of 29 September 2026, FINTRAC said its supervision-related resources will rise by 60% ($37 million) over the next two years, to strengthen oversight of the 38,000 businesses subject to the Act. In its [statement on the Auditor General's audit](https://fintrac-canafe.canada.ca/new-neuf/statement-declaration-26-10-29-eng) of 29 October 2026, FINTRAC said it will use the recommendations of the Office of the Auditor General and the FATF evaluation to strengthen its supervision.
+
+The annual report also says FINTRAC is strengthening its penalty framework to implement the higher amounts and compliance orders.
+
+### Questions
+
+**When did FINTRAC publish its 2025-26 annual report?** FINTRAC published its 2025-26 Annual Report, Safe Canadians, Secure Economy, on 26 October 2026. It covers the fiscal year that ended on 31 March 2026.
+
+**How many MSB registrations did FINTRAC revoke in 2025-26?** FINTRAC revoked 82 money services business registrations in 2025-26, up from 12 the previous year. It publishes the names of revoked MSBs.
+
+**How many FINTRAC examinations focused on MSBs?** Of the 625 targeted examinations and information demands FINTRAC carried out in 2025-26, 433 were on money services businesses. More than 55% of all its assessment activities were directed at MSBs.
+
+**How much did FINTRAC penalize MSBs in 2025-26?** FINTRAC imposed administrative monetary penalties on nine money services businesses for more than $198 million, for violations including compliance program deficiencies, failing to register and failing to report large virtual currency transactions.
+
+**How many MSBs were registered with FINTRAC at 31 March 2026?** FINTRAC's annual report says 3,396 money services businesses were registered as of 31 March 2026, up from 2,778 a year earlier.
+
+Sources: [FINTRAC, 2025-26 Annual Report, Safe Canadians, Secure Economy](https://fintrac-canafe.canada.ca/publications/ar/2026/1-eng); [FINTRAC, Results by the numbers 2025-26](https://fintrac-canafe.canada.ca/publications/ar/2025-2026-info-eng); [FINTRAC, News release: 2025-26 Annual Report (26 October 2026)](https://fintrac-canafe.canada.ca/new-neuf/nr/2026-10-26-eng); [FINTRAC, Statement on the FATF evaluation (29 September 2026)](https://fintrac-canafe.canada.ca/new-neuf/statementfatf-declarationgafi-eng); [FINTRAC, Statement on the Office of the Auditor General audit (29 October 2026)](https://fintrac-canafe.canada.ca/new-neuf/statement-declaration-26-10-29-eng); [FINTRAC, Voluntary self-declaration of non-compliance](https://fintrac-canafe.canada.ca/guidance-directives/exam-examen/vsdonc/1-eng); [FINTRAC, Administrative monetary penalties policy](https://fintrac-canafe.canada.ca/pen/2-eng); [FINTRAC, Examinations](https://fintrac-canafe.canada.ca/guidance-directives/exam-examen/1-eng). Checked 23 November 2026.
+
+---
+
 ## Guide: OFAC sanctions eight Canadian MSBs: what money services businesses should check
 
 URL: https://amlcanada.ca/ofac-sanctions-canadian-msbs-iran-fintrac.html
