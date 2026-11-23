@@ -836,9 +836,39 @@ The two-year effectiveness review FINTRAC requires, and preparation for a FINTRA
 - Written findings and recommendations, in order of priority
 - Help preparing records and your team for an examination
 
-### Effectiveness review or AML audit?
+### AML audit in Canada: what it usually means
 
-They are usually the same thing. Businesses and banks often call it an AML audit or an independent AML review. FINTRAC's term is the **two-year effectiveness review**: an evaluation that tests whether your compliance program works, and whether it has gaps or weaknesses that could stop you detecting and preventing money laundering, terrorist financing and sanctions evasion.
+When a business, or its bank, asks for an AML audit in Canada, what it usually needs is the two-year effectiveness review FINTRAC requires. Businesses and banks often call it an AML audit or an independent AML review. FINTRAC's guidance doesn't use the term AML audit. Its term is the **two-year effectiveness review**: an evaluation that tests whether your compliance program works, and whether it has gaps or weaknesses that could stop you detecting and preventing money laundering, terrorist financing and sanctions evasion.
+
+### Who needs an effectiveness review
+
+Every business FINTRAC regulates. [Section 9.6(1) of the PCMLTFA](https://laws-lois.justice.gc.ca/eng/acts/P-24.501/section-9.6.html) requires every person or entity referred to in section 5 of the Act to have a compliance program, and [PCMLTFR s. 156(1)(f) and (3)](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-184/section-156.html) make a documented review plan and a review every two years part of that program. [FINTRAC's list of reporting entities](https://fintrac-canafe.canada.ca/reporting-declaration/info/re-ed-eng) includes:
+
+- money services businesses and foreign money services businesses;
+
+- financial entities, such as banks, credit unions, caisses populaires, trust companies and loan companies;
+
+- securities dealers;
+
+- life insurance companies, brokers and agents;
+
+- real estate brokers, sales representatives and developers (when carrying out certain activities);
+
+- mortgage administrators, brokers and lenders;
+
+- dealers in precious metals and precious stones;
+
+- casinos;
+
+- accountants and accounting firms, and British Columbia notaries public and notary corporations (when carrying out certain activities for clients);
+
+- agents of the Crown that sell money orders, and armoured car businesses;
+
+- cheque cashers, factors, and financing or leasing entities (since July 10, 2025);
+
+- acquirer services in relation to private automated banking machines, and title insurers (since October 1, 2025).
+
+Size doesn't change this. A sole proprietor with no employees, agents or others authorized to act for them doesn't need a training program, but still needs the review.
 
 ### How often is an effectiveness review required?
 
@@ -890,7 +920,7 @@ FINTRAC says the review should record the date it was done, the period it covere
 
 If you are an entity, you must also report in writing to a senior officer within 30 days of completing the review. The report covers the review's findings, any updates made to your policies and procedures during the period that were not made because of the review, and the status of implementing those updates.
 
-### How we run a review
+### How we run an AML audit (effectiveness review)
 
 - **Scoping call.** We learn your products, clients, volumes and earlier findings, and agree the scope in writing.
 
@@ -902,7 +932,7 @@ If you are an entity, you must also report in writing to a senior officer within
 
 - **Findings.** A written report with deficiencies, recommendations and an action plan, in order of priority, ready for the 30-day report to your senior officer.
 
-Our [effectiveness review checklist](https://amlcanada.ca/fintrac-effectiveness-review-checklist.html) lists what to gather before a review starts.
+Our [two-year effectiveness review checklist](https://amlcanada.ca/fintrac-effectiveness-review-checklist.html) lists what to gather before a review starts.
 
 ### Effectiveness review or FINTRAC examination?
 
@@ -918,11 +948,19 @@ An effectiveness review is your own check of your program. A FINTRAC examination
 
 **Can we do the review ourselves?** FINTRAC's guidance allows a self-review if you have no internal or external auditor, provided whoever does it knows the requirements. An external review adds independence.
 
+**When is our first effectiveness review due?** Neither the Regulations nor FINTRAC's compliance program guidance sets a date for the first review. Your compliance program, including a documented plan for the review, must be in place from the start, and the review is required every two years (PCMLTFR s. 156(1)(f) and (3)). If you're unsure, FINTRAC answers questions on requirements at guidelines-lignesdirectrices@fintrac-canafe.gc.ca.
+
+**What if we've missed the two-year deadline?** Neither the Regulations nor FINTRAC's guidance gives a grace period. The penalty regulations class a breach of PCMLTFR s. 156(1)(f) and (3), the review plan and two-year review, as a very serious violation. In our view, start the review as soon as you can and document it. If you're an entity, the findings still go in writing to a senior officer within 30 days of finishing.
+
+**Can the firm that set up our compliance program also review it?** The Regulations don't rule it out. They say an internal or external auditor carries out the review, or the business itself if it has no auditor (PCMLTFR s. 156(3)). As a best practice, FINTRAC says the review should not be conducted by someone directly involved in your compliance program activities, so it stays impartial. FINTRAC's guidance doesn't say whether having written the documents counts as direct involvement.
+
+**How is an effectiveness review different from a gap assessment?** A gap assessment isn't a term FINTRAC's compliance program guidance uses. It usually means comparing your documents with the requirements to find what's missing. The two-year effectiveness review is the review the Regulations require: it follows a documented plan that covers every element of your program and tests whether the program works in practice, using methods such as staff interviews, record sampling and document review.
+
 **What do we receive?** Written findings and recommendations, in order of priority, so you know what to fix first.
 
 **FINTRAC has contacted us about an examination. Where do we start?** Book a consultation. We review your program and records with you and help you prepare to show how it works.
 
-Sources: [FINTRAC, Compliance program requirements](https://fintrac-canafe.canada.ca/guidance-directives/compliance-conformite/Guide4/4-eng). Checked 11 October 2026.
+Sources: [FINTRAC, Compliance program requirements](https://fintrac-canafe.canada.ca/guidance-directives/compliance-conformite/Guide4/4-eng); [FINTRAC, Who must report to FINTRAC](https://fintrac-canafe.canada.ca/reporting-declaration/info/re-ed-eng); [PCMLTFA, section 9.6](https://laws-lois.justice.gc.ca/eng/acts/P-24.501/section-9.6.html); [PCMLTFR, section 156](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-184/section-156.html); [Administrative Monetary Penalties Regulations](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2007-292/FullText.html). Checked 11 October 2026.
 
 ---
 
@@ -5670,7 +5708,7 @@ When a violation is deemed committed, or the Director decides one was committed,
 
 ### Lowering your risk
 
-Most violations trace back to gaps an internal check would find. Test your program with a regular [effectiveness review](https://amlcanada.ca/fintrac-effectiveness-review-checklist.html), fix late or missing reports before FINTRAC calls, and prepare as our [examination guide](https://amlcanada.ca/fintrac-examination-preparation.html) describes. An [outsourced compliance officer](https://amlcanada.ca/outsourced-compliance-officer.html) can keep reporting and records current, and an external [effectiveness review](https://amlcanada.ca/effectiveness-reviews.html) gives an independent view. Payment businesses should also check their [travel rule and directive procedures](https://amlcanada.ca/fintrac-travel-rule-ministerial-directives.html), since breaching a directive is very serious.
+Most violations trace back to gaps an internal check would find. Test your program with a regular [effectiveness review](https://amlcanada.ca/fintrac-effectiveness-review-checklist.html), fix late or missing reports before FINTRAC calls, and prepare as our [examination guide](https://amlcanada.ca/fintrac-examination-preparation.html) describes. An [outsourced compliance officer](https://amlcanada.ca/outsourced-compliance-officer.html) can keep reporting and records current, and an external [AML audit (effectiveness review)](https://amlcanada.ca/effectiveness-reviews.html) gives an independent view. Payment businesses should also check their [travel rule and directive procedures](https://amlcanada.ca/fintrac-travel-rule-ministerial-directives.html), since breaching a directive is very serious.
 
 ### Questions
 
@@ -6114,7 +6152,7 @@ The plan should say who gets trained, which topics and materials you use, how yo
 
 An effectiveness review tests whether your policies and procedures, risk assessment, and training program and plan work in practice. You must start each review no later than 24 months from the start of the previous one, and finish the previous review before you start the next. The review must be carried out, and its results documented, by an internal or external auditor, or by you if you have no auditor. Whoever does it should know your requirements under the PCMLTFA. As a best practice, the reviewer shouldn't be directly involved in your compliance program activities.
 
-You also need a documented plan for the review that covers every part of the program. It should set out the scope, the reasons for the areas you focus on, the period reviewed, your evaluation methods and sample sizes. The review itself should record when it was done, the period covered, who did it, the test results and the conclusions, including any deficiencies, recommendations and action plans. If your business is an entity, you must report the findings, any other updates to your policies and procedures and the status of those updates, in writing to a senior officer within 30 days of finishing the review. Our [effectiveness review checklist](https://amlcanada.ca/fintrac-effectiveness-review-checklist.html) sets out what to test, and an external [effectiveness review](https://amlcanada.ca/effectiveness-reviews.html) gives you an independent view.
+You also need a documented plan for the review that covers every part of the program. It should set out the scope, the reasons for the areas you focus on, the period reviewed, your evaluation methods and sample sizes. The review itself should record when it was done, the period covered, who did it, the test results and the conclusions, including any deficiencies, recommendations and action plans. If your business is an entity, you must report the findings, any other updates to your policies and procedures and the status of those updates, in writing to a senior officer within 30 days of finishing the review. Our [effectiveness review checklist](https://amlcanada.ca/fintrac-effectiveness-review-checklist.html) sets out what to test, and an external [AML audit (effectiveness review)](https://amlcanada.ca/effectiveness-reviews.html) gives you an independent view.
 
 ### A quick self-check
 
@@ -6742,7 +6780,7 @@ The amendments also require compliance programs to be reasonably designed, risk-
 
 - Close the findings from your last review or examination.
 
-An [outsourced compliance officer](https://amlcanada.ca/outsourced-compliance-officer.html) can help keep these up to date, and an [effectiveness review](https://amlcanada.ca/effectiveness-reviews.html) tests them before FINTRAC does.
+An [outsourced compliance officer](https://amlcanada.ca/outsourced-compliance-officer.html) can help keep these up to date, and an [AML audit (effectiveness review)](https://amlcanada.ca/effectiveness-reviews.html) tests them before FINTRAC does.
 
 ### Questions
 
@@ -6774,7 +6812,21 @@ FINTRAC requires every reporting entity to review its compliance program at leas
 
 Every business FINTRAC regulates must institute and document a plan to review the effectiveness of its compliance program, and carry out the review at least every two years. The plan must include all the elements of the program: policies and procedures, risk assessment and training. The requirements are in [FINTRAC's compliance program guidance](https://fintrac-canafe.canada.ca/guidance-directives/compliance-conformite/Guide4/4-eng).
 
-The review is done by an internal or external auditor or, if you don't have an auditor, by yourself. FINTRAC's best-practice advice is that whoever does it shouldn't be directly involved in the compliance program activities being reviewed, so the review stays impartial. Some businesses use an [external effectiveness review](https://amlcanada.ca/effectiveness-reviews.html) for that reason.
+The review is done by an internal or external auditor or, if you don't have an auditor, by yourself. FINTRAC's best-practice advice is that whoever does it shouldn't be directly involved in the compliance program activities being reviewed, so the review stays impartial. Some businesses use an external [FINTRAC effectiveness review](https://amlcanada.ca/effectiveness-reviews.html) for that reason.
+
+### When your first review is due
+
+Neither section 156 of the [Regulations](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-184/FullText.html) nor FINTRAC's compliance program guidance sets a date for a business's first review. As of 23 November 2026, we also found no current FINTRAC policy interpretation on it. You may read that the two years run from when you start your regulated activity rather than from registration. We couldn't confirm that in a current FINTRAC source.
+
+What the rules do set:
+
+- A documented plan for the review is one of the elements of your compliance program (s. 156(1)(f)), and your program needs to be in place from the day your obligations start.
+
+- The review is carried out, and its results documented, every two years (s. 156(3)).
+
+- Each review must start no later than 24 months from the start of the previous one, and the previous review must be finished before the next one starts.
+
+If you're unsure when your first review is due, FINTRAC's guidance gives an address for questions on requirements: guidelines-lignesdirectrices@fintrac-canafe.gc.ca. In our view, record the date you chose and why in your review plan.
 
 ### The checklist
 
@@ -6817,6 +6869,20 @@ The review is done by an internal or external auditor or, if you don't have an a
 - Check that records can be produced, and are kept for the required period.
 
 - Check that findings from the last review were fixed.
+
+### Evidence to keep
+
+- The documented review plan: its scope, the reasons for the areas of focus, the period reviewed, the evaluation methods and the sample sizes.
+
+- The date of the review, the period it covered and who performed it.
+
+- The results of the tests performed.
+
+- The conclusions, including deficiencies, recommendations and action plans.
+
+- If you're an entity, the written report to a senior officer, sent within 30 days of finishing.
+
+These follow what FINTRAC's guidance says the plan and the review should document. In our view, also keep the working material behind each result, such as which files were sampled and notes from staff interviews, so you can show how each test was done.
 
 If your policies or risk assessment need rewriting after the review, our [compliance program documents](https://amlcanada.ca/compliance-programs.html) can replace them.
 

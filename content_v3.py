@@ -719,9 +719,13 @@ DEEP["rpaa-compliance-program.html"] = dict(
 )
 
 # ------------------------------------------------------------------ effectiveness reviews (scoped)
+F_WHO = "https://fintrac-canafe.canada.ca/reporting-declaration/info/re-ed-eng"
+L_R156 = "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-184/section-156.html"
+L_A96 = "https://laws-lois.justice.gc.ca/eng/acts/P-24.501/section-9.6.html"
+L_AMPR = "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2007-292/FullText.html"
 DEEP["effectiveness-reviews.html"] = dict(
     name="Effectiveness reviews",
-    modified="2026-10-18",
+    modified="2026-11-23",
     title="FINTRAC Effectiveness Review & AML Audit (Two-Year) | AML Canada",
     desc="The FINTRAC two-year effectiveness review, often called an AML audit: your policies, risk assessment and training tested, with written findings.",
     service_type="Compliance program effectiveness review",
@@ -734,7 +738,7 @@ DEEP["effectiveness-reviews.html"] = dict(
     flag=True,
     need="review",
     intro=("Every business FINTRAC regulates must review the effectiveness of its compliance program at least every two years.",
-           ["An effectiveness review tests whether your policies and procedures, risk assessment and training work day to day, and whether what your team does matches what your documents say.",
+           ["An effectiveness review, often called an AML audit, tests whether your policies and procedures, risk assessment and training work day to day, and whether what your team does matches what your documents say.",
             "We also help you prepare for a FINTRAC examination: what to expect, what to have ready and what to fix first. The fee depends on the size and complexity of your business, and is agreed in your written scope."]),
     facts=[("How often", "Every 2 years", "at a minimum"),
            ("Covers", "3 parts", "policies, risk assessment, training"),
@@ -747,7 +751,23 @@ DEEP["effectiveness-reviews.html"] = dict(
                     "Written findings and recommendations, in order of priority",
                     "Help preparing records and your team for an examination"]),
     guide=[
-        ("audit", "Effectiveness review or AML audit?", """          <p>They are usually the same thing. Businesses and banks often call it an AML audit or an independent AML review. FINTRAC's term is the <strong>two-year effectiveness review</strong>: an evaluation that tests whether your compliance program works, and whether it has gaps or weaknesses that could stop you detecting and preventing money laundering, terrorist financing and sanctions evasion.</p>"""),
+        ("audit", "AML audit in Canada: what it usually means", """          <p>When a business, or its bank, asks for an AML audit in Canada, what it usually needs is the two-year effectiveness review FINTRAC requires. Businesses and banks often call it an AML audit or an independent AML review. FINTRAC's guidance doesn't use the term AML audit. Its term is the <strong>two-year effectiveness review</strong>: an evaluation that tests whether your compliance program works, and whether it has gaps or weaknesses that could stop you detecting and preventing money laundering, terrorist financing and sanctions evasion.</p>"""),
+        ("who-needs", "Who needs an effectiveness review", f"""          <p>Every business FINTRAC regulates. <a href="{L_A96}" rel="noopener">Section 9.6(1) of the PCMLTFA</a> requires every person or entity referred to in section 5 of the Act to have a compliance program, and <a href="{L_R156}" rel="noopener">PCMLTFR s. 156(1)(f) and (3)</a> make a documented review plan and a review every two years part of that program. <a href="{F_WHO}" rel="noopener">FINTRAC's list of reporting entities</a> includes:</p>
+          <ul>
+            <li>money services businesses and foreign money services businesses;</li>
+            <li>financial entities, such as banks, credit unions, caisses populaires, trust companies and loan companies;</li>
+            <li>securities dealers;</li>
+            <li>life insurance companies, brokers and agents;</li>
+            <li>real estate brokers, sales representatives and developers (when carrying out certain activities);</li>
+            <li>mortgage administrators, brokers and lenders;</li>
+            <li>dealers in precious metals and precious stones;</li>
+            <li>casinos;</li>
+            <li>accountants and accounting firms, and British Columbia notaries public and notary corporations (when carrying out certain activities for clients);</li>
+            <li>agents of the Crown that sell money orders, and armoured car businesses;</li>
+            <li>cheque cashers, factors, and financing or leasing entities (since July 10, 2025);</li>
+            <li>acquirer services in relation to private automated banking machines, and title insurers (since October 1, 2025).</li>
+          </ul>
+          <p>Size doesn't change this. A sole proprietor with no employees, agents or others authorized to act for them doesn't need a training program, but still needs the review.</p>"""),
         ("how-often", "How often is an effectiveness review required?", """          <p>At least every two years. FINTRAC requires every reporting entity to review the effectiveness of its compliance program, covering its policies and procedures, risk assessment and ongoing training program and plan, at a minimum once every two years. The review looks at how the program runs day to day as well as what the documents say.</p>
           <p>The timing rule is stricter than many people expect. FINTRAC's guidance says you must start each review no later than 24 months from the <em>start</em> of your previous review, and you must have completed the previous review before you start the next one.</p>"""),
         ("plan", "The review plan you need to document", """          <p>FINTRAC requires you to institute and document a plan for the review, not just carry it out. The plan must include every element of your compliance program, and FINTRAC expects it to set out:</p>
@@ -772,17 +792,19 @@ DEEP["effectiveness-reviews.html"] = dict(
           </ul>"""),
         ("report", "Documenting the results and reporting to a senior officer", """          <p>FINTRAC says the review should record the date it was done, the period it covered, who performed it, the results of the tests, and the conclusions, including any deficiencies, recommendations and action plans.</p>
           <p>If you are an entity, you must also report in writing to a senior officer within 30 days of completing the review. The report covers the review's findings, any updates made to your policies and procedures during the period that were not made because of the review, and the status of implementing those updates.</p>"""),
-        ("how-we-run-it", "How we run a review", """          <ol>
+        ("how-we-run-it", "How we run an AML audit (effectiveness review)","""          <ol>
             <li><strong>Scoping call.</strong> We learn your products, clients, volumes and earlier findings, and agree the scope in writing.</li>
             <li><strong>Written review plan.</strong> Scope, rationale, review period, methods and sample sizes, as FINTRAC expects.</li>
             <li><strong>Document review.</strong> Your policies and procedures, risk assessment, and training program and plan.</li>
             <li><strong>Interviews and sampling.</strong> We talk to the people who do the work and test samples of client files, monitoring and reports.</li>
             <li><strong>Findings.</strong> A written report with deficiencies, recommendations and an action plan, in order of priority, ready for the 30-day report to your senior officer.</li>
           </ol>
-          <p>Our <a href="fintrac-effectiveness-review-checklist.html">effectiveness review checklist</a> lists what to gather before a review starts.</p>"""),
+          <p>Our <a href="fintrac-effectiveness-review-checklist.html">two-year effectiveness review checklist</a> lists what to gather before a review starts.</p>"""),
         ("vs-exam", "Effectiveness review or FINTRAC examination?", """          <p>An effectiveness review is your own check of your program. A FINTRAC examination is FINTRAC's assessment of your compliance. A recent, honest review, with its findings being fixed, is one of the best ways to prepare for an examination.</p>"""),
     ],
-    sources=[("FINTRAC, Compliance program requirements", F_G4)],
+    sources=[("FINTRAC, Compliance program requirements", F_G4), ("FINTRAC, Who must report to FINTRAC", F_WHO),
+             ("PCMLTFA, section 9.6", L_A96), ("PCMLTFR, section 156", L_R156),
+             ("Administrative Monetary Penalties Regulations", L_AMPR)],
     for_title="Who it's for",
     for_items=[("Reporting entities due a review", "Including businesses whose last review is approaching two years."),
                ("Businesses expecting an examination", "Getting ready before FINTRAC arrives."),
@@ -792,6 +814,10 @@ DEEP["effectiveness-reviews.html"] = dict(
           ("How often is an AML effectiveness review required in Canada?", "At least every two years. Each review must start no later than 24 months from the start of the previous one, and the previous review must be finished first."),
           ("Who receives the results?", "If you are an entity, you must report the findings in writing to a senior officer within 30 days of completing the review."),
           ("Can we do the review ourselves?", "FINTRAC's guidance allows a self-review if you have no internal or external auditor, provided whoever does it knows the requirements. An external review adds independence."),
+          ("When is our first effectiveness review due?", "Neither the Regulations nor FINTRAC's compliance program guidance sets a date for the first review. Your compliance program, including a documented plan for the review, must be in place from the start, and the review is required every two years (PCMLTFR s. 156(1)(f) and (3)). If you're unsure, FINTRAC answers questions on requirements at guidelines-lignesdirectrices@fintrac-canafe.gc.ca."),
+          ("What if we've missed the two-year deadline?", "Neither the Regulations nor FINTRAC's guidance gives a grace period. The penalty regulations class a breach of PCMLTFR s. 156(1)(f) and (3), the review plan and two-year review, as a very serious violation. In our view, start the review as soon as you can and document it. If you're an entity, the findings still go in writing to a senior officer within 30 days of finishing."),
+          ("Can the firm that set up our compliance program also review it?", "The Regulations don't rule it out. They say an internal or external auditor carries out the review, or the business itself if it has no auditor (PCMLTFR s. 156(3)). As a best practice, FINTRAC says the review should not be conducted by someone directly involved in your compliance program activities, so it stays impartial. FINTRAC's guidance doesn't say whether having written the documents counts as direct involvement."),
+          ("How is an effectiveness review different from a gap assessment?", "A gap assessment isn't a term FINTRAC's compliance program guidance uses. It usually means comparing your documents with the requirements to find what's missing. The two-year effectiveness review is the review the Regulations require: it follows a documented plan that covers every element of your program and tests whether the program works in practice, using methods such as staff interviews, record sampling and document review."),
           ("What do we receive?", "Written findings and recommendations, in order of priority, so you know what to fix first."),
           ("FINTRAC has contacted us about an examination. Where do we start?", "Book a consultation. We review your program and records with you and help you prepare to show how it works.")],
     related=["compliance-programs.html", "outsourced-compliance-officer.html", "training.html"],
