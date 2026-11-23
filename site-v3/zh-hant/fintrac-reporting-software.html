@@ -237,14 +237,14 @@
 <p class="legal-toc-h">本頁內容</p>
 <ol>
 <li><a href="#channels">報告如何送達 FINTRAC</a></li>
-<li><a href="#three-ways">Three ways to file with FINTRAC</a></li>
+<li><a href="#three-ways">向 FINTRAC 提交報告的三種方式</a></li>
 <li><a href="#api">FINTRAC API 報告提交（FINTRAC API report submission）涉及哪些內容</a></li>
 <li><a href="#reports">平台涵蓋的報告</a></li>
 <li><a href="#aggregation">24 小時規則檢查</a></li>
 <li><a href="#validation">報告提交前的驗證</a></li>
 <li><a href="#approval">審閱及批准</a></li>
 <li><a href="#after">提交之後</a></li>
-<li><a href="#look-for">What to look for in FINTRAC reporting software</a></li>
+<li><a href="#look-for">選擇 FINTRAC 申報軟件時應留意甚麼</a></li>
 <li><a href="#setup">我們如何設定</a></li>
 </ol>
 </nav>
@@ -259,17 +259,17 @@
 <p>較舊的批次系統正逐步停用。FINTRAC 讓大量申報轉用 API 的過渡期已經結束：LCTR 及 LVCTR 於 2023 年 11 月 6 日結束，STR 於 2024 年 7 月 3 日結束，EFTR 及賭場支付報告於 2024 年 8 月 22 日結束（<a href="https://fintrac-canafe.canada.ca/reporting-declaration/info/api/api-eng" rel="noopener">FINTRAC，API 報告提交（API report submission）</a>，查核日期：2026 年 11 月 15 日）。</p>
 </section>
 <section class="legal-sec guide-sec" id="three-ways">
-<h2>Three ways to file with FINTRAC</h2>
-<p>For the five electronic reports, the choice is between using one of FINTRAC's two systems directly and using a reporting platform that prepares reports and submits them through one of them. A business without the technical capability to report electronically must use FINTRAC's paper forms (<a href="https://fintrac-canafe.canada.ca/reporting-declaration/electron-eng" rel="noopener">FINTRAC, Methods to report</a>).</p>
+<h2>向 FINTRAC 提交報告的三種方式</h2>
+<p>就五種電子報告而言，您可選擇直接使用 FINTRAC 兩個系統之一，或使用一個準備報告並透過其中一個系統提交的申報平台。不具備以電子方式報告的技術能力的企業，必須使用 FINTRAC 的紙本表格（<a href="https://fintrac-canafe.canada.ca/reporting-declaration/electron-eng" rel="noopener">FINTRAC，報告方式</a>）。</p>
 <div class="table-wrap"><table>
-<thead><tr><th scope="col">Option</th><th scope="col">運作方式</th><th scope="col">Geared to</th><th scope="col">What you set up</th><th scope="col">Checks before submission</th></tr></thead>
+<thead><tr><th scope="col">選項</th><th scope="col">運作方式</th><th scope="col">適用於</th><th scope="col">您須設定的內容</th><th scope="col">提交前的檢查</th></tr></thead>
 <tbody>
-<tr><th scope="row">FINTRAC Web Reporting System</th><td>You fill in and submit each report in a browser.</td><td>Lower reporting volumes, according to FINTRAC</td><td>Access, by first emailing FINTRAC at F2R@fintrac-canafe.gc.ca, and users with roles: data entry officers can only create reports, and verification and submission officers submit them.</td><td>FINTRAC's validation: a rejected message for missing mandatory information, and a warning for missing information marked "mandatory if applicable".</td></tr>
-<tr><th scope="row">Your own connection to FINTRAC's API</th><td>Your systems send report data straight to FINTRAC.</td><td>Higher reporting volumes, according to FINTRAC</td><td>An application and secret keys through FINTRAC's API portal, and your own build against FINTRAC's JSON schemas and validation rules, kept up to date as FINTRAC updates them.</td><td>Whatever checks you build, then FINTRAC's validation messages.</td></tr>
-<tr><th scope="row">A reporting platform, such as ours</th><td>Transaction data is imported, checked and approved, then submitted through FINTRAC API report submission where you're enrolled.</td><td>Submits through FINTRAC's API, or prepares report data for your existing FINTRAC channel until you're enrolled</td><td>Report types, thresholds, aggregation rules, field mappings and approval paths, set by a compliance specialist. API enrolment still applies.</td><td>24-hour rule checks, pre-submission validation with warnings shown apart from blocking errors, and maker-checker sign-off.</td></tr>
+<tr><th scope="row">FINTRAC 網上報告系統（Web Reporting System）</th><td>您在瀏覽器中逐份填寫並提交報告。</td><td>據 FINTRAC 所述，適用於報告量較低的情況</td><td>存取權限（須先發電郵至 F2R@fintrac-canafe.gc.ca 聯絡 FINTRAC），以及具備不同角色的用戶：資料輸入人員只能建立報告，而核實及提交人員負責提交。</td><td>FINTRAC 的驗證：缺少必填資料時顯示拒絕訊息，缺少標示為「如適用則必填」的資料時顯示警告。</td></tr>
+<tr><th scope="row">您自設與 FINTRAC API 的連接</th><td>您的系統直接向 FINTRAC 傳送報告數據。</td><td>據 FINTRAC 所述，適用於報告量較高的情況</td><td>透過 FINTRAC 的 API 入口網站申請應用程式及密鑰，並按 FINTRAC 的 JSON 綱要及驗證規則自行開發，且須隨 FINTRAC 的更新而保持最新。</td><td>您自行建立的任何檢查，再加上 FINTRAC 的驗證訊息。</td></tr>
+<tr><th scope="row">申報平台，例如我們的平台</th><td>交易數據經匯入、檢查及批准後，在您已完成登記的情況下透過FINTRAC API 報告提交（FINTRAC API report submission）方式提交。</td><td>透過 FINTRAC 的 API 提交，或在您完成登記前為您現有的 FINTRAC 渠道準備報告數據</td><td>報告類型、門檻、合併規則、欄位對應及審批流程，由合規專家設定。API 登記要求仍然適用。</td><td>24 小時規則檢查、提交前驗證（警告與阻截性錯誤分開顯示），以及雙人覆核（maker-checker）簽批。</td></tr>
 </tbody>
 </table></div>
-<p>Whichever you use, your business stays responsible for its reports. FINTRAC's <a href="https://fintrac-canafe.canada.ca/reporting-declaration/info/f2r-eng" rel="noopener">Web Reporting System guide</a> and <a href="https://fintrac-canafe.canada.ca/reporting-declaration/info/api/api-eng" rel="noopener">API report submission page</a> explain each system.</p>
+<p>無論使用哪種方式，您的企業仍須對其報告負責。FINTRAC 的<a href="https://fintrac-canafe.canada.ca/reporting-declaration/info/f2r-eng" rel="noopener">網上報告系統指南</a>及<a href="https://fintrac-canafe.canada.ca/reporting-declaration/info/api/api-eng" rel="noopener">API 報告提交頁面</a>均有說明各個系統。</p>
 </section>
 <section class="legal-sec guide-sec" id="api">
 <h2>FINTRAC API 報告提交（FINTRAC API report submission）涉及哪些內容</h2>
@@ -320,19 +320,19 @@
 <p>已提交的報告保存在可下載為 PDF 或 CSV 的檔案庫中。保存期限控制在範圍界定期間以書面確認。這為您的有效性審查人員及 FINTRAC 的審查人員提供附時間戳記的紀錄，涵蓋每份報告的審閱及簽批、已發送的 JSON 數據及 FINTRAC 的回覆。</p>
 </section>
 <section class="legal-sec guide-sec" id="look-for">
-<h2>What to look for in FINTRAC reporting software</h2>
-<p>Whichever product you consider, these are the questions that matter for FINTRAC reporting:</p>
+<h2>選擇 FINTRAC 申報軟件時應留意甚麼</h2>
+<p>無論您考慮哪種產品，以下是與 FINTRAC 報告相關的關鍵問題：</p>
 <ul>
-<li><strong>Report coverage.</strong> Does it cover the reports you file: STRs, LCTRs, EFTRs, LVCTRs and, for casinos, casino disbursement reports? Listed person or entity property reports go on paper.</li>
-<li><strong>24-hour rule.</strong> Does it apply the rule for each report type, and show which transactions it grouped so your team can confirm?</li>
-<li><strong>Validation.</strong> Does it check mandatory and mandatory-if-applicable fields before submission, and separate warnings from blocking errors, as FINTRAC's own validation does?</li>
-<li><strong>Approval trail.</strong> Can you show who prepared, reviewed, approved and submitted each report, and when?</li>
-<li><strong>FINTRAC's response.</strong> Does it record the acknowledgement, warnings or rejection for each report, and let you change or delete a submitted report? FINTRAC's API supports create, change and delete actions.</li>
-<li><strong>Schema updates.</strong> FINTRAC publishes JSON schemas and validation rules for each report type and updates them. Who keeps the software in step?</li>
-<li><strong>Records.</strong> Can you export a record of each report for your effectiveness review or a FINTRAC examination?</li>
-<li><strong>Judgement.</strong> Does the decision to file an STR stay with your compliance officer?</li>
+<li><strong>報告涵蓋範圍。</strong>它是否涵蓋您提交的報告：STR、LCTR、EFTR、LVCTR，以及賭場適用的賭場支付報告？列名人士或實體財產報告以紙本方式提交。</li>
+<li><strong>24 小時規則。</strong>它是否就每種報告類型應用該規則，並顯示其合併了哪些交易，以便您的團隊確認？</li>
+<li><strong>驗證。</strong>它是否如 FINTRAC 本身的驗證一樣，在提交前檢查必填及「如適用則必填」欄位，並將警告與阻截性錯誤分開？</li>
+<li><strong>審批紀錄。</strong>您能否顯示每份報告由誰在何時準備、審閱、批准及提交？</li>
+<li><strong>FINTRAC 的回覆。</strong>它是否記錄每份報告的確認、警告或拒絕，並讓您更改或刪除已提交的報告？FINTRAC 的 API 支援建立、更改及刪除操作。</li>
+<li><strong>綱要更新。</strong>FINTRAC 會就每種報告類型發布並更新 JSON 綱要及驗證規則。由誰負責令軟件保持同步？</li>
+<li><strong>紀錄。</strong>您能否匯出每份報告的紀錄，供有效性審查或 FINTRAC 合規檢查使用？</li>
+<li><strong>專業判斷。</strong>是否提交 STR 的決定是否仍由您的合規主管作出？</li>
 </ul>
-<p>The sections above describe how our platform handles validation, approval, FINTRAC responses and records.</p>
+<p>以上各節介紹我們的平台如何處理驗證、審批、FINTRAC 回覆及紀錄。</p>
 </section>
 <section class="legal-sec guide-sec" id="setup">
 <h2>我們如何設定</h2>
@@ -346,7 +346,7 @@
 </ol>
 <p>並沒有標準的實施時間表。安全控制、託管地點及數據駐留會在範圍界定期間就每位客戶以書面確認。如您不想自行處理申報工作，我們的<a href="outsourced-compliance-officer.html">外包合規主管</a>服務包括 FINTRAC 申報。</p>
 </section>
-<p class="sources">Sources: <a href="https://fintrac-canafe.canada.ca/reporting-declaration/electron-eng" rel="noopener">FINTRAC, Methods to report to FINTRAC</a>; <a href="https://fintrac-canafe.canada.ca/reporting-declaration/info/api/api-eng" rel="noopener">FINTRAC API report submission</a>; <a href="https://fintrac-canafe.canada.ca/reporting-declaration/info/f2r-eng" rel="noopener">Using the FINTRAC Web Reporting System</a>; <a href="https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/str-dod/str-dod-eng" rel="noopener">Reporting suspicious transactions</a>; <a href="https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/lctr-doie/lctr-doie-eng" rel="noopener">Reporting large cash transactions</a>; <a href="https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/eft-dt/eft-dt-eng" rel="noopener">Reporting electronic funds transfers</a>; <a href="https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/lvctr/lvctr-eng" rel="noopener">Reporting large virtual currency transactions</a>; <a href="https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/24hour/1-eng" rel="noopener">The 24-hour rule</a>. Checked 23 November 2026. General information, not legal advice.</p>
+<p class="sources">資料來源：<a href="https://fintrac-canafe.canada.ca/reporting-declaration/electron-eng" rel="noopener">FINTRAC，向 FINTRAC 報告的方式</a>；<a href="https://fintrac-canafe.canada.ca/reporting-declaration/info/api/api-eng" rel="noopener">FINTRAC API 報告提交</a>；<a href="https://fintrac-canafe.canada.ca/reporting-declaration/info/f2r-eng" rel="noopener">使用 FINTRAC 網上報告系統</a>；<a href="https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/str-dod/str-dod-eng" rel="noopener">報告可疑交易</a>；<a href="https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/lctr-doie/lctr-doie-eng" rel="noopener">報告大額現金交易</a>；<a href="https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/eft-dt/eft-dt-eng" rel="noopener">報告電子資金轉帳</a>；<a href="https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/lvctr/lvctr-eng" rel="noopener">報告大額虛擬貨幣交易</a>；<a href="https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/24hour/1-eng" rel="noopener">24 小時規則</a>。查核日期：2026 年 11 月 23 日。一般資訊，並不構成法律意見。</p>
 </article>
 </div>
 </section>
@@ -389,13 +389,13 @@
 <details><summary>平台會直接向 FINTRAC 提交報告嗎？<svg aria-hidden="true"><use href="#i-plus"></use></svg></summary><p>會。在您的企業完成登記後，透過FINTRAC API 報告提交（FINTRAC API report submission）方式提交。在此之前，平台會產生經驗證及批准的報告數據，供您透過現有的 FINTRAC 渠道提交。</p></details>
 <details><summary>軟件會決定是否提交 STR 嗎？<svg aria-hidden="true"><use href="#i-plus"></use></svg></summary><p>不會。軟件將編製及審批流程結構化，但懷疑的合理理由、敘述及提交決定仍由您的合規團隊負責。</p></details>
 <details><summary>我們可以匯入交易檔案嗎？<svg aria-hidden="true"><use href="#i-plus"></use></svg></summary><p>可以。CSV 匯出檔案等結構化檔案是主要的匯入方式，可重複使用的對應設定會將您的欄位對應至 FINTRAC 的報告欄位。其他數據來源在範圍界定期間確認。</p></details>
-<details><summary>Is FINTRAC API report submission mandatory?<svg aria-hidden="true"><use href="#i-plus"></use></svg></summary><p>FINTRAC's reporting pages don't set a volume figure. They describe the Web Reporting System as geared to lower reporting volumes and API report submission as geared to higher volumes. Businesses that sent higher volumes through the older systems being retired had transition periods to move to the API, which ended between November 6, 2023 and August 22, 2024. A business with an internet connection must report electronically, except listed person or entity property reports, which go on paper, and one without the technical capability to report electronically must use paper forms.</p></details>
+<details><summary>FINTRAC API 報告提交是強制性的嗎？<svg aria-hidden="true"><use href="#i-plus"></use></svg></summary><p>FINTRAC 的報告頁面並無訂明報告量的具體數字。這些頁面將網上報告系統描述為適用於報告量較低的情況，將 API 報告提交描述為適用於報告量較高的情況。透過即將停用的舊系統提交較高報告量的企業曾獲過渡期遷移至 API，過渡期已於 2023 年 11 月 6 日至 2024 年 8 月 22 日期間結束。具備互聯網連接的企業必須以電子方式報告（列名人士或實體財產報告除外，須以紙本提交），而不具備以電子方式報告的技術能力的企業必須使用紙本表格。</p></details>
 <details><summary>費用是多少？<svg aria-hidden="true"><use href="#i-plus"></use></svg></summary><p>收費在範圍界定通話後確認。</p></details>
 <details><summary>我們的數據託管在哪裡？<svg aria-hidden="true"><use href="#i-plus"></use></svg></summary><p>託管地點、數據駐留及安全控制會在範圍界定期間就每位客戶以書面確認。</p></details>
 </div>
 </div>
 </section>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"什麼是 FINTRAC 申報軟件？","acceptedAnswer":{"@type":"Answer","text":"協助申報實體編製、檢查、批准、提交及追蹤其必須向 FINTRAC 提交的報告（例如 STR、LCTR、EFTR 及 LVCTR）的軟件。我們的軟件亦會進行 24 小時規則檢查，並保存每份報告的完整歷史。"}},{"@type":"Question","name":"平台支援哪些 FINTRAC 報告？","acceptedAnswer":{"@type":"Answer","text":"可疑交易報告、大額現金交易報告、電子資金轉帳報告、大額虛擬貨幣交易報告及賭場支付報告。列名人士或實體財產報告以紙本提交，因此不包括在內。"}},{"@type":"Question","name":"平台會直接向 FINTRAC 提交報告嗎？","acceptedAnswer":{"@type":"Answer","text":"會。在您的企業完成登記後，透過FINTRAC API 報告提交（FINTRAC API report submission）方式提交。在此之前，平台會產生經驗證及批准的報告數據，供您透過現有的 FINTRAC 渠道提交。"}},{"@type":"Question","name":"軟件會決定是否提交 STR 嗎？","acceptedAnswer":{"@type":"Answer","text":"不會。軟件將編製及審批流程結構化，但懷疑的合理理由、敘述及提交決定仍由您的合規團隊負責。"}},{"@type":"Question","name":"我們可以匯入交易檔案嗎？","acceptedAnswer":{"@type":"Answer","text":"可以。CSV 匯出檔案等結構化檔案是主要的匯入方式，可重複使用的對應設定會將您的欄位對應至 FINTRAC 的報告欄位。其他數據來源在範圍界定期間確認。"}},{"@type":"Question","name":"Is FINTRAC API report submission mandatory?","acceptedAnswer":{"@type":"Answer","text":"FINTRAC's reporting pages don't set a volume figure. They describe the Web Reporting System as geared to lower reporting volumes and API report submission as geared to higher volumes. Businesses that sent higher volumes through the older systems being retired had transition periods to move to the API, which ended between November 6, 2023 and August 22, 2024. A business with an internet connection must report electronically, except listed person or entity property reports, which go on paper, and one without the technical capability to report electronically must use paper forms."}},{"@type":"Question","name":"費用是多少？","acceptedAnswer":{"@type":"Answer","text":"收費在範圍界定通話後確認。"}},{"@type":"Question","name":"我們的數據託管在哪裡？","acceptedAnswer":{"@type":"Answer","text":"託管地點、數據駐留及安全控制會在範圍界定期間就每位客戶以書面確認。"}}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"什麼是 FINTRAC 申報軟件？","acceptedAnswer":{"@type":"Answer","text":"協助申報實體編製、檢查、批准、提交及追蹤其必須向 FINTRAC 提交的報告（例如 STR、LCTR、EFTR 及 LVCTR）的軟件。我們的軟件亦會進行 24 小時規則檢查，並保存每份報告的完整歷史。"}},{"@type":"Question","name":"平台支援哪些 FINTRAC 報告？","acceptedAnswer":{"@type":"Answer","text":"可疑交易報告、大額現金交易報告、電子資金轉帳報告、大額虛擬貨幣交易報告及賭場支付報告。列名人士或實體財產報告以紙本提交，因此不包括在內。"}},{"@type":"Question","name":"平台會直接向 FINTRAC 提交報告嗎？","acceptedAnswer":{"@type":"Answer","text":"會。在您的企業完成登記後，透過FINTRAC API 報告提交（FINTRAC API report submission）方式提交。在此之前，平台會產生經驗證及批准的報告數據，供您透過現有的 FINTRAC 渠道提交。"}},{"@type":"Question","name":"軟件會決定是否提交 STR 嗎？","acceptedAnswer":{"@type":"Answer","text":"不會。軟件將編製及審批流程結構化，但懷疑的合理理由、敘述及提交決定仍由您的合規團隊負責。"}},{"@type":"Question","name":"我們可以匯入交易檔案嗎？","acceptedAnswer":{"@type":"Answer","text":"可以。CSV 匯出檔案等結構化檔案是主要的匯入方式，可重複使用的對應設定會將您的欄位對應至 FINTRAC 的報告欄位。其他數據來源在範圍界定期間確認。"}},{"@type":"Question","name":"FINTRAC API 報告提交是強制性的嗎？","acceptedAnswer":{"@type":"Answer","text":"FINTRAC 的報告頁面並無訂明報告量的具體數字。這些頁面將網上報告系統描述為適用於報告量較低的情況，將 API 報告提交描述為適用於報告量較高的情況。透過即將停用的舊系統提交較高報告量的企業曾獲過渡期遷移至 API，過渡期已於 2023 年 11 月 6 日至 2024 年 8 月 22 日期間結束。具備互聯網連接的企業必須以電子方式報告（列名人士或實體財產報告除外，須以紙本提交），而不具備以電子方式報告的技術能力的企業必須使用紙本表格。"}},{"@type":"Question","name":"費用是多少？","acceptedAnswer":{"@type":"Answer","text":"收費在範圍界定通話後確認。"}},{"@type":"Question","name":"我們的數據託管在哪裡？","acceptedAnswer":{"@type":"Answer","text":"託管地點、數據駐留及安全控制會在範圍界定期間就每位客戶以書面確認。"}}]}</script>
 <section aria-labelledby="gm-title" class="guides-more" data-theme="light">
 <div class="wrap">
 <h2 id="gm-title">相關指南</h2>
