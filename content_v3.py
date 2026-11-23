@@ -499,7 +499,7 @@ DEEP["msb-for-sale.html"] = dict(
                     "Guidance on what the new owners need to provide"]),
     guide=[
         ("available", "Ready-made Canadian MSBs for sale now", listings_html()),
-        ("shelf", "Shelf company or operating business?", """          <p>A ready-made MSB is usually a shelf company: newly incorporated, registered with FINTRAC and with no trading history. The companies listed on this page are of this kind. None has traded. An operating business has customers, transactions and records, and a share purchase brings that history with it.</p>
+        ("shelf", "Shelf company or operating business?", """          <p>A ready-made MSB is usually a shelf company: newly incorporated, registered with FINTRAC and with no trading history. None of the companies listed on this page has traded. An operating business has customers, transactions and records, and a share purchase brings that history with it.</p>
           <div class="table-wrap"><table>
             <thead><tr><th scope="col"></th><th scope="col">Shelf company (ready-made MSB)</th><th scope="col">Operating business</th></tr></thead>
             <tbody>
@@ -1161,7 +1161,7 @@ DEEP["apostille-notarization-canada.html"] = dict(
               <tr><th scope="row">Corporations Canada certificate of incorporation with an original signature or seal</th><td>Public</td><td>No</td></tr>
               <tr><th scope="row">Corporations Canada certificate of incorporation without an original signature or seal</th><td>Public</td><td>Yes</td></tr>
               <tr><th scope="row">Corporations Canada certificates of compliance, existence or amendment, and articles of incorporation</th><td>Public</td><td>Yes, Global Affairs Canada says business or corporate records must be notarized</td></tr>
-              <tr><th scope="row">Ontario Business Registry documents issued since 1991, such as a certificate of status</th><td>Public</td><td>No, in Ontario</td></tr>
+              <tr><th scope="row">Ontario business registry documents issued since 1991 by the Business and Personal Property Branch or the Ontario Business Registry, such as a certificate of status</th><td>Public</td><td>No, in Ontario</td></tr>
               <tr><th scope="rowgroup" colspan="3">Registers and minute book</th></tr>
               <tr><th scope="row">Register extracts, minute book pages and by-laws</th><td>Private</td><td>Yes</td></tr>
               <tr><th scope="rowgroup" colspan="3">Resolutions and powers of attorney</th></tr>
@@ -1339,7 +1339,7 @@ DEEP["fintrac-reporting-software.html"] = dict(
           ("Does it submit reports to FINTRAC directly?", "Yes, through FINTRAC API report submission once your business is enrolled. Until then it produces validated, approved report data for your existing FINTRAC channel."),
           ("Does the software decide whether to file an STR?", "No. It structures preparation and approval, but reasonable grounds to suspect, the narrative and the decision to file stay with your compliance team."),
           ("Can we import our transaction files?", "Yes. Structured files such as CSV exports are the main import route, and reusable mappings match your fields to FINTRAC's report fields. Other sources are confirmed during scoping."),
-          ("Is FINTRAC API report submission mandatory?", "FINTRAC's reporting pages don't set a volume figure. They describe the Web Reporting System as geared to lower reporting volumes and API report submission as geared to higher volumes. Businesses that sent higher volumes through the older systems being retired had transition periods to move to the API, which ended between November 6, 2023 and August 22, 2024. A business with an internet connection must report electronically, and one without the technical capability to do so must use paper forms."),
+          ("Is FINTRAC API report submission mandatory?", "FINTRAC's reporting pages don't set a volume figure. They describe the Web Reporting System as geared to lower reporting volumes and API report submission as geared to higher volumes. Businesses that sent higher volumes through the older systems being retired had transition periods to move to the API, which ended between November 6, 2023 and August 22, 2024. A business with an internet connection must report electronically, except listed person or entity property reports, which go on paper, and one without the technical capability to report electronically must use paper forms."),
           ("How much does it cost?", "Pricing is confirmed after a scoping call."),
           ("Where is our data hosted?", "Hosting location, data residency and security controls are confirmed in writing for each client during scoping.")],
     related=["outsourced-compliance-officer.html", "compliance-programs.html", "effectiveness-reviews.html"],
@@ -1392,7 +1392,7 @@ DEEP["sell-your-msb.html"] = dict(
             <li>bank accounts and payment partners, and whether they would continue after a change of control.</li>
           </ul>"""),
         ("price", "What affects your sale price", f"""          <p>The registered services, how long is left before the registration expires (registration lasts two years and must be renewed before it expires), whether the company has traded and how clean its records are, and whether it's also registered with the Bank of Canada. A company that has had compliance problems is harder to sell, and some can't be sold until those problems are fixed.</p>
-          <p>If the company operates in Quebec, it also needs a licence from <a href="{RQ_MSB}" rel="noopener">Revenu Québec</a>. Revenu Québec decides on a licence only after it receives security clearance reports from the Sûreté du Québec on the business and its associated persons, including directors, officers and anyone who directly or indirectly owns or controls it. New reports are required when a change is likely to affect the licence.</p>"""),
+          <p>If the company operates in Quebec and offers currency exchange, funds transfers, cheque cashing, traveller's cheques, money orders or bank drafts, or ATMs or crypto ATMs, it also needs a licence from <a href="{RQ_MSB}" rel="noopener">Revenu Québec</a>. Revenu Québec decides on a licence only after it receives security clearance reports from the Sûreté du Québec on the business and its associated persons, including directors, officers and anyone who directly or indirectly owns or controls it. New reports are required when a change is likely to affect the licence.</p>"""),
         ("how", "How selling your MSB works", f"""          <ol>
             <li><strong>Review.</strong> You send us the corporate documents and FINTRAC approval. We check them and agree a price range and our fee with you.</li>
             <li><strong>Listing.</strong> The company appears on <a href="msb-for-sale.html#available">our list of available companies</a> without its name or registration number.</li>
