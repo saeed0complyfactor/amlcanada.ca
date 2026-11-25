@@ -1632,6 +1632,140 @@ Sources: [FINTRAC MSB registry](https://fintrac-canafe.canada.ca/msb-esm/reg-eng
 
 ---
 
+## Guide: MSB bank account in Canada: what a bank must check and what to have ready
+
+URL: https://amlcanada.ca/msb-bank-account-canada.html
+
+An MSB bank account in Canada depends on the bank's own legal duties: under the PCMLTFA, a bank must verify your business and the people who give instructions on the account, collect your ownership information and take reasonable measures to confirm it, record why you want the account, assess your risk and keep monitoring you. FINTRAC registration doesn't guarantee an account, and each bank makes its own decision. Below are the rules behind the bank's questions, as of 25 November 2026, and a checklist of what to have ready.
+
+**Key points:**
+- FINTRAC registration doesn't guarantee a bank account. FINTRAC says registration doesn't mean it endorses or licenses the business.
+- A bank opening an account for an MSB must verify the corporation and its signing authorities (PCMLTFR s. 86), collect ownership information at the 25% level (s. 138) and record the purpose of the relationship (s. 145).
+- PCMLTFA s. 9.31 bars a bank from opening or maintaining an account for a foreign MSB that isn't registered with FINTRAC.
+- Ongoing monitoring under PCMLTFR s. 123.1 continues after opening, so changes in your activity, ownership or registration can lead the bank to review the account.
+
+### Is there a list of MSB-friendly banks in Canada?
+
+We don't publish a list of MSB-friendly banks, and we can't tell you which bank will open an account for your business. Each bank decides on the basis of its own risk assessment, which the PCMLTFA requires it to carry out and apply to its clients.
+
+FINTRAC registration doesn't settle the question. FINTRAC's [MSB registry page](https://fintrac-canafe.canada.ca/msb-esm/reg-eng) says registration "does not indicate that FINTRAC endorses or licenses the business". It shows only that the business met the legal requirements to register. Registration doesn't come with a bank account and doesn't guarantee one, as our guide to [buying or registering an MSB](https://amlcanada.ca/buy-or-register-msb-canada.html) also explains. The duties the law places on the bank are public, and they explain where its questions come from.
+
+### What must a bank check when it opens an MSB bank account in Canada?
+
+When it opens an account for a corporation, a bank must verify the corporation's identity and the identity of each person authorized to give instructions on the account, before the first transaction other than the initial deposit (PCMLTFR ss. 105(7)(b) and 109(4)(c)). It must also collect beneficial ownership information and record the purpose and intended nature of the relationship. It then rates the client's risk and applies enhanced measures if that risk is high.
+
+- Banks, authorized foreign banks, credit unions, caisses populaires and trust and loan companies are covered by [PCMLTFA s. 5](https://laws-lois.justice.gc.ca/eng/acts/P-24.501/section-5.html). The Regulations call them financial entities.
+
+- [PCMLTFR s. 86](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-184/section-86.html) requires a financial entity to verify the identity of a corporation it opens an account for (s. 86(b)) and of any person, other than the account holder, who is authorized to give instructions on the account (s. 86(a)(ii)).
+
+- [Section 138(1)](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-184/section-138.html) requires the names of all directors, the names and addresses of everyone who owns or controls 25% or more of the shares, and information establishing the corporation's ownership, control and structure.
+
+- Opening an account is the point at which a bank enters a business relationship with the client ([s. 4.1(a)](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-184/section-4.1.html)). [Section 145](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-184/section-145.html) then requires a record of the relationship's purpose and intended nature. FINTRAC's [business relationship guidance](https://fintrac-canafe.canada.ca/guidance-directives/client-clientele/brr-eng) says that, as a best practice, the record should help the bank anticipate the types of transactions the client may conduct.
+
+- Under [PCMLTFA s. 9.6(2)](https://laws-lois.justice.gc.ca/eng/acts/P-24.501/section-9.6.html) and [PCMLTFR s. 156(1)(c)](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-184/section-156.html), the bank's risk assessment considers its clients and business relationships, its products, services and delivery channels, and the geographic location of its activities.
+
+- If the bank considers the risk high, s. 9.6(3) and [s. 157](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-184/section-157.html) require enhanced measures to verify identity, keep client and ownership information up to date, and monitor the relationship at a frequency that matches the risk.
+
+### Does the bank have to confirm your FINTRAC registration?
+
+For a foreign MSB, yes. Under [PCMLTFA s. 9.31(1)](https://laws-lois.justice.gc.ca/eng/acts/P-24.501/section-9.31.html), a bank or other entity covered by the section shall not "open or maintain an account for" a foreign MSB, or have a correspondent banking relationship with one, unless it is registered with FINTRAC. FINTRAC's [registration page](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/reg-ins-eng) notes that financial entities such as banks may ask you whether you're registered.
+
+Section 9.31 names foreign MSBs, meaning businesses with no place of business in Canada that direct and provide money services to clients here (s. 5(h.1)). An MSB with a place of business in Canada isn't named in it, but a bank can still look the business up in the public [Money Services Business Registry](https://fintrac-canafe.canada.ca/msb-esm/reg-eng). FINTRAC updates the registry monthly and says it's important to verify the name, number and status listed there.
+
+Check your entry before you approach a bank. The registry shows your legal and operating names, address, website, services offered, status and expiry date. A business that applied to renew before its expiry date remains Registered until FINTRAC processes the renewal. Our guide shows [how to check FINTRAC MSB registration](https://amlcanada.ca/check-fintrac-msb-registration.html), and our [MSB registration](https://amlcanada.ca/msb-registration.html) service prepares the application.
+
+### Why might a bank rate an MSB as higher risk?
+
+A bank rates each client under its own risk assessment. FINTRAC's [risk assessment guidance](https://fintrac-canafe.canada.ca/guidance-directives/compliance-conformite/rba/rba-eng) includes, among its examples of higher risk, several features that can describe an MSB. A high rating brings the enhanced measures in PCMLTFR s. 157, so an MSB can expect more questions at opening and later on.
+
+- International electronic funds transfers and international correspondent banking services are among the potentially higher risk services the guidance names.
+
+- The guidance says a client that is a reporting entity under the PCMLTFA and is not otherwise regulated may present higher risks.
+
+- A business structure that seems unusually or unnecessarily complex may indicate that a client is trying to hide transactions.
+
+- Account activity that doesn't match the client profile may indicate higher risk, and so may transactions involving third parties when the link to the client isn't obvious.
+
+The guidance gives these as indicators to weigh in an assessment. In our view, a clear readiness file helps the bank document how each one applies to you. Our guide to [FINTRAC risk assessment for MSBs](https://amlcanada.ca/fintrac-risk-assessment-msb.html) covers your side of the same exercise.
+
+### MSB bank readiness checklist
+
+An MSB should have each item below ready before it approaches a bank. The third column gives the rule or source behind the question. Rows marked as practical are our advice, because no section names that exact document.
+
+| Item | What to have ready | Rule or source |
+
+| FINTRAC registration | Your registration number and a registry entry whose names, address, services and expiry date match what you tell the bank | PCMLTFA s. 9.31 for foreign MSBs; FINTRAC's MSB registry |
+
+| Corporate records | A certificate of incorporation or another current record showing the name, address and directors. FINTRAC asks for the same records at registration | PCMLTFR s. 86(b) |
+
+| Signing authorities | Identification for each person who will give instructions on the account | PCMLTFR s. 86(a)(ii) |
+
+| Ownership chart | All directors, everyone owning or controlling 25% or more, and the ownership, control and structure, consistent with what FINTRAC has on file | PCMLTFR s. 138(1) |
+
+| Business description and expected activity | Services, expected volumes and values, the countries you send to and receive from, and your client types. Use the same annual estimates per service that you gave FINTRAC at registration | PCMLTFR ss. 145 and 156(1)(c); FINTRAC business relationship guidance (best practice) |
+
+| Source of funds | Where the opening capital and operating float come from | Practical: supports the purpose record and the bank's risk rating |
+
+| Compliance program | Your named compliance officer, written policies and procedures approved by a senior officer, the documented risk assessment, the written training program and its plan, and the effectiveness review plan | PCMLTFA s. 9.6(1) and (1.1); PCMLTFR s. 156(1) |
+
+| Effectiveness review | The latest two-year review and the report to a senior officer. A new MSB shows its review plan instead | PCMLTFR s. 156(1)(f), (3) and (4) |
+
+| Agents and mandataries | A list of agents and how you train them | FINTRAC registration asks for every agent; PCMLTFR s. 156(1)(d) |
+
+| Virtual currency | Travel rule policies and procedures, including when you allow, suspend or reject a transfer that arrives without the required information | FINTRAC travel rule guidance |
+
+| Quebec licence | Your Revenu Québec licence, if you operate a money-services business there | Quebec Money-Services Businesses Act |
+
+| Bank of Canada registration | PSP registration if you perform retail payment activities, and your safeguarding arrangement if you hold end-user funds | RPAA ss. 20 and 23 |
+
+Section 9.6(1.1) of the Act requires the program to be reasonably designed, risk-based and effective, and s. 156(3) of the Regulations requires the effectiveness review every two years. See our guides to [compliance program requirements](https://amlcanada.ca/fintrac-compliance-program-requirements.html) and the [effectiveness review](https://amlcanada.ca/fintrac-effectiveness-review-checklist.html).
+
+### Why can an MSB bank account be closed after it opens?
+
+A bank's checks continue after the account opens. [PCMLTFR s. 123.1](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-184/section-123.1.html) requires it to monitor each business relationship periodically, based on its risk assessment. The purpose is to detect reportable transactions, keep identification, ownership and purpose information up to date, reassess the client's risk and check that activity is consistent with what it knows. A change in your activity, ownership or registration can therefore lead the bank to review the account.
+
+- FINTRAC's [ongoing monitoring guidance](https://fintrac-canafe.canada.ca/guidance-directives/client-clientele/omr-eng) says the frequency depends on the client's risk level. Its examples for high-risk clients include setting limits on accounts or transactions that trigger a mandatory review.
+
+- A new corridor or service can make your activity inconsistent with the purpose and expected transactions on the bank's file, which is what s. 123.1(d) asks the bank to check. In our view, tell the bank before you launch it.
+
+- Section 138(2) requires the bank to take reasonable measures to confirm beneficial ownership information during ongoing monitoring, and a change of control changes that information. If you're buying an MSB, read [FINTRAC MSB change of ownership](https://amlcanada.ca/fintrac-msb-change-of-ownership.html) and [buying an MSB in Canada](https://amlcanada.ca/buying-an-msb-canada.html), and check with the bank whether existing accounts continue after the change.
+
+- FINTRAC must be told of changes to your registration information within 30 days, and registration is valid for two years, according to its [update and renewal page](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/respond-eng). For a foreign MSB, s. 9.31 bars a bank from maintaining an account for a business that isn't registered, so an expired or revoked registration affects the account directly. See [MSB registration renewal](https://amlcanada.ca/msb-registration-renewal-canada.html).
+
+### What else will a bank ask a crypto MSB, a PSP or a Quebec MSB?
+
+Dealing in virtual currencies is an MSB service under PCMLTFA s. 5(h)(iv), so a crypto MSB goes through the same bank checks and can expect questions about virtual currency rules. Payment service providers and MSBs operating in Quebec also hold a separate registration or licence that a bank may ask to see.
+
+- Under FINTRAC's [travel rule guidance](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/travel-acheminement/1-eng), an MSB must include originator and beneficiary information when it sends a virtual currency transfer and take reasonable measures to ensure it's included when it receives one. See our [crypto registration guide](https://amlcanada.ca/crypto-registration-canada.html) and [travel rule guide](https://amlcanada.ca/fintrac-travel-rule-ministerial-directives.html).
+
+- A payment service provider must be registered with the Bank of Canada before it performs any retail payment activities ([RPAA s. 23](https://laws-lois.justice.gc.ca/eng/acts/R-7.36/section-23.html)). The Bank's [registration criteria](https://www.bankofcanada.ca/2026/06/criteria-for-registering-payment-service-providers/) explain who is covered, and this regime is separate from FINTRAC's. See [RPAA vs FINTRAC MSB registration](https://amlcanada.ca/rpaa-vs-fintrac-msb-registration.html).
+
+- If a PSP holds end-user funds, [RPAA s. 20(1)](https://laws-lois.justice.gc.ca/eng/acts/R-7.36/section-20.html) requires it to hold them in a trust account not used for any other purpose, in a prescribed account or manner, or in an account not used for any other purpose with insurance or a guarantee. Our guide to [safeguarding end-user funds](https://amlcanada.ca/rpaa-safeguarding-end-user-funds.html) explains the options.
+
+- Revenu Québec says a licence under the Money-Services Businesses Act is required to operate a money-services business, for services that include currency exchange, funds transfer and cheque cashing ([Revenu Québec](https://www.revenuquebec.ca/en/businesses/sector-specific-measures/money-services-businesses-msbs/money-services-business-licence-application/)). Our guide [Is there an MSB licence in Canada?](https://amlcanada.ca/msb-licence-canada.html) explains how it differs from FINTRAC registration.
+
+### What AML Canada does and doesn't do for your bank application
+
+We prepare the compliance documents a bank asks an MSB about. We don't arrange or guarantee bank accounts, and we can't promise that a bank will open one for you.
+
+Our [compliance program documents](https://amlcanada.ca/compliance-programs.html) include an AML/ATF compliance policy, a KYC and CDD procedure, an ongoing monitoring procedure, a business-wide risk assessment, a travel rule policy and procedure, a staff AML training policy, and a compliance testing and effectiveness review plan. We also handle [FINTRAC MSB registration](https://amlcanada.ca/msb-registration.html) and [effectiveness reviews](https://amlcanada.ca/effectiveness-reviews.html). If we act as your [outsourced compliance officer](https://amlcanada.ca/outsourced-compliance-officer.html), we keep your compliance program documents and risk assessment up to date as your business and the rules change.
+
+### Questions
+
+**Does FINTRAC registration guarantee an MSB bank account?** No. FINTRAC says registration does not indicate that it endorses or licenses the business, only that the business met the legal requirements to register. Each bank decides under its own risk assessment, and we can't promise that a bank will open an account.
+
+**Can a Canadian bank open an account for an unregistered foreign MSB?** No. PCMLTFA s. 9.31(1) bars the banks, credit unions and trust companies it covers from opening or maintaining an account for a foreign MSB, or having a correspondent banking relationship with one, unless the foreign MSB is registered with FINTRAC.
+
+**What documents does a bank ask an MSB for?** Expect to provide your FINTRAC registration, corporate records, identification for signing authorities, an ownership chart down to 25% owners, a description of your services and expected activity, and your compliance program. The identification, ownership and purpose items follow from the bank's duties under PCMLTFR ss. 86, 138 and 145; the compliance program is your own duty under PCMLTFA s. 9.6 and PCMLTFR s. 156, and a bank may ask to see it.
+
+**Why do banks review MSB accounts after opening?** PCMLTFR s. 123.1 requires a bank to monitor each business relationship periodically, keep client and ownership information up to date, reassess risk and check that activity matches what it knows. New corridors, new services or a change of control can lead to a review.
+
+**Does a crypto MSB need anything extra?** Dealing in virtual currencies is an MSB service under PCMLTFA s. 5(h)(iv). Under FINTRAC's travel rule guidance, virtual currency transfers must carry originator and beneficiary information, and you need written procedures for transfers that arrive without it.
+
+Sources: [Proceeds of Crime (Money Laundering) and Terrorist Financing Act, s. 5](https://laws-lois.justice.gc.ca/eng/acts/P-24.501/section-5.html); [Proceeds of Crime (Money Laundering) and Terrorist Financing Act, s. 9.31](https://laws-lois.justice.gc.ca/eng/acts/P-24.501/section-9.31.html); [Proceeds of Crime (Money Laundering) and Terrorist Financing Act, s. 9.6](https://laws-lois.justice.gc.ca/eng/acts/P-24.501/section-9.6.html); [Proceeds of Crime (Money Laundering) and Terrorist Financing Regulations](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-184/FullText.html); [FINTRAC, Money Services Business Registry](https://fintrac-canafe.canada.ca/msb-esm/reg-eng); [FINTRAC, Register your MSB or FMSB](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/reg-ins-eng); [FINTRAC, Update, renew or cancel your registration](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/respond-eng); [FINTRAC, Business relationship requirements](https://fintrac-canafe.canada.ca/guidance-directives/client-clientele/brr-eng); [FINTRAC, Ongoing monitoring requirements](https://fintrac-canafe.canada.ca/guidance-directives/client-clientele/omr-eng); [FINTRAC, Risk assessment guidance](https://fintrac-canafe.canada.ca/guidance-directives/compliance-conformite/rba/rba-eng); [FINTRAC, Travel rule for electronic funds and virtual currency transfers](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/travel-acheminement/1-eng); [Retail Payment Activities Act, ss. 20 and 23](https://laws-lois.justice.gc.ca/eng/acts/R-7.36/section-23.html); [Bank of Canada, Criteria for registering payment service providers](https://www.bankofcanada.ca/2026/06/criteria-for-registering-payment-service-providers/); [Revenu Québec, Money-services business licence application](https://www.revenuquebec.ca/en/businesses/sector-specific-measures/money-services-businesses-msbs/money-services-business-licence-application/). Checked 25 November 2026.
+
+---
+
 ## Guide: FINTRAC's 2025-26 annual report: what the supervision figures mean for MSBs
 
 URL: https://amlcanada.ca/fintrac-annual-report-2025-26-msb-supervision.html
