@@ -1766,6 +1766,112 @@ Sources: [Proceeds of Crime (Money Laundering) and Terrorist Financing Act, s. 5
 
 ---
 
+## Guide: Auditor General audit of FINTRAC: what MSBs should know
+
+URL: https://amlcanada.ca/auditor-general-fintrac-audit-2026-msb-lessons.html
+
+The Auditor General of Canada tabled an audit of FINTRAC on 29 October 2026 that found weak compliance oversight, slow financial intelligence and about 2,500 money services business registration requests still waiting to be processed. FINTRAC agreed with every recommendation. This post sets out the findings that affect MSBs and the checks they point to.
+
+**Key points:**
+- The audit concluded that FINTRAC did not effectively oversee compliance or produce financial intelligence during the period from 1 January 2023 to 28 February 2026.
+- About 2,500 MSB registration requests were waiting at publication, and FINTRAC's new registration system is expected in 2027-28.
+- FINTRAC agreed to build procedures to verify what businesses in higher-risk sectors report in self-attestations and risk questionnaires.
+- FINTRAC plans to publish guidance on avoiding stereotypes and implicit bias in suspicious transaction reports in 2027-28.
+
+### What did the Auditor General find in its audit of FINTRAC?
+
+Auditor General Karen Hogan's report, [FINTRAC's Activities to Combat Money Laundering](https://www.canada.ca/en/auditor-general/our-work/audit-reports/21-auditor-general-202610-fintrac-activities-combat-money-laundering.html), was tabled in the House of Commons on 29 October 2026. It concludes that FINTRAC "did not effectively carry out its role in overseeing compliance with Canada's anti-money laundering laws or in producing financial intelligence." The audit covered 1 January 2023 to 28 February 2026.
+
+These are the main findings, as set out in the report and the [OAG news release](https://www.canada.ca/en/auditor-general/media-room/news-release-weak-oversight-slow-financial-intelligence-limited-fintrac-effectiveness.html):
+
+| Area | Finding |
+
+| Financial intelligence | FINTRAC took an average of about 4 months to provide intelligence when law enforcement flagged a concern. Half of surveyed recipients said it arrived too late to be useful. |
+
+| Proactive intelligence | The share FINTRAC generated on its own initiative fell from 38% in 2021-22 to 23% in 2024-25. |
+
+| Supervision | About 36,000 reporting entities were under FINTRAC's supervision by the end of the audit period. FINTRAC relied more on light-touch assessments, which gave lower assurance of compliance. |
+
+| MSB registration | About 2,500 registration, renewal and other MSB requests were waiting at publication, two years after a cyber-incident took the system offline. |
+
+| Public reporting | FINTRAC's reporting focused on activities and outputs, with little on outcomes, which made it hard to tell whether FINTRAC was achieving its mandate. |
+
+The audit also found that FINTRAC had a "formal, well-organized approach" to its supervision work.
+
+### What does the audit say about the MSB registration backlog?
+
+After the March 2024 cyber-incident, FINTRAC had no backup system to speed up a return to normal operations, so it relied on a temporary process that needed much more manual work. The [full report](https://www.canada.ca/content/dam/oag-bvg/audit-reports/documents/21-ag-202610-fintrac-activities-combat-money-laundering.PDF) gives this timeline:
+
+- 17 May 2024, 10 weeks after the incident: FINTRAC began offering workarounds for MSB registration.
+
+- April 2025: a temporary measure let businesses with expired registrations keep operating if they had applied for renewal. The auditors note this also meant some businesses kept operating that may no longer meet the rules.
+
+- August 2025, 17 months after the incident: FINTRAC set up a special team to clear the backlog.
+
+- At publication: about 2,500 MSB requests were waiting, and FINTRAC was resolving about 150 cases a week.
+
+The auditors note that new businesses could not register and that renewal delays caused problems for banks that check an MSB's registry status before opening a business account. FINTRAC is building a new permanent system, expected in the 2027-28 fiscal year. The report also mentions the universal enrolment of all reporting entities that the government signalled in its 2024 Fall Economic Statement, and says MSB registration would continue to apply alongside it.
+
+FINTRAC's [renewal page](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/respond-eng) still says you must renew before the expiry date and that "the majority of complete applications are processed within three months." Neither the report nor FINTRAC's renewal page says whether the April 2025 measure is still in place, so do not rely on it. File early and keep proof of what you sent and when. Our guides cover [MSB registration renewal](https://amlcanada.ca/msb-registration-renewal-canada.html), [how to check a registration](https://amlcanada.ca/check-fintrac-msb-registration.html) and [what banks check before opening an MSB account](https://amlcanada.ca/msb-bank-account-canada.html).
+
+### Why do self-attestations and risk questionnaires matter more now?
+
+As the number of supervised businesses grew, FINTRAC did more self-attestations and risk questionnaires. The auditors say these "relied largely on reporting entities providing accurate and honest information" and that FINTRAC had limited ability to verify the answers without a deeper assessment. In the report, a self-attestation gives FINTRAC low confidence that a business complies. A resource-intensive examination gives high confidence.
+
+The auditors recommended that FINTRAC develop procedures to verify information from businesses in higher-risk sectors. FINTRAC agreed. Its response says answers to self-assessments, risk questionnaires and information demands, "including responses that deviate from expectations or demonstrate other red flags," already inform decisions on risk, follow-up supervision or enforcement. It says it will strengthen its existing approach, including a formal procedure to standardize these verification activities.
+
+For an MSB, every answer on a questionnaire should match a document you could produce. That means a current compliance program, risk assessment, training records and the last effectiveness review. Our guide to [preparing for a FINTRAC examination](https://amlcanada.ca/fintrac-examination-preparation.html) lists what examiners ask for.
+
+### FINTRAC reporting scorecards
+
+The report says FINTRAC introduced scorecards in 2025. They are generated automatically from the transaction reports a business has submitted and give feedback on whether the information was complete and accurate. The auditors found that the scorecards did not clearly explain what needed fixing. In one case, a business with more than 210 flagged reports could not understand the error codes. When it asked, FINTRAC said it was aware that issues had been incorrectly flagged.
+
+FINTRAC agreed to check scorecards before sending them and to explain any non-compliance it identifies. Its response says the scorecards were a pilot and that most businesses made corrections or started changes before meeting a FINTRAC official. If you receive one, check each flagged report against your records, ask FINTRAC about any code you cannot match and keep a record of the corrections you make. Our [FINTRAC reporting guide](https://amlcanada.ca/fintrac-reporting-requirements.html) covers the report types and deadlines.
+
+### What does the audit mean for suspicious transaction reports?
+
+The auditors found that FINTRAC gave reporting entities indicators for spotting suspicious transactions but no specific guidance on avoiding stereotypes or implicit bias when they file suspicious transaction reports. They point out that Canada's National Risk Assessment identified this risk in 2023 and again in 2025. FINTRAC agreed. Its response says it will look at where guidance may be updated to discourage overreporting of suspicious transaction reports, such as those that contain stereotypes and implicit bias, and that guidance would be published in the 2027-28 fiscal year.
+
+Until then, FINTRAC's [STR guidance](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/str-dod/str-dod-eng) sets the test. It asks for a "holistic assessment of facts, context" and indicators, and it says a fact "cannot be an opinion." Your grounds for suspicion should be explained so that another person with similar knowledge would likely reach the same conclusion from the same information. Build that test into your STR review step, and keep the review short enough that reports still go in "as soon as practicable," as the guidance requires.
+
+### FINTRAC's response to the audit
+
+In a [statement on 29 October 2026](https://fintrac-canafe.canada.ca/new-neuf/statement-declaration-26-10-29-eng), FINTRAC pointed to the recent FATF evaluation. It quoted the FATF finding that its intelligence was used in 94% of law enforcement investigations into money laundering and criminal possession offences, and that 40% of urgent cases led to a disclosure in less than 10 days. It said it produced 7,214 disclosure packages from 3,007 unique disclosures in 2025-26, and that a $37 million increase in supervision-related resources over two years will strengthen its oversight of the 38,000 businesses subject to the Act. The audit's figure of about 36,000 is a count at the end of its audit period, 28 February 2026.
+
+Our post on the [FINTRAC 2025-26 annual report](https://amlcanada.ca/fintrac-annual-report-2025-26-msb-supervision.html) covers its supervision and penalty figures for the same year.
+
+### What should an MSB check after the audit?
+
+Each finding points to a control an MSB can test now.
+
+| Audit finding | What to check |
+
+| About 2,500 MSB requests waiting | Renewals and changes are filed early, with proof of submission on file for your bank. |
+
+| Self-reported answers to be verified | Every questionnaire answer is backed by a current document. |
+
+| Scorecards on report quality | Someone owns scorecard follow-up and logs each correction. |
+
+| STR bias guidance coming in 2027-28 | STR narratives rest on facts, context and indicators, and a reviewer checks them without delaying filing past "as soon as practicable." |
+
+The compliance officer appointed under your compliance program should own each of these checks and record when each was done. Businesses without in-house compliance staff can fill that role with an [outsourced compliance officer](https://amlcanada.ca/outsourced-compliance-officer.html).
+
+### Questions
+
+**When was the Auditor General's audit of FINTRAC published?** The Auditor General of Canada tabled FINTRAC's Activities to Combat Money Laundering in the House of Commons on 29 October 2026. The audit covered 1 January 2023 to 28 February 2026.
+
+**How many MSB registration requests are waiting at FINTRAC?** The audit says about 2,500 registration, renewal and other requests from money services businesses were waiting to be processed at publication, and that FINTRAC was resolving about 150 cases a week.
+
+**When will FINTRAC's new MSB registration system be ready?** FINTRAC expects to implement its new MSB registration system in the 2027-28 fiscal year and says it will look for ways to speed up development. In the meantime it has deployed an updated secure document transfer system.
+
+**Did FINTRAC accept the Auditor General's recommendations?** Yes. FINTRAC agreed with all eight recommendations, including verifying self-reported information from higher-risk sectors, checking scorecards before sending them and publishing guidance on bias in suspicious transaction reports.
+
+**Should an MSB still renew its registration before the expiry date?** Yes. FINTRAC's renewal page says you must renew before the expiry date and that it is your responsibility to renew on time. Most complete applications are processed within three months.
+
+Sources: [Office of the Auditor General of Canada, FINTRAC's Activities to Combat Money Laundering (29 October 2026)](https://www.canada.ca/en/auditor-general/our-work/audit-reports/21-auditor-general-202610-fintrac-activities-combat-money-laundering.html); [Office of the Auditor General of Canada, full report (PDF)](https://www.canada.ca/content/dam/oag-bvg/audit-reports/documents/21-ag-202610-fintrac-activities-combat-money-laundering.PDF); [Office of the Auditor General of Canada, News release (29 October 2026)](https://www.canada.ca/en/auditor-general/media-room/news-release-weak-oversight-slow-financial-intelligence-limited-fintrac-effectiveness.html); [FINTRAC, Statement on the Office of the Auditor General audit (29 October 2026)](https://fintrac-canafe.canada.ca/new-neuf/statement-declaration-26-10-29-eng); [FINTRAC, Answer clarification requests, update, renew or cancel your registration](https://fintrac-canafe.canada.ca/msb-esm/register-inscrire/respond-eng); [FINTRAC, Reporting suspicious transactions to FINTRAC](https://fintrac-canafe.canada.ca/guidance-directives/transaction-operation/str-dod/str-dod-eng). Checked 25 November 2026.
+
+---
+
 ## Guide: FINTRAC's 2025-26 annual report: what the supervision figures mean for MSBs
 
 URL: https://amlcanada.ca/fintrac-annual-report-2025-26-msb-supervision.html
