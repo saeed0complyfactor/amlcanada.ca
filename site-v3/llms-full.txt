@@ -1632,6 +1632,852 @@ Sources: [FINTRAC MSB registry](https://fintrac-canafe.canada.ca/msb-esm/reg-eng
 
 ---
 
+## Guide: Commissioner of oaths vs notary public: what each can do in Ontario
+
+URL: https://amlcanada.ca/commissioner-of-oaths-vs-notary-public.html
+
+Commissioner of oaths vs notary public comes down to powers. In Ontario, a commissioner for taking affidavits can administer oaths and take affidavits, declarations and affirmations. A notary public can do all of that and can also witness and attest signatures and certify true copies, which matters for documents going abroad.
+
+**Key points:**
+- In Ontario, a notary public has all the powers of a commissioner for taking affidavits, plus the power to attest signatures and certify true copies.
+- Every Ontario lawyer and paralegal is a commissioner automatically, but no one is a notary by virtue of office. A lawyer must still apply to be appointed.
+- Ontario's Official Documents Services won't authenticate or apostille a document commissioned by a commissioner for taking affidavits.
+- Other provinces set their own rules. Newfoundland and Labrador says its commissioners can't take affidavits for use outside the province.
+
+### What does a commissioner of oaths do in Ontario?
+
+A commissioner for taking affidavits, often called a commissioner of oaths, takes affidavits and declarations by asking you to swear or affirm that a document is true. In Ontario, commissioners are governed by the Commissioners for Taking Affidavits Act, according to the [Ontario government](https://www.ontario.ca/page/find-notary-public-or-commissioner-oaths-taking-affidavits). An affidavit is a written statement confirmed by oath or affirmation, often used as evidence in court.
+
+Section 9(1) of the Act requires every oath and declaration to be taken in the physical presence of the commissioner, unless the regulations allow otherwise. Section 9(3) requires the commissioner to be satisfied that the signature is genuine before signing the jurat. Section 10 of the Act makes it an offence, with a fine of up to $2,000, for a commissioner to sign a jurat or declaration without duly administering the oath or declaration. The Ministry of the Attorney General's [guide for commissioners](https://www.ontario.ca/page/guide-newly-appointed-commissioners-taking-affidavits-ontario) also covers this offence.
+
+A commissioner checks who is swearing and that they understand the document. The ministry says commissioners do this without verifying whether the facts in it are accurate.
+
+### What can a notary public do in Ontario?
+
+Under section 3 of the Notaries Act, an Ontario notary public may witness or certify, and attest, the execution of a document, certify and attest a true copy of a document, and exercise the powers of a commissioner for taking affidavits. The [Ministry of the Attorney General](https://www.ontario.ca/page/information-notaries-public-ontario) lists these powers, subject to any restrictions in the notary's appointment.
+
+A notary must be physically present with the person when notarizing. Remote notarization isn't permitted under the Notaries Act, and the ministry says documents notarized remotely won't be authenticated or apostilled by Ontario's Official Documents Services. Every Ontario notary uses an embossed notarial seal showing "Notary Public" and "Ontario". Non-lawyer notaries also use an approved stamp.
+
+### Is a notary public the same as a commissioner for taking oaths in Ontario?
+
+No. A notary public holds every power a commissioner has, but a commissioner doesn't hold a notary's powers. The ministry's [comparison of the two roles](https://www.ontario.ca/page/becoming-commissioner-taking-affidavits-or-notary-public-non-lawyer-and-non-paralegal) says commissioners can't notarize documents, notarize their own affidavit or certify true copies. This table sets the Ontario rules side by side, from the ministry's own pages.
+
+| Question | Commissioner for taking affidavits | Notary public |
+
+| Governing law | Commissioners for Taking Affidavits Act | Notaries Act |
+
+| Take affidavits, oaths, declarations and affirmations | Yes | Yes |
+
+| Witness or certify, and attest, the signing of a document | No | Yes, under section 3 |
+
+| Certify a true copy | No; the Act doesn't itself authorize it | Yes, under section 3 |
+
+| Remote service | Allowed if Regulation 431/20 conditions are met | Not permitted |
+
+| Holds the role automatically | Lawyers, paralegals, municipal clerks and other listed office holders | No one; every notary must apply |
+
+| Term | 10 years for appointments made from January 1, 2026; office holders while in office | Lifetime for licensed lawyers and paralegals; 10 years for others |
+
+| Stamp or seal | Approved stamp, except office holders | Embossed seal; non-lawyers also need a stamp |
+
+| Ontario will apostille the document | No | Yes, if the signature and seal match Ontario's records |
+
+### Who qualifies as a commissioner of oaths in Ontario?
+
+People holding certain offices, including lawyers, paralegals and municipal clerks, are commissioners automatically and don't apply. Anyone else must apply to the Ministry of the Attorney General and work at a registered Ontario business or organization that needs commissioner services as part of its regular business, according to the [ministry's application page](https://www.ontario.ca/page/becoming-commissioner-taking-affidavits-or-notary-public-non-lawyer-and-non-paralegal).
+
+Notary status is never automatic. Ontario lawyers and paralegals licensed by the Law Society of Ontario apply to Official Documents Services and, once approved, hold a [lifetime appointment](https://www.ontario.ca/page/how-become-notary-public-ontario-lawyers-and-paralegals) while they stay in good standing. Other applicants must show that notarizing is a required part of their job, and the ministry doesn't grant a notary appointment to someone who only needs a commissioner's powers. As of 26 November 2026, the ministry lists a $75 fee for a new commissioner application and $110 for a new non-lawyer notary application. Ontario lists a $145 one-time fee for lawyers and paralegals.
+
+### Can a commissioner of oaths notarize documents in Ontario?
+
+No. The Ministry of the Attorney General says commissioners cannot notarize documents or certify true copies. Its guide adds that the Commissioners for Taking Affidavits Act doesn't itself authorize commissioners to certify true copies, though another legal document may give a particular commissioner that authority.
+
+Global Affairs Canada takes the same line nationally. Its [authentication FAQ](https://international.canada.ca/en/global-affairs/services/document-authentication/faq) says the rules are set by each province or territory, and that commissioners for oaths in Canada generally aren't authorized to certify copies. Our guide to [certified true copies in Canada](https://amlcanada.ca/certified-true-copy-canada.html) explains who can certify a copy for different recipients.
+
+### Which one do you need for a document going abroad?
+
+For a document that needs an apostille from Ontario, you usually need a notary. Ontario's [Official Documents Services](https://www.ontario.ca/page/authenticate-document-use-outside-canada) lists documents commissioned by a commissioner for taking affidavits among those it cannot authenticate. It authenticates notarized documents by comparing the notary's signature and seal with its records, and both must appear on the same page.
+
+Some Ontario public documents, such as business registry documents issued since 1991, can be apostilled without notarizing. [Global Affairs Canada](https://international.canada.ca/en/global-affairs/services/document-authentication/requirements) says the destination country's law decides whether authentication is needed, and that a document notarized in Ontario goes to Ontario whatever its origin. Before booking, check:
+
+- what the foreign recipient asks for: a sworn affidavit, a witnessed signature or a certified copy;
+
+- whether the document can go to the competent authority without notarizing, using the official eligibility portal;
+
+- which province the notary is appointed in, since that largely decides where the apostille comes from;
+
+- that the notary will meet you in person, as Ontario won't apostille a remote notarization.
+
+Our guides to [apostille vs notarization](https://amlcanada.ca/apostille-vs-notarization-canada.html) and [apostilles in Ontario](https://amlcanada.ca/apostille-ontario.html) cover the next steps, and our general guide explains [how to get an apostille in Canada](https://amlcanada.ca/apostille-canada-guide.html).
+
+### How other provinces draw the line
+
+Each province sets its own rules, so the Ontario answer doesn't carry over. In [Nova Scotia](https://novascotia.ca/just/legal_services/commissioner_oaths.asp), the Minister of Justice appoints commissioners of oaths under the Notaries and Commissioners Act, and notary appointments are limited to MLAs and practising lawyers. Nova Scotia says a notary may certify true copies, and that another province's law may require a notary for an affidavit used there.
+
+[Newfoundland and Labrador](https://www.gov.nl.ca/jps/faq/oaths/) says its commissioners for oaths cannot verify true copies, cannot take affidavits or statutory declarations for use outside the province, and cannot issue deeds and contracts. Its [notary policy](https://www.gov.nl.ca/jps/faq/notaries/) restricts appointments to lawyers and articled clerks in good standing, apart from cases of public need, and notaries there are appointed for life.
+
+### Where to find a notary or commissioner in Ontario
+
+Where you go depends on what the document is for. Ontario says court affidavits can be sworn before a court official at the courthouse where you file, and ServiceOntario centres that offer commissioner services can commission affidavits needed for Ontario government services. ServiceOntario doesn't commission oaths for certain legal, financial or federal purposes. Municipal licence and zoning affidavits can be sworn before a clerk at city hall.
+
+For private and commercial documents, you need a notary or commissioner of your own choosing. Official Documents Services says it has no in-house notary. For corporate documents going abroad, our [apostille and notarization service](https://amlcanada.ca/apostille-notarization-canada.html) coordinates the process, with notarization by a licensed Ontario partner notary. AML Canada isn't a notary or commissioner itself.
+
+### Questions
+
+**Can a lawyer notarize documents in Ontario?** Only if appointed as a notary. Every Ontario lawyer and paralegal is a commissioner for taking affidavits automatically, but the Ministry of the Attorney General says there are no notaries by virtue of office and lawyers must apply to be appointed.
+
+**Can a commissioner of oaths certify a true copy in Ontario?** No. The ministry says commissioners cannot certify true copies, and the Commissioners for Taking Affidavits Act doesn't itself give them that power. A notary public can certify and attest a true copy under section 3 of the Notaries Act.
+
+**Can documents be commissioned or notarized remotely in Ontario?** An oath or declaration can be commissioned remotely if the conditions in Regulation 431/20 are met. Notarization can't be done remotely under the Notaries Act, and Ontario won't apostille a remotely notarized document.
+
+**Will Ontario apostille an affidavit sworn before a commissioner?** No. Ontario's Official Documents Services lists documents commissioned by a commissioner for taking affidavits among the documents it cannot authenticate.
+
+**Does ServiceOntario notarize documents?** Ontario says ServiceOntario centres that offer commissioner services can commission affidavits needed for Ontario government services. Official Documents Services says it has no in-house notary.
+
+Sources: [Ontario, Information for notaries public](https://www.ontario.ca/page/information-notaries-public-ontario); [Ontario, Find a notary public or commissioner of oaths](https://www.ontario.ca/page/find-notary-public-or-commissioner-oaths-taking-affidavits); [Ontario, Becoming a commissioner or notary public (non-lawyer and non-paralegal)](https://www.ontario.ca/page/becoming-commissioner-taking-affidavits-or-notary-public-non-lawyer-and-non-paralegal); [Ontario, Guide for newly appointed commissioners for taking affidavits](https://www.ontario.ca/page/guide-newly-appointed-commissioners-taking-affidavits-ontario); [Ontario, How to become a notary public (lawyers and paralegals)](https://www.ontario.ca/page/how-become-notary-public-ontario-lawyers-and-paralegals); [Ontario, Authenticate a document for use outside Canada](https://www.ontario.ca/page/authenticate-document-use-outside-canada); [Global Affairs Canada, Requirements](https://international.canada.ca/en/global-affairs/services/document-authentication/requirements); [Global Affairs Canada, Frequently asked questions](https://international.canada.ca/en/global-affairs/services/document-authentication/faq); [Nova Scotia, Commissioners of oaths and notaries public](https://novascotia.ca/just/legal_services/commissioner_oaths.asp); [Newfoundland and Labrador, Commissioner for oaths FAQ](https://www.gov.nl.ca/jps/faq/oaths/); [Newfoundland and Labrador, Notaries public FAQ](https://www.gov.nl.ca/jps/faq/notaries/). Checked 26 November 2026.
+
+---
+
+## Guide: Certified true copy in Canada: who can certify and when you need a notary
+
+URL: https://amlcanada.ca/certified-true-copy-canada.html
+
+A certified true copy is a photocopy that an authorized person has compared with the original and marked as a true copy. Canada has no single list of who may certify one. IRCC, Service Canada and Public Safety Canada each publish their own list, the Passport Program certifies passport copies itself, and Global Affairs Canada accepts notary-certified copies for authentication. In practice, a copy going abroad with an apostille usually needs a notary.
+
+**Key points:**
+- Several Canadian authorities publish their own list of who may certify a copy, so check the recipient's rule first.
+- IRCC, Service Canada and Public Safety Canada accept a commissioner of oaths, but Global Affairs Canada says commissioners generally aren't authorized to certify copies for authentication.
+- A copy for use abroad with an apostille usually needs a notary, and Ontario won't apostille commissioned or remotely notarized documents.
+- Some recipients prefer a copy certified by the office that issued the original, such as Corporations Canada at $40 per document.
+
+### What is a certified true copy?
+
+A certified true copy is a photocopy of an original document that an authorized person has compared with the original and certified as a true copy. [IRCC's glossary](https://www.canada.ca/en/services/immigration-citizenship/helpcentre/glossary.html) says the person marks the photocopy with their name and signature, their position or title, the name of the original document, the date, and the statement "I certify that this is a true copy of the original document."
+
+Some bodies use the term more narrowly. Quebec's health insurance board, [RAMQ](https://www.ramq.gouv.qc.ca/en/definition/certified-true-copy), defines a certified true copy as a copy whose official value is recognized by the organization that issued the original, and says it isn't a simple photocopy. Before you start, ask the recipient which of the two it means.
+
+### Who can certify a true copy in Canada?
+
+Who can certify a true copy in Canada depends on who asked for it: several authorities publish their own list. A commissioner of oaths is on the IRCC, Service Canada and Public Safety Canada lists, but not the Global Affairs Canada one. As of 26 November 2026, the official pages say:
+
+| Who is asking | Who may certify | Conditions on the official page |
+
+| IRCC (immigration and citizenship applications) | In Canada, examples include a notary public, a commissioner of oaths and a commissioner of taking affidavits | Check with provincial or territorial authorities; you and your family members can't certify your copies |
+
+| Service Canada (Canada Pension Plan and Old Age Security) | Service Canada staff, free, at any Service Canada Centre; or a listed professional such as an accountant, lawyer, notary, commissioner for oaths, justice of the peace, police officer, pharmacist, professional engineer or teacher | You can't certify your own documents or ask a relative to do it |
+
+| Public Safety Canada (Passenger Protect Recourse Office) | Judge, magistrate, justice of the peace, lawyer, notary (in Quebec), mayor, notary public, police officer or commissioner of oaths | The certifier must be a registered member of their professional association; a commissioner needs an official government agency appointment and a seal or stamp |
+
+| Passport Program (copy of a Canadian passport) | The Passport Program itself, on form PPTC 516 | The copy is validated against the electronic passport record and leaves out pages with visas or stamps |
+
+| Quebec immigration ministry | The document's issuer, or a recognized authority of the country or territory that issued it | An issuer-certified copy is always preferred; lawyers and police officers, with certain exceptions, aren't recognized |
+
+| Global Affairs Canada (authentication and apostille) | A notary | Plain photocopies can't be authenticated; commissioners for oaths generally aren't authorized to certify copies |
+
+A foreign bank, university or regulator sets its own rule, and none of these Canadian lists binds it. Ask the recipient in writing who it accepts as a certifier and whether it also needs an apostille.
+
+### How do you get a certified true copy?
+
+To get a certified true copy, take the original and a clear photocopy to a person the recipient accepts. That person compares the two and certifies the copy. [Service Canada's instructions](https://catalogue.servicecanada.gc.ca/apps/EForms/pdf/en/ISP-1730_CPP.pdf) (form ISP-1730) ask the certifier to:
+
+- compare the original document with the photocopy;
+
+- state their official position or title, and sign and print their name;
+
+- give their telephone number;
+
+- write the date they certified the document;
+
+- write "This photocopy is a true copy of the original document which has not been altered in any way."
+
+For a document of more than one page, Service Canada says to copy every page. The certifier can certify each page, or only the first page if they state the total number of pages, including blank ones. Service Canada refuses a copy that is missing any of these elements.
+
+IRCC asks for different wording, so use the statement of the authority you're sending the copy to. For a translated document, IRCC's [translation instructions](https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/operational-bulletins-manuals/standard-requirements/translation.html) say the translator must stamp both the certified copy and the translation.
+
+### Copies certified by the issuing office
+
+Many offices certify copies of their own records, and some recipients prefer that. The [Quebec immigration ministry](https://www.quebec.ca/en/immigration/required-documents-formats/certifying-documents) says a copy certified by the document issuer is always the preferred format. As of 26 November 2026:
+
+- [Corporations Canada](https://ised-isde.canada.ca/site/corporations-canada/en/order-copies-corporate-documents) charges $40 per document for certified copies of corporate documents, requested by email or mail only, and notes that some institutions, such as courts, may require them.
+
+- [Ontario family courts](https://www.ontario.ca/page/get-copies-family-law-documents-court) charge $1 per page for hard copies or $3.50 to $4.00 for each page certified by court staff, requested from the court location where the case started.
+
+- The [Passport Program](https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-passports/certified-true-copies.html) certifies copies of Canadian passports. A copy with an ink stamp uses form PPTC 670 and needs a clear and strong reason.
+
+Global Affairs Canada applies the same idea to vital statistics records. It issues apostilles only for originals or for certified copies issued by those offices, and not for copies certified by a notary public.
+
+### Notarized copy vs certified true copy vs apostilled copy
+
+A notarized copy is a certified true copy made by a notary public. Under section 3 of Ontario's Notaries Act, a notary may certify and attest a true copy of a document, according to the [Ministry of the Attorney General](https://www.ontario.ca/page/information-notaries-public-ontario). An apostilled copy adds a further step: a competent authority confirms the notary's signature and seal so the copy can be used in another Apostille Convention country.
+
+| Type | Who makes it | What it confirms | Typical use |
+
+| Certified true copy | A person on the requesting authority's list, or the issuing office | The copy matches the original | Canadian applications such as IRCC, CPP and OAS |
+
+| Notarized copy | A notary public | The copy matches the original, under the notary's signature and seal | Recipients that ask for a notary, and the first step before an apostille |
+
+| Apostilled copy | A notary, then Global Affairs Canada or a provincial authority | The notary's signature and seal are genuine | Use in a country that belongs to the Apostille Convention |
+
+Global Affairs Canada's [FAQ](https://international.canada.ca/en/global-affairs/services/document-authentication/faq) says authentication proves that the signature and seal on a document are genuine. Our guide to [apostille vs notarization](https://amlcanada.ca/apostille-vs-notarization-canada.html) walks through the full chain, including legalization for countries outside the Convention.
+
+### When does a copy need a notary and an apostille?
+
+A copy going to a foreign authority usually needs a notary's certification and then an apostille, if the destination country asks for one. Global Affairs Canada says it can't authenticate plain photocopies without an original signature and seal, and may authenticate copies certified by a notary.
+
+Ontario's rules are stricter. The [Ministry of the Attorney General](https://www.ontario.ca/page/information-notaries-public-ontario) says commissioned documents can't be apostilled and Ontario's Official Documents Services doesn't process them. An Ontario notary must be physically present, and documents notarized remotely won't be authenticated or apostilled. As of 26 November 2026, [Ontario](https://www.ontario.ca/page/authenticate-document-use-outside-canada) charges $16 to authenticate a notarized legal document.
+
+Global Affairs Canada says a certified, notarized copy can be sent without the original, and suggests one if you want to keep an original such as a diploma unaltered and the destination country accepts copies. Our guides to [getting an apostille in Canada](https://amlcanada.ca/apostille-canada-guide.html) and [apostille in Ontario](https://amlcanada.ca/apostille-ontario.html) cover which authority to send it to.
+
+### How much does a certified true copy cost?
+
+The cost of a certified true copy depends on who makes it. As of 26 November 2026, Service Canada staff certify documents for CPP and OAS applications free of charge at any Service Canada Centre. Corporations Canada charges $40 per certified document, and Ontario family courts charge $3.50 to $4.00 per certified page.
+
+The official pages we checked don't set fees for notaries or lawyers, so ask for a quote. For a passport copy, check the Passport Program's fee list.
+
+### Certified copies of corporate documents
+
+For corporate records going abroad, such as articles or resolutions, the receiving bank or regulator decides whether a Corporations Canada certified copy will do or a notarized and apostilled copy is needed. Our guide to [apostilling corporate documents](https://amlcanada.ca/apostille-corporate-documents-canada.html) lists which records need notarizing, and our comparison of a [commissioner of oaths vs a notary public](https://amlcanada.ca/commissioner-of-oaths-vs-notary-public.html) explains what each may sign.
+
+Our [apostille and notarization service](https://amlcanada.ca/apostille-notarization-canada.html) coordinates this for corporate documents only, with notarization by a licensed Ontario partner notary or lawyer. AML Canada isn't a notary and doesn't handle personal documents such as birth certificates, degrees or police checks.
+
+### Questions
+
+**What is meant by certified true copy?** A photocopy that an authorized person has compared with the original and certified as a true copy, with their name, signature, title and the date. Some bodies, such as RAMQ, use the term for a copy certified by the office that issued the original.
+
+**Who can certify a true copy in Canada?** It depends on who asks. IRCC gives notaries public and commissioners as examples, Service Canada accepts its own staff and a list of professionals, and Global Affairs Canada may authenticate copies certified by a notary.
+
+**Can a commissioner of oaths certify a true copy?** For IRCC, Service Canada and Public Safety Canada, yes. Global Affairs Canada says commissioners generally aren't authorized to certify copies, and Ontario won't apostille commissioned documents.
+
+**Is a notarized copy the same as a certified true copy?** A notarized copy is a certified true copy made by a notary public. A copy certified by someone else, such as a commissioner of oaths, may satisfy a Canadian agency, but Ontario says it won't apostille commissioned documents, so it may not be accepted there.
+
+Sources: [IRCC, Glossary: certified photocopy](https://www.canada.ca/en/services/immigration-citizenship/helpcentre/glossary.html); [IRCC, Translation of supporting documents](https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/operational-bulletins-manuals/standard-requirements/translation.html); [Service Canada, How to certify photocopies (ISP-1730)](https://catalogue.servicecanada.gc.ca/apps/EForms/pdf/en/ISP-1730_CPP.pdf); [Public Safety Canada, Certified copies: instructions to applicants](https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cntr-trrrsm/pssngr-prtct/crtfd-cps-nstrctns-en.aspx); [IRCC, Certified true copies of a passport](https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-passports/certified-true-copies.html); [Quebec, Authorities recognized for certifying documents](https://www.quebec.ca/en/immigration/required-documents-formats/certifying-documents); [RAMQ, Certified true copy](https://www.ramq.gouv.qc.ca/en/definition/certified-true-copy); [Corporations Canada, Order copies of corporate documents](https://ised-isde.canada.ca/site/corporations-canada/en/order-copies-corporate-documents); [Ontario, Get copies of family law documents from court](https://www.ontario.ca/page/get-copies-family-law-documents-court); [Global Affairs Canada, Frequently asked questions](https://international.canada.ca/en/global-affairs/services/document-authentication/faq); [Ontario, Information for notaries public](https://www.ontario.ca/page/information-notaries-public-ontario); [Ontario, Authenticate a document for use outside Canada](https://www.ontario.ca/page/authenticate-document-use-outside-canada). Checked 26 November 2026.
+
+---
+
+## Guide: Apostille in BC: how to get a British Columbia apostille
+
+URL: https://amlcanada.ca/apostille-british-columbia.html
+
+An apostille in BC comes from the B.C. Authentication Program in Victoria, which authenticates British Columbia public documents for use outside Canada. As of 26 November 2026 the fee is CA$20 per document, requests go by mail or courier only, and the published processing time is 2 to 4 weeks plus mail time.
+
+**Key points:**
+- B.C. apostilles B.C. public documents. It won't apostille a document issued in another province, even if it was notarized in B.C.
+- A notarized document must be signed and sealed by a B.C. lawyer or notary already on file with the B.C. Authentication Program.
+- There is no walk-in or rush service. The request form is online, the fee can be paid online by card or mailed with the documents, and the paper documents go by mail or courier.
+- As of 26 November 2026, B.C. charges CA$20 per document and quotes 2 to 4 weeks, not including mail time.
+
+### Who issues apostilles in British Columbia?
+
+The B.C. Authentication Program issues apostilles for British Columbia public documents. It is run by the Order in Council (OIC) Administration Office in the Ministry of Attorney General, where the Registrar or Deputy Registrar, Official Documents, authenticates each document, according to the province's [About Authentication page](https://www2.gov.bc.ca/gov/content/governments/government-id/guide-to-the-authentication-of-documents/about).
+
+The Apostille Convention came into effect in Canada on January 11, 2024. B.C. attaches an apostille certificate to every document it has authenticated since that date. It confirms the signature, seal and signer's authority, and B.C. says it doesn't certify the contents.
+
+Our [guide to getting an apostille in Canada](https://amlcanada.ca/apostille-canada-guide.html) shows which of the six Canadian authorities handles documents from each province.
+
+### Which documents can be apostilled in BC?
+
+B.C. authenticates B.C. public documents and certain federal documents notarized in B.C., for use outside Canada. It won't authenticate a Canadian document issued in another province or territory, even if it was notarized in B.C. The program can't authenticate foreign documents or documents for use in Canada, according to its [eligibility rules](https://www2.gov.bc.ca/gov/content/governments/government-id/guide-to-the-authentication-of-documents/about).
+
+| Document type | What to send | Points the province flags |
+
+| B.C. Vital Statistics: birth, death, marriage and change of name certificates | The original only | Notarized photocopies are refused. Originals issued before 1985, laminated or wallet size are refused. |
+
+| B.C. Registries and Online Services: Notice of Articles, incorporation certificate, certificate of good standing, certificate of status, certified true copy | The original | With no raised seal, enclose the online receipt. Notarize it if there is no Registrar's signature, or no seal and no receipt. |
+
+| B.C. court documents: affidavits, divorce certificates, Supreme Court orders, letters of probate | The original, stamped and signed in ink by a court employee | Most court documents are issued to the public as certified true copies. |
+
+| B.C. post-secondary documents: transcripts, diplomas, enrolment letters | The original signed by a signatory on file, or a notarized document | Documents from B.C. private institutions must be notarized. |
+
+| Notarized documents: statutory declarations, powers of attorney, affidavits, wills, ICBC records, translations | The document notarized by a B.C. notary on file | Contact the office first if a document is over 40 pages. |
+
+The personal documents in this table are general information. Our service handles corporate documents only.
+
+### Does a document need a BC notary first?
+
+Only some documents need notarizing, and vital statistics certificates must not be. Where notarization is needed, the notary must be a B.C. notary public who is already on file with the program. All B.C. lawyers are notaries public, and B.C. also has non-lawyer notaries, according to the [notarized documents page](https://www2.gov.bc.ca/gov/content/governments/government-id/guide-to-the-authentication-of-documents/process/notarized-docs).
+
+The notary must sign, date and seal the document as a notary. B.C. won't authenticate a document signed or sealed as a commissioner for taking affidavits. See our guide to [commissioners of oaths and notaries](https://amlcanada.ca/commissioner-of-oaths-vs-notary-public.html). The province publishes a monthly list of lawyers and notaries on file.
+
+### If your notary isn't on file
+
+The province's [page for B.C. lawyers and notaries](https://www2.gov.bc.ca/gov/content/governments/government-id/guide-to-the-authentication-of-documents/lawyers-notaries) gives three options:
+
+- the notary applies to go on file, which can take a few weeks;
+
+- for B.C. lawyers only, the Law Society of British Columbia attaches its own certificate first, which can take 2 to 3 weeks;
+
+- the document is notarized again by a lawyer or notary already on file.
+
+### Federal documents and notaries outside B.C.
+
+B.C. accepts certain federal documents notarized in B.C., such as an RCMP criminal record check and Canada Pension Plan or Canada Revenue Agency documents. As a temporary courtesy it accepts any federal document notarized in B.C., and warns this may change. B.C. verifies only the notary, so if the destination wants the federal signature verified, the original goes to Global Affairs Canada.
+
+[Global Affairs Canada](https://international.canada.ca/en/global-affairs/services/document-authentication/requirements) says B.C. can authenticate a notarized document only if the original was issued in B.C., so check before sending a federal document. It also says a document notarized in Alberta, Ontario or Saskatchewan goes to that province, wherever it was issued.
+
+### How do you get an apostille in BC?
+
+You complete an online request form, then mail or courier it with the paper documents to Victoria. The province's [submission instructions](https://www2.gov.bc.ca/gov/content/governments/government-id/guide-to-the-authentication-of-documents/instructions) set out these steps:
+
+- Ask the destination country's embassy or consulate what it needs.
+
+- Prepare each document as its type requires, stapled or clipped separately.
+
+- Complete the [B.C. Document Authentication Request form](https://pay.gov.bc.ca/public/lsb/bcDocAuthRequest) on a desktop or laptop. List each document's type, the name on it and its destination country, which can't be Canada.
+
+- Pay online by card, or choose to mail the fee with the documents.
+
+- Print, sign and date the form, and keep its order number.
+
+- Send the form, the documents and any payment by mail or courier to the Ministry of Attorney General, OIC Administration Office, Attention: BC Authentication Program, 1001 Douglas Street, Victoria, BC V8W 2C5.
+
+One form covers up to 20 documents. B.C. offers no rush, walk-in, drop-off or while-you-wait service. Only the form and payment are online.
+
+### How much does an apostille cost in BC?
+
+As of 26 November 2026, B.C. charges a standard CA$20 for each document authenticated, according to its [fee page](https://www2.gov.bc.ca/gov/content/governments/government-id/guide-to-the-authentication-of-documents/fees). The total is the number of documents times CA$20.
+
+- A single CA$20 payment for a stack of pages means one multi-page document with one certificate.
+
+- The fee includes return by regular Canada Post mail, with no tracking.
+
+- B.C. accepts cards online, or a money order, bank draft, or personal or business cheque in CAD or USD payable to the "Minister of Finance."
+
+- Documents sent without payment are returned unprocessed.
+
+Fees differ by province: compare [Alberta](https://amlcanada.ca/apostille-alberta.html) and [Ontario](https://amlcanada.ca/apostille-ontario.html).
+
+### How long does a BC apostille take?
+
+As of 26 November 2026, the B.C. [authentication guide](https://www2.gov.bc.ca/gov/content/governments/government-id/guide-to-the-authentication-of-documents) gives a current processing time of 2 to 4 weeks, not including mail time. Its [processing times page](https://www2.gov.bc.ca/gov/content/governments/government-id/guide-to-the-authentication-of-documents/times) says the office aims for 14 business days when at full capacity. A blank email to BCAuthentication@gov.bc.ca returns the date of the requests now being processed.
+
+Missing information, disorganized documents or a signatory not on file slow a request down. B.C.'s [FAQ](https://www2.gov.bc.ca/gov/content/governments/government-id/guide-to-the-authentication-of-documents/authentication-faq) says to mark an urgent request under the special return mail instructions on the form.
+
+B.C. warns that Canada Post delivery may be delayed and suggests a courier. Its [return mail page](https://www2.gov.bc.ca/gov/content/governments/government-id/guide-to-the-authentication-of-documents/return-mail-service) accepts prepaid electronic UPS, FedEx or Purolator labels, and returns documents by regular mail if you send a handwritten waybill.
+
+### Do you need a translation for a BC apostille?
+
+Usually, if any part of the document isn't in English. B.C. lists exceptions, such as official bilingual English-French documents from a Canadian government agency and Latin or Greek diplomas from recognized Canadian institutions. B.C. requires it to be translated into English and then notarized as a set with the original by a B.C. notary on file. It refuses unnotarized translations, according to its [translation requirements](https://www2.gov.bc.ca/gov/content/governments/government-id/guide-to-the-authentication-of-documents/translation-requirements).
+
+- The translator must be certified through the Society of Translators and Interpreters of British Columbia or a member society of the Canadian Translators, Terminologists and Interpreters Council.
+
+- Or a B.C. notary on file who is fluent in both languages translates it and signs a declaration.
+
+- If the destination wants the translation kept apart from the original, say so on the request form.
+
+### What happens after BC issues the apostille?
+
+B.C. rivets the apostille to the front of the document with a hole punch. If the certificate is removed, the province says the authentication is null and void. Whether an apostille expires is for the destination to decide, according to the B.C. [FAQ](https://www2.gov.bc.ca/gov/content/governments/government-id/guide-to-the-authentication-of-documents/authentication-faq).
+
+Since June 20, 2025, a [Global Affairs Canada tool](https://international.canada.ca/en/global-affairs/services/document-authentication/updates) lets recipients verify apostilles issued by British Columbia online. A country outside the Convention may still need legalization at its consulate or embassy. Reasons B.C. lists for returning a document include:
+
+- missing payment or no signed request form;
+
+- a signatory or notary not on file, or a missing notarization date, signature or seal;
+
+- a photocopy, or a document over 40 pages;
+
+- a document issued outside B.C.
+
+For company records going to a foreign bank or regulator, see our guide to [apostilling Canadian corporate documents](https://amlcanada.ca/apostille-corporate-documents-canada.html). Our [apostille and notarization service](https://amlcanada.ca/apostille-notarization-canada.html) coordinates corporate documents only, with notarization by a licensed Ontario partner notary.
+
+### Questions
+
+**Can I walk in to get an apostille in BC?** No. The B.C. Authentication Program has no walk-in, drop-off or while-you-wait service. Requests must arrive by mail or courier at its office in Victoria.
+
+**Can I get a BC apostille online?** Partly. The request form is online and you can pay online by card, but the signed form, the documents and any mailed payment must go by mail or courier.
+
+**Can a BC commissioner for taking affidavits sign a document for an apostille?** No. B.C. says it won't authenticate a document signed or sealed by a commissioner for taking affidavits. The document must be notarized by a B.C. lawyer or notary on file.
+
+**Will BC apostille a document from another province?** No. B.C. refuses documents issued in another province, territory or country. Global Affairs Canada handles Canadian documents from other provinces and territories that don't issue their own apostilles.
+
+Sources: [B.C., Guide to the Authentication of Documents](https://www2.gov.bc.ca/gov/content/governments/government-id/guide-to-the-authentication-of-documents); [About Authentication](https://www2.gov.bc.ca/gov/content/governments/government-id/guide-to-the-authentication-of-documents/about); [Apostille Convention](https://www2.gov.bc.ca/gov/content/governments/government-id/guide-to-the-authentication-of-documents/about/apostille); [Preparing your documents](https://www2.gov.bc.ca/gov/content/governments/government-id/guide-to-the-authentication-of-documents/process); [B.C. notarized documents](https://www2.gov.bc.ca/gov/content/governments/government-id/guide-to-the-authentication-of-documents/process/notarized-docs); [B.C. Registries and Online Services documents](https://www2.gov.bc.ca/gov/content/governments/government-id/guide-to-the-authentication-of-documents/process/registries-online-docs); [B.C. Vital Statistics documents](https://www2.gov.bc.ca/gov/content/governments/government-id/guide-to-the-authentication-of-documents/process/vital-stats-docs); [B.C. court documents](https://www2.gov.bc.ca/gov/content/governments/government-id/guide-to-the-authentication-of-documents/process/court-docs); [B.C. post-secondary documents](https://www2.gov.bc.ca/gov/content/governments/government-id/guide-to-the-authentication-of-documents/process/post-education-docs); [Information for B.C. lawyers and notaries](https://www2.gov.bc.ca/gov/content/governments/government-id/guide-to-the-authentication-of-documents/lawyers-notaries); [Translation requirements](https://www2.gov.bc.ca/gov/content/governments/government-id/guide-to-the-authentication-of-documents/translation-requirements); [Document authentication fee](https://www2.gov.bc.ca/gov/content/governments/government-id/guide-to-the-authentication-of-documents/fees); [Processing times](https://www2.gov.bc.ca/gov/content/governments/government-id/guide-to-the-authentication-of-documents/times); [Submitting your documents](https://www2.gov.bc.ca/gov/content/governments/government-id/guide-to-the-authentication-of-documents/instructions); [Return mail service](https://www2.gov.bc.ca/gov/content/governments/government-id/guide-to-the-authentication-of-documents/return-mail-service); [After document submission](https://www2.gov.bc.ca/gov/content/governments/government-id/guide-to-the-authentication-of-documents/post-document-submission); [Frequently asked questions](https://www2.gov.bc.ca/gov/content/governments/government-id/guide-to-the-authentication-of-documents/authentication-faq); [Contact information](https://www2.gov.bc.ca/gov/content/governments/government-id/guide-to-the-authentication-of-documents/contact-information); [Global Affairs Canada, Requirements](https://international.canada.ca/en/global-affairs/services/document-authentication/requirements); [Global Affairs Canada, Notices and updates](https://international.canada.ca/en/global-affairs/services/document-authentication/updates). Checked 26 November 2026.
+
+---
+
+## Guide: How to get an apostille in Alberta
+
+URL: https://amlcanada.ca/apostille-alberta.html
+
+To get an apostille in Alberta, you mail or courier your documents to Official Documents and Appointments in Edmonton with a request form and an online payment receipt. As of 26 November 2026, Alberta charges CA$25 per document, offers no walk-in service and asks you to allow at least 7 to 10 business days.
+
+**Key points:**
+- Alberta's Official Documents and Appointments office apostilles documents issued in Alberta and any document notarized in Alberta.
+- Corporate records, powers of attorney and similar documents need a notarized copy from an Alberta notary public.
+- As of 26 November 2026, the fee is CA$25 per document, paid online through Alberta eServices before you mail anything.
+- The front counter is closed, and rush, walk-in and while-you-wait services aren't available.
+
+### Who issues apostilles in Alberta?
+
+Apostilles in Alberta are issued by Official Documents and Appointments, an office of Alberta's Ministry of Justice in Edmonton, as the province's [Apostille Request Form](https://www.alberta.ca/system/files/jus-apostille-request-form.pdf) shows. Which authority handles your document depends on where it was issued and where it was notarized. [Global Affairs Canada's requirements](https://international.canada.ca/en/global-affairs/services/document-authentication/requirements) set these rules:
+
+| Your document | Who apostilles it |
+
+| Issued in Alberta, with an original signature or seal | Alberta |
+
+| Notarized by an Alberta notary, wherever it was issued | Alberta |
+
+| Notarized in Ontario or Saskatchewan, even if issued in Alberta | That province |
+
+| Issued by the Government of Canada and not notarized | Global Affairs Canada |
+
+| RCMP criminal record check | Global Affairs Canada, according to Alberta's page |
+
+An apostille certifies the public official's signature, the capacity in which they acted and, where relevant, the seal or stamp on the document, as Alberta's [document authentication page](https://www.alberta.ca/document-authentication-other-jurisdictions-countries) explains. It doesn't validate what the document says. The Apostille Convention entered into force for Canada on January 11, 2024, according to the [Hague Conference status table](https://www.hcch.net/en/instruments/conventions/status-table/?cid=41). Our guide to [apostille vs notarization](https://amlcanada.ca/apostille-vs-notarization-canada.html) explains how the two steps differ.
+
+### Which documents can Alberta apostille?
+
+Alberta lists birth, marriage and death certificates, education records, notarized documents, export records and corporate records among the public documents it can apostille. Each type has a condition it must meet first. As of 26 November 2026, [Alberta's page](https://www.alberta.ca/document-authentication-other-jurisdictions-countries) sets these:
+
+| Document | What Alberta needs before it will apostille |
+
+| Alberta birth certificate | An original on polymer paper, issued in Alberta after February 1, 2008 |
+
+| Alberta marriage or death certificate | An original issued in Alberta after January 1, 1999; no laminated or wallet-size versions |
+
+| Certificate of Divorce | The original signature of the clerk of the court and an impressed court seal |
+
+| Education records | Certified by an official of the institution as an official record or true copy, with a wet signature and embossed seal |
+
+| Criminal record check not issued by the RCMP | Notarized, then sent to Alberta |
+
+| Power of attorney, certificate of life, export or corporate records | A notarized copy from an Alberta notary public only, signed, sealed and dated |
+
+If a Vital Statistics document is laminated or wallet size, Alberta says to order an updated original from a registry agent. Documents over 10 pages must be double-sided. Our guide to [apostilling Canadian corporate documents](https://amlcanada.ca/apostille-corporate-documents-canada.html) covers which company records a foreign bank or regulator usually asks for.
+
+### Who can notarize a document for an Alberta apostille?
+
+Alberta asks for corporate records, powers of attorney and similar documents to be notarized by an Alberta notary public only. Under the Notaries and Commissioners Act, every Alberta notary can certify and attest a true copy of a document and witness the execution of a document, according to Alberta's [notaries public page](https://www.alberta.ca/notaries-public). Judges, lawyers and students-at-law are notaries because of their office.
+
+An Alberta notary's seal must show the notary's name, the words "Notary Public" and the words "Province of Alberta". A commissioner for oaths can't act as a notary public in Alberta, according to the province's [commissioners for oaths page](https://www.alberta.ca/commissioners-for-oaths). Our guide to [commissioners of oaths and notaries](https://amlcanada.ca/commissioner-of-oaths-vs-notary-public.html) explains the difference, and our guide to [certified true copies](https://amlcanada.ca/certified-true-copy-canada.html) covers who can certify a copy.
+
+Where a document notarized outside Alberta goes depends on the province. Global Affairs Canada says a document notarized in Ontario or Saskatchewan goes to that province, one notarized in Manitoba, the Atlantic provinces or the territories goes to Global Affairs Canada, and in British Columbia and Quebec the competent authority authenticates a notarized document only if the original was issued in that province. Our guide to [British Columbia](https://amlcanada.ca/apostille-british-columbia.html) covers the B.C. rules.
+
+### Can I walk in or get an apostille online?
+
+Neither, as of 26 November 2026. Alberta's front counter is closed and the office doesn't accept documents for authentication in person. Rush, walk-in and while-you-wait services aren't available, so every request goes by mail or courier.
+
+The only online step is payment. Alberta's [Certificates of Apostille eServices page](https://eservices.alberta.ca/certificates-of-apostille.html) takes the fee, and you must sign in with an Alberta.ca Account or an Alberta.ca Account for Organizations to use it. The paper documents still have to reach Edmonton.
+
+### How much does an apostille cost in Alberta?
+
+As of 26 November 2026, an Alberta apostille costs CA$25 per document. You make one payment per submission, so five documents cost CA$125. Alberta says not to send cash. It emails a receipt once the payment is processed, and you print it and include it with your documents as proof of payment.
+
+The [eServices rules](https://eservices.alberta.ca/certificates-of-apostille.html) say a missing receipt will delay the request, and an overpayment is refunded in the form of payment you used. Global Affairs Canada charges no fee for the documents it handles, as its [requirements page](https://international.canada.ca/en/global-affairs/services/document-authentication/requirements) states. Notary, courier and translation costs are separate.
+
+### How to send an Alberta apostille request
+
+Alberta's process has three steps: gather your documents, pay online, and mail everything with the receipt. This checklist puts every instruction from [Alberta's page](https://www.alberta.ca/document-authentication-other-jurisdictions-countries) and the request form in order:
+
+- Check each document against Alberta's requirements, and have any notarized copy made by an Alberta notary.
+
+- Complete the [Apostille Request Form](https://www.alberta.ca/system/files/jus-apostille-request-form.pdf) as your cover sheet. It asks for your contact details, a shipping address if different, each document type with the number of documents and the country of use, and your eServices payment order number and date paid.
+
+- Pay CA$25 per document online and print the emailed receipt.
+
+- Arrange the return. For a courier return, include a prepaid electronic waybill. For Canada Post, include a prepaid Priority Courier or Xpresspost envelope with the return address filled in legibly and in full.
+
+- Keep any tracking number, then mail or courier the form, documents and receipt to Official Documents and Appointments, #111, 9833 109 Street, Edmonton, Alberta T5K 2E8.
+
+Alberta doesn't accept handwritten waybills, and it returns those packages by Canada Post without notice. A return to an address outside Canada needs a prepaid electronic waybill. If you make your own cover sheet, include your name, telephone number, email address, return address and the country where the document will be used. The office's phone number is 780-427-5069.
+
+### How long does an Alberta apostille take?
+
+As of 26 November 2026, Alberta asks you to allow at least 7 to 10 business days for processing. Documents are processed in the order the office receives them. Because of high volumes, Alberta says it can't provide status updates, and Global Affairs Canada only gives updates on requests sent to its own office.
+
+If Alberta can't apostille a document, it returns the document and explains why in writing. Unless you included a prepaid envelope or courier waybill, documents come back by Canada Post. A recipient abroad can check an Alberta apostille with Global Affairs Canada's [verification tool](https://apostille-gac.powerappsportals.com/en/eregister-eregistre/), which since June 20, 2025 covers apostilles issued by Global Affairs Canada, Alberta, Saskatchewan and British Columbia, according to its [notices page](https://international.canada.ca/en/global-affairs/services/document-authentication/updates).
+
+### Countries outside the Convention and translations
+
+Alberta issues an apostille for all documents, even when the destination country hasn't signed the Apostille Convention. A document going to a non-member country may still need legalization by that country's foreign representative office, and Alberta tells applicants to contact the country's [representative in Canada](https://w05.international.gc.ca/Protocol-Protocole/Consular-Consulats.aspx?lang=eng). Alberta's page doesn't set translation rules, so ask the receiving party whether it needs a translation and whether that translation needs an apostille too.
+
+Our national guide to [getting an apostille in Canada](https://amlcanada.ca/apostille-canada-guide.html) compares every competent authority. For corporate documents, our [apostille and notarization service](https://amlcanada.ca/apostille-notarization-canada.html) coordinates the process, with notarization by a licensed Ontario partner notary. Because that notary is in Ontario, Global Affairs Canada's rule sends those documents to Ontario's competent authority. Personal documents such as birth certificates and degrees are outside that service.
+
+### Questions
+
+**Can I walk in to get an apostille in Alberta?** No. As of 26 November 2026, Alberta's front counter is closed, and rush, walk-in and while-you-wait services aren't available. Documents must be sent by mail or courier.
+
+**Can I do my Alberta apostille online?** Only the payment. You pay through Alberta eServices, which needs an Alberta.ca Account. The request form, documents and printed receipt still have to be mailed or couriered to Edmonton.
+
+**How much does an apostille cost in Alberta?** As of 26 November 2026, CA$25 per document, paid in one online payment per submission. Five documents cost CA$125.
+
+**How long does an Alberta apostille take?** Alberta asks you to allow at least 7 to 10 business days for processing. It processes documents in the order received and can't provide status updates.
+
+**Can Alberta apostille a document notarized in another province?** Alberta asks for notarized copies from an Alberta notary public only. Global Affairs Canada says a document notarized in Ontario or Saskatchewan goes to that province's competent authority.
+
+Sources: [Alberta, Document authentication for other jurisdictions and countries](https://www.alberta.ca/document-authentication-other-jurisdictions-countries); [Alberta eServices, Certificates of Apostille](https://eservices.alberta.ca/certificates-of-apostille.html); [Alberta, Apostille Request Form](https://www.alberta.ca/system/files/jus-apostille-request-form.pdf); [Alberta, Notaries public](https://www.alberta.ca/notaries-public); [Alberta, Commissioners for oaths](https://www.alberta.ca/commissioners-for-oaths); [Global Affairs Canada, Authentication of documents: Requirements](https://international.canada.ca/en/global-affairs/services/document-authentication/requirements); [Global Affairs Canada, Notices and updates](https://international.canada.ca/en/global-affairs/services/document-authentication/updates); [Global Affairs Canada, Verify an apostille](https://apostille-gac.powerappsportals.com/en/eregister-eregistre/); [Global Affairs Canada, Foreign representatives in Canada](https://w05.international.gc.ca/Protocol-Protocole/Consular-Consulats.aspx?lang=eng); [HCCH, Apostille Convention status table](https://www.hcch.net/en/instruments/conventions/status-table/?cid=41). Checked 26 November 2026.
+
+---
+
+## Guide: How to get an apostille in Quebec (2026 guide)
+
+URL: https://amlcanada.ca/apostille-quebec.html
+
+An apostille in Quebec is issued by the Ministère de la Justice du Québec for documents issued in Quebec, and requests go in by mail. As of 26 November 2026 the fee is CA$66.50 per document. Quebec issues its apostilles in French only.
+
+**Key points:**
+- Quebec apostilles only documents issued in Quebec. Federal, territorial and other provincial documents go elsewhere.
+- A private document needs an official certificate from a Quebec lawyer or notary, plus a signature authentication from their professional order.
+- As of 26 November 2026, Quebec charges CA$66.50 per document and takes requests by mail to its Montreal office.
+- Anyone can check a Quebec apostille issued on or after January 11, 2024 in the online apostille register.
+
+### Who issues apostilles in Quebec?
+
+The Ministère de la Justice du Québec issues apostilles for documents issued in Quebec, through its Délivrance des apostilles office in Montreal. Quebec's apostille register describes the apostilles it checks as those issued by the ministry, and fees are paid to the ministry's Register Fund. Quebec's application page also links to the province's [Act respecting Apostilles](https://www.legisquebec.gouv.qc.ca/en/document/cs/A-19.3).
+
+Quebec says it doesn't issue apostilles for documents from a federal authority, a territory or another province. [Global Affairs Canada](https://international.canada.ca/en/global-affairs/services/document-authentication/requirements) adds that in Quebec, the competent authority can authenticate a notarized document only if the original was issued in the province. Our guide to [getting an apostille in Canada](https://amlcanada.ca/apostille-canada-guide.html) covers the other authorities, and [apostille vs notarization](https://amlcanada.ca/apostille-vs-notarization-canada.html) explains how the two steps differ.
+
+The Apostille Convention entered into force for Canada on January 11, 2024, according to the [Hague Conference status table](https://www.hcch.net/en/instruments/conventions/status-table/?cid=41), which listed 130 contracting parties at its June 30, 2026 update. [Quebec](https://www.quebec.ca/en/justice-and-civil-status/services/apostille/about) also issues apostilles for countries outside the Convention, but says those countries may still require legalization.
+
+### Which documents can be apostilled in Quebec?
+
+Quebec apostilles originals, or copies certified true by the person or body that produced them, of four kinds of document: public body documents, court documents, authentic acts such as notarized documents, and documents from a private person or body with an establishment in Quebec. An apostille confirms the document's origin and the signature or seal on it. It doesn't certify the content.
+
+Quebec's page on [bodies that issue public documents](https://www.quebec.ca/en/justice-and-civil-status/services/apostille/bodies) says you must get each document from the body authorized to issue it. This table summarizes that page:
+
+| Issuing body | Examples | What Quebec asks for |
+
+| Directeur de l'état civil | Birth, marriage and death certificates | Certificates and copies of acts issued in 2015 or later; other documents issued in 2019 or later |
+
+| Registraire des entreprises du Québec | Certificate of regularity, company name change certificate, merger certificate | A copy or certificate ordered from the Registraire des entreprises |
+
+| Registre foncier | Certified copy of a land register document | The certified copy from the land register |
+
+| Ministère de l'Éducation, Ministère de l'Enseignement supérieur, schools and universities | Secondary school diploma, Diploma of College Studies, transcripts, university degrees | Diplomas from the ministry; transcripts from the school or college; degrees from the university. A non-subsidized or unrecognized private college's document needs a lawyer's or notary's official certificate |
+
+| Quebec notaries | Marriage contracts, wills, sales contracts, hypothecs | A certified true copy from the notary who made the act, plus an authenticity certificate from the Chambre des notaires du Québec |
+
+| Quebec courts | Court of Québec, Superior Court and Court of Appeal rulings; divorce certificates | Request from the clerk's office in the district; a judgment and certificate of no appeal can need one or two apostilles, depending on the recipient country |
+
+| Police | Police verification for civil purposes, Sûreté du Québec record check | A check from a private firm needs a lawyer's or notary's official certificate; RCMP documents go to Global Affairs Canada |
+
+Some documents can't be apostilled because of their format. Quebec gives a driver's licence, a social insurance number and a passport as examples, and returns them by regular mail without an apostille.
+
+### When is a lawyer's or notary's official certificate needed?
+
+A document from a person or body that isn't a public body must be officially certified by a Quebec lawyer or notary before Quebec will apostille it. [Quebec](https://www.quebec.ca/en/justice-and-civil-status/services/apostille/about) gives a single status affidavit, a consent letter for children travelling abroad, a baptismal certificate and a power of attorney as examples.
+
+The notarized document or the official certificate must come with a signature authentication from the professional order, which is the Barreau du Québec for lawyers and the Chambre des notaires du Québec for notaries. Quebec also says commissioners for oaths can't make copies or administer oaths for affidavits related to documents that need an apostille.
+
+A document in a language other than French or English also needs a lawyer's or notary's official certificate. The lawyer or notary must declare that they understand the document, or that they obtained a translation from a member of the Ordre des traducteurs, terminologues et interprètes agréés du Québec (OTTIAQ).
+
+### How do you get the signature authentication?
+
+For a lawyer, the [Barreau du Québec](https://www.barreau.qc.ca/en/general-public/doing-business-with-lawyer/verifying-status-lawyer/) Registry Office authenticates the signature. You email a copy of the signed document, and the office checks the signature against the sample in the lawyer's professional record and confirms the lawyer is or was on the Roll. As of 26 November 2026, the Barreau charges CA$50 plus taxes and sends the original certificate electronically within five business days of receiving the request and payment.
+
+For a notarial act, Quebec says to get a certified true copy from the notary who made the original act. You then get an authenticity certificate from the Chambre des notaires du Québec confirming that the notary is a member and signed the document.
+
+### How do I apply for an apostille in Quebec?
+
+You fill out Quebec's [online apostille request form](https://apostille.justice.gouv.qc.ca/), print it and mail it with your documents. Before you start, [Quebec](https://www.quebec.ca/en/justice-and-civil-status/services/apostille/applying) asks you to have the recipient country, your contact details, a payment method and the documents on hand, and to check that each document's issue date meets the recipient's requirements.
+
+- Confirm each document is issued in Quebec and qualifies, using the table above.
+
+- Get any lawyer's or notary's certificate and the matching signature authentication.
+
+- Ask the recipient whether a translation must also be apostilled. If it must, the translation needs a lawyer's or notary's official certificate too.
+
+- Fill out the form and choose credit card, money order or bank draft.
+
+- Print the form, without stapling it to any document.
+
+- Keep the documents for each apostille together, and use an envelope large enough to avoid damage.
+
+- Mail everything to Délivrance des apostilles, 276, rue Saint-Jacques, bureau 301, Montréal (Québec) H2Y 1N3.
+
+Quebec cancels any application whose documents aren't received within 3 months, and you then need a new application. A federal document with a translation by an OTTIAQ member is apostilled by Global Affairs Canada.
+
+### How much does it cost and how long does it take?
+
+As of 26 November 2026, Quebec charges CA$66.50 for each document, so a request with three documents costs CA$199.50. You can pay online by credit card, or by money order or bank draft payable to the Register Fund of the Ministère de la Justice. Quebec doesn't accept personal cheques.
+
+Quebec publishes the receipt date of the applications it is working on. On its [apostille page](https://www.quebec.ca/en/justice-and-civil-status/services/apostille) updated November 24, 2026, it was processing applications received on November 24, 2026, and it says times vary with volume. Processing starts once all required documents reach the office, so mail time comes on top.
+
+Apostilled documents come back by regular mail without a tracking number. For a courier or Canada Post expedited return, include a prepaid shipping label and an envelope of at least 8.5 x 11 inches at your own expense.
+
+### How do I verify a Quebec apostille?
+
+Quebec's [apostille register](https://registreapostilles.gouv.qc.ca/) checks apostilles issued by a Quebec competent authority on or after January 11, 2024. You enter the apostille's issue date and number, both of which appear on the apostille issued by the Ministère de la Justice.
+
+Quebec lists these [reasons for refusing a request](https://www.quebec.ca/en/justice-and-civil-status/services/apostille/after-request):
+
+- the document was issued too long ago to be validated;
+
+- the document is from outside Quebec;
+
+- the document has been altered;
+
+- the document is glued or laminated;
+
+- the document isn't an original or a true copy.
+
+### Quebec corporate documents
+
+Certificates from the Registraire des entreprises du Québec, such as a certificate of regularity, appear on Quebec's list of documents it can apostille. Company records you prepare yourself, like resolutions or a power of attorney, are private documents and need a lawyer's or notary's official certificate first.
+
+If a Quebec document is notarized in Ontario, [Global Affairs Canada](https://international.canada.ca/en/global-affairs/services/document-authentication/requirements) says it goes to Ontario's competent authority, wherever it was issued. Our guide to [apostilling corporate documents](https://amlcanada.ca/apostille-corporate-documents-canada.html) covers what foreign banks and regulators ask for. Our [apostille and notarization service](https://amlcanada.ca/apostille-notarization-canada.html) coordinates corporate documents only, with notarization by a licensed Ontario partner notary. A [certified true copy](https://amlcanada.ca/certified-true-copy-canada.html) is a separate step that our guide explains.
+
+### Questions
+
+**How do I get a document apostilled in Quebec?** Get the document from the Quebec body that issued it. If it is a private document, add a Quebec lawyer's or notary's official certificate plus a signature authentication from the Barreau du Québec or the Chambre des notaires du Québec (a notarial act needs a certified true copy and a Chambre des notaires authenticity certificate). Then fill out Quebec's online form and mail the printed form with the documents and payment to the Délivrance des apostilles office in Montreal.
+
+**Where is the Quebec apostille request form?** Quebec's application page links to an online form at apostille.justice.gouv.qc.ca. You fill it out, choose a payment method, print it and mail it with your documents.
+
+**How much is an apostille in Quebec?** As of 26 November 2026, CA$66.50 per document, payable by credit card online, money order or bank draft. Quebec doesn't accept personal cheques.
+
+**Can Quebec apostille a federal or Ontario document?** No. Quebec says it doesn't apostille documents issued by a federal authority, a territory or another province. Federal documents go to Global Affairs Canada, and Ontario documents to Ontario.
+
+**Which countries accept a Quebec apostille?** Countries where the Apostille Convention is in force. The Hague Conference listed 130 contracting parties at its June 30, 2026 update, including Thailand, where the Convention takes effect on February 28, 2027. Quebec also issues apostilles for other countries, which may still require legalization.
+
+Sources: [Quebec, Apostille](https://www.quebec.ca/en/justice-and-civil-status/services/apostille); [Quebec, About apostille](https://www.quebec.ca/en/justice-and-civil-status/services/apostille/about); [Quebec, Bodies that issue public documents](https://www.quebec.ca/en/justice-and-civil-status/services/apostille/bodies); [Quebec, Applying for an apostille](https://www.quebec.ca/en/justice-and-civil-status/services/apostille/applying); [Quebec, After sending your request](https://www.quebec.ca/en/justice-and-civil-status/services/apostille/after-request); [Quebec, Apostille request form](https://apostille.justice.gouv.qc.ca/); [Quebec, Registre des apostilles](https://registreapostilles.gouv.qc.ca/); [Act respecting Apostilles, CQLR c. A-19.3](https://www.legisquebec.gouv.qc.ca/en/document/cs/A-19.3); [Barreau du Québec, Verifying the status of a lawyer](https://www.barreau.qc.ca/en/general-public/doing-business-with-lawyer/verifying-status-lawyer/); [HCCH, Apostille Convention status table](https://www.hcch.net/en/instruments/conventions/status-table/?cid=41); [Global Affairs Canada, Authentication of documents: Requirements](https://international.canada.ca/en/global-affairs/services/document-authentication/requirements). Checked 26 November 2026.
+
+---
+
+## Guide: How to get an apostille in Ontario
+
+URL: https://amlcanada.ca/apostille-ontario.html
+
+An Ontario apostille is issued by Official Documents Services (ODS), the provincial office that authenticates documents for use outside Canada. ODS handles documents issued in Ontario and documents notarized by an Ontario notary public. Original federal documents go to Global Affairs Canada.
+
+**Key points:**
+- Official Documents Services issues apostilles in Ontario, in person at five offices or by mail to Toronto.
+- Ontario birth certificates, business registry documents since 1991, Superior Court or Ontario Court of Justice documents since July 10, 2023, and public post-secondary records since 2019 can go to ODS without notarization.
+- Any document notarized by an Ontario notary goes to Ontario, even a copy of a federal document.
+- As of 26 November 2026, ODS charges CA$16 per notarized document and CA$32 per Ontario government document, and processes mail-in requests within 15 business days.
+
+### Who issues apostilles in Ontario?
+
+Official Documents Services (ODS) is the authority that issues apostilles and certificates of authentication in Ontario, according to [Ontario's authentication page](https://www.ontario.ca/page/authenticate-document-use-outside-canada). ODS checks that the signature and seal on a document match its records. It doesn't validate what the document says.
+
+Canada joined the Hague Apostille Convention on January 11, 2024. Since then, ODS issues an apostille for a document going to a country that belongs to the Convention, and a certificate of authentication for a country that doesn't. The [Hague Conference status table](https://www.hcch.net/en/instruments/conventions/status-table/?cid=41) lists member countries. A certificate of authentication may still need legalization at the destination country's embassy or consulate. If you're unsure which of these steps your document needs, our guide to [apostille vs notarization](https://amlcanada.ca/apostille-vs-notarization-canada.html) explains the chain.
+
+### Does ServiceOntario do apostilles?
+
+Only at five locations. Ontario accepts in-person requests at the ODS office in ServiceOntario Toronto College Park, 777 Bay Street, Lower Level, and at ServiceOntario centres in Ottawa (Ottawa Courthouse), Sault Ste. Marie, Windsor (City Hall) and Thunder Bay. Other ServiceOntario centres aren't listed for authentication.
+
+All five locations open Monday to Friday, except statutory holidays. Since November 1, 2023, you can [book an authentication appointment](https://cxp.mgcs.gov.on.ca/eab-web/home) before you visit. ODS in Toronto is the only office that processes mail-in requests.
+
+### Which documents Ontario apostilles
+
+ODS authenticates Ontario-issued public documents and documents notarized by an Ontario notary public. [Global Affairs Canada](https://international.canada.ca/en/global-affairs/services/document-authentication/requirements) says a document notarized in Ontario goes to Ontario's competent authority, wherever the original was issued. Original federal documents go to Global Affairs Canada, which charges no fee. As of 26 November 2026, [Ontario](https://www.ontario.ca/page/authenticate-document-use-outside-canada) and Global Affairs Canada list these routes:
+
+| Document | Notarize first? | Who apostilles it |
+
+| Ontario vital statistics documents, including polymer birth certificates | No | ODS |
+
+| Business registry documents issued since 1991 by the Business and Personal Property Branch or the Ontario Business Registry | No | ODS |
+
+| Superior Court of Justice or Ontario Court of Justice documents issued since July 10, 2023 | No | ODS |
+
+| Ontario court documents issued before July 10, 2023 | Yes (a certificate of divorce can be reissued instead) | ODS |
+
+| Ontario public post-secondary degrees, diplomas and transcripts issued since January 1, 2019 | No | ODS |
+
+| Private documents and copies, including copies of federal documents, notarized by an Ontario notary | Already notarized | ODS |
+
+| Original Government of Canada documents not notarized in Ontario | Depends on the document; Global Affairs Canada says which | Global Affairs Canada |
+
+| Documents issued outside Canada | Not eligible, except a signature witnessed by an Ontario notary | The issuing country |
+
+Ontario won't authenticate documents commissioned by a commissioner for taking affidavits, religious documents, documents already legalized by a consulate or embassy, or pseudo-legal documents. Check each document on the [document authentication portal](https://www.officialdocuments.mgcs.gov.on.ca/en-US/authentication-landingpage/), which also says whether it needs notarizing.
+
+### When you need an Ontario notary first
+
+A document outside the categories above, such as a power of attorney or a copy, is eligible at ODS once an Ontario notary public has notarized it. ODS doesn't have an in-house notary. Under section 3 of the Notaries Act, a notary may witness the signing of a document and certify a true copy, according to the [Ministry of the Attorney General](https://www.ontario.ca/page/information-notaries-public-ontario).
+
+- The notary must be physically present with the signer. Remote notarization isn't permitted, and ODS won't apostille a remotely notarized document.
+
+- The full signature and seal must appear on the same page, and match the specimen ODS holds on file.
+
+- Lawyers and paralegals aren't notaries by right; they must apply and be appointed.
+
+- A notary who isn't a lawyer or paralegal may notarize only documents tied to the business or organization named in their appointment.
+
+A commissioner for taking affidavits can't stand in for a notary here, because ODS doesn't process commissioned documents. Our guide to [commissioners of oaths and notaries](https://amlcanada.ca/commissioner-of-oaths-vs-notary-public.html) explains the difference.
+
+### How can I get an apostille on a document in Ontario?
+
+Ontario sets out five steps on its [official page](https://www.ontario.ca/page/authenticate-document-use-outside-canada):
+
+- Confirm the requirements with the embassy, consulate or receiving party. ODS can't advise on what they want.
+
+- Check eligibility on the [document authentication portal](https://www.officialdocuments.mgcs.gov.on.ca/en-US/authentication-landingpage/).
+
+- Have the document notarized by an Ontario notary, if the portal says it's needed.
+
+- Prepare a hard copy. For documents thicker than one-quarter inch (7 mm), punch 2 holes in the upper-left corner.
+
+- Submit a service request online through the portal, or complete the [service request form](https://forms.mgcs.gov.on.ca/en/dataset/002-35-5118) for mail-in or in-person submission.
+
+An online request gives you a service request number by email. You still deliver that number, the documents and payment by mail or in person. Mail goes to Official Documents Services, 777 Bay Street, Lower Level, Toronto, ON M7A 2J8. ODS returns mail-in documents by regular mail; include a prepaid return envelope or a computer-generated return waybill if you want tracking.
+
+### How much does an apostille cost in Ontario, and how long does it take?
+
+As of 26 November 2026, [Ontario](https://www.ontario.ca/page/authenticate-document-use-outside-canada) charges these fees per document, in Canadian dollars and exempt from tax:
+
+| Document type | Fee |
+
+| Notarized legal document | CA$16 |
+
+| Ontario government official document | CA$32 |
+
+| Ontario court-issued document | CA$32 |
+
+| Ontario public post-secondary degree, diploma or transcript | CA$32 |
+
+| Filing with a foreign consulate or embassy | CA$32 |
+
+| Status of good standing for a notary public | CA$16 |
+
+Two notarized documents cost CA$32. In person, ODS takes cash, Visa, Mastercard, debit, certified cheque or money order. By mail, it takes a certified cheque or money order payable to the Minister of Finance, or Visa or Mastercard through the mail-in form.
+
+ODS issues mail-in apostilles within 15 business days of receiving the documents. The standard in-person wait is about 30 minutes if the request is complete, and longer for several items. Court-issued documents can take up to 10 business days in person.
+
+### Documents in other languages
+
+Ontario only apostilles a document in a language other than English or French if it was issued in Canada, notarized by an Ontario notary public and accompanied by a translation. The translation can come from a certified translator who belongs to a recognized provincial association, listed by the [Canadian Translators, Terminologists and Interpreters Council](https://www.cttic.org/member-societies/). An Ontario notary who speaks both languages can attest it instead, stating that they speak English or French and the original language and certifying the translation is accurate.
+
+### Checklist before you send, and verifying an Ontario apostille
+
+ODS says it will only authenticate a document if the request meets its conditions. Before you submit, check that:
+
+- the receiving party has confirmed it wants an apostille or certificate of authentication;
+
+- the portal shows the document is eligible at ODS, and not at Global Affairs Canada;
+
+- the document is a paper original or a notarized paper copy, never an electronic file;
+
+- any notarization was done in person by an Ontario notary, not commissioned;
+
+- the notary's signature and seal are on the same page;
+
+- translations meet Ontario's two options;
+
+- the service request form or number and the fee for each document are included.
+
+A recipient can check an Ontario apostille on the [ODS verification page](https://www.officialdocuments.mgcs.gov.on.ca/en-US/validity-check/) with the apostille number and issue date. The tool covers apostilles issued after January 11, 2024; certificates of authentication are verified by contacting ODS.
+
+Our general guide covers [apostilles across Canada](https://amlcanada.ca/apostille-canada-guide.html), and our guide to [apostilling corporate documents](https://amlcanada.ca/apostille-corporate-documents-canada.html) covers records for foreign banks and regulators. Our [apostille and notarization service](https://amlcanada.ca/apostille-notarization-canada.html) coordinates corporate documents only, with notarization by a licensed Ontario partner notary or lawyer. We aren't a notary, and we don't handle personal documents.
+
+### Questions
+
+**Does ServiceOntario do apostilles?** Some locations do. Official Documents Services takes in-person requests at ServiceOntario Toronto College Park and at ServiceOntario centres in Ottawa, Sault Ste. Marie, Windsor and Thunder Bay. Mail-in requests go only to ODS in Toronto.
+
+**How long does an apostille take in Ontario?** As of 26 November 2026, ODS issues mail-in apostilles within 15 business days of receiving the documents. In person, the standard wait is about 30 minutes for a complete request, and court-issued documents can take up to 10 business days.
+
+**How much does an apostille cost in Ontario?** As of 26 November 2026, CA$16 per notarized document and CA$32 per Ontario government, court-issued or public post-secondary document. Fees apply to each document.
+
+**Can Ontario apostille a federal document?** Not an original. Original Government of Canada documents go to Global Affairs Canada. Global Affairs Canada says a document notarized in Ontario goes to Ontario, so a notarized copy of a federal document is apostilled by ODS.
+
+**Can I apostille a document notarized online in Ontario?** No. The Notaries Act doesn't permit remote notarization, and the Ministry of the Attorney General says ODS won't authenticate or apostille documents notarized remotely.
+
+Sources: [Ontario, Authenticate a document for use outside Canada](https://www.ontario.ca/page/authenticate-document-use-outside-canada); [Ontario, Information for notaries public](https://www.ontario.ca/page/information-notaries-public-ontario); [Official Documents Services, Document authentication portal](https://www.officialdocuments.mgcs.gov.on.ca/en-US/authentication-landingpage/); [Official Documents Services, Apostille verification](https://www.officialdocuments.mgcs.gov.on.ca/en-US/validity-check/); [Ontario, Authentication service request form](https://forms.mgcs.gov.on.ca/en/dataset/002-35-5118); [Global Affairs Canada, Authentication requirements](https://international.canada.ca/en/global-affairs/services/document-authentication/requirements); [HCCH, Apostille Convention status table](https://www.hcch.net/en/instruments/conventions/status-table/?cid=41). Checked 26 November 2026.
+
+---
+
+## Guide: Apostille vs notary in Canada: what each step does and who does it
+
+URL: https://amlcanada.ca/apostille-vs-notarization-canada.html
+
+The apostille vs notary question comes down to who signs what. A notary public witnesses a signature, takes an oath or certifies a copy. An apostille is a certificate from a government competent authority that confirms that signature and seal, so the document can be used in another Apostille Convention country.
+
+**Key points:**
+- A notary performs an act on the document. An apostille certifies the signature, capacity and seal of the official or notary who signed it.
+- Global Affairs Canada and five provinces (Alberta, British Columbia, Ontario, Quebec and Saskatchewan) issue apostilles in Canada.
+- For a country outside the Apostille Convention, the document is authenticated in Canada and may then need legalization at that country's embassy or consulate.
+- Ontario won't apostille documents commissioned by a commissioner for taking affidavits or documents notarized remotely.
+
+### Apostille vs notary: what is the difference?
+
+A notary public performs a notarial act on your document, such as witnessing a signature, receiving a declaration or affidavit, or certifying a true copy, according to the [Global Affairs Canada glossary](https://international.canada.ca/en/global-affairs/services/document-authentication/glossary). An apostille comes later. It is a certificate from a government competent authority confirming the signature and seal already on the document.
+
+The Apostille Convention sets out what the certificate covers. Under [Article 5 of the Convention](https://www.hcch.net/en/instruments/conventions/full-text/?cid=41), an apostille certifies the authenticity of the signature, the capacity in which the signer acted and, where appropriate, the identity of the seal or stamp. [Quebec](https://www.quebec.ca/en/justice-and-civil-status/services/apostille/about) says an apostille does not certify the document's content.
+
+In Canada, notaries public are appointed by the province or territory where they practise, according to the glossary.
+
+### Apostille vs authentication vs legalization
+
+Authentication, apostille and legalization are steps in the same chain. Global Affairs Canada's [frequently asked questions](https://international.canada.ca/en/global-affairs/services/document-authentication/faq) say authentication proves that the signature and seal on a document are genuine, so another country can recognize it. An apostille is a specific type of authentication certificate, issued by parties to the 1961 Apostille Convention.
+
+Legalization is a further certification by the destination country. Article 2 of the Convention defines it as the formality by which that country's diplomatic or consular agents certify the signature, the signer's capacity and any seal or stamp.
+
+Article 3 makes the apostille the only formality a member country may require to certify a signature, capacity and seal. Canada acceded to the Convention on May 12, 2023, and it entered into force for Canada on January 11, 2024, according to the [Hague Conference status table](https://www.hcch.net/en/instruments/conventions/status-table/?cid=41).
+
+### Notarization, authentication, apostille and legalization compared
+
+The four steps differ in who performs them, what they confirm and where they count. The table follows Canadian authorities and the Convention, as of 26 November 2026.
+
+| Step | Who does it in Canada | What it certifies | Where it is used |
+
+| Notarization | A notary public appointed by a province or territory; in Quebec, a document from a person or body that isn't a public body but has an establishment in Quebec must be officially certified by a lawyer or notary | A witnessed signature, an oath or declaration, or a true copy | The first step for private documents and copies; the competent authority checks the notary's signature and seal against its records |
+
+| Authentication certificate | Global Affairs Canada, or a provincial authority such as Ontario's Official Documents Services | That the signature and seal of the official or notary are genuine | Countries outside the Convention, where legalization may follow |
+
+| Apostille | Global Affairs Canada, or the competent authority in Alberta, British Columbia, Ontario, Quebec or Saskatchewan | The signature, the signer's capacity and the seal or stamp (Convention, Article 5) | Countries where the Convention is in force with Canada, with no legalization |
+
+| Legalization | The destination country's embassy, high commission or consulate in or accredited to Canada | The signature, capacity and seal, certified by that country's diplomatic or consular agents (Convention, Article 2) | That destination country only |
+
+Ontario's [Official Documents Services](https://www.ontario.ca/page/authenticate-document-use-outside-canada) compares the signature and seal against what it holds on file, and says it doesn't validate the contents of documents.
+
+### How can I apostille my documents? The Canadian chain
+
+A Canadian document going abroad can pass through up to four hands: the receiving party, a notary, a competent authority and, for some countries, an embassy. The destination country's law decides whether you need authentication at all, according to Global Affairs Canada's [requirements](https://international.canada.ca/en/global-affairs/services/document-authentication/requirements).
+
+- The receiving party, or the destination country's nearest representative office, tells you what it needs; Global Affairs Canada says to check requirements with them.
+
+- A notary public notarizes the document if needed. Global Affairs Canada expects a valid certificate of appointment, an ink signature, and a stamp or seal showing the notary's full name and province or territory.
+
+- The competent authority issues the apostille or authentication certificate. Global Affairs Canada handles federal documents and documents issued or notarized in Manitoba, New Brunswick, Newfoundland and Labrador, Nova Scotia, Prince Edward Island and the three territories. A document notarized in Alberta, Ontario or Saskatchewan goes to that province. British Columbia and Quebec authenticate a notarized document only if the original was issued in the province.
+
+- For a country outside the Convention, the destination's embassy, high commission or consulate may legalize the document.
+
+Our guide to [getting an apostille in Canada](https://amlcanada.ca/apostille-canada-guide.html) covers forms and fees. Provincial steps are in our guides for [Ontario](https://amlcanada.ca/apostille-ontario.html), [Quebec](https://amlcanada.ca/apostille-quebec.html), [Alberta](https://amlcanada.ca/apostille-alberta.html) and [British Columbia](https://amlcanada.ca/apostille-british-columbia.html).
+
+### When do you need a notary before the apostille?
+
+You need a notary first when the competent authority can't verify the signature on the document itself. Global Affairs Canada says that if it can't authenticate a signature, for example because the signer isn't a public official known to its office, it may be able to authenticate a notarized copy.
+
+Some government originals skip the notary. [Ontario](https://www.ontario.ca/page/authenticate-document-use-outside-canada) apostilles vital statistics documents, business registry documents issued since 1991, Superior Court of Justice and Ontario Court of Justice documents issued since July 10, 2023, and public postsecondary degrees, diplomas and transcripts issued since January 1, 2019, without notarization.
+
+Plain photocopies can't be authenticated, but Global Affairs Canada may authenticate a copy certified by a notary. For Vital Statistics documents, it apostilles only originals or certified copies issued by those offices. Our guide to [certified true copies](https://amlcanada.ca/certified-true-copy-canada.html) explains who can certify a copy for each purpose.
+
+In [Quebec](https://www.quebec.ca/en/justice-and-civil-status/services/apostille/about), a document issued by a person or body that isn't a public body but has an establishment in Quebec must be officially certified by a lawyer or notary, and the certificate must come with a signature authentication from the Barreau du Québec or the Chambre des notaires du Québec.
+
+### Can a commissioner of oaths do the notary's step?
+
+A commissioner of oaths generally can't replace the notary for a document going for an apostille. The [Ministry of the Attorney General](https://www.ontario.ca/page/information-notaries-public-ontario) says commissioned documents cannot be apostilled, and that Ontario's Official Documents Services doesn't process them.
+
+In Ontario, a commissioner for taking affidavits may administer oaths and take affidavits, declarations and affirmations. A notary public has those powers too, and under section 3 of the Notaries Act can also attest the signing of a document and certify a true copy. Quebec says commissioners for oaths can't make copies or administer oaths for affidavits related to documents requiring an apostille.
+
+Global Affairs Canada understands that commissioners for oaths in Canada generally aren't authorized to certify copies. Each province sets these powers, as our guide to [commissioner of oaths vs notary public](https://amlcanada.ca/commissioner-of-oaths-vs-notary-public.html) explains.
+
+### What countries accept apostilles?
+
+Apostilles are accepted in countries where the Apostille Convention is in force with Canada. The [Hague Conference status table](https://www.hcch.net/en/instruments/conventions/status-table/?cid=41) listed 130 Contracting Parties at its last update on June 30, 2026, including some for which it isn't yet in force.
+
+Under Article 12 of the Convention, an accession takes effect only between the acceding country and members that didn't object within six months, and the status table marks accessions that drew an objection. Global Affairs Canada also says some countries accept only its own authentication, so check with the destination before relying on a provincial apostille.
+
+### What is the fastest way to get an apostille?
+
+The fastest route is a complete, eligible document sent to the right competent authority the first time, because Global Affairs Canada returns documents that don't meet its requirements unauthenticated. As of 26 November 2026, [Global Affairs Canada](https://international.canada.ca/en/global-affairs/services/document-authentication) was processing requests received 25 business days earlier, plus 5 to 10 business days of mailing time within Canada.
+
+Global Affairs Canada offers no expedited service and considers priority processing only for urgent, exceptional circumstances outside your control. It says processing times are the same whether you apply directly or through a third-party service provider.
+
+For corporate records going to a foreign bank or regulator, see our guide to [apostilling Canadian corporate documents](https://amlcanada.ca/apostille-corporate-documents-canada.html). Our [apostille and notarization service](https://amlcanada.ca/apostille-notarization-canada.html) coordinates the chain for corporate documents only. AML Canada is not a notary; a licensed Ontario partner notary or lawyer does the notarization, and the fee is quoted per document set, with government fees separate.
+
+### Questions
+
+**Is a notarized document the same as an apostilled document?** No. A notarized document carries a notary's signature and seal. An apostilled document also carries a certificate from a competent authority confirming that signature and seal for use in an Apostille Convention country.
+
+**What is the purpose of an apostille?** It lets a public document from one Convention country be used in another without legalization. Under Article 5 of the Convention, it certifies the signature, the signer's capacity and any seal or stamp.
+
+**Do I need both a notary and an apostille?** Often. Private documents and copies are usually notarized first so the competent authority can verify a known signature. Some government originals, such as Ontario vital statistics documents, go straight to the authority.
+
+**Can a document notarized remotely in Ontario be apostilled?** No. The Notaries Act doesn't permit remote notarization, and Ontario's Official Documents Services won't authenticate or apostille documents notarized remotely.
+
+Sources: [Global Affairs Canada, Authentication of documents](https://international.canada.ca/en/global-affairs/services/document-authentication); [Requirements](https://international.canada.ca/en/global-affairs/services/document-authentication/requirements); [Frequently asked questions](https://international.canada.ca/en/global-affairs/services/document-authentication/faq); [Glossary](https://international.canada.ca/en/global-affairs/services/document-authentication/glossary); [HCCH, Apostille Convention full text](https://www.hcch.net/en/instruments/conventions/full-text/?cid=41); [HCCH, Apostille Convention status table](https://www.hcch.net/en/instruments/conventions/status-table/?cid=41); [Ontario, Authenticate a document for use outside Canada](https://www.ontario.ca/page/authenticate-document-use-outside-canada); [Ontario, Information for notaries public](https://www.ontario.ca/page/information-notaries-public-ontario); [Quebec, About apostille](https://www.quebec.ca/en/justice-and-civil-status/services/apostille/about). Checked 26 November 2026.
+
+---
+
 ## Guide: MSB bank account in Canada: what a bank must check and what to have ready
 
 URL: https://amlcanada.ca/msb-bank-account-canada.html
