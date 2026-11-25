@@ -1201,6 +1201,39 @@
     reopen?.addEventListener("click", () => { banner.hidden = false; $("[data-consent-yes]", banner).focus(); });
   }
 
+  /* Guides index: search, topic filter and sort over the cards already in the page */
+  const gf = $("[data-guide-filter]");
+  if (gf) {
+    const grid = $("[data-gf-grid]"), cards = $$(".gcard", grid), q = $("[data-gf-q]", gf), sort = $("[data-gf-sort]", gf);
+    const count = $("[data-gf-count]"), empty = $("[data-gf-empty]"), chips = $$("[data-gf-topic]", gf);
+    const lang = document.documentElement.lang || "en";
+    const fmt = new Intl.DateTimeFormat(lang, { year: "numeric", month: "short", day: "numeric" });
+    cards.forEach((c) => {
+      const t = $("time", c);
+      if (t && t.dateTime) t.textContent = fmt.format(new Date(t.dateTime + "T12:00:00"));
+      c.dataset.text = c.textContent.toLowerCase();
+    });
+    let topic = "";
+    const apply = () => {
+      const words = q.value.toLowerCase().trim().split(/\s+/).filter(Boolean);
+      const shown = cards.filter((c) => (!topic || c.dataset.topic === topic) && words.every((w) => c.dataset.text.includes(w)));
+      if (sort.value === "az") shown.sort((a, b) => $("h3", a).textContent.localeCompare($("h3", b).textContent, lang));
+      else shown.sort((a, b) => (sort.value === "old" ? 1 : -1) * a.dataset.date.localeCompare(b.dataset.date));
+      cards.forEach((c) => { c.hidden = !shown.includes(c); });
+      shown.forEach((c) => grid.appendChild(c));
+      count.textContent = tr("Showing {n} of {total}", { n: shown.length, total: cards.length });
+      empty.hidden = shown.length > 0;
+    };
+    chips.forEach((b) => b.addEventListener("click", () => {
+      topic = b.dataset.gfTopic;
+      chips.forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
+      apply();
+    }));
+    q.addEventListener("input", apply);
+    sort.addEventListener("change", apply);
+    apply();
+  }
+
   const yr = $("[data-year]");
   if (yr) yr.textContent = new Date().getFullYear();
 })();

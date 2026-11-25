@@ -1000,6 +1000,55 @@ for _f in GUIDES:
 for _f in DEEP:  # after the guide helpers, so service pages can list their guides
     PAGES[_f] = deep_page(_f)
 
+# Guides index: every guide and update in one grid with search, topic filter and sort (main.js wires it up)
+GUIDE_TOPICS = [("msb", "MSB registration"), ("aml", "AML compliance programs"), ("rpaa", "RPAA and PSPs"),
+                ("apostille", "Apostille and notarization"), ("update", "Updates")]
+TOPIC_BY_SERVICE = {"msb-registration.html": "msb", "msb-for-sale.html": "msb", "canadian-address.html": "msb", "incorporation-canada.html": "msb",
+                    "rpaa-compliance-program.html": "rpaa", "rpaa-registration.html": "rpaa", "apostille-notarization-canada.html": "apostille"}
+
+
+def guide_topic(g):
+    return "update" if g.get("kind") == "update" else TOPIC_BY_SERVICE.get(g["service"], "aml")
+
+
+def gdate(g):
+    return g.get("date") or PUBLISHED  # guides from the October launch carry no date
+
+
+def guides_index():
+    files = sorted(GUIDES, key=lambda f: gdate(GUIDES[f]), reverse=True)
+    cards = "\n".join(f"""          <a class="gcard" href="{f}" data-topic="{guide_topic(g)}" data-date="{gdate(g)}">
+            <span class="gcard-meta"><span class="gcard-tag">{g["label"].split("·")[-1].strip()}</span><time class="gcard-date" datetime="{gdate(g)}">{gdate(g)}</time></span>
+            <h3>{g["h1"]}</h3>
+            <p>{g["lede"]}</p>
+            <span class="link-ink">Read the guide {arrow()}</span>
+          </a>""" for f in files for g in [GUIDES[f]])
+    chips = "\n".join(f'            <button type="button" data-gf-topic="{k}" aria-pressed="false">{name}</button>' for k, name in GUIDE_TOPICS)
+    return f"""    <section class="guides-more guides-index" id="start" data-theme="light" aria-labelledby="gm-title">
+      <div class="wrap">
+        <h2 id="gm-title">All guides and updates</h2>
+        <div class="gfilter" data-guide-filter>
+          <label class="gfilter-search"><span class="sr-only">Search guides</span><input type="search" placeholder="Search guides" autocomplete="off" data-gf-q></label>
+          <div class="gfilter-chips" role="group" aria-label="Filter by topic">
+            <button type="button" data-gf-topic="" aria-pressed="true">All topics</button>
+{chips}
+          </div>
+          <label class="gfilter-sort"><span>Sort by</span><select data-gf-sort>
+            <option value="new">Newest first</option>
+            <option value="old">Oldest first</option>
+            <option value="az">Title, A to Z</option>
+          </select></label>
+        </div>
+        <p class="gfilter-count" aria-live="polite" data-gf-count></p>
+        <div class="gcard-grid" data-gf-grid>
+{cards}
+        </div>
+        <p class="gfilter-empty" data-gf-empty hidden>No guides match. Try another word or topic.</p>
+      </div>
+    </section>
+"""
+
+
 PAGES["guides.html"] = (
     head("AML Compliance Guides for Canada: FINTRAC & RPAA | AML Canada",
          "Plain-English guides to FINTRAC MSB registration, foreign MSBs, FINTRAC reporting, crypto registration and the Bank of Canada's RPAA, with sources.",
@@ -1007,11 +1056,7 @@ PAGES["guides.html"] = (
     + nav("guides.html") + '  <main id="main">\n'
     + page_hero([], "Guides", ("Guides to FINTRAC and RPAA compliance.",
                 "Plain-English answers to the questions we hear most, checked against FINTRAC and the Bank of Canada."), f"Guides · {len(GUIDES)}", actions=False)
-    + (guide_cards(sorted((f for f, g in GUIDES.items() if g.get("kind") == "update"), key=lambda f: GUIDES[f]["date"], reverse=True)[:9],
-                   "Latest updates").replace('class="guides-more"', 'class="guides-more guides-index" id="start"', 1)
-       if any(g.get("kind") == "update" for g in GUIDES.values()) else "")
-    + guide_cards([f for f, g in GUIDES.items() if g.get("kind") != "update"], "All guides").replace(
-        'class="guides-more"', 'class="guides-more guides-index" id="start"' if not any(g.get("kind") == "update" for g in GUIDES.values()) else 'class="guides-more"', 1)
+    + guides_index()
     + close_and_footer()
 )
 

@@ -316,3 +316,22 @@
 .listing-status { font: 500 12px/1.4 var(--mono); letter-spacing: 0.05em; text-transform: uppercase; color: var(--ink); }
 .listing-table td a { color: var(--ink); text-underline-offset: 3px; }
 .listing-table th, .listing-table td { position: relative; }
+
+/* Guides index: search, topic filter, sort */
+.gfilter { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 16px; margin-top: 28px; }
+.gfilter-search { flex: 1 1 280px; }
+.gfilter-search input { width: 100%; height: 46px; padding: 0 18px; border: 1px solid var(--line); border-radius: 999px; background: var(--paper); color: var(--ink); font: inherit; font-size: 16px; }
+.gfilter-search input:focus-visible, .gfilter-chips button:focus-visible, .gfilter-sort select:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+.gfilter-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.gfilter-chips button { height: 38px; padding: 0 15px; border: 1px solid var(--line); border-radius: 999px; background: transparent; color: var(--ink-2); font: inherit; font-size: 14px; cursor: pointer; transition: background-color 0.25s var(--ease), color 0.25s var(--ease); }
+.gfilter-chips button:hover { background: var(--mist); }
+.gfilter-chips button[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: var(--paper); }
+.gfilter-sort { display: flex; align-items: center; gap: 8px; font-size: 14px; color: var(--ink-3); }
+.gfilter-sort select { height: 38px; padding: 0 12px; border: 1px solid var(--line); border-radius: 999px; background: var(--paper); color: var(--ink); font: inherit; font-size: 14px; }
+.gfilter-count { margin-top: 20px; font: 400 11.5px/1 var(--mono); letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-3); }
+.gfilter-count:empty { display: none; }
+.gfilter-count + .gcard-grid { margin-top: 16px; }
+.gfilter-empty { margin-top: 24px; color: var(--ink-2); }
+.gcard[hidden] { display: none; }
+.gcard-meta { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
+.gcard-date { font: 400 11.5px/1 var(--mono); letter-spacing: 0.04em; color: var(--ink-3); white-space: nowrap; }
