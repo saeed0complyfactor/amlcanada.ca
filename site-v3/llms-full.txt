@@ -1632,6 +1632,134 @@ Sources: [FINTRAC MSB registry](https://fintrac-canafe.canada.ca/msb-esm/reg-eng
 
 ---
 
+## Guide: FINTRAC supervision priorities after the FATF evaluation: what MSBs can expect
+
+URL: https://amlcanada.ca/fintrac-supervision-priorities-2026-msb.html
+
+FINTRAC plans to put more of its supervision effort into higher-risk sectors, including virtual currencies, and expects every business it supervises to show a clear link between its documented risks and its controls. Tina Matos, FINTRAC's Deputy Director of Supervision and Chief Compliance Officer, set out these priorities in a speech to The Assembly Canada (ACAMS) in Toronto on 9 October 2026. This post explains what she said and what money services businesses (MSBs) should check.
+
+**Key points:**
+- FINTRAC's overall cost-recovered envelope, which Ms. Matos discussed in relation to supervision, is rising by about $25 million this fiscal year to $85 million, and virtual currencies are one of the sectors named for deeper supervision.
+- Risk will decide where FINTRAC looks, how closely and how it responds, from guidance for lower-risk businesses to stronger enforcement for significant or persistent non-compliance.
+- FINTRAC wants each business to show a documented link between the risks it has identified and the measures it uses to manage them.
+- Universal enrolment and the new penalty framework under the Strengthening Canada's Immigration System and Borders Act are part of the plan. Enrolment still depends on regulations that have not been published.
+
+### What did FINTRAC say about supervision in October 2026?
+
+On 29 September 2026, FINTRAC published a [statement](https://fintrac-canafe.canada.ca/new-neuf/statementfatf-declarationgafi-eng) on the Financial Action Task Force (FATF) evaluation of Canada's anti-money laundering regime. FINTRAC said the evaluation found it has a strong research and analytics capability and a good understanding of sector vulnerabilities, and that it had recently finalized a new Supervision Framework.
+
+On 9 October 2026, Tina Matos spoke about what the evaluation means for supervision. Her [speaking notes](https://fintrac-canafe.canada.ca/new-neuf/ps-pa/2026-10-09-eng), published by FINTRAC, cover three topics: FINTRAC's main takeaways from the evaluation, how they are shaping its approach to risk-based supervision, and what reporting entities should expect. She said FINTRAC will use the findings to "accelerate and guide" its modernization.
+
+A speech does not change the law. Your obligations still come from the Proceeds of Crime (Money Laundering) and Terrorist Financing Act and its regulations. The speech is useful because it tells you how the supervisor plans to check them.
+
+### How is FINTRAC's supervision funding changing?
+
+The Minister of Finance and National Revenue approved an increase in FINTRAC's cost-recovered envelope, which Ms. Matos discussed in relation to supervision. These are the figures FINTRAC has published:
+
+| Measure | Figure | Source |
+
+| Cost-recovered envelope, 2025-26 base | Roughly $60 million | Speaking notes |
+
+| Increase this fiscal year | About $25 million, to an overall envelope of $85 million | Speaking notes |
+
+| Supervision-related resources over the next two years | Up 60% ($37 million) | FATF statement |
+
+| Businesses subject to the Act | 38,000 | FATF statement |
+
+The speaking notes give this fiscal year's increase in the cost-recovered envelope. The FATF statement gives the increase in supervision-related resources over two years.
+
+According to the speaking notes, the increase will be used to:
+
+- deepen supervision in sectors such as financial institutions, virtual currencies and online gaming;
+
+- supervise newer sectors, such as mortgage lenders, leasing and financing companies, and factoring companies;
+
+- implement the new administrative monetary penalty framework and a universal enrolment program;
+
+- support the expansion with a modernized IT platform.
+
+Ms. Matos said her intention is to focus on key vulnerabilities in higher-risk areas. In 2025-26, more than 55% of FINTRAC's assessment activities focused on MSBs, according to its [results by the numbers](https://fintrac-canafe.canada.ca/publications/ar/2025-2026-info-eng) page. Our post on [FINTRAC's 2025-26 annual report](https://amlcanada.ca/fintrac-annual-report-2025-26-msb-supervision.html) has the full figures.
+
+### How will FINTRAC decide which businesses to supervise?
+
+Ms. Matos said FINTRAC will use technology and data to build a fuller picture of risk across all the businesses it supervises. She listed the information it plans to bring together:
+
+- what it learns through examinations;
+
+- the effectiveness of a business's compliance controls;
+
+- reporting and data-quality concerns;
+
+- enforcement history;
+
+- voluntary disclosures of non-compliance;
+
+- intelligence and information from its partners.
+
+The response will scale with risk. Where risk is lower, FINTRAC may focus on compliance promotion, guidance or monitoring. As risk rises, supervision goes deeper. Where it finds significant or persistent non-compliance, it will use stronger enforcement tools. FINTRAC wants to be "predictable, transparent and fair," according to the speech, and it must be firm when it finds non-compliance.
+
+Examiners will keep using professional judgement, she said, and will weigh the evidence and the circumstances of each business. Our guide to [preparing for a FINTRAC examination](https://amlcanada.ca/fintrac-examination-preparation.html) covers what examiners usually ask for.
+
+### What does FINTRAC expect from MSBs?
+
+Her main request to businesses concerned the risk assessment. Ms. Matos asked every business to know its risks, document them clearly and make sure they drive the compliance program. She said a risk assessment should reflect the realities of the business and be supported by the information available to it.
+
+She said that businesses in the same sector can have very different risk profiles because of their products, customers, geographic exposure, delivery channels and business models. FINTRAC expects a business to show a "clear and defensible connection" between the risks it has identified and the measures it has put in place, and to update its program as the business and its risks change.
+
+This matches a change in the law. Since 26 March 2026, the Act has required compliance programs to be reasonably designed, risk-based and effective, according to FINTRAC's [modernization page](https://fintrac-canafe.canada.ca/businesses-entreprises/changes-changements-eng). FINTRAC says it will update its guidance on these expectations. Its current [risk assessment guidance](https://fintrac-canafe.canada.ca/guidance-directives/compliance-conformite/rba/rba-eng) and [compliance program guidance](https://fintrac-canafe.canada.ca/guidance-directives/compliance-conformite/Guide4/4-eng) are still published. Our guides explain [how to do a FINTRAC risk assessment](https://amlcanada.ca/fintrac-risk-assessment-msb.html) and the [five parts of a compliance program](https://amlcanada.ca/fintrac-compliance-program-requirements.html).
+
+### What changes with universal enrolment and the new penalties?
+
+Ms. Matos said universal enrolment "will be a game changer" for FINTRAC. FINTRAC's [modernization page](https://fintrac-canafe.canada.ca/businesses-entreprises/changes-changements-eng) says it will require businesses subject to the Act, other than those already required to register, to enrol with FINTRAC. MSBs already register, so the new requirement is aimed at other sectors. It will come into force in line with regulations to be published in the Canada Gazette, Part II, and FINTRAC says it will share details as they become available.
+
+The new penalty framework is already in force for violations after 26 March 2026. FINTRAC's [page on the changes](https://fintrac-canafe.canada.ca/pen/3-eng) lists:
+
+- maximum penalties up to 40 times the previous limits;
+
+- ability to pay as a factor in setting a penalty;
+
+- mandatory compliance agreements for prescribed violations;
+
+- compliance orders as a new enforcement tool.
+
+FINTRAC will scope each examination's review period so that it falls entirely before or entirely after 26 March 2026, and will apply one set of rules to the whole period. Our [guide to FINTRAC penalties](https://amlcanada.ca/fintrac-penalties-amps.html) explains how amounts are set.
+
+### What should an MSB check now?
+
+You can test each point in the speech against your own program:
+
+| What FINTRAC said | What to check |
+
+| The risk assessment should reflect the realities of the business | It names your actual products, client types, countries, delivery channels and agents, and it was updated when you last added a service. |
+
+| A defensible link between risks and measures | Each higher-risk factor points to a specific control, such as enhanced due diligence, a monitoring rule or a transaction limit, and you can show the evidence. |
+
+| The program should change as the business changes | Policies and the risk assessment carry review dates, and changes are recorded with the reason. |
+
+| Data-quality concerns and voluntary disclosures feed FINTRAC's risk picture | You check your reports for errors and late filing, and you have a process to decide on a voluntary self-declaration. |
+
+| Deeper supervision of virtual currencies | If you deal in virtual currency, your effectiveness review tests your virtual currency reporting and record keeping. |
+
+| Mandatory compliance agreements under the new penalty framework | Open findings from your last effectiveness review are fixed and tested before an examiner finds them. |
+
+If your risk assessment has not been reviewed since it was written, review it first. Our [compliance program service](https://amlcanada.ca/compliance-programs.html) covers writing and updating these documents for MSBs.
+
+### Questions
+
+**Who is Tina Matos?** Tina Matos is FINTRAC's Deputy Director of Supervision and Chief Compliance Officer. She spoke about FINTRAC's supervision priorities at The Assembly Canada (ACAMS) in Toronto on 9 October 2026, and FINTRAC published her speaking notes.
+
+**How much funding does FINTRAC have for supervision?** According to the speaking notes, FINTRAC's cost-recovered envelope, discussed in relation to supervision, was roughly $60 million in 2025-26 and rises by about $25 million this fiscal year, to an envelope of $85 million. FINTRAC's FATF statement says supervision-related resources will rise by 60% ($37 million) over the next two years.
+
+**What is FINTRAC universal enrolment?** Universal enrolment is a requirement added by the Strengthening Canada's Immigration System and Borders Act for businesses subject to the Act, other than those already required to register, to enrol with FINTRAC. MSBs already register. It comes into force in line with regulations still to be published in the Canada Gazette, Part II.
+
+**Does the speech change what MSBs must do?** No. A speech does not change the law. MSB obligations come from the Proceeds of Crime (Money Laundering) and Terrorist Financing Act and its regulations, which since 26 March 2026 require compliance programs to be reasonably designed, risk-based and effective. The speech explains how FINTRAC plans to supervise those obligations.
+
+**Which sectors will FINTRAC supervise more closely?** The speaking notes name financial institutions, virtual currencies and online gaming as sectors for deeper supervision, and mortgage lenders, leasing and financing companies and factoring companies as newer sectors FINTRAC will supervise.
+
+Sources: [FINTRAC, Speaking notes for Tina Matos at The Assembly Canada (ACAMS), 9 October 2026](https://fintrac-canafe.canada.ca/new-neuf/ps-pa/2026-10-09-eng); [FINTRAC, Statement on the FATF evaluation (29 September 2026)](https://fintrac-canafe.canada.ca/new-neuf/statementfatf-declarationgafi-eng); [FINTRAC, Results by the numbers 2025-26](https://fintrac-canafe.canada.ca/publications/ar/2025-2026-info-eng); [Strengthening Canada's Immigration System and Borders Act, S.C. 2026, c. 4](https://laws-lois.justice.gc.ca/eng/AnnualStatutes/2026_4/FullText.html); [FINTRAC, Modernization and upcoming changes impacting reporting entities](https://fintrac-canafe.canada.ca/businesses-entreprises/changes-changements-eng); [FINTRAC, Administrative monetary penalties: changes following legislative amendments](https://fintrac-canafe.canada.ca/pen/3-eng); [FINTRAC, Risk assessment guidance](https://fintrac-canafe.canada.ca/guidance-directives/compliance-conformite/rba/rba-eng); [FINTRAC, Compliance program requirements](https://fintrac-canafe.canada.ca/guidance-directives/compliance-conformite/Guide4/4-eng); [FINTRAC, Voluntary self-declaration of non-compliance](https://fintrac-canafe.canada.ca/guidance-directives/exam-examen/vsdonc/1-eng). Checked 27 November 2026.
+
+---
+
 ## Guide: Commissioner of oaths vs notary public: what each can do in Ontario
 
 URL: https://amlcanada.ca/commissioner-of-oaths-vs-notary-public.html
