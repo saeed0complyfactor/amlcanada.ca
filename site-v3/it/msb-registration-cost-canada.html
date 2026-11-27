@@ -123,8 +123,8 @@
 </nav>
 <div class="nav-end">
         <!--i18n:switch--><details class="lang-switch" data-lang-switch><summary aria-label="Lingua: Italiano"><svg aria-hidden="true" viewBox="0 0 16 16"><circle cx="8" cy="8" r="6.2" fill="none" stroke="currentColor" stroke-width="1.3"/><path d="M1.8 8h12.4M8 1.8c2 2 2 10.4 0 12.4M8 1.8c-2 2-2 10.4 0 12.4" fill="none" stroke="currentColor" stroke-width="1.3"/></svg><span>IT</span></summary><ul><li><a href="/msb-registration-cost-canada.html" hreflang="en-CA" lang="en-CA">English</a></li><li><a href="/fr/msb-registration-cost-canada.html" hreflang="fr-CA" lang="fr-CA">Français</a></li><li><a href="/de/msb-registration-cost-canada.html" hreflang="de" lang="de">Deutsch</a></li><li><a href="/ar/msb-registration-cost-canada.html" hreflang="ar" lang="ar">العربية</a></li><li><a href="/zh-hans/msb-registration-cost-canada.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li><li><a href="/zh-hant/msb-registration-cost-canada.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li><li><a href="/es/msb-registration-cost-canada.html" hreflang="es" lang="es">Español</a></li><li><a href="/pt-br/msb-registration-cost-canada.html" hreflang="pt-BR" lang="pt-BR">Português</a></li><li><a href="/it/msb-registration-cost-canada.html" hreflang="it" lang="it" aria-current="true">Italiano</a></li><li><a href="/pl/msb-registration-cost-canada.html" hreflang="pl" lang="pl">Polski</a></li><li><a href="/ru/msb-registration-cost-canada.html" hreflang="ru" lang="ru">Русский</a></li><li><a href="/uk/msb-registration-cost-canada.html" hreflang="uk" lang="uk">Українська</a></li></ul></details><!--/i18n:switch-->
-<a class="nbtn nbtn-amber" href="contact.html"><span>Prenota una</span><span>consulenza</span></a>
-<a class="nbtn nbtn-white" href="./#checker"><span>Verifica</span><span>delle lacune</span></a>
+<a class="nbtn nbtn-amber" data-track="nav-book" href="contact.html"><span>Prenota una</span><span>consulenza</span></a>
+<a class="nbtn nbtn-white" data-track="nav-gap-check" href="./#checker"><span>Verifica</span><span>delle lacune</span></a>
 <a class="nbtn nbtn-grey" href="mailto:info@amlcanada.ca"><span>Ci</span><span>contatti</span></a>
 <button aria-controls="menu" aria-expanded="false" class="nav-menu" data-menu-open="" type="button">
 <svg aria-hidden="true"><use href="#i-menu"></use></svg>
@@ -239,7 +239,7 @@
 </section>
 <section aria-label="Servizio correlato" class="gcta" data-theme="light">
 <div class="wrap">
-<a class="gcta-card" data-theme="dark" href="pricing.html">
+<a class="gcta-card" data-theme="dark" data-track="guide-service" href="pricing.html">
 <span class="fee-label">Le serve aiuto?</span>
 <span class="gcta-name">Prezzi</span>
 <span class="gcta-desc">Tariffe fisse per registrazione, programmi di conformità, RPAA e responsabili della conformità esternalizzati.</span>
@@ -291,7 +291,7 @@
 <canvas aria-hidden="true" class="close-canvas" data-close-canvas=""></canvas>
 <div class="wrap close-inner">
 <h2 id="close-title">Ci dica in cosa possiamo aiutarLa.</h2>
-<a class="btn btn-amber" href="contact.html">Prenota una consulenza <svg aria-hidden="true"><use href="#i-arrow"></use></svg></a>
+<a class="btn btn-amber" data-track="close-book" href="contact.html">Prenota una consulenza <svg aria-hidden="true"><use href="#i-arrow"></use></svg></a>
 </div>
 </section>
 <p class="i18n-note wrap">Questa pagina è tradotta dall'inglese. In caso di discrepanze, prevale la versione inglese. <a href="https://amlcanada.ca/msb-registration-cost-canada.html" hreflang="en-CA" lang="en-CA">Leggi in inglese</a></p></main>
@@ -347,13 +347,14 @@
 <div class="wrap footer-note"><p>Le informazioni presenti su questo sito sono di carattere generale e non costituiscono consulenza legale.</p></div>
 </footer>
 <div aria-label="Preferenze sui cookie" class="consent" data-consent="" hidden="" role="region">
-<p>Vorremmo utilizzare i cookie di Google Analytics per capire come viene utilizzato questo sito. Vengono caricati solo se Lei accetta. <a href="../privacy.html#cookies">Come utilizziamo i dati</a></p>
+<p>Vorremmo utilizzare i cookie di Google Analytics e Microsoft Clarity per capire come viene utilizzato questo sito. Vengono caricati solo se Lei accetta. <a href="../privacy.html#cookies">Come utilizziamo i dati</a></p>
 <div class="consent-actions">
 <button class="nbtn nbtn-grey" data-consent-no="" type="button"><span>Rifiuta</span></button>
 <button class="nbtn nbtn-amber" data-consent-yes="" type="button"><span>Accetta</span></button>
 </div>
 </div>
 <script defer="" src="../site-config.js"></script>
+<script defer="" src="../analytics.js"></script>
 <script>window.I18N={"Client · ID verified": "Cliente · ID verificato", "4 cash deposits · 24h · $9,600 avg": "4 depositi in contanti · 24 ore · media 9.600 CAD", "Intl EFT · $14,500 · Reportable": "Bonifico internaz. · 14.500 CAD · Da segnalare", "Name screen · Clear": "Controllo nominativo · Nessuna corrispondenza", "FINTRAC registration": "Registrazione presso FINTRAC", "MSB registration": "Registrazione MSB", "A representative for service in Canada": "Un rappresentante per le notifiche in Canada", "A named compliance officer": "Un responsabile della conformità nominato", "Compliance programs": "Programmi di conformità", "Written policies and procedures": "Politiche e procedure scritte", "A documented risk assessment": "Una valutazione del rischio documentata", "An ongoing training program": "Un programma di formazione continuo", "Training": "Formazione", "An effectiveness review in the last two years": "Una verifica di efficacia negli ultimi due anni", "Effectiveness reviews": "Verifiche di efficacia", "FINTRAC registration, in progress": "Registrazione presso FINTRAC, in corso", "In place": "In atto", "of {total}": "su {total}", "{have} of {total} in place.": "{have} su {total} in atto.", "Gaps: {list}.": "Lacune: {list}.", "No gaps flagged. We'd like a second opinion.": "Nessuna lacuna segnalata. Vorremmo un secondo parere.", "and": "e", "That email address doesn't look complete. Please check it.": "L'indirizzo email non sembra completo. La preghiamo di verificarlo.", "Please add your {list}.": "Aggiunga: {list}.", "Sending…": "Invio in corso…", "Thank you. We'll be in touch to find a time.": "Grazie. La contatteremo per fissare un appuntamento.", "Online requests aren't switched on yet. Please email info@amlcanada.ca and we'll find a time.": "Le richieste online non sono ancora attive. Scriva a info@amlcanada.ca e fisseremo un appuntamento.", "That didn't go through. Please check your connection and try again.": "L'invio non è riuscito. Verifichi la connessione e riprovi.", "Showing {n} of {total}": "{n} di {total} visualizzate"}</script><script defer="" src="../main.js"></script>
 </body>
 </html>

@@ -1162,43 +1162,13 @@
   /* Job applications: FormSubmit takes up to 10 MB in total */
   $$("[data-cv]").forEach((i) => i.addEventListener("change", () => i.setCustomValidity(i.files[0]?.size > 10e6 ? "Please attach a file under 10 MB." : "")));
 
-  /* Analytics: Cloudflare Web Analytics is cookieless and loads directly.
-     The Google tag loads only after the visitor accepts the cookie banner. */
-  const addScript = (src, attrs = {}) => {
+  /* Cloudflare Web Analytics is cookieless, so it loads without the banner.
+     GA4 and Clarity load from analytics.js, only after consent. */
+  if (CFG.cfBeacon) {
     const sc = document.createElement("script");
-    sc.src = src; sc.async = true;
-    Object.entries(attrs).forEach(([k, v]) => sc.setAttribute(k, v));
+    sc.src = "https://static.cloudflareinsights.com/beacon.min.js"; sc.defer = true;
+    sc.setAttribute("data-cf-beacon", JSON.stringify({ token: CFG.cfBeacon }));
     document.head.appendChild(sc);
-  };
-  if (CFG.cfBeacon) addScript("https://static.cloudflareinsights.com/beacon.min.js", { defer: "", "data-cf-beacon": JSON.stringify({ token: CFG.cfBeacon }) });
-
-  const CONSENT_KEY = "amlc-consent";
-  const store = { get: () => { try { return localStorage.getItem(CONSENT_KEY); } catch { return null; } },
-                  set: (v) => { try { localStorage.setItem(CONSENT_KEY, v); } catch { /* storage blocked */ } } };
-  let gtagLoaded = false;
-  const loadGoogle = () => {
-    if (gtagLoaded || !CFG.gaId) return;
-    gtagLoaded = true;
-    window.dataLayer = window.dataLayer || [];
-    window.gtag = function () { window.dataLayer.push(arguments); };
-    window.gtag("consent", "default", { analytics_storage: "granted", ad_storage: "denied", ad_user_data: "denied", ad_personalization: "denied" });
-    window.gtag("js", new Date());
-    window.gtag("config", CFG.gaId, { anonymize_ip: true });
-    addScript(`https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(CFG.gaId)}`);
-  };
-  const banner = $("[data-consent]");
-  const reopen = $("[data-consent-open]");
-  if (CFG.gaId && banner) {
-    reopen && (reopen.hidden = false);
-    const choice = store.get();
-    if (choice === "yes") loadGoogle();
-    else if (choice !== "no") banner.hidden = false;
-    $("[data-consent-yes]", banner).addEventListener("click", () => { store.set("yes"); banner.hidden = true; loadGoogle(); });
-    $("[data-consent-no]", banner).addEventListener("click", () => {
-      store.set("no"); banner.hidden = true;
-      if (gtagLoaded) { window.gtag("consent", "update", { analytics_storage: "denied" }); }
-    });
-    reopen?.addEventListener("click", () => { banner.hidden = false; $("[data-consent-yes]", banner).focus(); });
   }
 
   /* Guides index: search, topic filter and sort over the cards already in the page */

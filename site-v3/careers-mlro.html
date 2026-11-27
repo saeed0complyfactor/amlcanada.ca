@@ -106,8 +106,8 @@
         </ul>
       </nav>
       <div class="nav-end">
-        <a class="nbtn nbtn-amber" href="contact.html"><span>Book a</span><span>consultation</span></a>
-        <a class="nbtn nbtn-white" href="./#checker"><span>Gap</span><span>check</span></a>
+        <a class="nbtn nbtn-amber" href="contact.html" data-track="nav-book"><span>Book a</span><span>consultation</span></a>
+        <a class="nbtn nbtn-white" href="./#checker" data-track="nav-gap-check"><span>Gap</span><span>check</span></a>
         <a class="nbtn nbtn-grey" href="mailto:info@amlcanada.ca"><span>Contact</span><span>us</span></a>
         <button class="nav-menu" type="button" aria-expanded="false" aria-controls="menu" data-menu-open>
           <svg aria-hidden="true"><use href="#i-menu"/></svg>
@@ -282,7 +282,7 @@
   </footer>
 
   <div class="consent" role="region" aria-label="Cookie choices" hidden data-consent>
-    <p>We'd like to use Google Analytics cookies to understand how this site is used. They load only if you accept. <a href="privacy.html#cookies">How we use data</a></p>
+    <p>We'd like to use Google Analytics and Microsoft Clarity cookies to understand how this site is used. They load only if you accept. <a href="privacy.html#cookies">How we use data</a></p>
     <div class="consent-actions">
       <button class="nbtn nbtn-grey" type="button" data-consent-no><span>Decline</span></button>
       <button class="nbtn nbtn-amber" type="button" data-consent-yes><span>Accept</span></button>
@@ -290,6 +290,7 @@
   </div>
 
   <script src="site-config.js" defer></script>
+  <script src="analytics.js" defer></script>
   <script src="main.js" defer></script>
 </body>
 </html>

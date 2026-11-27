@@ -123,8 +123,8 @@
 </nav>
 <div class="nav-end">
         <!--i18n:switch--><details class="lang-switch" data-lang-switch><summary aria-label="Мова: Українська"><svg aria-hidden="true" viewBox="0 0 16 16"><circle cx="8" cy="8" r="6.2" fill="none" stroke="currentColor" stroke-width="1.3"/><path d="M1.8 8h12.4M8 1.8c2 2 2 10.4 0 12.4M8 1.8c-2 2-2 10.4 0 12.4" fill="none" stroke="currentColor" stroke-width="1.3"/></svg><span>UK</span></summary><ul><li><a href="/how-to-register-msb-canada.html" hreflang="en-CA" lang="en-CA">English</a></li><li><a href="/fr/how-to-register-msb-canada.html" hreflang="fr-CA" lang="fr-CA">Français</a></li><li><a href="/de/how-to-register-msb-canada.html" hreflang="de" lang="de">Deutsch</a></li><li><a href="/ar/how-to-register-msb-canada.html" hreflang="ar" lang="ar">العربية</a></li><li><a href="/zh-hans/how-to-register-msb-canada.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li><li><a href="/zh-hant/how-to-register-msb-canada.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li><li><a href="/es/how-to-register-msb-canada.html" hreflang="es" lang="es">Español</a></li><li><a href="/pt-br/how-to-register-msb-canada.html" hreflang="pt-BR" lang="pt-BR">Português</a></li><li><a href="/it/how-to-register-msb-canada.html" hreflang="it" lang="it">Italiano</a></li><li><a href="/pl/how-to-register-msb-canada.html" hreflang="pl" lang="pl">Polski</a></li><li><a href="/ru/how-to-register-msb-canada.html" hreflang="ru" lang="ru">Русский</a></li><li><a href="/uk/how-to-register-msb-canada.html" hreflang="uk" lang="uk" aria-current="true">Українська</a></li></ul></details><!--/i18n:switch-->
-<a class="nbtn nbtn-amber" href="contact.html"><span>Записатися на</span><span>консультацію</span></a>
-<a class="nbtn nbtn-white" href="./#checker"><span>Аналіз</span><span>прогалин</span></a>
+<a class="nbtn nbtn-amber" data-track="nav-book" href="contact.html"><span>Записатися на</span><span>консультацію</span></a>
+<a class="nbtn nbtn-white" data-track="nav-gap-check" href="./#checker"><span>Аналіз</span><span>прогалин</span></a>
 <a class="nbtn nbtn-grey" href="mailto:info@amlcanada.ca"><span>Зв’язатися</span><span>з нами</span></a>
 <button aria-controls="menu" aria-expanded="false" class="nav-menu" data-menu-open="" type="button">
 <svg aria-hidden="true"><use href="#i-menu"></use></svg>
@@ -259,7 +259,7 @@
 </section>
 <section aria-label="Пов’язана послуга" class="gcta" data-theme="light">
 <div class="wrap">
-<a class="gcta-card" data-theme="dark" href="msb-registration.html">
+<a class="gcta-card" data-theme="dark" data-track="guide-service" href="msb-registration.html">
 <span class="fee-label">Потрібна допомога з цим?</span>
 <span class="gcta-name">Реєстрація MSB</span>
 <span class="gcta-desc">Реєстрація у FINTRAC для компаній грошових послуг, іноземних MSB і дилерів віртуальної валюти.</span>
@@ -314,7 +314,7 @@
 <canvas aria-hidden="true" class="close-canvas" data-close-canvas=""></canvas>
 <div class="wrap close-inner">
 <h2 id="close-title">Розкажіть, з чим вам потрібна допомога.</h2>
-<a class="btn btn-amber" href="contact.html?need=register">Записатися на консультацію <svg aria-hidden="true"><use href="#i-arrow"></use></svg></a>
+<a class="btn btn-amber" data-track="close-book" href="contact.html?need=register">Записатися на консультацію <svg aria-hidden="true"><use href="#i-arrow"></use></svg></a>
 </div>
 </section>
 <p class="i18n-note wrap">Цю сторінку перекладено з англійської. У разі розбіжностей переважну силу має англійська версія. <a href="https://amlcanada.ca/how-to-register-msb-canada.html" hreflang="en-CA" lang="en-CA">Читати англійською</a></p></main>
@@ -370,13 +370,14 @@
 <div class="wrap footer-note"><p>Інформація на цьому сайті має загальний характер і не є юридичною консультацією.</p></div>
 </footer>
 <div aria-label="Налаштування файлів cookie" class="consent" data-consent="" hidden="" role="region">
-<p>Ми хотіли б використовувати файли cookie Google Analytics, щоб розуміти, як використовується цей сайт. Вони завантажуються лише за вашої згоди. <a href="../privacy.html#cookies">Як ми використовуємо дані</a></p>
+<p>Ми хотіли б використовувати файли cookie Google Analytics і Microsoft Clarity, щоб розуміти, як використовується цей сайт. Вони завантажуються лише за вашої згоди. <a href="../privacy.html#cookies">Як ми використовуємо дані</a></p>
 <div class="consent-actions">
 <button class="nbtn nbtn-grey" data-consent-no="" type="button"><span>Відхилити</span></button>
 <button class="nbtn nbtn-amber" data-consent-yes="" type="button"><span>Прийняти</span></button>
 </div>
 </div>
 <script defer="" src="../site-config.js"></script>
+<script defer="" src="../analytics.js"></script>
 <script>window.I18N={"Client · ID verified": "Клієнт · особу верифіковано", "4 cash deposits · 24h · $9,600 avg": "4 внески готівкою · 24 год · у середньому 9 600 CAD", "Intl EFT · $14,500 · Reportable": "Міжн. EFT · 14 500 CAD · Підлягає звітуванню", "Name screen · Clear": "Перевірка імені · Збігів немає", "FINTRAC registration": "Реєстрація у FINTRAC", "MSB registration": "Реєстрація MSB", "A representative for service in Canada": "Представник для отримання документів у Канаді", "A named compliance officer": "Призначений комплаєнс-офіцер", "Compliance programs": "Програми комплаєнсу", "Written policies and procedures": "Письмові політики та процедури", "A documented risk assessment": "Задокументована оцінка ризиків", "An ongoing training program": "Постійна програма навчання", "Training": "Навчання", "An effectiveness review in the last two years": "Перевірка ефективності за останні два роки", "Effectiveness reviews": "Перевірки ефективності", "FINTRAC registration, in progress": "Реєстрація у FINTRAC, у процесі", "In place": "Налагоджено", "of {total}": "з {total}", "{have} of {total} in place.": "{have} з {total} налагоджено.", "Gaps: {list}.": "Прогалини: {list}.", "No gaps flagged. We'd like a second opinion.": "Прогалин не виявлено. Хочемо отримати другу думку.", "and": "і", "That email address doesn't look complete. Please check it.": "Ця адреса електронної пошти виглядає неповною. Будь ласка, перевірте її.", "Please add your {list}.": "Будь ласка, додайте: {list}.", "Sending…": "Надсилання…", "Thank you. We'll be in touch to find a time.": "Дякуємо. Ми зв’яжемося з вами, щоб узгодити час.", "Online requests aren't switched on yet. Please email info@amlcanada.ca and we'll find a time.": "Онлайн-запити ще не ввімкнено. Будь ласка, напишіть на info@amlcanada.ca, і ми узгодимо час.", "That didn't go through. Please check your connection and try again.": "Не вдалося надіслати. Будь ласка, перевірте з’єднання та спробуйте ще раз.", "Showing {n} of {total}": "Показано {n} з {total}"}</script><script defer="" src="../main.js"></script>
 </body>
 </html>

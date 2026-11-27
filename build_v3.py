@@ -278,8 +278,8 @@ def nav(current):
         </ul>
       </nav>
       <div class="nav-end">
-        <a class="nbtn nbtn-amber" href="contact.html"><span>Book a</span><span>consultation</span></a>
-        <a class="nbtn nbtn-white" href="./#checker"><span>Gap</span><span>check</span></a>
+        <a class="nbtn nbtn-amber" href="contact.html" data-track="nav-book"><span>Book a</span><span>consultation</span></a>
+        <a class="nbtn nbtn-white" href="./#checker" data-track="nav-gap-check"><span>Gap</span><span>check</span></a>
         <a class="nbtn nbtn-grey" href="mailto:{EMAIL}"><span>Contact</span><span>us</span></a>
         <button class="nav-menu" type="button" aria-expanded="false" aria-controls="menu" data-menu-open>
           <svg aria-hidden="true"><use href="#i-menu"/></svg>
@@ -406,7 +406,7 @@ def footer():
   </footer>
 
   <div class="consent" role="region" aria-label="Cookie choices" hidden data-consent>
-    <p>We'd like to use Google Analytics cookies to understand how this site is used. They load only if you accept. <a href="privacy.html#cookies">How we use data</a></p>
+    <p>We'd like to use Google Analytics and Microsoft Clarity cookies to understand how this site is used. They load only if you accept. <a href="privacy.html#cookies">How we use data</a></p>
     <div class="consent-actions">
       <button class="nbtn nbtn-grey" type="button" data-consent-no><span>Decline</span></button>
       <button class="nbtn nbtn-amber" type="button" data-consent-yes><span>Accept</span></button>
@@ -414,6 +414,7 @@ def footer():
   </div>
 
   <script src="site-config.js" defer></script>
+  <script src="analytics.js" defer></script>
   <script src="main.js" defer></script>
 """
 
@@ -427,7 +428,7 @@ def page_hero(crumbs, title, lede, label, flag=False, actions=True, need="", pri
     crumb_html = "".join(f'<a href="{h}">{t}</a><span aria-hidden="true">/</span>' for h, t in crumbs)
     act = f"""
           <div class="hero-actions">
-            <a class="btn btn-amber" href="contact.html{'?need=' + need if need else ''}">Book a consultation {arrow()}</a>
+            <a class="btn btn-amber" href="contact.html{'?need=' + need if need else ''}" data-track="hero-book">Book a consultation {arrow()}</a>
             <a class="link-dark" href="#start">Read on</a>{f'{chr(10)}            <span class="hero-price">{price}</span>' if price else ""}{chat_links() if need in ("acquire", "sell") else ""}
           </div>""" if actions else ""
     # With a kicker, the keyword phrase is the H1 and the display tagline becomes a styled paragraph.
@@ -451,7 +452,7 @@ def close_and_footer(close_title="Tell us what you need help&nbsp;with.", need="
       <canvas class="close-canvas" aria-hidden="true" data-close-canvas></canvas>
       <div class="wrap close-inner">
         <h2 id="close-title">{close_title}</h2>
-        <a class="btn btn-amber" href="contact.html{'?need=' + need if need else ''}">Book a consultation {arrow()}</a>
+        <a class="btn btn-amber" href="contact.html{'?need=' + need if need else ''}" data-track="close-book">Book a consultation {arrow()}</a>
       </div>
     </section>
   </main>
@@ -547,7 +548,7 @@ def fee_band(fee, need):
             <p class="fee-amount">{fee["amount"]}</p>
             <p class="fee-unit">{fee["unit"]}</p>
             <p class="fee-note">{fee["note"]}</p>
-            <a class="btn btn-amber" href="contact.html?need={need}">Book a consultation {arrow()}</a>
+            <a class="btn btn-amber" href="contact.html?need={need}" data-track="fee-book">Book a consultation {arrow()}</a>
           </div>
           <div class="fee-incl">
             <p class="fee-label">Included</p>
@@ -937,7 +938,7 @@ def service_cta(file):
         _, name, _, desc, price = SERVICE[file]
     return f"""    <section class="gcta" data-theme="light" aria-label="Related service">
       <div class="wrap">
-        <a class="gcta-card" href="{file}" data-theme="dark">
+        <a class="gcta-card" href="{file}" data-theme="dark" data-track="guide-service">
           <span class="fee-label">Need a hand with this?</span>
           <span class="gcta-name">{name}</span>
           <span class="gcta-desc">{desc}</span>
@@ -1113,17 +1114,26 @@ def _site_switch(name):
         return False
 
 
-GA_ON, CF_ON = _site_switch("gaId"), _site_switch("cfBeacon")
+GA_ON, CL_ON, CF_ON = _site_switch("gaId"), _site_switch("clarityId"), _site_switch("cfBeacon")
 POSTAL_LINE = ", ".join(ADDRESS_LINES)
 
-if GA_ON or CF_ON:
+if GA_ON or CL_ON or CF_ON:
     _analytics = []
     if CF_ON:
         _analytics.append("<strong>Cloudflare Web Analytics</strong> counts visits without cookies and without tracking you across sites.")
     if GA_ON:
-        _analytics.append("<strong>Google Analytics</strong> (through the Google tag) uses cookies to measure how the site is used. It loads only after you choose \"Accept\" in the cookie banner. If you decline, or don't choose, it stays off. You can change your choice at any time with \"Cookie choices\" in the footer. Your choice is stored in your browser so we don't ask on every page.")
+        _analytics.append("<strong>Google Analytics 4</strong>, from Google, uses cookies to give us usage statistics: which pages are visited, the site you came from, and your approximate location and device type.")
+    if CL_ON:
+        _analytics.append("<strong>Microsoft Clarity</strong>, from Microsoft, uses cookies to give us usage statistics, heatmaps of where people click and scroll, and recordings of how visitors move through a page. What you type into forms is masked, so Clarity doesn't record it.")
+    if GA_ON or CL_ON:
+        _both = GA_ON and CL_ON
+        _analytics.append(("These tools load" if _both else "This tool loads") + " only after you choose \"Accept\" in the cookie banner. If you decline, or don't choose, "
+                          + ("they stay off. We don't use them" if _both else "it stays off. We don't use it") + " for advertising"
+                          + (": Google's advertising storage and ad personalization are switched off." if GA_ON else ".")
+                          + " You can change your choice at any time with \"Cookie choices\" in the footer. Your choice is stored in your browser so we don't ask on every page. If you switch to \"Decline\", "
+                          + ("they stop" if _both else "it stops") + " collecting, though cookies already set may stay in your browser until they expire or you clear them.")
     COOKIES_TEXT = P(*_analytics)
-    USAGE_ITEM = "<strong>Usage information.</strong> Pages visited, referring site, approximate location and device type, collected as described under Cookies and analytics."
+    USAGE_ITEM = "<strong>Usage information.</strong> Pages visited, referring site, approximate location and device type" + (", and how you click and scroll on a page" if CL_ON else "") + ", collected as described under Cookies and analytics."
 else:
     COOKIES_TEXT = P(
         "This site doesn't use analytics tools, advertising cookies or tracking pixels, and it doesn't set cookies.",
@@ -1146,7 +1156,7 @@ PRIVACY = [
         "To reply to your request and arrange a consultation.",
         "To provide services you engage us for, under a separate written agreement.",
         "To keep the site secure and prevent abuse, such as spam form submissions.",
-        *(["To understand how the site is used and improve it."] if (GA_ON or CF_ON) else [])) + "\n" + P(
+        *(["To understand how the site is used and improve it."] if (GA_ON or CL_ON or CF_ON) else [])) + "\n" + P(
         "We don't sell personal information, and we don't use your consultation details for marketing without your consent.")),
     ("cookies", "Cookies and analytics", COOKIES_TEXT),
     ("share", "Who we share it with", P("We share personal information only with service providers that help us run this site and respond to you, and only as much as they need:") + "\n" + UL(
@@ -1154,7 +1164,8 @@ PRIVACY = [
         "<strong>Web3Forms</strong>, which delivers consultation form submissions to our inbox.",
         "<strong>FormSubmit</strong>, which delivers job applications and CVs to our inbox.",
         *(["<strong>Cloudflare</strong>, for cookieless visit counts."] if CF_ON else []),
-        *(["<strong>Google</strong>, for analytics, only if you accept analytics cookies."] if GA_ON else []),
+        *(["<strong>Google</strong>, for Google Analytics 4, only if you accept analytics cookies."] if GA_ON else []),
+        *(["<strong>Microsoft</strong>, for Clarity, only if you accept analytics cookies."] if CL_ON else []),
         "Our email provider, for correspondence.") + "\n" + P(
         "Some of these providers process information outside Canada, including in the United States, where it may be accessible to authorities under local law. We may also disclose information where the law requires it.")),
     ("keep", "How long we keep it", P(
@@ -1354,14 +1365,17 @@ SITE_CONFIG = """/* Site settings. Fill these in to switch features on; empty va
 
    web3formsKey  Access key from web3forms.com (it's designed to be public).
                  Submissions are emailed to the address you registered there.
-   gaId          Google tag / GA4 measurement ID, e.g. "G-XXXXXXXXXX".
-                 Loads only after a visitor accepts the cookie banner.
+   gaId          Google Analytics 4 measurement ID, e.g. "G-XXXXXXXXXX".
+   clarityId     Microsoft Clarity project ID (Clarity > Settings > Overview).
+                 Both load through analytics.js, only after a visitor accepts the
+                 cookie banner. With both empty, the banner never shows.
    cfBeacon      Cloudflare Web Analytics token (Cloudflare dashboard > Web Analytics).
                  Cookieless, so it loads without the banner. Leave empty if the site
                  is proxied through Cloudflare with automatic Web Analytics turned on. */
 window.SITE_CONFIG = {
   web3formsKey: "",
   gaId: "",
+  clarityId: "",
   cfBeacon: "",
 };
 """

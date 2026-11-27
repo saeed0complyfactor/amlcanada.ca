@@ -122,8 +122,8 @@
 </nav>
 <div class="nav-end">
         <!--i18n:switch--><details class="lang-switch" data-lang-switch><summary aria-label="اللغة: العربية"><svg aria-hidden="true" viewBox="0 0 16 16"><circle cx="8" cy="8" r="6.2" fill="none" stroke="currentColor" stroke-width="1.3"/><path d="M1.8 8h12.4M8 1.8c2 2 2 10.4 0 12.4M8 1.8c-2 2-2 10.4 0 12.4" fill="none" stroke="currentColor" stroke-width="1.3"/></svg><span>AR</span></summary><ul><li><a href="/pricing.html" hreflang="en-CA" lang="en-CA">English</a></li><li><a href="/fr/pricing.html" hreflang="fr-CA" lang="fr-CA">Français</a></li><li><a href="/de/pricing.html" hreflang="de" lang="de">Deutsch</a></li><li><a href="/ar/pricing.html" hreflang="ar" lang="ar" aria-current="true">العربية</a></li><li><a href="/zh-hans/pricing.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li><li><a href="/zh-hant/pricing.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li><li><a href="/es/pricing.html" hreflang="es" lang="es">Español</a></li><li><a href="/pt-br/pricing.html" hreflang="pt-BR" lang="pt-BR">Português</a></li><li><a href="/it/pricing.html" hreflang="it" lang="it">Italiano</a></li><li><a href="/pl/pricing.html" hreflang="pl" lang="pl">Polski</a></li><li><a href="/ru/pricing.html" hreflang="ru" lang="ru">Русский</a></li><li><a href="/uk/pricing.html" hreflang="uk" lang="uk">Українська</a></li></ul></details><!--/i18n:switch-->
-<a class="nbtn nbtn-amber" href="contact.html"><span>احجز</span><span>استشارة</span></a>
-<a class="nbtn nbtn-white" href="./#checker"><span>فحص</span><span>الثغرات</span></a>
+<a class="nbtn nbtn-amber" data-track="nav-book" href="contact.html"><span>احجز</span><span>استشارة</span></a>
+<a class="nbtn nbtn-white" data-track="nav-gap-check" href="./#checker"><span>فحص</span><span>الثغرات</span></a>
 <a class="nbtn nbtn-grey" href="mailto:info@amlcanada.ca"><span>تواصل</span><span>معنا</span></a>
 <button aria-controls="menu" aria-expanded="false" class="nav-menu" data-menu-open="" type="button">
 <svg aria-hidden="true"><use href="#i-menu"></use></svg>
@@ -169,7 +169,7 @@
 <h1 id="page-title">أتعاب واضحة، متفق عليها كتابةً.</h1>
 <p class="page-lede">معظم خدماتنا بأتعاب ثابتة. إليك تكلفة كل خدمة وما تغطيه.</p>
 <div class="hero-actions">
-<a class="btn btn-amber" href="contact.html">احجز استشارة <svg aria-hidden="true"><use href="#i-arrow"></use></svg></a>
+<a class="btn btn-amber" data-track="hero-book" href="contact.html">احجز استشارة <svg aria-hidden="true"><use href="#i-arrow"></use></svg></a>
 <a class="link-dark" href="#start">تابع القراءة</a>
 </div>
 </div>
@@ -310,7 +310,7 @@
 <canvas aria-hidden="true" class="close-canvas" data-close-canvas=""></canvas>
 <div class="wrap close-inner">
 <h2 id="close-title">أخبرنا بما تحتاج المساعدة فيه.</h2>
-<a class="btn btn-amber" href="contact.html">احجز استشارة <svg aria-hidden="true"><use href="#i-arrow"></use></svg></a>
+<a class="btn btn-amber" data-track="close-book" href="contact.html">احجز استشارة <svg aria-hidden="true"><use href="#i-arrow"></use></svg></a>
 </div>
 </section>
 <p class="i18n-note wrap">هذه الصفحة مترجمة من الإنجليزية. في حال وجود أي اختلاف، تسري النسخة الإنجليزية. <a href="https://amlcanada.ca/pricing.html" hreflang="en-CA" lang="en-CA">اقرأ بالإنجليزية</a></p></main>
@@ -366,13 +366,14 @@
 <div class="wrap footer-note"><p>المعلومات الواردة في هذا الموقع عامة وليست استشارة قانونية.</p></div>
 </footer>
 <div aria-label="خيارات ملفات تعريف الارتباط" class="consent" data-consent="" hidden="" role="region">
-<p>نود استخدام ملفات تعريف الارتباط الخاصة بـ Google Analytics لفهم كيفية استخدام هذا الموقع. لا يتم تحميلها إلا إذا وافقت. <a href="../privacy.html#cookies">كيف نستخدم البيانات</a></p>
+<p>نود استخدام ملفات تعريف الارتباط الخاصة بـ Google Analytics وMicrosoft Clarity لفهم كيفية استخدام هذا الموقع. لا يتم تحميلها إلا إذا وافقت. <a href="../privacy.html#cookies">كيف نستخدم البيانات</a></p>
 <div class="consent-actions">
 <button class="nbtn nbtn-grey" data-consent-no="" type="button"><span>رفض</span></button>
 <button class="nbtn nbtn-amber" data-consent-yes="" type="button"><span>قبول</span></button>
 </div>
 </div>
 <script defer="" src="../site-config.js"></script>
+<script defer="" src="../analytics.js"></script>
 <script>window.I18N={"Client · ID verified": "العميل · تم التحقق من الهوية", "4 cash deposits · 24h · $9,600 avg": "4 إيداعات نقدية · 24 ساعة · متوسط 9,600 دولار", "Intl EFT · $14,500 · Reportable": "تحويل إلكتروني دولي · 14,500 دولار · واجب الإبلاغ", "Name screen · Clear": "فحص الاسم · لا تطابق", "FINTRAC registration": "التسجيل لدى FINTRAC", "MSB registration": "تسجيل شركات الخدمات المالية (MSB)", "A representative for service in Canada": "ممثل لتلقّي التبليغات في كندا", "A named compliance officer": "مسؤول امتثال معيَّن", "Compliance programs": "برامج الامتثال", "Written policies and procedures": "سياسات وإجراءات مكتوبة", "A documented risk assessment": "تقييم مخاطر موثَّق", "An ongoing training program": "برنامج تدريب مستمر", "Training": "التدريب", "An effectiveness review in the last two years": "مراجعة فعالية خلال العامين الماضيين", "Effectiveness reviews": "مراجعات الفعالية", "FINTRAC registration, in progress": "التسجيل لدى FINTRAC، قيد الإجراء", "In place": "قائم", "of {total}": "من {total}", "{have} of {total} in place.": "{have} من {total} قائمة.", "Gaps: {list}.": "الثغرات: {list}.", "No gaps flagged. We'd like a second opinion.": "لم تُرصد أي ثغرات. نودّ الحصول على رأي ثانٍ.", "and": "و", "That email address doesn't look complete. Please check it.": "لا يبدو أن عنوان البريد الإلكتروني هذا مكتمل. يُرجى التحقق منه.", "Please add your {list}.": "يُرجى إضافة {list}.", "Sending…": "جارٍ الإرسال…", "Thank you. We'll be in touch to find a time.": "شكرًا لك. سنتواصل معك لتحديد موعد.", "Online requests aren't switched on yet. Please email info@amlcanada.ca and we'll find a time.": "الطلبات عبر الإنترنت غير مفعَّلة بعد. يُرجى مراسلة info@amlcanada.ca وسنحدد موعدًا.", "That didn't go through. Please check your connection and try again.": "لم يتم الإرسال. يُرجى التحقق من اتصالك والمحاولة مرة أخرى.", "Showing {n} of {total}": "عرض {n} من {total}"}</script><script defer="" src="../main.js"></script>
 </body>
 </html>

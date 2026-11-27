@@ -123,8 +123,8 @@
 </nav>
 <div class="nav-end">
         <!--i18n:switch--><details class="lang-switch" data-lang-switch><summary aria-label="Sprache: Deutsch"><svg aria-hidden="true" viewBox="0 0 16 16"><circle cx="8" cy="8" r="6.2" fill="none" stroke="currentColor" stroke-width="1.3"/><path d="M1.8 8h12.4M8 1.8c2 2 2 10.4 0 12.4M8 1.8c-2 2-2 10.4 0 12.4" fill="none" stroke="currentColor" stroke-width="1.3"/></svg><span>DE</span></summary><ul><li><a href="/fintrac-penalties-amps.html" hreflang="en-CA" lang="en-CA">English</a></li><li><a href="/fr/fintrac-penalties-amps.html" hreflang="fr-CA" lang="fr-CA">Français</a></li><li><a href="/de/fintrac-penalties-amps.html" hreflang="de" lang="de" aria-current="true">Deutsch</a></li><li><a href="/ar/fintrac-penalties-amps.html" hreflang="ar" lang="ar">العربية</a></li><li><a href="/zh-hans/fintrac-penalties-amps.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li><li><a href="/zh-hant/fintrac-penalties-amps.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li><li><a href="/es/fintrac-penalties-amps.html" hreflang="es" lang="es">Español</a></li><li><a href="/pt-br/fintrac-penalties-amps.html" hreflang="pt-BR" lang="pt-BR">Português</a></li><li><a href="/it/fintrac-penalties-amps.html" hreflang="it" lang="it">Italiano</a></li><li><a href="/pl/fintrac-penalties-amps.html" hreflang="pl" lang="pl">Polski</a></li><li><a href="/ru/fintrac-penalties-amps.html" hreflang="ru" lang="ru">Русский</a></li><li><a href="/uk/fintrac-penalties-amps.html" hreflang="uk" lang="uk">Українська</a></li></ul></details><!--/i18n:switch-->
-<a class="nbtn nbtn-amber" href="contact.html"><span>Beratungstermin</span><span>buchen</span></a>
-<a class="nbtn nbtn-white" href="./#checker"><span>Lücken-</span><span>Check</span></a>
+<a class="nbtn nbtn-amber" data-track="nav-book" href="contact.html"><span>Beratungstermin</span><span>buchen</span></a>
+<a class="nbtn nbtn-white" data-track="nav-gap-check" href="./#checker"><span>Lücken-</span><span>Check</span></a>
 <a class="nbtn nbtn-grey" href="mailto:info@amlcanada.ca"><span>Kontakt</span><span>aufnehmen</span></a>
 <button aria-controls="menu" aria-expanded="false" class="nav-menu" data-menu-open="" type="button">
 <svg aria-hidden="true"><use href="#i-menu"></use></svg>
@@ -266,7 +266,7 @@
 </section>
 <section aria-label="Passende Leistung" class="gcta" data-theme="light">
 <div class="wrap">
-<a class="gcta-card" data-theme="dark" href="outsourced-compliance-officer.html">
+<a class="gcta-card" data-theme="dark" data-track="guide-service" href="outsourced-compliance-officer.html">
 <span class="fee-label">Brauchen Sie Unterstützung dabei?</span>
 <span class="gcta-name">Ausgelagerter Compliance-Beauftragter</span>
 <span class="gcta-desc">Ein kanadischer AML-Compliance-Beauftragter (MLRO): Onboarding-Prüfungen, FINTRAC-Meldungen, Richtlinien und Risikobewertungen.</span>
@@ -320,7 +320,7 @@
 <canvas aria-hidden="true" class="close-canvas" data-close-canvas=""></canvas>
 <div class="wrap close-inner">
 <h2 id="close-title">Sagen Sie uns, wobei Sie Unterstützung brauchen.</h2>
-<a class="btn btn-amber" href="contact.html?need=officer">Beratungstermin buchen <svg aria-hidden="true"><use href="#i-arrow"></use></svg></a>
+<a class="btn btn-amber" data-track="close-book" href="contact.html?need=officer">Beratungstermin buchen <svg aria-hidden="true"><use href="#i-arrow"></use></svg></a>
 </div>
 </section>
 <p class="i18n-note wrap">Diese Seite wurde aus dem Englischen übersetzt. Bei Abweichungen gilt die englische Fassung. <a href="https://amlcanada.ca/fintrac-penalties-amps.html" hreflang="en-CA" lang="en-CA">Auf Englisch lesen</a></p></main>
@@ -376,13 +376,14 @@
 <div class="wrap footer-note"><p>Die Informationen auf dieser Website sind allgemeiner Natur und stellen keine Rechtsberatung dar.</p></div>
 </footer>
 <div aria-label="Cookie-Einstellungen" class="consent" data-consent="" hidden="" role="region">
-<p>Wir möchten Google-Analytics-Cookies verwenden, um zu verstehen, wie diese Website genutzt wird. Sie werden nur geladen, wenn Sie zustimmen. <a href="../privacy.html#cookies">Wie wir Daten verwenden</a></p>
+<p>Wir möchten Cookies von Google Analytics und Microsoft Clarity verwenden, um zu verstehen, wie diese Website genutzt wird. Sie werden nur geladen, wenn Sie zustimmen. <a href="../privacy.html#cookies">Wie wir Daten verwenden</a></p>
 <div class="consent-actions">
 <button class="nbtn nbtn-grey" data-consent-no="" type="button"><span>Ablehnen</span></button>
 <button class="nbtn nbtn-amber" data-consent-yes="" type="button"><span>Akzeptieren</span></button>
 </div>
 </div>
 <script defer="" src="../site-config.js"></script>
+<script defer="" src="../analytics.js"></script>
 <script>window.I18N={"Client · ID verified": "Kunde · Identität geprüft", "4 cash deposits · 24h · $9,600 avg": "4 Bareinzahlungen · 24 Std. · Ø 9.600 $", "Intl EFT · $14,500 · Reportable": "Int. EFT · 14.500 $ · Meldepflichtig", "Name screen · Clear": "Namensabgleich · Unauffällig", "FINTRAC registration": "FINTRAC-Registrierung", "MSB registration": "MSB-Registrierung", "A representative for service in Canada": "Ein Zustellungsbevollmächtigter in Kanada", "A named compliance officer": "Einen benannten Compliance-Beauftragten", "Compliance programs": "Compliance-Programme", "Written policies and procedures": "Schriftliche Richtlinien und Verfahren", "A documented risk assessment": "Eine dokumentierte Risikobewertung", "An ongoing training program": "Ein laufendes Schulungsprogramm", "Training": "Schulungen", "An effectiveness review in the last two years": "Eine Wirksamkeitsprüfung in den letzten zwei Jahren", "Effectiveness reviews": "Wirksamkeitsprüfungen", "FINTRAC registration, in progress": "FINTRAC-Registrierung, in Bearbeitung", "In place": "Vorhanden", "of {total}": "von {total}", "{have} of {total} in place.": "{have} von {total} vorhanden.", "Gaps: {list}.": "Lücken: {list}.", "No gaps flagged. We'd like a second opinion.": "Keine Lücken markiert. Wir hätten gern eine zweite Meinung.", "and": "und", "That email address doesn't look complete. Please check it.": "Diese E-Mail-Adresse scheint unvollständig zu sein. Bitte prüfen Sie sie.", "Please add your {list}.": "Bitte ergänzen Sie: {list}.", "Sending…": "Wird gesendet…", "Thank you. We'll be in touch to find a time.": "Vielen Dank. Wir melden uns, um einen Termin zu finden.", "Online requests aren't switched on yet. Please email info@amlcanada.ca and we'll find a time.": "Online-Anfragen sind noch nicht freigeschaltet. Bitte schreiben Sie an info@amlcanada.ca, und wir finden einen Termin.", "That didn't go through. Please check your connection and try again.": "Das hat nicht geklappt. Bitte prüfen Sie Ihre Verbindung und versuchen Sie es erneut.", "Showing {n} of {total}": "{n} von {total} angezeigt"}</script><script defer="" src="../main.js"></script>
 </body>
 </html>

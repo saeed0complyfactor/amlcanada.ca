@@ -123,8 +123,8 @@
 </nav>
 <div class="nav-end">
         <!--i18n:switch--><details class="lang-switch" data-lang-switch><summary aria-label="Langue: Français"><svg aria-hidden="true" viewBox="0 0 16 16"><circle cx="8" cy="8" r="6.2" fill="none" stroke="currentColor" stroke-width="1.3"/><path d="M1.8 8h12.4M8 1.8c2 2 2 10.4 0 12.4M8 1.8c-2 2-2 10.4 0 12.4" fill="none" stroke="currentColor" stroke-width="1.3"/></svg><span>FR</span></summary><ul><li><a href="/apostille-canada-guide.html" hreflang="en-CA" lang="en-CA">English</a></li><li><a href="/fr/apostille-canada-guide.html" hreflang="fr-CA" lang="fr-CA" aria-current="true">Français</a></li><li><a href="/de/apostille-canada-guide.html" hreflang="de" lang="de">Deutsch</a></li><li><a href="/ar/apostille-canada-guide.html" hreflang="ar" lang="ar">العربية</a></li><li><a href="/zh-hans/apostille-canada-guide.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li><li><a href="/zh-hant/apostille-canada-guide.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li><li><a href="/es/apostille-canada-guide.html" hreflang="es" lang="es">Español</a></li><li><a href="/pt-br/apostille-canada-guide.html" hreflang="pt-BR" lang="pt-BR">Português</a></li><li><a href="/it/apostille-canada-guide.html" hreflang="it" lang="it">Italiano</a></li><li><a href="/pl/apostille-canada-guide.html" hreflang="pl" lang="pl">Polski</a></li><li><a href="/ru/apostille-canada-guide.html" hreflang="ru" lang="ru">Русский</a></li><li><a href="/uk/apostille-canada-guide.html" hreflang="uk" lang="uk">Українська</a></li></ul></details><!--/i18n:switch-->
-<a class="nbtn nbtn-amber" href="contact.html"><span>Réserver une</span><span>consultation</span></a>
-<a class="nbtn nbtn-white" href="./#checker"><span>Diagnostic des</span><span>lacunes</span></a>
+<a class="nbtn nbtn-amber" data-track="nav-book" href="contact.html"><span>Réserver une</span><span>consultation</span></a>
+<a class="nbtn nbtn-white" data-track="nav-gap-check" href="./#checker"><span>Diagnostic des</span><span>lacunes</span></a>
 <a class="nbtn nbtn-grey" href="mailto:info@amlcanada.ca"><span>Nous</span><span>joindre</span></a>
 <button aria-controls="menu" aria-expanded="false" class="nav-menu" data-menu-open="" type="button">
 <svg aria-hidden="true"><use href="#i-menu"></use></svg>
@@ -274,7 +274,7 @@
 </section>
 <section aria-label="Service connexe" class="gcta" data-theme="light">
 <div class="wrap">
-<a class="gcta-card" data-theme="dark" href="apostille-notarization-canada.html">
+<a class="gcta-card" data-theme="dark" data-track="guide-service" href="apostille-notarization-canada.html">
 <span class="fee-label">Besoin d’aide à ce sujet?</span>
 <span class="gcta-name">Apostille et certification notariale</span>
 <span class="gcta-desc">Certification notariale et apostilles pour les documents de société canadiens utilisés à l’étranger, par l’intermédiaire d’un notaire partenaire autorisé en Ontario.</span>
@@ -328,7 +328,7 @@
 <canvas aria-hidden="true" class="close-canvas" data-close-canvas=""></canvas>
 <div class="wrap close-inner">
 <h2 id="close-title">Dites-nous en quoi nous pouvons vous aider.</h2>
-<a class="btn btn-amber" href="contact.html?need=apostille">Réserver une consultation <svg aria-hidden="true"><use href="#i-arrow"></use></svg></a>
+<a class="btn btn-amber" data-track="close-book" href="contact.html?need=apostille">Réserver une consultation <svg aria-hidden="true"><use href="#i-arrow"></use></svg></a>
 </div>
 </section>
 <p class="i18n-note wrap">Cette page est une traduction de l'anglais. En cas de divergence, la version anglaise prévaut. <a href="https://amlcanada.ca/apostille-canada-guide.html" hreflang="en-CA" lang="en-CA">Lire en anglais</a></p></main>
@@ -384,13 +384,14 @@
 <div class="wrap footer-note"><p>Les renseignements présentés sur ce site sont de nature générale et ne constituent pas un avis juridique.</p></div>
 </footer>
 <div aria-label="Choix relatifs aux témoins" class="consent" data-consent="" hidden="" role="region">
-<p>Nous aimerions utiliser les témoins de Google Analytics pour comprendre comment ce site est utilisé. Ils ne se chargent que si vous les acceptez. <a href="../privacy.html#cookies">Notre utilisation des données</a></p>
+<p>Nous aimerions utiliser les témoins de Google Analytics et de Microsoft Clarity pour comprendre comment ce site est utilisé. Ils ne se chargent que si vous les acceptez. <a href="../privacy.html#cookies">Notre utilisation des données</a></p>
 <div class="consent-actions">
 <button class="nbtn nbtn-grey" data-consent-no="" type="button"><span>Refuser</span></button>
 <button class="nbtn nbtn-amber" data-consent-yes="" type="button"><span>Accepter</span></button>
 </div>
 </div>
 <script defer="" src="../site-config.js"></script>
+<script defer="" src="../analytics.js"></script>
 <script>window.I18N={"Client · ID verified": "Client · Identité vérifiée", "4 cash deposits · 24h · $9,600 avg": "4 dépôts en espèces · 24 h · moy. 9 600 $", "Intl EFT · $14,500 · Reportable": "TEF intl · 14 500 $ · À déclarer", "Name screen · Clear": "Filtrage des noms · Aucune correspondance", "FINTRAC registration": "Inscription auprès de CANAFE", "MSB registration": "Inscription d’une ESM", "A representative for service in Canada": "Un mandataire aux fins de signification au Canada", "A named compliance officer": "Un agent de conformité désigné", "Compliance programs": "Programmes de conformité", "Written policies and procedures": "Des politiques et procédures écrites", "A documented risk assessment": "Une évaluation des risques documentée", "An ongoing training program": "Un programme de formation continue", "Training": "Formation", "An effectiveness review in the last two years": "Un examen de l’efficacité au cours des deux dernières années", "Effectiveness reviews": "Examens de l’efficacité", "FINTRAC registration, in progress": "Inscription auprès de CANAFE, en cours", "In place": "En place", "of {total}": "sur {total}", "{have} of {total} in place.": "{have} sur {total} en place.", "Gaps: {list}.": "Lacunes : {list}.", "No gaps flagged. We'd like a second opinion.": "Aucune lacune relevée. Nous aimerions avoir un deuxième avis.", "and": "et", "That email address doesn't look complete. Please check it.": "Cette adresse courriel semble incomplète. Veuillez la vérifier.", "Please add your {list}.": "Veuillez ajouter votre {list}.", "Sending…": "Envoi…", "Thank you. We'll be in touch to find a time.": "Merci. Nous communiquerons avec vous pour fixer un moment.", "Online requests aren't switched on yet. Please email info@amlcanada.ca and we'll find a time.": "Les demandes en ligne ne sont pas encore activées. Veuillez écrire à info@amlcanada.ca et nous fixerons un moment.", "That didn't go through. Please check your connection and try again.": "L’envoi n’a pas abouti. Veuillez vérifier votre connexion et réessayer.", "Showing {n} of {total}": "{n} sur {total} affichés"}</script><script defer="" src="../main.js"></script>
 </body>
 </html>

@@ -123,8 +123,8 @@
 </nav>
 <div class="nav-end">
         <!--i18n:switch--><details class="lang-switch" data-lang-switch><summary aria-label="Idioma: Português"><svg aria-hidden="true" viewBox="0 0 16 16"><circle cx="8" cy="8" r="6.2" fill="none" stroke="currentColor" stroke-width="1.3"/><path d="M1.8 8h12.4M8 1.8c2 2 2 10.4 0 12.4M8 1.8c-2 2-2 10.4 0 12.4" fill="none" stroke="currentColor" stroke-width="1.3"/></svg><span>PT</span></summary><ul><li><a href="/check-bank-of-canada-psp-registration.html" hreflang="en-CA" lang="en-CA">English</a></li><li><a href="/fr/check-bank-of-canada-psp-registration.html" hreflang="fr-CA" lang="fr-CA">Français</a></li><li><a href="/de/check-bank-of-canada-psp-registration.html" hreflang="de" lang="de">Deutsch</a></li><li><a href="/ar/check-bank-of-canada-psp-registration.html" hreflang="ar" lang="ar">العربية</a></li><li><a href="/zh-hans/check-bank-of-canada-psp-registration.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li><li><a href="/zh-hant/check-bank-of-canada-psp-registration.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li><li><a href="/es/check-bank-of-canada-psp-registration.html" hreflang="es" lang="es">Español</a></li><li><a href="/pt-br/check-bank-of-canada-psp-registration.html" hreflang="pt-BR" lang="pt-BR" aria-current="true">Português</a></li><li><a href="/it/check-bank-of-canada-psp-registration.html" hreflang="it" lang="it">Italiano</a></li><li><a href="/pl/check-bank-of-canada-psp-registration.html" hreflang="pl" lang="pl">Polski</a></li><li><a href="/ru/check-bank-of-canada-psp-registration.html" hreflang="ru" lang="ru">Русский</a></li><li><a href="/uk/check-bank-of-canada-psp-registration.html" hreflang="uk" lang="uk">Українська</a></li></ul></details><!--/i18n:switch-->
-<a class="nbtn nbtn-amber" href="contact.html"><span>Agendar uma</span><span>consulta</span></a>
-<a class="nbtn nbtn-white" href="./#checker"><span>Diagnóstico</span><span>de lacunas</span></a>
+<a class="nbtn nbtn-amber" data-track="nav-book" href="contact.html"><span>Agendar uma</span><span>consulta</span></a>
+<a class="nbtn nbtn-white" data-track="nav-gap-check" href="./#checker"><span>Diagnóstico</span><span>de lacunas</span></a>
 <a class="nbtn nbtn-grey" href="mailto:info@amlcanada.ca"><span>Fale</span><span>conosco</span></a>
 <button aria-controls="menu" aria-expanded="false" class="nav-menu" data-menu-open="" type="button">
 <svg aria-hidden="true"><use href="#i-menu"></use></svg>
@@ -286,7 +286,7 @@
 </section>
 <section aria-label="Serviço relacionado" class="gcta" data-theme="light">
 <div class="wrap">
-<a class="gcta-card" data-theme="dark" href="rpaa-registration.html">
+<a class="gcta-card" data-theme="dark" data-track="guide-service" href="rpaa-registration.html">
 <span class="fee-label">Precisa de ajuda com isso?</span>
 <span class="gcta-name">Registro na RPAA</span>
 <span class="gcta-desc">Registro de prestador de serviços de pagamento no Banco do Canadá nos termos da RPAA.</span>
@@ -340,7 +340,7 @@
 <canvas aria-hidden="true" class="close-canvas" data-close-canvas=""></canvas>
 <div class="wrap close-inner">
 <h2 id="close-title">Conte-nos com o que você precisa de ajuda.</h2>
-<a class="btn btn-amber" href="contact.html?need=rpaa">Agendar uma consulta <svg aria-hidden="true"><use href="#i-arrow"></use></svg></a>
+<a class="btn btn-amber" data-track="close-book" href="contact.html?need=rpaa">Agendar uma consulta <svg aria-hidden="true"><use href="#i-arrow"></use></svg></a>
 </div>
 </section>
 <p class="i18n-note wrap">Esta página foi traduzida do inglês. Em caso de divergência, prevalece a versão em inglês. <a href="https://amlcanada.ca/check-bank-of-canada-psp-registration.html" hreflang="en-CA" lang="en-CA">Ler em inglês</a></p></main>
@@ -396,13 +396,14 @@
 <div class="wrap footer-note"><p>As informações deste site são gerais e não constituem aconselhamento jurídico.</p></div>
 </footer>
 <div aria-label="Opções de cookies" class="consent" data-consent="" hidden="" role="region">
-<p>Gostaríamos de usar cookies do Google Analytics para entender como este site é usado. Eles só são carregados se você aceitar. <a href="../privacy.html#cookies">Como usamos os dados</a></p>
+<p>Gostaríamos de usar cookies do Google Analytics e do Microsoft Clarity para entender como este site é usado. Eles só são carregados se você aceitar. <a href="../privacy.html#cookies">Como usamos os dados</a></p>
 <div class="consent-actions">
 <button class="nbtn nbtn-grey" data-consent-no="" type="button"><span>Recusar</span></button>
 <button class="nbtn nbtn-amber" data-consent-yes="" type="button"><span>Aceitar</span></button>
 </div>
 </div>
 <script defer="" src="../site-config.js"></script>
+<script defer="" src="../analytics.js"></script>
 <script>window.I18N={"Client · ID verified": "Cliente · Identidade verificada", "4 cash deposits · 24h · $9,600 avg": "4 depósitos em espécie · 24 h · média de CA$ 9.600", "Intl EFT · $14,500 · Reportable": "TEF internacional · CA$ 14.500 · Comunicável", "Name screen · Clear": "Triagem de nomes · Sem correspondência", "FINTRAC registration": "Registro no FINTRAC", "MSB registration": "Registro de MSB", "A representative for service in Canada": "Um representante para recebimento de citações e notificações no Canadá", "A named compliance officer": "Um oficial de compliance nomeado", "Compliance programs": "Programas de compliance", "Written policies and procedures": "Políticas e procedimentos escritos", "A documented risk assessment": "Uma avaliação de riscos documentada", "An ongoing training program": "Um programa de treinamento contínuo", "Training": "Treinamento", "An effectiveness review in the last two years": "Uma revisão de efetividade nos últimos dois anos", "Effectiveness reviews": "Revisões de efetividade", "FINTRAC registration, in progress": "Registro no FINTRAC, em andamento", "In place": "Implementado", "of {total}": "de {total}", "{have} of {total} in place.": "{have} de {total} implementados.", "Gaps: {list}.": "Lacunas: {list}.", "No gaps flagged. We'd like a second opinion.": "Nenhuma lacuna sinalizada. Gostaríamos de uma segunda opinião.", "and": "e", "That email address doesn't look complete. Please check it.": "Esse endereço de e-mail parece incompleto. Verifique-o, por favor.", "Please add your {list}.": "Por favor, preencha: {list}.", "Sending…": "Enviando…", "Thank you. We'll be in touch to find a time.": "Obrigado. Entraremos em contato para encontrar um horário.", "Online requests aren't switched on yet. Please email info@amlcanada.ca and we'll find a time.": "As solicitações online ainda não estão ativadas. Envie um e-mail para info@amlcanada.ca e encontraremos um horário.", "That didn't go through. Please check your connection and try again.": "Não foi possível enviar. Verifique sua conexão e tente novamente.", "Showing {n} of {total}": "Mostrando {n} de {total}"}</script><script defer="" src="../main.js"></script>
 </body>
 </html>

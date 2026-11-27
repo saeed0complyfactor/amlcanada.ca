@@ -106,8 +106,8 @@
         </ul>
       </nav>
       <div class="nav-end">
-        <a class="nbtn nbtn-amber" href="contact.html"><span>Book a</span><span>consultation</span></a>
-        <a class="nbtn nbtn-white" href="./#checker"><span>Gap</span><span>check</span></a>
+        <a class="nbtn nbtn-amber" href="contact.html" data-track="nav-book"><span>Book a</span><span>consultation</span></a>
+        <a class="nbtn nbtn-white" href="./#checker" data-track="nav-gap-check"><span>Gap</span><span>check</span></a>
         <a class="nbtn nbtn-grey" href="mailto:info@amlcanada.ca"><span>Contact</span><span>us</span></a>
         <button class="nav-menu" type="button" aria-expanded="false" aria-controls="menu" data-menu-open>
           <svg aria-hidden="true"><use href="#i-menu"/></svg>
@@ -181,22 +181,23 @@
         <section id="collect" class="legal-sec">
           <h2>What we collect</h2>
           <p>We collect only what this site needs:</p>
-          <ul><li><strong>Consultation requests.</strong> Your name, work email, company, the help you're looking for and anything you choose to tell us in the message.</li><li><strong>Gap check answers.</strong> The gap check runs in your browser. Your answers aren't sent to us unless you carry them into a consultation request, where they appear in the message for you to review before sending.</li><li><strong>Technical information.</strong> Like any website, our hosting provider processes your IP address, browser type and the pages you request so it can deliver the site and keep it secure.</li><li><strong>Emails you send us.</strong> If you write to us, we keep the correspondence.</li><li><span id="applicants"></span><strong>Job applications.</strong> Your name, email, phone number, LinkedIn profile if you give it, your CV and anything you write in the application. We use them only to assess you for the role you applied for and to contact you about it.</li></ul>
+          <ul><li><strong>Consultation requests.</strong> Your name, work email, company, the help you're looking for and anything you choose to tell us in the message.</li><li><strong>Gap check answers.</strong> The gap check runs in your browser. Your answers aren't sent to us unless you carry them into a consultation request, where they appear in the message for you to review before sending.</li><li><strong>Usage information.</strong> Pages visited, referring site, approximate location and device type, and how you click and scroll on a page, collected as described under Cookies and analytics.</li><li><strong>Emails you send us.</strong> If you write to us, we keep the correspondence.</li><li><span id="applicants"></span><strong>Job applications.</strong> Your name, email, phone number, LinkedIn profile if you give it, your CV and anything you write in the application. We use them only to assess you for the role you applied for and to contact you about it.</li></ul>
         </section>
         <section id="use" class="legal-sec">
           <h2>How we use it</h2>
-          <ul><li>To reply to your request and arrange a consultation.</li><li>To provide services you engage us for, under a separate written agreement.</li><li>To keep the site secure and prevent abuse, such as spam form submissions.</li></ul>
+          <ul><li>To reply to your request and arrange a consultation.</li><li>To provide services you engage us for, under a separate written agreement.</li><li>To keep the site secure and prevent abuse, such as spam form submissions.</li><li>To understand how the site is used and improve it.</li></ul>
           <p>We don't sell personal information, and we don't use your consultation details for marketing without your consent.</p>
         </section>
         <section id="cookies" class="legal-sec">
           <h2>Cookies and analytics</h2>
-          <p>This site doesn't use analytics tools, advertising cookies or tracking pixels, and it doesn't set cookies.</p>
-          <p>If we add analytics, we'll update this policy first. Any tool that uses cookies will load only after you accept it in a cookie banner.</p>
+          <p><strong>Google Analytics 4</strong>, from Google, uses cookies to give us usage statistics: which pages are visited, the site you came from, and your approximate location and device type.</p>
+          <p><strong>Microsoft Clarity</strong>, from Microsoft, uses cookies to give us usage statistics, heatmaps of where people click and scroll, and recordings of how visitors move through a page. What you type into forms is masked, so Clarity doesn't record it.</p>
+          <p>These tools load only after you choose "Accept" in the cookie banner. If you decline, or don't choose, they stay off. We don't use them for advertising: Google's advertising storage and ad personalization are switched off. You can change your choice at any time with "Cookie choices" in the footer. Your choice is stored in your browser so we don't ask on every page. If you switch to "Decline", they stop collecting, though cookies already set may stay in your browser until they expire or you clear them.</p>
         </section>
         <section id="share" class="legal-sec">
           <h2>Who we share it with</h2>
           <p>We share personal information only with service providers that help us run this site and respond to you, and only as much as they need:</p>
-          <ul><li><strong>GitHub</strong> (GitHub Pages), which hosts this website.</li><li><strong>Web3Forms</strong>, which delivers consultation form submissions to our inbox.</li><li><strong>FormSubmit</strong>, which delivers job applications and CVs to our inbox.</li><li>Our email provider, for correspondence.</li></ul>
+          <ul><li><strong>GitHub</strong> (GitHub Pages), which hosts this website.</li><li><strong>Web3Forms</strong>, which delivers consultation form submissions to our inbox.</li><li><strong>FormSubmit</strong>, which delivers job applications and CVs to our inbox.</li><li><strong>Google</strong>, for Google Analytics 4, only if you accept analytics cookies.</li><li><strong>Microsoft</strong>, for Clarity, only if you accept analytics cookies.</li><li>Our email provider, for correspondence.</li></ul>
           <p>Some of these providers process information outside Canada, including in the United States, where it may be accessible to authorities under local law. We may also disclose information where the law requires it.</p>
         </section>
         <section id="keep" class="legal-sec">
@@ -275,7 +276,7 @@
   </footer>
 
   <div class="consent" role="region" aria-label="Cookie choices" hidden data-consent>
-    <p>We'd like to use Google Analytics cookies to understand how this site is used. They load only if you accept. <a href="privacy.html#cookies">How we use data</a></p>
+    <p>We'd like to use Google Analytics and Microsoft Clarity cookies to understand how this site is used. They load only if you accept. <a href="privacy.html#cookies">How we use data</a></p>
     <div class="consent-actions">
       <button class="nbtn nbtn-grey" type="button" data-consent-no><span>Decline</span></button>
       <button class="nbtn nbtn-amber" type="button" data-consent-yes><span>Accept</span></button>
@@ -283,6 +284,7 @@
   </div>
 
   <script src="site-config.js" defer></script>
+  <script src="analytics.js" defer></script>
   <script src="main.js" defer></script>
 </body>
 </html>

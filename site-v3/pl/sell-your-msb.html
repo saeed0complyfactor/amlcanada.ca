@@ -122,8 +122,8 @@
 </nav>
 <div class="nav-end">
         <!--i18n:switch--><details class="lang-switch" data-lang-switch><summary aria-label="Język: Polski"><svg aria-hidden="true" viewBox="0 0 16 16"><circle cx="8" cy="8" r="6.2" fill="none" stroke="currentColor" stroke-width="1.3"/><path d="M1.8 8h12.4M8 1.8c2 2 2 10.4 0 12.4M8 1.8c-2 2-2 10.4 0 12.4" fill="none" stroke="currentColor" stroke-width="1.3"/></svg><span>PL</span></summary><ul><li><a href="/sell-your-msb.html" hreflang="en-CA" lang="en-CA">English</a></li><li><a href="/fr/sell-your-msb.html" hreflang="fr-CA" lang="fr-CA">Français</a></li><li><a href="/de/sell-your-msb.html" hreflang="de" lang="de">Deutsch</a></li><li><a href="/ar/sell-your-msb.html" hreflang="ar" lang="ar">العربية</a></li><li><a href="/zh-hans/sell-your-msb.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li><li><a href="/zh-hant/sell-your-msb.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li><li><a href="/es/sell-your-msb.html" hreflang="es" lang="es">Español</a></li><li><a href="/pt-br/sell-your-msb.html" hreflang="pt-BR" lang="pt-BR">Português</a></li><li><a href="/it/sell-your-msb.html" hreflang="it" lang="it">Italiano</a></li><li><a href="/pl/sell-your-msb.html" hreflang="pl" lang="pl" aria-current="true">Polski</a></li><li><a href="/ru/sell-your-msb.html" hreflang="ru" lang="ru">Русский</a></li><li><a href="/uk/sell-your-msb.html" hreflang="uk" lang="uk">Українська</a></li></ul></details><!--/i18n:switch-->
-<a class="nbtn nbtn-amber" href="contact.html"><span>Umów</span><span>konsultację</span></a>
-<a class="nbtn nbtn-white" href="./#checker"><span>Analiza</span><span>luk</span></a>
+<a class="nbtn nbtn-amber" data-track="nav-book" href="contact.html"><span>Umów</span><span>konsultację</span></a>
+<a class="nbtn nbtn-white" data-track="nav-gap-check" href="./#checker"><span>Analiza</span><span>luk</span></a>
 <a class="nbtn nbtn-grey" href="mailto:info@amlcanada.ca"><span>Skontaktuj się</span><span>z nami</span></a>
 <button aria-controls="menu" aria-expanded="false" class="nav-menu" data-menu-open="" type="button">
 <svg aria-hidden="true"><use href="#i-menu"></use></svg>
@@ -170,7 +170,7 @@
 <p class="page-headline">Sprzedaj swoje zarejestrowane kanadyjskie MSB.</p>
 <p class="page-lede">Analizujemy Państwa spółkę, przedstawiamy ją kupującym bez ujawniania nazwy i prowadzimy obie strony przez sprzedaż udziałów oraz późniejsze aktualizacje w FINTRAC.</p>
 <div class="hero-actions">
-<a class="btn btn-amber" href="contact.html?need=sell">Umów konsultację <svg aria-hidden="true"><use href="#i-arrow"></use></svg></a>
+<a class="btn btn-amber" data-track="hero-book" href="contact.html?need=sell">Umów konsultację <svg aria-hidden="true"><use href="#i-arrow"></use></svg></a>
 <a class="link-dark" href="#start">Czytaj dalej</a>
 <span class="hero-price">Wycena po analizie</span>
 <span class="chat-links"><a data-src="msb-sale" href="https://wa.me/18078060444?text=Hi%2C%20I%27m%20interested%20in%20a%20registered%20MSB%20%28amlcanada.ca%29" rel="noopener">WhatsApp</a><a data-src="msb-sale" href="https://t.me/sabbasi_1" rel="noopener">Telegram</a></span>
@@ -196,7 +196,7 @@
 <p class="fee-amount">Wycena</p>
 <p class="fee-unit">po analizie spółki</p>
 <p class="fee-note">Zanim cokolwiek zostanie wystawione, informujemy Państwa, za ile spółka prawdopodobnie zostanie sprzedana, oraz o naszym wynagrodzeniu.</p>
-<a class="btn btn-amber" href="contact.html?need=sell">Umów konsultację <svg aria-hidden="true"><use href="#i-arrow"></use></svg></a>
+<a class="btn btn-amber" data-track="fee-book" href="contact.html?need=sell">Umów konsultację <svg aria-hidden="true"><use href="#i-arrow"></use></svg></a>
 </div>
 <div class="fee-incl">
 <p class="fee-label">W cenie</p>
@@ -370,7 +370,7 @@
 <canvas aria-hidden="true" class="close-canvas" data-close-canvas=""></canvas>
 <div class="wrap close-inner">
 <h2 id="close-title">Prosimy powiedzieć, w czym możemy pomóc.</h2>
-<a class="btn btn-amber" href="contact.html?need=sell">Umów konsultację <svg aria-hidden="true"><use href="#i-arrow"></use></svg></a>
+<a class="btn btn-amber" data-track="close-book" href="contact.html?need=sell">Umów konsultację <svg aria-hidden="true"><use href="#i-arrow"></use></svg></a>
 </div>
 </section>
 <p class="i18n-note wrap">Ta strona została przetłumaczona z języka angielskiego. W razie rozbieżności rozstrzyga wersja angielska. <a href="https://amlcanada.ca/sell-your-msb.html" hreflang="en-CA" lang="en-CA">Czytaj po angielsku</a></p></main>
@@ -426,13 +426,14 @@
 <div class="wrap footer-note"><p>Informacje na tej stronie mają charakter ogólny i nie stanowią porady prawnej.</p></div>
 </footer>
 <div aria-label="Ustawienia plików cookie" class="consent" data-consent="" hidden="" role="region">
-<p>Chcielibyśmy używać plików cookie Google Analytics, aby zrozumieć, jak korzystają Państwo z tej strony. Są ładowane wyłącznie po wyrażeniu zgody. <a href="../privacy.html#cookies">Jak wykorzystujemy dane</a></p>
+<p>Chcielibyśmy używać plików cookie Google Analytics i Microsoft Clarity, aby zrozumieć, jak korzystają Państwo z tej strony. Są ładowane wyłącznie po wyrażeniu zgody. <a href="../privacy.html#cookies">Jak wykorzystujemy dane</a></p>
 <div class="consent-actions">
 <button class="nbtn nbtn-grey" data-consent-no="" type="button"><span>Odrzuć</span></button>
 <button class="nbtn nbtn-amber" data-consent-yes="" type="button"><span>Akceptuj</span></button>
 </div>
 </div>
 <script defer="" src="../site-config.js"></script>
+<script defer="" src="../analytics.js"></script>
 <script>window.I18N={"Client · ID verified": "Klient · tożsamość zweryfikowana", "4 cash deposits · 24h · $9,600 avg": "4 wpłaty gotówkowe · 24 h · śr. 9600 CAD", "Intl EFT · $14,500 · Reportable": "Przelew międzynar. · 14 500 CAD · Do zgłoszenia", "Name screen · Clear": "Weryfikacja na listach · Brak trafień", "FINTRAC registration": "Rejestracja w FINTRAC", "MSB registration": "Rejestracja MSB", "A representative for service in Canada": "Przedstawiciel do doręczeń w Kanadzie", "A named compliance officer": "Wyznaczony oficer ds. zgodności", "Compliance programs": "Programy zgodności", "Written policies and procedures": "Spisane polityki i procedury", "A documented risk assessment": "Udokumentowana ocena ryzyka", "An ongoing training program": "Stały program szkoleń", "Training": "Szkolenia", "An effectiveness review in the last two years": "Przegląd skuteczności w ciągu ostatnich dwóch lat", "Effectiveness reviews": "Przeglądy skuteczności", "FINTRAC registration, in progress": "Rejestracja w FINTRAC w toku", "In place": "Wdrożone", "of {total}": "z {total}", "{have} of {total} in place.": "Wdrożone: {have} z {total}.", "Gaps: {list}.": "Luki: {list}.", "No gaps flagged. We'd like a second opinion.": "Nie wskazano luk. Chętnie poznamy drugą opinię.", "and": "i", "That email address doesn't look complete. Please check it.": "Ten adres e-mail wygląda na niekompletny. Proszę go sprawdzić.", "Please add your {list}.": "Proszę uzupełnić: {list}.", "Sending…": "Wysyłanie…", "Thank you. We'll be in touch to find a time.": "Dziękujemy. Skontaktujemy się, aby ustalić termin.", "Online requests aren't switched on yet. Please email info@amlcanada.ca and we'll find a time.": "Zgłoszenia online nie są jeszcze włączone. Prosimy o e-mail na adres info@amlcanada.ca, a ustalimy termin.", "That didn't go through. Please check your connection and try again.": "Nie udało się wysłać. Proszę sprawdzić połączenie i spróbować ponownie.", "Showing {n} of {total}": "Wyświetlono {n} z {total}"}</script><script defer="" src="../main.js"></script>
 </body>
 </html>

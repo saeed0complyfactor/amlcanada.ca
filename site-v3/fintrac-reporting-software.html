@@ -122,8 +122,8 @@
       </nav>
       <div class="nav-end">
         <!--i18n:switch--><details class="lang-switch" data-lang-switch><summary aria-label="Language: English"><svg aria-hidden="true" viewBox="0 0 16 16"><circle cx="8" cy="8" r="6.2" fill="none" stroke="currentColor" stroke-width="1.3"/><path d="M1.8 8h12.4M8 1.8c2 2 2 10.4 0 12.4M8 1.8c-2 2-2 10.4 0 12.4" fill="none" stroke="currentColor" stroke-width="1.3"/></svg><span>EN</span></summary><ul><li><a href="/fintrac-reporting-software.html" hreflang="en-CA" lang="en-CA" aria-current="true">English</a></li><li><a href="/fr/fintrac-reporting-software.html" hreflang="fr-CA" lang="fr-CA">Français</a></li><li><a href="/de/fintrac-reporting-software.html" hreflang="de" lang="de">Deutsch</a></li><li><a href="/ar/fintrac-reporting-software.html" hreflang="ar" lang="ar">العربية</a></li><li><a href="/zh-hans/fintrac-reporting-software.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li><li><a href="/zh-hant/fintrac-reporting-software.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li><li><a href="/es/fintrac-reporting-software.html" hreflang="es" lang="es">Español</a></li><li><a href="/pt-br/fintrac-reporting-software.html" hreflang="pt-BR" lang="pt-BR">Português</a></li><li><a href="/it/fintrac-reporting-software.html" hreflang="it" lang="it">Italiano</a></li><li><a href="/pl/fintrac-reporting-software.html" hreflang="pl" lang="pl">Polski</a></li><li><a href="/ru/fintrac-reporting-software.html" hreflang="ru" lang="ru">Русский</a></li><li><a href="/uk/fintrac-reporting-software.html" hreflang="uk" lang="uk">Українська</a></li></ul></details><!--/i18n:switch-->
-        <a class="nbtn nbtn-amber" href="contact.html"><span>Book a</span><span>consultation</span></a>
-        <a class="nbtn nbtn-white" href="./#checker"><span>Gap</span><span>check</span></a>
+        <a class="nbtn nbtn-amber" href="contact.html" data-track="nav-book"><span>Book a</span><span>consultation</span></a>
+        <a class="nbtn nbtn-white" href="./#checker" data-track="nav-gap-check"><span>Gap</span><span>check</span></a>
         <a class="nbtn nbtn-grey" href="mailto:info@amlcanada.ca"><span>Contact</span><span>us</span></a>
         <button class="nav-menu" type="button" aria-expanded="false" aria-controls="menu" data-menu-open>
           <svg aria-hidden="true"><use href="#i-menu"/></svg>
@@ -171,7 +171,7 @@
         <p class="page-headline">Your FINTRAC reports checked, approved and tracked in one place.</p>
         <p class="page-lede">Our reporting platform takes your transaction data through 24-hour rule checks, validation and approval, then submits through FINTRAC API report submission where you're enrolled, and keeps the record.</p>
           <div class="hero-actions">
-            <a class="btn btn-amber" href="contact.html?need=reporting">Book a consultation <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+            <a class="btn btn-amber" href="contact.html?need=reporting" data-track="hero-book">Book a consultation <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
             <a class="link-dark" href="#start">Read on</a>
             <span class="hero-price">Quote · after a scoping call</span>
           </div>
@@ -194,7 +194,7 @@
             <p class="fee-amount">Quote</p>
             <p class="fee-unit">after a scoping call</p>
             <p class="fee-note">Pricing is confirmed after a scoping call.</p>
-            <a class="btn btn-amber" href="contact.html?need=reporting">Book a consultation <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+            <a class="btn btn-amber" href="contact.html?need=reporting" data-track="fee-book">Book a consultation <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
           </div>
           <div class="fee-incl">
             <p class="fee-label">Included</p>
@@ -445,7 +445,7 @@
       <canvas class="close-canvas" aria-hidden="true" data-close-canvas></canvas>
       <div class="wrap close-inner">
         <h2 id="close-title">Tell us what you need help&nbsp;with.</h2>
-        <a class="btn btn-amber" href="contact.html?need=reporting">Book a consultation <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        <a class="btn btn-amber" href="contact.html?need=reporting" data-track="close-book">Book a consultation <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
       </div>
     </section>
   </main>
@@ -503,7 +503,7 @@
   </footer>
 
   <div class="consent" role="region" aria-label="Cookie choices" hidden data-consent>
-    <p>We'd like to use Google Analytics cookies to understand how this site is used. They load only if you accept. <a href="privacy.html#cookies">How we use data</a></p>
+    <p>We'd like to use Google Analytics and Microsoft Clarity cookies to understand how this site is used. They load only if you accept. <a href="privacy.html#cookies">How we use data</a></p>
     <div class="consent-actions">
       <button class="nbtn nbtn-grey" type="button" data-consent-no><span>Decline</span></button>
       <button class="nbtn nbtn-amber" type="button" data-consent-yes><span>Accept</span></button>
@@ -511,6 +511,7 @@
   </div>
 
   <script src="site-config.js" defer></script>
+  <script src="analytics.js" defer></script>
   <script src="main.js" defer></script>
 </body>
 </html>
