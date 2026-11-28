@@ -344,9 +344,15 @@ FORM = f"""        <form class="form" novalidate data-consult>
               <input class="input" id="f-email" name="email" type="email" autocomplete="email" required>
             </div>
           </div>
-          <div class="field">
-            <label class="field-label" for="f-company">Company</label>
-            <input class="input" id="f-company" name="company" autocomplete="organization" required>
+          <div class="form-row">
+            <div class="field">
+              <label class="field-label" for="f-company">Company</label>
+              <input class="input" id="f-company" name="company" autocomplete="organization" required>
+            </div>
+            <div class="field">
+              <label class="field-label" for="f-messenger">WhatsApp or Telegram <span class="opt">Optional</span></label>
+              <input class="input" id="f-messenger" name="whatsapp_or_telegram" maxlength="100" placeholder="Number or @username">
+            </div>
           </div>
           <div class="field">
             <label class="field-label" for="f-notes">Anything we should know? <span class="opt">Optional</span></label>
@@ -1147,7 +1153,7 @@ PRIVACY = [
     ("officer", "Privacy officer", P(
         f"Our Privacy Officer is responsible for how we handle personal information and for this policy. You can reach them at <a href=\"mailto:{PRIVACY_EMAIL}\">{PRIVACY_EMAIL}</a> or by mail at: Privacy Officer, {OPERATOR}, {POSTAL_LINE}.")),
     ("collect", "What we collect", P("We collect only what this site needs:") + "\n" + UL(
-        "<strong>Consultation requests.</strong> Your name, work email, company, the help you're looking for and anything you choose to tell us in the message.",
+        "<strong>Consultation requests.</strong> Your name, work email, company, your WhatsApp or Telegram contact if you give it, the help you're looking for and anything you choose to tell us in the message.",
         "<strong>Gap check answers.</strong> The gap check runs in your browser. Your answers aren't sent to us unless you carry them into a consultation request, where they appear in the message for you to review before sending.",
         USAGE_ITEM,
         "<strong>Emails you send us.</strong> If you write to us, we keep the correspondence.",
