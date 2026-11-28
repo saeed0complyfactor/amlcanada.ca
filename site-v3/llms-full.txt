@@ -499,6 +499,7 @@ Buy a ready-made MSB: a Canadian company already registered with FINTRAC as a mo
 - Company records and registration history reviewed with you
 - Eligibility of the new owners and directors checked
 - Support through the change of ownership
+- Ownership transferred within 24 hours of signing and payment, so you can go live under the company's existing FINTRAC registration
 - Updates to FINTRAC within 30 days, including new owners and directors
 - Guidance on what the new owners need to provide
 
@@ -616,6 +617,8 @@ Our [buy or register an MSB](https://amlcanada.ca/buy-or-register-msb-canada.htm
 
 **How much does a registered MSB cost?** Acquisitions start from €28,000. The price depends on the company, the services it's registered for and its history.
 
+**How quickly can I go live after buying an MSB?** We transfer ownership within 24 hours of signing and payment. The company's FINTRAC registration stays in place, so you can go live once your compliance officer and compliance program are in place. We then report the new owners and directors to FINTRAC within 30 days. If the company is also registered with the Bank of Canada as a payment service provider, the Bank must approve the change of control before the purchase closes, so that takes longer.
+
 **Does the FINTRAC registration stay with the company?** The registration belongs to the registered business, so the purchase is of the company's shares; a new entity would need its own registration. After the purchase, FINTRAC must be told about changes to the registration information, such as new owners and directors, within 30 days.
 
 **Do the new owners need criminal record checks?** FINTRAC asks for criminal record checks for the chief executive officer, the president, the directors and anyone owning or controlling 20% or more of the business. Any check that isn't in English or French needs a translation attested by a certified translator.
@@ -650,6 +653,7 @@ Register your own MSB with FINTRAC for a fixed US$3,500, or buy a Canadian compa
 - Advice on which route fits your services, markets and timeline
 - New route: assessment, application prepared, submitted and followed up with FINTRAC
 - Ready-made route: a company registered for the services you need, reviewed with you before you commit
+- Ownership transferred within 24 hours of signing and payment, so you can go live under the company's existing FINTRAC registration
 - Ownership, director and criminal record check requirements coordinated, including certified translations
 - FINTRAC updates within 30 days after a change of ownership
 - Foreign MSB requirements, including your representative for service in Canada
@@ -771,6 +775,8 @@ Registration is valid for two years and must be renewed before it expires, and c
 **Is there a minimum capital requirement for an MSB?** FINTRAC registration has no minimum capital requirement. Banks and payment partners may set their own expectations.
 
 **Is an MSB a licence?** It's a registration with FINTRAC, often called an MSB licence. It's renewed every two years.
+
+**How quickly can I go live after buying an MSB?** We transfer ownership within 24 hours of signing and payment. The company's FINTRAC registration stays in place, so you can go live once your compliance officer and compliance program are in place. We then report the new owners and directors to FINTRAC within 30 days. If the company is also registered with the Bank of Canada as a payment service provider, the Bank must approve the change of control before the purchase closes, so that takes longer.
 
 **Does the FINTRAC registration transfer with the company?** The registration belongs to the registered business, so buying the company's shares keeps it. New owners, directors and other changes are reported to FINTRAC within 30 days.
 
